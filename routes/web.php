@@ -34,7 +34,6 @@ Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index'
 Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
 // about-approach pages end
 
-<<<<<<< HEAD
 // about-recognition pages start
 Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
 Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
@@ -68,32 +67,3 @@ Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oil
 Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
-=======
-// Route::get('/contact-us',function() {
-//     return view('front.pages.contact-us');
-// });
-// Route::get('/about/careers',function() {
-//     return view('front.pages.about.careers');
-// });
-
-// Route::get('/services/software-development',function() {
-//     return view('front.pages.services.software-development');
-// });
-
-// Route::get('/about/locations',function() {
-//     return view('front.pages.about.locations');
-// });
-
-Route::get('/', 'App\Http\Controllers\Front\SoftController@index')->name('index');
-Route::get('/contact-us', 'App\Http\Controllers\Front\SoftController@contact')->name('contact');
-
-// About 
-Route::get('/about/careers', 'App\Http\Controllers\Front\SoftController@careers')->name('careers');
-Route::get('/about/locations', 'App\Http\Controllers\Front\SoftController@locations')->name('locations');
-//End About
-
-
-// Services
-Route::get('/services/software-development', 'App\Http\Controllers\Front\SoftController@softwaredevelopment')->name('softwaredevelopment');
-// end Services
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
