@@ -13,21 +13,12 @@
         <ul class="dropdown-container-about hidden flex-col mt-6 ml-4">
           <h1 class="mb-2 mt-2 font-extrabold">Company</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-<<<<<<< HEAD
-          <a href="{{ route('aboutCompany') }}"><li class="mt-4">About Company</li></a>
-          <a href="{{ route('managementTeam') }}"><li class="mt-4">Management Team</li></a>
-          <a href="{{ route('careers') }}"><li class="mt-4">Careers</li></a>
-          <a href="{{ route('partnerships') }}"><li class="mt-4">Partnerships</li></a>
-          <a href="{{ route('ScienceSoftReferralProgram') }}"><li class="mt-4">ScienceSoft Referral Program</li></a>
-          <a href="{{ route('ourLocations') }}"><li class="mt-4">Our Locations</li></a>
-=======
           <a href="#"><li class="mt-4">About Company</li></a>
           <a href="#"><li class="mt-4">Management Team</li></a>
           <a href="/about/careers"><li class="mt-4">Careers</li></a>
           <a href="#"><li class="mt-4">Partnerships</li></a>
           <a href="#"><li class="mt-4">ScienceSoft Referral Program</li></a>
           <a href="#"><li class="mt-4">Our Locations</li></a>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
           <h1 class="mb-2 mt-2 font-extrabold">Approach</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
           <a href="#"><li class="mt-4">Development Process</li></a>
@@ -82,13 +73,13 @@
           <a href="#"><li class="mt-4">ServiceNow</li></a>
           <h1 class="mb-2 mt-2 font-extrabold">Technologies</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="{{ route('java') }}"><li class="mt-4">Java</li></a>
-          <a href="{{ route('NET') }}"><li class="mt-4">.NET</li></a>
-          <a href="{{ route('PHP') }}"><li class="mt-4">PHP</li></a>
-          <a href="{{ route('python') }}"><li class="mt-4">Python</li></a>
-          <a href="{{ route('golang') }}"><li class="mt-4">Golang</li></a>
-          <a href="{{ route('cPlus') }}"><li class="mt-4">C++</li></a>
-          <a href="{{ route('configureYourTeam') }}"><li class="mt-4">Configure Your Team</li></a>
+          <a href="#"><li class="mt-4">Java</li></a>
+          <a href="#"><li class="mt-4">.NET</li></a>
+          <a href="#"><li class="mt-4">PHP</li></a>
+          <a href="#"><li class="mt-4">Python</li></a>
+          <a href="#"><li class="mt-4">Golang</li></a>
+          <a href="#"><li class="mt-4">C++</li></a>
+          <a href="#"><li class="mt-4">Configure Your Team</li></a>
           </ul>
           <div  class="flex items-center justify-between mt-4 cursor-pointer">
             <li onclick="dropdownBtnIndustries()">Industries</li>
@@ -98,22 +89,22 @@
             </span>
             </div> 
             <ul class="dropdown-container-Industries hidden flex-col mt-2 ml-4">
-              <a href="{{ route('healthcare') }}"><li class="mt-4">Healthcare</li></a>
-              <a href="{{ route('bankingFinancialServices') }}"><li class="mt-4">Banking and Financial Services</li></a>
-              <a href="{{ route('retail') }}"><li class="mt-4">Retail</li></a>
-              <a href="{{ route('ecommerce') }}"><li class="mt-4">Ecommerce</li></a>
-              <a href="{{ route('manufacturing') }}"><li class="mt-4">Manufacturing</li></a>
-              <a href="{{ route('marketAdvertising') }}"><li class="mt-4">Marketing & Advertising</li></a>
-              <a href="{{ route('telecommunications') }}"><li class="mt-4">Telecommunications</li></a>
-              <a href="{{ route('elearning') }}"><li class="mt-4">eLearning </li></a>
-              <a href="{{ route('transportationLogistics') }}"><li class="mt-4">Transportation and Logistics</li></a>
-              <a href="{{ route('oilGas') }}"><li class="mt-4">Oil and Gas</li></a>
-              <a href="{{ route('professionalServices') }}"><li class="mt-4">Professional Services</li></a>
-              <a href="{{ route('insurance') }}"><li class="mt-4">Insurance</li></a>
+              <a href="#"><li class="mt-4">Healthcare</li></a>
+              <a href="#"><li class="mt-4">Banking and Financial Services</li></a>
+              <a href="#"><li class="mt-4">Retail</li></a>
+              <a href="#"><li class="mt-4">Ecommerce</li></a>
+              <a href="#"><li class="mt-4">Manufacturing</li></a>
+              <a href="#"><li class="mt-4">Marketing & Advertising</li></a>
+              <a href="#"><li class="mt-4">Telecommunications</li></a>
+              <a href="#"><li class="mt-4">eLearning </li></a>
+              <a href="#"><li class="mt-4">Transportation and Logistics</li></a>
+              <a href="#"><li class="mt-4">Oil and Gas</li></a>
+              <a href="#"><li class="mt-4">Professional Services</li></a>
+              <a href="#"><li class="mt-4">Insurance</li></a>
             </ul>
          <a href="#"><li class="mt-4 cursor-pointer">Case Studies</li></a>
          <a href="#"><li class="mt-4 cursor-pointer">Blog</li></a>
-         <a href="/contact-us"><li class="bg-blue-700 py-1 px-8 text-white w-36 mt-4">Let's Talk</li></a>
+         <a href="/contact-us.html"><li class="bg-blue-700 py-1 px-8 text-white w-36 mt-4">Let's Talk</li></a>
       </ul>
     </div>
     <div class="mb-8">
@@ -143,21 +134,12 @@
                 <h1 class="mb-2 font-extrabold">Company</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-<<<<<<< HEAD
-                <a href="{{ route('aboutCompany') }}"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
-                <a href="{{ route('managementTeam') }}"><li class="mt-4 text-black hover:text-blue-700">Management Team</li></a>
-                <a href="{{ route('careers') }}"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
-                <a href="{{ route('partnerships') }}"><li class="mt-4 text-black hover:text-blue-700">Partnerships</li></a>
-                <a href="{{ route('ScienceSoftReferralProgram') }}"><li class="mt-4 text-black hover:text-blue-700">ScienceSoft Referral Program</li></a>
-                <a href="{{ route('ourLocations') }}"><li class="mt-4 text-black hover:text-blue-700">Our Locations</li></a>
-=======
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Management Team</li></a>
                 <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Partnerships</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">ScienceSoft Referral Program</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Our Locations</li></a>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
               </ul>
               </div>
               <div class="w-1/5 list-none">
@@ -241,13 +223,13 @@
                 <h1 class="mb-2  font-extrabold">Technologies</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-                <a href="{{ route('java') }}"><li class="mt-4 text-black hover:text-blue-700">Java</li></a>
-                <a href="{{ route('NET') }}"><li class="mt-4 text-black hover:text-blue-700">.NET</li></a>
-                <a href="{{ route('PHP') }}"><li class="mt-4 text-black hover:text-blue-700">PHP</li></a>
-                <a href="{{ route('python') }}"><li class="mt-4 text-black hover:text-blue-700">Python</li></a>
-                <a href="{{ route('golang') }}"><li class="mt-4 text-black hover:text-blue-700">Golang </li></a>
-                <a href="{{ route('cPlus') }}"><li class="mt-4 text-black hover:text-blue-700">C++</li></a>
-                <a href="{{ route('configureYourTeam') }}"><li class="mt-4 text-black hover:text-blue-700">Configure Your Team</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Java</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">.NET</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">PHP</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Python</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Golang </li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">C++</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Configure Your Team</li></a>
                 </ul>
               </div>
             </div>
@@ -267,22 +249,22 @@
               </div>
               <div class="w-1/4 list-none">
                 <ul>
-                <a href="{{ route('healthcare') }}"><li class="mt-4 text-black hover:text-blue-700">Healthcare</li></a>
-                <a href="{{ route('bankingFinancialServices') }}"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
-                <a href="{{ route('retail') }}"><li class="mt-4 text-black hover:text-blue-700">Retail</li></a>
-                <a href="{{ route('ecommerce') }}"><li class="mt-4 text-black hover:text-blue-700">Ecommerce</li></a>
-                <a href="{{ route('manufacturing') }}"><li class="mt-4 text-black hover:text-blue-700">Manufacturing</li></a>
-                <a href="{{ route('marketAdvertising') }}"><li class="mt-4 text-black hover:text-blue-700">Marketing & Advertising</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Healthcare</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Retail</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Manufacturing</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Marketing & Advertising</li></a>
               </ul>
               </div>
               <div class="w-1/4 list-none">
                 <ul>
-                <a href="{{ route('telecommunications') }}"><li class="mt-4 text-black hover:text-blue-700">Telecommunications</li></a>
-                <a href="{{ route('elearning') }}"><li class="mt-4 text-black hover:text-blue-700">eLearning  Policy</li></a>
-                <a href="{{ route('transportationLogistics') }}"><li class="mt-4 text-black hover:text-blue-700">Transportation and Logistics</li></a>
-                <a href="{{ route('oilGas') }}"><li class="mt-4 text-black hover:text-blue-700">Oil and Gas</li></a>
-                <a href="{{ route('professionalServices') }}"><li class="mt-4 text-black hover:text-blue-700">Professional Services</li></a>
-                <a href="{{ route('insurance') }}"><li class="mt-4 text-black hover:text-blue-700">Insurance</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Telecommunications</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">eLearning  Policy</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Transportation and Logistics</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Oil and Gas</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Professional Services</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Insurance</li></a>
               </ul>
               </div>            
             </div>
@@ -296,13 +278,8 @@
           <li class="mr-8 cursor-pointer hover:text-blue-500">
             <a class="py-6" href="#">Blog</a>
           </li>
-<<<<<<< HEAD
-          <li class="flex justify-center items-center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
-          <a  href="">Let's talk</a>
-=======
           <li class="flex justify-center items- center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
           <a  href="contact-us">Let's talk</a>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
           </li>
         </ul>
         <!-- Search Bar -->

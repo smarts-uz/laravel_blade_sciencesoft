@@ -24,7 +24,6 @@ class SoftController extends Controller
      */
     public function aboutCompany()
     {
-<<<<<<< HEAD
         return view('front.pages.About.Company.aboutCompany');
     }
     public function managementTeam()
@@ -176,36 +175,4 @@ class SoftController extends Controller
         return view('front.pages.Industries.insurance');
     }
     
-=======
-        return view('front.pages.contact-us');
-    }
-
-     /**
-     * Show front careers-page.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-    public function careers() {
-        return view('front.pages.about.careers');
-    }
-
-    // /**
-    //  * Show front Locations-page.
-    //  *
-    //  * @return \Illuminate\Contracts\Support\Renderable
-    //  */
-    // public function careers() {
-    //     return view('front.pages.about.locations');
-    // }
-
-
-     /**
-     * Show front softwaredevelopment-page.
-     *
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-    public function softwaredevelopment() {
-        return view('front.pages.services.software-development');
-    }
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
 }

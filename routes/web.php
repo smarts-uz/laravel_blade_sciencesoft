@@ -28,17 +28,17 @@ Route::get('/our-locations', 'App\Http\Controllers\Front\softController@ourLocat
 // about-company pages end
 
 // about-approach pages start
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
 // about-approach pages end
 
 // about-recognition pages start
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
 // about-recognition pages end
 
 

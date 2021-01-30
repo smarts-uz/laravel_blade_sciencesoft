@@ -6,129 +6,745 @@
 
 @section('main')
 
-<main class="flex w-full">
-  <aside class="w-80  bg-gray  hidden sm:block">
-    <div class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white">
-      <div class="text-sm mb-16">
-        <div class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5">
-          <p>
-            Healthcare IT Consulting</p>
-          <i onclick="dropDown()" class="fas fa-chevron-down lg:hidden"></i>
-        </div>
-        <div class="content hidden xl:block">
-          <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-            Management Team
-          </p>
-          <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-            Our Experts
-          </p>
+ <!-- Carousel -->
+ <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
+  <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
+    DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
+  <hr class="w-20 h-1 bg-yellow-600 my-10 ">
+  <p class="text-center text-base sm:text-lg md:text-xl lg:text-2xl leading-10 text-gray-700 ">For over 31 years. For
+    millions of users. We transform businesses with powerful and adaptable digital solutions that
+    satisfy the needs of today and unlock the opportunities of tomorrow.</p>
+</div>
+<div class="container mb-24">
+    <section class="customer-logos slider px-16">
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/baxter.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/deloitte.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ebay.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ford.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ibm.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/leo-burnett.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nasa_1.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nestle.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/tieto.svg') }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/viber.svg') }}" alt="logo"></div>
+    </section>
+  </div>
+  <!-- EXPLORE OUR OFFERING Responsive -->
+  <div class="carousel relative shadow-2xl bg-white px-10 py-10 block lg:hidden">
+    <div class="carousel-inner relative overflow-hidden w-full">
+      <!--Slide 1-->
+      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
+        checked="checked">
+      <div class="carousel-item absolute opacity-0">
+        <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 1</div> -->
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Software Development</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and
+            device.
+            We bring
+            together deep industry expertise and the latest IT advancements to deliver custom solutions and products
+            that perfectly fit the
+            needs and behavior of their users.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Software consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black  hover:text-blue-500">Custom software development</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black  hover:text-blue-500">Software product development</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Team augmentation</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Software development outsourcing</a>
+            </li>
+          </ul>
         </div>
       </div>
+      <!--Slide 2-->
+      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 2</div> -->
+        <div class="block h-full w-full pb-10 text-xl">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Infrastructure Services</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">We apply our 10-year experience to offer a full set of infrastructure services. We can
+            help to maintain and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.
+          </p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Managed IT Support</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Data center support and management</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Cloud consulting and management</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">DevOps consulting and implementation</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Virtual desktop consulting, implementation and support</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Networking management services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Slide 3-->
+      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <!-- <div class="block h-full w-full bg-green-500 text-white text-5xl text-center">Slide 3</div> -->
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Application Services</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">The full set of services around development and maintenance of complex business-critical
+            applications. Our experts
+            build, test, deploy, protect, manage, migrate and optimize enterprise-scale digital solutions ensuring
+            they’re always up
+            and running and achieve the optimal TCO.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application management</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application modernization</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application integration</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application security services</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application development</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application testing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application maintenance and support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Slide 4 -->
+      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <!-- <div class="block h-full w-full bg-red-500 text-white text-5xl text-center">Slide 4</div> -->
+        <div class="block h-full w-full text-xl pb-20">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">UX/UI Design</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">User experience and user interface design for all types of websites, SaaS, and
+            web/mobile
+            apps. We combine the latest
+            UI/UX trends with our customers’ individual goals and needs to deliver intuitive, vibrant, and impactful
+            designs that
+            power up businesses.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">User Interface (UI) Design</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Responsive Web App Design</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Software-as-as-Service (SaaS) UI Design</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Ecommerce Website Design</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">User Experience (UX) Design</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Website Redesign</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Responsive Web Design</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Slide 5 -->
+      <input class="carousel-open" type="radio" id="carousel-5" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Testing & QA</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">We offer full-range QA and testing outsourcing services, can help to develop your QA or
+            enhance the existing one, assist
+            you in TCoE setup and evolution. We perform end-to-end testing of mobile, web and desktop application at
+            each stage of
+            the development lifecycle.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">QA outsourcing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">QA consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Security testing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Functional testing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Usability testing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Performance testing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Test automation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Slide 6 -->
+      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">IT Consulting</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">Our experts can help to develop and implement an effective IT strategy, assist in smooth
+            digital transformation and
+            system integration as well as advise on improvements to your digital customer experience.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black">Digital Transformation Consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Project Management Consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Digital Crisis Management Consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">IT Service Management Consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Solution consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Platform consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Enterprise IT consulting</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Slide 7 -->
+      <input class="carousel-open" type="radio" id="carousel-7" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Data Analytics</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">We support businesses in achieving fact-based decision-making by converting their
+            historical
+            and real-time, traditional
+            and big data into actionable insights. Our services are tailored to make the raw data and the environment
+            ready, as well
+            as strengthen the business with advanced analytics capabilities.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Business Intelligence</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Big Data</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Data Warehousing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Data Science</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Data Management</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Machine and Deep Learning</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Data Analytics as a Service</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Slide 8 -->
+      <input class="carousel-open" type="radio" id="carousel-8" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Help Desk Services</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">Help desk services for your IT environment or software products. We take on solving
+            diverse issues from answering
+            application functionality questions to performing fixes and enhancements on the code level for improved
+            adoption of software, its smooth functioning and increased end user satisfaction.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Help desk outsourcing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">IT help desk services</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Outsourced help desk for MSP</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">NOC outsourcing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Slide 9 -->
+      <input class="carousel-open" type="radio" id="carousel-9" name="carousel" hidden="">
+      <div class="carousel-item absolute opacity-0">
+        <div class="block h-full w-full text-xl pb-10">
+          <h1 class="text-3xl font-semibold">
+            <p class="mb-2">Cybersecurity Services</p>
+            <hr class="w-10 h-1 bg-pink-600">
+          </h1>
+          <p class="my-8 text-gray-600">Cybersecurity services to achieve the robust protection of the companies’ applications
+            and
+            networks. Equipped with
+            16-year experience in information security, our security experts are ready to deliver a variety of cyber
+            protection
+            services.</p>
+          <ul class="flex flex-row flex-wrap ml-6 text-blue-600 underline">
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Managed security services</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Compliance testing</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Information security consulting</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Security code review</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Application security implementation</a>
+            </li>
+            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+              <a href="#" class="text-black hover:text-blue-500">Vulnerability assessment and penetration testing</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Add additional indicators for each slide-->
+      <ol class="carousel-indicators">
+        <li class="inline-block mr-3">
+          <label for="carousel-1"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-2"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-3"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-4"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-5"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-6"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-7"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-8"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+        <li class="inline-block mr-3">
+          <label for="carousel-9"
+            class="carousel-bullet cursor-pointer block text-4xl text-pink-300 hover:text-pink-500">_</label>
+        </li>
+      </ol>
     </div>
-  </aside>
-
-  <section class="w-full p-4 pr-10">
-    <div>
-      <p class="text-gray-400 text-xs">Home &gt; Healthcare</p>
-      <h1 class="uppercase font-bold mt-10 text-2xl">
-        About ScienceSoft – Global IT Company
+  </div>
+    <div class="bg-gray-200 px-16 py-8 hidden lg:block">
+      <h1 class="text-3xl font-semibold mb-20 pt-10">
+        <p class="mb-4">EXPLORE OUR OFFERING</p>
+        <hr class="w-10 h-1 bg-pink-600">
       </h1>
-      <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-      <img src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/cover-pic-healthcare-it-consulting-4.svg">
-      <p class="my-5 text-lg">
-        Founded in 1989, ScienceSoft is a provider of IT consulting and software
-        development services. Having started as a small AI product company, we
-        switched to IT services in 2002 and ever since we have helped non-IT
-        organizations and software product companies improve business
-        performance and quickly win new customers.
-      </p>
-      <p class="my-5 text-lg">
-        With over 31 years in Information Technology, we have built up expertise
-        in CRM, ERP, Ecommerce, Data Analytics, Information Security, DMS, and
-        other areas and conquered such innovative fields as Artificial
-        Intelligence and Machine Learning, Big Data, Internet of Things,
-        Computer Vision, and Augmented and Virtual Reality.
-      </p>
-      <p class="my-5 text-lg">
-        We headquarter in McKinney, TX, US, have a European office in Vantaa,
-        Finland and a delivery center in Minsk, Belarus. Having gained trust
-        among companies operating in the Gulf region, we opened our Middle East
-        office in the UAE in 2020.
-      </p>
-    </div>
- 
-    <div class="flex justify-end my-4">
-      <div class="uppercase bg-blue-700 text-white py-3 px-10">
-        Get a quote
+      <div class="flex flex-wrap" id="tabs-id">
+        <div class="flex md:flex-col lg:flex-row shadow-xl bg-white">
+          <ul class="flex list-none flex-wrap -mt-10 flex-col bg-blue-900 lg:w-2/5 md:w-full shadow-2xl py-10">
+            <li class=" -mr-6 last:mr-0 flex-auto pl-10 cursor-pointer hover:underline z-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal cursor-pointer text-white bg-blue-600"
+                onclick="changeAtiveTab(event,'software-development')">
+                Software Development
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 last:mr-0 flex-auto cursor-pointer pl-10 cursor-pointer hover:underline z-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'infrastructure-services')">
+                Infrastructure Services
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'application-services')">
+                Application Services
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'ux-ui-design')">
+                UX/UI Design
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal hover:underline text-white"
+                onclick="changeAtiveTab(event,'testing-qa')">
+                Testing & QA
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'it-consulting')">
+                IT Consulting
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'data-analytics')">
+                Data Analytics
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'help-desk-services')">
+                Help Desk Services
+              </a>
+            </li>
+            <li class="-mb-px -mr-6 z-10 last:mr-0 flex-auto cursor-pointer hover:underline pl-10">
+              <a class="text-xl font-bold px-5 py-3 block leading-normal text-white"
+                onclick="changeAtiveTab(event,'cybersecurity-services')">
+                Cybersecurity Services
+              </a>
+            </li>
+          </ul>
+          <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6">
+            <div class="p-4 flex-auto lg:h- h-auto">
+              <div class="tab-content tab-space p-8">
+                <div class="block text-xl pb-10" id="software-development">
+                  <h1 class="text-3xl font-semibold">
+                    <p class="mb-2">Software Development</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and device.
+                    We bring
+                    together deep industry expertise and the latest IT advancements to deliver custom solutions and products
+                    that perfectly fit the
+                    needs and behavior of their users.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Software consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black  hover:text-blue-500">Custom software development</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black  hover:text-blue-500">Software product development</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Team augmentation</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Software development outsourcing</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="infrastructure-services">
+                  <h1 class="text-3xl font-semibold">
+                    <p class="mb-2">Infrastructure Services</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">We apply our 10-year experience to offer a full set of infrastructure services. We can help
+                    to maintain
+                    and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.
+                  </p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Managed IT Support</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Data center support and management</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Cloud consulting and management</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">DevOps consulting and implementation</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Virtual desktop consulting, implementation and support</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Networking management services</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="application-services">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">Application Services</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">The full set of services around development and maintenance of complex business-critical
+                    applications. Our experts
+                    build, test, deploy, protect, manage, migrate and optimize enterprise-scale digital solutions ensuring
+                    they’re always up
+                    and running and achieve the optimal TCO.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application management</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application modernization</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application integration</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application security services</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application development</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application testing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application maintenance and support</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-20" id="ux-ui-design">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">UX/UI Design</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">User experience and user interface design for all types of websites, SaaS, and web/mobile
+                    apps. We combine the latest
+                    UI/UX trends with our customers’ individual goals and needs to deliver intuitive, vibrant, and impactful
+                    designs that
+                    power up businesses.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">User Interface (UI) Design</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Responsive Web App Design</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Software-as-as-Service (SaaS) UI Design</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Ecommerce Website Design</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">User Experience (UX) Design</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Website Redesign</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Responsive Web Design</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="testing-qa">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">Testing & QA</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">We offer full-range QA and testing outsourcing services, can help to develop your QA or
+                    enhance the existing one, assist
+                    you in TCoE setup and evolution. We perform end-to-end testing of mobile, web and desktop application at
+                    each stage of
+                    the development lifecycle.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">QA outsourcing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">QA consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Security testing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Functional testing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Usability testing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Performance testing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Test automation</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="it-consulting">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">IT Consulting</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">Our experts can help to develop and implement an effective IT strategy, assist in smooth
+                    digital transformation and
+                    system integration as well as advise on improvements to your digital customer experience.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black">Digital Transformation Consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Project Management Consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Digital Crisis Management Consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">IT Service Management Consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Solution consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Platform consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Enterprise IT consulting</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="data-analytics">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">Data Analytics</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">We support businesses in achieving fact-based decision-making by converting their historical
+                    and real-time, traditional
+                    and big data into actionable insights. Our services are tailored to make the raw data and the environment
+                    ready, as well
+                    as strengthen the business with advanced analytics capabilities.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Business Intelligence</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Big Data</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Data Warehousing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Data Science</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Data Management</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Machine and Deep Learning</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Data Analytics as a Service</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="help-desk-services">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">Help Desk Services</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">Help desk services for your IT environment or software products. We take on solving diverse
+                    issues from answering
+                    application functionality questions to performing fixes and enhancements on the code level for improved
+                    adoption of
+                    software, its smooth functioning and increased end user satisfaction.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Help desk outsourcing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">IT help desk services</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Outsourced help desk for MSP</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">NOC outsourcing</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="hidden text-xl pb-10" id="cybersecurity-services">
+                  <h1 class="text-3xl font-semibold"><p class="mb-2">Cybersecurity Services</p>
+                    <hr class="w-10 h-1 bg-pink-600">
+                  </h1>
+                  <p class="my-8 text-gray-600">Cybersecurity services to achieve the robust protection of the companies’ applications and
+                    networks. Equipped with
+                    16-year experience in information security, our security experts are ready to deliver a variety of cyber
+                    protection
+                    services.</p>
+                  <ul class="flex flex-row flex-wrap ml-6 text-blue-600 underline">
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Managed security services</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Compliance testing</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Information security consulting</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Security code review</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Application security implementation</a>
+                    </li>
+                    <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
+                      <a href="#" class="text-black hover:text-blue-500">Vulnerability assessment and penetration testing</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-
-    <h1 class="uppercase font-bold mt-10 text-2xl">
-      About ScienceSoft – Global IT Company
-    </h1>
-    <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-{{-- content --}}
-
-    <h1 class="uppercase font-bold mt-10 text-2xl">
-      About ScienceSoft – Global IT Company
-    </h1>
-    <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-    <div
-            class="w-full  lg:px-4 lg:flex lg:flex-row lg:justify-around flex md:items-start justify-center  flex-col  my-7">
-            <div class="lg:w-1/4 flex items-start justify-center pt-10 w-40 mx-auto">
-                <img class="lg:w-2/5 w-4/5 " src="https://www.scnsoft.com/blue-icons-on-grey-background/internet_banking.svg"
-                    alt="">
-            </div>
-            <div class="lg:w-3/4  mx-auto w-11/12 mb-8">
-                <h1 class="uppercase lg:text-3xl px-4 font-bold mt-10 text-2xl">
-                    DevOps
-                </h1>
-                <br>
-                <p class="px-4 text-base sm:text-lg text-sm">With an established  <a href="#"
-                        class="underline hover:text-blue-800 ">DevOps </a> culture at ScienceSoft, we streamline software delivery and improve its quality with the following DevOps best practices:</p>
-                <br>
-                <div class="w-full  px-4 flex flex-row mb-5">
-                    <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b> Infrastructure as Code (IaC):</b> automating the creation of new infrastructures and keeping them consistent with each other to ensure smooth software deployment.</p>
-                </div>
-                <!-- ========================= -->
-                <div class="w-full  px-4 flex flex-row mb-5">
-                    <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b> Continuous Integration/Continuous Delivery or Continious Deployment (CI/CD): </b> automating integration and deployment of code changes.</p>
-                </div>
-                <!-- ========================= -->
-                <div class="w-full  px-4 flex flex-row mb-5">
-                    <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b> Automated testing: </b> automating regression, performance, and other types of testing that are continuously carried out within the CI/CD pipeline.</p>
-                </div>
-                <!-- ========================= -->
-                <div class="w-full  px-4 flex flex-row mb-5">
-                    <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b>Application performance monitoring: </b>configuring application performance monitoring tools to detect post-release bugs quickly.</p>
-                </div>
-            </div>
-        </div>
-
-        <h1 class="uppercase font-bold mt-10 text-2xl">
-          About ScienceSoft – Global IT Company
-        </h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/banking/banking-software-benefits.svg" alt="">
-
-
-        <div class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
-          <div class="flex flex-col">
-            <h1 class="text-xl font-bold">For non-IT enterprises</h1>
-            <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-            <div class=" flex flex-wrap">
-            <p class="text-gray-500 text-xl w-full lg:w-4/5">
-              To help you improve business performance, optimize customer
-              service, and tap in digital transformation.
-            </p>
-            <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center">request a consultation</div>
-          </div>
-          </div>
-        </div>
-
-<<<<<<< HEAD
-=======
     </div>
   
 
@@ -143,78 +759,172 @@
       </div>
       <input type="search" name="Search" class="w-full border-none outline-none" placeholder="E.g., VR development or help desk services"/>
     </form> 
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
+
+    <!-- EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF. -->
+    <div class="flex flex-col-reverse lg:flex-row justify-between items-center px-5 py-12 bg-gray-100">
+       <div class="w-full lg:w-3/5 mt-10 lg:mt-0">
+         <h1 class="text-3xl font-semibold">EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF.</h1>
+         <p class="text-xl text-gray-700 my-6">Comprehensive care of your cloud or on-premises infrastructure and applications with:</p>
+         <ul style="list-style: square;" class="flex flex-row flex-wrap px-5 mb-5">
+           <li class="text-xl text-gray-700 mr-10 mb-6 w-48">Consulting</li>
+           <li class="text-xl text-gray-700 mr-10 mb-6 w-48">Security</li>
+           <li class="text-xl text-gray-700 mr-10 mb-6 w-48">Implementation</li>
+           <li class="text-xl text-gray-700 mr-10 mb-6 w-48">Help desk services</li>
+           <li class="text-xl text-gray-700 mr-10 mb-6 w-48">Management and support</li>
+           <li class="text-xl text-gray-700 mr-10 mb-6 w-48">Migration</li>
+         </ul>
+         <a href="#" class="flex flex-row items-center text-blue-700">
+            <p class="uppercase mr-3 font-semibold">Learn More</p>
+            <i class="fa fa-long-arrow-right"></i>
+         </a>
+       </div>
+       <div class="bg-white shadow-2xl h-full lg:h-96 lg:w-2/5 w-full flex justify-center items-center lg:-mt-20 lg:-mr-10">
+         <img src="https://www.scnsoft.com/---home-page-illustrations/image-thumb__22108__home_Image-text/managed-it-services~-~1919w.png" alt="EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF">
+       </div>
+    </div>
+  </div>
 
 
-        <h1 class="uppercase font-bold mt-10 text-2xl">
-          About ScienceSoft – Global IT Company
-        </h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-        <img src="https://www.scnsoft.com/banking/our-services.svg" alt="">
-
-
-        {{-- content --}}
-
-
-        <h1 class="uppercase font-bold mt-10 text-2xl">
-          About ScienceSoft – Global IT Company
-        </h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-        <div class="my-12">
-          <div class="flex flex-row">
-            <span class="text-blue-600 mr-4">&#9632;</span>
-            <p class="text-lg">
-              ScienceSoft attained
-              <b>AWS Select Tier Consulting Partner</b>
-              status.
-            </p>
+  <!-- Komil Sobitov // Platforms  we work this -->
+  <div class="platforms px-3 lg:px-16 sm:px-16 py-12">
+    <h2 class="text-gray-900 text-2xl mb-4">PLATFORMS WE WORK WITH</h2>
+    <hr class="w-10 h-1 bg-yellow-600 mb-4" />
+    <p class="w-11/12 text-gray-700 font-light mb-3">
+      Distilling deep tech experience, our experts can help you with
+      platform-specific consulting, solution design and support for your
+      business evolution.
+    </p>
+    <div class="flex flex-wrap overflow-hidden sm:-mx-3">
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/sharepoint-office-365">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/sharepoint-logo.svg" />
           </div>
-          <div class="flex flex-row">
-            <span class="text-blue-600 mr-4">&#9632;</span>
-            <p class="text-lg">
-              ScienceSoft featured on the
-              <b
-                >Clutch lists of Top IT Services Firms, Top Cloud
-                Consultants, and Top 1000 B2B Providers Globally.</b
-              >
-            </p>
+        </a>
+      </div>
+  
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/microsoft-dynamics-365">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/dynamics-365.svg" />
           </div>
-          <div class="flex flex-row">
-            <span class="text-blue-600 mr-4">&#9632;</span>
-            <p class="text-lg">
-              ScienceSoft featured in IAOP Global Outsourcing 100 Award
-              Lists 2020.
-            </p>
+        </a>
+      </div>
+  
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/services/salesforce/implementation">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/salesforce.svg" />
           </div>
-          <div class="flex flex-row">
-            <span class="text-blue-600 mr-4">&#9632;</span>
-            <p class="text-lg">
-              ScienceSoft acquired Gold Microsoft Competency in
-              Application Integration.
-            </p>
-         
+        </a>
+      </div>
+  
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/services/salesforce/implementation">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/servicenow-logo.svg" />
           </div>
+        </a>
+      </div>
+  
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/ecommerce/magento/services/consulting">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/magento-logo.svg" />
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- IMPROVE AND INNOVATE WITH THE TECH TRENDS -->
+  <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
+    <h1 class="text-2xl lg:text-3xl font-semibold">
+      <p class="mb-4">Solutions we deliver</p>
+      <hr class="w-10 h-1 bg-pink-600">
+    </h1>
+    <p class="text-xs lg:text-xl my-4 lg:my-8">We IT-enable all kinds of B2B, B2C interactions and internal operations.</p>
+    <ul class="text-black flex flex-wrap flex-row">
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          Enterprise application
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
         </div>
-
-<<<<<<< HEAD
-
-        <div class="rounded-sm border-2 border-white shadow-xl transition-shadow w-full mr-20 p-8">
-          <div class="flex flex-col">
-            <h1 class="text-xl font-bold">For non-IT enterprises</h1>
-            <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-            <div class=" flex flex-wrap">
-            <p class="text-gray-500 text-xl w-full lg:w-4/5">
-              To help you improve business performance, optimize customer
-              service, and tap in digital transformation.
-            </p>
-            <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center">request a consultation</div>
-          </div>
-          </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          CRM
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
         </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          eCommerce
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
+        </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          Mobile Apps
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
+        </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          Collaboration and productivity solutions
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
+        </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          Data Analytics
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
+        </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          Web Portals
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
+        </div>
+      </li>
+      <li class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+        <a href="#">
+          ITSM
+        </a>
+        <div class="absolute bottom-3 right-3">
+          <i class="fa fa-arrow-right fa-rotate-45"></i>
+        </div>
+      </li>
+    </ul>
+  </div>
 
 
-        
-=======
+
   <!-- Ahadov ILhomjon -->
  
   <div class="mx-6 sm:mx-16 lg:mx-18 ">
@@ -276,34 +986,60 @@
     <p class="mb-4">NEED A CONSULTATION?</p>
     <hr class="w-10 h-1 bg-pink-600">
   </h1>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
 
 
-        <h1 class="uppercase font-bold mt-10 text-2xl">
-          About ScienceSoft – Global IT Company
-        </h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-        <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
-          <div class="flex flex-col md:flex-row items-center ">
-            <div class="flex justify-center  w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-              <img class="w-64  top-0" src="https://www.scnsoft.com/boss/images/12fecd0e-697d-4793-be78-c950a790f5c5plm-platform.png" alt="">
-            </div>
-            <div class=" flex flex-col w-4/5 mb-10">
-              <h1 class="text-3xl md:text-4xl font-bold">Tailored pricing plan</h1>
-              <hr class="w-12 border-yellow-600 text-gray-800 my-4">     
-              <p class=" text-gray-500 text-xl md:text-2xl">
-                We calculate custom-made pricing plans to meet your expectations and adjust pricing if your
-                requirements change
-                during our cooperation.
-              </p>
-             
-            </div>
-          </div>
-          <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">Learn More<i class="fas fa-arrow-right ml-4"></i></a>
+  <form class="px-16 py-12 bg-gray-200 text-gray-800">
+    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
+    <div class="flex flex-col lg:flex-row justify-between">
+      <div class="flex flex-col mr-3">
+        <div class="flex justify-between flex-row flex-wrap">
+          <input type="text" name="FullName" placeholder="Full Name"
+            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+          <input type="text" name="Company" placeholder="Company"
+            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+          <input type="email" name="Email" placeholder="Work Email"
+            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+          <input type="text" name="Phone Number" placeholder="Work Phone"
+            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
         </div>
+        <textarea placeholder="How can we we help you?" cols="3" rows="6"
+          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
+         <div class="flex justify-center items-center mb-3">
+          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
+         </div>
+      </div>
+      <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
+        <div class="flex flex-col ">
+          <p class="text-xl font-semibold">Our contact details</p>
+          <a href="#" class="flex flex-row items-center text-blue-500 my-3">
+            <i class="fa fa-phone mr-3"></i>
+            <p>(+998) 99 873-48-36</p>
+          </a>
+          <a href="#" class="flex flex-row items-center text-blue-500">
+            <i class="fa fa-envelope mr-3"></i>
+            <p>contact@scnsoft.com</p>
+          </a>
+        </div>
+        <div class="flex flex-col my-3">
+          <p class="text-xl font-semibold mb-3">Press inquires</p>
+          <a href="#" class="flex items-center text-blue-500">
+            <p class="mr-3">GET IN TOUCH WITH US</p>
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="flex flex-col">
+          <p class="text-xl border-2 font-semibold mb-3">Join our team</p>
+          <a href="#" class="flex items-center text-blue-500">
+            <p class="mr-3">CHECK OUR OPEN VACANCIES</p>
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </form>
   
-  </section>
-</main>
+
+
 @endsection
 
 
