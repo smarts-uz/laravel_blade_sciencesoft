@@ -90,7 +90,7 @@
             </div> 
             <ul class="dropdown-container-Industries hidden flex-col mt-2 ml-4">
               <a href="/industries/healthcare"><li class="mt-4">Healthcare</li></a>
-              <a href="#"><li class="mt-4">Banking and Financial Services</li></a>
+              <a href="/industries/bankingFinancialServices"><li class="mt-4">Banking and Financial Services</li></a>
               <a href="/industries/retail"><li class="mt-4">Retail</li></a>
               <a href="#"><li class="mt-4">Ecommerce</li></a>
               <a href="/industries/manufacturing"><li class="mt-4">Manufacturing</li></a>
@@ -124,7 +124,7 @@
           <li  class="  flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
             <a id="about" class=" relative py-6" href="#">
             About
-            <div id="aboutHover" class=" hidden flex absolute left-0  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
+            <div id="aboutHover" class=" hidden flex absolute left-0 z-40  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
               <div class="w-1/5">
                 <h1 class="mb-2  font-extrabold">About</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
@@ -168,7 +168,7 @@
             </div>
           </a>
           </li>
-          <li id="services" class="mr-8 cursor-pointer hover:text-blue-500">
+          <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
             <a class="py-6" id="service" href="#">
             Services
             <div id="serviceHover" class="hidden flex absolute left-0  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
@@ -237,7 +237,7 @@
             </div>
           </a>
           </li>
-          <li id="industries" class="mr-8 cursor-pointer hover:text-blue-500">
+          <li id="industries" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
             <a class="py-6" id="industry" href="#">
             Industries
             <div id="industryHover" class="hidden flex absolute left-0  justify-between top-20 border-t-2 border-b-2 bg-white items-start py-6">
@@ -252,7 +252,7 @@
               <div class="w-1/4 list-none">
                 <ul>
                 <a href="/industries/healthcare"><li class="mt-4 text-black hover:text-blue-700">Healthcare</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
+                <a href="/industries/bankingFinancialServices"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
                 <a href="/industries/retail"><li class="mt-4 text-black hover:text-blue-700">Retail</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce</li></a>
                 <a href="/industries/manufacturing"><li class="mt-4 text-black hover:text-blue-700">Manufacturing</li></a>
