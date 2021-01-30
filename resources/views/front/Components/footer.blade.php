@@ -1,6 +1,9 @@
 
 <!-- footer -->
-
+  <div onclick="scrollToUp()"
+    class="fixed bottom-3 left-3 bg-blue-700 opacity-50 z-50 flex justify-center items-center cursor-pointer w-8 h-8 rounded-full text-white hover:opacity-100">
+    <i class="fa fa-chevron-up text-white"></i>
+  </div>
   <!-- FOOTER -->
   <footer class="footer bg-blue-900 relative px-4 md:px-10  lg:px-16 py-6 ">
     <div class="">
@@ -9,9 +12,11 @@
           <div class="flex justify-between items-center w-full flex-wrap">
             <div class="flex justify-between w-full items-center flex-wrap">
               <span>
+                <a href="/">
                 <img class="w-56 mt-4"
           src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
           alt="Microsoft ASP.NET">
+                </a>
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base  mt-4">
                 <i class="fas fa-map-marker-alt"></i>

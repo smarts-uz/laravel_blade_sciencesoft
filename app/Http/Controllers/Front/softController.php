@@ -22,13 +22,18 @@ class SoftController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+
+    public function contact()
+    {
+        return view('front.pages.contact-us');
+    }
     public function aboutCompany()
     {
         return view('front.pages.About.Company.aboutCompany');
     }
     public function managementTeam()
     {
-        return view('front.pages.About.Company.managementTeam');
+        return view('front.pages.management-team');
     }
     public function careers()
     {
@@ -67,6 +72,11 @@ class SoftController extends Controller
     {
         return view('front.pages.About.Approach.termsOfUse');
     }
+
+    public function softwaredevelopment()
+    {
+        return view('front.pages.Services.software-development');
+    }
        /**
      * Show front about-recognition-pages.
      *
@@ -95,31 +105,31 @@ class SoftController extends Controller
      */
     public function java()
     {
-        return view('front.pages.Services.java');
+        return view('front.pages.Services.Technologies.java');
     }
     public function NET()
     {
-        return view('front.pages.Services.NET');
+        return view('front.pages.Services.Technologies.NET');
     }
     public function PHP()
     {
-        return view('front.pages.Services.PHP');
+        return view('front.pages.Services.Technologies.PHP');
     }
     public function python()
     {
-        return view('front.pages.Services.python');
+        return view('front.pages.Services.Technologies.python');
     }
     public function golang()
     {
-        return view('front.pages.Services.golang');
+        return view('front.pages.Services.Technologies.golang');
     }
     public function cPlus()
     {
-        return view('front.pages.Services.cPlus');
+        return view('front.pages.Services.Technologies.cPlus');
     }
     public function configureYourTeam()
     {
-        return view('front.pages.Services.configureYourTeam');
+        return view('front.pages.Services.Technologies.configureYourTeam');
     }
       /**
      * Show front industry-pages.
