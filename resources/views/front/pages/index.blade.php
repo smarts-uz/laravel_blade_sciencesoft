@@ -6,7 +6,6 @@
 
 @section('main')
 
-<<<<<<< HEAD
  <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
@@ -1039,8 +1038,6 @@
     </div>
   </form>
   
-=======
->>>>>>> aae699c4d8ae2fbb91dacf7f08fdf2a6ddd7268f
 
 
 @endsection
