@@ -45,7 +45,7 @@ Route::get('/services/configureYourTeam', 'App\Http\Controllers\Front\softContro
 
 // Industries pages start
 Route::get('/industries/healthcare', 'App\Http\Controllers\Front\softController@healthcare')->name('healthcare');
-Route::get('/industries/banking-Financial-Services', 'App\Http\Controllers\Front\softController@bankingFinancialServices')->name('bankingFinancialServices');
+Route::get('/industries/bankingFinancialServices', 'App\Http\Controllers\Front\softController@bankingFinancialServices')->name('bankingFinancialServices');
 Route::get('/industries/retail', 'App\Http\Controllers\Front\softController@retail')->name('retail');
 Route::get('/industries/ecommerce', 'App\Http\Controllers\Front\softController@ecommerce')->name('ecommerce');
 Route::get('/industries/manufacturing', 'App\Http\Controllers\Front\softController@manufacturing')->name('manufacturing');

@@ -29,32 +29,19 @@
   
     <section class="w-full p-4 pr-10">
       <div>
-        <p class="text-gray-400 text-xs">Home &gt; Healthcare</p>
+        <p class="text-gray-400 text-xs">Home &gt; Banking and Financial Services</p>
         <h1 class="uppercase font-bold mt-10 text-2xl">
-          About ScienceSoft – Global IT Company
+          Banking Software & IT Services for Banks
         </h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/cover-pic-healthcare-it-consulting-4.svg">
+        <img src="https://www.scnsoft.com/cover-pictures/banking-software-it-services-for-banks.svg">
         <p class="my-5 text-lg">
-          Founded in 1989, ScienceSoft is a provider of IT consulting and software
-          development services. Having started as a small AI product company, we
-          switched to IT services in 2002 and ever since we have helped non-IT
-          organizations and software product companies improve business
-          performance and quickly win new customers.
+          For 14 years ScienceSoft delivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation, integration, testing and deployment as well as ensures their solid support.
         </p>
         <p class="my-5 text-lg">
-          With over 31 years in Information Technology, we have built up expertise
-          in CRM, ERP, Ecommerce, Data Analytics, Information Security, DMS, and
-          other areas and conquered such innovative fields as Artificial
-          Intelligence and Machine Learning, Big Data, Internet of Things,
-          Computer Vision, and Augmented and Virtual Reality.
+          We provide both platform-based and custom banking software that serves the needs of retail and corporate banking and improves the relationships between financial facilities and their customers, attracting and retaining the most profitable clientele.
         </p>
-        <p class="my-5 text-lg">
-          We headquarter in McKinney, TX, US, have a European office in Vantaa,
-          Finland and a delivery center in Minsk, Belarus. Having gained trust
-          among companies operating in the Gulf region, we opened our Middle East
-          office in the UAE in 2020.
-        </p>
+     
       </div>
    
       <div class="flex justify-end my-4">
@@ -65,13 +52,19 @@
   
   
       <h1 class="uppercase font-bold mt-10 text-2xl">
-        About ScienceSoft – Global IT Company
+        OUR PORTFOLIO
       </h1>
       <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
   {{-- content --}}
+  <div class="flex justify-center my-4">
+    <div class="uppercase border-2 border-blue-700 text-blue-700 text-white py-3 px-10">
+      Get a quote
+    </div>
+  </div>
+  
   
       <h1 class="uppercase font-bold mt-10 text-2xl">
-        About ScienceSoft – Global IT Company
+        BANKING SOFTWARE SOLUTIONS WE IMPLEMENT 
       </h1>
       <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
       <div
@@ -82,47 +75,58 @@
               </div>
               <div class="lg:w-3/4  mx-auto w-11/12 mb-8">
                   <h1 class="uppercase lg:text-3xl px-4 font-bold mt-10 text-2xl">
-                      DevOps
+                    Internet banking
                   </h1>
                   <br>
-                  <p class="px-4 text-base sm:text-lg text-sm">With an established  <a href="#"
-                          class="underline hover:text-blue-800 ">DevOps </a> culture at ScienceSoft, we streamline software delivery and improve its quality with the following DevOps best practices:</p>
+                  <p class="px-4 text-base sm:text-lg text-sm">	
+                    Internet banking
+                    Answer the ever-growing customers’ needs for secure 24/7 access to their banking accounts with custom internet banking.</p>
+                    <p class="px-4 text-base sm:text-lg text-sm">	
+                      Whether you want to implement a solution from scratch or update your current obsolete software, ScienceSoft will provide you with rich functional scope and ensure implementation of the best online banking practices. With custom internet banking solutions, your clients will be able to enjoy the following functionality:</p>
                   <br>
                   <div class="w-full  px-4 flex flex-row mb-5">
-                      <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b> Infrastructure as Code (IaC):</b> automating the creation of new infrastructures and keeping them consistent with each other to ensure smooth software deployment.</p>
+                      <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">get detailed information about their checking, savings and credit accounts</p>
                   </div>
                   <!-- ========================= -->
                   <div class="w-full  px-4 flex flex-row mb-5">
-                      <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b> Continuous Integration/Continuous Delivery or Continious Deployment (CI/CD): </b> automating integration and deployment of code changes.</p>
+                      <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">set up limits for their cards</p>
                   </div>
                   <!-- ========================= -->
                   <div class="w-full  px-4 flex flex-row mb-5">
-                      <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b> Automated testing: </b> automating regression, performance, and other types of testing that are continuously carried out within the CI/CD pipeline.</p>
+                      <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">make payments</p>
                   </div>
                   <!-- ========================= -->
                   <div class="w-full  px-4 flex flex-row mb-5">
-                      <span class="w-5 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm"><b>Application performance monitoring: </b>configuring application performance monitoring tools to detect post-release bugs quickly.</p>
+                      <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">transfer money between banking accounts</p>
                   </div>
+                   <!-- ========================= -->
+                   <div class="w-full  px-4 flex flex-row mb-5">
+                    <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">request bank statements or other applicable documents online</p>
+                </div>
+                 <!-- ========================= -->
+                 <div class="w-full  px-4 flex flex-row mb-5">
+                  <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">find a branch or ATMs in a particular location, and much more.</p>
+              </div>
               </div>
           </div>
   
           <h1 class="uppercase font-bold mt-10 text-2xl">
-            About ScienceSoft – Global IT Company
+            THRIVE WITH BANKING SOFTWARE
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+          <p class="my-4">At ScienceSoft, we help our customers reap the following benefits:</p>
           <img src="https://www.scnsoft.com/banking/banking-software-benefits.svg" alt="">
   
   
-          <div class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
+          <div class="rounded-sm border-2 my-10 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
             <div class="flex flex-col">
-              <h1 class="text-xl font-bold">For non-IT enterprises</h1>
+              <h1 class="text-xl font-bold">We Ensure Regulatory Compliance</h1>
               <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
               <div class=" flex flex-wrap">
               <p class="text-gray-500 text-xl w-full lg:w-4/5">
-                To help you improve business performance, optimize customer
-                service, and tap in digital transformation.
+                ScienceSoft’s banking software solutions that we develop fully compliant with regulatory standards, including FRS requirements, Dodd-Frank Act, Payment Application Data Security Standard (PA-DSS), Payment Card Industry Data Security Standard (PCI-DSS), SOX, and others.
               </p>
-              <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center">request a consultation</div>
+              <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/6 text-center">get a quote</div>
             </div>
             </div>
           </div>
@@ -130,7 +134,7 @@
   
   
           <h1 class="uppercase font-bold mt-10 text-2xl">
-            About ScienceSoft – Global IT Company
+            WHAT WE OFFER 
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
           <img src="https://www.scnsoft.com/banking/our-services.svg" alt="">
@@ -140,10 +144,11 @@
   
   
           <h1 class="uppercase font-bold mt-10 text-2xl">
-            About ScienceSoft – Global IT Company
+            MEET YOUR BUSINESS CHALLENGES
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-          <div class="my-12">
+          <div class="">
+            <p class="my-6">At ScienceSoft, we successfully meet the following business challenges of retail and corporate banking:</p>
             <div class="flex flex-row">
               <span class="text-blue-600 mr-4">&#9632;</span>
               <p class="text-lg">
@@ -182,14 +187,13 @@
   
           <div class="rounded-sm border-2 border-white shadow-xl transition-shadow w-full mr-20 p-8">
             <div class="flex flex-col">
-              <h1 class="text-xl font-bold">For non-IT enterprises</h1>
+              <h1 class="text-xl font-bold">How to Start</h1>
               <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
               <div class=" flex flex-wrap">
               <p class="text-gray-500 text-xl w-full lg:w-4/5">
-                To help you improve business performance, optimize customer
-                service, and tap in digital transformation.
+                Whether you need a mobile banking app, banking CRM or a custom banking software solution, our dedicated IT consultants and business analysts are ready to provide you with a consultation and a proof of concept based on your project scope and complexity. Reach out to our IT consultants to discuss your business challenges in more detail.
               </p>
-              <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center">request a consultation</div>
+              <div class="uppercase text-white bg-blue-700 flex  py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center">contact us</div>
             </div>
             </div>
           </div>
