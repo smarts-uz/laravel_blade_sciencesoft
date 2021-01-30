@@ -13,21 +13,12 @@
         <ul class="dropdown-container-about hidden flex-col mt-6 ml-4">
           <h1 class="mb-2 mt-2 font-extrabold">Company</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-<<<<<<< HEAD
           <a href="{{ route('aboutCompany') }}"><li class="mt-4">About Company</li></a>
           <a href="{{ route('managementTeam') }}"><li class="mt-4">Management Team</li></a>
           <a href="{{ route('careers') }}"><li class="mt-4">Careers</li></a>
           <a href="{{ route('partnerships') }}"><li class="mt-4">Partnerships</li></a>
           <a href="{{ route('ScienceSoftReferralProgram') }}"><li class="mt-4">ScienceSoft Referral Program</li></a>
           <a href="{{ route('ourLocations') }}"><li class="mt-4">Our Locations</li></a>
-=======
-          <a href="#"><li class="mt-4">About Company</li></a>
-          <a href="#"><li class="mt-4">Management Team</li></a>
-          <a href="/about/careers"><li class="mt-4">Careers</li></a>
-          <a href="#"><li class="mt-4">Partnerships</li></a>
-          <a href="#"><li class="mt-4">ScienceSoft Referral Program</li></a>
-          <a href="#"><li class="mt-4">Our Locations</li></a>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
           <h1 class="mb-2 mt-2 font-extrabold">Approach</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
           <a href="#"><li class="mt-4">Development Process</li></a>
@@ -143,21 +134,12 @@
                 <h1 class="mb-2 font-extrabold">Company</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-<<<<<<< HEAD
                 <a href="{{ route('aboutCompany') }}"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
                 <a href="{{ route('managementTeam') }}"><li class="mt-4 text-black hover:text-blue-700">Management Team</li></a>
                 <a href="{{ route('careers') }}"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
                 <a href="{{ route('partnerships') }}"><li class="mt-4 text-black hover:text-blue-700">Partnerships</li></a>
                 <a href="{{ route('ScienceSoftReferralProgram') }}"><li class="mt-4 text-black hover:text-blue-700">ScienceSoft Referral Program</li></a>
                 <a href="{{ route('ourLocations') }}"><li class="mt-4 text-black hover:text-blue-700">Our Locations</li></a>
-=======
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Management Team</li></a>
-                <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Partnerships</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">ScienceSoft Referral Program</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Our Locations</li></a>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
               </ul>
               </div>
               <div class="w-1/5 list-none">
@@ -296,13 +278,8 @@
           <li class="mr-8 cursor-pointer hover:text-blue-500">
             <a class="py-6" href="#">Blog</a>
           </li>
-<<<<<<< HEAD
           <li class="flex justify-center items-center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
           <a  href="">Let's talk</a>
-=======
-          <li class="flex justify-center items- center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
-          <a  href="contact-us">Let's talk</a>
->>>>>>> e8b627e29e7a5e88490036c25c848d447ec01536
           </li>
         </ul>
         <!-- Search Bar -->
