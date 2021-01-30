@@ -95,11 +95,11 @@ class SoftController extends Controller
      */
     public function java()
     {
-        return view('front.pages.Services.java');
+        return view('front.pages.Services.Technologies.java');
     }
-    public function NET()
+    public function net()
     {
-        return view('front.pages.Services.NET');
+        return view('front.pages.Services.Technologies.net');
     }
     public function PHP()
     {

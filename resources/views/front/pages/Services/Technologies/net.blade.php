@@ -40,25 +40,17 @@
       <div>
         <p class="text-gray-400 text-xs">Home &#62; About Company</p>
         <h1 class="uppercase font-bold mt-10 text-3xl">
-          Custom Enterprise and SaaS Java Application Development
+        .NET Application Development Services
         </h1>
         <hr class="w-12 mt-5 border-yellow-400 h-4" />
         <img
-          src="https://www.scnsoft.com/cover-pictures/custom-enterprise-and-saas-java-development.svg"
+          src="https://www.scnsoft.com/software-development-services/dot-net/cover-pic-dot-net-3.svg"
         />
         <p class="my-5 text-lg">
-          <b>Java application development</b> services imply the engineering
-          of powerful web and mobile applications, web services, and embedded
-          software solutions able to run on any platform with the Java
-          language and frameworks.
+        <b>.NET</b> is a programming language with powerful tools for web, mobile and desktop development. It is supported by the robust Microsoft ecosystem and allows building applications suitable for any device and platform.
         </p>
         <p class="my-5 text-lg">
-          <b>ScienceSoft</b> is a
-          <b>global Java application development company</b>
-          that has already accumulated
-          <b>more than 20 years of experience in Java development.</b> We’re
-          committed to building sustainable and high-quality Java solutions
-          using the latest and most trusted techs and architecture patterns.
+        Taking advantage of Microsoft technologies, ScienceSoft’s developers deliver fast, scalable, and reliable .NET-based applications. Our team can supplement the developed solutions with trending cloud services, ensure engaging and highly interactive JavaScript SPA user experience and easy integration through an enterprise service bus.
         </p>
       </div>
 

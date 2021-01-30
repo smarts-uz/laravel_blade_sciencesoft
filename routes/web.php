@@ -44,8 +44,8 @@ Route::get('/our-locations', 'App\Http\Controllers\Front\softController@ourLocat
 
 
 // services-technologies pages start
-Route::get('/industries/java', 'App\Http\Controllers\Front\softController@java')->name('java');
-Route::get('/industries/NET', 'App\Http\Controllers\Front\softController@NET')->name('NET');
+Route::get('/services/technologies/java', 'App\Http\Controllers\Front\softController@java')->name('java');
+Route::get('/services/technologies/NET', 'App\Http\Controllers\Front\softController@net')->name('net');
 Route::get('/industries/PHP', 'App\Http\Controllers\Front\softController@PHP')->name('PHP');
 Route::get('/industries/python', 'App\Http\Controllers\Front\softController@python')->name('python');
 Route::get('/industries/golang', 'App\Http\Controllers\Front\softController@golang')->name('golang');

@@ -42,7 +42,7 @@
         <h1 class="uppercase font-bold mt-10 text-3xl">
           Custom Enterprise and SaaS Java Application Development
         </h1>
-        <hr class="w-12 mt-5 border-yellow-400 h-4" />
+        <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
         <img
           src="https://www.scnsoft.com/cover-pictures/custom-enterprise-and-saas-java-development.svg"
         />
@@ -67,7 +67,7 @@
         <h1 class="uppercase font-bold mt-10 text-3xl">
           What we build in java
         </h1>
-        <hr class="w-12 mt-5 border-yellow-400 h-4" />
+        <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
         <img
           src="https://www.scnsoft.com/software-development-services/java-development-outsourcing/we-build-1.svg"
         />
@@ -77,7 +77,7 @@
               <h1 class="text-xl md:text-2xl font-bold">
                 Benefit from a Streamlined Delivery of Stable Java Software
               </h1>
-              <hr class="w-12 border-yellow-600 text-gray-800 my-4" />
+              <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
               <p class="text-gray-600 text-lg md:text-xl leading-4">
                 ScienceSoft offers timely development of Java applications
                 with a sustainable architecture, clean code and a high
@@ -198,6 +198,29 @@
                 <p>and deep background in containerized environments.</p>
               </div>
             </div>
+          </div>
+          <div class="mt-7 flex flex-row">
+            <div
+              class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/3 h-auto mr-10"
+            >
+              <hr class="w-full border-t-4 border-blue-800" />
+              <div class="p-4">
+                <p class="text-lg text-blue-700 mb-3">Secured fast and stable delivery</p>
+                <p>with <b>major releases every 2-6 weeks,</b> minor updates up to several times a day.</p>
+              </div>
+            </div>
+            <div
+              class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/3 h-auto mr-10"
+            >
+              <hr class="w-full border-t-4 border-blue-800" />
+              <div class="p-4">
+                <p class="text-lg text-blue-700 mb-3">
+                Proficiency in cloud development
+                </p>
+                <p>and expert cloud architects on board to deliver scalable and flexible cloud apps that uncover the full potential of cloud services (AI, VR, IoT, data science, and more) and consume ensuring optimal cloud resources.</b></p>
+              </div>
+            </div>
+            
           </div>
         </div>
 
