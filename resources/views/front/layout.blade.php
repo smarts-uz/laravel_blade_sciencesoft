@@ -20,11 +20,11 @@
 
     <div class="wrapper">
     
-    @include('front.components.navbar')
+    @include('front.Components.navbar')
 
     @yield('main')
 
-    @include('front.components.footer')
+    @include('front.Components.footer')
 
              
     </div>

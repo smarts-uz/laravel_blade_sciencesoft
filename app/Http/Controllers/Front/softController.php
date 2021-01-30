@@ -107,7 +107,7 @@ class SoftController extends Controller
     {
         return view('front.pages.Services.Technologies.java');
     }
-    public function NET()
+    public function net()
     {
         return view('front.pages.Services.Technologies.NET');
     }
