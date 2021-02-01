@@ -3,9 +3,9 @@
     <div class="relative">
       <i onclick="closeSidebarMenu()" class="fa cursor-pointer fa-times text-black right-0 text-3xl z-50 absolute top-2 "></i>
       <ul class="flex-col w-56">
-        <div  class="flex items-center justify-between mt-14 cursor-pointer">
-        <li onclick="dropdownBtnAbout()">About</li>
-       <i onclick="dropdownBtnAbout()" class="fas fa-chevron-down arrowDownAbout"></i>
+        <div   class="flex items-center justify-between mt-14 cursor-pointer">
+        <li >About</li>
+       <i id="About" onclick="dropdownBtnAbout()" class="fas fa-chevron-down arrowDownAbout"></i>
        <span onclick="closedropdownAbout()" class="hidden arrowUpAbout">
         <i class="fas fa-chevron-up"></i>
         </span>
@@ -34,7 +34,7 @@
           <a href="#"><li class="mt-4">News</li>
         </ul>
         <div  class="flex items-center justify-between mt-4 cursor-pointer">
-          <li onclick="dropdownBtnServices()" class="relative">Services</li>
+          <li id="services" class="relative">Services</li>
           <i onclick="dropdownBtnServices()" class="fas fa-chevron-down arrowDownServices"></i>
           <span onclick="closedropdownServices()" class="hidden arrowUpServices">
           <i class="fas fa-chevron-up hidden"></i>
@@ -82,8 +82,8 @@
           <a href="/services/configureYourTeam"><li class="mt-4">Configure Your Team</li></a>
           </ul>
           <div  class="flex items-center justify-between mt-4 cursor-pointer">
-            <li onclick="dropdownBtnIndustries()">Industries</li>
-           <i onclick="dropdownBtnIndustries()" class="fas fa-chevron-down arrowDownIndustries"></i>
+            <li>Industries</li>
+           <i id="industries" onclick="dropdownBtnIndustries()" class="fas fa-chevron-down arrowDownIndustries"></i>
            <span onclick="closedropdownIndustries()" class="hidden arrowUpIndustries">
             <i class="fas fa-chevron-up hidden"></i>
             </span>

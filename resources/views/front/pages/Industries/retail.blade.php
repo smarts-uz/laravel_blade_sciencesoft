@@ -134,7 +134,7 @@
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
   
-  
+
   
     <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
       <div class="flex flex-col md:flex-row items-center ">
