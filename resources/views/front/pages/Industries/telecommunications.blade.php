@@ -8,7 +8,6 @@
 
 
 
-
 <main class="flex w-full">
     <aside class="w-80  bg-gray  hidden sm:block">
       <div class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white">

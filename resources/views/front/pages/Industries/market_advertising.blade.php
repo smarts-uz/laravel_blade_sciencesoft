@@ -26,7 +26,7 @@
         </div>
       </div>
     </aside>
-  
+
     <section class="w-full p-4 pr-10">
       <div>
         <p class="text-gray-400 text-xs">Home &gt; Healthcare</p>
