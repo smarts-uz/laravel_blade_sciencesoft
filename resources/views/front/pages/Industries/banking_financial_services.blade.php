@@ -34,7 +34,7 @@
           Banking Software & IT Services for Banks
         </h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/cover-pictures/banking-software-it-services-for-banks.svg">
+        <img src="{{ assets ('images/industries/banking_financial_services/banking-software-it-sevices-for-banks.svg')}}">
         <p class="my-5 text-lg">
           For 14 years ScienceSoft delivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation, integration, testing and deployment as well as ensures their solid support.
         </p>
@@ -70,7 +70,7 @@
       <div
               class="w-full  lg:px-4 lg:flex lg:flex-row lg:justify-around flex md:items-start justify-center  flex-col  my-7">
               <div class="lg:w-1/4 flex items-start justify-center pt-10 w-40 mx-auto">
-                  <img class="lg:w-2/5 w-4/5 " src="https://www.scnsoft.com/blue-icons-on-grey-background/internet_banking.svg"
+                  <img class="lg:w-2/5 w-4/5 " src="{{ assets ('images/industries/banking_financial_services/internet_banking.svg')}}"
                       alt="">
               </div>
               <div class="lg:w-3/4  mx-auto w-11/12 mb-8">
@@ -115,7 +115,7 @@
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
           <p class="my-4">At ScienceSoft, we help our customers reap the following benefits:</p>
-          <img src="https://www.scnsoft.com/banking/banking-software-benefits.svg" alt="">
+          <img src="{{ assets ('images/industries/banking_financial_services/banking-software-benefits.svg')}}" alt="">
   
   
           <div class="rounded-sm border-2 my-10 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
@@ -137,7 +137,7 @@
             WHAT WE OFFER 
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
-          <img src="https://www.scnsoft.com/banking/our-services.svg" alt="">
+          <img src="{{ assets ('images/industries/banking_financial_services/our-services.svg')}}" alt="">
   
   
           {{-- content --}}
@@ -209,7 +209,7 @@
           <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center ">
               <div class="flex justify-center  w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                <img class="w-64  top-0" src="https://www.scnsoft.com/boss/images/12fecd0e-697d-4793-be78-c950a790f5c5plm-platform.png" alt="">
+                <img class="w-64  top-0" src="{{ assets ('images/industries/banking_financial_services/our-services.svg')}}" alt="">
               </div>
               <div class=" flex flex-col w-4/5 mb-10">
                 <h1 class="text-3xl md:text-4xl font-bold">Tailored pricing plan</h1>

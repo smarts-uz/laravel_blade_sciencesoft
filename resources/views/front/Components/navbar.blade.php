@@ -90,7 +90,7 @@
             </div> 
             <ul class="dropdown-container-Industries hidden flex-col mt-2 ml-4">
               <a href="/industries/healthcare"><li class="mt-4">Healthcare</li></a>
-              <a href="/industries/banking_financial_services"><li class="mt-4">Banking and Financial Services</li></a>
+              <a href="{{route('banking_financial_services')}}"><li class="mt-4">Banking and Financial Services</li></a>
               <a href="/industries/retail"><li class="mt-4">Retail</li></a>
               <a href="#"><li class="mt-4">Ecommerce</li></a>
               <a href="/industries/manufacturing"><li class="mt-4">Manufacturing</li></a>
@@ -252,7 +252,7 @@
               <div class="w-1/4 list-none">
                 <ul>
                 <a href="/industries/healthcare"><li class="mt-4 text-black hover:text-blue-700">Healthcare</li></a>
-                <a href="{{route('banking_financial_services')}}"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
+                <a href="{{ route('banking_financial_services') }}"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
                 <a href="../industries/retail"><li class="mt-4 text-black hover:text-blue-700">Retail</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce</li></a>
                 <a href="/industries/manufacturing"><li class="mt-4 text-black hover:text-blue-700">Manufacturing</li></a>
