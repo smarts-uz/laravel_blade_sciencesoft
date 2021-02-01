@@ -12,8 +12,8 @@ class CategoryController extends Controller
             ->with('childrenCategories')
             ->get();
 
-            dd($categories);
-        return view('categories', compact('categories'));
+            // dd($categories);
+        return view('front.Components.categories', compact('categories'));
     }
 
 

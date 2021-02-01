@@ -1,5 +1,17 @@
+{{-- <ul>
+    @foreach ($categories as $category)
+        <li>{{ $category->name }}</li>
+        <ul>
+        @foreach ($category->childrenCategories as $childCategory)
+            @include('child_category', ['child_category' => $childCategory])
+        @endforeach
+        </ul>
+    @endforeach
+</ul> --}}
+
+
 <!-- navbar -->
-  <div class="bg-white hidden overflow-y-auto   sidebar-menu h-screen w-64 fixed right-0 top-0 z-10 flex flex-col justify-between items-center">
+<div class="bg-white hidden overflow-y-auto   sidebar-menu h-screen w-64 fixed right-0 top-0 z-10 flex flex-col justify-between items-center">
     <div class="relative">
       <i onclick="closeSidebarMenu()" class="fa cursor-pointer fa-times text-black right-0 text-3xl z-50 absolute top-2 "></i>
       <ul class="flex-col w-56">
@@ -13,7 +25,7 @@
         <ul class="dropdown-container-about hidden flex-col mt-6 ml-4">
           <h1 class="mb-2 mt-2 font-extrabold">Company</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="{{route('getBlade', 'about.company.about_company')}}"><li class="mt-4">About Company</li></a>
+          <a href="/about/about-company"><li class="mt-4">About Company</li></a>
           <a href="#"><li class="mt-4">Management Team</li></a>
           <a href="/about/careers"><li class="mt-4">Careers</li></a>
           <a href="/partnerships"><li class="mt-4">Partnerships</li></a>
@@ -136,7 +148,7 @@
                 <h1 class="mb-2 font-extrabold">Company</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-                <a href="{{route('getBlade', 'about.company.about_company')}}"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
+                <a href="/about/about-company"><li class="mt-4 text-black hover:text-blue-700">About Company</li></a>
                 <a href="/management-Team"><li class="mt-4 text-black hover:text-blue-700">Management Team</li></a>
                 <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">Careers</li></a>
                 <a href="/partnerships"><li class="mt-4 text-black hover:text-blue-700">Partnerships</li></a>
@@ -167,118 +179,6 @@
               </div>
             </div>
           </a>
-          </li>
-          <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
-            <a class="py-6" id="service" href="#">
-            Services
-            <div id="serviceHover" class="hidden flex absolute left-0  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
-              <div class="w-1/6">
-                <h1 class="mb-2  font-extrabold">Services</h1>
-                <hr class="border-b-2 w-12 border-yellow-500">
-                <p class="mt-4 text-black font-normal">
-                  We handle complex business challenges building all types of custom and platform-based solutions and providing a comprehensive set of end-to-end IT services.</p>
-                <p class="font-extrabold mt-4 text-black">Can't find what you need?</p>
-                <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a  href="#">ASK US</a></div>
-              </div>
-              <div class="w-1/6 list-none">
-                <h1 class="mb-2 font-extrabold">
-                  Service types</h1>
-                <hr class="border-b-2 w-12 border-yellow-500">
-                <ul>
-                <a href="/services/software-development"><li class="mt-4 text-black hover:text-blue-700">Software Development</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Testing and QA</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Application Services</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">UI/UX Design</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Infrastructure Services</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Managed IT Services</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">IT Outsourcing</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">IT Consulting</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">IT Support</li></a>
-              </ul>
-              </div>
-              <div class="w-1/6 list-none">
-                <h1 class="mb-2  font-extrabold">Solutions</h1>
-                <hr class="border-b-2 w-12 border-yellow-500">
-                <ul>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Data Analytics</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">CRM</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Cybersecurity</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Internet of Things</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Web Portals</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Fleet Management</li></a>
-              </ul>
-              </div>
-              <div class="w-1/6 list-none">
-                <h1 class="mb-2  font-extrabold">Platforms</h1>
-                <hr class="border-b-2 w-12 border-yellow-500">
-                <ul>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">SharePoint and Office 365</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Microsoft Dynamics 365</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Microsoft Power BI</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Salesforce</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Magento </li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">ServiceNow</li></a>
-                </ul>
-              </div>
-              <div class="w-1/6 list-none">
-                <h1 class="mb-2  font-extrabold">Technologies</h1>
-                <hr class="border-b-2 w-12 border-yellow-500">
-                <ul>
-                <a href="/services/java"><li class="mt-4 text-black hover:text-blue-700">Java</li></a>
-                <a href="/services/NET"><li class="mt-4 text-black hover:text-blue-700">.NET</li></a>
-                <a href="/services/PHP"><li class="mt-4 text-black hover:text-blue-700">PHP</li></a>
-                <a href="/services/python"><li class="mt-4 text-black hover:text-blue-700">Python</li></a>
-                <a href="/services/golang"><li class="mt-4 text-black hover:text-blue-700">Golang </li></a>
-                <a href="/services/c++"><li class="mt-4 text-black hover:text-blue-700">C++</li></a>
-                <a href="/services/configureYourTeam"><li class="mt-4 text-black hover:text-blue-700">Configure Your Team</li></a>
-                </ul>
-              </div>
-            </div>
-          </a>
-          </li>
-          <li id="industries" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
-            <a class="py-6" id="industry" href="#">
-            Industries
-            <div id="industryHover" class="hidden flex absolute left-0  justify-between top-20 border-t-2 border-b-2 bg-white items-start py-6">
-              <div class="w-1/4">
-                <h1 class="mb-2  font-extrabold">Industries</h1>
-                <hr class="border-b-2 w-12 border-yellow-500">
-                <p class="mt-4 text-black font-normal">
-                  To power businesses with a meaningful digital change, ScienceSoft’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.</p>
-                <p class="font-extrabold mt-4 text-black">Can't find what you need?</p>
-                <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a  href="#">ASK US</a></div>
-              </div>
-              <div class="w-1/4 list-none">
-                <ul>
-                <a href="/industries/healthcare"><li class="mt-4 text-black hover:text-blue-700">Healthcare</li></a>
-                <a href="{{ route('banking_financial_services') }}"><li class="mt-4 text-black hover:text-blue-700">Banking and Financial Services</li></a>
-                <a href="../industries/retail"><li class="mt-4 text-black hover:text-blue-700">Retail</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce</li></a>
-                <a href="/industries/manufacturing"><li class="mt-4 text-black hover:text-blue-700">Manufacturing</li></a>
-                <a href="/industries/market-Advertising"><li class="mt-4 text-black hover:text-blue-700">Marketing & Advertising</li></a>
-              </ul>
-              </div>
-              <div class="w-1/4 list-none">
-                <ul>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Telecommunications</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">eLearning  Policy</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Transportation and Logistics</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Oil and Gas</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Professional Services</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">Insurance</li></a>
-              </ul>
-              </div>            
-            </div>
-            </a>
-          </li>
-          <li class="mr-8 cursor-pointer hover:text-blue-500">
-            <a class="py-6" href="#">
-              Case studies
-            </a>
-          </li>
-          <li class="mr-8 cursor-pointer hover:text-blue-500">
-            <a class="py-6" href="#">Blog</a>
           </li>
           <li class="flex justify-center items- center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
           <a  href="/contact-us">Let's talk</a>

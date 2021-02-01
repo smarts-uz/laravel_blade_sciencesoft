@@ -20,7 +20,8 @@
 
     <div class="wrapper">
     
-    @include('front.Components.navbar')
+    {{-- @include('front.Components.navbar') --}}
+    @include('front.Components.categories', $categories)
 
     @yield('main')
 
