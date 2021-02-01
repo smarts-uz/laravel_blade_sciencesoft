@@ -36,7 +36,7 @@
           About ScienceSoft – Global IT Company
         </h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/cover-pic-healthcare-it-consulting-4.svg">
+        <img src="{{ asset('/images/industries/manufacturing/microsoft-partner-statuses-8-01') }}">
         <p class="my-5 text-lg">
           Founded in 1989, ScienceSoft is a provider of IT consulting and software
           development services. Having started as a small AI product company, we
@@ -73,7 +73,7 @@
         </div>
       </div>
   
-  
+
       <div class="pt-12">
         <h1 class="uppercase font-bold mt-10 text-2xl">
           WHY SCIENCESOFT?

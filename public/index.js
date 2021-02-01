@@ -76,11 +76,6 @@ function closedropdownAbout() {
   arrowDownAbout.style.display = "inline-block";
   arrowUpAbout.style.display = "none";
 }
-function closedropdownServices() {
-  dropdownContainerServices.style.display = "none";
-  arrowDownServices.style.display = "inline-block";
-  arrowUpServices.style.display = "none";
-}
 function closedropdownIndustries() {
   dropdownContainerIndustries.style.display = "none";
   arrowDownIndustries.style.display = "inline-block";
