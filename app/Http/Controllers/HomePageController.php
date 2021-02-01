@@ -32,9 +32,9 @@ class HomePageController extends Controller
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')
             ->get();
-        if(!view()->exists('front.layout'.$page)){
-            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index']);
-        }
+        // if(!view()->exists('front.pages'.$page)){
+        //     return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index']);
+        // }
         return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories]);
     }
 
