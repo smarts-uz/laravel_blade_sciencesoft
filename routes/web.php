@@ -57,3 +57,5 @@ Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oil
 Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
+
+Route::get('categories', 'CategoryController@index');
