@@ -27,13 +27,13 @@ class SoftController extends Controller
     {
         return view('front.pages.contact-us');
     }
-    public function aboutCompany()
+    public function about_company()
     {
-        return view('front.pages.About.Company.aboutCompany');
+        return view('front.pages.About.Company.about_Company');
     }
-    public function managementTeam()
+    public function management_team()
     {
-        return view('front.pages.management-team');
+        return view('front.pages.management_team');
     }
     public function careers()
     {
@@ -43,39 +43,34 @@ class SoftController extends Controller
     {
         return view('front.pages.About.Company.partnerships');
     }
-    public function ScienceSoftReferralProgram()
+    public function Science_soft_referral_program()
     {
-        return view('front.pages.About.Company.ScienceSoftReferralProgram');
+        return view('front.pages.About.Company.Science_soft_referral_program');
     }
-    public function ourLocations()
+    public function our_locations()
     {
-        return view('front.pages.About.Company.ourLocations');
+        return view('front.pages.About.Company.our_locations');
     }
       /**
      * Show front about-approach-pages.
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function developmentProcess()
+    public function development_process()
     {
-        return view('front.pages.About.Approach.ourLocations');
+        return view('front.pages.About.Approach.development_process');
     }
-    public function sustainabilityPolicy()
+    public function sustainability_policy()
     {
-        return view('front.pages.About.Approach.sustainabilityPolicy');
+        return view('front.pages.About.Approach.sustainability_policy');
     }
-    public function privacyPolicy()
+    public function privacy_policy()
     {
-        return view('front.pages.About.Approach.privacyPolicy');
+        return view('front.pages.About.Approach.privacy_policy');
     }
-    public function termsOfUse()
+    public function terms_of_use()
     {
-        return view('front.pages.About.Approach.termsOfUse');
-    }
-
-    public function softwaredevelopment()
-    {
-        return view('front.pages.Services.software-development');
+        return view('front.pages.About.Approach.terms_of_use');
     }
        /**
      * Show front about-recognition-pages.
@@ -88,11 +83,11 @@ class SoftController extends Controller
     }
     public function awardsAndAcknowledgements()
     {
-        return view('front.pages.About.Recognition.awardsAndAcknowledgements');
+        return view('front.pages.About.Recognition.awards_and_acknowledgements');
     }
     public function pressRoom()
     {
-        return view('front.pages.About.Recognition.pressRoom');
+        return view('front.pages.About.Recognition.press_room');
     }
     public function news()
     {
@@ -109,11 +104,11 @@ class SoftController extends Controller
     }
     public function net()
     {
-        return view('front.pages.Services.Technologies.NET');
+        return view('front.pages.Services.Technologies.net');
     }
-    public function PHP()
+    public function php()
     {
-        return view('front.pages.Services.Technologies.PHP');
+        return view('front.pages.Services.Technologies.php');
     }
     public function python()
     {
@@ -123,13 +118,13 @@ class SoftController extends Controller
     {
         return view('front.pages.Services.Technologies.golang');
     }
-    public function cPlus()
+    public function cplus()
     {
-        return view('front.pages.Services.Technologies.cPlus');
+        return view('front.pages.Services.Technologies.cplus');
     }
-    public function configureYourTeam()
+    public function configure_your_team()
     {
-        return view('front.pages.Services.Technologies.configureYourTeam');
+        return view('front.pages.Services.Technologies.configure_your_team');
     }
       /**
      * Show front industry-pages.
@@ -140,9 +135,10 @@ class SoftController extends Controller
     {
         return view('front.pages.Industries.healthcare');
     }
-    public function bankingFinancialServices()
+    
+    public function banking_financial_services()
     {
-        return view('front.pages.Industries.bankingFinancialServices');
+        return view('front.pages.industries.banking_financial_services');
     }
     public function retail()
     {
@@ -156,9 +152,9 @@ class SoftController extends Controller
     {
         return view('front.pages.Industries.manufacturing');
     }
-    public function marketAdvertising()
+    public function market_advertising()
     {
-        return view('front.pages.Industries.marketAdvertising');
+        return view('front.pages.Industries.market_advertising');
     }
     public function telecommunications()
     {
@@ -168,17 +164,17 @@ class SoftController extends Controller
     {
         return view('front.pages.Industries.elearning');
     }
-    public function transportationLogistics()
+    public function transportation_logistics()
     {
-        return view('front.pages.Industries.transportationLogistics');
+        return view('front.pages.Industries.transportation_logistics');
     }
-    public function oilGas()
+    public function oil_gas()
     {
-        return view('front.pages.Industries.oilGas');
+        return view('front.pages.Industries.oil_gas');
     }
-    public function professionalServices()
+    public function professional_services()
     {
-        return view('front.pages.Industries.professionalServices');
+        return view('front.pages.Industries.professional_services');
     }
     public function insurance()
     {

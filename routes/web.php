@@ -45,7 +45,7 @@ Route::get('/services/configureYourTeam', 'App\Http\Controllers\Front\softContro
 
 // Industries pages start
 Route::get('/industries/healthcare', 'App\Http\Controllers\Front\softController@healthcare')->name('healthcare');
-Route::get('/industries/banking-Financial-Services', 'App\Http\Controllers\Front\softController@bankingFinancialServices')->name('bankingFinancialServices');
+Route::get('/industries/banking_financial_services', 'App\Http\Controllers\Front\softController@banking_financial_services')->name('banking_financial_services');
 Route::get('/industries/retail', 'App\Http\Controllers\Front\softController@retail')->name('retail');
 Route::get('/industries/ecommerce', 'App\Http\Controllers\Front\softController@ecommerce')->name('ecommerce');
 Route::get('/industries/manufacturing', 'App\Http\Controllers\Front\softController@manufacturing')->name('manufacturing');
@@ -58,6 +58,7 @@ Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\soft
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
 
+<<<<<<< HEAD
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
@@ -69,3 +70,6 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
+=======
+Route::get('categories', 'CategoryController@index');
+>>>>>>> origin/main
