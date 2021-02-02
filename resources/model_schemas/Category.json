@@ -12,7 +12,7 @@
         "inView": false
     },
     {
-        "name": "parent_id",
+        "name": "category_id",
         "dbType": "integer,false",
         "htmlType": null,
         "validations": "nullable|integer|nullable|integer",

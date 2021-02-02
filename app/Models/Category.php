@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-<<<<<<< HEAD
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -12,7 +11,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  * @package App\Models
  * @version January 30, 2021, 11:57 am UTC
  *
- * @property integer $parent_id
+ * @property integer $category_id
  * @property string $name
  * @property string $name_lang
  * @property string $description
@@ -37,10 +36,10 @@ class Category extends Model
 
     protected $dates = ['deleted_at'];
 
-
+    
 
     public $fillable = [
-        'parent_id',
+        'category_id',
         'name',
         'name_lang',
         'description',
@@ -59,7 +58,7 @@ class Category extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'parent_id' => 'integer',
+        'category_id' => 'integer',
         'name' => 'string',
         'name_lang' => 'string',
         'description' => 'string',
@@ -77,7 +76,7 @@ class Category extends Model
      * @var array
      */
     public static $rules = [
-        'parent_id' => 'nullable|integer',
+        'category_id' => 'nullable|integer',
         'name' => 'nullable|string|max:255',
         'name_lang' => 'nullable|string',
         'description' => 'nullable|string',
@@ -92,34 +91,25 @@ class Category extends Model
         'updated_at' => 'nullable'
     ];
 
+    public function children(){
+      return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
+    }
+    
+    public function parent(){
+      return $this->hasOne( 'App\Models\Category', 'id', 'category_id' );
+    }
 
+    public function categories()
+    {
+        return $this->hasMany(Category::class);
+    }
+
+    public function childrenCategories()
+    {
+        return $this->hasMany(Category::class)->with('categories');
+    }
+
+    public function subCategories(){
+      return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
+    }
 }
-=======
-use Illuminate\Database\Eloquent\Model;
-
-class Category extends Model
-{
-      public function children(){
-        return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
-      }
-      
-      public function parent(){
-        return $this->hasOne( 'App\Models\Category', 'id', 'category_id' );
-      }
-
-      public function categories()
-      {
-          return $this->hasMany(Category::class);
-      }
-
-      public function childrenCategories()
-      {
-          return $this->hasMany(Category::class)->with('categories');
-      }
-
-      public function subCategories(){
-        return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
-      }
-}
-   
->>>>>>> origin/main

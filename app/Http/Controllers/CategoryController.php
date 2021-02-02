@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-<<<<<<< HEAD
 use App\DataTables\CategoryDataTable;
 use App\Http\Requests;
 use App\Models\Category;
@@ -191,25 +190,4 @@ class CategoryController extends AppBaseController
 
         return $this->sendSuccess('Category deleted successfully.');
     }
-=======
-use Illuminate\Http\Request;
-use App\Models\Category;
-class CategoryController extends Controller
-{
-    public function index()
-    {
-        $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
-            ->get();
-
-            // dd($categories);
-        return view('front.Components.categories', compact('categories'));
-    }
-
-
-    // public function index(){  
-    //     $parentCategories = Category::where('parent_id',NULL)->get();
-    //     return view('categories', compact('parentCategories'));
-    // }
->>>>>>> origin/main
 }

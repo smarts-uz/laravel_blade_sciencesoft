@@ -39,7 +39,7 @@ class HomePageController extends Controller
     }
 
     // public function index(){  
-    //     $parentCategories = Category::where('parent_id',NULL)->get();
+    //     $parentCategories = Category::where('category_id',NULL)->get();
     //     return view('categories', compact('parentCategories'));
     // }
 }

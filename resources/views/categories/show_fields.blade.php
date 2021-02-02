@@ -1,7 +1,7 @@
 <!-- Parent Id Field -->
 <div class="form-group">
-    {!! Form::label('parent_id', 'Parent Id:') !!}
-    <p>{{ $category->parent_id }}</p>
+    {!! Form::label('category_id', 'Parent Id:') !!}
+    <p>{{ $category->category_id }}</p>
 </div>
 
 <!-- Name Field -->

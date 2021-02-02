@@ -1,7 +1,7 @@
 <!-- Parent Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('parent_id', 'Parent Id:') !!}
-    {!! Form::number('parent_id', null, ['class' => 'form-control']) !!}
+    {!! Form::label('category_id', 'Parent Id:') !!}
+    {!! Form::number('category_id', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Name Field -->

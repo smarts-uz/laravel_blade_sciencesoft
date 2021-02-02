@@ -58,7 +58,6 @@ Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\soft
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
 
-Route::get('categories', 'App\Http\Controllers\CategoryController@index');
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
 Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');

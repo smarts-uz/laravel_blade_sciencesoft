@@ -23,8 +23,8 @@ $(tableName).DataTable({
     'width': '8%'
   }],
   columns: [{
-    data: 'parent_id',
-    name: 'parent_id'
+    data: 'category_id',
+    name: 'category_id'
   }, {
     data: 'name',
     name: 'name'
