@@ -32,7 +32,7 @@
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
     <div class="flex justify-between flex-wrap ">
-        <div class="flex-col w-full">
+        <div class="flex-col w-full lg:w-1/4 md:w-1/2 my-10">
             <div class="flex justifiy-start  items-end">
                 <div>
                     <img src="img/us.svg" alt="">
@@ -51,7 +51,7 @@
                 <a class="underline" href="#">contact@scsoft.com</a>
             </div>
         </div>
-        <div class="flex-col w-full">
+        <div class="flex-col w-full lg:w-1/4 md:w-1/2 my-10">
             <div class="flex justify-start  items-end">
                 <div>
                     <img class="w-8" src="img/gcc_.svg" alt="">
@@ -70,7 +70,7 @@
                 <a class="underline" href="#">gulf@scsoft.com</a>
             </div>
         </div>
-        <div class="flex-col w-full">
+        <div class="flex-col w-full lg:w-1/4 md:w-1/2 my-10">
             <div class="flex justify-start  items-end">
                 <div>
                     <img src="img/eu.svg" alt="">

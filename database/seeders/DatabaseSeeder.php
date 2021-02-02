@@ -26,7 +26,7 @@ class DatabaseSeeder extends Seeder
             ['id'=>6, 'name' => 'Management Team', 'category_id'=>4, 'path_blade'=>'about.company.management_team'],
             ['id'=>7, 'name' => 'Careers', 'category_id'=>4, 'path_blade'=>'about.company.careers'],
             ['id'=>8, 'name' => 'Partnerships', 'category_id'=>4, 'path_blade'=>'about.company.partnerships'],
-            ['id'=>9, 'name' => 'Sciencesoft Referral Program', 'category_id'=>4, 'path_blade'=>'about.company.sciencesoft_referall_program'],
+            ['id'=>9, 'name' => 'Sciencesoft Referral Program', 'category_id'=>4, 'path_blade'=>'about.company.sciencesoft_referral_program'],
             ['id'=>10, 'name' => 'Our Locations', 'category_id'=>4, 'path_blade'=>'about.company.our_locations'],
             ['id'=>11, 'name' => 'Approach', 'category_id'=>1],
             ['id'=>12, 'name'=>'Development Process', 'category_id'=>11, 'path_blade'=>'about.approach.development_process'],
