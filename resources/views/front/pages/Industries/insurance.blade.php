@@ -45,7 +45,7 @@
         </div>
       </div>
   
-      <div>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">WHAT MAKES SCIENCESOFT A RELIABLE PARTNER</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <!-- STARS -->
@@ -87,7 +87,7 @@
       </div>
   
       <!-- PIC-CARD -->
-      <div>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">IT SOLUTIONS FOR INSURANCE WE DEVELOP</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <div class="grid md:grid-cols-2">
@@ -345,9 +345,9 @@
   
       <!-- SIMP-CARD -->
       <div
-            class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8 mt-20"
+            class="rounded-sm  border-2 border-white shadow-2xl transition-shadow mx-6 md:mx-16 lg:mx-24 my-10 mr-20 p-8 mt-20"
           >
-            <div class="flex flex-col">
+            <div class="flex flex-col ">
               <h1 class="text-xl font-bold">Eager to Improve Your Insurance Services?</h1>
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
@@ -366,7 +366,7 @@
       <!-- END-SIM-CARD -->
   
       <!-- CHOOSE-SERVICE -->
-      <div class="mt-20">
+      <div class=" mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-2xl md:text-3xl lg:text-3xl font-bold mb-4">CHOOSE YOUR SERVICE OPTION</p>
         <hr class="w-12 border-b-2 border-yellow-600 mb-6" />
         <div class="grid md:grid-cols-2">
