@@ -10,7 +10,7 @@
 
 <div class="mx-6 md:mx-16 lg:mx-24 my-10">
       <div>
-        <p class="text-gray-400 text-xs">Home &gt; Healthcare</p>
+      
         <h1 class="uppercase font-bold mt-10 text-2xl">
           About ScienceSoft – Global IT Company
         </h1>
