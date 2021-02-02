@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('front.pages.index');
 // });
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
 Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->name('contact');
 
 Route::get('/services/software-development','App\Http\Controllers\Front\softController@softwaredevelopment')->name('softwaredevelopment');
@@ -57,3 +57,15 @@ Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oil
 Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
+
+Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
+Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
+Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Route::resource('categories', App\Http\Controllers\CategoryController::class);
+Auth::routes();
+
