@@ -7,7 +7,7 @@
 @section('main')
 
 <div class="lg:mx-24 md:mx-16 mx-6">
-    <p class="text-gray-400 text-xs">Home &#62; About Company</p>
+  
     <h1 class="uppercase font-bold mt-10 text-2xl">
         About ScienceSoft – Global IT Company
     </h1>

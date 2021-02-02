@@ -9,10 +9,10 @@
 
   
     
-      <div>
+      
       
 
-        <div class="w-8/12 m-auto py-10 my-10">
+        <div class="mx-6 md:mx-16 lg:mx-24 my-10">
             <h1 class="text-5xl font-semibold pb-10 text-gray-800">Referral Program for IT Consulting and Software Development Services</h1>
             <hr class="w-12 border-yellow-600 text-gray-800 my-4">     
             <img src="https://www.scnsoft.com/cover-pictures/become-sciencesoft-s-partner.svg" alt="">
@@ -112,7 +112,7 @@
                         <h1 class="text-3xl md:text-4xl font-bold">Mobile apps</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">     
                         <p class=" text-gray-500 text-xl md:text-2xl">
-
+                        </div>
 
 @endsection
 

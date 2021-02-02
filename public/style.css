@@ -189,3 +189,62 @@ body{
 .copy{
     padding-top: 250px;
 }
+
+@media(max-width: 468px) {
+  .infos {
+      display: flex;
+      flex-direction: column;
+  }
+  .wrapped {
+      margin: 10px 12px;
+  }
+
+  .button {
+      position: relative;
+  }
+  
+  .btn {
+      position: absolute;
+      right: 96px;
+      bottom: 16px;
+  }
+}
+
+
+@media(min-width: 576px) {
+  .infos {
+      display: flex;
+      flex-direction: column;
+  }
+  .wrapped {
+      margin: 10px 12px;
+  }
+
+  .button {
+      position: relative;
+  }
+  
+  .btn {
+      position: absolute;
+      right: 108px;
+      bottom: 16px;
+  }
+
+
+}
+
+@media(min-width: 768px) {
+  .infos {
+      display: flex;
+      flex-direction: column;
+  }
+  .button {
+      position: relative;
+  }
+  
+  .btn {
+      position: absolute;
+      right: 124px;
+      bottom: 16px;
+  }
+}

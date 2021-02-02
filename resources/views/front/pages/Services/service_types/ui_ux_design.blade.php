@@ -10,9 +10,7 @@
 
      
         <div class="mx-24 md:mx-16 mx-6 my-10">
-          <p class="text-gray-400 text-xs">
-            Home &#62; Application Services &#62; Design
-          </p>
+         
           <h1 class="uppercase font-bold mt-10 text-2xl">
             Web Design Services
           </h1>

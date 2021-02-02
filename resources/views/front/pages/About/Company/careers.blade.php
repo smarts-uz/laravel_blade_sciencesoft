@@ -9,13 +9,9 @@
 
 
 
-  <div class="w-full px-10 flex flex-col lg:flex-row lg:px-16 xl:px-32 mb-10">
+  <div class=" flex flex-col lg:flex-row my-10 mx-6 md:mx-16 lg:mx-24">
     <div class="w-full lg:w-1/3  lg:flex flex-col mr-3">
-      <div class="flex flex-row">
-        <a href="../index.html" class="text-gray-600 hover:text-blue-500">Home</a>
-        <p class="mx-1 md:mx-3">></p>
-        <p>Careers</p>
-      </div>
+     
       <div class="text-gray-600 w-full cursor-pointer hover:text-blue-600 mb-4">
         <p class="border-b-2 py-1 uppercase font-bold border-gray-500 hover:border-blue-600">Careers</p>
       </div>

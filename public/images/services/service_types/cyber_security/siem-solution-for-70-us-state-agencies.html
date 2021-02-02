@@ -1,0 +1,1759 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<link rel="canonical" href="https://www.scnsoft.com/case-studies/siem-solution-for-70-us-state-agencies" />
+<title>IBM Security QRadar SIEM Implementation for 70+ US State Agencies - Case Study</title>
+<meta name="description" content="ScienceSoft implemented and customized IBM Security QRadar SIEM for one of the US states&#039; government. The solution enabled permanent collection and analysis of events coming from log sources of more than 70 state agencies.">
+<meta property="og:image" content="https://www.scnsoft.com/boss/images/07ec4749-0f4f-4884-814d-fa9d1f9e9e0fqradar-for-governement_large.jpg" />
+<link rel="preload" href="/static/fonts/open_sans/OpenSans-Regular-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/static/fonts/open_sans/OpenSans-Semibold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/static/fonts/open_sans/OpenSans-Bold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/static/fonts/open_sans/OpenSans-Italic-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/static/fonts/open_sans/OpenSans-BoldItalic-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/static/fonts/s-icons/s-icons.woff?izxodi" as="font" type="font/woff" crossorigin="anonymous">
+<link href="/bundles/app/css/case-study-article.css" rel="stylesheet">
+<script type="9ee4b4305ed2cdc64fd0a83c-text/javascript">
+                var editmode = 0;
+                var language = 'en';
+            </script>
+<script type="9ee4b4305ed2cdc64fd0a83c-text/javascript" data-main="/bundles/app/js/main.js" src="/bundles/app/js/require.js"></script>
+<script async type="9ee4b4305ed2cdc64fd0a83c-text/javascript">
+    window.addEventListener("load", function () {
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.rel='preconnect';j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-595S4NT');
+    }, false);
+</script>
+</head>
+<body class="
+                                                        ">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-595S4NT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><img alt="" src="https://secure.leadforensics.com/104098.png" style="display:none;"/></noscript>
+<div class="page-wrapper ">
+<!--[if IE]><!-- zone: header --><![endif]-->
+<header class="header">
+<div class="container">
+<div class="header__wrapper" data-nosnippet>
+<div class="header-brand-wrapper">
+<div class="header__brand header-brand  main-site">
+<a href="/" class="logo-wrapper"> <svg class="header-brand__svg">
+<title>ScienceSoft. Professional Software Development.</title>
+<use xlink:href="#ic-logo"></use>
+</svg>
+<svg class="header-brand__svg header-brand__svg--short">
+<title>ScienceSoft. Professional Software Development.</title>
+<use xlink:href="#ic-logo-mobile"></use>
+</svg>
+<svg style="display: none!important;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns="http://www.w3.org/1999/html">
+<symbol id="ic-logo" viewBox="0 0 200 40" enable-background="new 0 0 200 40">
+<path d="M86.9,11.5h-3.4v13.3h3.4V11.5z M85.2,9c0.6,0,1.1-0.2,1.4-0.6C87,8,87.2,7.6,87.2,7c0-0.5-0.2-1-0.6-1.4
+                c-0.3-0.3-0.8-0.5-1.4-0.5c-0.6,0-1.1,0.2-1.4,0.6c-0.4,0.4-0.6,0.8-0.6,1.4c0,0.5,0.2,1,0.6,1.4C84.1,8.8,84.6,9,85.2,9z
+                 M100.4,23.4h-5.1c-0.5-0.2-0.6-0.4-0.6-0.7V19h4.7v-2h-4.7v-3.6c0-0.1,0-0.2,0.3-0.2h5.4v-1.6H94c-1.1,0-1.8,0.3-2.2,0.9
+                c-0.3,0.5-0.5,1.2-0.5,2.1v7.8c0,0.9,0.2,1.5,0.6,2c0.4,0.4,1,0.6,1.8,0.6h6.7V23.4z M112.6,24.4c0.2,0.2,0.4,0.4,0.6,0.6
+                s0.5,0.2,0.8,0.2c0.5,0,0.9-0.2,1-0.5c0.1-0.2,0.2-0.6,0.2-1.2v-12h-2l0.1,7.6l-0.1-0.1c-0.3-0.4-0.9-1.3-1.8-2.6
+                c-0.9-1.3-1.7-2.5-2.4-3.5c-0.3-0.4-0.6-0.7-1-1c-0.4-0.2-0.8-0.4-1.3-0.4c-0.7,0-1.2,0.2-1.7,0.6c-0.4,0.4-0.7,0.9-0.7,1.7v11.1
+                h1.9V14.7c0.2,0.3,0.6,1,1.4,2.1c0.7,1.1,1.9,2.9,3.5,5.4l1,1.5C112.3,24,112.4,24.2,112.6,24.4z M193.9,24.8h3.4V13.4h2.6v-1.9
+                h-8.6v1.9h2.6V24.8z M138.1,22.7V19h4.7v-2h-4.7v-3.6c0-0.1,0-0.2,0.3-0.2h5.4v-1.6h-6.4c-1.1,0-1.8,0.3-2.2,0.9
+                c-0.3,0.5-0.5,1.2-0.5,2.1v7.8c0,0.9,0.2,1.5,0.6,2c0.4,0.4,1,0.6,1.8,0.6h6.7v-1.6h-5.1C138.3,23.2,138.1,23,138.1,22.7z M129.8,21
+                c-0.6,1.4-1.6,2.2-2.7,2.5c-0.2,0-0.3,0-0.5,0c-1.3,0-2.2-0.5-2.7-1.6c-0.5-1.1-0.8-2.5-0.8-4c0-0.9,0.1-1.7,0.3-2.5
+                c0.2-0.8,0.6-1.4,1.1-1.9s1.1-0.7,1.9-0.7c1.4,0,2.7,1,3.4,2.4l1.6-0.8c-0.7-1.1-1.3-1.9-2.4-2.5c-0.8-0.5-1.8-0.8-3-0.8
+                c-1.3,0-2.5,0.3-3.5,1c-1,0.6-1.8,1.5-2.4,2.5c-0.6,1-0.8,2.2-0.8,3.4v0.1c0,0.1,0,0.3,0,0.4s0,0.1,0,0.2c0.1,1,0.3,2,0.8,2.8
+                c0.1,0.1,0.1,0.2,0.2,0.4l0.1,0.1c0.1,0.1,0.2,0.3,0.3,0.4c0.1,0.1,0.2,0.3,0.3,0.4c0.1,0.1,0.1,0.1,0.2,0.2
+                c0.2,0.2,0.3,0.3,0.5,0.5c0.1,0.1,0.2,0.2,0.3,0.2c0.1,0.1,0.1,0.1,0.2,0.2c0.1,0.1,0.2,0.1,0.3,0.2c1,0.6,2.2,1,3.5,1
+                c1.2,0,2.2-0.3,3-0.8c1-0.6,1.6-1.4,2.4-2.5L129.8,21z M79.3,21.9l-1.6-0.8c-0.6,1.3-1.6,2.1-2.7,2.4c-0.2,0-0.3,0-0.5,0
+                c-1.3,0-2.2-0.5-2.7-1.6c-0.5-1.1-0.8-2.5-0.8-4c0-0.9,0.1-1.7,0.4-2.5c0.2-0.8,0.6-1.4,1.1-1.9s1.1-0.7,1.9-0.7
+                c1.4,0,2.7,1,3.4,2.4l1.6-0.8c-0.7-1.1-1.3-1.9-2.4-2.5c-0.8-0.5-1.8-0.8-3-0.8c-1.3,0-2.5,0.3-3.5,1c-1,0.6-1.8,1.5-2.4,2.5
+                c-0.6,1-0.8,2.2-0.8,3.4v0.1c0,0.1,0,0.3,0,0.4s0,0.1,0,0.2c0.1,1,0.3,2,0.8,2.8c0.1,0.1,0.1,0.2,0.2,0.4l0.1,0.1
+                c0.1,0.1,0.2,0.3,0.3,0.4c0.1,0.1,0.2,0.3,0.3,0.4c0.1,0.1,0.1,0.1,0.2,0.2c0.2,0.2,0.3,0.3,0.5,0.5c0.1,0.1,0.2,0.2,0.3,0.2
+                c0,0.2,0,0.3,0.1,0.3c0.1,0.1,0.2,0.1,0.3,0.2c1,0.6,2.2,1,3.5,1c1.2,0,2.2-0.3,3-0.8C77.9,23.8,78.5,23,79.3,21.9z M171.6,11.2
+                c-3.9,0-7,3.1-7,7c0,3.9,3.1,7,7,7c3.9,0,7-3.1,7-7C178.6,14.3,175.5,11.2,171.6,11.2z M171.6,23.5c-1.8,0-3.2-2.4-3.2-5.3
+                c0-2.9,1.4-5.3,3.2-5.3c1.8,0,3.2,2.4,3.2,5.3C174.8,21.1,173.4,23.5,171.6,23.5z M185.6,13.4h3v-1.9h-2.9V8.6c0-0.2,0-0.5,0-0.8
+                c0-0.4,0.3-0.6,0.7-0.7c0.2,0,0.6,0,0.8,0h1.4V5.3c-5.4-0.6-6.4,0.1-6.4,3.5v16.1h3.4V13.4z M62.3,22.4c0.7-1,1.1-2.1,1.1-3.1
+                c0-1.4-0.5-2.7-1.4-3.6c-0.7-0.8-1.9-1.5-3.6-2.2c-1.4-0.6-2.1-1-2.7-1.3c-1-0.5-1.6-1.5-1.6-2.5c0-1.3,0.9-2.5,2.2-2.8
+                c0.3-0.1,0.6-0.1,0.9-0.1c1.7,0,3,0.9,3.8,2.6v0.1l1.4-0.9V8.5c-0.3-0.7-0.8-1.3-1.4-1.8s-1.3-0.9-2.1-1.2c-0.8-0.3-1.5-0.4-2.3-0.4
+                c-1.2,0-2.2,0.2-3.2,0.7s-1.8,1.2-2.3,2c-0.6,0.9-0.8,1.8-0.8,2.8c0,1.5,0.4,2.7,1.3,3.4c0.7,0.7,1.8,1.3,3.4,2
+                c1.5,0.6,2.1,0.9,2.9,1.4c0.1,0.1,0.2,0.2,0.4,0.3c0.7,0.6,1.1,1.4,1.1,2.4c0,1.8-1.5,3.2-3.4,3.2c-0.9,0-1.6-0.2-2.2-0.6
+                c-0.6-0.4-1.1-1-1.7-1.8V21l-1.5,1.1l0.1,0.1c1.2,2,3.3,3.1,6.2,3.1c1.1,0,2.1-0.2,3.1-0.7C61,23.9,61.7,23.2,62.3,22.4z
+                 M160.6,22.4c0.7-1,1.1-2.1,1.1-3.1c0-1.4-0.5-2.7-1.4-3.6c-0.7-0.8-1.9-1.5-3.6-2.2c-1.4-0.6-2.1-1-2.7-1.3c-1-0.5-1.6-1.5-1.6-2.5
+                c0-1.3,0.9-2.5,2.2-2.8c0.3-0.1,0.6-0.1,0.9-0.1c1.7,0,3,0.9,3.8,2.6l0.1,0.1l1.4-0.9V8.5c-0.3-0.7-0.8-1.3-1.4-1.8
+                c-0.6-0.5-1.3-0.9-2.1-1.2c-0.8-0.3-1.5-0.4-2.3-0.4c-1.2,0-2.2,0.2-3.2,0.7s-1.8,1.2-2.3,2c-0.6,0.9-0.8,1.8-0.8,2.8
+                c0,1.5,0.4,2.7,1.3,3.4c0.7,0.7,1.8,1.3,3.5,2c1.5,0.6,2.1,0.9,2.9,1.4c0.1,0.1,0.2,0.2,0.4,0.3c0.8,0.6,1.1,1.4,1.1,2.4
+                c0,1.8-1.5,3.2-3.4,3.2c-0.9,0-1.6-0.2-2.2-0.6c-0.6-0.4-1.1-1-1.7-1.8l-0.1-0.1l-1.5,1.1l0.1,0.1c1.2,2,3.3,3.1,6.2,3.1
+                c1.1,0,2.1-0.2,3.1-0.7C159.3,23.9,160,23.2,160.6,22.4z M197.3,30.4v0.4h0.8v3.9h0.9v-3.9h1v-0.4H197.3z M53.8,28.4
+                c-0.3-0.1-0.6-0.2-0.9-0.2h-2.6v6.4h1.1v-2.7h0.9c0.6,0,1-0.1,1.4-0.2c0.3-0.1,0.6-0.3,0.8-0.6c0.2-0.3,0.3-0.6,0.3-1.1
+                c0-0.4-0.1-0.7-0.3-1C54.3,28.8,54.1,28.5,53.8,28.4z M53.3,31.2c-0.3,0.3-0.7,0.4-1.2,0.4h-0.6v-3h0.7c0.3,0,0.7,0.1,0.9,0.2
+                c0.2,0.1,0.4,0.3,0.5,0.5c0,0.2,0.1,0.4,0.1,0.7C53.7,30.5,53.6,30.9,53.3,31.2z M59.3,32.2c0.1-0.2,0.2-0.4,0.2-0.7
+                c0-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.3-0.3-0.5-0.4s-0.5-0.1-0.7-0.1h-1.9v4.3h0.9h0.3v-4.1h0.4c0.3,0,0.6,0.1,0.7,0.3
+                c0.1,0.1,0.2,0.4,0.2,0.6c0,0.7-0.3,1-0.9,1h-0.1l1.1,2.2h1l-1.2-2.1C58.9,32.5,59.2,32.3,59.3,32.2z M70.6,34.1v-1.4h1.6v-0.4h-1.6
+                v-1.4c0-0.1,0.1-0.2,0.2-0.2h1.7v-0.3v-0.1h-2.2c-0.3,0-0.5,0-0.6,0.2c0,0.2-0.1,0.4-0.1,0.7v2.7c0,0.3,0.1,0.5,0.2,0.6
+                c0.1,0.1,0.3,0.2,0.5,0.2h2.3v-0.3h-1.7C70.7,34.4,70.6,34.3,70.6,34.1z M81.8,34.7h0.9v-4.3h-0.9V34.7z M82.2,28.2
+                c-0.2,0-0.3,0.1-0.4,0.2c-0.1,0.1-0.2,0.3-0.2,0.4c0,0.1,0.1,0.3,0.2,0.4c0.1,0.1,0.2,0.2,0.4,0.2c0.1,0,0.3-0.1,0.4-0.2
+                c0.1-0.1,0.2-0.2,0.2-0.4c0-0.1-0.1-0.3-0.2-0.4C82.5,28.3,82.4,28.2,82.2,28.2z M93.2,32.9c0,0.1-0.1,0.1-0.1,0.1s-0.1,0-0.2-0.2
+                c-0.1-0.1-0.3-0.4-0.6-0.9c-0.3-0.5-0.6-0.9-0.8-1.2c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.2-0.1-0.4-0.1s-0.4,0.1-0.5,0.2
+                c-0.1,0.1-0.2,0.3-0.2,0.5v3.7h0.4h0.1v-3.5c0-0.1,0.1-0.1,0.1-0.1s0,0,0.1,0.1c0.1,0.1,0.3,0.3,0.5,0.7c0.3,0.3,0.7,1,1.2,1.8
+                l0.4,0.5c0,0.1,0.1,0.1,0.1,0.2c0.1,0.1,0.1,0.2,0.2,0.2c0.1,0.1,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0,0,0-0.1,0-0.3v-4h-0.4V32.9
+                z M97.3,30.4c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.5,0.2c-0.1,0.2-0.2,0.4-0.3,0.6l-1,3.7h0.4l0.4-1.4h1.6l0.4,1.3h0.9l-1-3.5
+                C97.5,30.8,97.4,30.5,97.3,30.4z M95.8,33l0.5-1.7c0-0.1,0.1-0.2,0.1-0.3s0-0.1,0.1-0.1h0.1c0,0.1,0,0.1,0,0.2
+                c0.1,0,0.1,0.1,0.1,0.2l0.5,1.7H95.8z M100.9,34.4v-0.1v-6.1H100v5.9c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.3,0.2,0.5,0.2h1v-0.3H100.9
+                L100.9,34.4z M120.3,30.8h0.9v3.9h0.9v-3.9h0.9v-0.4h-2.7V30.8z M128.3,34.1c0,0,0,0,0,0.1v0.1c-0.1,0-0.1,0.1-0.1,0.1h-0.1
+                c-0.1,0-0.1-0.1-0.1-0.1c-0.1,0-0.1-0.1-0.1-0.2c0-0.1-0.1-0.2-0.1-0.3l-1-3.3h-1l0.7,2.2l-0.4,1.1c-0.1,0.1-0.1,0.1-0.1,0.2
+                c-0.1,0.1-0.1,0.2-0.1,0.2c0,0.1-0.1,0.1-0.1,0.1l-0.1-0.1c0-0.1-0.1-0.1-0.1-0.2s0-0.3-0.1-0.5l-0.9-3.1h-0.9l1.2,4.1
+                c0.1,0.2,0.2,0.4,0.3,0.5c0.1,0.1,0.3,0.2,0.5,0.2c0.2,0,0.4,0,0.5-0.1c0.1-0.1,0.2-0.2,0.3-0.5l0.3-0.8l0.3,0.9
+                c0.1,0.3,0.3,0.5,0.7,0.5c0.3,0,0.5,0,0.6-0.1c0.1-0.1,0.2-0.3,0.3-0.5l1.1-3.9h-0.5L128.3,34.1z M132.8,30.4
+                c-0.1-0.1-0.3-0.2-0.6-0.2c-0.2,0-0.4,0.1-0.5,0.2c-0.1,0.2-0.2,0.4-0.3,0.6l-1,3.7h0.4l0.4-1.4h1.6l0.4,1.3h0.9l-1-3.5
+                C133,30.8,132.9,30.5,132.8,30.4z M131.3,33l0.5-1.7c0-0.1,0.1-0.2,0.1-0.3s0-0.1,0.1-0.1h0.1c0,0.1,0,0.1,0,0.2
+                c0.1,0,0.1,0.1,0.1,0.2l0.5,1.7H131.3z M138.5,32.2c0.1-0.2,0.2-0.4,0.2-0.7c0-0.2-0.1-0.4-0.2-0.6c-0.1-0.2-0.3-0.3-0.5-0.4
+                s-0.5-0.1-0.7-0.1h-1.9v4.3h0.9h0.3v-4.1h0.4c0.3,0,0.6,0.1,0.7,0.3c0.1,0.1,0.2,0.4,0.2,0.6c0,0.7-0.3,1-0.9,1h-0.1l1.1,2.2h1
+                l-1.2-2.1C138.1,32.5,138.4,32.3,138.5,32.2z M141.1,34.1v-1.4h1.6v-0.4h-1.6v-1.4c0-0.1,0.1-0.2,0.2-0.2h1.7v-0.3v-0.1h-2.2
+                c-0.3,0-0.5,0-0.6,0.2c-0.1,0.2-0.1,0.4-0.1,0.7v2.7c0,0.3,0.1,0.5,0.2,0.6c0.1,0.1,0.3,0.2,0.5,0.2h2.3v-0.3h-1.7
+                C141.2,34.4,141.1,34.3,141.1,34.1z M152.8,29.2c-0.3-0.3-0.7-0.5-1.1-0.7c-0.4-0.2-0.9-0.3-1.5-0.3h-2.1v6.5h2.3
+                c0.7,0,1.2-0.1,1.7-0.3c0.5-0.3,0.8-0.6,1.1-1.1s0.4-1,0.4-1.7c0-0.5-0.1-0.9-0.2-1.3C153.3,29.9,153.1,29.5,152.8,29.2z
+                 M152.2,32.9c-0.1,0.4-0.4,0.7-0.7,1c-0.3,0.3-0.8,0.4-1.4,0.4h-0.8v-5.6v-0.1h0.7c0.5,0,1,0.1,1.3,0.4c0.4,0.3,0.6,0.7,0.8,1.1
+                c0.2,0.4,0.3,0.9,0.3,1.5C152.4,32.1,152.3,32.5,152.2,32.9z M156.1,34.1v-1.4h1.6v-0.4h-1.6v-1.4c0-0.1,0.1-0.2,0.2-0.2h1.7v-0.3
+                v-0.1h-2.2c-0.3,0-0.5,0-0.6,0.2c0,0.2-0.1,0.4-0.1,0.7v2.7c0,0.3,0.1,0.5,0.2,0.6c0.1,0.1,0.3,0.2,0.5,0.2h2.3v-0.3h-1.7
+                C156.2,34.4,156.1,34.3,156.1,34.1z M161.4,33.7c0,0.1-0.1,0.2-0.1,0.3s-0.1,0.1-0.1,0.1c-0.1,0-0.1,0-0.1,0c-0.1,0-0.1,0-0.1-0.1
+                c-0.1,0-0.1-0.1-0.1-0.2l-1-3.3h-1l1.1,3.6c0.1,0.3,0.2,0.5,0.3,0.6c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2
+                c0.1-0.2,0.2-0.3,0.3-0.6l1.1-3.7h-0.4L161.4,33.7z M165,34.1v-1.4h1.6v-0.4H165v-1.4c0-0.1,0-0.2,0.2-0.2h1.7v-0.3v-0.1h-2.2
+                c-0.3,0-0.5,0-0.6,0.2c-0.1,0.2-0.1,0.4-0.1,0.7v2.7c0,0.3,0.1,0.5,0.2,0.6c0.1,0.1,0.3,0.2,0.5,0.2h2.3v-0.3h-1.7
+                C165.1,34.4,165,34.3,165,34.1z M169.4,34.4v-0.1v-6h-0.9v5.8c0,0.2,0,0.3,0.1,0.4c0.1,0.1,0.3,0.2,0.5,0.2h1v-0.3H169.4L169.4,34.4
+                z M179.4,30.7c-0.3-0.2-0.7-0.3-1.2-0.3h-1.4v6.5h0.8v-2.1h0.9c0.6,0,1.1-0.2,1.5-0.6c0.4-0.4,0.6-0.9,0.6-1.6
+                c0-0.4-0.1-0.8-0.3-1.1C180,31.1,179.8,30.9,179.4,30.7z M179.4,33.7c-0.1,0.3-0.2,0.5-0.4,0.6c-0.2,0.1-0.4,0.2-0.7,0.2h-0.6v-3.7
+                v-0.1h0.1c0.5,0,0.9,0.1,1.1,0.3c0.3,0.3,0.4,0.5,0.5,0.8c0.1,0.3,0.1,0.7,0.1,1C179.5,33.2,179.5,33.5,179.4,33.7z M185.2,30.3
+                c-0.1,0-0.3,0-0.4,0.1c-0.1,0.1-0.2,0.2-0.2,0.4L184,33l-0.6-1.9c-0.1-0.3-0.2-0.5-0.3-0.6c-0.1-0.1-0.2-0.2-0.5-0.2
+                c-0.2,0-0.4,0.1-0.5,0.2c-0.1,0.1-0.1,0.3-0.1,0.6v3.6h0.4v-3.6c0-0.1,0-0.2,0-0.2c0.1,0,0.1,0.1,0.1,0.1s0.1,0.1,0.1,0.2l0.9,3.1
+                c0,0.1,0.1,0.2,0.1,0.3c0.1,0.1,0.1,0.1,0.2,0.1c0.1,0,0.2-0.1,0.2-0.1s0.1-0.1,0.1-0.3l0.7-2.5c0.1-0.4,0.2-0.6,0.2-0.7
+                c0-0.1,0.1-0.1,0.1-0.1h0.1c0,0.1,0,0.1,0,0.2v3.5h0.8v-3.6c0-0.3-0.1-0.5-0.2-0.6C185.7,30.4,185.5,30.3,185.2,30.3z M188.1,30.5
+                c-0.1,0.2-0.1,0.4-0.1,0.7v2.7c0,0.3,0.1,0.5,0.2,0.6c0.1,0.1,0.3,0.2,0.5,0.2h2.3v-0.3h-1.7c-0.2,0-0.3-0.1-0.3-0.3v-1.4h1.7v-0.4
+                h-1.6v-1.4c0-0.1,0.1-0.2,0.2-0.2h1.7v-0.3v-0.1h-2.3C188.4,30.3,188.2,30.3,188.1,30.5z M195.6,32.9c0,0.1-0.1,0.1-0.1,0.1
+                s-0.1,0-0.2-0.2c-0.1-0.1-0.3-0.4-0.6-0.9s-0.6-0.9-0.8-1.2c-0.1-0.1-0.2-0.2-0.3-0.3c-0.1-0.1-0.2-0.1-0.4-0.1s-0.4,0.1-0.5,0.2
+                s-0.2,0.3-0.2,0.5v3.7h0.4h0.1v-3.5c0-0.1,0.1-0.1,0.1-0.1c0.1,0,0.1,0,0.2,0.1c0.1,0.1,0.3,0.3,0.5,0.7c0.2,0.3,0.6,1,1.2,1.8
+                l0.3,0.5c0,0.1,0.1,0.1,0.1,0.2c0.1,0.1,0.1,0.2,0.2,0.2c0.1,0.1,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0,0,0-0.1,0-0.3v-4h-0.4V32.9
+                z M118,28.2c-0.1,0.2-0.2,0.4-0.2,0.9v5.6h0.9v-3.9h1v-0.4h-1.1v-1.3c0-0.1,0-0.2,0-0.3c0-0.2,0.2-0.3,0.4-0.4c0.1,0,0.2,0,0.3,0
+                h0.4V28c-0.3,0-0.6,0-0.8,0C118.4,28,118.1,28.1,118,28.2z M66.8,28.2c-0.1,0.2-0.2,0.4-0.2,0.9v5.6h0.9v-4h1v-0.4h-1.1v-1.2
+                c0-0.1,0-0.2,0-0.3c0-0.2,0.2-0.3,0.4-0.4c0.1,0,0.2,0,0.3,0h0.4V28c-0.3,0-0.6,0-0.8,0C67.2,28,66.9,28.1,66.8,28.2z M75.4,32.1
+                L75.2,32c-0.2-0.1-0.3-0.2-0.4-0.2c-0.1,0-0.1-0.1-0.2-0.1c-0.1-0.1-0.2-0.2-0.2-0.4v-0.1c0-0.1,0-0.1,0.1-0.2s0.1-0.1,0.2-0.2
+                c0.1-0.1,0.3-0.1,0.7-0.1h0.1c0.1,0,0.2,0,0.6,0v-0.3c-1-0.1-1.6-0.1-2,0.2c-0.3,0.2-0.5,0.5-0.5,0.9c0,0.2,0.1,0.5,0.3,0.7
+                c0.2,0.2,0.4,0.3,0.7,0.5c0.3,0.2,0.5,0.3,0.6,0.4c0.3,0.2,0.4,0.4,0.4,0.5c0,0.2-0.1,0.6-1,0.6c-0.2,0-0.5,0-0.9-0.1v0.3
+                c0.2,0,0.4,0.1,0.6,0.1s0.4,0,0.7,0s0.5,0,0.8-0.1c0.2,0.1,0.4,0,0.5-0.2c0.2-0.2,0.2-0.4,0.2-0.7s-0.2-0.6-0.3-0.8
+                C76,32.5,75.7,32.3,75.4,32.1z M79.2,32.1H79c-0.2-0.1-0.3-0.2-0.4-0.2c-0.1,0-0.1-0.1-0.2-0.1c-0.1-0.1-0.2-0.2-0.2-0.4v-0.1
+                c0-0.1,0-0.1,0.1-0.2c0.1-0.1,0.1-0.1,0.2-0.2c0.1-0.1,0.3-0.1,0.7-0.1h0.1c0.1,0,0.2,0,0.6,0v-0.3c-1-0.1-1.6-0.1-2,0.2
+                c-0.3,0.2-0.5,0.5-0.5,0.9c0,0.2,0.1,0.5,0.3,0.7s0.4,0.3,0.7,0.5c0.3,0.2,0.5,0.3,0.6,0.4c0.3,0.2,0.4,0.4,0.4,0.5
+                c0,0.2-0.1,0.6-1,0.6c-0.2,0-0.5,0-0.9-0.1v0.3c0.2,0,0.4,0.1,0.6,0.1c0.2,0,0.4,0,0.7,0s0.5,0,0.8-0.1c0.2,0,0.4-0.1,0.5-0.3
+                c0.2-0.2,0.2-0.4,0.2-0.7s-0.2-0.6-0.3-0.8C79.8,32.5,79.5,32.3,79.2,32.1z M113.9,30.3c-1.2,0-2.2,1-2.2,2.3c0,1.3,1,2.3,2.2,2.3
+                c1.2,0,2.2-1,2.2-2.3C116.2,31.3,115.2,30.3,113.9,30.3z M113.9,34.5c-0.7,0-1.2-0.9-1.2-1.9c0-1.1,0.5-1.9,1.2-1.9
+                c0.7,0,1.2,0.9,1.2,1.9C115.1,33.7,114.6,34.5,113.9,34.5z M108.8,31c-0.5-0.2-0.7-0.3-0.9-0.4c-0.3-0.2-0.6-0.5-0.6-0.9
+                c0-0.5,0.3-0.9,0.8-1c0.1,0,0.2,0,0.3,0c0.6,0,1,0.3,1.3,0.9l0.4-0.3c-0.1-0.2-0.3-0.4-0.5-0.6c-0.2-0.2-0.4-0.3-0.7-0.4
+                c-0.3-0.1-0.5-0.1-0.8-0.1c-0.4,0-0.8,0.1-1.1,0.3s-0.6,0.4-0.8,0.7s-0.3,0.6-0.3,0.9c0,0.5,0.1,0.9,0.4,1.2
+                c0.2,0.2,0.6,0.4,1.2,0.7c0.5,0.2,0.7,0.3,1,0.5l0.1,0.1c0.3,0.2,0.4,0.5,0.4,0.9c0,0.6-0.5,1.1-1.2,1.1c-0.3,0-0.6-0.1-0.8-0.2
+                c-0.2-0.1-0.4-0.3-0.6-0.6l-0.5,0.3c0.4,0.7,1.1,1,2.1,1c0.4,0,0.7-0.1,1-0.3c0.6-0.3,0.9-0.5,1.1-0.8c0.2-0.4,0.4-0.7,0.4-1
+                c0-0.5-0.2-0.9-0.5-1.2S109.3,31.3,108.8,31z M86.4,30.3c-1.2,0-2.2,1-2.2,2.3c0,1.3,1,2.3,2.2,2.3c1.2,0,2.2-1,2.2-2.3
+                C88.6,31.3,87.6,30.3,86.4,30.3z M86.4,34.5c-0.7,0-1.2-0.9-1.2-1.9c0-1.1,0.5-1.9,1.2-1.9c0.7,0,1.2,0.9,1.2,1.9
+                S87.1,34.5,86.4,34.5z M62.8,30.3c-1.2,0-2.2,1-2.2,2.3c0,1.3,1,2.3,2.2,2.3s2.2-1,2.2-2.3C65,31.3,64,30.3,62.8,30.3z M62.8,34.5
+                c-0.7,0-1.2-0.9-1.2-1.9c0-1.1,0.5-1.9,1.2-1.9s1.2,0.9,1.2,1.9S63.4,34.5,62.8,34.5z M173.1,30.3c-1.2,0-2.2,1-2.2,2.3
+                c0,1.3,1,2.3,2.2,2.3c1.2,0,2.2-1,2.2-2.3C175.4,31.3,174.4,30.3,173.1,30.3z M173.1,34.5c-0.7,0-1.2-0.9-1.2-1.9
+                c0-1.1,0.5-1.9,1.2-1.9c0.7,0,1.2,0.9,1.2,1.9S173.8,34.5,173.1,34.5z M19.6,21.3C14.3,18.9,9.2,16.1,9.2,9.8c0-2.9,0.9-6.8,5.1-9.6
+                H0.5v39.5h11c10.8,0,16.7-3.4,16.7-9.7C28.2,26.5,25.7,24,19.6,21.3z M31.5,29.1h8.8v-2.6h-9.4C31.2,27.3,31.4,28.2,31.5,29.1z
+                 M29.4,23.8h10.9v-2.6H26.5C27.6,22,28.6,22.8,29.4,23.8z M30.7,34.4h9.6v-2.6h-8.9C31.3,32.6,31.1,33.5,30.7,34.4z M16.3,2.8h24
+                V0.2H28.9C24.5,0.2,19.6,0.7,16.3,2.8z M26.2,39.6h14.1V37H29.1C28.4,37.9,27.4,38.8,26.2,39.6z M12.7,8h27.6V5.4H13.7
+                C13.2,6.2,12.9,7,12.7,8z M20.9,18.2c0.3,0.1,0.6,0.3,0.9,0.4h18.5V16H16.6C17.7,16.7,19.2,17.4,20.9,18.2z M13.6,13.3h26.7v-2.6
+                H12.6C12.7,11.7,13,12.5,13.6,13.3z"></path>
+</symbol>
+<symbol id="ic-logo-mobile" viewBox="0 0 170 34" enable-background="new 0 0 170 34">
+<path d="M67.4,25.3h2.7V14.2h-2.7V25.3z M68.8,8.9c-0.5,0-0.9,0.1-1.1,0.5c-0.3,0.3-0.4,0.7-0.4,1.2s0.1,0.8,0.4,1.2
+            c0.3,0.3,0.7,0.5,1.1,0.5c0.5,0,0.9-0.1,1.1-0.5c0.3-0.3,0.4-0.7,0.4-1.2s-0.1-0.9-0.4-1.2S69.3,8.9,68.8,8.9z M74.1,14.9
+            c-0.3,0.4-0.4,1-0.4,1.7v6.5c0,0.7,0.1,1.3,0.5,1.6c0.4,0.4,0.9,0.5,1.4,0.5h5.4v-1.4h-4.1c-0.4,0.1-0.4-0.1-0.4-0.4v-3.1h3.8v-1.6
+            h-3.8v-3c0-0.1,0-0.2,0.2-0.2h4.4v-1.4h-5.2C75.1,14.2,74.4,14.4,74.1,14.9z M91.6,20.6L91.6,20.6c-0.3-0.4-0.8-1.2-1.5-2.2
+            s-1.4-2.1-2-2.9c-0.2-0.4-0.5-0.6-0.8-0.8c-0.3-0.2-0.6-0.3-1.1-0.3c-0.6,0-1,0.1-1.4,0.4c-0.4,0.3-0.6,0.8-0.6,1.4v9.2h1.6v-8.6
+            c0.1,0.2,0.5,0.8,1.1,1.7c0.6,0.9,1.6,2.4,2.8,4.5l0.9,1.3c0.1,0.2,0.3,0.4,0.4,0.6c0.1,0.2,0.3,0.4,0.5,0.5s0.4,0.2,0.6,0.2
+            c0.4,0,0.7-0.1,0.9-0.4c0.1-0.2,0.1-0.5,0.1-0.9v-10h-1.6L91.6,20.6z M155,14.2v1.6h2.1v9.5h2.7v-9.5h2.1v-1.6H155z M109.5,14.9
+            c-0.3,0.4-0.4,1-0.4,1.7v6.5c0,0.7,0.1,1.3,0.5,1.6c0.4,0.4,0.8,0.5,1.4,0.5h5.4v-1.4h-4.1c-0.4,0.1-0.4-0.1-0.4-0.4v-3.1h3.8v-1.6
+            h-3.8v-3c0-0.1,0-0.2,0.2-0.2h4.4v-1.4h-5.2C110.4,14.2,109.8,14.4,109.5,14.9z M100.8,15.9c0.4-0.4,0.9-0.6,1.5-0.6
+            c1.1,0,2.1,0.8,2.8,2l1.3-0.7c-0.6-0.9-1.1-1.6-1.9-2.1c-0.6-0.4-1.5-0.7-2.4-0.7c-1.1,0-2.1,0.3-2.8,0.8c-0.9,0.5-1.5,1.2-1.9,2.1
+            c-0.4,0.9-0.7,1.8-0.7,2.8v0.1v0.4v0.1c0.1,0.9,0.3,1.6,0.6,2.3c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0.1,0.1,0.1,0.1
+            c0.1,0.1,0.1,0.2,0.2,0.4c0.1,0.1,0.1,0.2,0.2,0.3c0.1,0.1,0.1,0.1,0.1,0.1c0.1,0.1,0.3,0.3,0.4,0.4c0.1,0.1,0.1,0.1,0.3,0.2
+            c0.1,0.1,0.1,0.1,0.1,0.1c0.1,0.1,0.1,0.1,0.2,0.1c0.9,0.5,1.8,0.8,2.8,0.8c1,0,1.8-0.2,2.4-0.7c0.9-0.5,1.3-1.2,1.9-2.1l-1.3-0.7
+            c-0.4,1.2-1.2,1.9-2.1,2.1h-0.4c-1.1,0-1.8-0.4-2.2-1.3c-0.4-0.9-0.6-2-0.6-3.3c0-0.7,0.1-1.4,0.3-2.1S100.4,16.3,100.8,15.9z
+             M58.5,15.9c0.4-0.4,0.9-0.6,1.5-0.6c1.1,0,2.1,0.8,2.8,2l1.3-0.7c-0.6-0.9-1.1-1.6-1.9-2.1c-0.6-0.4-1.5-0.7-2.4-0.7
+            c-1.1,0-2.1,0.3-2.8,0.8c-0.9,0.5-1.5,1.2-1.9,2.1c-0.4,0.9-0.7,1.8-0.7,2.8v0.1v0.4v0.1c0.1,0.9,0.3,1.6,0.6,2.3
+            c0.1,0.1,0.1,0.2,0.1,0.3c0,0.1,0.1,0.1,0.1,0.1c0.1,0.1,0.1,0.2,0.2,0.4s0.1,0.2,0.3,0.3l0.1,0.1c0.1,0.1,0.3,0.3,0.4,0.4
+            c0.1,0.1,0.1,0.1,0.3,0.2c0.1,0.1,0.1,0.1,0.1,0.1c0.1,0.1,0.1,0.1,0.2,0.1c0.9,0.5,1.8,0.8,2.8,0.8c1,0,1.8-0.2,2.4-0.7
+            c0.9-0.5,1.3-1.2,1.9-2.1l-1.3-0.7c-0.4,1.2-1.3,1.9-2.1,2.1h-0.4c-1.1,0-1.8-0.4-2.2-1.3c-0.4-0.9-0.6-2-0.6-3.3
+            c0-0.7,0.1-1.4,0.3-2.1C57.8,16.8,58,16.3,58.5,15.9z M139,14c-3.1,0-5.7,2.6-5.7,5.8s2.6,5.8,5.7,5.8s5.7-2.6,5.7-5.8
+            S142.1,14,139,14z M139,24.2c-1.4,0-2.6-2-2.6-4.4c0-2.5,1.1-4.4,2.6-4.4c1.4,0,2.6,2,2.6,4.4C141.6,22.3,140.5,24.2,139,24.2z
+             M147.7,11.9v13.4h2.7v-9.5h2.4v-1.6h-2.4v-2.4v-0.7c0-0.3,0.3-0.5,0.6-0.6h0.7h1.1V9C148.5,8.6,147.7,9.1,147.7,11.9z M47,16
+            c-1.1-0.5-1.7-0.8-2.2-1.1c-0.8-0.4-1.3-1.2-1.3-2.1c0-1.1,0.8-2,1.9-2.3c0.2-0.1,0.5-0.1,0.7-0.1c1.4,0,2.4,0.7,3.1,2.2l0.1,0.1
+            l1.1-0.8v-0.1c-0.3-0.6-0.6-1.1-1.1-1.5s-1.1-0.7-1.7-1c-0.6-0.2-1.3-0.4-1.9-0.4c-0.9,0-1.8,0.2-2.6,0.7c-0.9,0.4-1.4,1-1.9,1.7
+            c-0.4,0.7-0.7,1.5-0.7,2.3c0,1.2,0.4,2.2,1,2.9c0.6,0.6,1.4,1.1,2.8,1.7c1.2,0.5,1.7,0.8,2.4,1.2c0.1,0.1,0.2,0.1,0.3,0.2
+            c0.6,0.5,0.9,1.2,0.9,2c0,1.4-1.2,2.7-2.7,2.7c-0.7,0-1.3-0.1-1.8-0.5c-0.5-0.3-0.9-0.8-1.4-1.4L41.9,22l-1.2,0.9l0.1,0.1
+            c1,1.7,2.7,2.5,5,2.5c0.9,0,1.7-0.2,2.5-0.7c0.9-0.3,1.5-0.9,2-1.6c0.6-0.9,0.9-1.7,0.9-2.5c0-1.2-0.4-2.2-1.1-3
+            C49.3,17.1,48.3,16.6,47,16z M126.8,16c-1.1-0.5-1.7-0.8-2.2-1.1c-0.8-0.4-1.3-1.2-1.3-2.1c0-1.1,0.8-2,1.9-2.3
+            c0.2-0.1,0.4-0.1,0.7-0.1c1.4,0,2.4,0.7,3.1,2.2l0.1,0.1l1.1-0.8v-0.1c-0.3-0.6-0.6-1.1-1.1-1.5s-1.1-0.7-1.7-1
+            c-0.6-0.2-1.3-0.4-1.9-0.4c-0.9,0-1.8,0.2-2.6,0.7c-0.9,0.4-1.4,1-1.9,1.7c-0.4,0.7-0.7,1.5-0.7,2.3c0,1.2,0.4,2.2,1,2.9
+            c0.6,0.6,1.4,1.1,2.8,1.7c1.2,0.5,1.7,0.8,2.4,1.2c0.1,0.1,0.2,0.1,0.3,0.2c0.6,0.5,0.9,1.2,0.9,2c0,1.4-1.2,2.7-2.7,2.7
+            c-0.7,0-1.3-0.1-1.8-0.5c-0.5-0.3-0.9-0.8-1.4-1.4l-0.1-0.1l-1.2,0.9l0.1,0.1c1,1.7,2.7,2.5,5,2.5c0.9,0,1.7-0.2,2.5-0.7
+            c1-0.3,1.6-0.9,2-1.6c0.6-0.9,0.9-1.7,0.9-2.5c0-1.2-0.4-2.2-1.1-3C129.1,17.1,128.1,16.6,126.8,16z M15.7,18.3
+            c-4.3-2-8.4-4.3-8.4-9.5c0-2.4,0.7-5.7,4.1-8H0.3v32.8h9c8.8,0,13.5-2.7,13.5-8.1C22.8,22.6,20.7,20.5,15.7,18.3z M25.5,24.8h7.1
+            v-2.2H25C25.3,23.3,25.4,24,25.5,24.8z M23.8,20.4h8.8v-2.2H21.4C22.3,18.9,23.2,19.6,23.8,20.4z M24.9,29.2h7.8V27h-7.2
+            C25.4,27.7,25.2,28.5,24.9,29.2z M13.2,3h19.5V0.8h-9.3C19.8,0.8,15.8,1.2,13.2,3z M21.2,33.5h11.5v-2.2h-9
+            C23,32.1,22.2,32.9,21.2,33.5z M10.3,7.3h22.4V5.1H11C10.7,5.8,10.4,6.5,10.3,7.3z M13.4,13.9h0.1C13.5,13.9,13.4,13.9,13.4,13.9
+            L13.4,13.9z M17.6,16.1h15v-2.2h-19c0.9,0.6,2,1.2,3.4,1.8C17.1,15.9,17.4,16,17.6,16.1z M11,11.7h21.7V9.5H10.2
+            C10.3,10.3,10.5,11,11,11.7z"></path>
+</symbol>
+</svg>
+</a>
+</div>
+</div>
+<div class="header__bar">
+<nav class="header__menu header-menu" data-module-init='{"mainMenu":{
+        "topLevel": "[data-top-level]",
+        "subLevel": "[data-sub-level]",
+        "activeClass": "__active",
+        "activeMenuBody": "header-menu-activated"
+     }}'>
+<div id="menu-categories">
+<ul class="menu-categories__items">
+
+<li data-top-level class="
+            menu-categories__item menu-categories__level-1
+                                            ">
+<div class="menu-categories__title--level-1">
+<span class="menu-title">About</span>
+</div>
+<div data-sub-level class="menu-categories__item menu-categories__level-2 sub-columns">
+<div class="container">
+<div class="row">
+<div class="sub-columns__column--main">
+<div class="sub-columns__title">
+About
+</div>
+<div class="sub-columns__description" data-nosnippet>
+ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.
+</div>
+<div class="sub-columns__cta-question">
+Can&#039;t find what you need?
+</div>
+<div class="sub-columns__cta-button">
+<button class="btn-default" data-module-init='{"buttonLiveChat":{ "text": "Ask us", "liveChat": "1", "editable": "Button-Text"}}'>Ask us</button>
+</div>
+</div>
+<div class="sub-columns__columns subcolumns_3">
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Company
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/company">
+<span class="menu-title">About Company</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/management-team">
+<span class="menu-title">Management Team</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/careers">
+<span class="menu-title">Careers</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/partnerships">
+<span class="menu-title">Partnerships</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+ <a href="/about/referral-program">
+<span class="menu-title">ScienceSoft Referral Program</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/locations">
+<span class="menu-title">Our Locations</span>
+</a>
+</div>
+</div>
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Approach
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/how-we-work/development-process">
+<span class="menu-title">Development Process</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/sustainability">
+<span class="menu-title">Sustainability Policy</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/privacy-policy">
+<span class="menu-title">Privacy Policy</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/terms-of-use">
+ <span class="menu-title">Terms of Use</span>
+</a>
+</div>
+</div>
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Recognition
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/testimonials">
+<span class="menu-title">Testimonials</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/about/awards">
+<span class="menu-title">Awards and Acknowledgements</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/press-room">
+<span class="menu-title">Press Room</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/press-room/pressreleases">
+<span class="menu-title">News</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+
+<li data-top-level class="
+            menu-categories__item menu-categories__level-1
+                                            ">
+<div class="menu-categories__title--level-1">
+<span class="menu-title">Services</span>
+</div>
+<div data-sub-level class="menu-categories__item menu-categories__level-2 sub-columns">
+<div class="container">
+<div class="row">
+<div class="sub-columns__column--main">
+<div class="sub-columns__title">
+Services
+</div>
+<div class="sub-columns__description" data-nosnippet>
+We handle complex business challenges building all types of custom and platform-based solutions and providing a comprehensive set of end-to-end IT services.
+</div>
+<div class="sub-columns__cta-question">
+Can&#039;t find what you need?
+</div>
+<div class="sub-columns__cta-button">
+<button class="btn-default" data-module-init='{"buttonLiveChat":{ "text": "Ask us", "liveChat": "1", "editable": "Button-Text"}}'>Ask us</button>
+</div>
+</div>
+<div class="sub-columns__columns subcolumns_4">
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Service types
+</div>
+ <div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/software-development">
+<span class="menu-title">Software Development</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/software-testing">
+<span class="menu-title">Testing and QA</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/application">
+<span class="menu-title">Application Services</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/web-design">
+<span class="menu-title">UI/UX Design</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/it-infrastructure">
+<span class="menu-title">Infrastructure Services</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/managed-it">
+<span class="menu-title">Managed IT Services</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/it-outsourcing">
+<span class="menu-title">IT Outsourcing</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/it-consulting">
+<span class="menu-title">IT Consulting</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/it-support">
+<span class="menu-title">IT Support</span>
+</a>
+</div>
+</div>
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Solutions
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/analytics">
+<span class="menu-title">Data Analytics</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/crm">
+<span class="menu-title">CRM</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/security">
+ <span class="menu-title">Cybersecurity</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/iot">
+<span class="menu-title">Internet of Things</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/virtual-reality/development">
+<span class="menu-title">Virtual Reality</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/image-analysis">
+<span class="menu-title">Image Analysis</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/web-portal-development">
+<span class="menu-title">Web Portals</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/ecommerce">
+<span class="menu-title">Ecommerce</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/fleet-management">
+<span class="menu-title">Fleet Management</span>
+</a>
+ </div>
+</div>
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Platforms
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/sharepoint-office-365">
+<span class="menu-title">SharePoint and Office 365</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/microsoft-dynamics-365">
+<span class="menu-title">Microsoft Dynamics 365</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/business-intelligence/microsoft/power-bi">
+<span class="menu-title">Microsoft Power BI</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/salesforce">
+<span class="menu-title">Salesforce</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/magento">
+<span class="menu-title">Magento </span>
+</a>
+</div>
+ <div class="menu-categories__title--level-2
+                                                    ">
+<a href="/servicenow/services">
+<span class="menu-title">ServiceNow</span>
+</a>
+</div>
+</div>
+<div class="sub-columns__column">
+<div class="sub-columns__title">
+Technologies
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/java-development">
+<span class="menu-title">Java</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/.net-development">
+<span class="menu-title">.NET</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/php">
+<span class="menu-title">PHP</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/hire-python-developers">
+<span class="menu-title">Python</span>
+</a>
+</div>
+ <div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/golang">
+<span class="menu-title">Golang</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/services/cpp-development">
+<span class="menu-title">C++</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/services/software-development/team-configuration">
+<span class="menu-title">Configure Your Team</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+
+<li data-top-level class="
+            menu-categories__item menu-categories__level-1
+                                            ">
+<div class="menu-categories__title--level-1">
+<span class="menu-title">Industries</span>
+</div>
+<div data-sub-level class="menu-categories__item menu-categories__level-2 sub-columns">
+<div class="container">
+<div class="row">
+<div class="sub-columns__column--main">
+<div class="sub-columns__title">
+Industries
+</div>
+<div class="sub-columns__description" data-nosnippet>
+To power businesses with a meaningful digital change, ScienceSoft’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.
+</div>
+<div class="sub-columns__cta-question">
+Can&#039;t find what you need?
+</div>
+<div class="sub-columns__cta-button">
+<button class="btn-default" data-module-init='{"buttonLiveChat":{ "text": "Ask us", "liveChat": "1", "editable": "Button-Text"}}'>Ask us</button>
+</div>
+</div>
+<div class="sub-columns__columns subcolumns_2">
+<div class="sub-columns__column">
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/healthcare">
+<span class="menu-title">Healthcare</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/banking">
+<span class="menu-title">Banking and Financial Services</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/retail">
+<span class="menu-title">Retail</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="https://www.scnsoft.com/ecommerce">
+<span class="menu-title">Ecommerce</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/manufacturing">
+<span class="menu-title">Manufacturing</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/retail/marketing-software">
+<span class="menu-title">Marketing &amp; Advertising</span>
+</a>
+</div>
+</div>
+<div class="sub-columns__column">
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/telecommunications">
+<span class="menu-title">Telecommunications</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/education">
+<span class="menu-title">eLearning </span>
+</a>
+</div>
+ <div class="menu-categories__title--level-2
+                                                    ">
+<a href="/transportation-and-logistics">
+<span class="menu-title">Transportation and Logistics</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/oil-gas">
+<span class="menu-title">Oil &amp; Gas</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/professional-services">
+<span class="menu-title">Professional Services</span>
+</a>
+</div>
+<div class="menu-categories__title--level-2
+                                                    ">
+<a href="/insurance">
+<span class="menu-title">Insurance</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li data-top-level class="
+            menu-categories__item menu-categories__level-1
+                        menu-categories__item-active                    ">
+<div class="menu-categories__title--level-1">
+<a href="/case-studies">
+<span class="menu-title">Case Studies</span>
+</a>
+</div>
+</li>
+<li data-top-level class="
+            menu-categories__item menu-categories__level-1
+                                            ">
+<div class="menu-categories__title--level-1">
+<a href="/blog">
+<span class="menu-title">Blog</span>
+ </a>
+</div>
+</li>
+<li data-top-level class="
+            menu-categories__item menu-categories__level-1
+            menu-categories__level-1--important                                ">
+<div class="menu-categories__title--level-1">
+<a href="/contact-us">
+<span class="menu-title">Let&#039;s talk</span>
+</a>
+</div>
+</li>
+</ul>
+</div>
+</nav>
+<div class="header__search header-search" data-module-init='{"search":{
+        "searchRow":                "[data-search-row]",
+        "searchActivateBtn":        "[data-search-active]",
+        "searchForm":               "[data-search-form]",
+        "searchInput":              "[data-search-field]",
+        "searchClose":              "[data-search-close]",
+        "activeClass":              "show",
+        "parentBar":                ".header__bar",
+        "parentBarActiveClass":     "open-search"
+     }}'>
+<button data-search-active class="btn header-search__toggle">
+<i class="icon-s-search header-search__icon"></i>
+</button>
+<div data-search-row class="header-search__row header-search-row">
+<form class="header-search-row__form" action="/search" method="GET" data-search-form>
+<input class="header-search-row__field" name="q" type="text" maxlength="500" placeholder="" data-search-field />
+<button class="btn header-search-row__close" data-search-close type="reset" title="Close">
+<i class="icon-s-close"></i>
+</button>
+</form>
+</div>
+</div> </div>
+<div class="header__menu-toggle header-menu-toggle">
+<button id="hello" class="btn btn-burger header-menu-toggle__btn" data-module-init='{"mobileMenu":{
+                "mobileMenu":           "[data-menu-mobile]",
+                "activeClass":          "opened",
+                "openSubMenuBtn":       "[data-open-submenu]",
+                "activeClassSubMenu":   "open-sub-items",
+                "mobileSublistClass":   ".menu-mobile-sublist",
+                "activeMenuBody":       "header-menu-activated"
+            }}' data-piwik-event="Mobile menu,click,open">
+<div class="burger">
+<span></span>
+</div>
+</button>
+</div> </div>
+</div>
+</header>
+<!--[if IE]><!-- ~zone: header --><![endif]-->
+<!--[if IE]><!-- zone: header_mobile --><![endif]-->
+<div data-menu-mobile class="menu-mobile" data-nosnippet>
+<div class="menu-mobile__wrapper">
+<div data-menu-close onclick="if (!window.__cfRLUnblockHandlers) return false; storageModule.mobileMenuClose()" class="menu-mobile__close" data-piwik-event="Mobile menu,click,close" data-cf-modified-9ee4b4305ed2cdc64fd0a83c-="">
+<button type="button" class="btn menu-mobile__btn-close">
+<i class="icon-s-close"></i>
+</button>
+</div>
+<div class="menu-mobile__inner">
+<ul class="menu-mobile__items menu-mobile-list__items">
+<li data-open-submenu class="menu-mobile-list__item">
+<div data-subitems-toggle class="menu-mobile-list__title menu-mobile-list__title--toggle">About</div>
+<ul class="menu-mobile-sublist">
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Company</span>
+ </li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/company">
+<span class="menu-mobile-sublist__title">About Company</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/management-team">
+<span class="menu-mobile-sublist__title">Management Team</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/careers">
+<span class="menu-mobile-sublist__title">Careers</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/partnerships">
+<span class="menu-mobile-sublist__title">Partnerships</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/referral-program">
+<span class="menu-mobile-sublist__title">ScienceSoft Referral Program</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/locations">
+<span class="menu-mobile-sublist__title">Our Locations</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Approach</span>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/how-we-work/development-process">
+<span class="menu-mobile-sublist__title">Development Process</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/sustainability">
+<span class="menu-mobile-sublist__title">Sustainability Policy</span>
+</a>
+ </li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/privacy-policy">
+<span class="menu-mobile-sublist__title">Privacy Policy</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/terms-of-use">
+<span class="menu-mobile-sublist__title">Terms of Use</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Recognition</span>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/testimonials">
+<span class="menu-mobile-sublist__title">Testimonials</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/about/awards">
+<span class="menu-mobile-sublist__title">Awards and Acknowledgements</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/press-room">
+<span class="menu-mobile-sublist__title">Press Room</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/press-room/pressreleases">
+<span class="menu-mobile-sublist__title">News</span>
+</a>
+</li>
+</ul>
+</li>
+<li data-open-submenu class="menu-mobile-list__item">
+<div data-subitems-toggle class="menu-mobile-list__title menu-mobile-list__title--toggle">Services</div>
+<ul class="menu-mobile-sublist">
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Service types</span>
+</li>
+
+<li class="menu-mobile-sublist__items">
+<a href="/services/software-development">
+<span class="menu-mobile-sublist__title">Software Development</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/software-testing">
+<span class="menu-mobile-sublist__title">Testing and QA</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/application">
+<span class="menu-mobile-sublist__title">Application Services</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/web-design">
+<span class="menu-mobile-sublist__title">UI/UX Design</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/it-infrastructure">
+<span class="menu-mobile-sublist__title">Infrastructure Services</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/managed-it">
+<span class="menu-mobile-sublist__title">Managed IT Services</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/it-outsourcing">
+<span class="menu-mobile-sublist__title">IT Outsourcing</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/it-consulting">
+<span class="menu-mobile-sublist__title">IT Consulting</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/it-support">
+<span class="menu-mobile-sublist__title">IT Support</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Solutions</span>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/analytics">
+<span class="menu-mobile-sublist__title">Data Analytics</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/crm">
+<span class="menu-mobile-sublist__title">CRM</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/security">
+<span class="menu-mobile-sublist__title">Cybersecurity</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/iot">
+<span class="menu-mobile-sublist__title">Internet of Things</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/virtual-reality/development">
+<span class="menu-mobile-sublist__title">Virtual Reality</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/image-analysis">
+<span class="menu-mobile-sublist__title">Image Analysis</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/web-portal-development">
+<span class="menu-mobile-sublist__title">Web Portals</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/ecommerce">
+<span class="menu-mobile-sublist__title">Ecommerce</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/fleet-management">
+<span class="menu-mobile-sublist__title">Fleet Management</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Platforms</span>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/sharepoint-office-365">
+<span class="menu-mobile-sublist__title">SharePoint and Office 365</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/microsoft-dynamics-365">
+<span class="menu-mobile-sublist__title">Microsoft Dynamics 365</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/business-intelligence/microsoft/power-bi">
+<span class="menu-mobile-sublist__title">Microsoft Power BI</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/salesforce">
+<span class="menu-mobile-sublist__title">Salesforce</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/magento">
+<span class="menu-mobile-sublist__title">Magento </span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/servicenow/services">
+<span class="menu-mobile-sublist__title">ServiceNow</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<span class="menu-mobile-sublist__category">Technologies</span>
+ </li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/java-development">
+<span class="menu-mobile-sublist__title">Java</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/.net-development">
+<span class="menu-mobile-sublist__title">.NET</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/php">
+<span class="menu-mobile-sublist__title">PHP</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/hire-python-developers">
+<span class="menu-mobile-sublist__title">Python</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/golang">
+<span class="menu-mobile-sublist__title">Golang</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/services/cpp-development">
+<span class="menu-mobile-sublist__title">C++</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/services/software-development/team-configuration">
+<span class="menu-mobile-sublist__title">Configure Your Team</span>
+</a>
+</li>
+</ul>
+</li>
+<li data-open-submenu class="menu-mobile-list__item">
+<div data-subitems-toggle class="menu-mobile-list__title menu-mobile-list__title--toggle">Industries</div>
+<ul class="menu-mobile-sublist">
+<li class="menu-mobile-sublist__items">
+ <a href="/healthcare">
+<span class="menu-mobile-sublist__title">Healthcare</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/banking">
+<span class="menu-mobile-sublist__title">Banking and Financial Services</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/retail">
+<span class="menu-mobile-sublist__title">Retail</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="https://www.scnsoft.com/ecommerce">
+<span class="menu-mobile-sublist__title">Ecommerce</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/manufacturing">
+<span class="menu-mobile-sublist__title">Manufacturing</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/retail/marketing-software">
+<span class="menu-mobile-sublist__title">Marketing &amp; Advertising</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/telecommunications">
+<span class="menu-mobile-sublist__title">Telecommunications</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/education">
+<span class="menu-mobile-sublist__title">eLearning </span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/transportation-and-logistics">
+<span class="menu-mobile-sublist__title">Transportation and Logistics</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/oil-gas">
+<span class="menu-mobile-sublist__title">Oil &amp; Gas</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/professional-services">
+<span class="menu-mobile-sublist__title">Professional Services</span>
+</a>
+</li>
+<li class="menu-mobile-sublist__items">
+<a href="/insurance">
+<span class="menu-mobile-sublist__title">Insurance</span>
+</a>
+</li>
+</ul>
+</li>
+<li data-open-submenu class="menu-mobile-list__item">
+<a class="menu-mobile-list__link" href="/case-studies">
+<span class="menu-mobile-list__title">Case Studies</span>
+</a>
+</li>
+<li data-open-submenu class="menu-mobile-list__item">
+<a class="menu-mobile-list__link" href="/blog">
+<span class="menu-mobile-list__title">Blog</span>
+</a>
+</li>
+<li data-open-submenu class="menu-mobile-list__item">
+<a class="menu-mobile-list__link" href="/contact-us">
+<span class="menu-mobile-list__important">Let&#039;s talk</span>
+</a>
+</li>
+<div class="menu-mobile__items__cta">
+<div class="menu-mobile__items__cta-question">
+Can&#039;t find what you need?
+</div>
+<div class="menu-mobile__items__cta-button">
+<button class="btn-default" data-module-init='{"buttonLiveChat":{ "text": "Ask us", "liveChat": "1", "editable": "Button-Text"}}'>Ask us</button>
+</div>
+</div>
+</ul>
+</div>
+</div>
+</div><!--[if IE]><!-- ~zone: header_mobile --><![endif]-->
+<!--[if IE]><!-- zone: content --><![endif]-->
+<main id="maincontent" class="page-main">
+<div class="cs-article">
+<div class="container">
+<div class="breadcrumbs j-breadcrumb ">
+<ul class="breadcrumbs__list " itemscope itemtype="http://schema.org/BreadcrumbList">
+<li class="breadcrumbs__item" id="breadcrumb_1" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<a class="breadcrumbs__item-link" href="/" title="Home" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Home">
+<span class="breadcrumbs__title" itemprop="name">Home</span>
+<meta itemprop="position" content="1" />
+</a>
+</li>
+<li class="breadcrumbs__item" id="breadcrumb_2" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<i class="icon-s-slider-arrow breadcrumbs__icon"></i>
+<a class="breadcrumbs__item-link" href="/case-studies" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,Case Studies">
+<span class="breadcrumbs__title" itemprop="name">Case Studies</span>
+<meta itemprop="position" content="2" />
+</a>
+</li>
+<li class="breadcrumbs__item" id="breadcrumb_3" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+<i class="icon-s-slider-arrow breadcrumbs__icon"></i>
+<a class="breadcrumbs__item-link" itemtype="http://schema.org/Thing" itemprop="item" data-piwik-event="Breadcrumb menu,click,IBM Security QRadar SIEM Implementation for 70+ US State Agencies">
+<span class="breadcrumbs__title" itemprop="name">IBM Security QRadar SIEM Implementation for 70+ US State Agencies</span>
+<meta itemprop="position" content="3" />
+</a>
+</li>
+</ul>
+</div> </div>
+<div class="intro-wrapper">
+<div class="intro-background-wrapper">
+<div class="intro-background-container">
+<div class="intro-background-block">
+<div class="intro-img-wrapper">
+<div class="intro-img-shadow"></div>
+<img src="/boss/images/07ec4749-0f4f-4884-814d-fa9d1f9e9e0fqradar-for-governement_large.jpg" alt="IBM Security QRadar SIEM Implementation for 70+ US State Agencies">
+</div>
+</div>
+</div>
+</div>
+<div class="intro-title-wrapper">
+<div class="container">
+<h1 class="intro-title">IBM Security QRadar SIEM Implementation for 70+ US State Agencies</h1>
+</div>
+</div>
+<div class="intro-columns-wrapper">
+<div class="container">
+<div class="row intro-columns">
+<div class="col-lg-3 col-md-6 col-sm-12 intro-column-wrapper">
+<div class="intro-column">
+<div class="intro-column-title">Industry</div>
+<div class="intro-column-content">Public Services</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6 col-sm-12 intro-column-wrapper">
+<div class="intro-column">
+<div class="intro-column-title">Technologies</div>
+<div class="intro-column-content">SIEM, Information Security</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container cs-content-container">
+<div class="cs-content-wrapper">
+<div class="docx-wrapper">
+<h2>Customer</h2>
+<p>The end customer is the government of one of the US states that comprises 70+ state agencies.</p>
+<h2>Challenge</h2>
+<p>The end customer was looking to create a centralized SIEM solution that would replace scattered security systems operating at the state agencies and connect them to the unified security operation center (SOC) in order to provide all the agencies with the needed level of security monitoring stipulated by the state administration. Since 5 agencies had already been using <a href="https://www.scnsoft.com/services/security/siem/ibm-qradar">IBM Security QRadar SIEM</a>, the Customer decided to develop the future solution using the same platform. Taking into consideration the scope of the project, the Customer was looking for a highly professional SIEM team that could implement the system according to the provided requirements. </p>
+<h2>Solution</h2>
+<p>ScienceSoft was selected to participate in the project as one of IBM Advanced Partners with more than 13 years of expertise in SIEM solutions development and customization for companies in Banking and Finance, Telecommunication, Healthcare and Public Sector.</p>
+<p>The 6-month project was completed fully on the Customer’s site. The project started with the deployment of IBM QRadar SIEM according to the architecture provided by the Customer. The deployment included configuration of the existing and newly acquired appliances, software upgrading and patching in order to ensure the stable functioning of the platform. </p>
+<p>Once the platform was deployed, ScienceSoft’s experts passed to the analysis, configuration and connection of log sources to IBM QRadar SIEM. This stage was the most complicated since it was required to install and configure event and flow collectors at more than 70 independent agencies and then to ensure the transmission of all events to the event processors’ clusters in the SOC. </p>
+<p>During this stage, ScienceSoft’s team configured in total over 5,000 log sources and developed 30+ log source extensions (uDSMs/LSXs) for unsupported log sources as well as 20+ log source enhancements (LSEs) that allowed to normalize data coming to IBM QRadar SIEM. All the log sources that previously had been sending log events to agencies’ local systems were reconfigured, all the data was migrated to the new system.</p>
+<p>To facilitate the connection of the state agencies to the SOC and improve event transmission, ScienceSoft’s SIEM specialists developed the whole range of custom tools. Among them, there are:</p>
+<ul>
+<li>A tool that automatically mounts and runs patches, checks and configures NTP settings, enables routing for the event collector and iptables configuration for both event collector and flow collector</li>
+<li>An FPI Reporter that automatically scans all the servers and builds up charts of server load</li>
+<li>A tool that enabled a simultaneous patching of all QRadar supported systems in just several hours (versus native consecutive patching that took up to one week) </li>
+<li>WinCollect stand-alone deployment script and toolbox that allowed to automatically detect and connect all the log sources running on Windows servers to QRadar including Windows Event Logs, MS ISS, MS SQL, DHCP logs, debug DNS logs and any number of logs from unsupported applications (with pre-configured log paths in configuration file)</li>
+<li>A syslog-ng daemon configuration checker</li>
+<li>A tool to upload a Log Source list to an Excel spreadsheet (to easier sort and filter log sources) with search and renaming suggestions, as well as a log source extension (LSX) misconfiguration checker, working remotely through HTTPS</li>
+<li>Tools for massive log source renaming and deletion working remotely through HTTPS</li>
+<li>A server-side tool to verify Event Collectors’ availability and notify immediately if any of them went offline</li>
+<li>Various tools enabling remote information queries from IBM QRadar SIEM (e.g. Custom Properties, WinCollect plugins versions, etc.)</li>
+</ul>
+<p>ScienceSoft’s experts additionally delivered 10 user guides that included recommendations on the developed custom solutions and IBM QRadar SIEM usage and customization. </p>
+<h2>Results</h2>
+<p>ScienceSoft’s SIEM team successfully completed IBM Security QRadar SIEM deployment and configuration in accordance with the Customer’s architecture. More than 70 state agencies were connected to the unified security operation center that gathers and analyzes events from thousands of supported log sources and tens of unsupported ones due to log extensions. The provided solution now allows the Customer to process about 10,000 events per second and more than 300,000 flows per minute. </p>
+<h2>Technologies and Tools</h2>
+<p>IBM Security QRadar SIEM, QRadar API/AQL, Python, SQL, Regex, Shell, Batch, Linux network tools.</p>
+</div>
+<div class="cs-buttons-wrapper">
+</div>
+</div>
+</div>
+<div class="container cs-areablock-container">
+<div class="pimcore_area_grid pimcore_area_content">
+<div class="container grid-editable-wrapper" data-module-init='{"grid": {}}' data-grid-id="1195269973">
+<h2 class="grid-title">Need help with a similar project?</h2>
+<div class="grid-container colored-background">
+<div class="background-color-block" style="background-color: #f6f8f8;"></div>
+<div class="grid-wrapper">
+<div class="grid-item " style="
+                                 flex-basis: 75%;
+                                 max-width: 75%;
+                                 ">
+<div class="grid-item-content">
+<div class="pimcore_area_contact-us-template pimcore_area_content"> <div class="contact-us-editable">
+<div class="p-contact">
+<div class="container">
+<div class="p-contact-block">
+<div class="p-contact-block__form" data-module-init='{"contactUsEditable":{}}'>
+<div class="p-contact-block__description"><p>Drop us a line, and our rep will contact you within 30 minutes to arrange an initial discussion.</p></div>
+<form name="ContactUs" id="ContactForm" method="post" data-varnish-cache="none" enctype="multipart/form-data" action="/cache/esi/contact-us-popup" data-thank-you-page="/contact-us/thank-you" class="modal-form__form piwik-form piwik-submit">
+<input type="hidden" name="formType" value="Contact" />
+<input type="hidden" name="formName" value="ContactUs">
+<input type="hidden" name="piwikVisitorId" />
+<input type="text" name="hop_field" class="hp-field" autocomplete="off" placeholder="Your hop field">
+<div class="contact-form-responsible-wrapper">
+<div class="align-items-end justify-content-between d-block contact-form-input-wrapper">
+<div class="inputs-row">
+<div class="md-field">
+<input required nowhitespace=true type="text" id="name" class="md-input track-input" name="contact-popup-name" placeholder="Full Name" maxlength="section-contact name" />
+<label for="name" class="md-label">Full Name</label>
+<div class="md-error"></div>
+<i class="icon-s-error"></i>
+</div>
+<div class="md-field">
+<input required nowhitespace=true type="text" id="company" class="md-input track-input" name="contact-popup-company" placeholder="Company" maxlength="section-contact organization" />
+<label for="company" class="md-label">Company</label>
+<div class="md-error"></div>
+<i class="icon-s-error"></i>
+</div>
+</div>
+</div>
+<div class="align-items-end justify-content-between d-block  contact-form-input-wrapper">
+<div class="inputs-row">
+<div class="md-field">
+<input type="text" id="email" class="md-input track-input" required customEmail=true name="contact-popup-email" placeholder="Work Email" autocomplete="section-contact email" />
+<label for="email" class="md-label">Work Email</label>
+<div class="md-error"></div>
+<i class="icon-s-error"></i>
+</div>
+<div class="md-field">
+<input customPhone=true nowhitespace=true type="tel" id="phone" class="md-input track-input" name="contact-popup-phone" placeholder="Work Phone" autocomplete="section-contact tel" />
+<label for="phone" class="md-label">Work Phone</label>
+<div class="md-error"></div>
+<i class="icon-s-error"></i>
+</div>
+</div>
+</div>
+<div class="contact-form-textarea-wrapper contact-form-input-wrapper" data-prefilling-text="">
+<div class="inputs-row">
+<div class="md-field textarea" data-module-init='{"textareaValidate": {}}'>
+<textarea type="text" id="inquiry" class="md-input contact-popup-question track-input" name="contact-popup-question" required nowhitespace=true rows="3" placeholder="How can we help you?" maxlength="4500" data-module-init='{"textareaResize": {}}'></textarea>
+<label for="inquiry" class="md-label">How can we help you?</label>
+<div class="md-error"></div>
+<i class="icon-s-error"></i>
+</div>
+<div class="form-group" id="contact-popup-upload">
+<label for="contact-popup-upload">Attachment (optional)</label>
+<div class="upload-field" data-valid-extensions="[&quot;doc&quot;,&quot;docx&quot;,&quot;xls&quot;,&quot;xlsx&quot;,&quot;ppt&quot;,&quot;pptx&quot;,&quot;pps&quot;,&quot;ppsx&quot;,&quot;odp&quot;,&quot;jpeg&quot;,&quot;jpg&quot;,&quot;png&quot;,&quot;psd&quot;,&quot;webp&quot;,&quot;svg&quot;,&quot;mp3&quot;,&quot;mp4&quot;,&quot;webm&quot;,&quot;odt&quot;,&quot;ods&quot;,&quot;pdf&quot;,&quot;rtf&quot;,&quot;txt&quot;,&quot;csv&quot;,&quot;log&quot;]">
+<div class="upload-field-area" data-upload-area>
+<i class="icon-s-upload"></i>
+<div class="upload-field-area__message">
+<div class="upload-field-area__message-text">
+<span class="d-none d-lg-inline-block">
+Drag &amp; Drop file here or
+</span>
+<button type="button" class="upload-field-area__message-btn" data-upload-btn data-piwik-event="Browse file,click,">
+<span class="d-inline-block d-lg-none">
+Tap here to upload a file
+</span>
+<span class="d-none d-lg-inline-block">
+browse a file
+</span>
+</button>
+</div>
+<div class="d-none d-lg-inline-block">
+<div class="upload-field-area__message-limit">
+(Up to 5 files of 20MB overall)
+</div>
+</div>
+<div class="upload-field-area__message-filename" data-upload-name></div>
+</div>
+<div class="available-extensions-tooltip" data-module-init='{"tooltip": {"content": "\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u003Cp\u0020style\u003D\u0022font\u002Dsize\u003A\u002014px\u003Bletter\u002Dspacing\u003A\u0020\u002D0.34px\u003Bcolor\u003A\u0020\u0023222222\u003Bmargin\u002Dbottom\u003A\u002010px\u003B\u0022\u003ESupported\u0020formats\u003A\u003C\/p\u003E\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u003Cdiv\u003Edoc,\u0020docx,\u0020xls,\u0020xlsx,\u0020ppt,\u0020pptx,\u0020pps,\u0020ppsx,\u0020odp,\u0020jpeg,\u0020jpg,\u0020png,\u0020psd,\u0020webp,\u0020svg,\u0020mp3,\u0020mp4,\u0020webm,\u0020odt,\u0020ods,\u0020pdf,\u0020rtf,\u0020txt,\u0020csv,\u0020log\u003C\/div\u003E\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020"}}'>
+<i class="icon-s-info"></i>
+</div>
+</div>
+<div class="upload-field__error">
+<div class="upload-field-item" data-upload-error="size">
+<i class="icon-s-error"></i>
+<span>You&#039;ve exceeded the limit of 20 MB, please, choose a smaller file(s)</span>
+</div>
+<div class="upload-field-item" data-upload-error="count">
+<i class="icon-s-error"></i>
+<span>Please, upload up to 5 files</span>
+</div>
+<div class="upload-field-item" data-upload-error="extension">
+The type of the file extension is not allowed.
+</div>
+</div>
+</div>
+<div>
+<input type="hidden" name="MAX_FILE_SIZE" value="104857600" id="MAX_FILE_SIZE">
+<input type="file" name="requirements[]" id="requirements-0" class="d-none" multiple="multiple">
+</div>
+<div class="upload-field-list" data-upload-list></div>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center">
+<input type="submit" id="submit" class="btn btn-default modal-form__btn" name="contact-popup-btn" onclick="if (!window.__cfRLUnblockHandlers) return false; " value="Discuss my needs" style="" data-cf-modified-9ee4b4305ed2cdc64fd0a83c-="" />
+</div>
+</form>
+</div>
+</div>
+<div class="d-block d-md-none">
+<div class="p-contact-hotcall">
+<a href="tel:+1 214 306 68 37" class="btn-white" data-piwik-event="Make a hot call button,click,">
+<i class="icon-s-phone"></i>
+Make a hotcall
+</a>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid-item " style="
+                                 flex-basis: 25%;
+                                 max-width: 25%;
+                                 ">
+<div class="grid-item-content">
+<div class="pimcore_area_grid pimcore_area_content">
+<div class="container grid-editable-wrapper" data-module-init='{"grid": {}}' data-grid-id="1672770489">
+<div class="grid-container ">
+<div class="background-color-block" style="background-color: transparent;"></div>
+<div class="grid-wrapper">
+<div class="grid-item " style="
+                                 flex-basis: 100%;
+                                 max-width: 100%;
+                                 ">
+<div class="grid-item-content">
+<div class="pimcore_area_contact-information pimcore_area_content"><div class="contact-information-editable">
+<div class="contact-information-title">
+Our contact details
+</div>
+<div class="contact-information-phone">
+<i class="icon-s-phone"></i>
+<a itemprop="telephone" data-piwik-event="Editable: Contact information,click,phone number" class="underline" href="tel:+1 214 306 68 37">+1 214 306 68 37</a>
+</div>
+<div class="contact-information-email">
+<i class="icon-s-envelope"></i>
+<a itemprop="email" data-piwik-event="Editable: Contact information,click,email address" class="underline" href="mailto:contact@scnsoft.com">contact@scnsoft.com</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="pimcore_area_case-studies-dynamic pimcore_area_content"><div class="cs-dynamic " data-module-init='{"csDynamic": {}}'>
+<div class="cs-dynamic-title">MORE CASE STUDIES</div>
+<div class="cs-items-wrapper" data-url="/cs/dynamic-list" data-total="47" data-page="1" data-per-page="2" data-related-cs-id="19565" data-technology-ids="" data-industry-ids="" data-service-ids="" data-solution-ids="" data-show-for-google="0" data-init-list-html="    &lt;div class=&quot;cs-item-wrapper&quot;&gt;
+        &lt;div class=&quot;cs-image-container&quot;&gt;
+            &lt;a href=&quot;https://www.scnsoft.com/case-studies/qlean-for-a-major-north-american-bank&quot; class=&quot;cs-image-wrapper&quot;&gt;
+                &lt;img class=&quot;lazy cs-image&quot; width=&quot;200&quot; height=&quot;200&quot;
+                     src=&quot;data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgMjAwIDIwMCc+CiAgICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0nI2YyZjJmMicvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=&quot;
+                     data-src=&quot;/boss/images/b4fd803a-8133-4f11-b446-d898ad6799ffhcf_for_rbc_bank_small.jpg&quot;
+                     alt=&quot;Implementation of QLean for QRadar for a Major North American Bank&quot;&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cs-content&quot;&gt;
+            &lt;h2 class=&quot;cs-title accented-text&quot;&gt;
+                &lt;a href=&quot;https://www.scnsoft.com/case-studies/qlean-for-a-major-north-american-bank&quot;&gt;Implementation of QLean for QRadar for a Major North American Bank&lt;/a&gt;
+            &lt;/h2&gt;
+            &lt;div class=&quot;cs-description&quot;&gt;ScienceSoft implemented its proprietary QRadar tool QLean for a bank with 15+ mln clients and an extensive IT network.&lt;/div&gt;
+            &lt;a href=&quot;https://www.scnsoft.com/case-studies/qlean-for-a-major-north-american-bank&quot; class=&quot;btn btn-link-arrow  btn-link-arrow--right cs-learn-more-btn&quot;&gt;
+                LEARN MORE
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;cs-item-wrapper&quot;&gt;
+        &lt;div class=&quot;cs-image-container&quot;&gt;
+            &lt;a href=&quot;https://www.scnsoft.com/case-studies/phase-2-qradar-siem-tuning-for-a-top-30-us-bank&quot; class=&quot;cs-image-wrapper&quot;&gt;
+                &lt;img class=&quot;lazy cs-image&quot; width=&quot;200&quot; height=&quot;200&quot;
+                     src=&quot;data:image/svg+xml;base64,CiAgICAgICAgICAgIDxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgMjAwIDIwMCc+CiAgICAgICAgICAgICAgICA8cmVjdCB3aWR0aD0nMjAwJyBoZWlnaHQ9JzIwMCcgZmlsbD0nI2YyZjJmMicvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICA=&quot;
+                     data-src=&quot;/boss/images/4578def4-33c6-470a-abe4-302e9d5b3737ibm-security-qradar-siem-fine-tuning_phase_2_small.jpg&quot;
+                     alt=&quot;Phase 2 IBM Security QRadar SIEM Implementation for a Top 30 US Bank&quot;&gt;
+            &lt;/a&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;cs-content&quot;&gt;
+            &lt;h2 class=&quot;cs-title accented-text&quot;&gt;
+                &lt;a href=&quot;https://www.scnsoft.com/case-studies/phase-2-qradar-siem-tuning-for-a-top-30-us-bank&quot;&gt;Phase 2 IBM Security QRadar SIEM Implementation for a Top 30 US Bank&lt;/a&gt;
+            &lt;/h2&gt;
+            &lt;div class=&quot;cs-description&quot;&gt;ScienceSoft adjusted IBM Security QRadar SIEM to a Top 30 American bank’s network with new log sources and more precise offence detection.&lt;/div&gt;
+            &lt;a href=&quot;https://www.scnsoft.com/case-studies/phase-2-qradar-siem-tuning-for-a-top-30-us-bank&quot; class=&quot;btn btn-link-arrow  btn-link-arrow--right cs-learn-more-btn&quot;&gt;
+                LEARN MORE
+            &lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+">
+</div>
+<div class="more-cs-btn-wrapper">
+<div class="more-cs-btn-container">
+<button type="button" class="btn btn-arrow-down more-cs-btn">
+More projects
+</button>
+</div>
+</div>
+<div class="end-cs-dynamic-point"></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!--[if IE]><!-- ~zone: content --><![endif]-->
+<!--[if IE]><!-- zone: footer --><![endif]-->
+<footer id="footer" data-module-init='{"scrolling":{}}' class="footer">
+<div class="container">
+<div class="footer__wrapper">
+<div class="footer__group">
+<div class="row">
+<div class="col-lg-3">
+<div class="footer__logo footer-logo">
+<a href="/">
+<img width="200" height="40" src="/bundles/app/img/logo-footer.svg">
+</a>
+</div>
+<script type="9ee4b4305ed2cdc64fd0a83c-text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        var currentPath = window.location.pathname,
+            link = document.querySelector('.footer-logo a');
+
+        if (currentPath === '/') {
+            link.removeAttribute('href');
+        }
+    });
+</script> </div>
+<div class="col-lg-9 col-xl-7">
+<div class="footer__contacts footer-contacts">
+<div class="row">
+<div class="col-12 col-md-5 order-md-1">
+<div data-piwik-event="Footer,click,address" class="footer-contacts__item footer-contacts__address">
+<i class="icon-s-map-marker"></i>
+<a href=" https://goo.gl/maps/aGbrBRbct4eivFyV8 " target="_blank">
+5900 S. Lake Forest Drive Suite 300, McKinney, Dallas area, TX 75070
+</a>
+</div>
+</div>
+<div class="col-12 col-md-4 order-md-3 text-lg-right">
+<div data-piwik-event="Footer,click,email" class="footer-contacts__item footer-contacts__email">
+<div>
+<i class="icon-s-envelope"></i>
+<a itemprop="email" class="underline" href="mailto:contact@scnsoft.com">
+contact@scnsoft.com
+</a>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-3 order-md-2">
+<div data-piwik-event="Footer,click,phone" class="footer-contacts__item footer-contacts__phone">
+<i class="icon-s-phone"></i>
+<a itemprop="telephone" href="tel:+1 214 306 68 37">
++1 214 306 68 37
+</a>
+</div>
+</div>
+ </div>
+</div>
+</div>
+<div class="col-lg-12 col-xl-2">
+<div class="footer__social footer-social">
+<div class="footer-social__wrapper">
+<div data-piwik-event="Footer,click,dribble" class="footer-social__item">
+<a href="https://dribbble.com/sciencesoft" target="_blank" class="footer-social__link footer-social__link--dribble"></a>
+</div>
+<div data-piwik-event="Footer,click,Linkedin" class="footer-social__item">
+<a href="https://www.linkedin.com/company/sciencesoft/" target="_blank" class="footer-social__link footer-social__link--linkedin"></a>
+</div>
+<div data-piwik-event="Footer,click,Facebook" class="footer-social__item">
+<a href="https://www.facebook.com/sciencesoft.solutions/" target="_blank" class="footer-social__link footer-social__link--facebook"></a>
+</div>
+<div data-piwik-event="Footer,click,Twitter" class="footer-social__item">
+<a href="https://twitter.com/ScienceSoft" target="_blank" class="footer-social__link footer-social__link--twitter"></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer__group">
+<div class="row">
+<div class="col-12 col-md-10 col-lg-11 order-lg-1 col-xl-11 footer__item-bottom-links">
+<div class="footer__links footer-links">
+<div class="footer-links__wrapper">
+<div data-piwik-event="Footer,click,About ScienceSoft" class="footer-links__item">
+<a class="underline" href="/about/company">About ScienceSoft</a>
+</div>
+<div data-piwik-event="Footer,click,Join Us as an agent" class="footer-links__item">
+<a class="underline" href="/about/referral-program">Join Us as an agent</a>
+</div>
+<div data-piwik-event="Footer,click,Privacy Policy" class="footer-links__item">
+<a class="underline" href="https://www.scnsoft.com/about/privacy-policy">Privacy Policy</a>
+</div>
+<div data-piwik-event="Footer,click,Terms of Use" class="footer-links__item">
+<a class="underline" href="https://www.scnsoft.com/about/terms-of-use">Terms of Use</a>
+</div>
+<div class="break"></div>
+<div data-piwik-event="Footer,click,For press inquires" class="footer-links__item footer-links__item--press-email">
+<span>For press inquiries:</span>
+<a class="underline" href="mailto:press@scnsoft.com">press@scnsoft.com</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-2 col-lg-1 order-lg-2 col-xl-1 footer__item-bottom-languages">
+<div class="footer__languages footer-languages" data-module-init='{"languagesSwitch":{
+             "switchEvent": ".footer-languages__item-container--active",
+             "switchContainer": ".footer-languages__selection",
+             "openClass": "footer-languages--open"}}'>
+<div class="footer-languages__wrapper">
+<div class="footer-languages__selection">
+<ul class="footer-languages__items">
+<li data-piwik-event="Footer,click,de version" class="footer-languages__item-container">
+<a class="footer-languages__item" href="https://www.scnsoft.de">
+<span class="footer-languages__languages-flag">
+<img src="/bundles/app/img/de.svg" alt="">
+</span>
+de
+</a>
+</li>
+<li data-piwik-event="Footer,click,fi version" class="footer-languages__item-container">
+<a class="footer-languages__item" href="https://www.scnsoft.com/fi">
+<span class="footer-languages__languages-flag">
+<img src="/bundles/app/img/fi.svg" alt="">
+</span>
+fi
+</a>
+</li>
+</ul>
+</div>
+<div class="footer-languages__item-container footer-languages__item-container--active">
+<div class="footer-languages__item footer-languages__active">
+<span class="footer-languages__languages-flag">
+<img src="/bundles/app/img/um.svg">
+</span>
+<span>en</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="footer__group">
+<div class="row">
+<div class="col-12 col-md-12 col-lg-12 order-lg-1 col-xl-12">
+<div class="footer__copyright footer-copyright">
+<div class="footer-copyright__wrapper">
+<div class="footer-copyright__item">
+© 2021 ScienceSoft USA Corporation.
+</div>
+<div class="footer-copyright__item">
+All rights reserved.
+</div>
+<div class="footer-copyright__seals">
+<div class="pimcore_area_html-code pimcore_area_content"><div class="html-code-editable-wrapper">
+<script type="9ee4b4305ed2cdc64fd0a83c-text/javascript" src="https://widget.clutch.co/static/js/widget.js"></script> <div class="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="1" data-height="50" data-darkbg="1" data-clutchcompany-id="30143"></div>
+<a id="bbblink" class="rbhzbum" href="https://www.bbb.org/us/tx/mckinney/profile/computer-software-publishers-and-developers/sciencesoft-0875-90933001#bbbseal" title="ScienceSoft, Computer Software Publishers & Developers, McKinney, TX" style="display: block;position: relative;overflow: hidden; width: 150px; height: 57px; margin: 0px; padding: 0px;"><img style="padding: 0px; border: none;" id="bbblinkimg" src="https://seal-dallas.bbb.org/logo/rbhzbum/sciencesoft-90933001.png" width="300" height="57" alt="ScienceSoft, Computer Software Publishers & Developers, McKinney, TX" /></a><script type="9ee4b4305ed2cdc64fd0a83c-text/javascript">var bbbprotocol = ( ("https:" == document.location.protocol) ? "https://" : "http://" ); (function(){var s=document.createElement('script');s.src=bbbprotocol + 'seal-dallas.bbb.org' + unescape('%2Flogo%2Fsciencesoft-90933001.js');s.type='text/javascript';s.async=true;var st=document.getElementsByTagName('script');st=st[st.length-1];var pt=st.parentNode;pt.insertBefore(s,pt.nextSibling);})();</script>
+<script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "AggregateRating",
+"itemReviewed": {
+"@type": "Organization",
+"image": "https://www.scnsoft.com/sciencesoft-logos/sciencesoft_logo.png",
+"name": "ScienceSoft",
+"servesCuisine": "software development",
+"telephone": "+12143066837",
+"address" : {
+"@type": "PostalAddress",
+"streetAddress": "5900 S. Lake Forest Drive Suite 300",
+"addressLocality": "McKinney",
+"addressRegion": "TX",
+"postalCode": "75070",
+"addressCountry": "US"
+}
+},
+"ratingValue": "4.8",
+"bestRating": "5",
+"ratingCount": "33"
+}
+</script>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></footer> <!--[if IE]><!-- ~zone: footer --><![endif]-->
+</div>
+<section data-module-init='{"initEventPiwik":{}}'>
+<noscript>
+        <img src="https://piwik.scnsoft.com/piwik.php?idsite=1"
+             style="border:0;"/>
+    </noscript>
+</section>
+
+<script type="9ee4b4305ed2cdc64fd0a83c-application/javascript">
+    var piwikPingTimeout = 5000;
+    var _paq = _paq || [];
+    window.ga = window.ga || function(){(ga.q=ga.q||[]).push(arguments)};
+    ga('create', 'UA-37313680-1', 'auto');
+
+    window.addEventListener("load", function () {
+        setTimeout(function () {
+            require([
+                'scriptLeadforensics'
+            ], function () {});
+        }, 1500);
+
+
+        require([
+            'scriptPiwik'
+        ], function () {
+
+            var u = "https://piwik.scnsoft.com/";
+
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 1]);
+
+            _paq.push(['setCustomVariable',
+                2, // Index, the number from 1 to 5 where this custom variable name is stored
+                'Page Type', // Name, the name of the variable, for example: Gender, VisitorType
+                ' Case Study', // Value, for example: "Male", "Female" or "new", "engaged", "customer"
+                'page' // Scope of the custom variable, "visit" means the custom variable applies to the current visit
+            ]);
+
+                        _paq.push(['setCustomVariable',
+                4, // Index, the number from 1 to 5 where this custom variable name is stored
+                'SEO Keywords Properties', // Name, the name of the variable, for example: Gender, VisitorType
+                '{"category":"ScienceSoft","topic":"About Company"}',   // Value, for example: "Male", "Female" or "new", "engaged", "customer"
+                'page' // Scope of the custom variable, "visit" means the custom variable applies to the current visit
+            ]);
+            
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            _paq.push(['setSessionCookieTimeout', 3600]); // 60min, default=30min
+        });
+
+    });
+</script>
+
+<script type="9ee4b4305ed2cdc64fd0a83c-application/javascript">
+            var piwikId = ' ';
+            setTimeout(function () {
+                piwikId = document.body.getAttribute('piwik-id');
+
+                window.intercomSettings = {
+                    app_id: "u82mdhaf",
+                    piwikVisitorId: piwikId
+                };
+            }, 1600);
+
+            window.addEventListener("load", function () {
+                setTimeout(function () {
+                    (function () {
+                        var w = window,
+                            ic = w.Intercom;
+
+                        if (typeof ic === "function") {
+                            ic('reattach_activator');
+                            ic('update', w.intercomSettings);
+                        } else {
+                            var d = document,
+                                i = function () {
+                                    i.c(arguments);
+                                };
+
+                            i.q = [];
+                            i.c = function (args) {
+                                i.q.push(args);
+                            };
+                            w.Intercom = i;
+
+                            (function () {
+                                var s = d.createElement('script');
+                                s.rel = "preconnect";
+                                s.type = 'text/javascript';
+                                s.async = true;
+                                s.defer = true;
+                                s.src = 'https://widget.intercom.io/widget/u82mdhaf';
+                                var x = d.getElementsByTagName('script')[0];
+                                x.parentNode.insertBefore(s, x);
+                            })();
+                        }
+                    })();
+                }, 1650);
+            }, false);
+        </script>
+
+
+<script type="9ee4b4305ed2cdc64fd0a83c-text/javascript">
+    _linkedin_partner_id = "426516";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="9ee4b4305ed2cdc64fd0a83c-text/javascript">
+    setTimeout(function () {
+        var s = document.getElementsByTagName("script")[0];
+        var b = document.createElement("script");
+        b.type = "text/javascript";
+        b.rel = "preconnect";
+        b.async = true;
+        b.defer = true;
+        b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+        s.parentNode.insertBefore(b, s);
+    }, 1500);
+</script>
+<noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=426516&fmt=gif
+    https://px.ads.linkedin.com/collect/?pid=426516&fmt=gif"/>
+</noscript>
+ <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/7089c43e/cloudflare-static/rocket-loader.min.js" data-cf-settings="9ee4b4305ed2cdc64fd0a83c-|49" defer=""></script></body>
+</html>
