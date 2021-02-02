@@ -9,7 +9,8 @@
 
 
     
-<div class="m-36">
+<div class="mx-10 my-10">
+    <p class="text-gray-400 text-xs my-10">Home &#62; Our Locations</p>
     <div class="text-3xl md:text-5xl font-bold">
         Thinking Globally, Acting Locally
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
@@ -30,9 +31,9 @@
         OFFICES AND DELIVERY CENTERS
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
-    <div class="flex justify-start items-end">
-        <div class="flex-col">
-            <div class="flex justifiy-start items-end">
+    <div class="flex justify-between flex-wrap ">
+        <div class="flex-col w-full">
+            <div class="flex justifiy-start  items-end">
                 <div>
                     <img src="img/us.svg" alt="">
                 </div>
@@ -50,8 +51,8 @@
                 <a class="underline" href="#">contact@scsoft.com</a>
             </div>
         </div>
-        <div class="flex-col">
-            <div class="flex justify-start items-end">
+        <div class="flex-col w-full">
+            <div class="flex justify-start  items-end">
                 <div>
                     <img class="w-8" src="img/gcc_.svg" alt="">
                 </div>
@@ -69,8 +70,8 @@
                 <a class="underline" href="#">gulf@scsoft.com</a>
             </div>
         </div>
-        <div class="flex-col">
-            <div class="flex justify-start items-end">
+        <div class="flex-col w-full">
+            <div class="flex justify-start  items-end">
                 <div>
                     <img src="img/eu.svg" alt="">
                 </div>

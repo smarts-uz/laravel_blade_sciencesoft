@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
 .carousel-open:checked + .carousel-item {
   position: static;
   opacity: 100;
@@ -143,18 +149,11 @@
   padding-top: 250px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-body{
-    font-family: 'Poppins', sans-serif !important;
-    background: #eff3f8;
-}
+
 .container{
     padding-top: 150px;
 }
 
-.slick-slide{
-    /* margin: 0 px; */
-}
 .slick-slide img{
     width: 150px;
 }
