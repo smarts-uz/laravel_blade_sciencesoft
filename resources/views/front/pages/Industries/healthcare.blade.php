@@ -126,7 +126,7 @@
               <div class="rounded-sm w-full lg:w-2/5 p-10 mx-4 mt-8 border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
                 <div class="">
                   <div class="  text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-16 h-16" src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="">
+                    <img class="w-16 h-16" src="{{ asset ('/images/industries/healthcare/star.svg')}}" alt="">
                   </div>
                   <div class="    mt-4">
                     <h1 class="text-2xl md:text-3xl font-semibold">Consulting and practical assistance</h1>

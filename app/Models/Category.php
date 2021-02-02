@@ -116,6 +116,10 @@ class Category extends Model
       {
           return $this->hasMany(Category::class)->with('categories');
       }
+
+      public function subCategories(){
+        return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
+      }
 }
    
 >>>>>>> origin/main
