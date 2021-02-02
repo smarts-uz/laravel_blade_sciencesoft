@@ -7,7 +7,7 @@
 @section('main')
 
 
-<div class="w-4/5 m-auto py-10">
+<div class="mx-6 md:mx-16 lg:mx-24 my-10">
     <h1 class="text-5xl font-semibold pb-10 text-gray-800">Terms of Use ("Terms")</h1>
     <!-- <hr class="divide-blue-800 w-10 h-3"> -->
     <div class="w-10 h-0.5 bg-yellow-600"></div>

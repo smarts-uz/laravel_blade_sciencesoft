@@ -9,8 +9,8 @@
 
 
     
-<div class="mx-10 my-10">
-    <p class="text-gray-400 text-xs my-10">Home &#62; Our Locations</p>
+<div class="mx-6 md:mx-16 lg:mx-24 my-10">
+
     <div class="text-3xl md:text-5xl font-bold">
         Thinking Globally, Acting Locally
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">

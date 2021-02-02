@@ -6,37 +6,8 @@
 
 @section('main')
 
+<main class="mx-6 md:mx-16 lg:mx-24 my-10">
 
-<main class="flex w-full">
-    <!-- ASIDE -->
-    <aside class="xl:w-80  bg-gray  block">
-      <div
-        class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white"
-      >
-        <div class="text-sm mb-16">
-          <div
-            class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5"
-          >
-            <p>About Company</p>
-          </div>
-          <div class="content hidden xl:block">
-            <p
-              class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600"
-            >
-              Management Team
-            </p>
-            <p
-              class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600"
-            >
-              Our Experts
-            </p>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <!-- END-ASIDE -->
-
-    <section class="w-full p-4 pr-10">
       <div>
         <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-5 ">Insurance Software: IT Solutions for Streamlined Insurance Services</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
@@ -484,11 +455,10 @@
         </div>
       </div>
   
-  
-  
-  
-    </section>
   </main>
+  
+  
+   
   
 
 @endsection

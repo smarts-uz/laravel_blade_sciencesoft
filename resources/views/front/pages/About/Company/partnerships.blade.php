@@ -7,8 +7,8 @@
 @section('main')
 
 
-        <div class="w-full mx-6 lg:mr-24 lg:mx-10">
-            <p class="text-gray-400 text-xs">Home &#62; Partnerships</p>
+        <div class=" mx-6 md:mx-16 lg:mx-24">
+           
             <h1 class="uppercase font-bold mt-10 text-2xl">
                 Strategic Partnerships
             </h1>
