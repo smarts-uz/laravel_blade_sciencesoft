@@ -261,7 +261,7 @@
               <div class="w-1/4 list-none">
                 <ul>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Telecommunications</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">eLearning  Policy</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">eLearning</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Transportation and Logistics</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Oil and Gas</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Professional Services</li></a>
