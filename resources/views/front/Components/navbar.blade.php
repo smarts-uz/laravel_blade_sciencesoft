@@ -1,5 +1,5 @@
 <!-- navbar -->
-  <div class="bg-white hidden overflow-y-auto   sidebar-menu h-screen w-64 fixed right-0 top-0 z-10 flex flex-col justify-between items-center">
+  <div class="bg-white hidden overflow-y-auto  sidebar-menu h-screen w-64 fixed right-0 top-0 z-10 flex flex-col justify-between items-center">
     <div class="relative">
       <i onclick="closeSidebarMenu()" class="fa cursor-pointer fa-times text-black right-0 text-3xl z-50 absolute top-2 "></i>
       <ul class="flex-col w-56">
@@ -119,18 +119,18 @@
         src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
         alt="Microsoft ASP.NET">
       </a>
-      <div id="searchbar" class="flex justify-end items-center w-4/5">
+      <div id="searchbar" class="flex justify-end items-center  w-4/5">
         <ul class="w-11/12 hidden  lg:flex  justify-end items-center font-semibold list-none uppercase text-black">
           <li  class="  flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
             <a id="about" class=" relative py-6" href="#">
             About
-            <div id="aboutHover" class=" hidden flex absolute left-0 z-40  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
+            <div id="aboutHover" class=" hidden  flex absolute left-0 z-40  justify-evenly top-20 border-t-2 border-b-2 bg-white items-start">
               <div class="w-1/5">
                 <h1 class="mb-2  font-extrabold">About</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <p class="mt-4 text-black font-normal">ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.</p>
                 <p class="font-extrabold mt-4 text-black">Can't find what you need?</p>
-                <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a  href="#">ASK US</a></div>
+                <div class="bg-blue-700 px-6 py-2 text-white  w-36 text-center"><a  href="#">ASK US</a></div>
               </div>
               <div class="w-1/5 list-none">
                 <h1 class="mb-2 font-extrabold">Company</h1>
