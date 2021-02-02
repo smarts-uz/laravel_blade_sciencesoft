@@ -71,3 +71,9 @@ mix.babel('node_modules/izitoast/dist/js/iziToast.min.js',
 
 
  mix.js('resources/assets/js/categories/categories.js', 'public/assets/js/categories/categories.js').version();
+
+
+ mix.js('resources/assets/js/blogs/blogs.js', 'public/assets/js/blogs/blogs.js').version();
+
+
+ mix.js('resources/assets/js/consultations/consultations.js', 'public/assets/js/consultations/consultations.js').version();
