@@ -6,6 +6,7 @@ use App\Models\Category;
 use CategorySeeder;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\User;
 
 class DatabaseSeeder extends Seeder
 {
@@ -16,8 +17,17 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        
-            //3
+        // Users
+        User::Create(
+            [
+                'name' => 'begzod',
+                'email' => 'erkinovbegzod.45@gmail.com',
+                'password' => bcrypt('begzod12345'),
+            ]
+        );
+
+
+        //3
         $categories=[
             // 17 id = 3 - 20
             ['id'=>1, 'name' => 'About','description' => 'ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.'],
@@ -38,7 +48,7 @@ class DatabaseSeeder extends Seeder
             ['id'=>18, 'name'=>'Awards and Acknowledgements', 'category_id'=>16, 'path_blade'=>'about.recognition.awards_and_acknowledgements'],
             ['id'=>19, 'name'=>'Press Room', 'category_id'=>16, 'path_blade'=>'about.recognition.press_room'],
             ['id'=>20, 'name'=>'News', 'category_id'=>16, 'path_blade'=>'about.recognition.news'],
-            //35 id = 21 - 56 
+            //35 id = 21 - 56
             ['id'=>2, 'name' => 'Services','description' => 'We handle complex business challenges building all types of custom and platform-based solutions and providing a comprehensive set of end-to-end IT services.'],
             ['id'=>21, 'name' => 'Service Types', 'category_id' => 2],
             ['id'=>22, 'name' => 'Testing and QA', 'category_id' => 21, 'path_blade' => 'services.service_types.testing_and_qa'],
@@ -49,7 +59,7 @@ class DatabaseSeeder extends Seeder
             ['id'=>27, 'name' => 'IT Outsourcing', 'category_id' => 21, 'path_blade' => 'services.service_types.it_outsourcing'],
             ['id'=>28, 'name' => 'IT Consulting', 'category_id' => 21, 'path_blade' => 'services.service_types.it_consulting'],
             ['id'=>29, 'name' => 'IT Support', 'category_id' => 21, 'path_blade' => 'services.service_types.it_support'],
-            
+
             ['id'=>30, 'name' => 'Solutions', 'category_id' => 2],
             ['id'=>31, 'name' => 'Data Analytics', 'category_id' => 30, 'path_blade' => 'services.solutions.data_analytics'],
             ['id'=>32, 'name' => 'CRM', 'category_id' => 30, 'path_blade' => 'services.solutions.CRM'],
@@ -60,7 +70,7 @@ class DatabaseSeeder extends Seeder
             ['id'=>37, 'name' => 'Web Portals', 'category_id' => 30, 'path_blade' => 'services.solutions.web_portals'],
             ['id'=>38, 'name' => 'Ecommerce', 'category_id' => 30, 'path_blade' => 'services.solutions.ecommerce'],
             ['id'=>39, 'name' => 'Fleet Management', 'category_id' => 30, 'path_blade' => 'services.solutions.fleet_management'],
-            
+
             ['id' => 40, 'name' => 'Platforms', 'category_id' => 2],
             ['id' => 41, 'name' => 'SharePoint and Office 365', 'category_id' => 40, 'path_blade' => 'services.platforms.share_point_office_365'],
             ['id' => 42, 'name' => 'Microsoft Dynamics 365', 'category_id' => 40, 'path_blade' => 'services.platforms.microsoft_dynamics_365'],
@@ -92,7 +102,7 @@ class DatabaseSeeder extends Seeder
             ['id'=>65, 'name' => 'Oil & Gas', 'category_id'=>55, 'path_blade'=>'industries.oil_gas'],
             ['id'=>66, 'name' => 'Professional Services', 'category_id'=>55, 'path_blade'=>'industries.professional_services'],
             ['id'=>67, 'name' => 'Insurance', 'category_id'=>55, 'path_blade'=>'industries.insurance'],
-            
+
         ];
         foreach($categories as $category){
             Category::updateOrCreate($category);
