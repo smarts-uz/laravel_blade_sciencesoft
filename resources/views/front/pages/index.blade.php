@@ -6,7 +6,9 @@
 
 @section('main')
 
- <!-- Carousel -->
+
+
+    <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
     DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
@@ -746,7 +748,7 @@
       </div>
 
     </div>
-  
+
 
 
 
@@ -758,7 +760,7 @@
         <i class="fa fa-search text-gray-500 mr-4"></i>
       </div>
       <input type="search" name="Search" class="w-full border-none outline-none" placeholder="E.g., VR development or help desk services"/>
-    </form> 
+    </form>
 
     <!-- EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF. -->
     <div class="flex flex-col-reverse lg:flex-row justify-between items-center px-5 py-12 bg-gray-100">
@@ -804,7 +806,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/microsoft-dynamics-365">
@@ -814,7 +816,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/services/salesforce/implementation">
@@ -824,7 +826,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/services/salesforce/implementation">
@@ -834,7 +836,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/ecommerce/magento/services/consulting">
@@ -926,7 +928,7 @@
 
 
   <!-- Ahadov ILhomjon -->
- 
+
   <div class="mx-6 sm:mx-16 lg:mx-18 ">
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
@@ -949,7 +951,7 @@
         </p>
       </div>
     </div>
-  
+
     <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
       <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
         alt="Sunset in the mountains">
@@ -962,7 +964,7 @@
         </p>
       </div>
     </div>
-  
+
     <div class=" rounded overflow-hidden shadow-lg w-full my-2h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
       <img class="w-72 h-48"
         src="https://www.scnsoft.com/---home-page-illustrations/blog/real-time-big-data-analytics.svg"
@@ -971,7 +973,7 @@
         <h1 class="text-yellow-400 mb-3 text-bold uppercase">Data Analytics, Big Data</h1>
         <div class="font-bold text-xl mb-2">A Comprehensive Guide to Real-Time Big Data Analytics</div>
         <p class="text-grey-darker text-base">
-  
+
           An easy guide to real-time big data analytics from our big data consultants. What is behind the term? How does a
           typical architecture look? What makes it a competitive advantage?
         </p>
@@ -1037,7 +1039,7 @@
       </div>
     </div>
   </form>
-  
+
 
 
 @endsection
