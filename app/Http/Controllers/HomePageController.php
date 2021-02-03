@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\CardList;
 use Illuminate\Support\Facades\View;
+use App\Models\Consultation;
 
 class HomePageController extends Controller
 {
