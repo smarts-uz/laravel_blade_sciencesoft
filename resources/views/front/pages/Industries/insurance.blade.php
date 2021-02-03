@@ -6,44 +6,15 @@
 
 @section('main')
 
+<main class="mx-6 md:mx-16 lg:mx-24 my-10">
 
-<main class="flex w-full">
-    <!-- ASIDE -->
-    <aside class="xl:w-80  bg-gray  block">
-      <div
-        class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white"
-      >
-        <div class="text-sm mb-16">
-          <div
-            class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5"
-          >
-            <p>About Company</p>
-          </div>
-          <div class="content hidden xl:block">
-            <p
-              class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600"
-            >
-              Management Team
-            </p>
-            <p
-              class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600"
-            >
-              Our Experts
-            </p>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <!-- END-ASIDE -->
-  
-    <section class="w-full p-4 pr-10">
       <div>
         <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-5 ">Insurance Software: IT Solutions for Streamlined Insurance Services</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
       </div>
   
       <div>
-        <img src="https://www.scnsoft.com/insurance/cover-pic-it-for-insurance.svg" alt="">
+        <img src="{{ asset ('/images/industries/insurance/cover-pic-it-for-insurance.svg')}}" alt="">
       </div>
   
       <div class="text-xl py-4">
@@ -74,26 +45,26 @@
         </div>
       </div>
   
-      <div>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">WHAT MAKES SCIENCESOFT A RELIABLE PARTNER</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <!-- STARS -->
         <div class="grid md:grid-cols-3 gap-4 border mb-4">
           <div>
             <div class="flex justify-center pb-10">
-              <img src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="" class="w-10">
+              <img src="{{ asset ('/images/industries/insurance/star.svg')}}" alt="" class="w-10">
             </div>
             <p class="text-center text-xl"><b>31</b> years in software <br> development and consulting</p>
           </div>
           <div>
             <div class="flex justify-center pb-10">
-              <img src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="" class="w-10">
+              <img src="{{ asset ('/images/industries/insurance/star.svg')}}" alt="" class="w-10">
             </div>
             <p class="text-center text-xl"><b>8</b> years in IT for insurance</p>
           </div>
           <div>
             <div class="flex justify-center pb-10">
-              <img src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="" class="w-10">
+              <img src="{{ asset ('/images/industries/insurance/star.svg')}}" alt="" class="w-10">
             </div>
             <p class="text-center text-xl">Experience in delivering both <br><b>B2B</b> and <b>B2C</b> insurance <br> solutions.</p>
           </div>
@@ -102,13 +73,13 @@
         <div class="grid md:grid-cols-2 gap-4 border">
           <div class="text-center pb-4">
             <div class="flex justify-center pb-5">
-              <img class="w-28" src="https://www.scnsoft.com/partners/sw-development/aws-apn-select-consulting-partner.svg" alt="">
+              <img class="w-28" src="{{ asset ('/images/industries/insurance/aws-apn-select-consulting-partner.svg')}}" alt="">
             </div>
             <p><b>AWS Select Tier</b> partnership</p>
           </div>
           <div class="text-center">
             <div class="flex justify-center pb-5">
-              <img class="w-72 border" src="https://www.scnsoft.com/partners/ms-partners/microsoft-gold-partner-8-competences.svg" alt="" >
+              <img class="w-72 border" src="{{ asset ('/images/industries/insurance/microsoft-gold-partner-8-competences.svg')}}" alt="" >
             </div>
             <p><b>8</b> Microsoft Gold Competencies</p>
           </div>
@@ -116,7 +87,7 @@
       </div>
   
       <!-- PIC-CARD -->
-      <div>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">IT SOLUTIONS FOR INSURANCE WE DEVELOP</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <div class="grid md:grid-cols-2">
@@ -124,7 +95,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/insurance/underwriting-1.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -156,7 +127,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/insurance/claim.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -184,7 +155,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/insurance/injury-1.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -213,7 +184,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/professional-services/crm.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -279,7 +250,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/professional-services/customer-portal.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -308,7 +279,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/insurance/da.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -336,7 +307,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/professional-services/bi.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -374,9 +345,9 @@
   
       <!-- SIMP-CARD -->
       <div
-            class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8 mt-20"
+            class="rounded-sm  border-2 border-white shadow-2xl transition-shadow mx-6 md:mx-16 lg:mx-24 my-10 mr-20 p-8 mt-20"
           >
-            <div class="flex flex-col">
+            <div class="flex flex-col ">
               <h1 class="text-xl font-bold">Eager to Improve Your Insurance Services?</h1>
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
@@ -395,7 +366,7 @@
       <!-- END-SIM-CARD -->
   
       <!-- CHOOSE-SERVICE -->
-      <div class="mt-20">
+      <div class=" mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-2xl md:text-3xl lg:text-3xl font-bold mb-4">CHOOSE YOUR SERVICE OPTION</p>
         <hr class="w-12 border-b-2 border-yellow-600 mb-6" />
         <div class="grid md:grid-cols-2">
@@ -403,7 +374,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/crm/crm-consulting/crm_dedicated_services_crm_implementation_consulting.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -445,7 +416,7 @@
             <div class="bg-blue-300 border-t-8"></div>
             <div class="p-4">
               <img
-                src="https://www.scnsoft.com/professional-services/it-outsourcicg.svg"
+                src="{{ asset ('/images/industries/insurance/underwriting-1.svg')}}"
                 alt="img-one"
                 class="w-28 mx-auto"
               />
@@ -484,11 +455,10 @@
         </div>
       </div>
   
-  
-  
-  
-    </section>
   </main>
+  
+  
+   
   
 
 @endsection

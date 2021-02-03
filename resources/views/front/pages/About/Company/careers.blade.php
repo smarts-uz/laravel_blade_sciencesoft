@@ -9,8 +9,9 @@
 
 
 
-  <div class="w-full px-10 flex flex-col lg:flex-row lg:px-16 xl:px-32 mb-10">
-    <div class="w-full lg:w-1/3 hidden lg:flex flex-col mr-3">
+  <div class=" flex flex-col lg:flex-row my-10 mx-6 md:mx-16 lg:mx-24">
+    <div class="w-full lg:w-1/3  lg:flex flex-col mr-3">
+     
       <div class="text-gray-600 w-full cursor-pointer hover:text-blue-600 mb-4">
         <p class="border-b-2 py-1 uppercase font-bold border-gray-500 hover:border-blue-600">Careers</p>
       </div>
@@ -54,11 +55,7 @@
     </div>
     <div class="w-full lg:w-2/3">
       <div class="px-1 md:px-8 lg:px-12 flex flex-col">
-        <div class="flex flex-row">
-          <a href="../index.html" class="text-gray-600 hover:text-blue-500">Home</a>
-          <p class="mx-1 md:mx-3">></p>
-          <p>Careers</p>
-        </div>
+       
         <h1 class="py-6 border-gray-500 border-b text-blue-600 font-bold text-3xl md:text-4xl my-3">Careers at ScienceSoft</h1>
         <h1 class="py-6 border-gray-500 border-b text-blue-600 font-bold text-2xl md:text-3xl mt-6 mb-3">Software Development Department</h1>
         <ul class="flex flex-col">

@@ -135,6 +135,7 @@ class SoftController extends Controller
     {
         return view('front.pages.Industries.healthcare');
     }
+    
     public function banking_financial_services()
     {
         return view('front.pages.industries.banking_financial_services');

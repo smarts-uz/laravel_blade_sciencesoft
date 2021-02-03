@@ -6,42 +6,22 @@
 
 @section('main')
 
-<main class="flex w-full">
-    <aside class="w-80  bg-gray  lg:block">
-      <div class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white">
-        <div class="text-sm mb-16">
-          <div class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5">
-            <p>
-              Healthcare IT Consulting</p>
-            <i onclick="dropDown()" class="fas fa-chevron-down lg:hidden"></i>
-          </div>
-          <div class="content hidden xl:block">
-            <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-              Management Team
-            </p>
-            <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-              Our Experts
-            </p>
-          </div>
-        </div>
-      </div>
-    </aside>
-  
-    <section class="w-full p-4 pr-10">
-      <div>
-        <p class="text-gray-400 text-xs">Home &gt; Healthcare</p>
+
+
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
+    
         <h1 class="uppercase font-bold mt-10 text-2xl">
           Healthcare IT Consulting
         </h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/cover-pic-healthcare-it-consulting-4.svg">
+        <img src="{{ asset ('/images/industries/healthcare/cover-pic-healthcare-it-consulting-4.svg')}}">
         <p class="my-5 text-lg">
           Healthcare IT consulting services help healthcare organizations overcome limited or low-level healthcare IT expertise and support the effective implementation of digital healthcare initiatives.
         </p>
         <p class="my-5 text-lg">
           ScienceSoft provides hospitals, clinics, practices, assisted living facilities, labs, and other healthcare organizations with healthcare IT consulting services to help them adopt complex digital initiatives, provide digital patient care, optimize internal processes, improve the IT infrastructure, and more.
         </p>
-      </div>
+   
       <div class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
         <div class="flex flex-col">
           <h1 class="text-xl font-bold">Doubt Healthcare Digital Initiatives Will Pay Off?</h1>
@@ -63,7 +43,7 @@
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
              
                 <div class="mt-8 flex">
-                  <img class="w-1/5" src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/why-ss.svg" alt="">
+                  <img class="w-1/5" src="{{ asset ('/images/industries/healthcare/why-ss.svg')}}" alt="">
                   <div>
                   <div class="flex flex-row">
                     <span class="text-blue-600 mr-4">&#9632;</span>
@@ -111,7 +91,7 @@
                 
                 <div class="">
                   <div class="  text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-16 h-16" src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="">
+                    <img class="w-16 h-16" src="{{ asset ('/images/industries/healthcare/star.svg')}}" alt="">
                   </div>
                   <div class="    mt-4">
                     <h1 class="text-2xl md:text-3xl font-semibold">Deep healthcare industry knowledge</h1>
@@ -126,7 +106,7 @@
               <div class="rounded-sm w-full lg:w-2/5 p-10 mx-4 mt-8 border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
                 <div class="">
                   <div class="  text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-16 h-16" src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="">
+                    <img class="w-16 h-16" src="{{ asset ('/images/industries/healthcare/star.svg')}}" alt="">
                   </div>
                   <div class="    mt-4">
                     <h1 class="text-2xl md:text-3xl font-semibold">Consulting and practical assistance</h1>
@@ -171,10 +151,9 @@
   </div>
 
   
-            
+</div>   
               
-    </section>
-  </main>
+   
 
   @endsection
 

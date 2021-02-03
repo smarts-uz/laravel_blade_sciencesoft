@@ -12,7 +12,9 @@
 
 @section('main')
 
- <!-- Carousel -->
+
+
+    <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
     DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
@@ -752,7 +754,7 @@
       </div>
 
     </div>
-  
+
 
 
 
@@ -764,7 +766,7 @@
         <i class="fa fa-search text-gray-500 mr-4"></i>
       </div>
       <input type="search" name="Search" class="w-full border-none outline-none" placeholder="E.g., VR development or help desk services"/>
-    </form> 
+    </form>
 
     <!-- EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF. -->
     <div class="flex flex-col-reverse lg:flex-row justify-between items-center px-5 py-12 bg-gray-100">
@@ -810,7 +812,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/microsoft-dynamics-365">
@@ -820,7 +822,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/services/salesforce/implementation">
@@ -830,7 +832,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/services/salesforce/implementation">
@@ -840,7 +842,7 @@
           </div>
         </a>
       </div>
-  
+
       <div
         class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
         <a href="https://www.scnsoft.com/ecommerce/magento/services/consulting">
@@ -932,7 +934,7 @@
 
 
   <!-- Ahadov ILhomjon -->
- 
+
   <div class="mx-6 sm:mx-16 lg:mx-18 ">
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
@@ -942,55 +944,10 @@
 
 
 
-  <div class='flex flex-row flex-wrap justify-between card-list'>
-    @include('front.components.cardlist')
+    @include('front.components.cardlist', $cardlists)
     
     <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
   </div>
-  <!-- Need a CONSULTATION? -->
-  </div>
-
-  <h1 class="px-16 text-3xl py-12">
-    <p class="mb-4">NEED A CONSULTATION?</p>
-    <hr class="w-10 h-1 bg-pink-600">
-  </h1>
-
-
-  <div class="px-16 py-12 bg-gray-200 text-gray-800">
-    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
-    <div class="flex flex-col lg:flex-row justify-between">
-      <form  method="POST" action="{{ route('consultation') }}">
-        @csrf
-        <div class="flex flex-col mr-3">
-          <div class="flex justify-between flex-row flex-wrap">
-            <input type="text" name="fullname" placeholder="Full Name"
-              class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-            <input type="text" name="company" placeholder="Company"
-              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-            <input type="email" name="email" placeholder="Work Email"
-              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-            <input type="text" name="phone_number" placeholder="Work Phone"
-              class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-          </div>
-          <textarea placeholder="How can we help you?" name="description" cols="3" rows="6"
-            class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
-           <div class="flex justify-center items-center mb-3">
-              <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
-           </div>
-        </div>
-      </form>
-      <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
-        <div class="flex flex-col ">
-          <p class="text-xl font-semibold">Our contact details</p>
-          <a href="#" class="flex flex-row items-center text-blue-500 my-3">
-            <i class="fa fa-phone mr-3"></i>
-            <p>(+998) 99 873-48-36</p>
-          </a>
-          <a href="#" class="flex flex-row items-center text-blue-500">
-            <i class="fa fa-envelope mr-3"></i>
-            <p>contact@scnsoft.com</p>
-          </a>
-        </div>
         <div class="flex flex-col my-3">
           <p class="text-xl font-semibold mb-3">Press inquires</p>
           <a href="#" class="flex items-center text-blue-500">

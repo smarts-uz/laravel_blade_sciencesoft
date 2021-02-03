@@ -8,35 +8,13 @@
 
 
 
-<main class="flex w-full">
-    <aside class="w-80  bg-gray  hidden sm:block">
-      <div class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white">
-        <div class="text-sm mb-16">
-          <div class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5">
-            <p>
-              Healthcare IT Consulting</p>
-            <i onclick="dropDown()" class="fas fa-chevron-down lg:hidden"></i>
-          </div>
-          <div class="content hidden xl:block">
-            <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-              Management Team
-            </p>
-            <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-              Our Experts
-            </p>
-          </div>
-        </div>
-      </div>
-    </aside>
-  
-    <section class="w-full p-4 pr-10">
-      <div>
-        <p class="text-gray-400 text-xs">Home &gt; Healthcare</p>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
+    
         <h1 class="uppercase font-bold mt-10 text-2xl">
           About ScienceSoft – Global IT Company
         </h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/cover-pic-healthcare-it-consulting-4.svg">
+        <img src="{{ asset('/images/industries/manufacturing/microsoft-partner-statuses-8-01') }}">
         <p class="my-5 text-lg">
           Founded in 1989, ScienceSoft is a provider of IT consulting and software
           development services. Having started as a small AI product company, we
@@ -57,7 +35,7 @@
           among companies operating in the Gulf region, we opened our Middle East
           office in the UAE in 2020.
         </p>
-      </div>
+     
   
       <div class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
         <div class="flex flex-col">
@@ -73,7 +51,7 @@
         </div>
       </div>
   
-  
+
       <div class="pt-12">
         <h1 class="uppercase font-bold mt-10 text-2xl">
           WHY SCIENCESOFT?
@@ -132,9 +110,8 @@
                     WHY SCIENCESOFT?
                   </h1>
                   <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-      
-    </section>
-  </main>
+                </div>
+
 
   
 

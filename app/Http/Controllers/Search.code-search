@@ -1,0 +1,174 @@
+# Query: parent_id
+# ContextLines: 1
+
+88 results - 12 files
+
+app\Http\Controllers\HomePageController.php:
+  12          // dd('hi');
+  13:         $categories = Category::whereNull('category_id')
+  14              ->with('childrenCategories')
+
+  20          // 
+  21:         // $categories = Category::whereNull('category_id')
+  22          //     ->with('childrenCategories')
+
+  31          
+  32:         $categories = Category::whereNull('category_id')
+  33              ->with('childrenCategories')
+
+  41      // public function index(){  
+  42:     //     $parentCategories = Category::where('category_id',NULL)->get();
+  43      //     return view('categories', compact('parentCategories'));
+
+app\Models\Category.php:
+   13   *
+   14:  * @property integer $category_id
+   15   * @property string $name
+
+   41      public $fillable = [
+   42:         'category_id',
+   43          'name',
+
+   60          'id' => 'integer',
+   61:         'category_id' => 'integer',
+   62          'name' => 'string',
+
+   78      public static $rules = [
+   79:         'category_id' => 'nullable|integer',
+   80          'name' => 'nullable|string|max:255',
+
+   94      public function children(){
+   95:       return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
+   96      }
+
+   98      public function parent(){
+   99:       return $this->hasOne( 'App\Models\Category', 'id', 'category_id' );
+  100      }
+
+  112      public function subCategories(){
+  113:       return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
+  114      }
+
+app\Repositories\CategoryRepository.php:
+  19      protected $fieldSearchable = [
+  20:         'category_id',
+  21          'name',
+
+database\factories\CategoryFactory.php:
+  24          return [
+  25:             'category_id' => $this->faker->randomDigitNotNull,
+  26          'name' => $this->faker->word,
+
+database\migrations\2021_01_30_061151_create_categories_table.php:
+  17              $table->increments('id');
+  18:             $table->integer('category_id')->nullable()->default(null);
+  19              $table->string('name')->nullable()->default(null);
+
+database\seeders\DatabaseSeeder.php:
+  23              ['id'=>1, 'name' => 'About','description' => 'ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.'],
+  24:             ['id'=>4, 'name' => 'Company', 'category_id'=>1],
+  25:             ['id'=>5, 'name' => 'About Company', 'category_id'=>4, 'path_blade'=>'about.company.about_company'],
+  26:             ['id'=>6, 'name' => 'Management Team', 'category_id'=>4, 'path_blade'=>'about.company.management_team'],
+  27:             ['id'=>7, 'name' => 'Careers', 'category_id'=>4, 'path_blade'=>'about.company.careers'],
+  28:             ['id'=>8, 'name' => 'Partnerships', 'category_id'=>4, 'path_blade'=>'about.company.partnerships'],
+  29:             ['id'=>9, 'name' => 'Sciencesoft Referral Program', 'category_id'=>4, 'path_blade'=>'about.company.sciencesoft_referall_program'],
+  30:             ['id'=>10, 'name' => 'Our Locations', 'category_id'=>4, 'path_blade'=>'about.company.our_locations'],
+  31:             ['id'=>11, 'name' => 'Approach', 'category_id'=>1],
+  32:             ['id'=>12, 'name'=>'Development Process', 'category_id'=>11, 'path_blade'=>'about.approach.development_process'],
+  33:             ['id'=>13, 'name'=>'Sustainability Policy', 'category_id'=>11, 'path_blade'=>'about.approach.sustainability_policy'],
+  34:             ['id'=>14, 'name'=>'Privacy Policy', 'category_id'=>11, 'path_blade'=>'about.approach.privacy_policy'],
+  35:             ['id'=>15, 'name'=>'Terms of Use', 'category_id'=>11, 'path_blade'=>'about.approach.terms_of_use'],
+  36:             ['id'=>16, 'name' => 'Recognition', 'category_id'=>1],
+  37:             ['id'=>17, 'name'=>'Testimonials', 'category_id'=>16, 'path_blade'=>'about.recognition.testimonials'],
+  38:             ['id'=>18, 'name'=>'Awards and Acknowledgements', 'category_id'=>16, 'path_blade'=>'about.recognition.awards_and_acknowledgements'],
+  39:             ['id'=>19, 'name'=>'Press Room', 'category_id'=>16, 'path_blade'=>'about.recognition.press_room'],
+  40:             ['id'=>20, 'name'=>'News', 'category_id'=>16, 'path_blade'=>'about.recognition.news'],
+  41              //35 id = 21 - 56 
+  42              ['id'=>2, 'name' => 'Services','description' => 'We handle complex business challenges building all types of custom and platform-based solutions and providing a comprehensive set of end-to-end IT services.'],
+  43:             ['id'=>21, 'name' => 'Service Types', 'category_id' => 2],
+  44:             ['id'=>22, 'name' => 'Testing and QA', 'category_id' => 21, 'path_blade' => 'services.service_types.testing_and_qa'],
+  45:             ['id'=>23, 'name' => 'Application Services', 'category_id' => 21, 'path_blade' => 'services.service_types.application_services'],
+  46:             ['id'=>24, 'name' => 'UI/UX Design', 'category_id' => 21, 'path_blade' => 'services.service_types.ui_ux_design'],
+  47:             ['id'=>25, 'name' => 'Infrastructure Services', 'category_id' => 21, 'path_blade' => 'services.service_types.infrastructure_services'],
+  48:             ['id'=>26, 'name' => 'Managed IT Services', 'category_id' => 21, 'path_blade' => 'services.service_types.managed_it_services'],
+  49:             ['id'=>27, 'name' => 'IT Outsourcing', 'category_id' => 21, 'path_blade' => 'services.service_types.it_outsourcing'],
+  50:             ['id'=>28, 'name' => 'IT Consulting', 'category_id' => 21, 'path_blade' => 'services.service_types.it_consulting'],
+  51:             ['id'=>29, 'name' => 'IT Support', 'category_id' => 21, 'path_blade' => 'services.service_types.it_support'],
+  52              
+  53:             ['id'=>30, 'name' => 'Solutions', 'category_id' => 2],
+  54:             ['id'=>31, 'name' => 'Data Analytics', 'category_id' => 30, 'path_blade' => 'services.solutions.data_analytics'],
+  55:             ['id'=>32, 'name' => 'CRM', 'category_id' => 30, 'path_blade' => 'services.solutions.CRM'],
+  56:             ['id'=>33, 'name' => 'Cybersecurity', 'category_id' => 30, 'path_blade' => 'services.solutions.cyber_security'],
+  57:             ['id'=>34, 'name' => 'Internet of Things', 'category_id' => 30, 'path_blade' => 'services.solutions.internet_of_things'],
+  58:             ['id'=>35, 'name' => 'Virtual Reality', 'category_id' => 30, 'path_blade' => 'services.solutions.virtual_reality', 'active' => false],
+  59:             ['id'=>36, 'name' => 'Image Analysis', 'category_id' => 30, 'path_blade' => 'services.solutions.image_analysis', 'active' => false],
+  60:             ['id'=>37, 'name' => 'Web Portals', 'category_id' => 30, 'path_blade' => 'services.solutions.web_portals'],
+  61:             ['id'=>38, 'name' => 'Ecommerce', 'category_id' => 30, 'path_blade' => 'services.solutions.ecommerce'],
+  62:             ['id'=>39, 'name' => 'Fleet Management', 'category_id' => 30, 'path_blade' => 'services.solutions.fleet_management'],
+  63              
+  64:             ['id' => 40, 'name' => 'Platforms', 'category_id' => 2],
+  65:             ['id' => 41, 'name' => 'SharePoint and Office 365', 'category_id' => 40, 'path_blade' => 'services.platforms.share_point_office_365'],
+  66:             ['id' => 42, 'name' => 'Microsoft Dynamics 365', 'category_id' => 40, 'path_blade' => 'services.platforms.microsoft_dynamics_365'],
+  67:             ['id' => 43, 'name' => 'Microsoft Power BI', 'category_id' => 40, 'path_blade' => 'services.platforms.microsoft_power_bi'],
+  68:             ['id' => 44, 'name' => 'Salesforce', 'category_id' => 40, 'path_blade' => 'services.platforms.salesforce'],
+  69:             ['id' => 45, 'name' => 'Magento', 'category_id' => 40, 'path_blade' => 'services.platforms.magento'],
+  70:             ['id' => 46, 'name' => 'Service Now', 'category_id' => 40, 'path_blade' => 'services.platforms.service_now'],
+  71  
+  72:             ['id' => 47, 'name' => 'Technologies', 'category_id' => 2],
+  73:             ['id' => 48, 'name' => 'Java', 'category_id' => 47, 'path_blade' => "services.technologies.java"],
+  74:             ['id' => 49, 'name' => '.NET', 'category_id' => 47, 'path_blade' => "services.technologies.net"],
+  75:             ['id' => 50, 'name' => 'PHP', 'category_id' => 47, 'path_blade' => "services.technologies.PHP"],
+  76:             ['id' => 51, 'name' => 'Python', 'category_id' => 47, 'path_blade' => "services.technologies.python"],
+  77:             ['id' => 52, 'name' => 'Golang', 'category_id' => 47, 'path_blade' => "services.technologies.golang"],
+  78:             ['id' => 53, 'name' => 'C++', 'category_id' => 47, 'path_blade' => "services.technologies.cPlus"],
+  79:             ['id' => 54, 'name' => 'Configure Your Team', 'category_id' => 47, 'path_blade' => "services.technologies.configure_your_team"],
+  80              //12  id = 56 - 68
+  81              ['id'=>3, 'name' => 'Industries','description' => 'To power businesses with a meaningful digital change, ScienceSoft’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.'],
+  82:             ['id'=>55, 'name' => '', 'category_id'=>3],
+  83:             ['id'=>56, 'name' => 'Healthcare', 'category_id'=>55, 'path_blade'=>'industries.healthcare'],
+  84:             ['id'=>57, 'name' => 'Banking and Financial Services', 'category_id'=>55, 'path_blade'=>'industries.banking_financial_services'],
+  85:             ['id'=>58, 'name' => 'Retail', 'category_id'=>55, 'path_blade'=>'industries.retail'],
+  86:             ['id'=>59, 'name' => 'Ecommerce', 'category_id'=>55, 'path_blade'=>'industries.ecommerce'],
+  87:             ['id'=>60, 'name' => 'Manufacturing', 'category_id'=>55, 'path_blade'=>'industries.manufacturing'],
+  88:             ['id'=>61, 'name' => 'Marketing & Advertising', 'category_id'=>55, 'path_blade'=>'industries.market_advertising'],
+  89:             ['id'=>62, 'name' => 'Telecommunications', 'category_id'=>55, 'path_blade'=>'industries.telecommunications'],
+  90:             ['id'=>63, 'name' => 'eLearning', 'category_id'=>55, 'path_blade'=>'industries.elearning'],
+  91:             ['id'=>64, 'name' => 'Transportation and Logistics', 'category_id'=>55, 'path_blade'=>'industries.transportation_logistics'],
+  92:             ['id'=>65, 'name' => 'Oil & Gas', 'category_id'=>55, 'path_blade'=>'industries.oil_gas'],
+  93:             ['id'=>66, 'name' => 'Professional Services', 'category_id'=>55, 'path_blade'=>'industries.professional_services'],
+  94:             ['id'=>67, 'name' => 'Insurance', 'category_id'=>55, 'path_blade'=>'industries.insurance'],
+  95              
+
+public\assets\js\categories\categories.js:
+  25    columns: [{
+  26:     data: 'category_id',
+  27:     name: 'category_id'
+  28    }, {
+
+resources\assets\js\categories\categories.js:
+  23          {
+  24:             data: 'category_id',
+  25:             name: 'category_id'
+  26          },{
+
+resources\model_schemas\Category.json:
+  14      {
+  15:         "name": "category_id",
+  16          "dbType": "integer,false",
+
+resources\views\categories\fields.blade.php:
+  2  <div class="form-group col-sm-6">
+  3:     {!! Form::label('category_id', 'Parent Id:') !!}
+  4:     {!! Form::number('category_id', null, ['class' => 'form-control']) !!}
+  5  </div>
+
+resources\views\categories\show_fields.blade.php:
+  2  <div class="form-group">
+  3:     {!! Form::label('category_id', 'Parent Id:') !!}
+  4:     <p>{{ $category->category_id }}</p>
+  5  </div>
+
+resources\views\categories\table.blade.php:
+  3      <tr>
+  4:         <th scope="col">category_id</th>
+  5          <th scope="col">name</th>

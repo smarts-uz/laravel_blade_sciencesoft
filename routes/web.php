@@ -16,9 +16,9 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     return view('front.pages.index');
 // });
-Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-Route::post('/', 'App\Http\Controllers\CategoryController@postConsultation')->name('consultation');
-Route::get('/', 'App\Http\Controllers\CategoryController@getCardList');
+// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+
+
 Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->name('contact');
 
 Route::get('/services/software-development','App\Http\Controllers\Front\softController@softwaredevelopment')->name('softwaredevelopment');
@@ -60,4 +60,19 @@ Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\soft
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
 
-Route::get('categories', 'CategoryController@index');
+Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
+Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
+Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+Auth::routes();
+// Admin CRUD
+Route::resource('categories', App\Http\Controllers\CategoryController::class);
+Route::resource('blogs', App\Http\Controllers\BlogController::class);
+Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('upload');
+
+
+Route::resource('consultations', App\Http\Controllers\ConsultationController::class);

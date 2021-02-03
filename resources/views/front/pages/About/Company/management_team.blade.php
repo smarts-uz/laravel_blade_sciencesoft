@@ -7,17 +7,11 @@
 @section('main')
 
   
-  <div class="px-10 md:px-16 lg:px-32 py-4">
-    <div class="flex flex-row">
-      <a href="index.html" class="text-gray-600 hover:text-blue-500">Home</a>
-      <p class="mx-1 md:mx-3">></p>
-      <p>Management Team</p>
-    </div>
-  </div>
+  
 
   <!--Komil Sobitov/ Team Management -->
-  <div class="mx-auto px-10 md:px-16 lg:px-32 mb-10">
-    <h1 class="text-blue-700 text-4xl font-medium">Management Team</h1>
+  <div class="mx-6 md:mx-16 lg:mx-24 my-10">
+    <h1 class="text-blue-700 text-2xl md:text-4xl  font-extrabold">Management Team</h1>
     <div class="flex justify-center mt-5 mb-14">
       <div class="flex flex-col w-full lg:w-1/2 sm:w-2/3 md:w-72 justify-center items-center">
         <img src="https://www.scnsoft.com/about/team/image-thumb__3307__marketingPerson/kuraev.png" class="w-36 mb-3" />
