@@ -6,29 +6,9 @@
 
 @section('main')
 
-<main class="flex w-full flex-col md:flex-row">
-    <aside class="xl:w-80 bg-gray w-full hidden md:block">
-        <div class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white">
-            <div class="text-sm mb-16">
-                <div class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5">
-                    <p>About Company</p>
-                    <i onclick="dropDown()" class="fas fa-chevron-down lg:hidden"></i>
-                </div>
-                <div class="content hidden xl:block">
-                    <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-                        Management Team
-                    </p>
-                    <p class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600">
-                        Our Experts
-                    </p>
-                </div>
-            </div>
-        </div>
-    </aside>
 
-    <section class="w-full px-4 ">
-        <div class="w-full">
-            <p class="text-gray-400 text-xs">Home &#62; About Company</p>
+        <div class=" mx-6 md:mx-16 lg:mx-24">
+           
             <h1 class="uppercase font-bold mt-10 text-2xl">
                 Strategic Partnerships
             </h1>
@@ -167,8 +147,7 @@
             </div>
             <!-- ============================= -->
         </div>
-    </section>
-</main>
+ 
 
 
 

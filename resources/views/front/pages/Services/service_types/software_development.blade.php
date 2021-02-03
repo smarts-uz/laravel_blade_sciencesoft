@@ -7,16 +7,6 @@
 @section('main')
 
 
-
-
-
-
-
-
-
-
-
-
   <div class="w-full px-10 flex flex-col lg:flex-row lg:px-16 mb-10">
     <div class="w-full lg:w-1/5">
       @include('front.Components.softwareAside')

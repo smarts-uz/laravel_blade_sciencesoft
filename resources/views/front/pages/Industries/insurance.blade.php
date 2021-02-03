@@ -6,37 +6,8 @@
 
 @section('main')
 
+<main class="mx-6 md:mx-16 lg:mx-24 my-10">
 
-<main class="flex w-full">
-    <!-- ASIDE -->
-    <aside class="xl:w-80  bg-gray  block">
-      <div
-        class="xl:w-1/5 flex flex-col w-full justify-start h-8 fixed p-4 xl:bg-white"
-      >
-        <div class="text-sm mb-16">
-          <div
-            class="text-black xl:bg-white text-sm font-normal flex flex-row justify-between bg-blue-800 uppercase lg:underline mb-5"
-          >
-            <p>About Company</p>
-          </div>
-          <div class="content hidden xl:block">
-            <p
-              class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600"
-            >
-              Management Team
-            </p>
-            <p
-              class="bg-gray-100 text-black p-3 rounded mt-2 cursor-pointer font-medium hover:text-blue-600"
-            >
-              Our Experts
-            </p>
-          </div>
-        </div>
-      </div>
-    </aside>
-    <!-- END-ASIDE -->
-
-    <section class="w-full p-4 pr-10">
       <div>
         <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-5 ">Insurance Software: IT Solutions for Streamlined Insurance Services</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
@@ -74,7 +45,7 @@
         </div>
       </div>
   
-      <div>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">WHAT MAKES SCIENCESOFT A RELIABLE PARTNER</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <!-- STARS -->
@@ -116,7 +87,7 @@
       </div>
   
       <!-- PIC-CARD -->
-      <div>
+      <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">IT SOLUTIONS FOR INSURANCE WE DEVELOP</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <div class="grid md:grid-cols-2">
@@ -374,9 +345,9 @@
   
       <!-- SIMP-CARD -->
       <div
-            class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8 mt-20"
+            class="rounded-sm  border-2 border-white shadow-2xl transition-shadow mx-6 md:mx-16 lg:mx-24 my-10 mr-20 p-8 mt-20"
           >
-            <div class="flex flex-col">
+            <div class="flex flex-col ">
               <h1 class="text-xl font-bold">Eager to Improve Your Insurance Services?</h1>
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
@@ -395,7 +366,7 @@
       <!-- END-SIM-CARD -->
   
       <!-- CHOOSE-SERVICE -->
-      <div class="mt-20">
+      <div class=" mx-6 md:mx-16 lg:mx-24 my-10">
         <p class="text-2xl md:text-3xl lg:text-3xl font-bold mb-4">CHOOSE YOUR SERVICE OPTION</p>
         <hr class="w-12 border-b-2 border-yellow-600 mb-6" />
         <div class="grid md:grid-cols-2">
@@ -484,11 +455,10 @@
         </div>
       </div>
   
-  
-  
-  
-    </section>
   </main>
+  
+  
+   
   
 
 @endsection
