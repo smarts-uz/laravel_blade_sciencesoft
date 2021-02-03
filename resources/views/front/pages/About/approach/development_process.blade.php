@@ -6,42 +6,12 @@
 
 @section('main')
 
-<div class="lg:mx-24 md:mx-16 mx-6">
+<div class="lg:mx-24 md:mx-16 mx-6 my-10">
   
-    <h1 class="uppercase font-bold mt-10 text-2xl">
-        About ScienceSoft – Global IT Company
-    </h1>
-    <hr class="w-12 mt-5 text-yellow-400 h-4" />
-    <img src="https://www.scnsoft.com/about/company-new/about-company-sciencesoft.svg" />
-    <p class="my-5 text-lg">
-        Founded in 1989, ScienceSoft is a provider of IT consulting and software
-        development services. Having started as a small AI product company, we
-        switched to IT services in 2002 and ever since we have helped non-IT
-        organizations and software product companies improve business
-        performance and quickly win new customers.
-    </p>
-    <p class="my-5 text-lg">
-        With over 31 years in Information Technology, we have built up expertise
-        in CRM, ERP, Ecommerce, Data Analytics, Information Security, DMS, and
-        other areas and conquered such innovative fields as Artificial
-        Intelligence and Machine Learning, Big Data, Internet of Things,
-        Computer Vision, and Augmented and Virtual Reality.
-    </p>
-    <p class="my-5 text-lg">
-        We headquarter in McKinney, TX, US, have a European office in Vantaa,
-        Finland and a delivery center in Minsk, Belarus. Having gained trust
-        among companies operating in the Gulf region, we opened our Middle East
-        office in the UAE in 2020.
-    </p>
-
 
 <div class=" min-h-screen  mx-auto">
 <!-- Servise -- develompent -- TopLink  -->
-<div class="min-w-min  flex items-center py-2">
-<a href="#" class="text-gray-500 text-xs px-4">Home</a> <i
-    class="fas fa-chevron-right text-gray-500 font-xs"></i><a href="#"
-    class="text-gray-500 text-xs px-3">Development Process</a>
-</div>
+
 <!-- Servise -- develompent -- SubTitle -->
 <p class="lg:text-5xl text-3xl px-4 font-bold">Overview of Software Development Process at ScienceSoft
 </p>

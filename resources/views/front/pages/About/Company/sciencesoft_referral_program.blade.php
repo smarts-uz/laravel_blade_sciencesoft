@@ -113,6 +113,9 @@
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">     
                         <p class=" text-gray-500 text-xl md:text-2xl">
                         </div>
+                </div>
+            </div>
+        </div>
 
 @endsection
 
