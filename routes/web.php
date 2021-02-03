@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 //     return view('front.pages.index');
 // });
 Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
+Route::post('/', 'App\Http\Controllers\CategoryController@postConsultation')->name('consultation');
+Route::get('/', 'App\Http\Controllers\CategoryController@getCardList');
 Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->name('contact');
 
 Route::get('/services/software-development','App\Http\Controllers\Front\softController@softwaredevelopment')->name('softwaredevelopment');

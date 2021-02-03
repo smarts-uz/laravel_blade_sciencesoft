@@ -1,8 +1,14 @@
 @extends('front.layout')
 
 @section('css')
+  {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> --}}
 
-@endsection
+  <style>
+    .card-lists{
+      display: none;
+  }
+  </style>
+  @endsection
 
 @section('main')
 
@@ -936,48 +942,10 @@
 
 
 
-  <div class='flex flex-row flex-wrap justify-between'>
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
-        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
-        <p class="text-grey-darker text-base mb-5">
-          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
-          stats and industry use cases to key development tools and cost drivers.
-        </p>
-      </div>
-    </div>
-  
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
-        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
-        <p class="text-grey-darker text-base mb-5">
-          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
-          stats and industry use cases to key development tools and cost drivers.
-        </p>
-      </div>
-    </div>
-  
-    <div class=" rounded overflow-hidden shadow-lg w-full my-2h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48"
-        src="https://www.scnsoft.com/---home-page-illustrations/blog/real-time-big-data-analytics.svg"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">Data Analytics, Big Data</h1>
-        <div class="font-bold text-xl mb-2">A Comprehensive Guide to Real-Time Big Data Analytics</div>
-        <p class="text-grey-darker text-base">
-  
-          An easy guide to real-time big data analytics from our big data consultants. What is behind the term? How does a
-          typical architecture look? What makes it a competitive advantage?
-        </p>
-      </div>
-    </div>
-    <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
+  <div class='flex flex-row flex-wrap justify-between card-list'>
+    @include('front.components.cardlist')
+    
+    <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
   </div>
   <!-- Need a CONSULTATION? -->
   </div>
@@ -988,26 +956,29 @@
   </h1>
 
 
-  <form class="px-16 py-12 bg-gray-200 text-gray-800">
+  <div class="px-16 py-12 bg-gray-200 text-gray-800">
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
     <div class="flex flex-col lg:flex-row justify-between">
-      <div class="flex flex-col mr-3">
-        <div class="flex justify-between flex-row flex-wrap">
-          <input type="text" name="FullName" placeholder="Full Name"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="text" name="Company" placeholder="Company"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="email" name="Email" placeholder="Work Email"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-          <input type="text" name="Phone Number" placeholder="Work Phone"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+      <form  method="POST" action="{{ route('consultation') }}">
+        @csrf
+        <div class="flex flex-col mr-3">
+          <div class="flex justify-between flex-row flex-wrap">
+            <input type="text" name="fullname" placeholder="Full Name"
+              class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+            <input type="text" name="company" placeholder="Company"
+              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+            <input type="email" name="email" placeholder="Work Email"
+              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+            <input type="text" name="phone_number" placeholder="Work Phone"
+              class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+          </div>
+          <textarea placeholder="How can we help you?" name="description" cols="3" rows="6"
+            class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
+           <div class="flex justify-center items-center mb-3">
+              <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
+           </div>
         </div>
-        <textarea placeholder="How can we we help you?" cols="3" rows="6"
-          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
-         <div class="flex justify-center items-center mb-3">
-          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
-         </div>
-      </div>
+      </form>
       <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
         <div class="flex flex-col ">
           <p class="text-xl font-semibold">Our contact details</p>
@@ -1036,14 +1007,24 @@
         </div>
       </div>
     </div>
-  </form>
+  </div>
   
 
 
 @endsection
 
-
 @section('js')
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="{{ asset('js/jquery-latest.min.js') }}"></script>
+    <script>
+        $(".card-lists").slice(0, 3).show();
+        $("#loadMore").click('on', function(){
+          $(".card-lists:hidden").slice(0, 3).show();
+            if ($(".card-lists:hidden").length == 0) {
+              $("#loadMore").fadeOut();
+            }
+        });
+    </script>
 @endsection
 
