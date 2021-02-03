@@ -87,7 +87,6 @@
                                                {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
                                                <a href="{{ route('categories.index') }}" class="btn btn-light">Cancel</a>
                                            </div>
-
                                    </form>
                                </div>
 
