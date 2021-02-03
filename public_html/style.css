@@ -53,6 +53,15 @@ body{
 }
 
 
+#logo:hover + #logoHover{
+  display: grid;
+  box-shadow: 5px 5px 8px rgb(190, 190, 190);
+}
+#logoHover:hover{
+  display: grid;
+  box-shadow: 5px 5px 8px rgb(190, 190, 190);
+}
+
 
 /* #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
     #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
@@ -135,8 +144,7 @@ body{
 .slick-slide{
   display: none;
   float: left;
-  height: 100%;
-  min-height: 1px;
+
 }
 .slick-slide img{
   display: block;
@@ -177,8 +185,7 @@ body{
 .slick-slide{
     display: none;
     float: left;
-    height: 100%;
-    min-height: 1px;
+  
 }
 .slick-slide img{
     display: block;
