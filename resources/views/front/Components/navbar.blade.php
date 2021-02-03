@@ -111,7 +111,7 @@
       <button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">Ask Us</button>
     </div>
   </div>
-  <div class="px-10 md:px-16 lg:px-16 py-4 ">
+  {{-- <div class="px-10 md:px-16 lg:px-16 py-4 ">
     <div class="flex justify-between items-center">
       <a href="/">
       <img class="w-32"
@@ -302,4 +302,4 @@
     </div>
   </div>
 
-<!-- endnavbar -->
+<!-- endnavbar --> --}}
