@@ -54,9 +54,10 @@ class HomePageController extends Controller
             ->with('childrenCategories')
             ->get();
         if(!view()->exists('front.pages.'.$page)){
-            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index']);
+            $cardlists = CardList::orderBy('id', 'desc')->get();
+            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists]);
         }
-        $cardlists = CardList::orderBy('id', 'desc')->get();
+        //
         return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories]);
     }
 
