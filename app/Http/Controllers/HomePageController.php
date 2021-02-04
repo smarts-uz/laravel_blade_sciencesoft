@@ -16,7 +16,9 @@ class HomePageController extends Controller
             ->with('childrenCategories')
             ->get();
         $cardlists = CardList::orderBy('id', 'desc')->get();
-        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists]);
+        $lists = Category::with('lists')->get();
+
+        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists, 'lists' => $lists]);
     }
     public function getPage($page, $translation='en')
     {
@@ -26,7 +28,7 @@ class HomePageController extends Controller
         //     ->get();
         // return view('front.pages.'.$page, compact('categories'));
         return View::make('front.layout', ['page' => $page]);
-    }
+    }   
     public function postConsultation(Request $request){
 
         $this->validate($request, [

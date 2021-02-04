@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateConsultationsTable extends Migration
+class CreateCategoryListsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,10 @@ class CreateConsultationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('consultations', function (Blueprint $table) {
+        Schema::create('category_lists', function (Blueprint $table) {
             $table->id();
-            $table->string('fullname');
-            $table->string('company');
-            $table->string('email');
-            $table->string('phone_number');
-            $table->text('description');
+            $table->integer('category_id');
+            $table->string('link');
             $table->timestamps();
         });
     }
@@ -31,6 +28,6 @@ class CreateConsultationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('consultations');
+        Schema::dropIfExists('category_lists');
     }
 }

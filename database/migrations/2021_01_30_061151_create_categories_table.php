@@ -13,7 +13,7 @@ class CreateCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::table('categories', function (Blueprint $table) {
+        Schema::create('categories', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('category_id')->nullable()->default(null);
             $table->string('name')->nullable()->default(null);
@@ -25,6 +25,7 @@ class CreateCategoriesTable extends Migration
             $table->string('path_blade')->nullable()->default(null);
             $table->string('link')->nullable()->default(null);
             $table->boolean('active')->default(true);
+            $table->text('description_link')->nullable()->default(null);
             $table->softDeletes();
             $table->timestamps();
         });
