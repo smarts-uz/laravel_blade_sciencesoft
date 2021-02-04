@@ -17,24 +17,11 @@
                      <div class="col-lg-12">
                          <div class="card">
                              <div class="card-body ">
-                                    {!! Form::model($blog, ['route' => ['blogs.update', $blog->id], 'method' => 'patch']) !!}
-                                        <div class="row">
-                                            @include('blogs.fields')
-                                        </div>
-
-                                    {!! Form::close() !!}
-
                                  <form method="post" action="{{ route('blogs.update', $blog->id) }}" enctype="multipart/form-data">
                                  @csrf
                                  @method('PUT')
                                  <!-- Name Field -->
                                      <div class="row">
-                                         <!-- User id Field -->
-                                         <div class="form-group col-sm-6">
-                                             <label for="user_id">User Id</label>
-                                             <input type="text" class="form-control" id="user_id" name="user_id" value="{{ $blog->user_id }}">
-                                         </div>
-
                                          <!-- Tag Field -->
                                          <div class="form-group col-sm-6">
                                              <label for="tag">Tag</label>

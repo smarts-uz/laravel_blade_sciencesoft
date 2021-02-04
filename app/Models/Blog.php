@@ -50,7 +50,7 @@ class Blog extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'user_id' => 'string',
+        'user_id' => 'integer',
         //'tag' => 'string',
         //'image' => 'string',
         'title' => 'string',
@@ -64,7 +64,7 @@ class Blog extends Model
      * @var array
      */
     public static $rules = [
-        'user_id' => 'required|string|max:255',
+        'user_id' => 'nullable|integer',
         //'tag' => 'required|string',
         //'image' => 'required|string|max:255',
         'title' => 'required|string|max:255',

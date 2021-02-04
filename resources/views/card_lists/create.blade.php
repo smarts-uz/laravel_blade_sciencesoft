@@ -17,11 +17,6 @@
                    <div class="col-lg-12">
                        <div class="card">
                            <div class="card-body ">
-{{--                                {!! Form::open(['route' => 'cardLists.store']) !!}--}}
-{{--                                    <div class="row">--}}
-{{--                                        @include('card_lists.fields')--}}
-{{--                                    </div>--}}
-{{--                                {!! Form::close() !!}--}}
                                <form method="post" action="{{ route('cardLists.store') }}" enctype="multipart/form-data">
                                    @csrf
                                    <div class="row">
