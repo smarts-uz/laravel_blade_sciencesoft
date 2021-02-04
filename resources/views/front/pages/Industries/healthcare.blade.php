@@ -129,7 +129,36 @@
     HEALTHCARE IT CONSULTING SERVICES WE OFFER
   </h1>
   <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-  {{-- content  --}}
+        <div class="flex flex-row">
+        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-2/5 h-auto mr-10">
+          <hr class="w-full border-t-4 border-blue-800" />
+          <div class="p-4">
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
+            <p class="mb-3">Drawing on your needs, we can suggest either an offshore dedicated team or team
+              augmentation model of cooperation to back up your .NET development project or migration of
+              legacy software to .NET. We offer pre-vetted developers, which match your requirements –
+              you’re free to screen them before the start of cooperation.</p>
+
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+          </div>
+        </div>
+        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-2/5 h-auto mr-10">
+          <hr class="w-full border-t-4 border-blue-800" />
+          <div class="p-4">
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Co-sourcing with an in-house IT team
+            </p>
+            <p class="mb-3">Outsource your entire IT landscape, including IT service planning and
+              management, to achieve greater business performance with IT ROI boosted by 50-300%.</p>
+            <p>
+              We can also act as a service integrator taking up the management of your IT vendor
+              ecosystem.
+            </p>
+
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 70%-90% of
+              it</button>
+          </div>
+        </div>
+      </div>
 
   <h1 class="uppercase font-bold mt-10 text-2xl">
     BENEFIT FROM HIGH-QUALITY HEALTHCARE IT CONSULTING SERVICES!
