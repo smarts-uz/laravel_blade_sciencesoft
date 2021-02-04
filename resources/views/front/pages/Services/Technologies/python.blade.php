@@ -6,131 +6,162 @@
 
 @section('main')
 
+
 <div class="mx-6 md:mx-16 lg:mx-24 my-10">
       <!-- Custom Enterprise -->
       <div>
-       
+      
         <h1 class="uppercase font-bold mt-10 text-3xl">
-          Custom Enterprise and SaaS Java Application Development
+        Hire Python Developers
         </h1>
         <hr class="w-12 mt-5 border-yellow-400 h-4" />
         <img
-          src="https://www.scnsoft.com/cover-pictures/custom-enterprise-and-saas-java-development.svg"
+          src="https://www.scnsoft.com/software-development-services/python-devs/hire-sciencesofts-python-devs.svg"
         />
         <p class="my-5 text-lg">
-          <b>Java application development</b> services imply the engineering
-          of powerful web and mobile applications, web services, and embedded
-          software solutions able to run on any platform with the Java
-          language and frameworks.
-        </p>
-        <p class="my-5 text-lg">
-          <b>ScienceSoft</b> is a
-          <b>global Java application development company</b>
-          that has already accumulated
-          <b>more than 20 years of experience in Java development.</b> We’re
-          committed to building sustainable and high-quality Java solutions
-          using the latest and most trusted techs and architecture patterns.
+        Extend your in-house team with Python developers or hire a dedicated Python team from ScienceSoft to achieve technological advantage and save development costs with first-time-right code, on-time delivery, and high development productivity.
         </p>
       </div>
 
-      <!-- WHAT WE BUILD IN JAVA -->
+      <div class='flex justify-between items-center p-10 shadow-lg mt-3'>
+        <div class='w-2/3'>
+          <h1 class='text-gray-900 mt-6'>
+            <p class='text-2xl font-bold'>Lack Python Competencies or Resources?</p> 
+            <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+          </h1>
+          <p class='text-gray-600 text-xl'>We offer pre-vetted Python developers and dedicated Python teams with experience across multiple domains to help increase your development output.</p>
+        </div>
+        <div class='w-1/3 m-0 flex justify-center items-center'>
+          <a href="#" class='px-8 py-3 bg-blue-700 text-white uppercase hover:bg-blue-900'>Check Cvs of our devs</a>
+        </div>
+      </div>
+
+      <!--AREAS OF DEVELOPMENT WE HAVE A KNACK FOR -->
       <div>
         <h1 class="uppercase font-bold mt-10 text-3xl">
-          What we build in java
+        AREAS OF DEVELOPMENT WE HAVE A KNACK FOR
         </h1>
         <hr class="w-12 mt-5 border-yellow-400 h-4" />
-        <img
-          src="https://www.scnsoft.com/software-development-services/java-development-outsourcing/we-build-1.svg"
-        />
-        <div class="rounded-sm border-2 mt-10 transition-shadow p-2 md:p-8">
-          <div class="flex flex-col md:flex-row items-center">
-            <div class="flex flex-col w-3/4">
-              <h1 class="text-xl md:text-2xl font-bold">
-                Benefit from a Streamlined Delivery of Stable Java Software
-              </h1>
-              <hr class="w-12 border-yellow-600 text-gray-800 my-4" />
-              <p class="text-gray-600 text-lg md:text-xl leading-4">
-                ScienceSoft offers timely development of Java applications
-                with a sustainable architecture, clean code and a high
-                coverage with unit tests.
-              </p>
-            </div>
-            <div class="mr-0 md:mr-8 mb-8 md:mb-0 sm:mt-3">
-              <button class="uppercase bg-blue-700 text-base text-white">
-                Request Java Development
-              </button>
+        <div class="mt-5 flex flex-col">
+        <div>
+        <div class="flex flex-row">
+            <img src="https://www.scnsoft.com/software-development-services/python-devs/areas-of-development_back-end-programming.svg" class="h-28 w-28"/>
+            <div class="ml-5">
+              <p class="font-bold text-xl underline mb-4">Back-end programming:</p>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Data-intensive web applications.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Database interactions.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                APIs.
+                </p>
+              </div>
+            
             </div>
           </div>
+          <div class="flex flex-row mt-5">
+            <img src="https://www.scnsoft.com/software-development-services/python-devs/areas-of-development_machine-learning.svg" class="h-28 w-28"/>
+            <div class="ml-5">
+              <p class="font-bold text-xl underline mb-4">Machine learning:</p>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Sales forecasting systems.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Defect detection systems.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                Streaming analytics systems.
+                </p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                Voice/image/video recognition.
+                </p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                Chatbots.
+                </p>
+              </div>
+            </div>
+          </div>
+        
         </div>
+          
+        <div class="mr-5">
+        <div class="flex flex-row mt-5">
+            <img src="https://www.scnsoft.com/software-development-services/python-devs/areas-of-development_machine-learning.svg" class="h-28 w-28"/>
+            <div class="ml-5">
+              <p class="font-bold text-xl underline mb-4">Machine learning:</p>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Sales forecasting systems.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Defect detection systems.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                Streaming analytics systems.
+                </p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                Voice/image/video recognition.
+                </p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">
+                Chatbots.
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="flex flex-row">
+            <img src="https://www.scnsoft.com/software-development-services/python-devs/areas-of-development_data-analysis.svg" class="h-28 w-28"/>
+            <div class="ml-5">
+              <p class="font-bold text-xl underline mb-4">Custom-made statistical models.</p>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Custom-made statistical models.</p>
+              </div>
+              <div class="flex flex-row mb-2">
+                <span class="text-blue-600 mr-4">&#9632;</span>
+                <p class="text-lg">Dashboards and reporting solutions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-row mt-5">
+            <img src="https://www.scnsoft.com/software-development-services/python-devs/areas-of-development_test-automation.svg" class="h-28 w-28"/>
+            <div class="ml-5">
+              <p class="font-bold text-xl underline mb-4">Test automation</p>
+            </div>
+          </div>
+        
+        </div>
+        
+        </div>
+        
 
         <!-- WHY CHOOSE SCIENCESOFT AS YOUR JAVA DEVELOPMENT PARTNER? -->
 
-        <div>
-          <h1 class="uppercase font-bold mt-10 text-3xl">
-            Why choose sciencesoft as your java development partner?
-          </h1>
-          <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
-          <div class="flex flex-row mt-5">
-            <div >
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">Over 20 years in Java development.</p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">Quick project start (1 – 4 weeks).</p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">
-                  Rapid prototyping, fast <b>MVP delivery.</b>
-                </p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">
-                  Proprietary
-                  <b>Integrated Manual and Automated Testing</b> (IMAAT)
-                  approach.
-                </p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">
-                  Experience in
-                  <b
-                    >big data, IoT, machine learning, blockchain, image
-                    analysis,</b
-                  >
-                  etc.
-                </p>
-              </div>
-            </div>
-            <div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">Data analytics services since 1989.</p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">
-                  Big data consulting services since 2013.
-                </p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">IoT consulting services since 2011.</p>
-              </div>
-              <div class="flex flex-row mb-2">
-                <span class="text-blue-600 mr-4">&#9632;</span>
-                <p class="text-lg">
-                  AWS Select-tier consulting partner and Microsoft partner
-                  with 8 Gold competencies.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+       
 
         <!-- WHAT MAKES SCIENCESOFT’S JAVA DEVELOPERS STAND OUT -->
         <div>
@@ -241,15 +272,15 @@
                 <p class=" text-gray-500 text-lg md:text-xl">
                   A number of products to help big companies improve their innovation process with the help of semantic analysis of natural language texts including 15 mln worldwide patents, 3,000 cross-disciplinary scientific 'deep web' websites and the database of 8,000 scientific effects. The software allows engineering, marketing and production personnel to find more cost-effective, competitive and higher-quality system designs
                 </p>
-               
+
               </div>
             </div>
             <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">Learn More<i class="fas fa-arrow-right ml-4"></i></a>
           </div>
         </div>
       </div>
-</div>
-
+   
+    </div>
 @endsection
 
 
