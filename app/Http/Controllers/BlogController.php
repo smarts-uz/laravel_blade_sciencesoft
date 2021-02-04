@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\DataTables\BlogDataTable;
 use App\Http\Requests;
 use App\Models\Blog;
-use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateBlogRequest;
 use App\Http\Requests\UpdateBlogRequest;

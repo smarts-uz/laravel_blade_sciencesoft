@@ -1,11 +1,11 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/*!******************************************************!*\
-  !*** ./resources/assets/js/card_lists/card_lists.js ***!
-  \******************************************************/
+/*!************************************************************!*\
+  !*** ./resources/assets/js/company_teams/company_teams.js ***!
+  \************************************************************/
 
 
-var tableName = '#cardListsTable';
+var tableName = '#companyTeamsTable';
 $(tableName).DataTable({
   scrollX: true,
   deferRender: true,
@@ -23,14 +23,14 @@ $(tableName).DataTable({
     'width': '8%'
   }],
   columns: [{
+    data: 'name',
+    name: 'name'
+  }, {
+    data: 'job',
+    name: 'job'
+  }, {
     data: 'image',
     name: 'image'
-  }, {
-    data: 'title',
-    name: 'title'
-  }, {
-    data: 'sub_title',
-    name: 'sub_title'
   }, {
     data: 'description',
     name: 'description'
@@ -41,14 +41,14 @@ $(tableName).DataTable({
         'id': row.id,
         'url': url + '/edit'
       }];
-      return prepareTemplateRender('#cardListsTemplate', data);
+      return prepareTemplateRender('#companyTeamsTemplate', data);
     },
     name: 'id'
   }]
 });
 $(document).on('click', '.delete-btn', function (event) {
   var recordId = $(event.currentTarget).data('id');
-  deleteItem(recordsURL + recordId, tableName, 'Card Lists');
+  deleteItem(recordsURL + recordId, tableName, 'Company Team');
 });
 /******/ })()
 ;

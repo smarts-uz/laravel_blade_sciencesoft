@@ -22,15 +22,15 @@ class BlogFactory extends Factory
     public function definition()
     {
         return [
-            'user_id' => $this->faker->word,
-        'tag' => $this->faker->text,
-        'image' => $this->faker->word,
-        'title' => $this->faker->word,
-        'description' => $this->faker->word,
-        'description_text' => $this->faker->word,
-        'deleted_at' => $this->faker->date('Y-m-d H:i:s'),
-        'created_at' => $this->faker->date('Y-m-d H:i:s'),
-        'updated_at' => $this->faker->date('Y-m-d H:i:s')
+            'user_id' => $this->faker->randomDigitNotNull,
+            'tag' => $this->faker->text,
+            'image' => $this->faker->word,
+            'title' => $this->faker->word,
+            'description' => $this->faker->word,
+            'description_text' => $this->faker->word,
+            'deleted_at' => $this->faker->date('Y-m-d H:i:s'),
+            'created_at' => $this->faker->date('Y-m-d H:i:s'),
+            'updated_at' => $this->faker->date('Y-m-d H:i:s')
         ];
     }
 }

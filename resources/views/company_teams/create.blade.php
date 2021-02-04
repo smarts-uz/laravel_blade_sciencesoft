@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('title')
-    Create Card Lists
+    Company Team Team
 @endsection
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h3 class="page__heading m-0">New Card Lists</h3>
+            <h3 class="page__heading m-0">New Team</h3>
             <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                <a href="{{ route('cardLists.index') }}" class="btn btn-primary">Back</a>
+                <a href="{{ route('companyTeams.index') }}" class="btn btn-primary">Back</a>
             </div>
         </div>
         <div class="content">
@@ -16,20 +16,20 @@
                <div class="row">
                    <div class="col-lg-12">
                        <div class="card">
-                           <div class="card-body ">
-                               <form method="post" action="{{ route('cardLists.store') }}" enctype="multipart/form-data">
+                           <div class="card-body">
+                               <form method="post" action="{{ route('companyTeams.store') }}" enctype="multipart/form-data">
                                    @csrf
                                    <div class="row">
                                        <!-- Name Field -->
                                        <div class="form-group col-sm-6">
-                                           <label for="title">Title</label>
-                                           <input type="text" class="form-control" id="title" name="title" value="{{ old('title') }}">
+                                           <label for="name">Name</label>
+                                           <input type="text" class="form-control" id="name" name="name" value="{{ old('name') }}">
                                        </div>
 
                                        <!-- Name Lang Field -->
                                        <div class="form-group col-sm-6">
-                                           <label for="sub_title">Sub Title</label>
-                                           <input type="text" class="form-control" id="sub_title" name="sub_title" value="{{ old('sub_title') }}">
+                                           <label for="job">Job</label>
+                                           <input type="text" class="form-control" id="job" name="job" value="{{ old('job') }}">
                                        </div>
 
                                        <!-- Description Field -->
@@ -49,7 +49,7 @@
                                    <!-- Submit Field -->
                                    <div class="form-group col-sm-12">
                                        {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                       <a href="{{ route('cardLists.index') }}" class="btn btn-light">Cancel</a>
+                                       <a href="{{ route('companyTeams.index') }}" class="btn btn-light">Cancel</a>
                                    </div>
                                </form>
                            </div>

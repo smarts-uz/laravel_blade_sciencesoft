@@ -7,24 +7,22 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 /**
- * Class Blog
+ * Class CompanyTeam
  * @package App\Models
- * @version February 2, 2021, 9:58 am UTC
+ * @version February 4, 2021, 5:55 am UTC
  *
- * @property string $user_id
- * @property string $tag
+ * @property string $name
+ * @property string $job
  * @property string $image
- * @property string $title
  * @property string $description
- * @property string $description_text
  */
-class Blog extends Model
+class CompanyTeam extends Model
 {
     use SoftDeletes;
 
     use HasFactory;
 
-    public $table = 'blogs';
+    public $table = 'company_teams';
 
     const CREATED_AT = 'created_at';
     const UPDATED_AT = 'updated_at';
@@ -35,12 +33,10 @@ class Blog extends Model
 
 
     public $fillable = [
-        'user_id',
-        'tag',
+        'name',
+        'job',
         'image',
-        'title',
-        'description',
-        'description_text'
+        'description'
     ];
 
     /**
@@ -50,12 +46,10 @@ class Blog extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'user_id' => 'integer',
-        //'tag' => 'string',
-        //'image' => 'string',
-        'title' => 'string',
-        'description' => 'string',
-        'description_text' => 'string'
+        'name' => 'string',
+        'job' => 'string',
+        //'image' => 'file',
+        'description' => 'string'
     ];
 
     /**
@@ -64,12 +58,10 @@ class Blog extends Model
      * @var array
      */
     public static $rules = [
-        'user_id' => 'nullable|integer',
-        //'tag' => 'required|string',
-        //'image' => 'required|string|max:255',
-        'title' => 'required|string|max:255',
+        'name' => 'required|string|max:255',
+        'job' => 'required|string|max:255',
+        'image' => 'required',
         'description' => 'required|string|max:255',
-        'description_text' => 'required|string|max:255',
         'deleted_at' => 'nullable',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'

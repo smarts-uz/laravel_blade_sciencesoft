@@ -21,11 +21,6 @@
                                <form method="post" action="{{ route('blogs.store') }}" enctype="multipart/form-data">
                                    @csrf
                                    <div class="row">
-                                       <!-- User id Field -->
-                                       <div class="form-group col-sm-6">
-                                           <label for="user_id">User Id</label>
-                                           <input type="text" class="form-control" id="user_id" name="user_id" value="{{ old('user_id') }}">
-                                       </div>
 
                                        <!-- Tag Field -->
                                        <div class="form-group col-sm-6">

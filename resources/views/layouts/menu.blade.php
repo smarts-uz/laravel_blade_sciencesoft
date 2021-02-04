@@ -22,3 +22,9 @@
     <a class="nav-link" href="{{ route('cardLists.index') }}"><i class="fas fa-building"></i><span>Card Lists</span></a>
 </li>
 
+
+
+<li class="side-menus {{ Request::is('companyTeams*') ? 'active' : '' }}">
+    <a class="nav-link" href="{{ route('companyTeams.index') }}"><i class="fas fa-building"></i><span>Company Teams</span></a>
+</li>
+
