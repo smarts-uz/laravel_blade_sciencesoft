@@ -22,7 +22,7 @@ class CategoryFactory extends Factory
     public function definition()
     {
         return [
-            'category_id' => $this->faker->randomDigitNotNull,
+        'category_id' => $this->faker->randomDigitNotNull,
         'name' => $this->faker->word,
         'name_lang' => $this->faker->text,
         'description' => $this->faker->text,

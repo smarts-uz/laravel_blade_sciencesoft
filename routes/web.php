@@ -72,7 +72,7 @@ Auth::routes();
 // Admin CRUD
 Route::resource('categories', App\Http\Controllers\CategoryController::class);
 Route::resource('blogs', App\Http\Controllers\BlogController::class);
-Route::post('ckeditor/image_upload', 'CKEditorController@upload')->name('upload');
-
-
+Route::post('ckeditor/upload', 'App\Http\Controllers\CKEditorController@upload')->name('upload');
 Route::resource('consultations', App\Http\Controllers\ConsultationController::class);
+Route::resource('cardLists', App\Http\Controllers\CardListsController::class);
+Route::resource('companyTeams', App\Http\Controllers\CompanyTeamController::class);

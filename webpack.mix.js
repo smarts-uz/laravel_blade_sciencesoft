@@ -77,3 +77,10 @@ mix.babel('node_modules/izitoast/dist/js/iziToast.min.js',
 
 
  mix.js('resources/assets/js/consultations/consultations.js', 'public/assets/js/consultations/consultations.js').version();
+
+
+ mix.js('resources/assets/js/card_lists/card_lists.js', 'public/assets/js/card_lists/card_lists.js').version();
+
+
+
+ mix.js('resources/assets/js/company_teams/company_teams.js', 'public/assets/js/company_teams/company_teams.js').version();

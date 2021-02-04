@@ -105,7 +105,7 @@
         </div>
 
         <div class="container -mt-36">
-            <section class="customer-logos slider ">
+            <section class="customer-logos slider h-1/3 my-10">
                 <div class="slide"><img src="images/adidas.png" alt="logo"></div>
                 <div class="slide"><img src="images/facebook.png" alt="logo"></div>
                 <div class="slide"><img src="images/google.png" alt="logo"></div>
