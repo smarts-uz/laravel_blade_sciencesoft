@@ -76,3 +76,6 @@ Route::post('ckeditor/upload', 'App\Http\Controllers\CKEditorController@upload')
 Route::resource('consultations', App\Http\Controllers\ConsultationController::class);
 Route::resource('cardLists', App\Http\Controllers\CardListsController::class);
 Route::resource('companyTeams', App\Http\Controllers\CompanyTeamController::class);
+
+
+Route::resource('products', App\Http\Controllers\ProductController::class);

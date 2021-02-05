@@ -28,6 +28,6 @@
         let recordsURL = "{{ route('cardLists.index') }}/";
     </script>
     <script src="{{ asset('assets/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ mix('assets/js/custom/custom-datatable.js') }}"></script>
-    <script src="{{mix('assets/js/card_lists/card_lists.js')}}"></script>
+    <script src="{{ asset('assets/js/custom/custom-datatable.js') }}"></script>
+    <script src="{{asset('assets/js/card_lists/card_lists.js')}}"></script>
 @endsection

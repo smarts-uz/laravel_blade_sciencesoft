@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    Company Teams 
+    Products 
 @endsection
 @section('css')
     <link href="{{ asset('assets/css/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css"/>
@@ -8,16 +8,16 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>Company Teams</h1>
+            <h1>Products</h1>
             <div class="section-header-breadcrumb">
-                <a href="{{ route('companyTeams.create')}}" class="btn btn-primary form-btn">Company Team <i class="fas fa-plus"></i></a>
+                <a href="{{ route('products.create')}}" class="btn btn-primary form-btn">Product <i class="fas fa-plus"></i></a>
             </div>
         </div>
         <div class="section-body">
             <div class="card">
                 <div class="card-body">
-                    @include('company_teams.table')
-                    @include('company_teams.templates.templates')
+                    @include('products.table')
+                    @include('products.templates.templates')
                 </div>
             </div>
         </div>
@@ -25,9 +25,9 @@
 @endsection
 @section('scripts')
     <script>
-        let recordsURL = "{{ route('companyTeams.index') }}/";
+        let recordsURL = "{{ route('products.index') }}/";
     </script>
     <script src="{{ asset('assets/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('assets/js/custom/custom-datatable.js') }}"></script>
-    <script src="{{asset('assets/js/company_teams/company_teams.js')}}"></script>
+    <script src="{{ mix('assets/js/custom/custom-datatable.js') }}"></script>
+    <script src="{{mix('assets/js/products/products.js')}}"></script>
 @endsection
