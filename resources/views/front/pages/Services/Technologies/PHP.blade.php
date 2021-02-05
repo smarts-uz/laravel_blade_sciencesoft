@@ -144,7 +144,7 @@
               <hr class="w-full border-t-4 border-blue-800" />
               <div class="p-4">
                 <p class="text-lg text-blue-700 mb-3">Request PHP consulting</p>
-                <p class="mb-3">We help you select the technology mix for a planned PHP project or provide expert recommendations on how to solve the tech challenges of an ongoing project:</p>
+                <p class="mb-3">We help you select the technology asset for a planned PHP project or provide expert recommendations on how to solve the tech challenges of an ongoing project:</p>
                 <div class="flex flex-row mb-2">
                   <span class="text-blue-600 mr-4">&#9632;</span>
                   <p class="text-base">
