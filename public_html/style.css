@@ -76,6 +76,10 @@ body{
   display: none;
 }
 
+
+
+
+
 @media screen and (max-width: 1024px) {
   .responsive-active {
     display: none;

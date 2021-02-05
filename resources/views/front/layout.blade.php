@@ -13,6 +13,7 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
   <link rel="stylesheet" href="{{ asset('style.css') }}">
+  <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
   <title>Sciensoft Development Company</title>
 
    
