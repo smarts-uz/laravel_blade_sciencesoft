@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Front;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Blog;
 
 
 class SoftController extends Controller
@@ -16,6 +17,15 @@ class SoftController extends Controller
     public function index()
     {
         return view('front.pages.index');
+    }
+    /**
+     * Show front home-page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function blog()
+    {
+        return view('front.pages.blog');
     }
       /**
      * Show front about-company-pages.
@@ -30,10 +40,6 @@ class SoftController extends Controller
     public function about_company()
     {
         return view('front.pages.About.Company.about_Company');
-    }
-    public function management_team()
-    {
-        return view('front.pages.management_team');
     }
     public function careers()
     {
@@ -135,7 +141,7 @@ class SoftController extends Controller
     {
         return view('front.pages.Industries.healthcare');
     }
-    
+
     public function banking_financial_services()
     {
         return view('front.pages.industries.banking_financial_services');
@@ -180,5 +186,5 @@ class SoftController extends Controller
     {
         return view('front.pages.Industries.insurance');
     }
-    
+
 }
