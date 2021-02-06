@@ -63,7 +63,6 @@ Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@i
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
 Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
-//Route::get('blog', 'App\Http\Controllers\Front\softController@blog')->name('blog');
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
