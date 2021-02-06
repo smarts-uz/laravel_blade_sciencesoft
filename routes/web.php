@@ -86,3 +86,6 @@ Route::post('/language', 'App\Http\Controllers\LanguageController@changeLanguage
 Route::resource('/languages', 'App\Http\Controllers\LanguageController');
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
+
+Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
+
