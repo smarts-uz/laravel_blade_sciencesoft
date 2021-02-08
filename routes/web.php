@@ -79,3 +79,15 @@ Route::resource('companyTeams', App\Http\Controllers\CompanyTeamController::clas
 
 
 Route::resource('products', App\Http\Controllers\ProductController::class);
+
+
+Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
+Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('language.update');
+Route::delete('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
+Route::resource('languages', 'App\Http\Controllers\LanguageController');
+Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
+Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
+// Route::post('/env_key_update', 'BusinessSettingsController@env_key_update')->name('env_key_update.update');
+
+Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
+

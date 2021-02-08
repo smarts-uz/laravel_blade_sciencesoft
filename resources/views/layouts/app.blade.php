@@ -24,7 +24,7 @@
     @yield('css')
 </head>
 <body>
-
+@yield('modal')
 <div id="app">
     <div class="main-wrapper main-wrapper-1">
         <div class="navbar-bg"></div>
@@ -55,7 +55,24 @@
         filebrowserUploadUrl: "{{route('upload', ['_token' => csrf_token() ])}}",
         filebrowserUploadMethod: 'form'
     });
+
+    
 </script>
+<script type="text/javascript">
+			if ($('#lang-change').length > 0) {
+				$('#lang-change .dropdown-menu a').each(function() {
+					$(this).on('click', function(e){
+						e.preventDefault();
+						var $this = $(this);
+						var locale = $this.data('flag');
+						$.post('{{ route('language.change') }}',{_token:'{{ csrf_token() }}', locale:locale}, function(data){
+							location.reload();
+						});
+
+					});
+				});
+			}
+		</script>
 <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/popper.min.js') }}"></script>
 <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
@@ -71,6 +88,7 @@
 <script src="{{ asset('assets/js/custom/custom.js') }}"></script>
 @yield('page_js')
 @yield('scripts')
+@yield('script')
 <script>
     let loggedInUser =@json(\Illuminate\Support\Facades\Auth::user());
     let loginUrl = '{{ route('login') }}';
