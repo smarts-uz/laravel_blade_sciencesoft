@@ -138,7 +138,94 @@
       Banking Software & IT Services for Banks
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+    <div class="flex flex-row">
+    <div class="w-1/5"></div>
+    <div class="w-4/5">
+    <div class=" flex flex-row flex-wrap">
+        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/content-management.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2">Learning content development and <br> management</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
 
+                <li><p class="text-black">Multiple content types (e.g., text, images, video, audio, <br> AR/VR).</p></li>
+                <li><p class="text-black">Built-in content authoring (e.g., eLearning course <br> development).</p></li>
+                <li><p class="text-black">Learner-generated, third-party, and corporate content <br> aggregation.</p></li>
+                <li><p class="text-black">Content tagging and intelligent search.</p></li>
+                <li><p class="text-black">Support of technical standards like SCORM, AICC, xAPI and <br> LTI.</p></li>
+                <li><p class="text-black">Compliance with corporate and industry-specific <br> regulations like HIPAA, SOX,
+                    GLBA.</p></li>
+
+            </ul>
+
+        </div>
+        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/admin.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2">Learning process administration and <br> delivery</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Support of various types of learning (instructor-led online <br> learning, blended
+                    learning, microlearning, self-paced <br> learning, and more).</p></li>
+                <li><p class="text-black">Automated enrollment to courses based on job roles, <br> required skills, learning history, etc.</p></li>
+                <li><p class="text-black">Learning event scheduling (e.g., trainings, workshops, <br> exams)</p></li>
+                <li><p class="text-black">Automated reminders and notifications (e.g., new courses, <br> deadlines).</p></li>
+                <li><p class="text-black">AI-driven personalized learning paths and content <br> recommendations.</p></li>
+                <li><p class="text-black">Performance assessment.</p></li>
+                <li><p class="text-black">Online proctoring (e.g., tests, exams).</p></li>
+                <li><p class="text-black">VR and AR simulators..</p></li>
+
+            </ul>
+
+        </div>
+        <div class="bg-white   w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/lms-consulting/social-learning.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2">Social features</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Learners’ profile pages.</p></li>
+                <li><p class="text-black">Learning communities.</p></li>
+                <li><p class="text-black">Discussion boards, chats and forums for learners.</p></li>
+                <li><p class="text-black">Interactions with content via likes, shares, comments.</p></li>
+                <li><p class="text-black">Gamification (scores, badges, leaderboards, levels, <br> rewards).</p></li>
+
+            </ul>
+
+        </div>
+        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/analytics-and-reporting.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2">Analytics and reporting</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Learning history.</p></li>
+                <li><p class="text-black">Learners’ feedback gathering.</p></li>
+                <li><p class="text-black">Content usage, user activity, and performance assessment <br> dashboards.</p></li>
+                <li><p class="text-black">User regulatory compliance reporting.</p></li>
+            </ul>
+
+        </div>
+        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/integration.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2">Integrations</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">ERP.</p></li>
+                <li><p class="text-black">CRM.</p></li>
+                <li><p class="text-black">HR software.</p></li>
+                <li><p class="text-black">Content management systems.</p></li>
+                <li><p class="text-black">Knowledge management systems.</p></li>
+                <li><p class="text-black">Task management software.</p></li>
+                <li><p class="text-black">Video conferencing software.</p></li>
+                <li><p class="text-black">Social media.</p></li>
+            </ul>
+
+        </div>
+    </div>
+    </div>
+</div>
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
       Banking Software & IT Services for Banks
@@ -149,6 +236,37 @@
       Banking Software & IT Services for Banks
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+    <div class="flex flex-row p-3 ">
+        <div style="height: 500px;" class="w-72 p-4 border-2 border-white-700">
+            <img class="w-28 h-28 rounded" src="https://www.scnsoft.com/colored-icons-on-grey-background/speed.svg">
+            <h1 class="my-8 text-semibol text-gray-700 text-2xl"><strong>Fast solution delivery</strong> </h1>
+            <p class="text-xl text-gray-500">
+                Of a viable MVP (within 3-5 months) <br>
+                to agile iterative development and applying <br>
+                CI/CD practices.
+            </p>
+        </div>
+        <div style="height: 500px;" class="w-72 p-3 mx-10 border-2 border-white-700">
+            <img class="w-28 h-28 rounded" src="https://www.scnsoft.com/colored-icons-on-grey-background/quality.svg">
+            <h1 class="my-8 text-semibol text-gray-700 text-2xl"><strong>Cost-efficiency</strong></h1>
+            <p class="text-xl text-gray-500">
+                Due to applying proven third-party components and public APIs, 
+                <br>using cloud-native architecture and continuous <br>
+                implementation
+                 costs optimization by ScienceSoft’s PMs.
+            </p>
+        </div>
+        <div style="height: 500px;" class="w-72 p-3 border-2 border-white-700">
+            <img class="w-28 h-28 rounded" src="https://www.scnsoft.com/colored-icons-on-grey-background/speed.svg">
+            <h1 class="my-8 text-semibol text-gray-700 text-2xl"><strong>Guaranteed software quality</strong></h1>
+            <p class="text-xl text-gray-500">
+                Due to regular code reviews, integrated APM 
+                <br>(application performance management), and unit testing.
+            </p>
+        </div>
+
+
+   </div>
 
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
@@ -156,16 +274,19 @@
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
+
+    
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
       Banking Software & IT Services for Banks
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
     <div class="flex flex-row">
+    
         <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-8 border-blue-800" />
+          <hr class="w-full	 border-t-8 border-blue-800" />
           <div class="p-4">
-          <img class="items-center justify-center " src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
+          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
             <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
             <ul class="list-disc">
               <li class="ml-4 mt-3.5">Learning needs analysis.</li>
@@ -181,9 +302,9 @@
           </div>
         </div>
         <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-8 border-blue-800" />
+          <hr class="w-full	 border-t-8 border-blue-800" />
           <div class="p-4">
-          <img class="items-center justify-center " src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
+          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
             <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
             <ul class="list-disc">
               <li class="ml-4 mt-3.5">Learning needs analysis.</li>
@@ -198,6 +319,49 @@
             <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
           </div>
         </div>
+      
+       
+        
+      </div>
+    <div class="flex flex-row">
+    
+        <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+          <hr class="w-full	 border-t-8 border-blue-800" />
+          <div class="p-4">
+          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
+            <ul class="list-disc">
+              <li class="ml-4 mt-3.5">Learning needs analysis.</li>
+              <li class="ml-4 mt-3.5">Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set</li>
+              <li class="ml-4 mt-3.5">Selection of platform or a tech stack, and an implementation methodology.</li>
+              <li class="ml-4 mt-3.5">End-to-end eLearning software development.</li>
+              <li class="ml-4 mt-3.5">Quality assurance.</li>
+              <li class="ml-4 mt-3.5">User training.</li>
+              <li class="ml-4 mt-3.5">Post-implementation support and evolution.</li>
+            </ul>
+
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+          </div>
+        </div>
+        <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+          <hr class="w-full	 border-t-8 border-blue-800" />
+          <div class="p-4">
+          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
+            <ul class="list-disc">
+              <li class="ml-4 mt-3.5">Learning needs analysis.</li>
+              <li class="ml-4 mt-3.5">Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set</li>
+              <li class="ml-4 mt-3.5">Selection of platform or a tech stack, and an implementation methodology.</li>
+              <li class="ml-4 mt-3.5">End-to-end eLearning software development.</li>
+              <li class="ml-4 mt-3.5">Quality assurance.</li>
+              <li class="ml-4 mt-3.5">User training.</li>
+              <li class="ml-4 mt-3.5">Post-implementation support and evolution.</li>
+            </ul>
+
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+          </div>
+        </div>
+      
        
         
       </div>
