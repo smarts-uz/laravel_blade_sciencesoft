@@ -90,3 +90,6 @@ mix.babel('node_modules/izitoast/dist/js/iziToast.min.js',
 
 
  mix.js('resources/assets/js/portfolios/portfolios.js', 'public/assets/js/portfolios/portfolios.js').version();
+
+
+ mix.js('resources/assets/js/news/news.js', 'public/assets/js/news/news.js').version();

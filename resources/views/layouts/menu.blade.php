@@ -38,3 +38,7 @@
     <a class="nav-link" href="{{ route('portfolios.index') }}"><i class="fas fa-building"></i><span>Portfolios</span></a>
 </li>
 
+<li class="side-menus {{ Request::is('news*') ? 'active' : '' }}">
+    <a class="nav-link" href="{{ route('news.index') }}"><i class="fas fa-building"></i><span>News</span></a>
+</li>
+
