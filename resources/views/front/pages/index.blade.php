@@ -963,19 +963,22 @@
 
 
   <div class='flex flex-row flex-wrap justify-between'>
-    @foreach($cards as $card)
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
-        <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
-        <p class="text-grey-darker text-base mb-5">
-            {{ $card->description }}
-        </p>
+    @isset($cards)
+      @foreach($cards as $card)
+      <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+        <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
+          alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
+          <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
+          <p class="text-grey-darker text-base mb-5">
+              {{ $card->description }}
+          </p>
+        </div>
       </div>
-    </div>
-    @endforeach
+      @endforeach
+    @endisset
+    
 
     <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
   </div>
