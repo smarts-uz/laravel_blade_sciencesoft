@@ -34,5 +34,7 @@
 
 <li class="side-menus {{ Request::is('languages*') ? 'active' : '' }}">
     <a class="nav-link" href="{{ route('languages.index') }}"><i class="fas fa-building"></i><span>Languages</span></a>
+<li class="side-menus {{ Request::is('portfolios*') ? 'active' : '' }}">
+    <a class="nav-link" href="{{ route('portfolios.index') }}"><i class="fas fa-building"></i><span>Portfolios</span></a>
 </li>
 

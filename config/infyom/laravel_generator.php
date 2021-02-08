@@ -158,7 +158,7 @@ return [
 
         'view' => '',  // using backend will create return view('backend.?.index') type the backend views directory
 
-        'public' => '',
+        'public_html' => '',
     ],
 
     /*

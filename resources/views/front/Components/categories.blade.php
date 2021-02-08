@@ -22,37 +22,41 @@
                             <div class="w-1/5 list-none">
                                 <h1 class="mb-2 font-bold">{{ $subCategory->name }}</h1>
                                 <hr class="border-b-2 w-12 border-yellow-500">
-                             
+
                                 <ul>
                                     @if($subCategory->active && count($subCategory->subCategories))
                                         @foreach ($subCategory->subCategories as $subSubCategory)
                                             {{-- <p>{{ $subSubCategory->name }}-{{ $subSubCategory->path_blade }}</p> --}}
 
                                             <a class="font-normal" href="{{route('getBlade', ['page'=>$subSubCategory->path_blade??'404'])}}"><li class="mt-4 text-black hover:text-blue-700">{{ $subSubCategory->name }} </li></a>
-                                            
-                                            
+
+
                                             {{-- @isset($subCategory->path_blade)
                                             hi
                                                 @includeIf('front.pages.'.$subCategory->path_blade, ['current_page' => $subCategory->path_blade])
                                             @endisset --}}
-                                            
+
                                             {{-- <a href="{{$subCategory->path_blade}}"><li class="mt-4 text-black hover:text-blue-700">{{ $subSubCategory->name }} </li></a> --}}
                                         @endforeach
                                     @endif
                                 </ul>
                             </div>
                         @endforeach
-                    @endif                    
+                    @else
+                        <a id="{{ $category->name }}" class=" relative py-6" href="{{route('getBlade', ['page'=>$category->path_blade??'404'])}}">
+                            {{$category->name}}
+                        </a>
+                    @endif
                     </a>
-                </li>  
-            @endforeach          
+                </li>
+            @endforeach
             <li class="flex justify-center items- center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
                 <a  href="/contact-us">Let's talk</a>
             </li>
         </ul>
         <!-- Search Bar -->
-        <div 
-          onclick="searchBarClick()" 
+        <div
+          onclick="searchBarClick()"
           class="flex justify-center cursor-pointer items-center bg-blue-700 rounded-full text-white p-2 hover:bg-blue-900">
           <i class="fa fa-search fa-xl"></i>
         </div>

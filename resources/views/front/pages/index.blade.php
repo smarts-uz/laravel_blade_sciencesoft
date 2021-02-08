@@ -19,16 +19,9 @@
 </div>
 <div class="container mb-24">
     <section class="customer-logos slider px-16">
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/baxter.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/deloitte.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ebay.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ford.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/ibm.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/leo-burnett.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nasa_1.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/nestle.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/tieto.svg') }}" alt="logo"></div>
-      <div class="slide"><img class="h-32 w-32" src="{{ asset ('/images/viber.svg') }}" alt="logo"></div>
+      @foreach($categories as $category)
+      <div class="slide"><img class="h-32 w-32" src="/uploads/categories/{{ $category->image }}" alt="logo"></div>
+      @endforeach
     </section>
   </div>
   <!-- EXPLORE OUR OFFERING Responsive -->
@@ -797,55 +790,17 @@
       business evolution.
     </p>
     <div class="flex flex-wrap overflow-hidden sm:-mx-3">
-      <div
-        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
-        <a href="https://www.scnsoft.com/sharepoint-office-365">
-          <div
-            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
-            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/sharepoint-logo.svg" />
-          </div>
-        </a>
-      </div>
-
-      <div
-        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
-        <a href="https://www.scnsoft.com/microsoft-dynamics-365">
-          <div
-            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
-            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/dynamics-365.svg" />
-          </div>
-        </a>
-      </div>
-
-      <div
-        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
-        <a href="https://www.scnsoft.com/services/salesforce/implementation">
-          <div
-            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
-            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/salesforce.svg" />
-          </div>
-        </a>
-      </div>
-
-      <div
-        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
-        <a href="https://www.scnsoft.com/services/salesforce/implementation">
-          <div
-            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
-            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/servicenow-logo.svg" />
-          </div>
-        </a>
-      </div>
-
-      <div
-        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
-        <a href="https://www.scnsoft.com/ecommerce/magento/services/consulting">
-          <div
-            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
-            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/magento-logo.svg" />
-          </div>
-        </a>
-      </div>
+        @foreach($categories as $category)
+            <div
+                class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+                <a href="">
+                    <div
+                        class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
+                        <img class="h-32 w-32" src="/uploads/categories/icon/{{ $category->icon }}" alt="logo">
+                    </div>
+                </a>
+            </div>
+        @endforeach
     </div>
   </div>
 
@@ -1008,46 +963,20 @@
 
 
   <div class='flex flex-row flex-wrap justify-between'>
+    @foreach($cards as $card)
     <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
+      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
         alt="Sunset in the mountains">
       <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
-        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
+        <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
         <p class="text-grey-darker text-base mb-5">
-          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
-          stats and industry use cases to key development tools and cost drivers.
+            {{ $card->description }}
         </p>
       </div>
     </div>
+    @endforeach
 
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
-        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
-        <p class="text-grey-darker text-base mb-5">
-          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
-          stats and industry use cases to key development tools and cost drivers.
-        </p>
-      </div>
-    </div>
-
-    <div class=" rounded overflow-hidden shadow-lg w-full my-2h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48"
-        src="https://www.scnsoft.com/---home-page-illustrations/blog/real-time-big-data-analytics.svg"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">Data Analytics, Big Data</h1>
-        <div class="font-bold text-xl mb-2">A Comprehensive Guide to Real-Time Big Data Analytics</div>
-        <p class="text-grey-darker text-base">
-
-          An easy guide to real-time big data analytics from our big data consultants. What is behind the term? How does a
-          typical architecture look? What makes it a competitive advantage?
-        </p>
-      </div>
-    </div>
     <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
   </div>
   <!-- Need a CONSULTATION? -->

@@ -101,6 +101,8 @@ class DatabaseSeeder extends Seeder
             ['id'=>65, 'name' => 'Oil & Gas', 'category_id'=>55, 'path_blade'=>'industries.oil_gas'],
             ['id'=>66, 'name' => 'Professional Services', 'category_id'=>55, 'path_blade'=>'industries.professional_services'],
             ['id'=>67, 'name' => 'Insurance', 'category_id'=>55, 'path_blade'=>'industries.insurance'],
+            //
+            ['id'=>68, 'name' => 'Blog', 'path_blade'=>'blog'],
 
         ];
         foreach($categories as $category){

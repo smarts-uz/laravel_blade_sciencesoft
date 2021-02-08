@@ -9,7 +9,7 @@
        <span onclick="closedropdownAbout()" class="hidden arrowUpAbout">
         <i class="fas fa-chevron-up"></i>
         </span>
-        </div> 
+        </div>
         <ul class="dropdown-container-about hidden flex-col mt-6 ml-4">
           <h1 class="mb-2 mt-2 font-extrabold">Company</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
@@ -39,7 +39,7 @@
           <span onclick="closedropdownServices()" class="hidden arrowUpServices">
           <i class="fas fa-chevron-up hidden"></i>
           </span>
-          </div> 
+          </div>
           <ul class="dropdown-container-Services hidden flex-col mt-6 ml-4">
             <h1 class="mb-2 mt-2 font-extrabold">Services Types</h1>
             <hr class="border-b-2 w-12 border-yellow-500">
@@ -58,7 +58,7 @@
           <a href="#"><li class="mt-4">CRM</li></a>
           <a href="#"><li class="mt-4">Cybersecurity</li></a>
           <a href="#"><li class="mt-4">Internet of Things</li></a>
-         
+
           <a href="#"><li class="mt-4">Web Portals</li></a>
           <a href="#"><li class="mt-4">Ecommerce</li></a>
           <a href="#"><li class="mt-4">Fleet Management</li></a>
@@ -86,7 +86,7 @@
            <span onclick="closedropdownIndustries()" class="hidden arrowUpIndustries">
             <i class="fas fa-chevron-up hidden"></i>
             </span>
-            </div> 
+            </div>
             <ul class="dropdown-container-Industries hidden flex-col mt-2 ml-4">
               <a href="/industries/healthcare"><li class="mt-4">Healthcare</li></a>
               <a href="{{route('banking_financial_services')}}"><li class="mt-4">Banking and Financial Services</li></a>
@@ -267,7 +267,7 @@
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Professional Services</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">Insurance</li></a>
               </ul>
-              </div>            
+              </div>
             </div>
             </a>
           </li>
@@ -284,8 +284,8 @@
           </li>
         </ul>
         <!-- Search Bar -->
-        <div 
-          onclick="searchBarClick()" 
+        <div
+          onclick="searchBarClick()"
           class="flex justify-center cursor-pointer items-center bg-blue-700 rounded-full text-white p-2 hover:bg-blue-900">
           <i class="fa fa-search fa-xl"></i>
         </div>
