@@ -56,7 +56,7 @@ class Portfolio extends Model
         'industry' => 'string',
         'name' => 'string',
         'title' => 'string',
-        'sub_title' => 'string',
+        'sub_title' => 'text',
         'image' => 'string',
         'blade_link' => 'string'
     ];
@@ -71,7 +71,7 @@ class Portfolio extends Model
         'industry' => 'nullable|string',
         'name' => 'nullable|string|max:255',
         'title' => 'nullable|string|max:255',
-        'sub_title' => 'nullable|string|max:255',
+        'sub_title' => 'nullable',
         'image' => 'nullable',
         'blade_link' => 'nullable|string|max:255',
         'deleted_at' => 'nullable',

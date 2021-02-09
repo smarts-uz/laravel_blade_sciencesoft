@@ -91,3 +91,6 @@ Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageControll
 
 Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
 
+
+
+Route::resource('news', App\Http\Controllers\NewsController::class);

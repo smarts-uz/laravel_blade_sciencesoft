@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\News;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Facades\View;
@@ -41,7 +42,9 @@ class HomePageController extends Controller
         }
         $teams = CompanyTeam::all();
         $blogs = Blog::all();
-        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs]);
+        $news = News::all();
+        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news]);
+
     }
 
 
