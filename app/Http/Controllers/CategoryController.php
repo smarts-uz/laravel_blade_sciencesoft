@@ -60,6 +60,7 @@ class CategoryController extends AppBaseController
     {
         $category = new Category();
         $category->name=$request->name;
+        $category->category_id=$request->category_id;
         $category->name_lang=$request->name_lang;
         $category->description=$request->description;
         $category->description_lang=$request->description_lang;
@@ -140,6 +141,7 @@ class CategoryController extends AppBaseController
     {
         $category = $this->categoryRepository->find($id);
         $category->name=$request->name;
+        $category->category_id=$request->category_id;
         $category->name_lang=$request->name_lang;
         $category->description=$request->description;
         $category->description_lang=$request->description_lang;

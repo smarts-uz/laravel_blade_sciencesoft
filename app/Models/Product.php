@@ -52,7 +52,7 @@ class Product extends Model
         'id' => 'integer',
         'name' => 'string',
         'title' => 'string',
-        'sub_title' => 'string',
+        'sub_title' => 'text',
         'read_more_link' => 'string',
         'view_website_link' => 'string',
         //'image' => 'string'
@@ -66,7 +66,7 @@ class Product extends Model
     public static $rules = [
         'name' => 'nullable|string|max:255',
         'title' => 'nullable|string|max:255',
-        'sub_title' => 'nullable|string|max:255',
+        'sub_title' => 'nullable',
         'read_more_link' => 'nullable|string|max:255',
         'view_website_link' => 'nullable|string|max:255',
         'image' => 'nullable',
