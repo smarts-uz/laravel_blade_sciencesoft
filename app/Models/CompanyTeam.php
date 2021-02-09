@@ -49,7 +49,7 @@ class CompanyTeam extends Model
         'name' => 'string',
         'job' => 'string',
         //'image' => 'file',
-        'description' => 'text'
+        'description' => 'string'
     ];
 
     /**
