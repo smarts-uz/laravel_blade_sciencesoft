@@ -48,7 +48,7 @@ class News extends Model
         'id' => 'integer',
         'image' => 'string',
         'title' => 'string',
-        'sub_title' => 'text',
+        'sub_title' => 'string',
         'description' => 'text'
     ];
 

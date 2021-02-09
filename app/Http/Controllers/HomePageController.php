@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\View;
 use App\Models\CompanyTeam;
 use App\Models\CardLists;
 use App\Models\Blog;
+use App\Models\Consultation;
 
 class HomePageController extends Controller
 {
@@ -46,6 +47,28 @@ class HomePageController extends Controller
         return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news]);
 
     }
+
+    public function postConsultation(Request $request){
+
+        $this->validate($request, [
+            'fullname' => 'required',
+            'company' => 'required',
+            'email' => 'required|email',
+            'phone_number' => 'required|numeric',
+            'description' => 'required',
+        ]);
+
+        $posts = new Consultation();
+        $posts->fullname = $request->fullname;
+        $posts->company = $request->company;
+        $posts->email = $request->email;
+        $posts->phone_number = $request->phone_number;
+        $posts->description = $request->description;
+        $posts->save();
+
+        return redirect('/')->with('success', 'Your information has been sent successfully!');
+    }
+    
 
 
 }
