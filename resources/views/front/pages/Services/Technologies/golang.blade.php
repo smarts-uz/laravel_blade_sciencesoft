@@ -11,9 +11,9 @@
       <!-- Custom Enterprise -->
       
         <h1 class="font-bold mt-10 text-4xl">Hire Golang Developers | Advanced Tech Expertise</h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/> 
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4"> 
         <img src="https://www.scnsoft.com/software-development-services/golang/hire-sciencesoft's-golang-developers.svg" alt="">   
-        <p class="pt-5">
+        <p class="pt-8">
            <strong>Go</strong>, or <strong>Golang</strong>, is a cross-platform server-side language to build heavy-load
              software with exceptionally high performance and scalability due to native support of
               concurrency, fast code compilation and automatic memory management. ScienceSoft’s developers 
@@ -38,7 +38,7 @@
             <h1 class="uppercase font-bold mt-10 text-2xl">
                 SCIENCESOFT’S FACTS
             </h1>
-            <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+            <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             <div class="flex flex-row">
               <div class="pr-8">
                 <img
@@ -82,65 +82,76 @@
             </div>
           </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">OUR DEVELOPMENT SKILLS</h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         <!-- no element!!! -->
         <div class=" text-center">
           <button type="submit" class=" px-3 py-2 bg-blue-700 text-white text-sm text-bold uppercase hover:bg-blue-900">Request Go Programmers’ CV</button>
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">OUR DEVELOPMENT SKILLS</h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <div class="flex flex-wrap text-center justify-between">
-            <div class="w-1/5 border">
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+        <div class="flex flex-wrap text-center md:justify-start justify-center gap-2">
+            <div class="w-64 border">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/cloud-native-apps.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/distributed-systems.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/embedded-systems-iot.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/big-data-system.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/machine-learning.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/blockchain.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/mobile.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
-            <div class="w-1/5 border p-4">
+            <div class="w-64 border p-4">
               <img class="h-20 w-20 mx-auto" src="https://www.scnsoft.com/colored-icons-on-grey-background/legacy-software-migration.svg" alt="">
               <p class="inner">
                 <a href="#" class="hover:text-blue-700">AI and machine learning software</a>
               </p>
             </div>
         </div>
-        
-     
+        <h1 class="uppercase font-bold mt-10 text-2xl">OUR INDUSTRY EXPERTISE</h1>
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+        <div class="flex flex-wrap gap-2">
+          <div class="flex items-center h-24 w-56 justify-center border-gray-500 border-2">
+            <h1 class="font-bold text-xl">HealthCare</h1>
+          </div>
+          <div class="flex items-center h-24 w-56 justify-center border-gray-500 border-2">
+            <h1 class="font-bold text-xl">Professional Services</h1>
+          </div>
+          <div class="flex items-center h-24 w-56 justify-center border-gray-500 border-2">
+            <h1 class="font-bold text-xl">Telecoms</h1>
+          </div>
+        </div>
 </div>
 
 @endsection
