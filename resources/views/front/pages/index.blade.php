@@ -961,9 +961,9 @@
 
 
 
-
+  @isset($cards)
   <div class='flex flex-row flex-wrap justify-between'>
-    @isset($cards)
+    
       @foreach($cards as $card)
       <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
         <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
@@ -977,14 +977,15 @@
         </div>
       </div>
       @endforeach
-    @endisset
+    
     
 
     <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
   </div>
+  @endisset
   <!-- Need a CONSULTATION? -->
   </div>
-
+  
   <h1 class="px-16 text-3xl py-12">
     <p class="mb-4">NEED A CONSULTATION?</p>
     <hr class="w-10 h-1 bg-pink-600">
