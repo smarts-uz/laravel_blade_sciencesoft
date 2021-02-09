@@ -213,6 +213,216 @@
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">OUR GO SERVICES OPTIONS</h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+        <div class="splide ">
+        <div class="splide__track ">
+          <ul class="splide__list">
+            <li class="splide__slide">
+                <div
+                  class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+                >
+                  <div  class="p-6">
+                    <img
+                      src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/web-portal-for-display-monitoring-02.png"
+                      alt=""
+                    />
+                  </div>
+                  <div  class="p-6">
+                    <p class="text-xl font-bold py-5">
+                      Display Monitoring Software and Customer Portal Development
+                      for the World’s LED Industry Leader
+                    </p>
+                    <div>
+                      <p class="py-2 font-normal leading-7 text-lg">
+                        ScienceSoft implemented a web portal and polling software
+                        for remote LED display monitoring. The solution comprises
+                        features for the Customer and their clients alike, reduces
+                        the need for on-site checks of displays condition and
+                        provides a consolidated area for online customer service.
+                      </p>
+                    </div>
+                    <div class="text-center p-4">
+                      <a class="text-green-700 font-bold" href="#"
+                        >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            
+            <li class="splide__slide">
+              <div
+                class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/viber-billing-portal-02.png"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    Viber Billing Portal Development
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      A user-friendly self-service portal for a popular VoIP app
+                      to manage tariffs and pay for calls right from the browser.
+                      A rich payment functionality allows users to keep track of
+                      their calls and account balances in a secure and convenient
+                      manner.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/web-portal-for-display-monitoring-02.png"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    Display Monitoring Software and Customer Portal Development
+                    for the World’s LED Industry Leader
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      ScienceSoft implemented a web portal and polling software
+					            for remote LED display monitoring. The solution comprises
+                      features for the Customer and their clients alike, reduces
+                      the need for on-site checks of displays condition and
+                      provides a consolidated area for online customer service.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="gap-2 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/images-for-slider-with-content/web-portals/business-analysis-and-prototyping-for-a-b2b-trade-portal.jpg"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    Business Analysis and Prototyping for a B2B Trade Portal
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      ScienceSoft developed the concept of a web application to enhance buying and selling in the construction industry with workflow automation and online deal management between buyers and vendors.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/sharepoint/learning-portal-for-social-care-provider-02.png"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    SharePoint Learning Portal Development for a UK Social Care Services Provider
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      ScienceSoft developed a fully functional corporate intranet on Microsoft Office 365. The portal provides users with a variety of learning capabilities and facilitates employees’ everyday activities.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="grid gap-4 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/images-for-slider-with-content/sh-and-o365/sharepoint-intranet-development-for-a-45,000-employee-bank.jpg"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                   SharePoint Intranet Development for a 45,000 Employee Bank
+                  </p>
+                  <div>
+				            <p class="py-2 font-normal leading-7 text-lg">
+                      A corporate-wide intranet solution for a Canadian full-service commercial bank to facilitate collaboration between departments. The solution provides tools for sharing documents and storing a corporate knowledge base and also encourages internal communication to streamline business processes across all bank levels.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+                <div
+                  class="grid gap-4 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
+                >
+                  <div  class="p-6">
+                    <img
+                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/travel-web-portal-02.png"
+                    alt=""
+                    />
+                  </div>
+                  <div  class="p-6">
+                    <p class="text-xl font-bold py-5">
+                     SharePoint Intranet Development for a 45,000 Employee Bank
+                    </p>
+                    <div>
+                      <p class="py-2 font-normal leading-7 text-lg">
+                        A corporate-wide intranet solution for a Canadian full-service commercial bank to facilitate collaboration between departments. The solution provides tools for sharing documents and storing a corporate knowledge base and also encourages internal communication to streamline business processes across all bank levels.
+                      </p>
+                    </div>
+                    <div class="text-center p-4">
+                      <a class="text-green-700 font-bold" href="#"
+                        >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </div>
         <div class="flex flew-wrap">
           
         </div>
@@ -230,6 +440,11 @@
         </div>
 </div>
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script>
+      new Splide(".splide").mount();
+    </script>
 @endsection
 
 

@@ -45,7 +45,7 @@
             </div>
             </div>
           </div>
-      </div>
+    </div>
    
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
