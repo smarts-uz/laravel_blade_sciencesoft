@@ -991,23 +991,23 @@
     <hr class="w-10 h-1 bg-pink-600">
   </h1>
 
-
-  <form class="px-16 py-12 bg-gray-200 text-gray-800">
+  <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
+    @csrf	
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
     <div class="flex flex-col lg:flex-row justify-between">
       <div class="flex flex-col mr-3">
         <div class="flex justify-between flex-row flex-wrap">
-          <input type="text" name="FullName" placeholder="Full Name"
+          <input type="text" name="fullname" placeholder="Full Name"
             class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="text" name="Company" placeholder="Company"
+          <input type="text" name="company" placeholder="Company"
             class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="email" name="Email" placeholder="Work Email"
+          <input type="email" name="email" placeholder="Work Email"
             class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-          <input type="text" name="Phone Number" placeholder="Work Phone"
+          <input type="text" name="phone_number" placeholder="Work Phone"
             class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
         </div>
         <textarea placeholder="How can we we help you?" cols="3" rows="6"
-          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
+          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" name="description" style="margin-right: 0.75rem;"></textarea>
          <div class="flex justify-center items-center mb-3">
           <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
          </div>
@@ -1048,6 +1048,17 @@
 
 
 @section('js')
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>	
+{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
+<script src="{{ asset('js/jquery-latest.min.js') }}"></script>	
+    <script>	
+        $(".card-lists").slice(0, 3).show();	
+        $("#loadMore").click('on', function(){	
+          $(".card-lists:hidden").slice(0, 3).show();	
+            if ($(".card-lists:hidden").length == 0) {	
+              $("#loadMore").fadeOut();	
+            }	
+        });	
+    </script>
 @endsection
 

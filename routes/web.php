@@ -94,3 +94,4 @@ Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
 
 
 Route::resource('news', App\Http\Controllers\NewsController::class);
+Route::post('consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
