@@ -17,12 +17,15 @@ $(tableName).DataTable({
     url: recordsURL
   },
   columnDefs: [{
-    'targets': [10],
+    'targets': [11],
     'orderable': false,
     'className': 'text-center',
     'width': '8%'
   }],
   columns: [{
+      data: 'category_id',
+      name: 'category_id'
+  }, {
     data: 'category_id',
     name: 'category_id'
   }, {
