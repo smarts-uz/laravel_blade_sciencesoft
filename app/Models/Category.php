@@ -11,6 +11,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
  * @package App\Models
  * @version January 30, 2021, 11:57 am UTC
  *
+ * @property integer $id
  * @property integer $category_id
  * @property string $name
  * @property string $name_lang
@@ -36,9 +37,10 @@ class Category extends Model
 
     protected $dates = ['deleted_at'];
 
-    
+
 
     public $fillable = [
+        'id',
         'category_id',
         'name',
         'name_lang',
@@ -94,7 +96,7 @@ class Category extends Model
     public function children(){
       return $this->hasMany( 'App\Models\Category', 'category_id', 'id' );
     }
-    
+
     public function parent(){
       return $this->hasOne( 'App\Models\Category', 'id', 'category_id' );
     }
