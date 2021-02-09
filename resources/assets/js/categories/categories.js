@@ -13,7 +13,7 @@ $(tableName).DataTable({
     },
     columnDefs: [
         {
-            'targets': [10],
+            'targets': [5],
             'orderable': false,
             'className': 'text-center',
             'width': '8%',
@@ -21,6 +21,9 @@ $(tableName).DataTable({
     ],
     columns: [
         {
+            data: 'id',
+            name: 'id'
+        },{
             data: 'category_id',
             name: 'category_id'
         },{
@@ -59,7 +62,7 @@ $(tableName).DataTable({
                     'id': row.id,
                     'url': url + '/edit',
                 }];
-                                
+
                 return prepareTemplateRender('#categoriesTemplate',
                     data);
             }, name: 'id',

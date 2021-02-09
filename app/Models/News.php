@@ -48,8 +48,8 @@ class News extends Model
         'id' => 'integer',
         'image' => 'string',
         'title' => 'string',
-        'sub_title' => 'string',
-        'description' => 'string'
+        'sub_title' => 'text',
+        'description' => 'text'
     ];
 
     /**
@@ -61,7 +61,7 @@ class News extends Model
         //'image' => 'required|string|max:255',
         'title' => 'required|string|max:255',
         'sub_title' => 'required|string|max:255',
-        //'description' => 'required|string|max:255',
+        'description' => 'required',
         'deleted_at' => 'nullable',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'

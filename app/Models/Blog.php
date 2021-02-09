@@ -54,8 +54,8 @@ class Blog extends Model
         //'tag' => 'string',
         //'image' => 'string',
         'title' => 'string',
-        'description' => 'string',
-        'description_text' => 'string'
+        'description' => 'text',
+        'description_text' => 'text'
     ];
 
     /**
@@ -68,8 +68,8 @@ class Blog extends Model
         //'tag' => 'required|string',
         //'image' => 'required|string|max:255',
         'title' => 'required|string|max:255',
-        'description' => 'required|string|max:255',
-        'description_text' => 'required|string|max:255',
+        'description' => 'required',
+        'description_text' => 'required',
         'deleted_at' => 'nullable',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'
