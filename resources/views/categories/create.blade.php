@@ -82,8 +82,8 @@
                                            <div class="form-group col-sm-6">
                                                <label for="active">Active</label>
                                                <label class="checkbox-inline">
-                                                   <input type="hidden" name="active" value="{{ old('active') }}" checked/>
-                                                   <input type="checkbox" name="active" id="cb1" value="{{ old('active') }}"  />
+                                                   <input type="hidden" name="active" value="0" checked/>
+                                                   <input type="checkbox" name="active" id="cb1" value="1"  />
                                                </label>
                                            </div>
                                            </div>
