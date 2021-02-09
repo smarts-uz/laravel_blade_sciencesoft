@@ -49,7 +49,7 @@ class News extends Model
         'image' => 'string',
         'title' => 'string',
         'sub_title' => 'string',
-        'description' => 'text'
+        'description' => 'string'
     ];
 
     /**
