@@ -59,6 +59,8 @@ Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oil
 Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
+Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCategoryByName')->name('getCategoryByName');
+Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
@@ -70,15 +72,20 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Auth::routes();
 // Admin CRUD
-Route::resource('categories', App\Http\Controllers\CategoryController::class);
-Route::resource('blogs', App\Http\Controllers\BlogController::class);
-Route::post('ckeditor/upload', 'App\Http\Controllers\CKEditorController@upload')->name('upload');
-Route::resource('consultations', App\Http\Controllers\ConsultationController::class);
-Route::resource('cardLists', App\Http\Controllers\CardListsController::class);
-Route::resource('companyTeams', App\Http\Controllers\CompanyTeamController::class);
+Route::group(['middleware'=>'auth'], function() {
+    Route::resource('categories', App\Http\Controllers\CategoryController::class);
+    Route::resource('blogs', App\Http\Controllers\BlogController::class);
+    Route::post('ckeditor/upload', 'App\Http\Controllers\CKEditorController@upload')->name('upload');
+    Route::resource('consultations', App\Http\Controllers\ConsultationController::class);
+    Route::resource('cardLists', App\Http\Controllers\CardListsController::class);
+    Route::resource('companyTeams', App\Http\Controllers\CompanyTeamController::class);
+    Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
+    Route::resource('products', App\Http\Controllers\ProductController::class);
+    Route::resource('news', App\Http\Controllers\NewsController::class);
+});
 
 
-Route::resource('products', App\Http\Controllers\ProductController::class);
+
 
 
 Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
@@ -89,9 +96,7 @@ Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageContro
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
 // Route::post('/env_key_update', 'BusinessSettingsController@env_key_update')->name('env_key_update.update');
 
-Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
 
 
 
-Route::resource('news', App\Http\Controllers\NewsController::class);
 Route::post('consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
