@@ -141,16 +141,92 @@
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">OUR INDUSTRY EXPERTISE</h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-        <div class="flex flex-wrap gap-2">
-          <div class="flex items-center h-24 w-56 justify-center border-gray-500 border-2">
+        <div class="flex flex-wrap md:justify-start justify-center gap-5">
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
+            <h1 class="font-bold text-xl">Manufacturing</h1>
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
             <h1 class="font-bold text-xl">HealthCare</h1>
-          </div>
-          <div class="flex items-center h-24 w-56 justify-center border-gray-500 border-2">
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
+            <h1 class="font-bold text-xl">Retail</h1>
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
+            <h1 class="font-bold text-xl">Financial Services</h1>
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
+            <h1 class="font-bold text-xl">Transportation</h1>
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
             <h1 class="font-bold text-xl">Professional Services</h1>
-          </div>
-          <div class="flex items-center h-24 w-56 justify-center border-gray-500 border-2">
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
             <h1 class="font-bold text-xl">Telecoms</h1>
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+          <a href="#" class="flex relative items-center hover:shadow duration-300 h-24 w-56 justify-center border-gray-300 border">
+            <h1 class="font-bold text-xl">Education</h1>
+            <i class="text-sm fas fa-arrow-right rotate-45 absolute bottom-2 right-2 text-blue-400 transform"></i>
+          </a>
+        </div>
+        <h1 class="uppercase font-bold mt-10 text-2xl">PRICING MODELS FOR GO DEVELOPMENT SERVICES</h1>
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+        <div class="flex gap-2">
+          <div class="border border-gray-300 shadow-lg w-1/2 p-5">
+            <h1 class="font-bold text-xl py-4">T&M (by an hourly rate)</h1>
+            <h2 class="font-bold">Recommended cases:</h2>
+            <ul>
+              <li class="flex items-center my-4">
+              <div class="w-2 h-2 bg-blue-500 mr-2"></div>
+              <p>Development with changing requirements and no possibility to predict the scope of work.</p>
+              </li>
+              <li class="flex items-center my-4">
+              <div class="w-2 h-2 bg-blue-500 mr-2"></div>
+              <p>Start of cooperation until the final scope of work is defined.</p>
+              </li>
+              <li class="flex items-center my-4">
+              <div class="w-2 h-2 bg-blue-500 mr-2"></div>
+              <p>A knowledge transfer period in case its duration is unclear.</p>
+              </li>
+            </ul>
           </div>
+          <div class="border border-gray-300 shadow-lg w-1/2 p-5">
+            <h1 class="font-bold text-xl py-4">Fixed price</h1>
+            <h2 class="font-bold">Recommended cases:</h2>
+            <ul>
+              <li class="flex items-center my-4">
+              <div class="w-2 h-2 bg-blue-500 mr-2"></div>
+              <p>Development with a fixed scope of work, deadlines and budget.</p>
+              </li>
+              <li class="flex items-center my-4">
+              <div class="w-2 h-2 bg-blue-500 mr-2"></div>
+              <p>A knowledge transfer period with pre-defined activities and arrangements.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h1 class="uppercase font-bold mt-10 text-2xl">OUR GO SERVICES OPTIONS</h1>
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+        <div class="flex flew-wrap">
+          
+        </div>
+        <div class="w-full flex items-center h-64 shadow-lg p-5">
+          <div>
+            <h1 class="uppercase font-bold text-2xl">Get Fast Cloud Software Driven by Golang</h1>
+            <hr class="border-t-2 w-12 border-yellow-600 my-4">
+            <p class="text-xl">
+            Our pre-vetted programmers, architects and integration engineers will help deliver Go-based software of any complexity on time and within budget.
+            </p>
+          </div>
+          <button class="bg-blue-500 focus:outline-none px-10 py-3 mx-3 text-white"> 
+            OUTSOURCE DEVELOPMENT
+          </button>
         </div>
 </div>
 
