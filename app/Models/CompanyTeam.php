@@ -61,7 +61,7 @@ class CompanyTeam extends Model
         'name' => 'required|string|max:255',
         'job' => 'required|string|max:255',
         'image' => 'required',
-        'description' => 'required|string|max:255',
+        'description' => 'required',
         'deleted_at' => 'nullable',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'

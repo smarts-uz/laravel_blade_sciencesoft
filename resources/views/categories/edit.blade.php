@@ -24,6 +24,10 @@
                                      <!-- Name Field -->
                                          <div class="row">
                                          <div class="form-group col-sm-6">
+                                                 <label for="category_id">Category Id</label>
+                                                 <input type="number" class="form-control" id="category_id" name="category_id" value="{{ $category->category_id }}">
+                                         </div>
+                                         <div class="form-group col-sm-6">
                                              <label for="name">Name</label>
                                              <input type="text" class="form-control" id="name" name="name" value="{{ $category->name }}">
                                          </div>
@@ -33,19 +37,16 @@
                                              <label for="name_lang">Name Lang</label>
                                              <input type="text" class="form-control" id="name_lang" name="name_lang" value="{{ $category->name_lang }}">
                                          </div>
-
-                                         <!-- Description Field -->
+                                         <!-- Description Lang Field -->
                                          <div class="form-group col-sm-6 col-lg-6">
+                                                 <label for="description_lang">Description Lang</label>
+                                                 <textarea class="form-control" id="description_lang" name="description_lang">{{ old('description_lang', $category->description_lang) }}</textarea>
+                                         </div>
+                                         <!-- Description Field -->
+                                         <div class="form-group col-sm-6 col-lg-12">
                                              <label for="description">Description</label>
                                              <textarea class="form-control" id="description" name="description">{{ old('description', $category->description) }}</textarea>
                                          </div>
-
-                                         <!-- Description Lang Field -->
-                                         <div class="form-group col-sm-6 col-lg-6">
-                                             <label for="description_lang">Description Lang</label>
-                                             <textarea class="form-control" id="description_lang" name="description_lang">{{ old('description_lang', $category->description_lang) }}</textarea>
-                                         </div>
-
 
                                          <!-- Path Blade Field -->
                                          <div class="form-group col-sm-6">
@@ -77,15 +78,13 @@
                                              </div>
                                              <td><img src="/uploads/categories/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
                                          </div>
-
-                                             <!-- Active Field -->
-                                             <div class="form-group col-sm-6">
-                                                 <label for="active">Active</label>
-                                                 <label class="checkbox-inline">
-                                                     <input type="hidden" name="active" value="0" checked/>
-                                                     <input type="checkbox" name="active" id="cb1" value="1"  />
-                                                 </label>
-                                             </div>
+                                         <!-- Active Field -->
+                                         <div class="form-group col-sm-6">
+                                              <label for="active">Active</label>
+                                              <label class="checkbox-inline">
+                                                  <input type="checkbox" onclick="myCheckbox()" id="myCheck" name="active" value=@if($category->active)'yes'@else'no'@endif @if($category->active) checked @endif/>
+                                              </label>
+                                         </div>
                                          </div>
                                      <!-- Submit Field -->
                                      <div class="form-group col-sm-12">
@@ -102,3 +101,5 @@
    </div>
   </section>
 @endsection
+<script type="text/javascript">
+</script>

@@ -18,7 +18,7 @@ class CreateCompanyTeamsTable extends Migration
             $table->string('name');
             $table->string('job');
             $table->string('image');
-            $table->string('description');
+            $table->text('description');
             $table->softDeletes();
             $table->timestamps();
         });

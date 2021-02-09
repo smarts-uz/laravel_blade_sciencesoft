@@ -21,6 +21,11 @@
                                    <form method="post" action="{{ route('categories.store') }}" enctype="multipart/form-data">
                                        @csrf
                                            <div class="row">
+                                               <!-- Parent Id Field -->
+                                           <div class="form-group col-sm-6">
+                                               <label for="category_id">Category Id</label>
+                                               <input type="number" class="form-control" id="category_id" name="category_id" value="{{ old('category_id') }}">
+                                           </div>
                                            <!-- Name Field -->
                                            <div class="form-group col-sm-6">
                                                <label for="name">Name</label>
@@ -34,7 +39,7 @@
                                            </div>
 
                                            <!-- Description Field -->
-                                           <div class="form-group col-sm-6 col-lg-12">
+                                           <div class="form-group col-sm-6 ">
                                                <label for="description">Description</label>
                                                <textarea class="form-control" id="description" name="description"></textarea>
                                            </div>
@@ -77,8 +82,8 @@
                                            <div class="form-group col-sm-6">
                                                <label for="active">Active</label>
                                                <label class="checkbox-inline">
-                                                   <input type="hidden" name="active" value="0" checked/>
-                                                   <input type="checkbox" name="active" id="cb1" value="1"  />
+                                                   <input type="hidden" name="active" value="{{ old('active') }}" checked/>
+                                                   <input type="checkbox" name="active" id="cb1" value="{{ old('active') }}"  />
                                                </label>
                                            </div>
                                            </div>

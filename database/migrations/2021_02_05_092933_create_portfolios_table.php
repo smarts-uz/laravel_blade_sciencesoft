@@ -19,7 +19,7 @@ class CreatePortfoliosTable extends Migration
             $table->json('industry')->nullable()->default(null);
             $table->string('name')->nullable()->default(null);
             $table->string('title')->nullable()->default(null);
-            $table->string('sub_title')->nullable()->default(null);
+            $table->text('sub_title')->nullable()->default(null);
             $table->string('image')->nullable()->default(null);
             $table->string('blade_link')->nullable()->default(null);
             $table->softDeletes();

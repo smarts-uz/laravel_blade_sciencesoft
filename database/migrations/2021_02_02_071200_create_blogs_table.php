@@ -19,8 +19,8 @@ class CreateBlogsTable extends Migration
             $table->json('tag')->nullable()->default(null);;
             $table->string('image')->nullable()->default(null);;
             $table->string('title')->nullable()->default(null);;
-            $table->string('description')->nullable()->default(null);;
-            $table->string('description_text')->nullable()->default(null);;
+            $table->text('description')->nullable()->default(null);;
+            $table->text('description_text')->nullable()->default(null);;
             $table->softDeletes();
             $table->timestamps();
         });

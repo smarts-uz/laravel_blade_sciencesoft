@@ -777,12 +777,7 @@
          <img src="https://www.scnsoft.com/---home-page-illustrations/image-thumb__22108__home_Image-text/managed-it-services~-~1919w.png" alt="EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF">
        </div>
     </div>
-  </div>
-
-
-  <!-- Komil Sobitov // Platforms  we work this -->
-  <div class="platforms px-3 lg:px-16 sm:px-16 py-12">
-    <h2 class="text-gray-900 text-2xl mb-4">PLATFORMS WE WORK WITH</h2>
+  </div> 
     <hr class="w-10 h-1 bg-yellow-600 mb-4" />
     <p class="w-11/12 text-gray-700 font-light mb-3">
       Distilling deep tech experience, our experts can help you with
@@ -961,31 +956,27 @@
 
 
 
-  @isset($cards)
+
   <div class='flex flex-row flex-wrap justify-between'>
-    
-      @foreach($cards as $card)
-      <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-        <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
-          alt="Sunset in the mountains">
-        <div class="px-6 py-4">
-          <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
-          <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
-          <p class="text-grey-darker text-base mb-5">
-              {{ $card->description }}
-          </p>
-        </div>
+    @foreach($cards as $card)
+    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
+        alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
+        <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
+        <p class="text-grey-darker text-base mb-5">
+            {{ $card->description }}
+        </p>
       </div>
-      @endforeach
-    
-    
+    </div>
+    @endforeach
 
     <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
   </div>
-  @endisset
   <!-- Need a CONSULTATION? -->
   </div>
-  
+
   <h1 class="px-16 text-3xl py-12">
     <p class="mb-4">NEED A CONSULTATION?</p>
     <hr class="w-10 h-1 bg-pink-600">
