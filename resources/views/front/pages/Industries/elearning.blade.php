@@ -11,7 +11,7 @@
     <div>
      
       <h1 class="uppercase font-bold mt-10 text-2xl">
-        Banking Software & IT Services for Banks
+      Custom eLearning Software Development for Higher Human Capital ROI
       </h1>
       <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
       <!-- <img src="{{ asset ('images/industries/elearning/cover-pic-elearning-development.svg')}}"> -->
@@ -49,11 +49,11 @@
    
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    TYPES OF ELEARNING SOLUTIONS WE DEVELOP
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
  
-    <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
+         <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
       <h1 class="text-2xl lg:text-3xl font-semibold">
         <p class="mb-4">Solutions we deliver</p>
         <hr class="w-10 h-1 bg-pink-600">
@@ -125,24 +125,16 @@
           </div>
         </li>
       </ul>
-    </div>
-  
+    </div> -->
+    
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    KEY FEATURES OF ELEARNING SOFTWARE
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-
-
-
-    <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
-    </h1>
-    <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-    <div class="flex flex-row">
-    <div class="w-1/5"></div>
+    <div class="flex flex-col md:flex-row w-full">
     <div class="w-4/5">
     <div class=" flex flex-row flex-wrap">
-        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
             <img src="https://www.scnsoft.com/education-industry/elearning-development/content-management.svg" alt=""
                  class="w-40 m-auto ">
             <h5 class="text-center text-xl font-bold mt-2">Learning content development and <br> management</h5>
@@ -159,7 +151,7 @@
             </ul>
 
         </div>
-        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
             <img src="https://www.scnsoft.com/education-industry/elearning-development/admin.svg" alt=""
                  class="w-40 m-auto ">
             <h5 class="text-center text-xl font-bold mt-2">Learning process administration and <br> delivery</h5>
@@ -178,7 +170,7 @@
             </ul>
 
         </div>
-        <div class="bg-white   w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
             <img src="https://www.scnsoft.com/education-industry/lms-consulting/social-learning.svg" alt=""
                  class="w-40 m-auto ">
             <h5 class="text-center text-xl font-bold mt-2">Social features</h5>
@@ -193,7 +185,7 @@
             </ul>
 
         </div>
-        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
             <img src="https://www.scnsoft.com/education-industry/elearning-development/analytics-and-reporting.svg" alt=""
                  class="w-40 m-auto ">
             <h5 class="text-center text-xl font-bold mt-2">Analytics and reporting</h5>
@@ -206,7 +198,7 @@
             </ul>
 
         </div>
-        <div class="bg-white rounded  w-2/5 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
             <img src="https://www.scnsoft.com/education-industry/elearning-development/integration.svg" alt=""
                  class="w-40 m-auto ">
             <h5 class="text-center text-xl font-bold mt-2">Integrations</h5>
@@ -225,15 +217,57 @@
         </div>
     </div>
     </div>
+
+
 </div>
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    WHAT MAKES SCIENCESOFT AN EXPERIENCED ELEARNING <br> SOFTWARE DEVELOPER
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-    
+    <div class="flex flex-row">
+              <div class="pr-8">
+                <img
+                  class="w-60 h-60"
+                  src="https://www.scnsoft.com/partners/sw-development/microsoft-gold-partner.svg"
+                />
+                <img
+                  class="w-24 h-24 relative left-20 bottom-20"
+                  src="https://www.scnsoft.com/partners/sw-development/aws-apn-select-consulting-partner.svg"
+                />
+              </div>
+              <div class="pt-12">
+                <h1 class="font-bold text-xl">Gold</h1>
+                <div class="mt-8">
+                  <div class="flex flex-row">
+                    <span class="text-blue-600 mr-4">&#9632;</span>
+                    <p class="text-lg">
+                        Established Lean, Agile, and DevOps culture.
+                    </p>
+                  </div>
+                  <div class="flex flex-row">
+                    <span class="text-blue-600 mr-4">&#9632;</span>
+                    <p class="text-lg">
+                        Experience in advanced technologies: AI, machine learning, IoT, big data, blockchain.
+                    </p>
+                  </div>
+                  <div class="flex flex-row">
+                    <span class="text-blue-600 mr-4">&#9632;</span>
+                    <p class="text-lg">
+                    HQ – McKinney, Texas. Offshore development centers in Eastern Europe, representative offices in UAE, Latvia, Finland, and Ukraine.
+                    </p>
+                  </div>
+                  <div class="flex flex-row">
+                    <span class="text-blue-600 mr-4">&#9632;</span>
+                    <p class="text-lg">
+                    25 of our .NET developers have Microsoft Certified Technology Specialist (MCTS) and Microsoft Certified Professional Developer (MCPD) certifications.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    BENEFITS OF ELEARNING DEVELOPMENT BY SCIENCESOFT
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
     <div class="flex flex-row p-3 ">
@@ -270,7 +304,7 @@
 
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    TECHNOLOGIES WE APPLY
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
@@ -278,99 +312,404 @@
     
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    WE KNOW YOUR INDUSTRY
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-    <div class="flex flex-row">
-    
-        <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full	 border-t-8 border-blue-800" />
-          <div class="p-4">
-          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
-            <ul class="list-disc">
-              <li class="ml-4 mt-3.5">Learning needs analysis.</li>
-              <li class="ml-4 mt-3.5">Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set</li>
-              <li class="ml-4 mt-3.5">Selection of platform or a tech stack, and an implementation methodology.</li>
-              <li class="ml-4 mt-3.5">End-to-end eLearning software development.</li>
-              <li class="ml-4 mt-3.5">Quality assurance.</li>
-              <li class="ml-4 mt-3.5">User training.</li>
-              <li class="ml-4 mt-3.5">Post-implementation support and evolution.</li>
-            </ul>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
-          </div>
-        </div>
-        <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full	 border-t-8 border-blue-800" />
-          <div class="p-4">
-          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
-            <ul class="list-disc">
-              <li class="ml-4 mt-3.5">Learning needs analysis.</li>
-              <li class="ml-4 mt-3.5">Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set</li>
-              <li class="ml-4 mt-3.5">Selection of platform or a tech stack, and an implementation methodology.</li>
-              <li class="ml-4 mt-3.5">End-to-end eLearning software development.</li>
-              <li class="ml-4 mt-3.5">Quality assurance.</li>
-              <li class="ml-4 mt-3.5">User training.</li>
-              <li class="ml-4 mt-3.5">Post-implementation support and evolution.</li>
-            </ul>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
-          </div>
-        </div>
-      
-       
-        
+    <!-- <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div  class="p-6">
+                <img
+                  src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/supply-chain-portal.png"
+                  alt=""
+                />
+              </div>
+              <div  class="p-6">
+                <p class="text-xl font-bold py-5">
+                  Development of Supply Chain E-collaboration Platform for
+                  1,700-Store Retailer Auchan
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    ScienceSoft helped deliver a B2B portal that brings together
+                    buyers and vendors to gain visibility into every stage of
+                    the supply chain, optimize inventory management, enable
+                    demand planning and actively involve vendors in stock
+                    monitoring to avoid out-of-stocks.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div  class="p-6">
+                <img
+                  src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/viber-billing-portal-02.png"
+                  alt=""
+                />
+              </div>
+              <div  class="p-6">
+                <p class="text-xl font-bold py-5">
+                  Viber Billing Portal Development
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    A user-friendly self-service portal for a popular VoIP app
+                    to manage tariffs and pay for calls right from the browser.
+                    A rich payment functionality allows users to keep track of
+                    their calls and account balances in a secure and convenient
+                    manner.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div  class="p-6">
+                <img
+                  src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/web-portal-for-display-monitoring-02.png"
+                  alt=""
+                />
+              </div>
+              <div  class="p-6">
+                <p class="text-xl font-bold py-5">
+                  Display Monitoring Software and Customer Portal Development
+                  for the World’s LED Industry Leader
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    ScienceSoft implemented a web portal and polling software
+                    for remote LED display monitoring. The solution comprises
+                    features for the Customer and their clients alike, reduces
+                    the need for on-site checks of displays condition and
+                    provides a consolidated area for online customer service.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div
+              class="gap-2 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div  class="p-6">
+                <img
+                  src="https://www.scnsoft.com/images-for-slider-with-content/web-portals/business-analysis-and-prototyping-for-a-b2b-trade-portal.jpg"
+                  alt=""
+                />
+              </div>
+              <div  class="p-6">
+                <p class="text-xl font-bold py-5">
+                  Business Analysis and Prototyping for a B2B Trade Portal
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    ScienceSoft developed the concept of a web application to enhance buying and selling in the construction industry with workflow automation and online deal management between buyers and vendors.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div  class="p-6">
+                <img
+                  src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/sharepoint/learning-portal-for-social-care-provider-02.png"
+                  alt=""
+                />
+              </div>
+              <div  class="p-6">
+                <p class="text-xl font-bold py-5">
+                  SharePoint Learning Portal Development for a UK Social Care Services Provider
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    ScienceSoft developed a fully functional corporate intranet on Microsoft Office 365. The portal provides users with a variety of learning capabilities and facilitates employees’ everyday activities.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div
+              class="grid gap-4 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div  class="p-6">
+                <img
+                  src="https://www.scnsoft.com/images-for-slider-with-content/sh-and-o365/sharepoint-intranet-development-for-a-45,000-employee-bank.jpg"
+                  alt=""
+                />
+              </div>
+              <div  class="p-6">
+                <p class="text-xl font-bold py-5">
+                 SharePoint Intranet Development for a 45,000 Employee Bank
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    A corporate-wide intranet solution for a Canadian full-service commercial bank to facilitate collaboration between departments. The solution provides tools for sharing documents and storing a corporate knowledge base and also encourages internal communication to streamline business processes across all bank levels.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div
+              class="gap-4 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+            >
+              <div class="p-6">
+                <img
+                  src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/travel-web-portal-02.png"
+                  alt=""
+                />
+              </div>
+              <div class="p-6">
+                <p class="text-xl font-bold py-5">
+                 SOA Implementation and Migration to JavaScript of 400m Subscriptions Self-Service Portal
+                </p>
+                <div>
+                  <p class="py-2 font-normal leading-7 text-lg">
+                    Strategic partnership with Canada’s major travel agency to upgrade their 400 mln subscriptions web portal by introducing SPA (single-page application) and decompose their core online booking platform into independent services to boost the brand’s competitiveness in the busy travel & hospitality market.
+                  </p>
+                </div>
+                <div class="text-center p-4">
+                  <a class="text-green-700 font-bold" href="#"
+                    >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
       </div>
-    <div class="flex flex-row">
-    
-        <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full	 border-t-8 border-blue-800" />
-          <div class="p-4">
-          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
-            <ul class="list-disc">
-              <li class="ml-4 mt-3.5">Learning needs analysis.</li>
-              <li class="ml-4 mt-3.5">Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set</li>
-              <li class="ml-4 mt-3.5">Selection of platform or a tech stack, and an implementation methodology.</li>
-              <li class="ml-4 mt-3.5">End-to-end eLearning software development.</li>
-              <li class="ml-4 mt-3.5">Quality assurance.</li>
-              <li class="ml-4 mt-3.5">User training.</li>
-              <li class="ml-4 mt-3.5">Post-implementation support and evolution.</li>
-            </ul>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
-          </div>
+    </div> -->
+    <div class="splide ">
+        <div class="splide__track ">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div
+                class="gap-2 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/images-for-slider-with-content/web-portals/business-analysis-and-prototyping-for-a-b2b-trade-portal.jpg"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    Business Analysis and Prototyping for a B2B Trade Portal
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      ScienceSoft developed the concept of a web application to enhance buying and selling in the construction industry with workflow automation and online deal management between buyers and vendors.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="gap-2 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/images-for-slider-with-content/web-portals/business-analysis-and-prototyping-for-a-b2b-trade-portal.jpg"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    Business Analysis and Prototyping for a B2B Trade Portal
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      ScienceSoft developed the concept of a web application to enhance buying and selling in the construction industry with workflow automation and online deal management between buyers and vendors.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="gap-2 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2"
+              >
+                <div  class="p-6">
+                  <img
+                    src="https://www.scnsoft.com/images-for-slider-with-content/web-portals/business-analysis-and-prototyping-for-a-b2b-trade-portal.jpg"
+                    alt=""
+                  />
+                </div>
+                <div  class="p-6">
+                  <p class="text-xl font-bold py-5">
+                    Business Analysis and Prototyping for a B2B Trade Portal
+                  </p>
+                  <div>
+                    <p class="py-2 font-normal leading-7 text-lg">
+                      ScienceSoft developed the concept of a web application to enhance buying and selling in the construction industry with workflow automation and online deal management between buyers and vendors.
+                    </p>
+                  </div>
+                  <div class="text-center p-4">
+                    <a class="text-green-700 font-bold" href="#"
+                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="rounded-sm w-3/6 border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full	 border-t-8 border-blue-800" />
-          <div class="p-4">
-          <img class=" w4/5" src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt="">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
-            <ul class="list-disc">
-              <li class="ml-4 mt-3.5">Learning needs analysis.</li>
-              <li class="ml-4 mt-3.5">Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set</li>
-              <li class="ml-4 mt-3.5">Selection of platform or a tech stack, and an implementation methodology.</li>
-              <li class="ml-4 mt-3.5">End-to-end eLearning software development.</li>
-              <li class="ml-4 mt-3.5">Quality assurance.</li>
-              <li class="ml-4 mt-3.5">User training.</li>
-              <li class="ml-4 mt-3.5">Post-implementation support and evolution.</li>
-            </ul>
+    </div>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
-          </div>
-        </div>
-      
-       
-        
-      </div>
+
+
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    CHOOSE YOUR SERVICE OPTION
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-    <ul class="list-disc">
+    <div class="flex flex-col md:flex-row">
+
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2 text-blue-600">Learning content development and <br> management</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Multiple content types (e.g., text, images, video, audio, <br> AR/VR).</p></li>
+                <li><p class="text-black">Built-in content authoring (e.g., eLearning course <br> development).</p></li>
+                <li><p class="text-black">Learner-generated, third-party, and corporate content <br> aggregation.</p></li>
+                <li><p class="text-black">Content tagging and intelligent search.</p></li>
+                <li><p class="text-black">Support of technical standards like SCORM, AICC, xAPI and <br> LTI.</p></li>
+                <li><p class="text-black">Compliance with corporate and industry-specific <br> regulations like HIPAA, SOX,
+                    GLBA.</p></li>
+
+            </ul>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+
+        </div>
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/revamp.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2 text-blue-600">Learning content development and <br> management</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Multiple content types (e.g., text, images, video, audio, <br> AR/VR).</p></li>
+                <li><p class="text-black">Built-in content authoring (e.g., eLearning course <br> development).</p></li>
+                <li><p class="text-black">Learner-generated, third-party, and corporate content <br> aggregation.</p></li>
+                <li><p class="text-black">Content tagging and intelligent search.</p></li>
+                <li><p class="text-black">Support of technical standards like SCORM, AICC, xAPI and <br> LTI.</p></li>
+                <li><p class="text-black">Compliance with corporate and industry-specific <br> regulations like HIPAA, SOX,
+                    GLBA.</p></li>
+
+            </ul>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+
+        </div>
+      
+       
+        
+    </div>
+    <div class="flex flex-col md:flex-row">
+
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/adding-features.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2 text-blue-600">Learning content development and <br> management</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Multiple content types (e.g., text, images, video, audio, <br> AR/VR).</p></li>
+                <li><p class="text-black">Built-in content authoring (e.g., eLearning course <br> development).</p></li>
+                <li><p class="text-black">Learner-generated, third-party, and corporate content <br> aggregation.</p></li>
+                <li><p class="text-black">Content tagging and intelligent search.</p></li>
+                <li><p class="text-black">Support of technical standards like SCORM, AICC, xAPI and <br> LTI.</p></li>
+                <li><p class="text-black">Compliance with corporate and industry-specific <br> regulations like HIPAA, SOX,
+                    GLBA.</p></li>
+
+            </ul>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+
+        </div>
+        <div class="bg-white rounded  w-1/4 py-5 px-2 border-t-2 border m-6 xl:w-2/5 lg:w-2/5 md:w-3/6 sm:w-8/12">
+            <img src="https://www.scnsoft.com/education-industry/elearning-development/customization.svg" alt=""
+                 class="w-40 m-auto ">
+            <h5 class="text-center text-xl font-bold mt-2 text-blue-600">Learning content development and <br> management</h5>
+            <ul style="list-style: square" class="ml-5 text-blue-500 ">
+
+                <li><p class="text-black">Multiple content types (e.g., text, images, video, audio, <br> AR/VR).</p></li>
+                <li><p class="text-black">Built-in content authoring (e.g., eLearning course <br> development).</p></li>
+                <li><p class="text-black">Learner-generated, third-party, and corporate content <br> aggregation.</p></li>
+                <li><p class="text-black">Content tagging and intelligent search.</p></li>
+                <li><p class="text-black">Support of technical standards like SCORM, AICC, xAPI and <br> LTI.</p></li>
+                <li><p class="text-black">Compliance with corporate and industry-specific <br> regulations like HIPAA, SOX,
+                    GLBA.</p></li>
+
+            </ul>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+
+        </div>
+      
+       
+        
+    </div>
+      
+
+    <h1 class="uppercase font-bold mt-10 text-2xl">
+    TIMEFRAMES FOR OUR ELEARNING SOFTWARE DEVELOPMENT SERVICES
+    </h1>
+    <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+    <ul style="list-style: square">
         <li class="mt-2 text-semibold text-lg">MVP development: 3-5 months</li>
         <li class="mt-2 text-semibold text-lg">MVP with an innovative component to increase learner engagement: 4-6 months</li>
         <li class="mt-2 text-semibold text-lg">Creation of an eLearning module with basic features or automation of one learning management process (e.g., performance assessment): 1-3 months</li>
@@ -379,17 +718,17 @@
     </ul>
 
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      Banking Software & IT Services for Banks
+    PRICING MODELS FOR ELEARNING SOFTWARE DEVELOPMENT
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600 my-4"/>
-    <div class=" flex flex-wrap justify-around">
-        <li class="border-2 list-none p-4 md:w-1/2 w-full  mt-6">
+    <div class="grid grid-cols-2 mx-auto flex">
+        <li class="border-2 list-none p-4 md:w-1/2 w-full mt-6">
             <div class="mb-5">
                 <span class="text-left text-xl font-semibold text-gray-700">T&M with a cap</span>
             </div>
             <div class="text-gray-700 w-72 leading-6 font-medium">Annual ROI of eLearning solutions due to an optimal feature value/cost ratio and use of innovative techs.</div>
         </li>
-        <li class="border-2 list-none p-4 md:w-1/2 w-full  mt-6">
+        <li class="border-2 list-none p-4 md:w-1/2 w-full mt-6">
             <div class="mb-5">
                 <span class="text-left text-xl font-semibold text-gray-700">Fixed-price</span>
             </div>
@@ -451,7 +790,9 @@
 
 </div>
 
-
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"/>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+<script>new Splide(".splide").mount();</script>
 @endsection
 
 
