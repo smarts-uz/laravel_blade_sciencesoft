@@ -47,6 +47,18 @@ class HomePageController extends Controller
         return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news]);
 
     }
+    public function getCategoryByName($name, $view)
+    {
+        $categories=Category::where('name', 'like', '%'.$name.'%')->first();
+//        return View::make($view)->with(compact('categories'));
+        return response($categories);
+    }
+
+    public function getCategoryById($id)
+    {
+        $categories=Category::where('id', '=', $id)->first();
+        return response($categories);
+    }
 
     public function postConsultation(Request $request){
 
@@ -68,7 +80,7 @@ class HomePageController extends Controller
 
         return redirect('/')->with('success', 'Your information has been sent successfully!');
     }
-    
+
 
 
 }

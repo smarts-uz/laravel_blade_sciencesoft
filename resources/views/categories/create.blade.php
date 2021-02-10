@@ -22,10 +22,15 @@
                                        @csrf
                                            <div class="row">
                                                <!-- Parent Id Field -->
+                                               <div class="form-group col-sm-6">
+                                                   <label for="id">Id</label>
+                                                   <input type="number" class="form-control" id="id" name="id" value="{{ old('id') }}">
+                                               </div>
+                                               <!-- Parent Id Field -->
                                            <div class="form-group col-sm-6">
-                                               <label for="category_id">Category Id</label>
-                                               <input type="number" class="form-control" id="category_id" name="category_id" value="{{ old('category_id') }}">
-                                           </div>
+                                                   <label for="category_id">Category Id</label>
+                                                   <input type="number" class="form-control" id="category_id" name="category_id" value="{{ old('category_id') }}">
+                                               </div>
                                            <!-- Name Field -->
                                            <div class="form-group col-sm-6">
                                                <label for="name">Name</label>

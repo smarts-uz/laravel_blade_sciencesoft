@@ -777,7 +777,7 @@
          <img src="https://www.scnsoft.com/---home-page-illustrations/image-thumb__22108__home_Image-text/managed-it-services~-~1919w.png" alt="EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF">
        </div>
     </div>
-  </div> 
+  </div>
     <hr class="w-10 h-1 bg-yellow-600 mb-4" />
     <p class="w-11/12 text-gray-700 font-light mb-3">
       Distilling deep tech experience, our experts can help you with
@@ -898,14 +898,14 @@
           <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
           <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
         </div>
-  
+
         <div id="child-dis" class="absolute text-sm md:text-base duration-500">
           <p>C++</p>
           <p>JavaScript</p>
           <p>Java</p>
           <p>Go</p>
         </div>
-  
+
         <a
         href="#"
         id="link"
@@ -929,14 +929,14 @@
           <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
           <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
         </div>
-  
+
         <div id="child-dis" class="absolute text-sm md:text-base duration-500">
           <p>C++</p>
           <p>JavaScript</p>
           <p>Java</p>
           <p>Go</p>
         </div>
-  
+
         <a
         href="#"
         id="link"
@@ -983,7 +983,7 @@
   </h1>
 
   <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
-    @csrf	
+    @csrf
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
     <div class="flex flex-col lg:flex-row justify-between">
       <div class="flex flex-col mr-3">
@@ -1039,17 +1039,17 @@
 
 
 @section('js')
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>	
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 {{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
-<script src="{{ asset('js/jquery-latest.min.js') }}"></script>	
-    <script>	
-        $(".card-lists").slice(0, 3).show();	
-        $("#loadMore").click('on', function(){	
-          $(".card-lists:hidden").slice(0, 3).show();	
-            if ($(".card-lists:hidden").length == 0) {	
-              $("#loadMore").fadeOut();	
-            }	
-        });	
+<script src="{{ asset('js/jquery-latest.min.js') }}"></script>
+    <script>
+        $(".card-lists").slice(0, 3).show();
+        $("#loadMore").click('on', function(){
+          $(".card-lists:hidden").slice(0, 3).show();
+            if ($(".card-lists:hidden").length == 0) {
+              $("#loadMore").fadeOut();
+            }
+        });
     </script>
 @endsection
 

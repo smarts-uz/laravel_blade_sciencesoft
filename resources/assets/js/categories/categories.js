@@ -21,8 +21,8 @@ $(tableName).DataTable({
     ],
     columns: [
         {
-            data: 'category_id',
-            name: 'category_id'
+            data: 'id',
+            name: 'id'
         },{
             data: 'category_id',
             name: 'category_id'
