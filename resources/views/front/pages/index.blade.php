@@ -35,7 +35,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Software Development</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and
             device.
@@ -69,7 +69,7 @@
         <div class="block h-full w-full pb-10 text-xl">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Infrastructure Services</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">We apply our 10-year experience to offer a full set of infrastructure services. We can
             help to maintain and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.
@@ -103,7 +103,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Application Services</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">The full set of services around development and maintenance of complex business-critical
             applications. Our experts
@@ -142,7 +142,7 @@
         <div class="block h-full w-full text-xl pb-20">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">UX/UI Design</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">User experience and user interface design for all types of websites, SaaS, and
             web/mobile
@@ -181,7 +181,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Testing & QA</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">We offer full-range QA and testing outsourcing services, can help to develop your QA or
             enhance the existing one, assist
@@ -219,7 +219,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">IT Consulting</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">Our experts can help to develop and implement an effective IT strategy, assist in smooth
             digital transformation and
@@ -255,7 +255,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Data Analytics</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">We support businesses in achieving fact-based decision-making by converting their
             historical
@@ -294,7 +294,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Help Desk Services</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">Help desk services for your IT environment or software products. We take on solving
             diverse issues from answering
@@ -322,7 +322,7 @@
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Cybersecurity Services</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">Cybersecurity services to achieve the robust protection of the companies’ applications
             and
@@ -396,7 +396,7 @@
     <div class="bg-gray-200 px-16 py-8 hidden lg:block">
       <h1 class="text-3xl font-semibold mb-20 pt-10">
         <p class="mb-4">EXPLORE OUR OFFERING</p>
-        <hr class="w-10 h-1 bg-pink-600">
+        <hr class="w-10 h-1 bg-yellow-500">
       </h1>
       <div class="flex flex-wrap" id="tabs-id">
         <div class="flex md:flex-col lg:flex-row shadow-xl bg-white">
@@ -462,7 +462,7 @@
                 <div class="block text-xl pb-10" id="software-development">
                   <h1 class="text-3xl font-semibold">
                     <p class="mb-2">Software Development</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and device.
                     We bring
@@ -490,7 +490,7 @@
                 <div class="hidden text-xl pb-10" id="infrastructure-services">
                   <h1 class="text-3xl font-semibold">
                     <p class="mb-2">Infrastructure Services</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">We apply our 10-year experience to offer a full set of infrastructure services. We can help
                     to maintain
@@ -519,7 +519,7 @@
                 </div>
                 <div class="hidden text-xl pb-10" id="application-services">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">Application Services</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">The full set of services around development and maintenance of complex business-critical
                     applications. Our experts
@@ -552,7 +552,7 @@
                 </div>
                 <div class="hidden text-xl pb-20" id="ux-ui-design">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">UX/UI Design</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">User experience and user interface design for all types of websites, SaaS, and web/mobile
                     apps. We combine the latest
@@ -585,7 +585,7 @@
                 </div>
                 <div class="hidden text-xl pb-10" id="testing-qa">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">Testing & QA</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">We offer full-range QA and testing outsourcing services, can help to develop your QA or
                     enhance the existing one, assist
@@ -618,7 +618,7 @@
                 </div>
                 <div class="hidden text-xl pb-10" id="it-consulting">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">IT Consulting</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">Our experts can help to develop and implement an effective IT strategy, assist in smooth
                     digital transformation and
@@ -649,7 +649,7 @@
                 </div>
                 <div class="hidden text-xl pb-10" id="data-analytics">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">Data Analytics</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">We support businesses in achieving fact-based decision-making by converting their historical
                     and real-time, traditional
@@ -682,7 +682,7 @@
                 </div>
                 <div class="hidden text-xl pb-10" id="help-desk-services">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">Help Desk Services</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">Help desk services for your IT environment or software products. We take on solving diverse
                     issues from answering
@@ -706,7 +706,7 @@
                 </div>
                 <div class="hidden text-xl pb-10" id="cybersecurity-services">
                   <h1 class="text-3xl font-semibold"><p class="mb-2">Cybersecurity Services</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-1 bg-yellow-500">
                   </h1>
                   <p class="my-8 text-gray-600">Cybersecurity services to achieve the robust protection of the companies’ applications and
                     networks. Equipped with
@@ -804,7 +804,7 @@
   <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
     <h1 class="text-2xl lg:text-3xl font-semibold">
       <p class="mb-4">Solutions we deliver</p>
-      <hr class="w-10 h-1 bg-pink-600">
+      <hr class="w-10 h-1 bg-yellow-500">
     </h1>
     <p class="text-xs lg:text-xl my-4 lg:my-8">We IT-enable all kinds of B2B, B2C interactions and internal operations.</p>
     <ul class="text-black flex flex-wrap flex-row">
@@ -875,75 +875,130 @@
     </ul>
   </div>
 
-
   <div>
     <div class="mx-6 sm:mx-16 lg:mx-18 ">
       <div class="my-4">
       <h1 class="uppercase font-bold text-2xl pb-4">SUCCESS Stories</h1>
-      <hr class="w-10 h-1 bg-pink-600">
+      <hr class="w-10 h-1 bg-yellow-500">
     </div>
-    <div id="container" class="overflow-hidden bg-gray-200 md:w-1/2 w-full relative ">
-      <div id="title" class="absolute w-full duration-500 z-50">
-        <h1 class="text-white font-bold md:text-2xl text-lg">eCommers By TeamPro</h1>
-        <hr class="h-0.5 duration-500 border-none bg-yellow-600">
-      </div>
-      <div id="title-link"
-      class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
-        <p >Programming</p>
-        <i class="fas fa-arrow-right"></i>
-      </div>
-      <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
-      <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
-        <div id="child-title" class="absolute duration-500">
-          <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
-          <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
-        </div>
-  
-        <div id="child-dis" class="absolute text-sm md:text-base duration-500">
-          <p>C++</p>
-          <p>JavaScript</p>
-          <p>Java</p>
-          <p>Go</p>
-        </div>
-  
-        <a
-        href="#"
-        id="link"
-        class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">Learn More <i class="fas ml-3 fa-arrow-right"></i></a>
-      </div>
+    <div class="p-5 flex flex-wrap gap-2">
+  <div id="container" class="overflow-hidden relative md:w-auto w-full">
+    <div id="title" class="absolute w-full duration-500 z-50">
+      <h1 class="text-white font-bold md:text-2xl text-lg">eCommers By TeamPro</h1>
+      <hr class="h-0.5 duration-500 border-none bg-yellow-600">
     </div>
-
-    <div id="container" class="overflow-hidden bg-gray-200 md:w-1/2 w-full relative ">
-      <div id="title" class="absolute w-full duration-500 z-50">
-        <h1 class="text-white font-bold md:text-2xl text-lg">eCommers By TeamPro</h1>
-        <hr class="h-0.5 duration-500 border-none bg-yellow-600">
+    <div id="title-link"
+    class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
+      <p >Programming</p>
+      <i class="fas fa-arrow-right"></i>
+    </div>
+    <img class="w-full object-cover h-72 w-1/2" src="https://images.unsplash.com/photo-1612454902251-ce039d08bdc2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=717&q=80">
+    <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
+      <div id="child-title" class="absolute duration-500">
+        <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
+        <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
       </div>
-      <div id="title-link"
-      class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
-        <p >Programming</p>
-        <i class="fas fa-arrow-right"></i>
+      <div id="child-dis" class="absolute text-sm md:text-base duration-500">
+        <p>C++</p>
+        <p>JavaScript</p>
+        <p>Java</p>
+        <p>Go</p>
       </div>
-      <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
-      <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
-        <div id="child-title" class="absolute duration-500">
-          <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
-          <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
-        </div>
-  
-        <div id="child-dis" class="absolute text-sm md:text-base duration-500">
-          <p>C++</p>
-          <p>JavaScript</p>
-          <p>Java</p>
-          <p>Go</p>
-        </div>
-  
-        <a
-        href="#"
-        id="link"
-        class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">Learn More <i class="fas ml-3 fa-arrow-right"></i></a>
-      </div>
+      <a
+      href="#"
+      id="link"
+      class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">Learn More <i class="fas ml-3 fa-arrow-right"></i></a>
     </div>
   </div>
+
+  <div id="container" class="overflow-hidden relative md:w-auto w-full">
+    <div id="title" class="absolute w-full duration-500 z-50">
+      <h1 class="text-white font-bold md:text-2xl text-lg">eCommers By TeamPro</h1>
+      <hr class="h-0.5 duration-500 border-none bg-yellow-600">
+    </div>
+    <div id="title-link"
+    class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
+      <p >Programming</p>
+      <i class="fas fa-arrow-right"></i>
+    </div>
+    <img class="w-full object-cover h-72" src="https://images.unsplash.com/photo-1612459303816-0daebd0014fb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+    <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
+      <div id="child-title" class="absolute duration-500">
+        <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
+        <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
+      </div>
+      <div id="child-dis" class="absolute text-sm md:text-base duration-500">
+        <p>C++</p>
+        <p>JavaScript</p>
+        <p>Java</p>
+        <p>Go</p>
+      </div>
+      <a
+      href="#"
+      id="link"
+      class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">Learn More <i class="fas ml-3 fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+
+  <div id="container" class="overflow-hidden relative md:w-auto w-full">
+    <div id="title" class="absolute w-full duration-500 z-50">
+      <h1 class="text-white font-bold md:text-2xl text-lg">eCommers By TeamPro</h1>
+      <hr class="h-0.5 duration-500 border-none bg-yellow-600">
+    </div>
+    <div id="title-link"
+    class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
+      <p >Programming</p>
+      <i class="fas fa-arrow-right"></i>
+    </div>
+    <img class="w-full object-cover h-72" src="https://images.unsplash.com/photo-1612477691321-967456bc1c30?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+    <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
+      <div id="child-title" class="absolute duration-500">
+        <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
+        <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
+      </div>
+      <div id="child-dis" class="absolute text-sm md:text-base duration-500">
+        <p>C++</p>
+        <p>JavaScript</p>
+        <p>Java</p>
+        <p>Go</p>
+      </div>
+      <a
+      href="#"
+      id="link"
+      class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">Learn More <i class="fas ml-3 fa-arrow-right"></i></a>
+    </div>
+  </div>
+
+  <div id="container" class="overflow-hidden relative md:w-auto w-full">
+    <div id="title" class="absolute w-full duration-500 z-50">
+      <h1 class="text-white font-bold md:text-2xl text-lg">eCommers By TeamPro</h1>
+      <hr class="h-0.5 duration-500 border-none bg-yellow-600">
+    </div>
+    <div id="title-link"
+    class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
+      <p >Programming</p>
+      <i class="fas fa-arrow-right"></i>
+    </div>
+    <img class="w-full object-cover h-72" src="https://images.unsplash.com/photo-1612430217170-612723c2117c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80">
+    <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
+      <div id="child-title" class="absolute duration-500">
+        <h1 class="text-center md:text-2xl text-lg font-bold text-black">eCommers by TeamPro</h1>
+        <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
+      </div>
+      <div id="child-dis" class="absolute text-sm md:text-base duration-500">
+        <p>C++</p>
+        <p>JavaScript</p>
+        <p>Java</p>
+        <p>Go</p>
+      </div>
+      <a
+      href="#"
+      id="link"
+      class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">Learn More <i class="fas ml-3 fa-arrow-right"></i></a>
+    </div>
+  </div>
+ </div>
 
 
   <!-- Ahadov ILhomjon -->
@@ -951,7 +1006,7 @@
   <div class="mx-6 sm:mx-16 lg:mx-18 ">
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
-    <hr class="w-10 h-1 bg-pink-600">
+    <hr class="w-10 h-1 bg-yellow-500">
   </div>
 
 
@@ -979,7 +1034,7 @@
 
   <h1 class="px-16 text-3xl py-12">
     <p class="mb-4">NEED A CONSULTATION?</p>
-    <hr class="w-10 h-1 bg-pink-600">
+    <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
   <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">

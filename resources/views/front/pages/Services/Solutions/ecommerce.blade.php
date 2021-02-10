@@ -1,10 +1,163 @@
-@extends('front.layout')
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
+  <link rel="stylesheet" href="{{ asset('style.css') }}">
+  <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
+  <title>Sciensoft Development Company</title>
 
-@section('css')
+  </head>
+  <body>
 
-@endsection
+    <div class="wrapper">
 
-@section('main')
+    <nav class="nav px-32 py-2">
+  <div class="flex items-center justify-between">
+    <div>
+      <div id="logo" class="flex relative px-4 py-2 items-center justify-between w-64">
+        <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" width="50%" alt="Logo">
+        <hr class="w-0.5 h-10 border-none bg-gray-300">
+        <h3 class="font-bold text-gray-800">eCommers</h3>
+        <i class="fas fa-chevron-down text-gray-500 text-xl"></i>
+      </div>
+      <div id="logoHover" class="absolute px-4 py-2 bg-white w-64 z-50 hidden">
+        <a href="#" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fab text-xl fa-shopify"></i> eCommers by ZetSoft </a>
+        <a href="#" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fas text-xl fa-globe"></i> ZetSoft Global </a>
+      </div>
+    </div>
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="flex justify-between items-center">
+    <div id="searchbar" class="flex justify-between items-center  w-4/5">
+      <ul class="w-11/12 hidden  lg:flex items-center font-semibold list-none uppercase text-black">
+        <li  class="  flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
+          <a id="about" class=" relative py-6" href="#">
+          About
+        </a>
+        </li>
+        <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
+          <a class="py-6" id="service" href="#">
+          Services
+          <div id="serviceHover" class="hidden flex absolute px-32 left-0 justify-start top-32 border-t-2 border-b-2 bg-white items-start py-6 w-full">
+            <div class="w-1/3 list-none">
+              <h1 class="mb-2 ">
+                Ecommerce</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul >
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Service</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Consulting</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Customer Experience Consulting</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Website Design</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Development</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Custom Ecommerce Development</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Implementation</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Testing</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Audit</li></a>
+            </ul>
+            </div>
+            <div class="w-1/6 list-none">
+              <h1 class="mb-2">Digital Consulting</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Digital Consulting</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Digital Strategy Consulting</li></a>
+              </ul>
+            </div>
+          </div>
+        </a>
+        </li>
+        <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
+          <a class="py-6" id="service" href="#">
+          Industries
+        </a>
+        </li>
+        <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
+          <a class="py-6" id="service" href="#">
+          How To Start 
+          <div id="serviceHover" class="hidden flex absolute left-0 px-32 justify-start top-32 border-t-2 border-b-2 bg-white items-start py-6 w-full">
+            <div class="w-full list-none">
+              <h1 class="mb-2 ">
+                Service types</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">How to Start an Ecommerce Business</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">How to Start an Online Retail Business</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">How to Lunch an Online Store</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">How to Build an Online Marketplace</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Business License to Sell online</li></a>
+            </ul>
+            </div>
+          </div>
+        </a>
+        </li>
+        <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
+          <a class="py-6" id="service" href="#">
+          Solutions
+          <div id="serviceHover" class="hidden flex absolute left-0 px-32 justify-start top-32 border-t-2 border-b-2 bg-white items-start py-6 w-full">
+            <div class="w-1/3 list-none">
+              <h1 class="mb-2 ">
+                By Business Model</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">B2B Ecommerce Platforms</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Marketplace Software</li></a>
+            </ul>
+            </div>
+            <div class="w-1/3 list-none">
+              <h1 class="mb-2  ">By Type</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Ecommerce Portals</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Multi-Store Ecommerce</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Virtual online Store</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Auction WebSite</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Custom Shopping Cart</li></a>
+            </ul>
+            </div>
+            <div class="w-1/3 list-none">
+              <h1 class="mb-2  ">Integrations</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Third-Party Integrations</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Point of sale (POS)</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">CRM</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">ERP</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Analytics</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Personalization</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Security</li></a>
+              </ul>
+            </div>
+            <div class="w-1/3 list-none">
+              <h1 class="mb-2  ">Demo</h1>
+              <hr class="border-b-2 w-12 border-yellow-500">
+              <ul>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">B2C Store</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">B2B Store</li></a>
+              <a href="#"><li class="mt-4 text-black hover:text-blue-700">Online Grocery Store</li></a>
+              </ul>
+            </div>
+          </div>
+        </a>
+        </li>
+      </ul>
+    </div>
+    <li class="flex justify-center items-center bg-blue-700 text-white px-4 py-2 hover:bg-blue-900">
+      <a  href="#">Let's talk</a>
+      </li>
+  </div>
+
+</nav>
+
 
     <div class="mx-6 md:mx-16 lg:mx-24 my-10">
         <!-- Corousel -->
@@ -134,7 +287,7 @@
                     operations.</p>
                 <ul class="text-black flex flex-wrap flex-row justify-between">
                     <li
-                        class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5 h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             Online Marketplace
                         </a>
@@ -143,7 +296,7 @@
                         </div>
                     </li>
                     <li
-                        class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             Ecommerce Multistore
                         </a>
@@ -152,7 +305,7 @@
                         </div>
                     </li>
                     <li
-                        class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             Headless Commerce
                         </a>
@@ -161,7 +314,7 @@
                         </div>
                     </li>
                     <li
-                        class="bg-white xl:w-80 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             PWA
                         </a>
@@ -238,70 +391,92 @@
         </h1>
 
 
-        <form class="px-16 py-12 bg-gray-200 text-gray-800">
-            <label class="">
-                ScienceSoft is a full-service ecommerce team to handle diverse consulting and development tasks. Outline
-                briefly the service or challenge you want to discuss with us, and we will be quick to follow up and start
-                our dialogue.
-            </label>
-            <div class="flex flex-col lg:flex-row justify-between">
-                <div class="flex flex-col mr-3">
-                    <div class="flex justify-between flex-row flex-wrap">
-                        <input type="text" name="FullName" placeholder="Full Name"
-                            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-                        <input type="text" name="Company" placeholder="Company"
-                            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-                        <input type="email" name="Email" placeholder="Work Email"
-                            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-                        <input type="text" name="Phone Number" placeholder="Work Phone"
-                            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-                    </div>
-                    <textarea placeholder="How can we we help you?" cols="3" rows="6"
-                        class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3"
-                        style="margin-right: 0.75rem;"></textarea>
-                    <div class="flex justify-center items-center mb-3">
-                        <button type="submit"
-                            class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-56 h-16 ">Discuss my
-                            Ecommerce needs</button>
-                    </div>
-                </div>
-                <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
-                    <div class="flex flex-col ">
-                        <p class="text-xl font-semibold">Our contact details</p>
-                        <a href="#" class="flex flex-row items-center text-blue-500 my-3">
-                            <i class="fa fa-phone mr-3"></i>
-                            <p>(+998) 99 873-48-36</p>
-                        </a>
-                        <a href="#" class="flex flex-row items-center text-blue-500">
-                            <i class="fa fa-envelope mr-3"></i>
-                            <p>contact@scnsoft.com</p>
-                        </a>
-                    </div>
-                    <div class="flex flex-col my-3">
-                        <p class="text-xl font-semibold mb-3">Press inquires</p>
-                        <a href="#" class="flex items-center text-blue-500">
-                            <p class="mr-3">GET IN TOUCH WITH US</p>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="flex flex-col">
-                        <p class="text-xl border-2 font-semibold mb-3">Join our team</p>
-                        <a href="#" class="flex items-center text-blue-500">
-                            <p class="mr-3">CHECK OUR OPEN VACANCIES</p>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </form>
+    <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
+    @csrf	
+    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
+    <div class="flex flex-col lg:flex-row justify-between">
+      <div class="flex flex-col mr-3">
+        <div class="flex justify-between flex-row flex-wrap">
+        <input type="text" name="company" placeholder="Company"
+            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+          <input type="text" name="company" placeholder="Company"
+            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+          <input type="email" name="email" placeholder="Work Email"
+            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+          <input type="text" name="phone_number" placeholder="Work Phone"
+            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+        </div>
+        <textarea placeholder="How can we we help you?" cols="3" rows="6"
+          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" name="description" style="margin-right: 0.75rem;"></textarea>
+         <div class="flex justify-center items-center mb-3">
+          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
+         </div>
+      </div>
+      <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
+        <div class="flex flex-col ">
+          <p class="text-xl font-semibold">Our contact details</p>
+          <a href="#" class="flex flex-row items-center text-blue-500 my-3">
+            <i class="fa fa-phone mr-3"></i>
+            <p>(+998) 99 873-48-36</p>
+          </a>
+          <a href="#" class="flex flex-row items-center text-blue-500">
+            <i class="fa fa-envelope mr-3"></i>
+            <p>contact@scnsoft.com</p>
+          </a>
+        </div>
+        <div class="flex flex-col my-3">
+          <p class="text-xl font-semibold mb-3">Press inquires</p>
+          <a href="#" class="flex items-center text-blue-500">
+            <p class="mr-3">GET IN TOUCH WITH US</p>
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="flex flex-col">
+          <p class="text-xl border-2 font-semibold mb-3">Join our team</p>
+          <a href="#" class="flex items-center text-blue-500">
+            <p class="mr-3">CHECK OUR OPEN VACANCIES</p>
+            <i class="fa fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </form>
+
 
 
     </div>
+    @include('front.Components.footer')
 
+    </div>
 
-@endsection
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="{{ asset('index.js') }}"></script>
+<script>
+  $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+          breakpoint: 768,
+          setting: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          setting: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+</script>
 
+</body>
+</html>
 
-@section('js')
-
-@endsection
