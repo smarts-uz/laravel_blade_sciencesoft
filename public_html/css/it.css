@@ -1,0 +1,81 @@
+
+.middle {
+    position: relative;
+}
+
+.card {
+    cursor: pointer;
+    width: 270px;
+    height: 268px;
+}
+
+.dis-no {
+    display: none;
+}
+
+.dis-block {
+    display: block;
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+}
+
+.front img {
+    height: 100%;
+}
+
+.front {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.back {
+
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.ml-12 {
+    margin-top: 0;
+}
+
+.back-content {
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(0deg);
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+    .dis-no {
+        display: block;
+    }
+
+    .dis-block {
+        display: none;
+    }
+
+    .ml-12 {
+        margin-top: 20px;
+    }
+
+    .mt-9-card {
+        margin-top: 0 !important;
+    }
+
+}
+
