@@ -778,12 +778,18 @@
        </div>
     </div>
   </div>
-    <hr class="w-10 h-1 bg-yellow-600 mb-4" />
+  <div class="">
+   <div class=" text-2xl md:text-3xl font-bold m-20">
+           RECOGNITIONS AND PARTNERSHIPS
+           <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+       </div>
+    </div>
+    <!-- <hr class="w-10 h-1 bg-yellow-600 mb-4" />
     <p class="w-11/12 text-gray-700 font-light mb-3">
       Distilling deep tech experience, our experts can help you with
       platform-specific consulting, solution design and support for your
       business evolution.
-    </p>
+    </p> -->
     <div class="flex flex-wrap overflow-hidden sm:-mx-3">
         @foreach($categories as $category)
             <div
