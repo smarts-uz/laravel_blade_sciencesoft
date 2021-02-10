@@ -78,6 +78,7 @@ class Category extends Model
      * @var array
      */
     public static $rules = [
+        'id' => 'nullable',
         'category_id' => 'nullable|integer',
         'name' => 'nullable|string|max:255',
         'name_lang' => 'nullable|string',
@@ -87,7 +88,7 @@ class Category extends Model
         'image' => 'nullable|',
         'path_blade' => 'nullable|string|max:255',
         'link' => 'nullable|string|max:255',
-        'active' => 'required|boolean',
+        'active' => 'boolean',
         'deleted_at' => 'nullable',
         'created_at' => 'nullable',
         'updated_at' => 'nullable'

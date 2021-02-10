@@ -1,5 +1,11 @@
 <!-- Parent Id Field -->
 <div class="form-group col-sm-6">
+    {!! Form::label('id', 'Id:') !!}
+    {!! Form::number('id', null, ['class' => 'form-control']) !!}
+</div>
+
+<!-- Parent Id Field -->
+<div class="form-group col-sm-6">
     {!! Form::label('category_id', 'Parent Id:') !!}
     {!! Form::number('category_id', null, ['class' => 'form-control']) !!}
 </div>

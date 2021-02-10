@@ -1,13 +1,12 @@
 @extends('front.layout')
 
 @section('css')
-
+<link rel="stylesheet" href="{{asset('css/it.css')}}">
 @endsection
 
 @section('main')
 
 <div class="mx-6 md:mx-16 lg:mx-24">
-
 <div class="text-2xl md:text-4xl font-bold m-10">
     Managed IT Services for Stable and Reliably Evolving IT Environment
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
@@ -299,215 +298,7 @@
     See Our Managed Services Delivered!
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
-<div class="splide  ">
-        <div class="splide__track ">
-          <ul class="splide__list">
-            <li class="splide__slide">
-                <div
-                  class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-                >
-                  <div  class="p-6">
-                    <img
-                      src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/web-portal-for-display-monitoring-02.png"
-                      alt=""
-                    />
-                  </div>
-                  <div  class="p-6">
-                    <p class="text-xl font-bold py-5">
-                      Display Monitoring Software and Customer Portal Development
-                      for the World’s LED Industry Leader
-                    </p>
-                    <div>
-                      <p class="py-2 font-normal leading-7 text-lg">
-                        ScienceSoft implemented a web portal and polling software
-                        for remote LED display monitoring. The solution comprises
-                        features for the Customer and their clients alike, reduces
-                        the need for on-site checks of displays condition and
-                        provides a consolidated area for online customer service.
-                      </p>
-                    </div>
-                    <div class="text-center p-4">
-                      <a class="text-green-700 font-bold" href="#"
-                        >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            
-            <li class="splide__slide">
-              <div
-                class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-              >
-                <div  class="p-6">
-                  <img
-                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/viber-billing-portal-02.png"
-                    alt=""
-                  />
-                </div>
-                <div  class="p-6">
-                  <p class="text-xl font-bold py-5">
-                    Viber Billing Portal Development
-                  </p>
-                  <div>
-                    <p class="py-2 font-normal leading-7 text-lg">
-                      A user-friendly self-service portal for a popular VoIP app
-                      to manage tariffs and pay for calls right from the browser.
-                      A rich payment functionality allows users to keep track of
-                      their calls and account balances in a secure and convenient
-                      manner.
-                    </p>
-                  </div>
-                  <div class="text-center p-4">
-                    <a class="text-green-700 font-bold" href="#"
-                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div
-                class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-              >
-                <div  class="p-6">
-                  <img
-                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/web-portal-for-display-monitoring-02.png"
-                    alt=""
-                  />
-                </div>
-                <div  class="p-6">
-                  <p class="text-xl font-bold py-5">
-                    Display Monitoring Software and Customer Portal Development
-                    for the World’s LED Industry Leader
-                  </p>
-                  <div>
-                    <p class="py-2 font-normal leading-7 text-lg">
-                      ScienceSoft implemented a web portal and polling software
-					            for remote LED display monitoring. The solution comprises
-                      features for the Customer and their clients alike, reduces
-                      the need for on-site checks of displays condition and
-                      provides a consolidated area for online customer service.
-                    </p>
-                  </div>
-                  <div class="text-center p-4">
-                    <a class="text-green-700 font-bold" href="#"
-                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div
-                class="gap-2 grid md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-              >
-                <div  class="p-6">
-                  <img
-                    src="https://www.scnsoft.com/images-for-slider-with-content/web-portals/business-analysis-and-prototyping-for-a-b2b-trade-portal.jpg"
-                    alt=""
-                  />
-                </div>
-                <div  class="p-6">
-                  <p class="text-xl font-bold py-5">
-                    Business Analysis and Prototyping for a B2B Trade Portal
-                  </p>
-                  <div>
-                    <p class="py-2 font-normal leading-7 text-lg">
-                      ScienceSoft developed the concept of a web application to enhance buying and selling in the construction industry with workflow automation and online deal management between buyers and vendors.
-                    </p>
-                  </div>
-                  <div class="text-center p-4">
-                    <a class="text-green-700 font-bold" href="#"
-                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div
-                class="grid gap-2 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-              >
-                <div  class="p-6">
-                  <img
-                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/sharepoint/learning-portal-for-social-care-provider-02.png"
-                    alt=""
-                  />
-                </div>
-                <div  class="p-6">
-                  <p class="text-xl font-bold py-5">
-                    SharePoint Learning Portal Development for a UK Social Care Services Provider
-                  </p>
-                  <div>
-                    <p class="py-2 font-normal leading-7 text-lg">
-                      ScienceSoft developed a fully functional corporate intranet on Microsoft Office 365. The portal provides users with a variety of learning capabilities and facilitates employees’ everyday activities.
-                    </p>
-                  </div>
-                  <div class="text-center p-4">
-                    <a class="text-green-700 font-bold" href="#"
-                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-              <div
-                class="grid gap-4 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-              >
-                <div  class="p-6">
-                  <img
-                    src="https://www.scnsoft.com/images-for-slider-with-content/sh-and-o365/sharepoint-intranet-development-for-a-45,000-employee-bank.jpg"
-                    alt=""
-                  />
-                </div>
-                <div  class="p-6">
-                  <p class="text-xl font-bold py-5">
-                   SharePoint Intranet Development for a 45,000 Employee Bank
-                  </p>
-                  <div>
-				            <p class="py-2 font-normal leading-7 text-lg">
-                      A corporate-wide intranet solution for a Canadian full-service commercial bank to facilitate collaboration between departments. The solution provides tools for sharing documents and storing a corporate knowledge base and also encourages internal communication to streamline business processes across all bank levels.
-                    </p>
-                  </div>
-                  <div class="text-center p-4">
-                    <a class="text-green-700 font-bold" href="#"
-                      >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li class="splide__slide">
-                <div
-                  class="grid gap-4 md:grid-cols-2 grid-cols-1 container m-auto items-center p-10 pt-20 border-2 h-full"
-                >
-                  <div  class="p-6">
-                    <img
-                    src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/web-portals/travel-web-portal-02.png"
-                    alt=""
-                    />
-                  </div>
-                  <div  class="p-6">
-                    <p class="text-xl font-bold py-5">
-                     SharePoint Intranet Development for a 45,000 Employee Bank
-                    </p>
-                    <div>
-                      <p class="py-2 font-normal leading-7 text-lg">
-                        A corporate-wide intranet solution for a Canadian full-service commercial bank to facilitate collaboration between departments. The solution provides tools for sharing documents and storing a corporate knowledge base and also encourages internal communication to streamline business processes across all bank levels.
-                      </p>
-                    </div>
-                    <div class="text-center p-4">
-                      <a class="text-green-700 font-bold" href="#"
-                        >PROJECT DETAILS<i class="px-2 fas fa-arrow-right"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-          </ul>
-      </div>
+
 ================davomi bor Carousel=================
 
 <div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
@@ -651,6 +442,326 @@
     <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>get a quote</a>
 </div>
 
+
+
+<div class="container mx-auto">
+    <p class="font-normal md:font-bold text-4xl ">ENCOUNTER ANY OF THE IT ISSUES BELOW? SEE HOW WE CURE THEM!</p>
+    <div class="w-12 h-0.5 bg-yellow-400 mt-3"></div>
+    <div class="flex flex-wrap mt-9">
+        <div class="ml-12">
+            <div class="card border-collapse  middle ">
+                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xl mt-9">
+                        High infrastructure-related costs
+                    </p>
+                    <div class="flex mt-10 float-right">
+                        <div>
+                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
+                        </div>
+                        <div class="ml-5 mt-12 mr-3.5 text-xl">
+                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
+                    <div class="back-content middle">
+                        <div class="flex">
+                            <div>
+                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
+                            </div>
+                        </div>
+
+                        <p class="text-xl mt-9 text-gray-100">
+                            Optimal utilization of IT resources and plugging into mature ITSM processes
+                        </p>
+                        <div class=" mt-10 float-right">
+
+                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
+                                <img src="images/white-right.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ml-12">
+            <div class="card border-collapse  middle ">
+                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xl mt-9">
+                        High infrastructure-related costs
+                    </p>
+                    <div class="flex mt-10 float-right">
+                        <div>
+                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
+                        </div>
+                        <div class="ml-5 mt-12 mr-3.5 text-xl">
+                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
+                    <div class="back-content middle">
+                        <div class="flex">
+                            <div>
+                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
+                            </div>
+                        </div>
+
+                        <p class="text-xl mt-9 text-gray-100">
+                            Optimal utilization of IT resources and plugging into mature ITSM processes
+                        </p>
+                        <div class=" mt-10 float-right">
+
+                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
+                                <img src="images/white-right.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ml-12">
+            <div class="card border-collapse  middle ">
+                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xl mt-9">
+                        High infrastructure-related costs
+                    </p>
+                    <div class="flex mt-10 float-right">
+                        <div>
+                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
+                        </div>
+                        <div class="ml-5 mt-12 mr-3.5 text-xl">
+                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
+                    <div class="back-content middle">
+                        <div class="flex">
+                            <div>
+                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
+                            </div>
+                        </div>
+
+                        <p class="text-xl mt-9 text-gray-100">
+                            Optimal utilization of IT resources and plugging into mature ITSM processes
+                        </p>
+                        <div class=" mt-10 float-right">
+
+                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
+                                <img src="images/white-right.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ml-12 dis-no">
+            <div class="card border-collapse  middle ">
+                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xl mt-9">
+                        High infrastructure-related costs
+                    </p>
+                    <div class="flex mt-10 float-right">
+                        <div>
+                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
+                        </div>
+                        <div class="ml-5 mt-12 mr-3.5 text-xl">
+                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
+                    <div class="back-content middle">
+                        <div class="flex">
+                            <div>
+                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
+                            </div>
+                        </div>
+
+                        <p class="text-xl mt-9 text-gray-100">
+                            Optimal utilization of IT resources and plugging into mature ITSM processes
+                        </p>
+                        <div class=" mt-10 float-right">
+
+                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
+                                <img src="images/white-right.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex flex-wrap mt-9-card mb-52 mt-9">
+        <div class="ml-12">
+            <div class="card border-collapse  middle ">
+                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xl mt-9">
+                        High infrastructure-related costs
+                    </p>
+                    <div class="flex mt-10 float-right">
+                        <div>
+                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
+                        </div>
+                        <div class="ml-5 mt-12 mr-3.5 text-xl">
+                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
+                    <div class="back-content middle">
+                        <div class="flex">
+                            <div>
+                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
+                            </div>
+                        </div>
+
+                        <p class="text-xl mt-9 text-gray-100">
+                            Optimal utilization of IT resources and plugging into mature ITSM processes
+                        </p>
+                        <div class=" mt-10 float-right">
+
+                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
+                                <img src="images/white-right.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ml-12 dis-block">
+            <div class="card border-collapse  middle ">
+                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
+                    <div class="flex">
+                        <div>
+                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
+                        </div>
+                        <div>
+                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
+                        </div>
+                    </div>
+
+                    <p class="text-xl mt-9">
+                        High infrastructure-related costs
+                    </p>
+                    <div class="flex mt-10 float-right">
+                        <div>
+                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
+                        </div>
+                        <div class="ml-5 mt-12 mr-3.5 text-xl">
+                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
+                    <div class="back-content middle">
+                        <div class="flex">
+                            <div>
+                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
+                            </div>
+                            <div>
+                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
+                            </div>
+                        </div>
+
+                        <p class="text-xl mt-9 text-gray-100">
+                            Optimal utilization of IT resources and plugging into mature ITSM processes
+                        </p>
+                        <div class=" mt-10 float-right">
+
+                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
+                                <img src="images/white-right.svg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class=" mx-auto w-full">
     <div class="text-2xl md:text-3xl font-bold mt-20 mx-10">
         What Managed IT Services Bring to Our Customers
@@ -707,6 +818,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
+    <link rel="stylesheet" href="./it.css">
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script>
       new Splide(".splide").mount();
