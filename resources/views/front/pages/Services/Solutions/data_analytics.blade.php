@@ -61,6 +61,21 @@
         </div>
         <div class="container -mt-36">
             <section class="customer-logos slider ">
+                @php
+                    function searcharray($value, $key, $array) {
+                       foreach ($array as $k => $val) {
+                           if ($val[$key] == $value) {
+                               return $k;
+                           }
+                       }
+                       return null;
+                    }
+                        $name="Partnerships";
+                        $partnerships=searcharray($name, 'name', $categories);
+                        //array_search($name, array_column($categories, 'name'));
+                        //route('getCategoryByName', ['name'=>'Partnerships', 'view'=>'front.pages.services.solutions.data_analytics']);
+                    dd($partnerships);
+                @endphp
                 <div class="slide"><img src="images/adidas.png" alt="logo"></div>
                 <div class="slide"><img src="images/facebook.png" alt="logo"></div>
                 <div class="slide"><img src="images/google.png" alt="logo"></div>
