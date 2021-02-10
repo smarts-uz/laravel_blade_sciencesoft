@@ -5,6 +5,7 @@
 @endsection
 
 @section('main')
+
 <div class="mx-6 md:mx-16 lg:mx-24">
     <h1 class="uppercase font-bold mt-10 text-2xl">Web Portal Development</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
