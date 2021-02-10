@@ -54,8 +54,8 @@ class Blog extends Model
         //'tag' => 'string',
         //'image' => 'string',
         'title' => 'string',
-        'description' => 'text',
-        'description_text' => 'text'
+        'description' => 'string',
+        'description_text' => 'string'
     ];
 
     /**
