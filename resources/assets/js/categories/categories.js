@@ -13,7 +13,7 @@ $(tableName).DataTable({
     },
     columnDefs: [
         {
-            'targets': [11],
+            'targets': [10],
             'orderable': false,
             'className': 'text-center',
             'width': '11%',

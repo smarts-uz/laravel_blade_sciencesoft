@@ -17,7 +17,7 @@ $(tableName).DataTable({
     url: recordsURL
   },
   columnDefs: [{
-    'targets': [10],
+	  'targets': [10],
     'orderable': false,
     'className': 'text-center',
     'width': '11%'
