@@ -1,4 +1,4 @@
-@extends('front.layout')
+@extends('front.layout_platform')
 
 @section('css')
 
@@ -7,7 +7,7 @@
 @section('main')
 
 
-
+<h4>WEB ecommerce</h4>
 
 @endsection
 
