@@ -6,18 +6,113 @@
 
 @section('main')
 
-<div class="mx-6 md:mx-16 lg:mx-24">
-    <h1 class="uppercase font-bold mt-10 text-2xl">Web Portal Development</h1>
-    <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-    <img src="https://www.scnsoft.com/cover-pictures/web-portals-development-01.svg" alt="">
-    <p class="my-5 text-lg text-gray-800">
-    <strong>Web portal development</strong> implies engineering access to a variety of data and 
-    services via a single web interface. Since <strong>2006</strong>, ScienceSoft has covered end-to-end
-    portal implementation services for different purposes
-    (B2C, B2B, B2E, and community communications) and industries.
-    </p>
+<div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 items-center  border-2"
+            >
+              <div  class="p-16">
+                <img
+                  src="https://www.scnsoft.com/images-for-slider-with-content/sw-dev-outsourcing/modernization-of-math-training-applications-for-children.jpg"
+                  alt=""
+                />
+              </div>
+              <div  class="pr-16">
+                <p class="text-xl font-bold">
+                  Viber Billing Portal Development
+                </p>
+                <div>
+                  <p class=" font-normal leading-7 mb-16 text-lg">
+                    A user-friendly self-service portal for a popular VoIP app
+                    to manage tariffs and pay for calls right from the browser.
+                    A rich payment functionality allows users to keep track of
+                    their calls and account balances in a secure and convenient
+                    manner.
+                  </p>
+                </div>
+                <div class="text-center ml-64">
+                  <a class="text-green-700  font-bold" href="#"
+                    >PROJECT DETAILS<i class=" fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 items-center  border-2"
+            >
+              <div  class="p-16">
+                <img
+                  src="https://www.scnsoft.com/images-for-slider-with-content/sw-dev-outsourcing/modernization-of-math-training-applications-for-children.jpg"
+                  alt=""
+                />
+              </div>
+              <div  class="pr-16">
+                <p class="text-xl font-bold">
+                  Viber Billing Portal Development
+                </p>
+                <div>
+                  <p class=" font-normal leading-7 mb-16 text-lg">
+                    A user-friendly self-service portal for a popular VoIP app
+                    to manage tariffs and pay for calls right from the browser.
+                    A rich payment functionality allows users to keep track of
+                    their calls and account balances in a secure and convenient
+                    manner.
+                  </p>
+                </div>
+                <div class="text-center ml-64">
+                  <a class="text-green-700  font-bold" href="#"
+                    >PROJECT DETAILS<i class=" fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class="splide__slide">
+            <div
+              class="grid gap-2 md:grid-cols-2 grid-cols-1 items-center  border-2"
+            >
+              <div  class="p-16">
+                <img
+                  src="https://www.scnsoft.com/images-for-slider-with-content/sw-dev-outsourcing/modernization-of-math-training-applications-for-children.jpg"
+                  alt=""
+                />
+              </div>
+              <div  class="pr-16">
+                <p class="text-xl font-bold">
+                  Viber Billing Portal Development
+                </p>
+                <div>
+                  <p class=" font-normal leading-7 mb-16 text-lg">
+                    A user-friendly self-service portal for a popular VoIP app
+                    to manage tariffs and pay for calls right from the browser.
+                    A rich payment functionality allows users to keep track of
+                    their calls and account balances in a secure and convenient
+                    manner.
+                  </p>
+                </div>
+                <div class="text-center ml-64">
+                  <a class="text-green-700  font-bold" href="#"
+                    >PROJECT DETAILS<i class=" fas fa-arrow-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+
+        </ul>
+      </div>
+    </div>
     
-</div>
 
 
 @endsection
