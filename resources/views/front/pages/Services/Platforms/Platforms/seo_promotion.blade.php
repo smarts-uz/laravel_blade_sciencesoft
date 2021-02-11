@@ -18,7 +18,7 @@
                 <div>
                     <a href=""
                        class="bg-blue-700 rounded-full text-white px-3 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        заказать проект
+                        заказать проект.
                     </a>
                     <span class="text-white text-xl ">
                     Меню
