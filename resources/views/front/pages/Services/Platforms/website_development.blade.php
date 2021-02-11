@@ -9,25 +9,6 @@
 
 
 <div class="bg-black h-screen">
-    <div class="flex ">
-        <div class="container m-auto ">
-            <div class="flex justify-between m-6 mx-10">
-                <div class="max-h-10">
-                    <img src="assets/images/logo.gif" alt="">
-                </div>
-
-                <div>
-                    <a href=""
-                       class="bg-blue-700 rounded-full text-white px-3 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        заказать проект
-                    </a>
-                    <span class="text-white text-xl ">
-                    Меню
-                </span>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="grid  grid-cols-2 container m-auto p-16 ">
         <div data-aos="fade-right">
@@ -43,7 +24,7 @@
         </div>
 
         <div data-aos="fade-left">
-            <img src="assets/images/intro.svg" alt="">
+            <img src="{{asset('images/open_engine/images/intro.svg')}}" alt="">
         </div>
 
     </div>
@@ -52,23 +33,23 @@
 <div class="bg-gray-200">
     <div class="flex container m-auto justify-between pt-16  px-40">
         <div data-aos="fade-left">
-            <img src="assets/images/1/1.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/1/1.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Интернет-магазин</p>
         </div>
         <div data-aos="fade-left">
-            <img src="assets/images/1/2.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/1/2.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Landing Page</p>
         </div>
         <div data-aos="fade-up">
-            <img src="assets/images/1/3.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/1/3.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Техническая поддержка</p>
         </div>
         <div data-aos="fade-right">
-            <img src="assets/images/1/4.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/1/4.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Корпоративные сайты</p>
         </div>
         <div data-aos="fade-right">
-            <img src="assets/images/1/5.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/1/5.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Сложные системы</p>
         </div>
     </div>
@@ -82,19 +63,19 @@
     <div class="flex container m-auto text-center pl-40 pr-40 ">
         <div data-aos="flip-left" class="flex-1 shadow-lg  rounded-lg mb-8 m-4 hover:bg-blue-700 bg-white p-4">
             <p class="font-bold pb-5 pt-2">01</p>
-            <img src="assets/images/2/1.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/2/1.svg')}}" alt="" class="m-auto">
             <p class="p-8 font-bold text-md text-gray-700 hover:text-white">Продуманный и функциональный прототип</p>
         </div>
 
         <div data-aos="flip-left" class="flex-1  shadow-lg rounded-lg mb-8 m-4 hover:bg-blue-700 bg-white p-4">
             <p class="font-bold pb-5 pt-2">02</p>
-            <img src="assets/images/2/2.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/2/2.svg')}}" alt="" class="m-auto">
             <p class="p-8 font-bold text-md text-gray-700 hover:text-white">Красивый продающий дизайн</p>
         </div>
 
         <div data-aos="flip-left" class="flex-1  shadow-lg rounded-lg mb-8 m-4 hover:bg-blue-700 bg-white p-4">
             <p class="font-bold pb-5 pt-2">03</p>
-            <img src="assets/images/2/3.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/2/3.svg')}}" alt="" class="m-auto">
             <p class="p-8 font-bold text-md text-gray-700 hover:text-white">Адаптация под любые устройства</p>
         </div>
 
@@ -102,19 +83,19 @@
     <div class="flex container m-auto text-center pl-40 pr-40">
         <div data-aos="flip-left" class="flex-1  shadow-lg rounded-lg mb-8 m-4 hover:bg-blue-700 bg-white p-4">
             <p class="font-bold pb-5 pt-2">04</p>
-            <img src="assets/images/2/4.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/2/4.svg')}}" alt="" class="m-auto">
             <p class="p-8 font-bold text-md text-gray-700 hover:text-white">Правильная техническая структура и грамотная верстка</p>
         </div>
 
         <div data-aos="flip-left" class="flex-1  shadow-lg rounded-lg mb-8 m-4 hover:bg-blue-700 bg-white p-4">
             <p class="font-bold pb-5 pt-2">05</p>
-            <img src="assets/images/2/5.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/2/5.svg')}}" alt="" class="m-auto">
             <p class="p-8 font-bold text-md text-gray-700 hover:text-white">Наполнение продающим контентом</p>
         </div>
 
         <div data-aos="flip-left" class="flex-1  shadow-lg rounded-lg mb-8 m-4 hover:bg-blue-700 bg-white p-4">
             <p class="font-bold pb-5 pt-2">06</p>
-            <img src="assets/images/2/6.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/images/2/6.svg')}}" alt="" class="m-auto">
             <p class="p-8 font-bold text-md text-gray-700 hover:text-white">Предварительное тестирование</p>
         </div>
     </div>
@@ -137,13 +118,13 @@
                 </ul>
             </div>
             <div class="m-auto">
-                <img src="assets/images/3/step1.svg" alt="">
+                <img src="{{asset('images/open_engine/images/3/step1.svg')}}" alt="">
             </div>
         </div>
 
         <div class="grid grid-cols-2 container m-auto items-center p-10">
             <div class="m-auto">
-                <img src="assets/images/3/step2.svg" alt="">
+                <img src="{{asset('images/open_engine/images/images/3/step2.svg')}}" alt="">
             </div>
             <div data-aos="fade-right" class="pl-20 m-auto">
                 <h1 class="text-3xl font-bold text-gray-700 py-5 leading-none -ml-5"> Прототип и дизайн</h1>
@@ -165,13 +146,13 @@
                 </ul>
             </div>
             <div class="m-auto">
-                <img src="assets/images/3/step3.svg" alt="">
+                <img src="{{asset('images/open_engine/images/3/step3.svg')}}" alt="">
             </div>
         </div>
 
         <div class="grid grid-cols-2 container m-auto items-center p-10">
             <div class="m-auto">
-                <img src="assets/images/3/step4.svg" alt="">
+                <img src="{{asset('images/open_engine/images/3/step4.svg')}}" alt="">
             </div>
             <div data-aos="fade-right" class="pl-20 m-auto ">
                 <h1 class="text-3xl font-bold text-gray-700 py-5 leading-none -ml-5">Программирование</h1>
@@ -195,13 +176,13 @@
                 </ul>
             </div>
             <div class="m-auto">
-                <img src="assets/images/3/step5.svg" alt="">
+                <img src="{{asset('images/open_engine/images/3/step5.svg')}}" alt="">
             </div>
         </div>
 
         <div class="grid grid-cols-2 container m-auto items-center p-10">
             <div class="m-auto">
-                <img src="assets/images/3/step6.svg" alt="">
+                <img src="{{asset('images/open_engine/images/3/step6.svg')}}" alt="">
             </div>
             <div data-aos="fade-right" class="pl-20 m-auto ">
                 <h1 class="text-3xl font-bold text-gray-700 py-5 leading-none -ml-5">Наполнение и запуск</h1>
@@ -263,7 +244,7 @@
                 <div class="grid grid-cols-2 container m-auto items-center p-10 pt-20">
 
                     <div>
-                        <img src="assets/images/intro.svg" alt="">
+                        <img src="{{asset('images/open_engine/images/intro.svg')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
                         <p><b>Клиент:</b></p>
@@ -293,7 +274,7 @@
                 <div class="grid grid-cols-2 container m-auto items-center p-10 pt-20">
 
                     <div>
-                        <img src="assets/images/intro.svg" alt="">
+                        <img src="{{asset('images/open_engine/images/intro.svg')}}" alt="">
                     </div>
                     <div class="text-2xl" data-aos="fade-up">
                         <p><b>Клиент:</b></p>
@@ -322,7 +303,7 @@
                 <div class="grid grid-cols-2 container m-auto items-center p-10 pt-20">
 
                     <div>
-                        <img src="assets/images/intro.svg" alt="">
+                        <img src="{{asset('images/open_engine/images/intro.svg')}}" alt="">
                     </div>
                     <div class="text-2xl" data-aos="fade-up">
                         <p><b>Клиент:</b></p>
@@ -371,27 +352,27 @@
 
 <div class="flex container m-auto justify-between  px-40 p-10">
     <div>
-        <img class="shadow-lg  rounded-full" src="assets/images/4icons/1.svg" alt="">
+        <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/images/4icons/1.svg')}}" alt="">
         <p class="font-bold text-lg text-center text-gray-600 mt-5">Wordpress</p>
     </div>
 
     <div>
-        <img class="shadow-lg  rounded-full" src="assets/images/4icons/2.svg" alt="">
+        <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/images/4icons/2.svg')}}" alt="">
         <p class="font-bold text-lg text-center text-gray-600 mt-5">Opencart</p>
     </div>
 
     <div>
-        <img class="shadow-lg  rounded-full" src="assets/images/4icons/3.svg" alt="">
+        <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt="">
         <p class="font-bold text-lg text-center text-gray-600 mt-5">YII2</p>
     </div>
 
     <div>
-        <img class="shadow-lg  rounded-full" src="assets/images/4icons/4.svg" alt="">
+        <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/images/4icons/4.svg')}}" alt="">
         <p class="font-bold text-lg text-center text-gray-600 mt-5">Laravel</p>
     </div>
 
     <div>
-        <img class="shadow-lg  rounded-full" src="assets/images/4icons/5.svg" alt="">
+        <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/images/4icons/5.svg')}}" alt="">
         <p class="font-bold text-lg text-center text-gray-600 mt-5">Bitrix</p>
     </div>
 </div>
@@ -413,26 +394,26 @@
     <div>
         <div class="grid grid-cols-2">
             <div class=" p-5">
-                <img class="rounded-full  border-indigo-600 border-4" src="assets/images/4icons/3.svg" alt="">
+                <img class="rounded-full  border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt="">
                 <p>01</p>
                 <p class="text-2xl text-gray-600">Более 500 <br> выполненых проектов</p>
             </div>
 
             <div class=" p-5">
-                <img class="rounded-full border-indigo-600 border-4" src="assets/images/4icons/3.svg" alt="">
+                <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt="">
                 <p>02</p>
                 <p class="text-2xl text-gray-600">Более 100 <br> постоянных клиентов</p>
             </div>
         </div>
         <div class="grid grid-cols-2">
             <div class=" p-5">
-                <img class="rounded-full border-indigo-600 border-4" src="assets/images/4icons/3.svg" alt="">
+                <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt="">
                 <p>03</p>
                 <p class="text-2xl text-gray-600">Команда <br> сертифицированных <br> специалистов</p>
             </div>
 
             <div class=" p-5">
-                <img class="rounded-full border-indigo-600 border-4" src="assets/images/4icons/3.svg" alt="">
+                <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt="">
                 <p>04</p>
                 <p class="text-2xl text-gray-600">Индивидуальный <br> подход к каждому <br> клиенту</p>
             </div>
@@ -450,7 +431,7 @@
 
 <div class="flex container m-auto justify-between  p-20" data-aos="fade-right">
     <div>
-        <img class="-my-16 m-auto shadow-lg  rounded-full border-gray-300 border" src="assets/images/4icons/1.svg"
+        <img class="-my-16 m-auto shadow-lg  rounded-full border-gray-300 border" src="{{asset('images/open_engine/images/4icons/1.svg')}}"
              alt="">
         <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 z-10"></div>
         <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5 z-20">
@@ -480,7 +461,7 @@
     </div>
 
     <div>
-        <img class="-my-16 m-auto shadow-lg  rounded-full border-gray-300 border" src="assets/images/4icons/2.svg"
+        <img class="-my-16 m-auto shadow-lg  rounded-full border-gray-300 border" src="{{asset('images/open_engine/images/4icons/2.svg')}}"
              alt="">
         <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 z-0"></div>
         <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5">
@@ -512,7 +493,7 @@
 
 
     <div>
-        <img class="-my-16 m-auto shadow-lg  rounded-full border-gray-300 border" src="assets/images/4icons/3.svg"
+        <img class="-my-16 m-auto shadow-lg  rounded-full border-gray-300 border" src="{{asset('images/open_engine/images/4icons/3.svg')}}"
              alt="">
         <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 z-0"></div>
         <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5 ">
@@ -546,7 +527,7 @@
 </div>
 
 <div class="max-w-xl mx-auto my-10 mb-40 relative" data-aos="fade-left">
-    <img class="-my-16 m-auto shadow-lg rounded-full border-gray-300 border" src="assets/images/4icons/3.svg" alt="">
+    <img class="-my-16 m-auto shadow-lg rounded-full border-gray-300 border" src="{{asset('images/open_engine/images/images/4icons/3.svg')}}" alt="">
     <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 z-10"></div>
     <!--    -->
     <div class="shadow-lg rounded-2xl z-20 px-10 pt-10 pb-5 m-5 z-20">
@@ -606,27 +587,27 @@
                 <div class="flex justify-center items-center pl-20 pt-5">
 
                     <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                        <img class="mx-auto p-3" src="assets/images/4/web-site_dark.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt="">
                         <p class="text-center">Разработка <br> сайтов</p>
                     </div>
 
                     <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                        <img class="mx-auto p-3" src="assets/images/4/loupe_dark.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt="">
                         <p class="text-center">SEO <br> продвижение</p>
                     </div>
 
                     <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                        <img class="mx-auto p-3" src="assets/images/4/loupe_dark.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt="">
                         <p class="text-center">Контекстная <br> реклама</p>
                     </div>
 
                     <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                        <img class="mx-auto p-3" src="assets/images/4/digital-marketing_dark.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}" alt="">
                         <p class="text-center"> СММ <br> продвижение</p>
                     </div>
 
                     <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                        <img class="mx-auto p-3" src="assets/images/4/creative_dark.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt="">
                         <p class="text-center">Разработка <br>брендбуков</p>
                     </div>
                 </div>
@@ -635,31 +616,6 @@
         <div></div>
     </div>
 </div>
-
-<footer style="background: #00091F" class="bg-blue-900 text-white  ">
-    <h1 class="text-white mx-auto text-5xl font-semibold text-center py-20" data-aos="zoom-in">Начать проект</h1>
-    <footer class="flex container m-auto justify-between  px-40 p-5">
-        <img src="" alt="">
-        <p>Чиланзарский район <br>
-            ул Кирик Киз 10</p>
-        <p><b>+99871 202 22 42</b></p>
-        <div class="flex ">
-            <i>f</i>
-            <i>i</i>
-            <i>y</i>
-        </div>
-    </footer>
-</footer>
-
-<script>
-    new Splide('.splide').mount();
-</script>
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-
 
 
 
