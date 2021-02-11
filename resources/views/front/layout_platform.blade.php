@@ -14,8 +14,17 @@
   <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
   <link rel="stylesheet" href="{{ asset('style.css') }}">
   <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
-  <title>Sciensoft Development Company</title>
 
+  <!-- open engine -->
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+  <title>Sciensoft Development Company</title>
 
 
     @yield('css')
@@ -62,5 +71,14 @@
       });
   </script>
 
+<!-- open  engine -->
+<script>
+    new Splide('.splide').mount();
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
   </body>
 </html>
