@@ -38,13 +38,16 @@ class HomePageController extends Controller
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')
             ->get();
-        if(!view()->exists('front.pages.'.$page)){
-            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index']);
-        }
         $teams = CompanyTeam::all();
         $blogs = Blog::all();
         $news = News::all();
-        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news]);
+        $cards = CardLists::all();
+        if(!view()->exists('front.pages.'.$page)){
+            $cards = CardLists::all();
+            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
+        }
+
+        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards]);
 
     }
     public function getCategoryByName($name, $view)
