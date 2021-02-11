@@ -48,8 +48,8 @@ class CardLists extends Model
         'id' => 'integer',
         'image' => 'string',
         'title' => 'string',
-        'sub_title' => 'text',
-        'description' => 'text'
+        'sub_title' => 'string',
+        'description' => 'string'
     ];
 
     /**

@@ -89,8 +89,8 @@ Route::group(['middleware'=>'auth'], function() {
 
 
 Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
-Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('language.update');
-Route::delete('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
+// Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('language.update');
+// Route::delete('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
 Route::resource('languages', 'App\Http\Controllers\LanguageController');
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
