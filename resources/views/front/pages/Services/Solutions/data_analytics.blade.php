@@ -71,10 +71,10 @@
                        return null;
                     }
                         $name="Partnerships";
-                        $partnerships=searcharray($name, 'name', $categories);
+                        $partnerships=searcharray($name, 'name', $categories->toArray());
                         //array_search($name, array_column($categories, 'name'));
                         //route('getCategoryByName', ['name'=>'Partnerships', 'view'=>'front.pages.services.solutions.data_analytics']);
-                    dd($partnerships);
+                    // dd($partnerships);
                 @endphp
                 <div class="slide"><img src="images/adidas.png" alt="logo"></div>
                 <div class="slide"><img src="images/facebook.png" alt="logo"></div>
