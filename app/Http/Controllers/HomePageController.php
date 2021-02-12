@@ -84,6 +84,9 @@ class HomePageController extends Controller
         return redirect('/')->with('success', 'Your information has been sent successfully!');
     }
 
+    public function test(){
+        echo "Test merge";
+    }
 
 
 }
