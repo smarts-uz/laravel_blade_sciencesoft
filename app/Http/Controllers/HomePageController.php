@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\News;
 use Illuminate\Http\Request;
 use App\Models\Category;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\View;
 use App\Models\CompanyTeam;
 use App\Models\CardLists;
@@ -21,14 +22,17 @@ class HomePageController extends Controller
         $cards = CardLists::all();
         return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
     }
-    public function getPage($page, $translation='en')
+    public function getDynamicPage($page, $name, $items, $translation='en')
     {
-        //
-        // $categories = Category::whereNull('category_id')
-        //     ->with('childrenCategories')
-        //     ->get();
-        // return view('front.pages.'.$page, compact('categories'));
-        return View::make('front.layout', ['page' => $page]);
+        $categories = Category::whereNull('category_id')
+            ->with('childrenCategories')
+            ->get();
+        if(!view()->exists('front.pages.'.$page)){
+            $cards = CardLists::all();
+            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
+        }
+        return view('page_controller', ['page'=>'front.pages.'.$page, $name=>$items,'categories'=> $categories]);
+
     }
 
 
@@ -53,8 +57,21 @@ class HomePageController extends Controller
     public function getCategoryByName($name, $view)
     {
         $categories=Category::where('name', 'like', '%'.$name.'%')->first();
-//        return View::make($view)->with(compact('categories'));
+//      return View::make($view)->with(compact('categories'));
         return response($categories);
+    }
+    public function getBlogByTag(Request $request)
+    {
+        $blogs = Blog::all();
+
+//        Product::('JSON_CONTAINS(shops,"'.$this->id.'")');
+//        if($blogs = DB::table('blogs')->orWhereJsonContains('tag->category', $request->tag_name)->get()){
+        if($blogs = Blog::whereJsonContains('tag->category', $request->tag_name)){
+//        if($blogs = Blog::whereRaw('JSON_CONTAINS(blogs, tag->category', $request->tag_name)->get()){
+            return $this->getDynamicPage('blog', 'blogs', $blogs);
+//            return View::make('front.pages.blog')->with(compact('blogs', $blogs));
+        }
+        return $this->getBlade('blog', ['blogs'=>$blogs]);
     }
 
     public function getCategoryById($id)
