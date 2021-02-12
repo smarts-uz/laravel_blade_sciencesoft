@@ -2,13 +2,16 @@
 
 @section('css')
 
-@endsection
+  <style>
+    .card-lists{
+      display: none;
+  }
+  </style>
+  @endsection
 
 @section('main')
 
-
-
-    <!-- Carousel -->
+ <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
     DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
@@ -28,21 +31,17 @@
   <div class="carousel relative shadow-2xl bg-white px-10 py-10 block lg:hidden">
     <div class="carousel-inner relative overflow-hidden w-full">
       <!--Slide 1-->
-      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
-        checked="checked">
+      {{-- <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
+        checked="checked"> --}}
+      @foreach ($lists as $list)
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 1</div> -->
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
-            <p class="mb-2">Software Development</p>
-            <hr class="w-10 h-1 bg-yellow-500">
+            <p class="mb-2">{{ $list->name }}</p>
+            <hr class="w-10 h-1 bg-pink-600">
           </h1>
-          <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and
-            device.
-            We bring
-            together deep industry expertise and the latest IT advancements to deliver custom solutions and products
-            that perfectly fit the
-            needs and behavior of their users.</p>
+          <p class="my-8 text-gray-600">.</p>
           <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
             <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
               <a href="#" class="text-black hover:text-blue-500">Software consulting</a>
@@ -62,8 +61,9 @@
           </ul>
         </div>
       </div>
+      @endforeach
       <!--Slide 2-->
-      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 2</div> -->
         <div class="block h-full w-full pb-10 text-xl">
@@ -95,15 +95,15 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!--Slide 3-->
-      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-3" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-green-500 text-white text-5xl text-center">Slide 3</div> -->
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Application Services</p>
-            <hr class="w-10 h-1 bg-yellow-500">
+            <hr class="w-10 h-1 bg-pink-600">
           </h1>
           <p class="my-8 text-gray-600">The full set of services around development and maintenance of complex business-critical
             applications. Our experts
@@ -134,15 +134,15 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Slide 4 -->
-      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-4" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-red-500 text-white text-5xl text-center">Slide 4</div> -->
         <div class="block h-full w-full text-xl pb-20">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">UX/UI Design</p>
-            <hr class="w-10 h-1 bg-yellow-500">
+            <hr class="w-10 h-1 bg-pink-600">
           </h1>
           <p class="my-8 text-gray-600">User experience and user interface design for all types of websites, SaaS, and
             web/mobile
@@ -174,14 +174,14 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Slide 5 -->
-      <input class="carousel-open" type="radio" id="carousel-5" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-5" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Testing & QA</p>
-            <hr class="w-10 h-1 bg-yellow-500">
+            <hr class="w-10 h-1 bg-pink-600">
           </h1>
           <p class="my-8 text-gray-600">We offer full-range QA and testing outsourcing services, can help to develop your QA or
             enhance the existing one, assist
@@ -212,14 +212,14 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Slide 6 -->
-      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-6" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">IT Consulting</p>
-            <hr class="w-10 h-1 bg-yellow-500">
+            <hr class="w-10 h-1 bg-pink-600">
           </h1>
           <p class="my-8 text-gray-600">Our experts can help to develop and implement an effective IT strategy, assist in smooth
             digital transformation and
@@ -248,9 +248,9 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Slide 7 -->
-      <input class="carousel-open" type="radio" id="carousel-7" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-7" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
@@ -287,9 +287,9 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Slide 8 -->
-      <input class="carousel-open" type="radio" id="carousel-8" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-8" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
@@ -315,9 +315,9 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Slide 9 -->
-      <input class="carousel-open" type="radio" id="carousel-9" name="carousel" hidden="">
+      {{-- <input class="carousel-open" type="radio" id="carousel-9" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
@@ -351,7 +351,7 @@
             </li>
           </ul>
         </div>
-      </div>
+      </div> --}}
       <!-- Add additional indicators for each slide-->
       <ol class="carousel-indicators">
         <li class="inline-block mr-3">
@@ -740,6 +740,7 @@
         </div>
       </div>
 
+      @include('front.pages.category_menu')
     </div>
 
 
@@ -791,6 +792,55 @@
       business evolution.
     </p> -->
     <div class="flex flex-wrap overflow-hidden sm:-mx-3">
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/sharepoint-office-365">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/sharepoint-logo.svg" />
+          </div>
+        </a>
+      </div>
+
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/microsoft-dynamics-365">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/dynamics-365.svg" />
+          </div>
+        </a>
+      </div>
+
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/services/salesforce/implementation">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/salesforce.svg" />
+          </div>
+        </a>
+      </div>
+
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/services/salesforce/implementation">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/servicenow-logo.svg" />
+          </div>
+        </a>
+      </div>
+
+      <div
+        class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+        <a href="https://www.scnsoft.com/ecommerce/magento/services/consulting">
+          <div
+            class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5">
+            <img src="https://www.scnsoft.com/---home-page-illustrations/platforms/magento-logo.svg" />
+          </div>
+        </a>
+      </div>
         @foreach($categories as $category)
             <div
                 class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
@@ -810,7 +860,7 @@
   <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
     <h1 class="text-2xl lg:text-3xl font-semibold">
       <p class="mb-4">Solutions we deliver</p>
-      <hr class="w-10 h-1 bg-yellow-500">
+      <hr class="w-10 h-1 bg-pink-600">
     </h1>
     <p class="text-xs lg:text-xl my-4 lg:my-8">We IT-enable all kinds of B2B, B2C interactions and internal operations.</p>
     <ul class="text-black flex flex-wrap flex-row">
@@ -1018,6 +1068,22 @@
 
 
 
+  <div class='flex flex-row flex-wrap justify-between card-list'>
+    <div class="rounded overflow-hidden shadow-lg my-2 card-lists w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
+        alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
+        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
+        <p class="text-grey-darker text-base mb-5">
+          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
+          stats and industry use cases to key development tools and cost drivers.
+        </p>
+      </div>
+    </div>
+
+    <div class="rounded overflow-hidden shadow-lg my-2 card-lists w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
   <div class='flex flex-row flex-wrap justify-between'>
     @foreach($cards as $card)
     <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
@@ -1031,8 +1097,62 @@
         </p>
       </div>
     </div>
+
+    <div class="rounded overflow-hidden shadow-lg my-2 card-lists w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
+        alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
+        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
+        <p class="text-grey-darker text-base mb-5">
+          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
+          stats and industry use cases to key development tools and cost drivers.
+        </p>
+      </div>
+    </div>
     @endforeach
 
+    <div class="rounded overflow-hidden shadow-lg my-2 card-lists w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
+        alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
+        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
+        <p class="text-grey-darker text-base mb-5">
+          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
+          stats and industry use cases to key development tools and cost drivers.
+        </p>
+      </div>
+    </div>
+
+    <div class="rounded overflow-hidden shadow-lg my-2 card-lists w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="https://www.scnsoft.com/---home-page-illustrations/blog/vr.svg"
+        alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">VR</h1>
+        <div class="font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</div>
+        <p class="text-grey-darker text-base mb-5">
+          Discover everything you need to know about Virtual Reality before launching your own VR project: from market
+          stats and industry use cases to key development tools and cost drivers.
+        </p>
+      </div>
+    </div>
+
+    <div class=" rounded overflow-hidden shadow-lg w-full card-lists my-2h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48"
+        src="https://www.scnsoft.com/---home-page-illustrations/blog/real-time-big-data-analytics.svg"
+        alt="Sunset in the mountains">
+      <div class="px-6 py-4">
+        <h1 class="text-yellow-400 mb-3 text-bold uppercase">Data Analytics, Big Data</h1>
+        <div class="font-bold text-xl mb-2">A Comprehensive Guide to Real-Time Big Data Analytics</div>
+        <p class="text-grey-darker text-base">
+
+          An easy guide to real-time big data analytics from our big data consultants. What is behind the term? How does a
+          typical architecture look? What makes it a competitive advantage?
+        </p>
+      </div>
+    </div>
+    <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
     <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
   </div>
   <!-- Need a CONSULTATION? -->
@@ -1043,10 +1163,32 @@
     <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
+
+  <div class="px-16 py-12 bg-gray-200 text-gray-800">
   <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
     @csrf
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
     <div class="flex flex-col lg:flex-row justify-between">
+      <form  method="POST" action="{{ route('consultation') }}">
+        @csrf
+        <div class="flex flex-col mr-3">
+          <div class="flex justify-between flex-row flex-wrap">
+            <input type="text" name="fullname" placeholder="Full Name"
+              class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+            <input type="text" name="company" placeholder="Company"
+              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+            <input type="email" name="email" placeholder="Work Email"
+              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+            <input type="text" name="phone_number" placeholder="Work Phone"
+              class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+          </div>
+          <textarea placeholder="How can we help you?" name="description" cols="3" rows="6"
+            class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
+           <div class="flex justify-center items-center mb-3">
+              <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
+           </div>
+        </div>
+      </form>
       <div class="flex flex-col mr-3">
         <div class="flex justify-between flex-row flex-wrap">
           <input type="text" name="fullname" placeholder="Full Name"
@@ -1092,7 +1234,7 @@
         </div>
       </div>
     </div>
-  </form>
+  </div>
 
 
 
@@ -1101,7 +1243,7 @@
 
 @section('js')
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="{{ asset('js/jquery-latest.min.js') }}"></script>
     <script>
         $(".card-lists").slice(0, 3).show();
@@ -1113,4 +1255,3 @@
         });
     </script>
 @endsection
-

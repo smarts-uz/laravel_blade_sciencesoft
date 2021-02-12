@@ -25,6 +25,7 @@ class CreateCategoriesTable extends Migration
             $table->string('path_blade')->nullable()->default(null);
             $table->string('link')->nullable()->default(null);
             $table->boolean('active')->default(true);
+            $table->text('description_link')->nullable()->default(null);
             $table->softDeletes();
             $table->timestamps();
         });

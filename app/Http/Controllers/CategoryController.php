@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+
+use App\Models\Consultation;
 use App\DataTables\CategoryDataTable;
 use App\Http\Requests;
 use App\Models\Category;
@@ -99,10 +101,9 @@ class CategoryController extends AppBaseController
     public function show($id)
     {
         $category = $this->categoryRepository->find($id);
-
+  
         if (empty($category)) {
             Flash::error('Category not found');
-
             return redirect(route('categories.index'));
         }
 
