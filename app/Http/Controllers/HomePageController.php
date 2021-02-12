@@ -102,8 +102,9 @@ class HomePageController extends Controller
     }
 
     public function test(){
-        echo "Test merge Bekzod";
+        echo "Test merge Jahongir";
     }
+    //Bekzod changed to Jahongir
 
 
 }
