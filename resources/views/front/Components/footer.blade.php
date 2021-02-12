@@ -6,9 +6,7 @@
   </div>
   <!-- FOOTER -->
   <footer class="footer bg-blue-900 relative px-4 md:px-10  lg:px-16 py-6 ">
-    <div class="">
-      <div class="">
-        <div class=" sm:mt-0 sm:w-full sm:px-8 flex-col md:flex-row flex-wrap  justify-between">
+        <div class=" sm:mt-0 sm:w-full sm:px-8 flex-col md:flex-row flex-wrap justify-between">
           <div class="flex justify-between items-center w-full flex-wrap">
             <div class="flex justify-between w-full items-center flex-wrap">
               <span>
@@ -64,9 +62,6 @@
               All rights reserved.</span>
           </div>
         </div>
-      </div>
-    </div>
   </footer>
 
 <!-- endfooter -->
- 
