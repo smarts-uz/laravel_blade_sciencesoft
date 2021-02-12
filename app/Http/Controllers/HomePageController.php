@@ -102,7 +102,7 @@ class HomePageController extends Controller
     }
 
     public function test(){
-        echo "Test merge";
+        echo "Test merge Bekzod";
     }
 
 
