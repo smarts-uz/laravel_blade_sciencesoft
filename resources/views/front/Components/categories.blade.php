@@ -10,7 +10,7 @@
                     <li class="flex mr-10 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
                         @if(empty($category->path_blade) )
                             <a id="about" class="relative" href="#">
-                                <h1 class="font-bold hover:text-blue-500 border-b-4 border-white hover:border-blue-500 duration-300 py-2 text-black">{{ $category->name }}</h1>
+                                <h1 class="font-bold hover:text-blue-500 border-b-4 border-white hover:border-blue-500 duration-300 py-4 text-black">{{ $category->name }}</h1>
                             <div id="aboutHover" class="hidden duration-500 flex absolute left-0 z-40 top-16 border-t-2 border-b-2 bg-white justify-start py-5 px-10">
                             <div class="w-1/3 px-3">
                                 <h1 class="mb-2 font-bold text-black uppercase">{{ $category->name }}</h1>
