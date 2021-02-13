@@ -1018,30 +1018,23 @@
   <div class="mx-6 sm:mx-16 lg:mx-18 ">
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
-    <hr class="w-10 h-1 bg-yellow-500">
-  </div>
+        <div class='flex flex-row flex-wrap justify-between card-list'>
+            @foreach($cards as $card)
+                <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+                    <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
+                         alt="Sunset in the mountains">
+                    <div class="px-6 py-4">
+                        <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
+                        <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
+                        <p class="text-grey-darker text-base mb-5">
+                            {{ $card->description }}
+                        </p>
+                    </div>
+                </div>
+            @endforeach
 
-
-
-
-  <div class='flex flex-row flex-wrap justify-between'>
-    @foreach($cards as $card)
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
-        <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
-        <p class="text-grey-darker text-base mb-5">
-            {{ $card->description }}
-        </p>
-      </div>
-    </div>
-    @endforeach
-
-    <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
-  </div>
-  <!-- Need a CONSULTATION? -->
+            <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
+        </div>  <!-- Need a CONSULTATION? -->
   </div>
 
   <h1 class="px-16 text-3xl py-12">
@@ -1109,16 +1102,16 @@
 
 
 @section('js')
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-<script src="{{ asset('js/jquery-latest.min.js') }}"></script>
-    <script>
-        $(".card-lists").slice(0, 3).show();
-        $("#loadMore").click('on', function(){
-          $(".card-lists:hidden").slice(0, 3).show();
-            if ($(".card-lists:hidden").length == 0) {
-              $("#loadMore").fadeOut();
-            }
-        });
-    </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+            <script src="{{ asset('js/jquery-latest.min.js') }}"></script>
+            <script>
+                $(".card-lists").slice(0, 3).show();
+                $("#loadMore").click('on', function(){
+                    $(".card-lists:hidden").slice(0, 3).show();
+                    if ($(".card-lists:hidden").length == 0) {
+                        $("#loadMore").fadeOut();
+                    }
+                });
+            </script>
 @endsection

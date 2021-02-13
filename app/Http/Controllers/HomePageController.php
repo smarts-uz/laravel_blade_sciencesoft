@@ -6,7 +6,7 @@ use App\Models\News;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Facades\DB;
-use App\Models\CardList;
+use App\Models\CardLists;
 use Illuminate\Support\Facades\View;
 use App\Models\CompanyTeam;
 use App\Models\Blog;
@@ -19,7 +19,7 @@ class HomePageController extends Controller
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')
             ->get();
-//        $cardlists = CardList::orderBy('id', 'desc')->get();
+//        $cardlists = CardLists::orderBy('id', 'desc')->get();
 //        $lists = Category::with('lists')->get();
 
 //        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists, 'lists' => $lists]);
