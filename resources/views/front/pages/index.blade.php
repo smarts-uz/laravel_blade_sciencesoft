@@ -1012,9 +1012,7 @@
   </h1>
 
 
-  <div class="px-16 py-12 bg-gray-200 text-gray-800">
-    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
-    <div class="flex flex-col lg:flex-row justify-between">
+
   <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
     @csrf
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
