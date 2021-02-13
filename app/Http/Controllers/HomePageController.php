@@ -6,9 +6,9 @@ use App\Models\News;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Facades\DB;
+use App\Models\CardList;
 use Illuminate\Support\Facades\View;
 use App\Models\CompanyTeam;
-use App\Models\CardLists;
 use App\Models\Blog;
 use App\Models\Consultation;
 
@@ -19,6 +19,10 @@ class HomePageController extends Controller
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')
             ->get();
+//        $cardlists = CardList::orderBy('id', 'desc')->get();
+//        $lists = Category::with('lists')->get();
+
+//        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists, 'lists' => $lists]);
         $cards = CardLists::all();
         return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
     }
@@ -47,12 +51,14 @@ class HomePageController extends Controller
         $news = News::all();
         $cards = CardLists::all();
         if(!view()->exists('front.pages.'.$page)){
-            $cards = CardLists::all();
+//            $cards = CardLists::all();
             return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
         }
 
         return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards]);
 
+            $cardlists = CardList::orderBy('id', 'desc')->get();
+            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists]);
     }
     public function getCategoryByName($name, $view)
     {

@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -66,7 +67,7 @@ Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTa
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
 Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
-
+Route::post('/', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

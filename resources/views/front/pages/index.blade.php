@@ -1,7 +1,13 @@
 @extends('front.layout')
 
 @section('css')
+  {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> --}}
 
+  <style>
+    .card-lists{
+      display: none;
+  }
+  </style>
 @endsection
 
 @section('main')
@@ -1043,27 +1049,30 @@
     <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
-  <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
-    @csrf
+
+  <div class="px-16 py-12 bg-gray-200 text-gray-800">
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
     <div class="flex flex-col lg:flex-row justify-between">
-      <div class="flex flex-col mr-3">
-        <div class="flex justify-between flex-row flex-wrap">
-          <input type="text" name="fullname" placeholder="Full Name"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="text" name="company" placeholder="Company"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="email" name="email" placeholder="Work Email"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-          <input type="text" name="phone_number" placeholder="Work Phone"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+      <form  method="POST" action="{{ route('consultation') }}">
+        @csrf
+        <div class="flex flex-col mr-3">
+          <div class="flex justify-between flex-row flex-wrap">
+            <input type="text" name="fullname" placeholder="Full Name"
+              class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+            <input type="text" name="company" placeholder="Company"
+              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
+            <input type="email" name="email" placeholder="Work Email"
+              class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+            <input type="text" name="phone_number" placeholder="Work Phone"
+              class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+          </div>
+          <textarea placeholder="How can we help you?" name="description" cols="3" rows="6"
+            class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" style="margin-right: 0.75rem;"></textarea>
+           <div class="flex justify-center items-center mb-3">
+              <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
+           </div>
         </div>
-        <textarea placeholder="How can we we help you?" cols="3" rows="6"
-          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" name="description" style="margin-right: 0.75rem;"></textarea>
-         <div class="flex justify-center items-center mb-3">
-          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
-         </div>
-      </div>
+      </form>
       <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
         <div class="flex flex-col ">
           <p class="text-xl font-semibold">Our contact details</p>
@@ -1092,7 +1101,7 @@
         </div>
       </div>
     </div>
-  </form>
+  </div>
 
 
 
@@ -1101,7 +1110,7 @@
 
 @section('js')
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 <script src="{{ asset('js/jquery-latest.min.js') }}"></script>
     <script>
         $(".card-lists").slice(0, 3).show();
@@ -1113,4 +1122,3 @@
         });
     </script>
 @endsection
-
