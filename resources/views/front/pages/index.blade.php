@@ -2,16 +2,13 @@
 
 @section('css')
 
-  <style>
-    .card-lists{
-      display: none;
-  }
-  </style>
-  @endsection
+@endsection
 
 @section('main')
 
- <!-- Carousel -->
+
+
+    <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
     DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
@@ -35,7 +32,7 @@
         checked="checked"> --}}
 
       <!--Slide 2-->
-      {{-- <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 2</div> -->
         <div class="block h-full w-full pb-10 text-xl">
@@ -67,15 +64,15 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!--Slide 3-->
-      {{-- <input class="carousel-open" type="radio" id="carousel-3" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-3" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-green-500 text-white text-5xl text-center">Slide 3</div> -->
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Application Services</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">The full set of services around development and maintenance of complex business-critical
             applications. Our experts
@@ -106,15 +103,15 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Slide 4 -->
-      {{-- <input class="carousel-open" type="radio" id="carousel-4" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-4" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <!-- <div class="block h-full w-full bg-red-500 text-white text-5xl text-center">Slide 4</div> -->
         <div class="block h-full w-full text-xl pb-20">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">UX/UI Design</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">User experience and user interface design for all types of websites, SaaS, and
             web/mobile
@@ -146,14 +143,14 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Slide 5 -->
-      {{-- <input class="carousel-open" type="radio" id="carousel-5" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-5" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">Testing & QA</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">We offer full-range QA and testing outsourcing services, can help to develop your QA or
             enhance the existing one, assist
@@ -184,14 +181,14 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Slide 6 -->
-      {{-- <input class="carousel-open" type="radio" id="carousel-6" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-6" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
             <p class="mb-2">IT Consulting</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-1 bg-yellow-500">
           </h1>
           <p class="my-8 text-gray-600">Our experts can help to develop and implement an effective IT strategy, assist in smooth
             digital transformation and
@@ -220,9 +217,9 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Slide 7 -->
-      {{-- <input class="carousel-open" type="radio" id="carousel-7" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-7" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
@@ -259,9 +256,9 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Slide 8 -->
-      {{-- <input class="carousel-open" type="radio" id="carousel-8" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-8" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
@@ -287,9 +284,9 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Slide 9 -->
-      {{-- <input class="carousel-open" type="radio" id="carousel-9" name="carousel" hidden="">
+      <input class="carousel-open" type="radio" id="carousel-9" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
         <div class="block h-full w-full text-xl pb-10">
           <h1 class="text-3xl font-semibold">
@@ -323,7 +320,7 @@
             </li>
           </ul>
         </div>
-      </div> --}}
+      </div>
       <!-- Add additional indicators for each slide-->
       <ol class="carousel-indicators">
         <li class="inline-block mr-3">
@@ -372,7 +369,6 @@
       </h1>
 
 
-      @include('front.pages.category_menu')
     </div>
 
 
@@ -443,7 +439,7 @@
   <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
     <h1 class="text-2xl lg:text-3xl font-semibold">
       <p class="mb-4">Solutions we deliver</p>
-      <hr class="w-10 h-1 bg-pink-600">
+      <hr class="w-10 h-1 bg-yellow-500">
     </h1>
     <p class="text-xs lg:text-xl my-4 lg:my-8">We IT-enable all kinds of B2B, B2C interactions and internal operations.</p>
     <ul class="text-black flex flex-wrap flex-row">
@@ -672,8 +668,6 @@
     <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
-
-  <div class="px-16 py-12 bg-gray-200 text-gray-800">
   <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
     @csrf
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
@@ -723,7 +717,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </form>
 
 
 
@@ -732,7 +726,7 @@
 
 @section('js')
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
 <script src="{{ asset('js/jquery-latest.min.js') }}"></script>
     <script>
         $(".card-lists").slice(0, 3).show();
@@ -744,3 +738,4 @@
         });
     </script>
 @endsection
+

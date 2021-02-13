@@ -26,7 +26,6 @@ class DatabaseSeeder extends Seeder
             ]
         );
 
-
         //3
         $categories=[
             // 17 id = 3 - 20
