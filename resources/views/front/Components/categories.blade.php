@@ -1,4 +1,4 @@
-<div class="md:px-16 lg:px-16 w-full py-1 top-0 left-0 fixed bg-white shadow z-50">
+<div class="md:px-16 lg:px-16 w-full pt-1 top-0 left-0 fixed bg-white shadow z-50">
     <div class="flex justify-between items-center">
       <a href="/">
         <img class="w-32" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="Microsoft ASP.NET">
@@ -29,7 +29,11 @@
                                             @foreach ($subCategory->subCategories as $subSubCategory)
                                                 {{-- <p>{{ $subSubCategory->name }}-{{ $subSubCategory->path_blade }}</p> --}}
 
-                                                <a class="font-normal" href="{{route('getBlade', ['page'=>$subSubCategory->path_blade??'404'])}}"><li class="mt-4 text-black hover:text-blue-700 text-sm">{{ $subSubCategory->name }} </li></a>
+                                                <a class="font-normal" href="{{route('getBlade',
+                                                ['page'=>$subSubCategory->path_blade??'404'])}}">
+                                                    <li class="mt-4 text-black hover:text-blue-700 text-sm  transition
+                                                duration-300 ease-in-out transform hover:translate-x-3">
+                                                <i class="fas fa-asterisk"></i>{{ $subSubCategory->name }} </li></a>
 
 
                                                 {{-- @isset($subCategory->path_blade)

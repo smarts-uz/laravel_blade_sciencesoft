@@ -6,18 +6,24 @@
 
 @section('main')
     <div class="flex flex-wrap py-5 px-32">
-        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">
-            <p class="text-sm font-bold">All Categories</p>
-        </button>
-        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">
-            <p class="text-sm font-bold">Programming</p>
-        </button>
-        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">
-            <p class="text-sm font-bold">CRM</p>
-        </button>
-        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">
-            <p class="text-sm font-bold">Development</p>
-        </button>
+        @foreach($blogs as $blog)
+            @php
+                $blog_categories=json_decode(json_encode($blog->tag), true);
+                $category_tag=(array)$blog_categories['category'][0];
+            @endphp
+            <a href="{{route('getBlogByTag', ['tag_name'=> $category_tag])}}" class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">
+                <p class="text-sm font-bold">{{ $category_tag}}</p>
+            </a>
+        @endforeach
+{{--        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">--}}
+{{--            <p class="text-sm font-bold">Programming</p>--}}
+{{--        </button>--}}
+{{--        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">--}}
+{{--            <p class="text-sm font-bold">CRM</p>--}}
+{{--        </button>--}}
+{{--        <button class="m-1 py-2 px-8 duration-300 focus:outline-none focus:text-white text-blue-500 bg-blue-100 rounded-3xl focus:border-none focus:bg-blue-500">--}}
+{{--            <p class="text-sm font-bold">Development</p>--}}
+{{--        </button>--}}
     </div>
     <div class="flex flex-wrap px-32">
         @foreach($blogs as $blog)
