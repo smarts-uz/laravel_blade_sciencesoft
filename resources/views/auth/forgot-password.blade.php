@@ -4,7 +4,7 @@
 @endsection
 @section('content')
     <div class="card card-primary">
-        <div class="card-header"><h4>Reset Password</h4></div>
+        <div class="card-header"><h4>{{translate_lang("Reset Password")}}</h4></div>
 
         <div class="card-body">
             @if (session('status'))
@@ -24,7 +24,7 @@
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
-                        Send Reset Link
+                        {{translate_lang("Send Reset Link")}}
                     </button>
                 </div>
             </form>
