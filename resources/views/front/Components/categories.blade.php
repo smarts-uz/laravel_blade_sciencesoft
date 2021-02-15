@@ -33,7 +33,10 @@
                                                 ['page'=>$subSubCategory->path_blade??'404'])}}">
                                                     <li class="mt-4 text-black hover:text-blue-700 text-sm  transition
                                                 duration-300 ease-in-out transform hover:translate-x-3">
-                                                <i class="fas fa-asterisk"></i>{{ $subSubCategory->name }} </li></a>
+                                                <img class="h-8 w-8" src="/uploads/categories/{{ $subSubCategory->icon }}" alt="logo">
+                                                {{ $subSubCategory->name }}
+                                            
+                                                </li></a>
 
 
                                                 {{-- @isset($subCategory->path_blade)
