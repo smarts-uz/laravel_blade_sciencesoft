@@ -1,28 +1,30 @@
 @extends('front.layout')
 
 @section('css')
-<link rel="stylesheet" href="{{asset('css/it.css')}}">
+
 @endsection
 
 @section('main')
 
 <div class="mx-6 md:mx-16 lg:mx-24">
+
 <div class="text-2xl md:text-4xl font-bold m-10">
-    Managed IT Services for Stable and Reliably Evolving IT Environment
+    {{ @translate_lang("Managed IT Services for Stable and Reliably Evolving IT Environment")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-sciencesoft.svg">
     <div>
         <p class="font-normal text-lg leading-loose mt-10">
-            Managed IT services are aimed at handing over your IT operations to a third-party IT services provider,
+            {{ @translate_lang("Managed IT services are aimed at handing over your IT operations to a third-party IT services provider,
             which takes responsibility to ensure high efficiency and timely improvement of your IT environment and
-            processes within it.
+            processes within it.")  }}
         </p>
+
         <p class="text-lg font-normal py-6">
-            <strong>Managed IT services by ScienceSoft backed with 12 years of experience in ITSM span the all-round
-                support
-                for cloud, on-premises and hybrid infrastructures</strong> and include consulting and migration
+            <strong>{{ @translate_lang("Managed IT services by ScienceSoft backed with 12 years of experience in ITSM span the all-round
+            support
+            for cloud, on-premises and hybrid infrastructures")  }}</strong> {{ @translate_lang("and include consulting and migration
             services for
-            proactive IT evolution.
+            proactive IT evolution.")  }}
         </p>
 
     </div>
@@ -31,47 +33,47 @@
 <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
     <div class='w-2/3'>
         <h1 class='text-gray-900 mt-6'>
-            <p class='text-2xl font-bold'>Do IT Operations Drain Your Resources? </p>
+            <p class='text-2xl font-bold'>{{ @translate_lang("Do IT Operations Drain Your Resources?")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </h1>
-        <p class='text-gray-600 text-xl'>Let us reverse the situation! From the support of daily operations
-            to the assistance in digital transformation and implementation of novel technology, our IT
-            outsourcing services are a cost-effective way of increasing business performance. </p>
+        <p class='text-gray-600 text-xl'>{{ @translate_lang("Let us reverse the situation! From the support of daily operations
+        to the assistance in digital transformation and implementation of novel technology, our IT
+        outsourcing services are a cost-effective way of increasing business performance.")  }} </p>
     </div>
     <div class='w-2/5 m-0 flex justify-center items-center'>
-        <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>DISCUSS MY
-            OUTSOURCING OPTIONS</a>
+        <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ @translate_lang("DISCUSS MY
+        OUTSOURCING OPTIONS")  }}</a>
     </div>
 </div>
 
 <div class="text-2xl md:text-4xl font-bold m-6">
-    IT Infrastructure Components Our Managed IT Services Tackle
+    {{ @translate_lang("IT Infrastructure Components Our Managed IT Services Tackle")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
 <div class="flex flex-col md:flex-row  items-start ">
     <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
         <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
-            <li class="mb-4 underline text-black"><a href="#">Networks.</a></li>
-            <li class="mb-4">On-premises data centers.</li>
-            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">Cloud services </a>(IaaS, PaaS,
-                SaaS). </li>
-            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">Cybersecurity tools.</a></li>
+            <li class="mb-4 underline text-black"><a href="#">{{ @translate_lang("Networks.")  }}</a></li>
+            <li class="mb-4">{{ @translate_lang("On-premises data centers.")  }}</li>
+            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">{{ @translate_lang("Cloud services")  }} </a>{{ @translate_lang("(IaaS, PaaS,
+            SaaS).")  }} </li>
+            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">{{ @translate_lang("Cybersecurity tools.")  }}</a></li>
             <li>
-                Databases, <a class="underline hover:text-blue-500" href="#">data warehouses,</a> data lakes.
+                {{ @translate_lang("Databases,")  }} <a class="underline hover:text-blue-500" href="#">{{ @translate_lang("data warehouses,")  }}</a> {{ @translate_lang("data lakes.")  }}
             </li>
         </ul>
     </div>
     <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
         <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
-            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">Applications and app
-                    infrastructures.</a></li>
-            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">Development infrastructures</a>
-                (CI/CD, development and testing environments).</li>
-            <li class="mb-4">76% of our revenue comes from 1+ year-long customers, such as eBay, IBM,
-                Websites and web portals.
+            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">{{ @translate_lang("Applications and app
+            infrastructures.")  }}</a></li>
+            <li class="mb-4"><a class="underline hover:text-blue-500" href="#">{{ @translate_lang("Development infrastructures")  }}</a>
+                {{ @translate_lang("(CI/CD, development and testing environments).")  }}</li>
+            <li class="mb-4">76% {{ @translate_lang("of our revenue comes from 1+ year-long customers, such as eBay, IBM,
+            Websites and web portals.")  }}
             </li>
-            <li class="mb-4">Desktops.</li>
+            <li class="mb-4">{{ @translate_lang("Desktops.")  }}</li>
         </ul>
     </div>
 </div>
@@ -82,7 +84,7 @@
 </div>
 
 <div class="text-2xl md:text-3xl font-bold mx-8">
-    Deliverables of ScienceSoft’s Managed IT Services
+    {{ @translate_lang("Deliverables of ScienceSoft’s Managed IT Services")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
@@ -90,23 +92,23 @@
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">Increased IT services and infrastructure
-                efficiency supported by: </p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("Increased IT services and infrastructure
+            efficiency supported by:")  }} </p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
                 <li>
-                    Network diagrams
+                    {{ @translate_lang("Network diagrams")  }}
                 </li>
                 <li>
-                    Architecture descriptions
+                    {{ @translate_lang("Architecture descriptions")  }}
                 </li>
                 <li>
-                    Configuration management database
+                    {{ @translate_lang("Configuration management database")  }}
                 </li>
                 <li>
-                    Implementation plan for infrastructure improvements
+                    {{ @translate_lang("Implementation plan for infrastructure improvements")  }}
                 </li>
                 <li>
-                    Documented operating procedures
+                    {{ @translate_lang("Documented operating procedures")  }}
                 </li>
             </ul>
         </div>
@@ -114,22 +116,22 @@
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">Transparent service:</p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("Transparent service:")  }}</p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
                 <li>
-                    Regular service reports
+                    {{ @translate_lang("Regular service reports")  }}
                 </li>
                 <li>
-                    Quarterly maintenance reports (performance, security, capacity, issues, patching, backups)
+                    {{ @translate_lang("Quarterly maintenance reports (performance, security, capacity, issues, patching, backups)")  }}
                 </li>
                 <li>
-                    Health check reports
+                    {{ @translate_lang("Health check reports")  }}
                 </li>
                 <li>
-                    Security audit reports
+                    {{ @translate_lang("Security audit reports")  }}
                 </li>
                 <li>
-                    Incident reports
+                    {{ @translate_lang("Incident reports")  }}
                 </li>
             </ul>
         </div>
@@ -138,14 +140,14 @@
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">CSAT and user adoption rate improvement
-                via: </p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("CSAT and user adoption rate improvement
+            via:")  }} </p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
 
                 <li>
-                    Surveys and action points based on the assessment results </li>
+                    {{ @translate_lang("Surveys and action points based on the assessment results")  }} </li>
                 <li>
-                    Training materials for users </li>
+                    {{ @translate_lang("Training materials for users")  }} </li>
             </ul>
         </div>
     </div>
@@ -156,59 +158,59 @@
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">Compliance with industry standards:
-                via: </p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("Compliance with industry standards:
+            via:")  }} </p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
 
                 <li>
-                    Regulatory compliance reports </li>
+                    {{ @translate_lang("Regulatory compliance reports")  }} </li>
             </ul>
         </div>
     </div>
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">Cost-effective user support with:
-                via: </p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("Cost-effective user support with:
+            via:")  }} </p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
 
                 <li>
-                    Knowledge base articles </li>
+                    {{ @translate_lang("Knowledge base articles")  }} </li>
                 <li>
-                    FAQ </li>
+                    {{ @translate_lang("FAQ")  }} </li>
                 <li>
-                    User guides
+                    {{ @translate_lang("User guides")  }}
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class='w-2/5 m-0 flex justify-center items-center'>
-    <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>REQUEST MANAGED IT
-        SERVICES</a>
+    <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ @translate_lang("REQUEST MANAGED IT
+    SERVICES")  }}</a>
 </div>
 
 <div class="text-2xl md:text-4xl font-bold m-10">
-    Why Choose ScienceSoft
+    {{ @translate_lang("Why Choose ScienceSoft")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <ul class="font-normal list-outside list-disc bg-rose-200 text-lg leading-relaxed m-4">
 
         <li>
-            31 years in IT services.
+            31 {{ @translate_lang("years in IT services.")  }}
         </li>
         <li>
-            12 years of experience in ITSM
+            12 {{ @translate_lang("years of experience in ITSM")  }}
         </li>
         <li>
-            ITIL personnel holding ITSM-related certificates.
+            {{ @translate_lang("ITIL personnel holding ITSM-related certificates.")  }}
         </li>
         <li>
-            More than 7 years in applying DevOps practices.
+            {{ @translate_lang("More than 7 years in applying DevOps practices.")  }}
         </li>
         <li>
-            More than 700 IT specialists including Microsoft Certified Professionals, AWS Certified Solutions
+            {{ @translate_lang("More than 700 IT specialists including Microsoft Certified Professionals, AWS Certified Solutions
             Architects, AWS Certified SysOps Administrators, AWS Technical Professionals, Red Hat Certified System
-            Administrators.
+            Administrators.")  }}
         </li>
     </ul>
 </div>
@@ -227,19 +229,16 @@
 </div>
 
 <div class="text-2xl md:text-3xl font-bold mt-20">
-    Technologies We Work with
+    {{ @translate_lang("Technologies We Work with")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
 =============davomi bor===============
 
-
-
 <div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
-    Your Questions about Managed Services Answered
+    {{ @translate_lang("Your Questions about Managed Services Answered")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
-
 
 <div class="rounded-sm relative mt-10 transition-shadow p-2 md:p-8">
     <div class="flex flex-col md:flex-row items-start ">
@@ -247,12 +246,12 @@
             <img class="w-14" src="https://www.scnsoft.com/managed-it-services/managed-new/question.svg" alt="">
         </div>
         <div class=" flex flex-col w-5/6 ">
-            <h1 class="text-xl md:text-2xl font-bold">How do I know if my IT infrastructure costs may be reduced?
+            <h1 class="text-xl md:text-2xl font-bold">{{ @translate_lang("How do I know if my IT infrastructure costs may be reduced?")  }}
             </h1>
             <p class=" text-lg md:text-xl ">
-                ScienceSoft adheres to strict security policies and applies in-house security management systems
+                {{ @translate_lang("ScienceSoft adheres to strict security policies and applies in-house security management systems
                 ensuring 24/7 security monitoring to prevent unsolicited access and ransomware threats to sensitive
-                data.
+                data.")  }}
             </p>
 
         </div>
@@ -264,13 +263,13 @@
             <img class="w-14" src="https://www.scnsoft.com/managed-it-services/managed-new/question.svg" alt="">
         </div>
         <div class=" flex flex-col w-5/6">
-            <h1 class="text-xl md:text-2xl font-bold">How can a managed service provider guarantee against premature
-                service termination?
+            <h1 class="text-xl md:text-2xl font-bold">{{ @translate_lang("How can a managed service provider guarantee against premature
+            service termination?")  }}
             </h1>
             <p class=" text-lg md:text-xl ">
-                Our contracts provide for a substantial transition period so that no potential abrupt termination
+                {{ @translate_lang("Our contracts provide for a substantial transition period so that no potential abrupt termination
                 may occur. As a rule, we deliver managed services to customers for several years, 10+ years in some
-                cases.
+                cases.")  }}
             </p>
 
         </div>
@@ -282,11 +281,11 @@
             <img class="w-14" src="https://www.scnsoft.com/managed-it-services/managed-new/question.svg" alt="">
         </div>
         <div class=" flex flex-col w-5/6">
-            <h1 class="text-xl md:text-2xl font-bold">How do I know if my IT infrastructure costs may be reduced?
+            <h1 class="text-xl md:text-2xl font-bold">{{ @translate_lang("How do I know if my IT infrastructure costs may be reduced?")  }}
             </h1>
             <p class=" text-lg md:text-xl ">
-                We analyze the current state of your IT infrastructure to see the potential for its improvement and
-                compare the TCO of your IT infrastructure managed in-house vs. by ScienceSoft.
+                {{ @translate_lang("We analyze the current state of your IT infrastructure to see the potential for its improvement and
+                compare the TCO of your IT infrastructure managed in-house vs. by ScienceSoft.")  }}
             </p>
 
         </div>
@@ -295,14 +294,14 @@
 </div>
 
 <div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
-    See Our Managed Services Delivered!
+    {{ @translate_lang("See Our Managed Services Delivered!")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
 ================davomi bor Carousel=================
 
 <div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
-    Our Service Packages
+    {{ @translate_lang("Our Service Packages")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
@@ -310,61 +309,61 @@
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">Basic</p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("Basic")  }}</p>
             <p>
-                Get your infrastructure <strong>continuously supported and optimized:</strong>
+                {{ @translate_lang("Get your infrastructure <strong>continuously supported and optimized:")  }}</strong>
             </p>
             <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
                 <li class="my-2">
-                    <a class="underline text-black hover:text-blue-500" href="#">Proactive infrastructure
-                        monitoring</a>
+                    <a class="underline text-black hover:text-blue-500" href="#">{{ @translate_lang("Proactive infrastructure
+                    monitoring")  }}</a>
                 </li>
                 <li class="my-2">
-                    <a class="underline text-black" href="#">IT infrastructure administration: </a>
+                    <a class="underline text-black" href="#">{{ @translate_lang("IT infrastructure administration:")  }} </a>
                 </li>
                 <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-2">
                     <li>
-                        User administration
+                        {{ @translate_lang("User administration")  }}
                     </li>
                     <li>
-                        Regular software configuration and updates
+                        {{ @translate_lang("Regular software configuration and updates")  }}
                     </li>
                     <li>
-                        Network, data center, cloud service management
+                        {{ @translate_lang("Network, data center, cloud service management")  }}
                     </li>
                 </ul>
                 <li class="my-2">
-                    <a class="underline text-black hover:text-blue-500" href="#">L1, L2, L3 support</a>
+                    <a class="underline text-black hover:text-blue-500" href="#">{{ @translate_lang("L1, L2, L3 support")  }}</a>
                 </li>
                 <li class="my-2">
-                    Cloud usage optimization
+                    {{ @translate_lang("Cloud usage optimization")  }}
                 </li>
             </ul>
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 100% of it")  }}</button>
 
         </div>
     </div>
     <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">Extended</p>
-            <p>Includes the <strong>Basic package and assistance with new infrastructure initiatives:</strong></p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ @translate_lang("Extended")  }}</p>
+            <p>{{ @translate_lang("Includes the <strong>Basic package and assistance with new infrastructure initiatives:")  }}</strong></p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
                 <li>
-                    Analyzing problems in IT infrastructure and providing recommendations
+                    {{ @translate_lang("Analyzing problems in IT infrastructure and providing recommendations")  }}
                 </li>
                 <li>
-                    Designing a new IT infrastructure or its components
+                    {{ @translate_lang("Designing a new IT infrastructure or its components")  }}
                 </li>
                 <li>
-                    <a class="underline text-black hover:text-blue-500" href="#">Designing CI/CD pipelines</a>
+                    <a class="underline text-black hover:text-blue-500" href="#">{{ @translate_lang("Designing CI/CD pipelines")  }}</a>
                 </li>
                 <li>
-                    Advising on security improvement using the SecOps approach
+                    {{ @translate_lang("Advising on security improvement using the SecOps approach")  }}
                 </li>
             </ul>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 100% of it")  }}</button>
         </div>
 
     </div>
@@ -373,36 +372,36 @@
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
-                Extended Plus
+                {{ @translate_lang("Extended Plus")  }}
             </p>
             <p>
-                Includes the <strong>Extended package and modernization of your IT</strong> infrastructure:
+                {{ @translate_lang("Includes the")  }} <strong>{{ @translate_lang("Extended package and modernization of your IT")  }}</strong> {{ @translate_lang("infrastructure:")  }}
             </p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
 
                 <li>
-                    Application and data warehouse migration to cloud
+                    {{ @translate_lang("Application and data warehouse migration to cloud")  }}
                 </li>
                 <li>
-                    Integration of cloud and on-premises apps
+                    {{ @translate_lang("Integration of cloud and on-premises apps")  }}
                 </li>
                 <li>
-                    Infrastructure and app evolution:
+                    {{ @translate_lang("Infrastructure and app evolution:")  }}
                 </li>
                 <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed mx-2 ">
                     <li>
-                        Introduction of minor fixes and major updates
+                        {{ @translate_lang("Introduction of minor fixes and major updates")  }}
                     </li>
                     <li>
-                        Customizations and integrations with SaaS products
+                        {{ @translate_lang("Customizations and integrations with SaaS products")  }}
                     </li>
                     <li>
-                        App delivery automaion
+                        {{ @translate_lang("App delivery automaion")  }}
                     </li>
                 </ul>
 
             </ul>
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 100% of it")  }}</button>
 
         </div>
     </div>
@@ -410,365 +409,45 @@
 </div>
 
 <div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
-    How much will it cost?
+    {{ @translate_lang("How much will it cost?")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <p class="text-xl font-normal">
-        We provide customizable packages of managed IT services (a client can choose any components and services)
+        {{ @translate_lang("We provide customizable packages of managed IT services (a client can choose any components and services)
         with
-        flexible pricing.​​ The subscription fee for managed IT services is affected by the following factors:
+        flexible pricing.​​ The subscription fee for managed IT services is affected by the following factors:")  }}
     </p>
     <ul class="list-outside list-disc bg-rose-200 font-normal leading-relaxed m-6 text-xl ">
         <li>
-            IT infrastructure type (cloud, on-premises).
+            {{ @translate_lang("IT infrastructure type (cloud, on-premises).")  }}
         </li>
         <li>
-            IT infrastructure complexity.
+            {{ @translate_lang("IT infrastructure complexity.")  }}
         </li>
         <li>
-            Scope of infrastructure projects.
+            {{ @translate_lang("Scope of infrastructure projects.")  }}
         </li>
         <li>
-            Support package (time coverage, number of issues included).
+            {{ @translate_lang("Support package (time coverage, number of issues included).")  }}
         </li>
         <li>
-            SLO (target KPIs).
+            {{ @translate_lang("SLO (target KPIs).")  }}
         </li>
     </ul>
     <p class="font-normal text-xl">
-        We will be pleased to provide an estimate for you.
+        {{ @translate_lang("We will be pleased to provide an estimate for you.")  }}
     </p>
 </div>
 <div class='w-2/5 m-4 flex justify-start items-center'>
-    <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>get a quote</a>
+    <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ @translate_lang("get a quote")  }}</a>
 </div>
-
-
-
-<div class="container mx-auto">
-    <p class="font-normal md:font-bold text-4xl ">ENCOUNTER ANY OF THE IT ISSUES BELOW? SEE HOW WE CURE THEM!</p>
-    <div class="w-12 h-0.5 bg-yellow-400 mt-3"></div>
-    <div class="flex flex-wrap mt-9">
-        <div class="ml-12">
-            <div class="card border-collapse  middle ">
-                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
-                    <div class="flex">
-                        <div>
-                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
-                        </div>
-                    </div>
-
-                    <p class="text-xl mt-9">
-                        High infrastructure-related costs
-                    </p>
-                    <div class="flex mt-10 float-right">
-                        <div>
-                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
-                        </div>
-                        <div class="ml-5 mt-12 mr-3.5 text-xl">
-                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
-                    <div class="back-content middle">
-                        <div class="flex">
-                            <div>
-                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
-                            </div>
-                        </div>
-
-                        <p class="text-xl mt-9 text-gray-100">
-                            Optimal utilization of IT resources and plugging into mature ITSM processes
-                        </p>
-                        <div class=" mt-10 float-right">
-
-                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
-                                <img src="images/white-right.svg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ml-12">
-            <div class="card border-collapse  middle ">
-                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
-                    <div class="flex">
-                        <div>
-                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
-                        </div>
-                    </div>
-
-                    <p class="text-xl mt-9">
-                        High infrastructure-related costs
-                    </p>
-                    <div class="flex mt-10 float-right">
-                        <div>
-                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
-                        </div>
-                        <div class="ml-5 mt-12 mr-3.5 text-xl">
-                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
-                    <div class="back-content middle">
-                        <div class="flex">
-                            <div>
-                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
-                            </div>
-                        </div>
-
-                        <p class="text-xl mt-9 text-gray-100">
-                            Optimal utilization of IT resources and plugging into mature ITSM processes
-                        </p>
-                        <div class=" mt-10 float-right">
-
-                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
-                                <img src="images/white-right.svg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ml-12">
-            <div class="card border-collapse  middle ">
-                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
-                    <div class="flex">
-                        <div>
-                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
-                        </div>
-                    </div>
-
-                    <p class="text-xl mt-9">
-                        High infrastructure-related costs
-                    </p>
-                    <div class="flex mt-10 float-right">
-                        <div>
-                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
-                        </div>
-                        <div class="ml-5 mt-12 mr-3.5 text-xl">
-                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
-                    <div class="back-content middle">
-                        <div class="flex">
-                            <div>
-                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
-                            </div>
-                        </div>
-
-                        <p class="text-xl mt-9 text-gray-100">
-                            Optimal utilization of IT resources and plugging into mature ITSM processes
-                        </p>
-                        <div class=" mt-10 float-right">
-
-                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
-                                <img src="images/white-right.svg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ml-12 dis-no">
-            <div class="card border-collapse  middle ">
-                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
-                    <div class="flex">
-                        <div>
-                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
-                        </div>
-                    </div>
-
-                    <p class="text-xl mt-9">
-                        High infrastructure-related costs
-                    </p>
-                    <div class="flex mt-10 float-right">
-                        <div>
-                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
-                        </div>
-                        <div class="ml-5 mt-12 mr-3.5 text-xl">
-                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
-                    <div class="back-content middle">
-                        <div class="flex">
-                            <div>
-                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
-                            </div>
-                        </div>
-
-                        <p class="text-xl mt-9 text-gray-100">
-                            Optimal utilization of IT resources and plugging into mature ITSM processes
-                        </p>
-                        <div class=" mt-10 float-right">
-
-                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
-                                <img src="images/white-right.svg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="flex flex-wrap mt-9-card mb-52 mt-9">
-        <div class="ml-12">
-            <div class="card border-collapse  middle ">
-                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
-                    <div class="flex">
-                        <div>
-                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
-                        </div>
-                    </div>
-
-                    <p class="text-xl mt-9">
-                        High infrastructure-related costs
-                    </p>
-                    <div class="flex mt-10 float-right">
-                        <div>
-                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
-                        </div>
-                        <div class="ml-5 mt-12 mr-3.5 text-xl">
-                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
-                    <div class="back-content middle">
-                        <div class="flex">
-                            <div>
-                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
-                            </div>
-                        </div>
-
-                        <p class="text-xl mt-9 text-gray-100">
-                            Optimal utilization of IT resources and plugging into mature ITSM processes
-                        </p>
-                        <div class=" mt-10 float-right">
-
-                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
-                                <img src="images/white-right.svg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="ml-12 dis-block">
-            <div class="card border-collapse  middle ">
-                <div class="front pb-3 pt-3 pl-3 pr-3 border border-gray-900">
-                    <div class="flex">
-                        <div>
-                            <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal.svg" alt="">
-                        </div>
-                        <div>
-                            <p class="ml-3.5 text-red-600 font-medium text-xl mt-1.5">ISSUE</p>
-                        </div>
-                    </div>
-
-                    <p class="text-xl mt-9">
-                        High infrastructure-related costs
-                    </p>
-                    <div class="flex mt-10 float-right">
-                        <div>
-                            <p class="ml-5.5 text-blue-600  text-xl mt-9">Turn around</p>
-                        </div>
-                        <div class="ml-5 mt-12 mr-3.5 text-xl">
-                            <img src="https://www.scnsoft.com/bundles/app/img/undo-copy.svg" alt="">
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="back pb-3 pt-3 pl-3 pr-3 bg-blue-600">
-                    <div class="back-content middle">
-                        <div class="flex">
-                            <div>
-                                <img class="w-12 p-0" src="https://www.scnsoft.com/bundles/app/img/goal-2.svg" alt="">
-                            </div>
-                            <div>
-                                <p class="ml-3.5 text-gray-100 font-medium text-xl mt-1.5">FIXED</p>
-                            </div>
-                        </div>
-
-                        <p class="text-xl mt-9 text-gray-100">
-                            Optimal utilization of IT resources and plugging into mature ITSM processes
-                        </p>
-                        <div class=" mt-10 float-right">
-
-                            <div class="ml-5 mt-3.5 mr-3.5 text-xl">
-                                <img src="images/white-right.svg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
 
 <div class=" mx-auto w-full">
     <div class="text-2xl md:text-3xl font-bold mt-20 mx-10">
-        What Managed IT Services Bring to Our Customers
+        {{ @translate_lang("What Managed IT Services Bring to Our Customers")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         <p class="font-normal text-xl">
-            Opting for a managed services provider who will maintain and proactively improve your IT infrastructure
-            is a reasonable step to get tangible gains sooner. Let the numbers speak:
+            {{ @translate_lang("Opting for a managed services provider who will maintain and proactively improve your IT infrastructure
+            is a reasonable step to get tangible gains sooner. Let the numbers speak:")  }}
         </p>
     </div>
     <div class="w-full sm:flex sm:flex-row justify-start flex flex-col my-10 font-bold ">
@@ -777,54 +456,43 @@
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
                 -50%
             </p><br>
-            <p class="pl-2 mx-auto font-normal">infrastructure support costs</p>
+            <p class="pl-2 mx-auto font-normal">{{ @translate_lang("infrastructure support costs")  }}</p>
         </div>
         <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
                 x1.5-3
             </p><br>
-            <p class="pl-2 mx-auto font-normal">increase in software development speed</p>
+            <p class="pl-2 mx-auto font-normal">{{ @translate_lang("increase in software development speed")  }}</p>
         </div>
         <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex justify-center flex-col hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
                 100%
             </p><br>
-            <p class="pl-2 mx-auto font-normal">regulatory compliance of the IT infrastructure
+            <p class="pl-2 mx-auto font-normal">{{ @translate_lang("regulatory compliance of the IT infrastructure")  }}
             </p>
         </div>
 
     </div>
 </div>
 
-
 <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
     <div class='w-2/3'>
         <h1 class='text-gray-900 mt-6'>
-            <p class='text-2xl font-bold'>Start Improving Your IT Infrastructure NOW! </p>
+            <p class='text-2xl font-bold'>{{ @translate_lang("Start Improving Your IT Infrastructure NOW!")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </h1>
-        <p class='text-gray-600 text-xl'> ScienceSoft’s professionals will keep your IT infrastructure reliable and
-            highly efficient 24/7 to let you focus on the strategic decisions only. </p>
+        <p class='text-gray-600 text-xl'> {{ @translate_lang("ScienceSoft’s professionals will keep your IT infrastructure reliable and
+        highly efficient 24/7 to let you focus on the strategic decisions only.")  }} </p>
     </div>
     <div class='w-2/5 m-0 flex justify-center items-center'>
-        <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>MAKE IT INFRASTRUCTURE EFFICIENT</a>
+        <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ @translate_lang("MAKE IT INFRASTRUCTURE EFFICIENT")  }}</a>
     </div>
 </div>
 </div>
 
-<link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
-    />
-    <link rel="stylesheet" href="./it.css">
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-    <script>
-      new Splide(".splide").mount();
-    </script>
 @endsection
-
 
 @section('js')
 <script>
@@ -865,6 +533,5 @@
         });
     });
 </script>
-
 
 @endsection

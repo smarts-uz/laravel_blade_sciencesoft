@@ -21,4 +21,3 @@
     {!! Form::label('description', 'Description:') !!}
     <p>{{ $news->description }}</p>
 </div>
-

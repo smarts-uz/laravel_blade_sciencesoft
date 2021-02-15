@@ -28,11 +28,11 @@
                     </div>
                     <div class="col-lg-9">
                         <select class="form-control aiz-selectpicker mb-2 mb-md-0" name="code" data-live-search="true" >
-                            <option value="uz" data-content="<span>Uz</span></div>">Uz</option>
-                                <option value="ru" data-content="<span>Ru</span></div>">Ru</option>
-                                <option value="en" data-content="<span>En</span></div>">En</option>
+                            <option value="uz" data-content="<span>Uz</span></div>">{{ @translate_lang("Uz")  }}</option>
+                                <option value="ru" data-content="<span>Ru</span></div>">{{ @translate_lang("Ru")  }}</option>
+                                <option value="en" data-content="<span>En</span></div>">{{ @translate_lang("En")  }}</option>
                             {{-- @foreach(\File::files(base_path('public/assets/img/flags')) as $path)
-                                <option value="{{ pathinfo($path)['filename'] }}" @if($language->code == pathinfo($path)['filename']) selected @endif data-content="<div class=''><img src='{{ static_asset('assets/img/flags/'.pathinfo($path)['filename'].'.png') }}' class='mr-2'><span>{{ strtoupper(pathinfo($path)['filename']) }}</span></div>"></option>
+                                <option value="{{ pathinfo($path)['filename'] }}" @if($language->code == pathinfo($path)['filename']) {{ @translate_lang("selected")  }} @endif data-content="<div class=''><img src='{{ static_asset('assets/img/flags/'.pathinfo($path)['filename'].'.png') }}' class='mr-2'><span>{{ strtoupper(pathinfo($path)['filename']) }}</span></div>"></option>
                             @endforeach --}}
                         </select>
                     </div>

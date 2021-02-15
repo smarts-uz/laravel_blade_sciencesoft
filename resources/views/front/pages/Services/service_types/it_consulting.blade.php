@@ -6,25 +6,23 @@
 
 @section('main')
 
-
 <div class="mx-6 md:mx-16 lg:mx-24 my-10">
       <div class="text-2xl md:text-3xl font-bold">
-        Information Technology Consulting
+        {{ @translate_lang("Information Technology Consulting")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
       <p class="text-2xl">
-        With IT consulting services, you revamp your IT environment to make it go in hand with your business needs.
-        Leveraging 31-year experience in IT, ScienceSoft offers consultancy on holistic, fast, and cost-effective
-        optimization of IT systems and processes to ensure tangible business outcomes.
+        {{ @translate_lang("With IT consulting services, you revamp your IT environment to make it go in hand with your business needs.
+         Leveraging 31-year experience in IT, ScienceSoft offers consultancy on holistic, fast, and cost-effective
+         optimization of IT systems and processes to ensure tangible business outcomes.")  }}
       </p>
       <div class="text-2xl md:text-3xl font-bold">
-        Choose your option
+        {{ @translate_lang("Choose your option")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
-
       <div class="text-2xl md:text-3xl font-bold">
-        CHOOSE YOUR SERVICE OPTION
+        {{ @translate_lang("CHOOSE YOUR SERVICE OPTION")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -32,45 +30,45 @@
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
-            <p class="mb-3">Drawing on your needs, we can suggest either an offshore dedicated team or team
-              augmentation model of cooperation to back up your .NET development project or migration of
-              legacy software to .NET. We offer pre-vetted developers, which match your requirements –
-              you’re free to screen them before the start of cooperation.</p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Full-service IT outsourcing")  }}</p>
+            <p class="mb-3">{{ @translate_lang("Drawing on your needs, we can suggest either an offshore dedicated team or team
+             augmentation model of cooperation to back up your .NET development project or migration of
+             legacy software to .NET. We offer pre-vetted developers, which match your requirements –
+             you’re free to screen them before the start of cooperation.")  }}</p>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 100% of it")  }}</button>
           </div>
         </div>
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Co-sourcing with an in-house IT team
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Co-sourcing with an in-house IT team")  }}
             </p>
-            <p class="mb-3">Outsource your entire IT landscape, including IT service planning and
-              management, to achieve greater business performance with IT ROI boosted by 50-300%.</p>
+            <p class="mb-3">{{ @translate_lang("Outsource your entire IT landscape, including IT service planning and
+             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
             <p>
-              We can also act as a service integrator taking up the management of your IT vendor
-              ecosystem.
+              {{ @translate_lang("We can also act as a service integrator taking up the management of your IT vendor
+               ecosystem.")  }}
             </p>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 70%-90% of
-              it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 70%-90% of
+             it")  }}</button>
           </div>
         </div>
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Co-sourcing with an in-house IT team
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Co-sourcing with an in-house IT team")  }}
             </p>
-            <p class="mb-3">Outsource your entire IT landscape, including IT service planning and
-              management, to achieve greater business performance with IT ROI boosted by 50-300%.</p>
+            <p class="mb-3">{{ @translate_lang("Outsource your entire IT landscape, including IT service planning and
+             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
             <p>
-              We can also act as a service integrator taking up the management of your IT vendor
-              ecosystem.
+              {{ @translate_lang("We can also act as a service integrator taking up the management of your IT vendor
+               ecosystem.")  }}
             </p>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 70%-90% of
-              it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 70%-90% of
+             it")  }}</button>
           </div>
         </div>
       </div>
@@ -79,44 +77,43 @@
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Full-service IT outsourcing</p>
-            <p class="mb-3">Drawing on your needs, we can suggest either an offshore dedicated team or team
-              augmentation model of cooperation to back up your .NET development project or migration of
-              legacy software to .NET. We offer pre-vetted developers, which match your requirements –
-              you’re free to screen them before the start of cooperation.</p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Full-service IT outsourcing")  }}</p>
+            <p class="mb-3">{{ @translate_lang("Drawing on your needs, we can suggest either an offshore dedicated team or team
+             augmentation model of cooperation to back up your .NET development project or migration of
+             legacy software to .NET. We offer pre-vetted developers, which match your requirements –
+             you’re free to screen them before the start of cooperation.")  }}</p>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 100% of it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 100% of it")  }}</button>
           </div>
         </div>
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Co-sourcing with an in-house IT team
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Co-sourcing with an in-house IT team")  }}
             </p>
-            <p class="mb-3">Outsource your entire IT landscape, including IT service planning and
-              management, to achieve greater business performance with IT ROI boosted by 50-300%.</p>
+            <p class="mb-3">{{ @translate_lang("Outsource your entire IT landscape, including IT service planning and
+             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
             <p>
-              We can also act as a service integrator taking up the management of your IT vendor
-              ecosystem.
+              {{ @translate_lang("We can also act as a service integrator taking up the management of your IT vendor
+               ecosystem.")  }}
             </p>
 
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">Outsource 70%-90% of
-              it</button>
+            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ @translate_lang("Outsource 70%-90% of
+             it")  }}</button>
           </div>
         </div>
 
       </div>
 
       <div class="text-2xl md:text-3xl font-bold">
-        Dedicated consulting services
+        {{ @translate_lang("Dedicated consulting services")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
       ============Ishi bor==============
 
-
       <div class="text-2xl md:text-3xl font-bold">
-        SCIENCESOFT’S APPROACH TO IT CONSULTING
+        {{ @translate_lang("SCIENCESOFT’S APPROACH TO IT CONSULTING")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -124,20 +121,20 @@
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/3 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Doing IT right</p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Doing IT right")  }}</p>
             <P>
-              We optimize IT services to make them more reliable and cost-effective and help introduce new IT services
-              fast.
+              {{ @translate_lang("We optimize IT services to make them more reliable and cost-effective and help introduce new IT services
+               fast.")  }}
             </P>
           </div>
         </div>
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/3 h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">Doing the right IT
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ @translate_lang("Doing the right IT")  }}
             </p>
-            <p class="mb-3">Outsource your entire IT landscape, including IT service planning and
-              management, to achieve greater business performance with IT ROI boosted by 50-300%.</p>
+            <p class="mb-3">{{ @translate_lang("Outsource your entire IT landscape, including IT service planning and
+             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
           </div>
         </div>
 
@@ -150,19 +147,19 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
           </div>
           <div class=" flex flex-col w-3/5">
-            <h1 class="text-2xl md:text-3xl font-bold">Nikolay Kurayev, CEO at ScienceSoft </h1>
+            <h1 class="text-2xl md:text-3xl font-bold">{{ @translate_lang("Nikolay Kurayev, CEO at ScienceSoft")  }} </h1>
             <hr class="w-12 border-yellow-600 text-gray-800 my-4">
             <div class="text-xl">
               <p class="my-10">
-                "When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
+                {{ @translate_lang(""When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
                 their budget but constantly underperforms. And they do not see business growth possible
-                without profound IT changes that they simply cannot accomplish internally.
+                without profound IT changes that they simply cannot accomplish internally.")  }}
               </p>
               <p>
-                Indeed, it’s not easy to connect IT with the business, but it becomes possible by
+                {{ @translate_lang("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                 applying deep tech expertise with the focus on cost-effectiveness and unlocking new
                 revenue streams. And this is exactly what ScienceSoft does. By doing the right IT and
-                doing IT right, ScienceSoft helps companies make their IT a business growth enabler."
+                doing IT right, ScienceSoft helps companies make their IT a business growth enabler."")  }}
               </p>
             </div>
           </div>
@@ -170,36 +167,33 @@
       </div>
 
       <div class="text-2xl md:text-3xl font-bold">
-        INDUSTRIES WE SERVE
+        {{ @translate_lang("INDUSTRIES WE SERVE")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
       <p class="text-xl">
-        We have expertise in 23 domains, including experience in information technology consulting for:
+        {{ @translate_lang("We have expertise in 23 domains, including experience in information technology consulting for:")  }}
       </p>
 
-
       ==================ishi bor==================
-
-
 
       <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
         <div class='w-2/3'>
           <h1 class='text-gray-900 mt-6'>
-            <p class='text-2xl font-bold'>Measure IT Outsourcing Value for Your Business </p>
+            <p class='text-2xl font-bold'>{{ @translate_lang("Measure IT Outsourcing Value for Your Business")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
           </h1>
-          <p class='text-gray-600 text-xl'>Our team can conduct an IT outsourcing feasibility analysis to
-            calculate the financial benefits of an outsourcing engagement for your particular case. </p>
+          <p class='text-gray-600 text-xl'>{{ @translate_lang("Our team can conduct an IT outsourcing feasibility analysis to
+           calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
         </div>
         <div class='w-1/3 m-0 flex justify-center items-center'>
-          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>Request a
-            Feasibility analysis</a>
+          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ @translate_lang("Request a
+           Feasibility analysis")  }}</a>
         </div>
       </div>
 
       <div class="text-2xl md:text-3xl font-bold">
-        BENEFITS OF IT CONSULTING WITH SCIENCESOFT
+        {{ @translate_lang("BENEFITS OF IT CONSULTING WITH SCIENCESOFT")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -210,16 +204,15 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/end-to-end-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">More than just consultants</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ @translate_lang("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
-              end-to-end IT services: implementation, support, managed services.
+              {{ @translate_lang("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
         </div>
       </div>
-
 
       <div class="rounded-sm p-2 md:p-8">
         <div class="flex flex-col md:flex-row  items-start">
@@ -228,16 +221,15 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/speed-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">More than just consultants</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ @translate_lang("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
-              end-to-end IT services: implementation, support, managed services.
+              {{ @translate_lang("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
         </div>
       </div>
-
 
       <div class="rounded-sm p-2 md:p-8">
         <div class="flex flex-col md:flex-row  items-start">
@@ -246,28 +238,28 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/cost-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">More than just consultants</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ @translate_lang("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
-              end-to-end IT services: implementation, support, managed services.
+              {{ @translate_lang("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
         </div>
       </div>
 
       <div class="rounded-sm p-2 md:p-8">
-        <div class="flex flex-col md:flex-row  items-start">
+        <div class="flex flex-col md:flex-row items-start">
           <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
             <img class="w-full h-full md:w-28 md:h-28"
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/kpi-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">More than just consultants</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ @translate_lang("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
-              end-to-end IT services: implementation, support, managed services.
+              {{ @translate_lang("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
         </div>
@@ -280,39 +272,39 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/balance-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">More than just consultants</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ @translate_lang("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
-              end-to-end IT services: implementation, support, managed services.
+              {{ @translate_lang("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
         </div>
       </div>
 
       <div class="my-20  mx-auto w-full">
-        <p class="font-medium text-4xl mx-auto">Business-level gains:</p><br>
+        <p class="font-medium text-4xl mx-auto">{{ @translate_lang("Business-level gains:")  }}</p><br>
         <div class="w-full  sm:flex sm:flex-row justify-center flex flex-col ">
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-2.5
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">IT cost reduction</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("IT cost reduction")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-3
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">increase in software development speed</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("increase in software development speed")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex justify-center flex-col hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               100%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">regulatory compliance of the IT infrastructure
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("regulatory compliance of the IT infrastructure")  }}
             </p>
           </div>
           <div
@@ -320,35 +312,35 @@
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               ~99.99%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">applications availability</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("applications availability")  }}</p>
           </div>
 
         </div>
       </div>
 
       <div class=" mx-auto w-full">
-        <p class="font-medium text-4xl mx-auto">IT-level gains:</p><br>
+        <p class="font-medium text-4xl mx-auto">{{ @translate_lang("IT-level gains:")  }}</p><br>
         <div class="w-full  sm:flex sm:flex-row justify-center flex flex-col ">
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-2.5
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">IT cost reduction</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("IT cost reduction")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-3
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">increase in software development speed</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("increase in software development speed")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex justify-center flex-col hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               100%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">regulatory compliance of the IT infrastructure
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("regulatory compliance of the IT infrastructure")  }}
             </p>
           </div>
           <div
@@ -356,7 +348,7 @@
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               ~99.99%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">applications availability</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ @translate_lang("applications availability")  }}</p>
           </div>
 
         </div>
@@ -364,20 +356,19 @@
       <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
         <div class='w-2/3'>
           <h1 class='text-gray-900 mt-6'>
-            <p class='text-2xl font-bold'>Measure IT Outsourcing Value for Your Business </p>
+            <p class='text-2xl font-bold'>{{ @translate_lang("Measure IT Outsourcing Value for Your Business")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
           </h1>
-          <p class='text-gray-600 text-xl'>Our team can conduct an IT outsourcing feasibility analysis to
-            calculate the financial benefits of an outsourcing engagement for your particular case. </p>
+          <p class='text-gray-600 text-xl'>{{ @translate_lang("Our team can conduct an IT outsourcing feasibility analysis to
+          calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
         </div>
         <div class='w-1/3 m-0 flex justify-center items-center'>
-          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>Request a
-            Feasibility analysis</a>
+          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ @translate_lang("Request a
+          Feasibility analysis")  }}</a>
         </div>
       </div>
     </div>
 @endsection
-
 
 @section('js')
 

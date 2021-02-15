@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('title')
-    Blog Details 
+    {{ @translate_lang("Blog Details")  }}
 @endsection
 @section('content')
     <section class="section">
         <div class="section-header">
-        <h1>Blog Details</h1>
+        <h1>{{ @translate_lang("Blog Details")  }}</h1>
         <div class="section-header-breadcrumb">
             <a href="{{ route('blogs.index') }}"
-                 class="btn btn-primary form-btn float-right">Back</a>
+                 class="btn btn-primary form-btn float-right">{{ @translate_lang("Back")  }}</a>
         </div>
       </div>
    @include('stisla-templates::common.errors')

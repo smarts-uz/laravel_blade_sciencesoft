@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
   <link rel="stylesheet" href="{{ asset('style.css') }}">
   <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
-  <title>Sciensoft Development Company</title>
+  <title>{{ @translate_lang("Sciensoft Development Company")  }}</title>
 
 
 
@@ -25,13 +25,13 @@
 
     <div class="wrapper">
 
+    {{-- @include('front.Components.navbar') --}}
     @include('front.Components.categories', $categories)
 
-    <div class="mt-28">
-        @yield('main')
-    </div>
+    @yield('main')
 
     @include('front.Components.footer')
+
 
     </div>
 

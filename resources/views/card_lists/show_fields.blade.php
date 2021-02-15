@@ -21,4 +21,3 @@
     {!! Form::label('description', 'Description:') !!}
     <p>{{ $cardLists->description }}</p>
 </div>
-

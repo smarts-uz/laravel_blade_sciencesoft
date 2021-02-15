@@ -1,10 +1,10 @@
 @extends('layouts.auth_app')
 @section('title')
-    Forgot Password
+    {{ @translate_lang("Forgot Password")  }}
 @endsection
 @section('content')
     <div class="card card-primary">
-        <div class="card-header"><h4>Reset Password</h4></div>
+        <div class="card-header"><h4>{{ @translate_lang("Reset Password")  }}</h4></div>
 
         <div class="card-body">
             @if (session('status'))
@@ -15,7 +15,7 @@
             <form method="POST" action="{{ route('password.email') }}">
                 @csrf
                 <div class="form-group">
-                    <label for="email">Email</label>
+                    <label for="email">{{ @translate_lang("Email")  }}</label>
                     <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}"
                            name="email" tabindex="1" value="{{ old('email') }}" autofocus required>
                     <div class="invalid-feedback">
@@ -24,13 +24,13 @@
                 </div>
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-lg btn-block" tabindex="4">
-                        Send Reset Link
+                        {{ @translate_lang("Send Reset Link")  }}
                     </button>
                 </div>
             </form>
         </div>
     </div>
     <div class="mt-5 text-muted text-center">
-        Recalled your login info? <a href="{{ route('login') }}">Sign In</a>
+        {{ @translate_lang("Recalled your login info")  }}? <a href="{{ route('login') }}">{{ @translate_lang("Sign In")  }}</a>
     </div>
 @endsection

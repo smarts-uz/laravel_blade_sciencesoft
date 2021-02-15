@@ -72,15 +72,15 @@
                             <span class="slider round"></span></label>
                         </td>
                         <td class="text-right">
-                            <a class="btn btn-soft-info btn-icon btn-circle btn-sm" href="{{route('languages.show', encrypt($language->id))}}" title="{{ translate_lang('Translation') }}">
-                                Show
+                            <a class="btn btn-soft-info btn-icon btn-circle btn-sm" href="{{route('languages.show', encrypt($language->id))}}" title="{{ translate('Translation') }}">
+                                {{ @translate_lang("Show")  }}
                             </a>
-                            <a class="btn btn-soft-primary btn-icon btn-circle btn-sm" href="{{route('languages.edit', encrypt($language->id))}}" title="{{ translate_lang('Edit') }}">
-                                Edit
+                            <a class="btn btn-soft-primary btn-icon btn-circle btn-sm" href="{{route('languages.edit', encrypt($language->id))}}" title="{{ translate('Edit') }}">
+                                {{ @translate_lang("Edit")  }}
                             </a>
                             @if($language->code != 'en')
-                                <a href="#" class="btn btn-soft-danger btn-icon btn-circle btn-sm confirm-delete" data-href="{{route('languages.destroy', $language->id)}}" title="{{ translate_lang('Delete') }}">
-                                    Delete
+                                <a href="#" class="btn btn-soft-danger btn-icon btn-circle btn-sm confirm-delete" data-href="{{route('languages.destroy', $language->id)}}" title="{{ translate('Delete') }}">
+                                    {{ @translate_lang("Delete")  }}
                                 </a>
                             @endif
                         </td>
