@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
   <title>Sciensoft Development Company</title>
 
-   
+
 
     @yield('css')
 
@@ -24,15 +24,15 @@
   <body>
 
     <div class="wrapper">
-    
-    {{-- @include('front.Components.navbar') --}}
+
     @include('front.Components.categories', $categories)
 
-    @yield('main')
+    <div class="mt-28">
+        @yield('main')
+    </div>
 
     @include('front.Components.footer')
 
-             
     </div>
 
   @yield('js')

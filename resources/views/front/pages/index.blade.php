@@ -1,14 +1,18 @@
 @extends('front.layout')
 
 @section('css')
+  {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> --}}
 
-@endsection
+  <style>
+    .card-lists{
+      display: none;
+  }
+  </style>
+  @endsection
 
 @section('main')
 
-
-
-    <!-- Carousel -->
+ <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
     DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
@@ -28,40 +32,9 @@
   <div class="carousel relative shadow-2xl bg-white px-10 py-10 block lg:hidden">
     <div class="carousel-inner relative overflow-hidden w-full">
       <!--Slide 1-->
-      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
-        checked="checked">
-      <div class="carousel-item absolute opacity-0">
-        <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 1</div> -->
-        <div class="block h-full w-full text-xl pb-10">
-          <h1 class="text-3xl font-semibold">
-            <p class="mb-2">Software Development</p>
-            <hr class="w-10 h-1 bg-yellow-500">
-          </h1>
-          <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and
-            device.
-            We bring
-            together deep industry expertise and the latest IT advancements to deliver custom solutions and products
-            that perfectly fit the
-            needs and behavior of their users.</p>
-          <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black hover:text-blue-500">Software consulting</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black  hover:text-blue-500">Custom software development</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black  hover:text-blue-500">Software product development</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black hover:text-blue-500">Team augmentation</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black hover:text-blue-500">Software development outsourcing</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      {{-- <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
+        checked="checked"> --}}
+
       <!--Slide 2-->
       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
@@ -739,7 +712,6 @@
           </div>
         </div>
       </div>
-
     </div>
 
 
@@ -1014,13 +986,9 @@
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
     <hr class="w-10 h-1 bg-yellow-500">
   </div>
-
-
-
-
-  <div class='flex flex-row flex-wrap justify-between'>
+      <div class="flex flex-wrap">
     @foreach($cards as $card)
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full mx-3 hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
       <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
         alt="Sunset in the mountains">
       <div class="px-6 py-4">
@@ -1031,9 +999,9 @@
         </p>
       </div>
     </div>
-    @endforeach
-
-    <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
+      @endforeach
+      </div>
+            <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
   </div>
   <!-- Need a CONSULTATION? -->
   </div>
@@ -1043,6 +1011,10 @@
     <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
+
+  <div class="px-16 py-12 bg-gray-200 text-gray-800">
+    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
+    <div class="flex flex-col lg:flex-row justify-between">
   <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
     @csrf
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
@@ -1100,17 +1072,16 @@
 
 
 @section('js')
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
-<script src="{{ asset('js/jquery-latest.min.js') }}"></script>
-    <script>
-        $(".card-lists").slice(0, 3).show();
-        $("#loadMore").click('on', function(){
-          $(".card-lists:hidden").slice(0, 3).show();
-            if ($(".card-lists:hidden").length == 0) {
-              $("#loadMore").fadeOut();
-            }
-        });
-    </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+            <script src="{{ asset('js/jquery-latest.min.js') }}"></script>
+            <script>
+                $(".card-lists").slice(0, 3).show();
+                $("#loadMore").click('on', function(){
+                    $(".card-lists:hidden").slice(0, 3).show();
+                    if ($(".card-lists:hidden").length == 0) {
+                        $("#loadMore").fadeOut();
+                    }
+                });
+            </script>
 @endsection
-

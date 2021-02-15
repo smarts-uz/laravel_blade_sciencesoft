@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -61,11 +62,12 @@ Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@i
 // industry pages end
 Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCategoryByName')->name('getCategoryByName');
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
+Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
 
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
 Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
-
+Route::post('/', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

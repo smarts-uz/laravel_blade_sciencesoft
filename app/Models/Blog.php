@@ -5,7 +5,7 @@ namespace App\Models;
 use Eloquent as Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
-
+use App\Casts\Json;
 /**
  * Class Blog
  * @package App\Models
@@ -51,7 +51,7 @@ class Blog extends Model
     protected $casts = [
         'id' => 'integer',
         'user_id' => 'integer',
-        //'tag' => 'string',
+        'tag' => 'array',
         //'image' => 'string',
         'title' => 'string',
         'description' => 'string',
@@ -75,5 +75,15 @@ class Blog extends Model
         'updated_at' => 'nullable'
     ];
 
+    public function setJsonAttribute($value)
+    {
+        $tags = [];
 
+        foreach ($value as $array_item) {
+            if (!is_null($array_item['key'])) {
+                $tags[] = $array_item;
+            }
+        }
+        $this->$tags['tag'] = json_encode($tags);
+    }
 }
