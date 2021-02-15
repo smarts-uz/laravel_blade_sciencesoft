@@ -756,13 +756,7 @@
            <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
        </div>
     </div>
-    <!-- <hr class="w-10 h-1 bg-yellow-600 mb-4" />
-    <p class="w-11/12 text-gray-700 font-light mb-3">
-      Distilling deep tech experience, our experts can help you with
-      platform-specific consulting, solution design and support for your
-      business evolution.
-    </p> -->
-    <div class="flex flex-wrap overflow-hidden sm:-mx-3">
+    <div class="flex flex-wrap overflow-hidden">
         @foreach($categories as $category)
             <div
                 class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
@@ -981,7 +975,7 @@
 
   <!-- Ahadov ILhomjon -->
 
-  <div class="mx-6 sm:mx-16 lg:mx-18 ">
+  <div>
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
     <hr class="w-10 h-1 bg-yellow-500">
