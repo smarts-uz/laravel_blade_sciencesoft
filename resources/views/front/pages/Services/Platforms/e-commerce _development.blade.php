@@ -8,7 +8,7 @@
 
 
 <main class="" style="overflow-y: hidden; overflow-x: hidden">
-      <div class="bg-black h-auto px-4">
+      <div class="bg-black h-auto px-4 pt-32">
         <div
           class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
@@ -29,7 +29,7 @@
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
-            <img src="assets/images/intro.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/intro.svg')}}" alt="" />
           </div>
         </div>
       </div>
@@ -42,13 +42,15 @@
           Разрабатываем интернет магазины, <br />
           которые продают
         </h1>
-        <p
-          data-aos="fade-up"
-          style="font-size: 8rem"
-          class="item-center font-bold absolute left-48 text-gray-300 z-0"
-        >
-          1
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                1
+              </p>
+          </div>
       </div>
 
       <div
@@ -59,7 +61,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="assets/images/1/module1_icon3.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">БОЛЬШОЙ ОПЫТ</h1>
               <h1 class="pl-10 text-xl text-gray-700">
@@ -71,7 +73,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="assets/images/1/module1_icon3.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">БОЛЬШОЙ ОПЫТ</h1>
               <h1 class="pl-10 text-xl text-gray-700">
@@ -83,7 +85,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="assets/images/1/module1_icon3.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">БОЛЬШОЙ ОПЫТ</h1>
               <h1 class="pl-10 text-xl text-gray-700">
@@ -95,7 +97,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="assets/images/1/module1_icon3.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">БОЛЬШОЙ ОПЫТ</h1>
               <h1 class="pl-10 text-xl text-gray-700">
@@ -105,7 +107,7 @@
           </div>
         </div>
         <div data-aos="fade-left" class="flex md:justify-start justify-center">
-          <img src="assets/images/2/module1_img.svg" alt="" />
+          <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_img.svg')}}" alt="" />
         </div>
       </div>
 
@@ -116,13 +118,15 @@
         >
           Почему мы...
         </h1>
-        <p
-          data-aos="fade-up"
-          style="font-size: 8rem"
-          class="item-center font-bold absolute left-48 text-gray-300 z-0"
-        >
-          2
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                2
+              </p>
+          </div>
       </div>
 
       <div
@@ -133,7 +137,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon1.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon1.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -146,7 +150,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon2.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon2.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -159,7 +163,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon3.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon3.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -173,7 +177,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon4.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -186,7 +190,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon5.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon5.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -199,7 +203,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon6.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon6.svg')}}" alt="" />
             <p>01</p>
           </div>
 
@@ -214,7 +218,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon7.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon7.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -227,7 +231,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/moule2_icon8.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/moule2_icon8.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -240,7 +244,7 @@
           data-aos="fade-right"
         >
           <div class="flex">
-            <img src="assets/images/2/module2_icon9.svg" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon9.svg')}}" alt="" />
             <p>01</p>
           </div>
           <div class="p-5">
@@ -259,13 +263,15 @@
         >
           Наши гарантии
         </h1>
-        <p
-          data-aos="fade-up"
-          style="font-size: 8rem"
-          class="item-center font-bold absolute left-48 text-gray-300 z-0"
-        >
-          3
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                3
+              </p>
+          </div>
       </div>
 
       <div class="mb-64 flex justify-center">
@@ -275,7 +281,7 @@
           <div class="p-6 rounded-md m-5" data-aos="fade-up">
             <div class="mx-auto cursor-pointer">
               <img
-                src="assets/images/2/module2_icon4.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}"
                 alt=""
                 class="p-8 border-8 border-blue-700"
               />
@@ -290,7 +296,7 @@
           <div class="p-6 rounded-md m-5" data-aos="fade-up">
             <div class="mx-auto cursor-pointer">
               <img
-                src="assets/images/2/module2_icon4.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}"
                 alt=""
                 class="p-8 border-8 border-blue-700"
               />
@@ -305,7 +311,7 @@
           <div class="p-6 rounded-md m-5" data-aos="fade-up">
             <div class="mx-auto cursor-pointer">
               <img
-                src="assets/images/2/module2_icon4.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}"
                 alt=""
                 class="p-8 border-8 border-blue-700"
               />
@@ -320,7 +326,7 @@
           <div class="p-6 rounded-md m-5" data-aos="fade-up">
             <div class="mx-auto cursor-pointer">
               <img
-                src="assets/images/2/module2_icon4.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}"
                 alt=""
                 class="p-8 border-8 border-blue-700"
               />
@@ -335,7 +341,7 @@
           <div class="p-6 rounded-md m-5" data-aos="fade-up">
             <div class="mx-auto cursor-pointer">
               <img
-                src="assets/images/2/module2_icon4.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}"
                 alt=""
                 class="p-8 border-8 border-blue-700"
               />
@@ -350,7 +356,7 @@
           <div class="p-6 rounded-md m-5" data-aos="fade-up">
             <div class="mx-auto cursor-pointer">
               <img
-                src="assets/images/2/module2_icon4.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/2/module2_icon4.svg')}}"
                 alt=""
                 class="p-8 border-8 border-blue-700"
               />
@@ -429,12 +435,15 @@
               Почему мы разрабатываем <br />
               интернет магазины на 1С-Битрикс?
             </h1>
-            <p
-              style="font-size: 8rem"
-              class="item-center font-bold absolute left-48 text-gray-600 z-0 opacity-50"
-            >
-              4
-            </p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-600 "
+              >
+                4
+              </p>
+          </div>
           </div>
         </div>
       </div>
@@ -443,13 +452,15 @@
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
           Кейсы
         </h1>
-        <p
-          data-aos="fade-down"
-          style="font-size: 8rem"
-          class="item-center font-bold absolute left-48 text-gray-300 z-0"
-        >
-          5
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                5
+              </p>
+          </div>
       </div>
       <div class="flex justify-center bg-green-500 p-10 lg:p-10 xl:p-20">
         <div class="text-white grid grid-cols-1 items-center sm:grid-cols-2">
@@ -552,13 +563,15 @@
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
           Своих не бросаем!
         </h1>
-        <p
-          data-aos="fade-down"
-          style="font-size: 8rem"
-          class="item-center font-bold absolute left-48 text-gray-300 z-0"
-        >
-          6
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                6
+              </p>
+          </div>
       </div>
 
       <div>
@@ -572,7 +585,7 @@
           >
             <div class="mx-20" data-aos="fade-up">
               <img
-                src="assets/images/3/module7_icon1.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/3/module7_icon1.svg')}}"
                 alt=""
                 class="mx-auto"
               />
@@ -581,7 +594,7 @@
 
             <div class="mx-20" data-aos="fade-up">
               <img
-                src="assets/images/3/module7_icon2.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/3/module7_icon2.svg')}}"
                 alt=""
                 class="mx-auto"
               />
@@ -590,7 +603,7 @@
 
             <div class="mx-20" data-aos="fade-up">
               <img
-                src="assets/images/3/module7_icon3.svg"
+                src="{{asset('images/open_engine/e-commerce _development/images/3/module7_icon3.svg')}}"
                 alt=""
                 class="mx-auto"
               />
@@ -729,13 +742,15 @@
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
           Цены и тарифы
         </h1>
-        <p
-          data-aos="fade-down"
-          style="font-size: 8rem"
-          class="item-center font-bold absolute left-48 text-gray-400 z-0"
-        >
-          8
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                8
+              </p>
+          </div>
       </div>
 
       <div
@@ -870,12 +885,15 @@
             >
               Разработка интернет магазина
             </h1>
-            <p
-              style="font-size: 8rem"
-              class="item-center font-bold absolute left-48 text-gray-600 z-0 opacity-50"
-            >
-              9
-            </p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-600 "
+              >
+                9
+              </p>
+          </div>
           </div>
         </div>
       </div>
@@ -934,7 +952,7 @@
                         >
                           <img
                             class="mx-auto p-3"
-                            src="assets/images/4/creative_dark.svg"
+                            src="{{asset('images/open_engine/e-commerce _development/images/4/creative_dark.svg')}}"
                             alt=""
                           />
                           <p class="text-center">Разработка <br />брендбуков</p>
@@ -946,7 +964,7 @@
                         >
                           <img
                             class="mx-auto p-3"
-                            src="assets/images/4/digital-marketing_dark.svg"
+                            src="{{asset('images/open_engine/e-commerce _development/images/4/digital-marketing_dark.svg')}}"
                             alt=""
                           />
                           <p class="text-center">
@@ -961,7 +979,7 @@
                         >
                           <img
                             class="mx-auto p-3"
-                            src="assets/images/4/loupe_dark.svg"
+                            src="{{asset('images/open_engine/e-commerce _development/images/4/loupe_dark.svg')}}"
                             alt=""
                           />
                           <p class="text-center">
@@ -976,7 +994,7 @@
                         >
                           <img
                             class="mx-auto p-3"
-                            src="assets/images/4/loupe_dark.svg"
+                            src="{{asset('images/open_engine/e-commerce _development/images/4/loupe_dark.svg')}}"
                             alt=""
                           />
                           <p class="text-center">
@@ -991,7 +1009,7 @@
                         >
                           <img
                             class="mx-auto p-3"
-                            src="assets/images/4/web-site_dark.svg"
+                            src="{{asset('images/open_engine/e-commerce _development/images/4/web-site_dark.svg')}}"
                             alt=""
                           />
                           <p class="text-center">

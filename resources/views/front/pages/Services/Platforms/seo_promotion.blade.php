@@ -9,7 +9,7 @@
 
 
 <main  style="overflow-y: hidden; overflow-x: hidden">
-    <div class="bg-black h-auto px-4">
+    <div class="bg-black h-auto px-4 pt-32">
         <div
           class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
@@ -40,23 +40,23 @@
 
     <div class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16">
         <div  class="pt-8 text-center" data-aos="fade-left">
-            <img src="images/2/1.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/seo_promotion/images/2/1.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Оптимизация</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-left">
-            <img src="images/2/2.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/seo_promotion/images/2/2.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Аудит и Аналитика</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-up">
-            <img src="images/2/3.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/seo_promotion/images/2/3.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Трафик</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-right">
-            <img src="images/2/4.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/seo_promotion/images/2/4.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Стратегия</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-right">
-            <img src="images/2/5.svg" alt="" class="m-auto">
+            <img src="{{asset('images/open_engine/seo_promotion/images/2/5.svg')}}" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">KPI</p>
         </div>
     </div>
@@ -83,9 +83,15 @@
 
     <div class="flex justify-center text-center items-center my-20 relative">
         <h1 data-aos="fade-right" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Услуги по сео продвижению</h1>
-        <p data-aos="fade-up" style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0">
-            1
-        </p>
+        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                1
+              </p>
+          </div>
     </div>
 
 
@@ -94,7 +100,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-3">
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Аудит сайта</h1>
@@ -102,7 +108,7 @@
                 </div>
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/2.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Маркетинговый <br> анализ</h1>
@@ -110,7 +116,7 @@
                 </div>
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/3.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Стратегия <br> продвижения</h1>
@@ -119,7 +125,7 @@
 
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/4.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
@@ -132,7 +138,7 @@
 
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/5.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/5.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Внутренняя SEO <br> оптимизация</h1>
@@ -140,7 +146,7 @@
                 </div>
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/6.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/6.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Оптимизация контента сайта</h1>
@@ -148,7 +154,7 @@
                 </div>
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/7.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/7.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Ежемесячный анализ</h1>
@@ -157,7 +163,7 @@
 
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/8.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/8.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Внешняя оптимизация</h1>
@@ -165,7 +171,7 @@
                 </div>
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="images/3/4.svg" alt="">
+                        <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="">
                     </div>
                     <div class="">
                         <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
@@ -177,9 +183,15 @@
 
         <div class="flex justify-center items-center mb-20 my-20 relative text-center">
             <h1 data-aos="fade-down" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Этапы продвижения сайта</h1>
-            <p data-aos="fade-up" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
-                2</p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                2
+              </p>
+          </div>
         </div>
 
 
@@ -316,9 +328,15 @@
 
         <div class="flex justify-center items-center my-20 relative ">
             <h1 data-aos="fade-up text-center" class="sm:text-4xl text-3xl font-bold text-blue-700 z-10">Кейсы</h1>
-            <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-400 z-0">
-                3</p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                3
+              </p>
+          </div>
         </div>
 
         <div class="splide">
@@ -427,37 +445,43 @@
 
         <div class="flex justify-center items-center my-20 relative text-center">
             <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Используем в работе</h1>
-            <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-400 z-0">
-                4</p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                4
+              </p>
+          </div>
         </div>
 
 
         <div class="grid grid-cols-1 sm:grid-cols-4 gap-5 container m-auto justify-center text-center">
             <div class="text-center grid grid-cols-1 justify-center">
                 <div class="grid justify-center">
-                    <img class="block shadow-lg  rounded-full" src="images/brands/google.png" alt="">
+                    <img class="block shadow-lg  rounded-full" src="{{asset('images/open_engine/seo_promotion/images/brands/google.png')}}" alt="">
                 </div>
                 <p class="text-center font-bold text-2xl text-center text-gray-600 mt-5">Google</p>
             </div>
 
             <div  class="text-center grid grid-cols-1 justify-center">
                 <div  class="grid justify-center">
-                    <img class="shadow-lg  rounded-full" src="images/brands/yandex.png" alt="">
+                    <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/seo_promotion/images/brands/yandex.png')}}" alt="">
                 </div>
                 <p class="font-bold text-2xl text-center text-gray-600 mt-5">Yandex</p>
             </div>
 
             <div class="text-center grid grid-cols-1 justify-center">
                 <div   class="grid justify-center">
-                    <img class="shadow-lg  rounded-full" src="images/brands/mailru.png" alt="">
+                    <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/seo_promotion/images/brands/mailru.png')}}" alt="">
                 </div>
                 <p class="font-bold text-2xl text-center text-gray-600 mt-5">Mail ru</p>
             </div>
 
             <div  class="text-center grid grid-cols-1 justify-center">
                 <div    class="grid justify-center">
-                    <img class="shadow-lg  rounded-full" src="images/brands/maps.png" alt="">
+                    <img class="shadow-lg  rounded-full" src="{{asset('images/open_engine/seo_promotion/images/brands/maps.png')}}" alt="">
                 </div>
                 <p class="font-bold text-2xl text-center text-gray-600 mt-5">Maps</p>
             </div>
@@ -467,9 +491,15 @@
 
         <div class="flex justify-center items-center my-20 relative ">
             <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Результат</h1>
-            <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-400 z-0">
-                5</p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                5
+              </p>
+          </div>
         </div>
 
 
@@ -478,34 +508,34 @@
                 <div class="grid grid-cols-2">
 
                     <div class=" p-5">
-                        <img class="mx-auto p-3" src="images/4/1.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/1.svg')}}" alt="">
                         <p class="text-lg text-center text-gray-600">Улучшится видимость сайта<br> в поисковой выдаче
                         </p>
                     </div>
 
                     <div class=" p-5">
-                        <img class="mx-auto p-3" src="images/4/2.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/2.svg')}}" alt="">
                         <p class="text-lg text-center text-gray-600">Сайт выйдет в топ поиска<br> "Яндекса" и Google</p>
                     </div>
 
                     <div class=" p-5">
-                        <img class="mx-auto p-3" src="images/4/3.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/3.svg')}}" alt="">
                         <p class="text-lg text-center text-gray-600">Увеличится количество<br>посетителей сайта</p>
                     </div>
 
                     <div class=" p-5">
-                        <img class="mx-auto p-3" src="images/4/4.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/4.svg')}}" alt="">
                         <p class="text-lg text-center text-gray-600">Увеличится количество<br>заявок и звонков</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-2">
                     <div class=" p-5">
-                        <img class="mx-auto p-3" src="images/4/5.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/5.svg')}}" alt="">
                         <p class="text-lg text-center text-gray-600">Увеличатся продажи <br> с сайта</p>
                     </div>
 
                     <div class=" p-5">
-                        <img class="mx-auto p-3" src="images/4/6.svg" alt="">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/6.svg')}}" alt="">
                         <p class="text-lg text-center text-gray-600">Снизятся расходы на <br> рекламные кампании</p>
                     </div>
                 </div>
@@ -518,8 +548,15 @@
         <div style="z-index: 100; height: 14rem" class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
                 <h1 class="text-4xl font-bold text-white z-10">Почему мы?</h1>
-                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0 opacity-50">
-                    6</p>
+                <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-600 "
+              >
+                6
+              </p>
+          </div>
             </div>
         </div>
 
@@ -527,7 +564,7 @@
         <div style="z-index: 100" class="flex relative justify-center flex-col md:flex-row mx-20 -mt-20">
             <div class=" bg-white rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
-                    <img src="images/3/1.svg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class=" py-1 text-center">
                     <h1 class="text-gray-700 text-md">Нет ни одного проваленного <br> проекта</h1>
@@ -535,7 +572,7 @@
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
-                    <img src="images/3/2.svg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
                     <h1 class="text-gray-700 text-md">Колосальный <br> опыт в<br> продвижении</h1>
@@ -543,7 +580,7 @@
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
-                    <img src="images/3/3.svg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
                     <h1 class="text-gray-700 text-md">Экспертное <br>понимание <br> алгоритмов</h1>
@@ -552,7 +589,7 @@
 
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
-                    <img src="images/3/3.svg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
                     <h1 class="text-gray-700 text-md">Выводим сайты <br> из-под <br> фильтров</h1>
@@ -561,7 +598,7 @@
 
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
-                    <img src="images/3/3.svg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
                     <h1 class="text-gray-700 text-md">Сотни <br> довольных <br> клиентов</h1>
@@ -570,7 +607,7 @@
 
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
-                    <img src="images/3/4.svg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
                     <h1 class="text-gray-700 text-md">Команда <br> опытных <br> специалистов</h1>
@@ -582,9 +619,15 @@
 
         <div class="flex justify-center items-center my-20 relative mb-20">
             <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
-            <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-400 z-0">
-                7</p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                7
+              </p>
+          </div>
         </div>
 
 
@@ -676,9 +719,15 @@
 
         <div class="flex justify-center items-center my-20 relative mb-20">
             <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Сертификаты</h1>
-            <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-400 z-0">
-                8</p>
+            <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                8
+              </p>
+          </div>
 
         </div>
 
@@ -689,25 +738,25 @@
             </div>
             <div style="z-index: 100" class="flex relative justify-center flex-col md:flex-row mx-20 ">
                 <div class=" shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                    <img src="images/cer/cer1.jpeg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/cer/cer1.jpeg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="  shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                    <img src="images/cer/cer2.jpeg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/cer/cer2.jpeg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="  shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                    <img src="images/cer/cer3.jpeg" alt="" class="mx-auto">
-
-                </div>
-
-                <div class="  shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-
-                    <img src="images/cer/cer4.jpeg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/cer/cer3.jpeg')}}" alt="" class="mx-auto">
 
                 </div>
 
                 <div class="  shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
 
-                    <img src="images/cer/cer5.jpeg" alt="" class="mx-auto">
+                    <img src="{{asset('images/open_engine/seo_promotion/images/cer/cer4.jpeg')}}" alt="" class="mx-auto">
+
+                </div>
+
+                <div class="  shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
+
+                    <img src="{{asset('images/open_engine/seo_promotion/images/cer/cer5.jpeg')}}" alt="" class="mx-auto">
 
                 </div>
 
@@ -718,8 +767,15 @@
         <div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative">
             <div class="flex justify-center items-center my-20 pt-10">
                 <h1 class="text-4xl font-bold text-white z-10">SEO Продвижение</h1>
-                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0 opacity-50">
-                    9</p>
+                <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-600 "
+              >
+                9
+              </p>
+          </div>
             </div>
         </div>
 
@@ -756,9 +812,15 @@
                 <div class="flex">
                     <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                         <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">Другие <br> услуги</h1>
-                        <p data-aos="fade-down" style="font-size: 10rem"
-                           class="item-center font-bold absolute left-48 text-gray-300 z-0">
-                            10</p>
+                        <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-400 "
+              >
+                10
+              </p>
+          </div>
                     </div>
 
                     <div style="height: 10rem;" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5  z-20 mt-32"
@@ -766,27 +828,27 @@
                         <div class="flex justify-center items-center pl-20 pt-5">
 
                             <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                <img class="mx-auto p-3" src="images/5/web-site_dark.svg" alt="">
+                                <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/5/web-site_dark.svg')}}" alt="">
                                 <p class="text-center">Разработка <br> сайтов</p>
                             </div>
 
                             <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                <img class="mx-auto p-3" src="images/5/loupe_dark.svg" alt="">
+                                <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/5/loupe_dark.svg')}}" alt="">
                                 <p class="text-center">SEO <br> продвижение</p>
                             </div>
 
                             <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                <img class="mx-auto p-3" src="images/5/loupe_dark.svg" alt="">
+                                <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/5/loupe_dark.svg')}}" alt="">
                                 <p class="text-center">Контекстная <br> реклама</p>
                             </div>
 
                             <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                <img class="mx-auto p-3" src="images/5/digital-marketing_dark.svg" alt="">
+                                <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/5/digital-marketing_dark.svg')}}" alt="">
                                 <p class="text-center"> СММ <br> продвижение</p>
                             </div>
 
                             <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                <img class="mx-auto p-3" src="images/5/creative_dark.svg" alt="">
+                                <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/5/creative_dark.svg')}}" alt="">
                                 <p class="text-center">Разработка <br>брендбуков</p>
                             </div>
                         </div>
