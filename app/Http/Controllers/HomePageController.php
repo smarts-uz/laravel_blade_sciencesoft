@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Facades\DB;
@@ -50,12 +51,13 @@ class HomePageController extends Controller
         $blogs = Blog::all();
         $news = News::all();
         $cards = CardLists::all();
+        $products = Product::all();
         if(!view()->exists('front.pages.'.$page)){
 //            $cards = CardLists::all();
             return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
         }
 
-        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards]);
+        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards, 'products'=>$products]);
 
             $cardlists = CardList::orderBy('id', 'desc')->get();
             return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists]);

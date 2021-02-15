@@ -1,4 +1,4 @@
-<div class="md:px-16 lg:px-16 w-full pt-1 top-0 left-0 fixed bg-white shadow z-50">
+<div class="md:px-16 lg:px-16 px-6 w-full pt-1 top-0 left-0 fixed bg-white shadow z-50">
     <div class="flex justify-between items-center">
       <a href="/">
         <img class="w-32" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="Microsoft ASP.NET">
