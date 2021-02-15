@@ -52,7 +52,7 @@ class Product extends Model
         'id' => 'integer',
         'name' => 'string',
         'title' => 'string',
-        'sub_title' => 'text',
+        'sub_title' => 'string',
         'read_more_link' => 'string',
         'view_website_link' => 'string',
         //'image' => 'string'

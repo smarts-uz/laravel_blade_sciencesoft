@@ -71,5 +71,4 @@ class Consultation extends Model
     ];
 
 
->>>>>>>>> Temporary merge branch 2
 }

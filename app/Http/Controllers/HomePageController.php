@@ -107,5 +107,13 @@ class HomePageController extends Controller
         return redirect('/')->with('success', 'Your information has been sent successfully!');
 
     }
+    public function SingleBlog($id)
+    {
+        $blog = Blog::all()->find($id);
+        $categories = Category::all();
+
+        return view('front.pages.blog_single_page', ['blog' => $blog,'categories'=> $categories]);
+    }
+
 
 }
