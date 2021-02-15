@@ -21,36 +21,35 @@
 
     <div class="wrapper">
 
-    <nav class="nav px-32 py-2">
+    <nav class="nav fixed py-4 top-0 left-0 px-16 w-full bg-white z-50 shadow">
   <div class="flex items-center justify-between">
     <div>
-      <div id="logo" class="flex relative px-4 py-2 items-center justify-between w-64">
+      <div id="logo" class="flex relative items-center justify-between w-64">
         <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" width="50%" alt="Logo">
-        <hr class="w-0.5 h-10 border-none bg-gray-300">
+        <hr class="w-0.5 h-0.50 border-none bg-gray-300">
         <h3 class="font-bold text-gray-800">eCommers</h3>
-        <i class="fas fa-chevron-down text-gray-500 text-xl"></i>
+        <i class="fas fa-chevron-down text-gray-500 text-base"></i>
       </div>
       <div id="logoHover" class="absolute px-4 py-2 bg-white w-64 z-50 hidden">
         <a href="#" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fab text-xl fa-shopify"></i> eCommers by ZetSoft </a>
         <a href="#" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fas text-xl fa-globe"></i> ZetSoft Global </a>
       </div>
     </div>
-    <i class="fas fa-search"></i>
+        <i onclick="searchBarClick()" class="fa fa-search fa-xl cursor-pointer"></i>
   </div>
-  <div class="flex justify-between items-center">
-    <div id="searchbar" class="flex justify-between items-center  w-4/5">
-      <ul class="w-11/12 hidden  lg:flex items-center font-semibold list-none uppercase text-black">
-        <li  class="  flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
-          <a id="about" class=" relative py-6" href="#">
+  <div class="flex justify-between items-center mt-4">
+      <ul class="w-11/12 hidden lg:flex items-center list-none text-black">
+        <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
+          <a id="about" class="uppercase text-sm font-bold" href="#">
           About
         </a>
         </li>
         <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
-          <a class="py-6" id="service" href="#">
+          <a id="service" class="uppercase text-sm font-bold" href="#">
           Services
-          <div id="serviceHover" class="hidden flex absolute px-32 left-0 justify-start top-32 border-t-2 border-b-2 bg-white items-start py-6 w-full">
+          <div id="serviceHover" class="hidden flex absolute px-16 left-0 justify-start top-28 border-t-2 border-b-2 bg-white items-start py-6 w-full">
             <div class="w-1/3 list-none">
-              <h1 class="mb-2 ">
+              <h1 class="mb-2 text-black">
                 Ecommerce</h1>
               <hr class="border-b-2 w-12 border-yellow-500">
               <ul >
@@ -66,7 +65,7 @@
             </ul>
             </div>
             <div class="w-1/6 list-none">
-              <h1 class="mb-2">Digital Consulting</h1>
+              <h1 class="mb-2 font-bold text-black">Digital Consulting</h1>
               <hr class="border-b-2 w-12 border-yellow-500">
               <ul>
               <a href="#"><li class="mt-4 text-black hover:text-blue-700">Digital Consulting</li></a>
@@ -77,16 +76,16 @@
         </a>
         </li>
         <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
-          <a class="py-6" id="service" href="#">
+          <a id="service" class="uppercase text-sm font-bold" href="#">
           Industries
         </a>
         </li>
         <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
-          <a class="py-6" id="service" href="#">
-          How To Start 
-          <div id="serviceHover" class="hidden flex absolute left-0 px-32 justify-start top-32 border-t-2 border-b-2 bg-white items-start py-6 w-full">
+          <a id="service" class="uppercase text-sm font-bold" href="#">
+          How To Start
+          <div id="serviceHover" class="hidden flex absolute left-0 px-16 justify-start top-28 border-t-2 border-b-2 bg-white items-start py-6 w-full">
             <div class="w-full list-none">
-              <h1 class="mb-2 ">
+              <h1 class="mb-2 text-black">
                 Service types</h1>
               <hr class="border-b-2 w-12 border-yellow-500">
               <ul>
@@ -101,9 +100,9 @@
         </a>
         </li>
         <li id="services" class="mr-8 cursor-pointer z-40 hover:text-blue-500">
-          <a class="py-6" id="service" href="#">
+          <a id="service" class="uppercase text-sm font-bold" href="#">
           Solutions
-          <div id="serviceHover" class="hidden flex absolute left-0 px-32 justify-start top-32 border-t-2 border-b-2 bg-white items-start py-6 w-full">
+          <div id="serviceHover" class="hidden flex absolute left-0 px-16 justify-start top-28 border-t-2 border-b-2 bg-white items-start py-6 w-full">
             <div class="w-1/3 list-none">
               <h1 class="mb-2 ">
                 By Business Model</h1>
@@ -150,16 +149,16 @@
         </a>
         </li>
       </ul>
-    </div>
-    <li class="flex justify-center items-center bg-blue-700 text-white px-4 py-2 hover:bg-blue-900">
-      <a  href="#">Let's talk</a>
-      </li>
+
+    <div class="flex justify-center items-center bg-blue-700 text-white px-3 py-2 duration-300 rounded hover:bg-blue-900">
+      <a class="text-sm" href="#">Let's talk</a>
+      </div>
   </div>
 
 </nav>
 
 
-    <div class="mx-6 md:mx-16 lg:mx-24 my-10">
+    <div class="mt-40">
         <!-- Corousel -->
         <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
             <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">DIGITAL COMMERCE</h1>
@@ -197,58 +196,52 @@
         <div class="mx-6 sm:mx-16 lg:mx-18 ">
             <div class="my-4">
                 <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
-                <hr class="w-10 h-1 bg-pink-600">
+                <hr class="w-10 h-0.5 bg-yellow-500">
             </div>
             </h1>
 
 
 
             <div class='flex flex-row flex-wrap justify-evenly'>
+
                 <div
-                    class="w-1/3 rounded overflow-hidden shadow-lg my-2   hover:shadow-2xl transition duration-500 mt-10  cursor-pointer">
-                    <div class="p-5 text-center font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs
-                    </div>
-                    <img class="w-72 h-48"
+                    class="w-1/3 rounded overflow-hidden shadow-lg my-2 px-4 py-4 flex flex-col justify-center items-center hover:shadow-2xl transition duration-500 cursor-pointer">
+                    <h1 class="text-center font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</h1>
+                    <img class="w-72 h-48 my-4"
                         src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/ecommerce-development.svg"
                         alt="Sunset in the mountains">
-                    <div class="px-6 py-4">
-                        <p class="text-grey-darker text-base mb-5">
+                        <p class="text-grey-darker text-base">
                             Obtain a clean-coded and high-performing ecommerce solution.
                         </p>
-                    </div>
                 </div>
 
                 <div
-                    class=" w-1/3 rounded overflow-hidden shadow-lg my-2  hover:shadow-2xl transition duration-500 mt-10 cursor-pointer">
-                    <div class="p-5 text-center font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs
-                    </div>
-                    <img class="w-72 h-48"
-                        src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/ecommerce-consulting.svg">
-                    <div class="px-6 py-4">
-                        <p class="text-grey-darker text-base mb-5">
+                    class="w-1/3 rounded overflow-hidden shadow-lg my-2 px-4 py-4 flex flex-col justify-center items-center hover:shadow-2xl transition duration-500 cursor-pointer">
+                    <h1 class="text-center font-bold text-xl mb-2">VR Technology: Architecture, Tools, Team, and Costs</h1>
+                    <img class="w-72 h-48 my-4"
+                        src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/ecommerce-consulting.svg"
+                        alt="Sunset in the mountains">
+                        <p class="text-grey-darker text-base">
                             Secure the best ROI for implemented technology solutions.
                         </p>
-                    </div>
                 </div>
 
                 <div
-                    class="w-1/3 rounded overflow-hidden shadow-lg my-2  hover:shadow-2xl transition duration-500 mt-10 cursor-pointer">
-                    <div class="p-5 text-center font-bold text-xl mb-2">A Comprehensive Guide to Real-Time Big Data
-                        Analytics</div>
-                    <img class="w-72 h-48"
+                    class="w-1/3 rounded overflow-hidden shadow-lg my-2 px-4 py-4 flex flex-col justify-center items-center hover:shadow-2xl transition duration-500 cursor-pointer">
+                    <h1 class="text-center font-bold text-xl mb-2">A Comprehensive Guide to Real-Time Big Data
+                        Analytics</h1>
+                    <img class="w-72 h-48 my-4"
                         src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/ux-and-ui-design.svg"
                         alt="Sunset in the mountains">
-                    <div class="px-6 py-4">
                         <p class="text-grey-darker text-base">
                             Communicate your brand’s unique personality through website design.
                         </p>
-                    </div>
                 </div>
             </div>
 
 
 
-            <div class="my-10 flex flex-col-reverse lg:flex-row justify-between items-center px-5 py-12 bg-gray-100">
+            <div class="my-4 flex flex-col-reverse lg:flex-row justify-between items-center px-5 py-12 bg-gray-100">
                 <div class="w-full lg:w-3/5 mt-10 lg:mt-0">
                     <h1 class="text-3xl font-semibold">DIGITAL MARKETING AUTOMATION</h1>
                     <p class="text-xl text-gray-700 my-6">We help to implement proper marketing automation tools and
@@ -278,16 +271,16 @@
 
 
             <!-- IMPROVE AND INNOVATE WITH THE TECH TRENDS -->
-            <div class="my-10 bg-blue-900 lg:px-16 px-3 py-10 text-white">
+            <div class="bg-blue-900 lg:px-16 px-3 py-10 text-white">
                 <h1 class="text-2xl lg:text-3xl font-semibold">
                     <p class="mb-4">EXPLORE DIVERSE IMPLEMENTATION MODELS</p>
-                    <hr class="w-10 h-1 bg-pink-600">
+                    <hr class="w-10 h-0.5 border-none bg-yellow-500">
                 </h1>
                 <p class="text-xs lg:text-xl my-4 lg:my-8">We IT-enable all kinds of B2B, B2C interactions and internal
                     operations.</p>
                 <ul class="text-black flex flex-wrap flex-row justify-between">
                     <li
-                        class="bg-white md:w-48 w-2/5 h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white rounded md:w-48 w-2/5 h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             Online Marketplace
                         </a>
@@ -296,7 +289,7 @@
                         </div>
                     </li>
                     <li
-                        class="bg-white md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5 rounded h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             Ecommerce Multistore
                         </a>
@@ -305,7 +298,7 @@
                         </div>
                     </li>
                     <li
-                        class="bg-white md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5 rounded h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             Headless Commerce
                         </a>
@@ -314,7 +307,7 @@
                         </div>
                     </li>
                     <li
-                        class="bg-white md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
+                        class="bg-white md:w-48 w-2/5 rounded h-24 flex justify-center items-center text-center text-base px-2 duration-300 md:text-lg m-2 relative hover:bg-blue-700 hover:text-white">
                         <a href="#">
                             PWA
                         </a>
@@ -327,9 +320,9 @@
             </div>
 
 
-            <div class='my-10 flex flex-row flex-wrap justify-evenly'>
+            <div class='my-10 flex flex-row flex-wrap justify-between'>
                 <div
-                    class="w-1/3 rounded overflow-hidden shadow-lg my-2   hover:shadow-2xl transition duration-500 mt-10  cursor-pointer">
+                    class="w-1/3 rounded overflow-hidden shadow-lg my-2 flex flex-col items-center hover:shadow-2xl transition duration-500 mt-10  cursor-pointer">
                     <div class="p-5 text-center font-bold text-xl mb-2">How To Start A Successful Online Business</div>
                     <img class="w-72 h-48"
                         src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/how-to-start-a-successful-online-business.svg"
@@ -343,7 +336,7 @@
                 </div>
 
                 <div
-                    class=" w-1/3 rounded overflow-hidden shadow-lg my-2  hover:shadow-2xl transition duration-500 mt-10 cursor-pointer">
+                    class=" w-1/3 rounded overflow-hidden shadow-lg my-2 flex flex-col items-center hover:shadow-2xl transition duration-500 mt-10 cursor-pointer">
                     <div class="p-5 text-center font-bold text-xl mb-2">How to Sell Grocery Online</div>
                     <img class="w-72 h-48"
                         src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/how-to-sell-grocery-online.svg">
@@ -357,7 +350,7 @@
                 </div>
 
                 <div
-                    class="w-1/3 rounded overflow-hidden shadow-lg my-2  hover:shadow-2xl transition duration-500 mt-10 cursor-pointer">
+                    class="w-1/3 rounded overflow-hidden shadow-lg my-2 flex flex-col items-center hover:shadow-2xl transition duration-500 mt-10 cursor-pointer">
                     <div class="p-5 text-center font-bold text-xl mb-2">How to Choose an Ecommerce Platform</div>
                     <img class="w-72 h-48"
                         src="https://www.scnsoft.com/---home-page-illustrations/ecommerce-microsite/how-to-choose-an-ecommerce-platform.svg"
@@ -387,12 +380,12 @@
 
         <h1 class="px-16 text-3xl py-12">
             <p class="mb-4">NEED TO TALK TO ECOMMERCE EXPERTS?</p>
-            <hr class="w-10 h-1 bg-pink-600">
+            <hr class="w-10 h-0.5 bg-yellow-500">
         </h1>
 
 
     <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
-    @csrf	
+    @csrf
     <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
     <div class="flex flex-col lg:flex-row justify-between">
       <div class="flex flex-col mr-3">
@@ -409,7 +402,7 @@
         <textarea placeholder="How can we we help you?" cols="3" rows="6"
           class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" name="description" style="margin-right: 0.75rem;"></textarea>
          <div class="flex justify-center items-center mb-3">
-          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
+          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-0.52">Discuss my needs</button>
          </div>
       </div>
       <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
@@ -441,9 +434,6 @@
       </div>
     </div>
   </form>
-
-
-
     </div>
     @include('front.Components.footer')
 
