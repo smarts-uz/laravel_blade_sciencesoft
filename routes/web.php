@@ -55,7 +55,7 @@ Route::get('/industries/manufacturing', 'App\Http\Controllers\Front\softControll
 Route::get('/industries/market-Advertising', 'App\Http\Controllers\Front\softController@marketAdvertising')->name('marketAdvertising');
 Route::get('/industries/telecommunications', 'App\Http\Controllers\Front\softController@telecommunications')->name('telecommunications');
 Route::get('/industries/elearning', 'App\Http\Controllers\Front\softController@elearning')->name('elearning');
-Route::get('/industries/transportation-Logistics', 'App\Http\Controllers\Front\softController@transportationLogistics')->name('transportationLogistics');
+Route::get('/industries/transportation-Logistics', 'App\Http\Controllers\Front\softController@translate_langportationLogistics')->name('transportationLogistics');
 Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oilGas')->name('oilGas');
 Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
 Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
