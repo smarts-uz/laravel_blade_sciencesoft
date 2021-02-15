@@ -35,7 +35,7 @@ class language_scanner extends Command
      * Execute the console command.
      *
      * @return int
-     */
+     */ 
     public function handle()
     {
         $dir=resource_path('views');
