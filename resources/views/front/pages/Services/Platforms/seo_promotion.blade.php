@@ -8,153 +8,175 @@
 
 
 
-
-    <div class="grid  grid-cols-2 container m-auto p-16 ">
-        <div data-aos="fade-right">
-            <div class="text-white text-6xl font-semibold m-auto px-20 leading-none mb-12">
-                Seo продвижение сайта в Ташкенте
+<main  style="overflow-y: hidden; overflow-x: hidden">
+    <div class="bg-black h-auto px-4">
+        <div
+          class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
+        >
+          <div data-aos="fade-right">
+            <div
+              class="text-white text-4xl lg:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
+            >
+              Seo продвижение сайта в Ташкенте
             </div>
-            <div class="px-20">
-                <a href=""
-                   class="bg-blue-700 rounded-full text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-                    Получить консультацию
-                </a>
+            <div class="lg:px-20">
+              <a
+                href="#"
+                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+              >
+                Получить консультацию
+              </a>
             </div>
+          </div>
+
+          <div data-aos="fade-left" class="my-8 flex justify-center">
+            <img src="https://oe.uz/local/templates/oe/media/images/seo/showcase/seo.svg" alt="" />
+          </div>
         </div>
+      </div>
 
-        <div data-aos="fade-left">
-            <img src="images/1/seo.svg" alt="">
-        </div>
 
-    </div>
-</div>
 
-<div class="bg-gray-200">
-    <div class="flex container m-auto justify-between pt-16  px-40">
-        <div data-aos="fade-left">
+
+    <div class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16">
+        <div  class="pt-8 text-center" data-aos="fade-left">
             <img src="images/2/1.svg" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Оптимизация</p>
         </div>
-        <div data-aos="fade-left">
+        <div  class="pt-8  text-center" data-aos="fade-left">
             <img src="images/2/2.svg" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Аудит и Аналитика</p>
         </div>
-        <div data-aos="fade-up">
+        <div  class="pt-8  text-center" data-aos="fade-up">
             <img src="images/2/3.svg" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Трафик</p>
         </div>
-        <div data-aos="fade-right">
+        <div  class="pt-8  text-center" data-aos="fade-right">
             <img src="images/2/4.svg" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">Стратегия</p>
         </div>
-        <div data-aos="fade-right">
+        <div  class="pt-8  text-center" data-aos="fade-right">
             <img src="images/2/5.svg" alt="" class="m-auto">
             <p class="px-5 font-bold text-md mt-5 text-gray-700">KPI</p>
         </div>
     </div>
 
+<div class="flex justify-center">
 
-    <div class="flex justify-center m-16">
-        <a href=""
-           class="bg-blue-700 rounded-full text-white px-10 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6 shadow-lg">
-            SEO продвижение
-        </a>
+        <div class="grid grid-cols-1 sm:grid-cols-2 justify-center my-16 items-center">
+           <div class=" m-4 text-center">
+                <a href=""
+                   class="max-w-xs block py-4 bg-blue-700 rounded-full text-white px-4 py-1 transition duration-300 ease-in-out hover:bg-blue-900 shadow-lg">
+                    SEO продвижение
+                </a>
+           </div>
+            <div class="m-4  text-center">
 
-        <a href=""
-           class="bg-blue-700 rounded-full text-white px-8 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-            Контекстная реклама
-        </a>
-    </div>
+                <a href=""
+                   class="text-center max-w-xs block py-4 bg-blue-700 rounded-full text-white px-4 transition duration-300 ease-in-out hover:bg-blue-900">
+                    Контекстная реклама
+                </a>
+            </div>
+        </div>
+</div>
 
 
-    <div class="flex justify-center items-center my-20 relative">
-        <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10">Услуги по сео продвижению</h1>
-        <p data-aos="fade-up" style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0">
+    <div class="flex justify-center text-center items-center my-20 relative">
+        <h1 data-aos="fade-right" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Услуги по сео продвижению</h1>
+        <p data-aos="fade-up" style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0">
             1
         </p>
     </div>
 
 
-    <div>
+
         <div class="container mx-auto flex flex-col">
-            <div class="flex justify-center flex-col md:flex-row">
-                <div class="flex bg-white rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+            <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-3">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/1.svg" alt="">
                     </div>
-                    <div class=" pl-5 pt-10">
-                        <h1 class="text-gray-700 font-bold text-lg">Аудит сайта</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Аудит сайта</h1>
                     </div>
                 </div>
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/2.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Маркетинговый <br> анализ</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Маркетинговый <br> анализ</h1>
                     </div>
                 </div>
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/3.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Стратегия <br> продвижения</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Стратегия <br> продвижения</h1>
                     </div>
                 </div>
 
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/4.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Разрабатываем <br> семантику</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
                     </div>
                 </div>
 
-            </div>
 
 
-            <div class="flex justify-center flex flex-col md:flex-row">
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+
+
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/5.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Внутренняя SEO <br> оптимизация</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Внутренняя SEO <br> оптимизация</h1>
                     </div>
                 </div>
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/6.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Оптимизация контента сайта</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Оптимизация контента сайта</h1>
                     </div>
                 </div>
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/7.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Ежемесячный анализ</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Ежемесячный анализ</h1>
                     </div>
                 </div>
 
-                <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 md:flex-1 p-5" data-aos="flip-left">
-                    <div class="py-5">
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
                         <img src="images/3/8.svg" alt="">
                     </div>
-                    <div class="py-5 pl-5">
-                        <h1 class="text-gray-700 font-bold text-lg">Внешняя оптимизация</h1>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Внешняя оптимизация</h1>
                     </div>
                 </div>
-            </div>
+                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="px-4  grid justify-end lg:justify-center">
+                        <img src="images/3/4.svg" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
+                    </div>
+                </div>
+             </div>
         </div>
 
 
-        <div class="flex justify-center items-center mb-20 my-20 relative">
-            <h1 data-aos="fade-down" class="text-4xl font-bold text-blue-700 z-10">Этапы продвижения сайта</h1>
+        <div class="flex justify-center items-center mb-20 my-20 relative text-center">
+            <h1 data-aos="fade-down" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Этапы продвижения сайта</h1>
             <p data-aos="fade-up" style="font-size: 8rem"
                class="item-center font-bold absolute left-48 text-gray-300 z-0">
                 2</p>
@@ -162,7 +184,7 @@
 
 
         <div style="margin-bottom: 20rem;">
-            <div class="container mx-auto flex flex-col px-40">
+            <div class="container mx-auto flex flex-col ">
                 <div class="flex justify-center flex-col md:flex-row">
                     <div style="border-left-width: 15px"
                          class="flex border-blue-700 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
@@ -205,10 +227,10 @@
             </div>
 
 
-            <div style="padding:0 20rem 0 20rem; " class="container mx-auto flex flex-col">
+            <div class="container mx-auto flex flex-col">
                 <div class="flex justify-center flex-col md:flex-row">
                     <div style="border-left-width: 15px"
-                         class="flex border-blue-700 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
+                         class="md:max-w-xs flex border-blue-700 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class="   justify-center mx-auto ">
                             <h1 class="text-gray-700 font-bold text-2xl pb-5">Внешняя</h1>
@@ -220,7 +242,7 @@
                         </div>
                     </div>
                     <div style="border-left-width: 15px"
-                         class="flex border-blue-700 bg-white  rounded-md shadow-lg m-5 md:flex-1 p-5"
+                         class="md:max-w-xs flex border-blue-700 bg-white  rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
                             <h1 class="text-gray-700 font-bold text-2xl pb-5">Продвижение</h1>
@@ -236,168 +258,207 @@
         </div>
 
 
-        <div class="bg-gray-100 h-12 ">
+        <div class="bg-gray-400 h-12 ">
 
         </div>
-        <div data-aos="zoom-in" class="max-w-3xl mx-auto bg-white shadow-lg rounded-3xl  p-20 -mt-56">
-            <h1 class="text-center text-3xl font-semibold leading-tight text-blue-700">Заполните форму прямо сейчас и
-                получите квалифицированную бесплатную консультацию.</h1>
-            <h2 class="text-lg p-6 pl-13">Название организации</h2>
+
+
+        <div class="px-8">
+        <div
+          data-aos="zoom-in"
+          class="max-w-3xl mx-auto bg-white shadow-2xl rounded-3xl p-10 sm:p-20 -mt-56"
+        >
+          <h1
+            class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700"
+          >
+            Заполните форму прямо сейчас и получите квалифицированную бесплатную
+            консультацию.
+          </h1>
+          <h2 class="text-lg p-6 pl-13">Название организации</h2>
+          <form>
             <label>
-                <input type="text" placeholder="Пример: Open Engine" class="h-12 w-full border-b border-blue-700">
+              <input
+                type="text"
+                placeholder="Пример: Open Engine"
+                class="h-12 w-full border-b border-blue-700"
+              />
             </label>
+          </form>
 
-            <div>
-                <div class="dots dots-form mx-auto">
-                    <span class="active"><i class="fa fa-check"></i></span>
-                    <span><i class="fa fa-check"></i></span>
-                    <span><i class="fa fa-check"></i></span>
-                    <span><i class="fa fa-check"></i></span>
-                </div>
+          <div>
+            <div class="dots dots-form mx-auto">
+              <span class="active"><i class="fa fa-check"></i></span>
+              <span><i class="fa fa-check"></i></span>
+              <span><i class="fa fa-check"></i></span>
+              <span><i class="fa fa-check"></i></span>
             </div>
+          </div>
 
-            <div class="flex mt-10 justify-center">
-                <a href=""
-                   class="bg-blue-700 rounded-full text-white px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                    Назад
-                </a>
+          <div class="flex justify-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
+              <a
+                href=""
+                class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+              >
+                Назад
+              </a>
 
-                <a href=""
-                   class="bg-blue-700 rounded-full text-white px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                    Далее
-                </a>
+              <a
+                href=""
+                class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+              >
+                Далее
+              </a>
             </div>
+          </div>
         </div>
+      </div>
 
         <div class="flex justify-center items-center my-20 relative ">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Кейсы</h1>
+            <h1 data-aos="fade-up text-center" class="sm:text-4xl text-3xl font-bold text-blue-700 z-10">Кейсы</h1>
             <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
+               class="item-center font-bold absolute left-48 text-gray-400 z-0">
                 3</p>
         </div>
 
         <div class="splide">
-            <div class="splide__track">
-                <ul class="splide__list">
-                    <li class="splide__slide">
-                        <div class="grid grid-cols-2 container m-auto items-center p-10 pt-20">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div
+                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center  pt-20"
+              >
+                <div class="">
+                  <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="" />
+                </div>
+                <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
+                  <p><b>Клиент:</b></p>
+                  <p>Мебельная фабрика Keng Makon</p>
 
-                            <div>
-                                <img src="assets/images/intro.svg" alt="">
-                            </div>
-                            <div class="text-2xl " data-aos="fade-up">
-                                <p><b>Клиент:</b></p>
-                                <p>Мебельная фабрика Keng Makon</p>
+                  <p><b>Год создания:</b></p>
+                  <p>2020</p>
 
-                                <p><b>Год создания:</b></p>
-                                <p>2020</p>
+                  <p><b>Тип сайта:</b></p>
+                  <p>Разработка интернет-магазина.</p>
 
-                                <p><b>Тип сайта:</b></p>
-                                <p>Разработка интернет-магазина.</p>
+                  <p><b>Направление:</b></p>
+                  <p>Мебель</p>
 
-                                <p><b>Направление:</b></p>
-                                <p>Мебель</p>
+                  <p><b>Технология:</b></p>
+                  <p class="border-b pb-5 mb-10">1C</p>
 
-                                <p><b>Технология:</b></p>
-                                <p class="border-b pb-5 mb-10">1C </p>
+                  <a
+                    href=""
+                    class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+                  >
+                    заказать
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center  pt-20"
+              >
+                <div class="">
+                  <img src="https://oe.uz/upload/iblock/b1d/b1d80d5d88f16cadbf2862bd6cef52eb.png" alt="" />
+                </div>
+                <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
+                  <p><b>Клиент:</b></p>
+                  <p>Мебельная фабрика Keng Makon</p>
 
-                                <a href=""
-                                   class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                    заказать
-                                </a>
-                            </div>
+                  <p><b>Год создания:</b></p>
+                  <p>2020</p>
 
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="grid grid-cols-2 container m-auto items-center p-10 pt-20">
+                  <p><b>Тип сайта:</b></p>
+                  <p>Разработка интернет-магазина.</p>
 
-                            <div>
-                                <img src="assets/images/intro.svg" alt="">
-                            </div>
-                            <div class="text-2xl" data-aos="fade-up">
-                                <p><b>Клиент:</b></p>
-                                <p>Мебельная фабрика Keng Makon</p>
+                  <p><b>Направление:</b></p>
+                  <p>Мебель</p>
 
-                                <p><b>Год создания:</b></p>
-                                <p>2020</p>
+                  <p><b>Технология:</b></p>
+                  <p class="border-b pb-5 mb-10">1C</p>
 
-                                <p><b>Тип сайта:</b></p>
-                                <p>Разработка интернет-магазина.</p>
+                  <a
+                    href=""
+                    class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+                  >
+                    заказать
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div
+                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center  pt-20"
+              >
+                <div class="">
+                  <img src="https://oe.uz/upload/iblock/ea5/ea57c7db360deff50584da720ef5ed4d.png" alt="" />
+                </div>
+                <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
+                  <p><b>Клиент:</b></p>
+                  <p>Мебельная фабрика Keng Makon</p>
 
-                                <p><b>Направление:</b></p>
-                                <p>Мебель</p>
+                  <p><b>Год создания:</b></p>
+                  <p>2020</p>
 
-                                <p><b>Технология:</b></p>
-                                <p class="border-b pb-5 mb-10">1C </p>
+                  <p><b>Тип сайта:</b></p>
+                  <p>Разработка интернет-магазина.</p>
 
-                                <a href=""
-                                   class=" bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                    заказать
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="splide__slide">
-                        <div class="grid grid-cols-2 container m-auto items-center p-10 pt-20">
+                  <p><b>Направление:</b></p>
+                  <p>Мебель</p>
 
-                            <div>
-                                <img src="assets/images/intro.svg" alt="">
-                            </div>
-                            <div class="text-2xl" data-aos="fade-up">
-                                <p><b>Клиент:</b></p>
-                                <p>Мебельная фабрика Keng Makon</p>
+                  <p><b>Технология:</b></p>
+                  <p class="border-b pb-5 mb-10">1C</p>
 
-                                <p><b>Год создания:</b></p>
-                                <p>2020</p>
-
-                                <p><b>Тип сайта:</b></p>
-                                <p>Разработка интернет-магазина.</p>
-
-                                <p><b>Направление:</b></p>
-                                <p>Мебель</p>
-
-                                <p><b>Технология:</b></p>
-                                <p class="border-b pb-5 mb-10">1C </p>
-
-                                <a href=""
-                                   class=" bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                    заказать
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+                  <a
+                    href=""
+                    class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+                  >
+                    заказать
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
 
 
-        <div class="flex justify-center items-center my-20 relative ">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Используем в работе</h1>
+        <div class="flex justify-center items-center my-20 relative text-center">
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Используем в работе</h1>
             <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
+               class="item-center font-bold absolute left-48 text-gray-400 z-0">
                 4</p>
         </div>
 
 
-        <div class="flex container m-auto justify-between  px-40 p-10">
-            <div>
-                <img class="shadow-lg  rounded-full" src="images/brands/google.png" alt="">
-                <p class="font-bold text-2xl text-center text-gray-600 mt-5">Google</p>
+        <div class="grid grid-cols-1 sm:grid-cols-4 gap-5 container m-auto justify-center text-center">
+            <div class="text-center grid grid-cols-1 justify-center">
+                <div class="grid justify-center">
+                    <img class="block shadow-lg  rounded-full" src="images/brands/google.png" alt="">
+                </div>
+                <p class="text-center font-bold text-2xl text-center text-gray-600 mt-5">Google</p>
             </div>
 
-            <div>
-                <img class="shadow-lg  rounded-full" src="images/brands/yandex.png" alt="">
+            <div  class="text-center grid grid-cols-1 justify-center">
+                <div  class="grid justify-center">
+                    <img class="shadow-lg  rounded-full" src="images/brands/yandex.png" alt="">
+                </div>
                 <p class="font-bold text-2xl text-center text-gray-600 mt-5">Yandex</p>
             </div>
 
-            <div>
-                <img class="shadow-lg  rounded-full" src="images/brands/mailru.png" alt="">
+            <div class="text-center grid grid-cols-1 justify-center">
+                <div   class="grid justify-center">
+                    <img class="shadow-lg  rounded-full" src="images/brands/mailru.png" alt="">
+                </div>
                 <p class="font-bold text-2xl text-center text-gray-600 mt-5">Mail ru</p>
             </div>
 
-            <div>
-                <img class="shadow-lg  rounded-full" src="images/brands/maps.png" alt="">
+            <div  class="text-center grid grid-cols-1 justify-center">
+                <div    class="grid justify-center">
+                    <img class="shadow-lg  rounded-full" src="images/brands/maps.png" alt="">
+                </div>
                 <p class="font-bold text-2xl text-center text-gray-600 mt-5">Maps</p>
             </div>
 
@@ -407,12 +468,12 @@
         <div class="flex justify-center items-center my-20 relative ">
             <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Результат</h1>
             <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
+               class="item-center font-bold absolute left-48 text-gray-400 z-0">
                 5</p>
         </div>
 
 
-        <div class="grid grid-cols-2 px-20 relative " data-aos="fade-right">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 relative " data-aos="fade-right">
             <div>
                 <div class="grid grid-cols-2">
 
@@ -449,15 +510,15 @@
                     </div>
                 </div>
             </div>
-            <div class=" py-20 m-10 px-20 " data-aos="fade-right">
-
+            <div class="pt-5 grid justify-center items-center" data-aos="fade-right">
+                <img src="https://oe.uz/local/templates/oe/media/images/seo/showcase/seo.svg" alt="">
             </div>
         </div>
 
         <div style="z-index: 100; height: 14rem" class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
                 <h1 class="text-4xl font-bold text-white z-10">Почему мы?</h1>
-                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">
+                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0 opacity-50">
                     6</p>
             </div>
         </div>
@@ -520,14 +581,14 @@
 
 
         <div class="flex justify-center items-center my-20 relative mb-20">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
             <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
+               class="item-center font-bold absolute left-48 text-gray-400 z-0">
                 7</p>
         </div>
 
 
-        <div class="flex container m-auto justify-between  p-20" data-aos="fade-right">
+        <div class="grid grid-cols-1 lg:grid-cols-3 container m-auto justify-center lg:p-20" data-aos="fade-right">
 
             <div class="flex-1 transform hover:scale-110 duration-200">
                 <div class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0">
@@ -614,9 +675,9 @@
         </div>
 
         <div class="flex justify-center items-center my-20 relative mb-20">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Сертификаты</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Сертификаты</h1>
             <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
+               class="item-center font-bold absolute left-48 text-gray-400 z-0">
                 8</p>
 
         </div>
@@ -657,7 +718,7 @@
         <div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative">
             <div class="flex justify-center items-center my-20 pt-10">
                 <h1 class="text-4xl font-bold text-white z-10">SEO Продвижение</h1>
-                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">
+                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0 opacity-50">
                     9</p>
             </div>
         </div>
@@ -675,7 +736,7 @@
                         <b>SEO продвижение сайта</b> – это первый шаг на пути вашего бизнеса к получению продаж в интернете.
                         Работа <b>SEO агенства</b> заключается в том, чтобы клиенты нашли ваш сайт и совершили на нем целевое
                         действие: звонок, заявку или покупку. Мы не только работаем над <b>SEO оптимизацией</b> , мы
-                        настраиваем аналитику, пишем контент и внедряем доработки, также <b>продвигаем сайты в ТОП-10.
+                        настраиваем аналитику, пишем контент и внедряем доработки, также продвигаем сайты в ТОП-10.
                         Заказать SEO продв/b> сво5го сайта можете прямо здесь. Мы позвоним и проконсультируем вас.
                         <br>
                         <br>
@@ -731,10 +792,10 @@
                         </div>
                     </div>
                 </div>
-                <div></div>
+
             </div>
         </div>
-
+</main>
 
 
 
