@@ -1006,61 +1006,58 @@
   <!-- Need a CONSULTATION? -->
   </div>
 
-  <h1 class="px-16 text-3xl py-12">
+  <h1 class="px-16 text-3xl py-5">
     <p class="mb-4">NEED A CONSULTATION?</p>
     <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
-
-
-  <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
+  <form method="POST" action="{{ route('consultation') }}" class="px-16 py-5 text-gray-800">
     @csrf
-    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
-    <div class="flex flex-col lg:flex-row justify-between">
-      <div class="flex flex-col mr-3">
-        <div class="flex justify-between flex-row flex-wrap">
-          <input type="text" name="fullname" placeholder="Full Name"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="text" name="company" placeholder="Company"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="email" name="email" placeholder="Work Email"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-          <input type="text" name="phone_number" placeholder="Work Phone"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+    <p class="py-5">Drop us a line! We are here to answer your questions 24/7.</p>
+    <div class="flex">
+        <div class="w-full">
+            <div class="w-full flex justify-between flex-wrap">
+                <input type="text" name="Name" placeholder="Full Name" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                <input type="text" name="Company" placeholder="Company" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                <input type="email" name="Email" placeholder="Work Email" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                <input type="tel" name="Phone" placeholder="Work Phone" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+            </div>
+            <div class="border border-gray-400 rounded my-5">
+                <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription" placeholder="How can we help you?"></textarea>
+            </div>
+            <button class="bg-blue-500 px-5 m-auto py-2 uppercase font-bold text-white rounded text-sm">Disscuss my needs</button>
         </div>
-        <textarea placeholder="How can we we help you?" cols="3" rows="6"
-          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" name="description" style="margin-right: 0.75rem;"></textarea>
-         <div class="flex justify-center items-center mb-3">
-          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
-         </div>
-      </div>
-      <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
-        <div class="flex flex-col ">
-          <p class="text-xl font-semibold">Our contact details</p>
-          <a href="#" class="flex flex-row items-center text-blue-500 my-3">
-            <i class="fa fa-phone mr-3"></i>
-            <p>(+998) 99 873-48-36</p>
-          </a>
-          <a href="#" class="flex flex-row items-center text-blue-500">
-            <i class="fa fa-envelope mr-3"></i>
-            <p>contact@scnsoft.com</p>
-          </a>
+        <div class="px-5 md:block hidden">
+            <div>
+                <h1 class="font-bold text-xl pb-2">Our contact details</h1>
+                <a class="text-blue-400 flex items-center" href="#">
+                    <i class="fas fa-phone-alt pr-3"></i>
+                    <p>+998 94 123 45 67</p>
+                </a>
+                <a class="text-blue-400 flex items-center" href="#">
+                    <i class="fas fa-envelope pr-3"></i>
+                    <p>teamprodev@gmail.com</p>
+                </a>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl pb-2 mt-4">Press inquires</h1>
+                <a class="text-blue-400 flex items-center text-xs" href="#">
+                    <p class="uppercase">Get in touch with us</p>
+                    <i class="fas fa-arrow-right pl-3"></i>
+                </a>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl pb-2 mt-4">Join our team</h1>
+                <a class="text-blue-400 flex items-center text-xs" href="#">
+                    <p class="uppercase">Check our open vacancies</p>
+                    <i class="fas fa-arrow-right pl-3"></i>
+                </a>
+
+            </div>
+            <div>
+
+            </div>
         </div>
-        <div class="flex flex-col my-3">
-          <p class="text-xl font-semibold mb-3">Press inquires</p>
-          <a href="#" class="flex items-center text-blue-500">
-            <p class="mr-3">GET IN TOUCH WITH US</p>
-            <i class="fa fa-arrow-right"></i>
-          </a>
-        </div>
-        <div class="flex flex-col">
-          <p class="text-xl border-2 font-semibold mb-3">Join our team</p>
-          <a href="#" class="flex items-center text-blue-500">
-            <p class="mr-3">CHECK OUR OPEN VACANCIES</p>
-            <i class="fa fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
     </div>
   </form>
 
