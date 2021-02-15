@@ -43,7 +43,7 @@ class language_scanner extends Command
         foreach (Finder::findFiles('*.blade.php')->from($dir) as $key => $file) {
             $rel_path=explode('views', $file)[1];//end(preg_split('/views/',$file));
             
-            $functionName="@translate_lang";
+            $functionName="translate_lang";
             $content = file_get_contents($file);
             $matches=[];
             if(preg_match_all("#{$functionName} *\( *((['\"])((?:\\\\\\2|.)*?)\\2)#", $content, $matches)) {
