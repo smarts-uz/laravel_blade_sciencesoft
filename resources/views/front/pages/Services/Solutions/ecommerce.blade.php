@@ -32,7 +32,7 @@
       </div>
       <div id="logoHover" class="absolute px-4 py-2 bg-white w-64 z-50 hidden">
         <a href="#" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fab text-xl fa-shopify"></i> eCommers by ZetSoft </a>
-        <a href="#" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fas text-xl fa-globe"></i> ZetSoft Global </a>
+        <a href="/" class="hover:text-blue-400 text-gray-500 py-2 text-lg"> <i class="fas text-xl fa-globe"></i> ZetSoft Global </a>
       </div>
     </div>
         <i onclick="searchBarClick()" class="fa fa-search fa-xl cursor-pointer"></i>
