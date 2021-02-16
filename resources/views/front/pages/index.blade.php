@@ -762,8 +762,7 @@
             <div
                 class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
                 <a href="">
-                    <div
-                        class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
+                    <div class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
                         @if($category->icon)<img class="h-32 w-32" src="{{ "/uploads/categories/".$category->icon }}" alt="logo">@else<img class="h-32 w-32" src="{{ asset('images/default-image.png') }}" alt="logo"> @endif
                     </div>
                 </a>
