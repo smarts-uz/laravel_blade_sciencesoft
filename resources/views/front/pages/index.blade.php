@@ -946,7 +946,7 @@
 
 
   <!-- Ahadov ILhomjon -->
-
+  @isset($blogs)
   <div>
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans("Featured Insights")  }}</h1>
