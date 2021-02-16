@@ -8,48 +8,46 @@
             @foreach ($categories as $category)
                 @if($category->active)
                     <li class="flex mr-10 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
-                        @if(empty($category->path_blade) )
+                        @if(empty($category->path_blade)  )
                             <a id="about" class="relative" href="#">
                                 <h1 class="font-bold hover:text-blue-500 border-b-4 border-white hover:border-blue-500 duration-300 py-4 text-black">{{ $category->name }}</h1>
-                            <div id="aboutHover" class="hidden duration-500 flex absolute left-0 z-40 top-16 border-t-2 border-b-2 bg-white justify-start py-5 px-10">
-                            <div class="w-1/3 px-3">
-                                <h1 class="mb-2 font-bold text-black uppercase">{{ $category->name }}</h1>
-                                <hr class="border-b w-12 border-yellow-500">
-                                <p class="mt-4 text-black text-sm font-normal">{{ $category->description }}</p>
-                                <p class=" mt-4 text-black font-bold">Can't find what you need?</p>
-                                <div class="bg-blue-700 px-6 py-2 text-sm font-bold text-white mt-4 w-36 text-center"><a  href="#">ASK US</a></div>
-                            </div>
-
-                            @foreach ($category->subCategories as $subCategory)
-                                <div class="w-1/5 list-none">
-                                    <h1 class="mb-2 font-bold text-black uppercase">{{ $subCategory->name }}</h1>
+                                <div id="aboutHover" class="hidden duration-500 flex absolute left-0 z-40 top-16 border-t-2 border-b-2 bg-white justify-start py-5 px-10">
+                                <div class="w-1/3 px-3">
+                                    <h1 class="mb-2 font-bold text-black uppercase">{{ $category->name }}</h1>
                                     <hr class="border-b w-12 border-yellow-500">
-                                    <ul>
-                                        @if($subCategory->active && count($subCategory->subCategories))
-                                            @foreach ($subCategory->subCategories as $subSubCategory)
-                                                {{-- <p>{{ $subSubCategory->name }}-{{ $subSubCategory->path_blade }}</p> --}}
-
-                                                <a class="font-normal" href="{{route('getBlade',
-                                                ['page'=>$subSubCategory->path_blade??'404'])}}">
-                                                    <li class="mt-2 text-black hover:text-blue-700 text-sm items-center flex transition
-                                                duration-300 ease-in-out transform hover:translate-x-3">
-                                                @if($subSubCategory->icon)<img class="h-8 w-8 pr-2" src="{{ asset("uploads/categories/icons/".$subSubCategory->icon) }}" alt="logo">@else<img class="h-8 w-8 pr-2" src="{{ asset('images/default-image.png') }}" alt="logo"> @endif
-                                                {{ " ".$subSubCategory->name }}
-
-                                                </li></a>
-
-
-                                                {{-- @isset($subCategory->path_blade)
-                                                hi
-                                                    @includeIf('front.pages.'.$subCategory->path_blade, ['current_page' => $subCategory->path_blade])
-                                                @endisset --}}
-
-                                                {{-- <a href="{{$subCategory->path_blade}}"><li class="mt-4 text-black hover:text-blue-700">{{ $subSubCategory->name }} </li></a> --}}
-                                            @endforeach
-                                        @endif
-                                    </ul>
+                                    <p class="mt-4 text-black text-sm font-normal">{{ $category->description }}</p>
+                                    <p class=" mt-4 text-black font-bold">Can't find what you need?</p>
+                                    <div class="bg-blue-700 px-6 py-2 text-sm font-bold text-white mt-4 w-36 text-center"><a  href="#">ASK US</a></div>
                                 </div>
-                            @endforeach
+
+                                @foreach ($category->subCategories as $subCategory)
+                                    <div class="w-1/5 list-none">
+                                        <h1 class="mb-2 font-bold text-black uppercase">{{ $subCategory->name }}</h1>
+                                        <hr class="border-b w-12 border-yellow-500">
+                                        <ul>
+                                            @if($subCategory->active && count($subCategory->subCategories))
+                                                @foreach ($subCategory->subCategories as $subSubCategory)
+                                                    <a class="font-normal" href="{{route('getBlade',
+                                                    ['page'=>$subSubCategory->path_blade??'404'])}}">
+                                                        <li class="mt-2 text-black hover:text-blue-700 text-sm items-center flex transition
+                                                    duration-300 ease-in-out transform hover:translate-x-3">
+                                                    @if($subSubCategory->icon)<img class="h-8 w-8 pr-2" src="{{ asset("uploads/categories/icons/".$subSubCategory->icon) }}" alt="logo">
+                                                    @else<img class="h-8 w-8 pr-2" src="{{ asset('images/default-image.png') }}" alt="logo"> @endif
+                                                    {{ " ".$subSubCategory->name }}
+                                                    </li></a>
+
+
+                                                    {{-- @isset($subCategory->path_blade)
+                                                    hi
+                                                        @includeIf('front.pages.'.$subCategory->path_blade, ['current_page' => $subCategory->path_blade])
+                                                    @endisset --}}
+
+                                                    {{-- <a href="{{$subCategory->path_blade}}"><li class="mt-4 text-black hover:text-blue-700">{{ $subSubCategory->name }} </li></a> --}}
+                                                @endforeach
+                                            @endif
+                                        </ul>
+                                    </div>
+                                @endforeach
                             </a>
                         @else
                             <a id="{{ $category->name }}" class="font-bold border-b-4 border-white hover:border-blue-500 duration-300 relative py-4" href="{{route('getBlade', ['page'=>$category->path_blade??'404'])}}">

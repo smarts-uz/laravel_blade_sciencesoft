@@ -73,31 +73,31 @@
         <hr />
         <br />
         <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-2">
+{{--            @foreach($categories as $category)--}}
+            @foreach($portfolios as $portfolio)
             <div class="">
                 <div class="bg-blue-100 mx-auto overflow-hidden rounded-xl">
-                    <img
-                        class="w-full transition duration-500 ease-in-out transform hover:scale-110"
-                        src="https://www.brainvire.com/wp/wp-content/uploads/2020/10/PF__CS_thumbnail_Tawasol_Riyadh.jpg"
-                        alt=""
-                    />
+                    <img class="w-full transition duration-500 ease-in-out transform hover:scale-110"
+                        src="/uploads/portfolios/{{ $portfolio->image }}"
+                        alt=""/>
                 </div>
                 <div>
-                    <p class="mt-3 mb-2 text-blue-500">Automobile</p>
+                    <p class="mt-3 mb-2 text-blue-500">{{ $portfolio->name }}</p>
                     <p class="font-bold text-2xl">
-                        Sensor And IoT-Based Vehicle Tracking Mobile App
+                        {{ $portfolio->title }}
                     </p>
-                    <p>
-                        A team of experienced professionals developed a food delivery app
-                        for an elite company.
-                    </p>
+                    <p>{{ $portfolio->sub_title }}</p>
                     <div class="grid grid-cols-3 gap-4 sm:mb-4">
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/06/Laravel.png"
-                                alt=""
-                            />
-                        </div>
+                        @foreach($categories as $category)
+                            @if($category->category_id == 69)
+                                {{$category->icon}}
+                                <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
+                                    <img class="mx-auto"
+                                        src="{{ asset('uploads/categories/icons/' . $category->icon) }}"
+                                        alt=""/>
+                                </div>
+                            @endif
+                        @endforeach
                         <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
                             <img
                                 class="mx-auto"
@@ -115,90 +115,8 @@
                     </div>
                 </div>
             </div>
-            <div class="">
-                <div class="bg-blue-100 mx-auto overflow-hidden rounded-xl">
-                    <img
-                        class="w-full transition duration-500 ease-in-out transform hover:scale-110"
-                        src="https://www.brainvire.com/wp/wp-content/uploads/2020/10/PF__CS_thumbnail_Tawasol_Riyadh.jpg"
-                        alt=""
-                    />
-                </div>
-                <div>
-                    <p class="mt-3 mb-2 text-blue-500">Automobile</p>
-                    <p class="font-bold text-2xl">
-                        Sensor And IoT-Based Vehicle Tracking Mobile App
-                    </p>
-                    <p>
-                        A team of experienced professionals developed a food delivery app
-                        for an elite company.
-                    </p>
-                    <div class="grid grid-cols-3 gap-4 sm:mb-4">
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/06/Laravel.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/06/jwplayer.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/09/ios.png"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="bg-blue-100 mx-auto overflow-hidden rounded-xl">
-                    <img
-                        class="w-full transition duration-500 ease-in-out transform hover:scale-110"
-                        src="https://www.brainvire.com/wp/wp-content/uploads/2020/10/PF__CS_thumbnail_Tawasol_Riyadh.jpg"
-                        alt=""
-                    />
-                </div>
-                <div>
-                    <p class="mt-3 mb-2 text-blue-500">Automobile</p>
-                    <p class="font-bold text-2xl">
-                        Sensor And IoT-Based Vehicle Tracking Mobile App
-                    </p>
-                    <p>
-                        A team of experienced professionals developed a food delivery app
-                        for an elite company.
-                    </p>
-                    <div class="grid grid-cols-3 gap-4 sm:mb-4">
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/06/Laravel.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/06/jwplayer.png"
-                                alt=""
-                            />
-                        </div>
-                        <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                            <img
-                                class="mx-auto"
-                                src="https://www.brainvire.com/wp/wp-content/uploads/2020/09/ios.png"
-                                alt=""
-                            />
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
+{{--            @endforeach--}}
         </div>
 
         <br />
@@ -214,97 +132,6 @@
         <br />
         <br />
 
-        <div class="flex justify-around bg-grey-500 h-90 flex bg-grey-200">
-            <div>
-                <p class="font-bold text-3xl">Key Clients</p>
-                <br />
-                <br />
-                <img
-                    src="https://www.brainvire.com/wp/wp-content/uploads/2020/10/Talk-To-An-Expert-Client-Cloud.png"
-                    alt=""
-                />
-            </div>
-            <div>
-                <form class="border-2 p-10 h-86 ml-5">
-                    <p class="font-bold text-2xl mb-5">Schedule a Consultation</p>
-                    <div class="flex mb-5">
-                        <div class="">
-                            <label class="block text-xl mr-2 my-2"
-                            >Name<span class="text-red-600">*</span></label
-                            >
-                            <input
-                                type="text"
-                                class="p-3 rounded border border-2 focus:outline-none"
-                                required
-                            />
-                        </div>
-                        <div class="ml-10">
-                            <label class="block text-xl mr-2 my-2"
-                            >Email<span class="text-red-600">*</span></label
-                            >
-                            <input
-                                type="text"
-                                class="p-3 rounded border border-2 focus:outline-none"
-                                required
-                            />
-                        </div>
-                    </div>
-                    <div class="flex mb-5">
-                        <div class="">
-                            <label class="block text-xl mr-2 my-2"
-                            >Phone Number<span class="text-red-600">*</span></label
-                            >
-                            <input
-                                type="text"
-                                class="p-3 rounded border border-2 focus:outline-none"
-                                required
-                            />
-                        </div>
-                        <div class="ml-10">
-                            <label class="block text-xl mr-2 my-2"
-                            >Skype ID / Whatsapp Number</label
-                            >
-                            <input
-                                type="text"
-                                class="p-3 rounded border border-2 focus:outline-none"
-                            />
-                        </div>
-                    </div>
-                    <div class="flex mb-5">
-                        <div class="">
-                            <label class="block text-xl mr-2 my-2"
-                            >Project Description<span class="text-red-600">*</span></label
-                            >
-                            <textarea
-                                class="p-3 rounded border border-2 focus:outline-none"
-                            ></textarea>
-                        </div>
-                        <div class="ml-10">
-                            <label class="block text-xl mr-2 my-2"
-                            >Skype ID / Whatsapp Number</label
-                            >
-                            <input
-                                type="text"
-                                class="p-3 rounded border border-2 focus:outline-none"
-                            />
-                        </div>
-                    </div>
-
-                    <button
-                        class="py-4 px-6 rounded bg-blue-700 text-white focus:outline-none active:bg-blue-900"
-                    >
-                        Submit
-                    </button>
-                </form>
-            </div>
-        </div>
-
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
     </div>
 @endsection
 

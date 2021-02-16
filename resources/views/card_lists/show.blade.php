@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('title')
-    Card Lists Details 
+    {{ _trans("Card Lists Details")  }}
 @endsection
 @section('content')
     <section class="section">
         <div class="section-header">
-        <h1>Card Lists Details</h1>
+        <h1>{{ _trans("Card Lists Details")  }}</h1>
         <div class="section-header-breadcrumb">
             <a href="{{ route('cardLists.index') }}"
-                 class="btn btn-primary form-btn float-right">Back</a>
+                 class="btn btn-primary form-btn float-right">{{ _trans("Back")  }}</a>
         </div>
       </div>
    @include('stisla-templates::common.errors')

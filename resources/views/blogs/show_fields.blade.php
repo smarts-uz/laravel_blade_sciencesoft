@@ -33,4 +33,3 @@
     {!! Form::label('description_text', 'Description Text:') !!}
     <p>{{ $blog->description_text }}</p>
 </div>
-
