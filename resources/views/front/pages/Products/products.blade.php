@@ -21,7 +21,7 @@
                         <div class="card w-full md:p-6 md:w-1/2 lg:w-1/3 flex flex-col justify-between">
                             <div>
                                 <div>
-                                    <img src="/uploads/products/{{ $product->image }}" alt="" class="mb-4 w-24">
+                                    <img src="/uploads/products/{{ $product->image??asset('images/default-image.png') }}" alt="" class="mb-4 w-24">
                                 </div>
                                 <h1 class="text-blue-500 font-bold text-md mb-6 capitalize">
                                     {{ $product->name }}

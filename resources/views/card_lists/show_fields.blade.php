@@ -1,7 +1,7 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', 'Image:') !!}
-    <p>{{ $cardLists->image }}</p>
+    <p>{{ $cardLists->image??asset('images/default-image.png') }}</p>
 </div>
 
 <!-- Title Field -->
