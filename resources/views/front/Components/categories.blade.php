@@ -31,11 +31,11 @@
 
                                                 <a class="font-normal" href="{{route('getBlade',
                                                 ['page'=>$subSubCategory->path_blade??'404'])}}">
-                                                    <li class="mt-4 text-black hover:text-blue-700 text-sm  transition
+                                                    <li class="mt-2 text-black hover:text-blue-700 text-sm items-center flex transition
                                                 duration-300 ease-in-out transform hover:translate-x-3">
                                                 @if($subSubCategory->icon)<img class="h-8 w-8" src="{{ "/uploads/categories/".$subSubCategory->icon }}" alt="logo">@else<img class="h-8 w-8" src="{{ asset('images/default-image.png') }}" alt="logo"> @endif
                                                 {{ $subSubCategory->name }}
-                                            
+
                                                 </li></a>
 
 
