@@ -947,7 +947,6 @@
 
   <!-- Ahadov ILhomjon -->
   @isset($blogs)
-
   <div>
     <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
     <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans("Featured Insights")  }}</h1>
@@ -978,7 +977,7 @@
               </div>
           @endforeach
       </div>
-            <a href="{{route('getBlade', ['page'=>$category->path_blade??'404'])}}" class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/5 text-center" id="loadMore">All Blog Articles</a>
+            <a href="{{route('getBlade', ['page'=>'blog'??'404'])}}" class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/5 text-center" id="loadMore">All Blog Articles</a>
   </div>
   @endisset
   <!-- Need a CONSULTATION? -->
