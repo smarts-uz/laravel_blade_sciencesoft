@@ -5,8 +5,8 @@
     <i class="fa fa-chevron-up text-white"></i>
   </div>
   <!-- FOOTER -->
-  <footer class="footer bg-blue-900 relative px-4 md:px-10  lg:px-16 py-6 ">
-        <div class=" sm:mt-0 sm:w-full sm:px-8 flex-col md:flex-row flex-wrap justify-between">
+  <footer class="footer bg-blue-900 relative md:px-16 lg:px-16 px-6 py-6 ">
+        <div class="flex-col md:flex-row flex-wrap justify-between">
           <div class="flex justify-between items-center w-full flex-wrap">
             <div class="flex justify-between w-full items-center flex-wrap">
               <span>
@@ -28,32 +28,32 @@
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-envelope"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white underline ml-2">contact@scnsoft.com</i></a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white hover:underline ml-2">contact@scnsoft.com</i></a>
               </span>
-              <div class="my-2 flex mt-4 w-full md:w-16">
-                <a href="#" class="text-white   hover:text-gray-50 mr-3"><i class="fab fa-dribbble"></i></a>
-                <a href="#" class="text-white  hover:text-gray-50 mr-3"> <i class="fab fa-linkedin-in"></i></a>
-                <a href="#" class="text-white   hover:text-gray-50 mr-3"> <i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-white fa-2xl  hover:text-gray-50 mr-3"><i class="fab fa-twitter"></i></a>
+              <div class="my-2 flex w-full md:w-16">
+                <a href="#" class="text-white   hover:text-gray-50 px-1"><i class="fab fa-dribbble"></i></a>
+                <a href="#" class="text-white  hover:text-gray-50 px-1"> <i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white   hover:text-gray-50 px-1"> <i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white   hover:text-gray-50 px-1"><i class="fab fa-twitter"></i></a>
               </div>
             </div>
           </div>
           <hr class="mt-5 border-t-2 border-gray-100 flex flex-wrap items-center">
           <div class="flex justify-between flex-wrap w-full mt-5">
             <div class="flex flex-row flex-wrap ">
-              <span class="text-base underline w-full md:w-48 text-white text-opacity-70 mr-5 hover:text-white">About
+              <span class="text-base hover:underline w-full md:w-48 text-white text-opacity-70 mr-5 hover:text-white">About
                 ScienceSoft</span>
               <span class="w-full md:w-48"><a href="#"
-                  class="text-base text-white  underline mr-5 text-opacity-70 text-md hover:text-white">Join Us as an
+                  class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">Join Us as an
                   agent</a></span>
               <span class="w-full md:w-48"><a href="#"
-                  class="text-base  text-white  underline mr-5 text-opacity-70 text-md hover:text-white">Privacy Policy</a></span>
+                  class="text-base  text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">Privacy Policy</a></span>
               <span class="w-full md:w-48"><a href="#"
-                  class="text-base text-white  underline mr-5 text-opacity-70 text-md hover:text-white">Terms of Use</a></span>
+                  class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">Terms of Use</a></span>
             </div>
             <div>
               <span class="my-2 text-base text-white text-opacity-70 text-md ">For press inquries:<a
-                  href="mailto: contact@scnsoft.com" class="text-white underline text-opacity-70 text-md hover:text-white">
+                  href="mailto: contact@scnsoft.com" class="text-white px-2 hover:underline text-opacity-70 text-md hover:text-white">
                   contact@scnsoft.com</a></span>
             </div>
           </div>

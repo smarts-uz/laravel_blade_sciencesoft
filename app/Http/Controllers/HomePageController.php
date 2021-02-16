@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use Illuminate\Support\Facades\DB;
@@ -17,7 +18,7 @@ class HomePageController extends Controller
     public function index(){
         // dd('hi');
         $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
+            ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
 //        $cardlists = CardLists::orderBy('id', 'desc')->get();
 //        $lists = Category::with('lists')->get();
@@ -29,7 +30,7 @@ class HomePageController extends Controller
     public function getDynamicPage($page, $name, $items, $translation='en')
     {
         $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
+            ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         if(!view()->exists('front.pages.'.$page)){
             $cards = CardLists::all();
@@ -42,20 +43,20 @@ class HomePageController extends Controller
 
     public function getBlade($page, $translation='en')
     {
-
         $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
+            ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         $teams = CompanyTeam::all();
         $blogs = Blog::all();
         $news = News::all();
         $cards = CardLists::all();
+        $products = Product::all();
         if(!view()->exists('front.pages.'.$page)){
 //            $cards = CardLists::all();
             return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
         }
 
-        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards]);
+        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards, 'products'=>$products]);
 
             $cardlists = CardList::orderBy('id', 'desc')->get();
             return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists]);
