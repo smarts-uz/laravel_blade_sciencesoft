@@ -6,14 +6,14 @@
     <div class="col-lg-6">
         <div class="card">
             <div class="card-header">
-                <h5 class="mb-0 h6">{{ translate_lang('Default Language') }}</h5>
+                <h5 class="mb-0 h6">{{ _trans('Default Language') }}</h5>
             </div>
             <div class="card-body">
                 <form class="form-horizontal" action="" method="POST">
                     @csrf
                     <div class="form-group row">
                         <div class="col-lg-3">
-                            <label class="col-from-label">{{ translate_lang('Default Language') }}</label>
+                            <label class="col-from-label">{{ _trans('Default Language') }}</label>
                         </div>
                         <input type="hidden" name="types[]" value="DEFAULT_LANGUAGE">
                         <div class="col-lg-6">
@@ -24,7 +24,7 @@
                             </select>
                         </div>
                         <div class="col-lg-3">
-                            <button type="submit" class="btn btn-info">{{translate_lang('Save')}}</button>
+                            <button type="submit" class="btn btn-info">{{_trans('Save')}}</button>
                         </div>
                     </div>
                 </form>
@@ -37,7 +37,7 @@
 	<div class="align-items-center">
 		<div class="text-md-right">
 			<a href="{{ route('languages.create') }}" class="btn btn-circle btn-info">
-				<span>{{translate_lang('Add New Language')}}</span>
+				<span>{{_trans('Add New Language')}}</span>
 			</a>
 		</div>
 	</div>
@@ -45,17 +45,17 @@
 
 <div class="card">
     <div class="card-header">
-        <h5 class="mb-0 h6">{{translate_lang('Language')}}</h5>
+        <h5 class="mb-0 h6">{{_trans('Language')}}</h5>
     </div>
     <div class="card-body">
         <table class="table aiz-table mb-0">
             <thead>
                 <tr>
                     <th>#</th>
-                    <th>{{translate_lang('Name')}}</th>
-                    <th>{{translate_lang('Code')}}</th>
-                    <th>{{translate_lang('RTL')}}</th>
-                    <th class="text-right" width="15%">{{translate_lang('Options')}}</th>
+                    <th>{{_trans('Name')}}</th>
+                    <th>{{_trans('Code')}}</th>
+                    <th>{{_trans('RTL')}}</th>
+                    <th class="text-right" width="15%">{{_trans('Options')}}</th>
                 </tr>
             </thead>
             <tbody>
@@ -72,14 +72,14 @@
                             <span class="slider round"></span></label>
                         </td>
                         <td class="text-right">
-                            <a class="btn btn-soft-info btn-icon btn-circle btn-sm" href="{{route('languages.show', encrypt($language->id))}}" title="{{ translate('Translation') }}">
+                            <a class="btn btn-soft-info btn-icon btn-circle btn-sm" href="{{route('languages.show', encrypt($language->id))}}" title="{{ _trans('Translation') }}">
                                 {{ _trans("Show")  }}
                             </a>
-                            <a class="btn btn-soft-primary btn-icon btn-circle btn-sm" href="{{route('languages.edit', encrypt($language->id))}}" title="{{ translate('Edit') }}">
+                            <a class="btn btn-soft-primary btn-icon btn-circle btn-sm" href="{{route('languages.edit', encrypt($language->id))}}" title="{{ _trans('Edit') }}">
                                 {{ _trans("Edit")  }}
                             </a>
                             @if($language->code != 'en')
-                                <a href="#" class="btn btn-soft-danger btn-icon btn-circle btn-sm confirm-delete" data-href="{{route('languages.destroy', $language->id)}}" title="{{ translate('Delete') }}">
+                                <a href="#" class="btn btn-soft-danger btn-icon btn-circle btn-sm confirm-delete" data-href="{{route('languages.destroy', $language->id)}}" title="{{ _trans('Delete') }}">
                                     {{ _trans("Delete")  }}
                                 </a>
                             @endif
@@ -114,7 +114,7 @@
                     location.reload();
                 }
                 else{
-                    AIZ.plugins.notify('danger', '{{ translate_lang('Something went wrong') }}');
+                    AIZ.plugins.notify('danger', '{{ _trans('Something went wrong') }}');
                 }
             });
         }

@@ -7,7 +7,7 @@
         <div class="section-header">
             <h3 class="page__heading m-0">{{ _trans("New Category")  }}</h3>
             <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                <a href="{{ route('categories.index') }}" class="btn btn-primary">{{translate_lang("Back")  }}</a>
+                <a href="{{ route('categories.index') }}" class="btn btn-primary">{{_trans("Back")  }}</a>
             </div>
         </div>
         <div class="content">
