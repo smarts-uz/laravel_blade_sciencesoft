@@ -42,14 +42,14 @@
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <label for="Image">{{ @translate_lang("Image")  }}</label><br>
-                                                 <input type="file"  id="images" name="image" value="{{ $companyTeam->image }}">
+                                                 <label for="Image">{{ _trans("Image") }}</label><br>
+                                                 <input type="file"  id="images" name="image" value="{{ $companyTeam->image??asset('images/default-image.png') }}">
                                              </div>
                                          </div>
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <td><img src="/uploads/teams/{{ $companyTeam->image }}" style="width: 200px; height: 200px;"></td>
+                                                 <td><img src="{{ "/uploads/teams/".$companyTeam->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
                                              </div>
                                          </div>
                                      </div>

@@ -24,7 +24,7 @@
         <div class="w-2/6 p-4">
             <a href="#" class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
                 <div>
-                    <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}"
+                    <img class="w-full h-auto" src="{{ "/uploads/blogs/".$blog->image??asset('images/default-image.png') }}"
                          alt="CardImg">
                 </div>
                 <div class="px-4">

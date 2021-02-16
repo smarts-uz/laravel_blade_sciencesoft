@@ -62,20 +62,20 @@
                                          <!-- Icon Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <label for="Icon">{{ @translate_lang("Icon")  }}</label><br>
-                                                 <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon }}">
+                                                 <label for="Icon">{{ _trans("Icon") }}</label><br>
+                                                 <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="/uploads/categories/icons/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
                                          </div>
 
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <label for="Image">{{ @translate_lang("Image")  }}</label><br>
-                                                 <input type="file" style="width: 500px;" id="images" name="image" value="{{ $category->image }}">
+                                                 <label for="Image">{{ _trans("Image") }}</label><br>
+                                                 <input type="file" style="width: 500px;" id="images" name="image" value="{{ $category->image??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="/uploads/categories/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
                                          </div>
 
                                              <!-- Active Field -->
