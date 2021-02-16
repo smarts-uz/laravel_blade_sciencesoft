@@ -68,9 +68,9 @@
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
                                                  <label for="Icon">Icon</label><br>
-                                                 <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon }}">
+                                                 <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="/uploads/categories/icons/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
                                          </div>
 
@@ -78,9 +78,9 @@
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
                                                  <label for="Image">Image</label><br>
-                                                 <input type="file" style="width: 500px;" id="images" name="image" value="{{ $category->image }}">
+                                                 <input type="file" style="width: 500px;" id="images" name="image" value="{{ $category->image??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="/uploads/categories/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
                                          </div>
 {{--                                         <!-- Active Field -->--}}
 {{--                                         <div class="form-group col-sm-6">--}}

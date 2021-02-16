@@ -24,7 +24,7 @@
 <div class="container mb-24">
     <section class="customer-logos slider px-16">
       @foreach($categories as $category)
-      <div class="slide"><img class="h-32 w-32" src="/uploads/categories/{{ $category->image }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" alt="logo"></div>
       @endforeach
     </section>
   </div>
@@ -763,7 +763,7 @@
                 <a href="">
                     <div
                         class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
-                        <img class="h-32 w-32" src="/uploads/categories/icon/{{ $category->icon }}" alt="logo">
+                        @if($category->icon)<img class="h-32 w-32" src="{{ "/uploads/categories/".$category->icon }}" alt="logo">@else<img class="h-32 w-32" src="{{ asset('images/default-image.png') }}" alt="logo"> @endif
                     </div>
                 </a>
             </div>
@@ -983,7 +983,7 @@
       <div class="flex flex-wrap">
     @foreach($cards as $card)
     <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full mx-3 hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
+      <img class="w-72 h-48" src="{{ "/uploads/cardLists/".$card->image??asset('images/default-image.png') }}"
         alt="Sunset in the mountains">
       <div class="px-6 py-4">
         <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>

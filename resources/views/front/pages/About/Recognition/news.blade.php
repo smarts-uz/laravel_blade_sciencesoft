@@ -13,7 +13,7 @@
             <div class="flex gap-2 flex-wrap md:justify-start lg:justify-center justify-center">
                 @foreach($news as $new)
                 <div class="flex flex-col justify-between max-w-sm mb-6 duration-300 rounded-lg p-3 hover:shadow-2xl">
-                    <img src="/uploads/news/{{ $new->image }}" class="w-96 h-52 mb-6" alt="" srcset="">
+                    <img src="/uploads/news/{{ $new->image??asset('images/default-image.png') }}" class="w-96 h-52 mb-6" alt="" srcset="">
                     <h3 class="font-bold my-2">{{ $new->title }}</h3>
                     <p>{{ $new->sub_title }}</p>
                     <div class="flex justify-between items-center text-blue-500 py-2 text-xs">

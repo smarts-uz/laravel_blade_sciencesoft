@@ -51,8 +51,8 @@
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
                                                  <label for="Image">Image</label><br>
-                                                 <input type="file" id="images" name="image" value="{{ $product->image }}">
-                                                 <td><img src="/uploads/products/{{ $product->image }}" style="width: 200px; height: 200px;"></td>
+                                                 <input type="file" id="images" name="image" value="{{ $product->image??asset('images/default-image.png') }}">
+                                                 <td><img src="/uploads/products/{{ $product->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
                                              </div>
                                          </div>
