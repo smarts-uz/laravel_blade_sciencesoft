@@ -1,6 +1,7 @@
 <table class="table table-responsive-sm table-striped table-bordered" id="categoriesTable" >
     <thead>
     <tr>
+        <th scope="col">{{ _trans("id")  }}</th>
         <th scope="col">{{ _trans("category_id")  }}</th>
         <th scope="col">{{ _trans("name")  }}</th>
         <th scope="col">{{ _trans("name_lang")  }}</th>

@@ -21,8 +21,16 @@
                                  <form method="post" action="{{ route('categories.update', $category->id) }}" enctype="multipart/form-data">
                                      @csrf
                                      @method('PUT')
-                                     <!-- Name Field -->
                                          <div class="row">
+                                         <div class="form-group col-sm-6">
+                                             <label for="id">{{ _trans("Id")  }}</label>
+                                             <input type="number" class="form-control" id="id" name="id" value="{{ $category->id }}">
+                                         </div>
+                                         <div class="form-group col-sm-6">
+                                             <label for="category_id">{{ _trans("Category Id")  }}</label>
+                                             <input type="number" class="form-control" id="category_id" name="category_id" value="{{ $category->category_id }}">
+                                         </div>
+                                         <!-- Name Field -->
                                          <div class="form-group col-sm-6">
                                              <label for="name">{{ _trans("Name")  }}</label>
                                              <input type="text" class="form-control" id="name" name="name" value="{{ $category->name }}">
