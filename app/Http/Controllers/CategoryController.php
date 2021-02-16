@@ -79,7 +79,7 @@ class CategoryController extends AppBaseController
             $file = $request->file('icon');
             $extension = $file->getClientOriginalExtension();
             $fileName = time() . '.' . $extension;
-            $file->move('uploads/categories/', $fileName);
+            $file->move('uploads/categories/icons/', $fileName);
             $category->icon = $fileName;
         }
         $category->save();

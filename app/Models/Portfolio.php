@@ -56,7 +56,7 @@ class Portfolio extends Model
         'industry' => 'string',
         'name' => 'string',
         'title' => 'string',
-        'sub_title' => 'text',
+        'sub_title' => 'string',
         'image' => 'string',
         'blade_link' => 'string'
     ];
