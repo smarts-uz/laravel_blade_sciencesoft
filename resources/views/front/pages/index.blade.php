@@ -1,14 +1,18 @@
 @extends('front.layout')
 
 @section('css')
+  {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> --}}
 
-@endsection
+  <style>
+    .card-lists{
+      display: none;
+  }
+  </style>
+  @endsection
 
 @section('main')
 
-
-
-    <!-- Carousel -->
+ <!-- Carousel -->
  <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
   <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">SOFTWARE CONSULTING AND
     DEVELOPMENT FOR YOUR DIGITAL SUCCESS</h1>
@@ -20,7 +24,7 @@
 <div class="container mb-24">
     <section class="customer-logos slider px-16">
       @foreach($categories as $category)
-      <div class="slide"><img class="h-32 w-32" src="/uploads/categories/{{ $category->image }}" alt="logo"></div>
+      <div class="slide"><img class="h-32 w-32" src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" alt="logo"></div>
       @endforeach
     </section>
   </div>
@@ -28,40 +32,9 @@
   <div class="carousel relative shadow-2xl bg-white px-10 py-10 block lg:hidden">
     <div class="carousel-inner relative overflow-hidden w-full">
       <!--Slide 1-->
-      <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
-        checked="checked">
-      <div class="carousel-item absolute opacity-0">
-        <!-- <div class="block h-full w-full bg-blue-500 text-white text-5xl text-center">Slide 1</div> -->
-        <div class="block h-full w-full text-xl pb-10">
-          <h1 class="text-3xl font-semibold">
-            <p class="mb-2">Software Development</p>
-            <hr class="w-10 h-1 bg-yellow-500">
-          </h1>
-          <p class="my-8 text-gray-600">The development of reliable and scalable software solutions for any OS, browser and
-            device.
-            We bring
-            together deep industry expertise and the latest IT advancements to deliver custom solutions and products
-            that perfectly fit the
-            needs and behavior of their users.</p>
-          <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black hover:text-blue-500">Software consulting</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black  hover:text-blue-500">Custom software development</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black  hover:text-blue-500">Software product development</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black hover:text-blue-500">Team augmentation</a>
-            </li>
-            <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
-              <a href="#" class="text-black hover:text-blue-500">Software development outsourcing</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      {{-- <input class="carousel-open" type="radio" id="carousel-1" name="carousel" hidden=""
+        checked="checked"> --}}
+
       <!--Slide 2-->
       <input class="carousel-open" type="radio" id="carousel-2" name="carousel" hidden="">
       <div class="carousel-item absolute opacity-0">
@@ -739,7 +712,6 @@
           </div>
         </div>
       </div>
-
     </div>
 
 
@@ -777,24 +749,25 @@
          <img src="https://www.scnsoft.com/---home-page-illustrations/image-thumb__22108__home_Image-text/managed-it-services~-~1919w.png" alt="EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF">
        </div>
     </div>
-  </div> 
-    <hr class="w-10 h-1 bg-yellow-600 mb-4" />
-    <p class="w-11/12 text-gray-700 font-light mb-3">
-      Distilling deep tech experience, our experts can help you with
-      platform-specific consulting, solution design and support for your
-      business evolution.
-    </p>
-    <div class="flex flex-wrap overflow-hidden sm:-mx-3">
+  </div>
+  <div class="">
+   <div class=" text-2xl md:text-3xl font-bold m-20">
+           RECOGNITIONS AND PARTNERSHIPS
+           <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+       </div>
+    </div>
+    <div class="flex flex-wrap overflow-hidden">
         @foreach($categories as $category)
+          @if($category->category_id==40)
             <div
                 class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
                 <a href="">
-                    <div
-                        class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
-                        <img class="h-32 w-32" src="/uploads/categories/icon/{{ $category->icon }}" alt="logo">
+                    <div class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
+                        @if($category->icon)<img class="h-32 w-32" src="{{ "/uploads/categories/".$category->icon }}" alt="logo">@else<img class="h-32 w-32" src="{{ asset('images/default-image.png') }}" alt="logo"> @endif
                     </div>
                 </a>
             </div>
+          @endif
         @endforeach
     </div>
   </div>
@@ -1003,19 +976,15 @@
 
   <!-- Ahadov ILhomjon -->
 
-  <div class="mx-6 sm:mx-16 lg:mx-18 ">
+  <div>
     <div class="my-4">
     <h1 class="uppercase font-bold text-2xl pb-4">Featured Insights</h1>
     <hr class="w-10 h-1 bg-yellow-500">
   </div>
-
-
-
-
-  <div class='flex flex-row flex-wrap justify-between'>
+      <div class="flex flex-wrap">
     @foreach($cards as $card)
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full  hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
+    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full mx-3 hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
+      <img class="w-72 h-48" src="{{ "/uploads/cardLists/".$card->image??asset('images/default-image.png') }}"
         alt="Sunset in the mountains">
       <div class="px-6 py-4">
         <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
@@ -1025,66 +994,65 @@
         </p>
       </div>
     </div>
-    @endforeach
-
-    <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto">All Blog Articles</button>
+      @endforeach
+      </div>
+            <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
   </div>
   <!-- Need a CONSULTATION? -->
   </div>
 
-  <h1 class="px-16 text-3xl py-12">
+  <h1 class="px-16 text-3xl py-5">
     <p class="mb-4">NEED A CONSULTATION?</p>
     <hr class="w-10 h-1 bg-yellow-500">
   </h1>
 
-  <form method="POST" action="{{ route('consultation') }}" class="px-16 py-12 bg-gray-200 text-gray-800">
-    @csrf	
-    <label class="">Drop us a line! We are here to answer your questions 24/7.</label>
-    <div class="flex flex-col lg:flex-row justify-between">
-      <div class="flex flex-col mr-3">
-        <div class="flex justify-between flex-row flex-wrap">
-          <input type="text" name="fullname" placeholder="Full Name"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="text" name="company" placeholder="Company"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-          <input type="email" name="email" placeholder="Work Email"
-            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-          <input type="text" name="phone_number" placeholder="Work Phone"
-            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
+  <form method="POST" action="{{ route('consultation') }}" class="px-16 py-5 text-gray-800">
+    @csrf
+    <p class="py-5">Drop us a line! We are here to answer your questions 24/7.</p>
+    <div class="flex">
+        <div class="w-full">
+            <div class="w-full flex justify-between flex-wrap">
+                <input type="text" name="Name" placeholder="Full Name" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                <input type="text" name="Company" placeholder="Company" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                <input type="email" name="Email" placeholder="Work Email" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                <input type="tel" name="Phone" placeholder="Work Phone" class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+            </div>
+            <div class="border border-gray-400 rounded my-5">
+                <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription" placeholder="How can we help you?"></textarea>
+            </div>
+            <button class="bg-blue-500 px-5 m-auto py-2 uppercase font-bold text-white rounded text-sm">Disscuss my needs</button>
         </div>
-        <textarea placeholder="How can we we help you?" cols="3" rows="6"
-          class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3" name="description" style="margin-right: 0.75rem;"></textarea>
-         <div class="flex justify-center items-center mb-3">
-          <button type="submit" class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-52 h-12">Discuss my needs</button>
-         </div>
-      </div>
-      <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
-        <div class="flex flex-col ">
-          <p class="text-xl font-semibold">Our contact details</p>
-          <a href="#" class="flex flex-row items-center text-blue-500 my-3">
-            <i class="fa fa-phone mr-3"></i>
-            <p>(+998) 99 873-48-36</p>
-          </a>
-          <a href="#" class="flex flex-row items-center text-blue-500">
-            <i class="fa fa-envelope mr-3"></i>
-            <p>contact@scnsoft.com</p>
-          </a>
+        <div class="px-5 md:block hidden">
+            <div>
+                <h1 class="font-bold text-xl pb-2">Our contact details</h1>
+                <a class="text-blue-400 flex items-center" href="#">
+                    <i class="fas fa-phone-alt pr-3"></i>
+                    <p>+998 94 123 45 67</p>
+                </a>
+                <a class="text-blue-400 flex items-center" href="#">
+                    <i class="fas fa-envelope pr-3"></i>
+                    <p>teamprodev@gmail.com</p>
+                </a>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl pb-2 mt-4">Press inquires</h1>
+                <a class="text-blue-400 flex items-center text-xs" href="#">
+                    <p class="uppercase">Get in touch with us</p>
+                    <i class="fas fa-arrow-right pl-3"></i>
+                </a>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl pb-2 mt-4">Join our team</h1>
+                <a class="text-blue-400 flex items-center text-xs" href="#">
+                    <p class="uppercase">Check our open vacancies</p>
+                    <i class="fas fa-arrow-right pl-3"></i>
+                </a>
+
+            </div>
+            <div>
+
+            </div>
         </div>
-        <div class="flex flex-col my-3">
-          <p class="text-xl font-semibold mb-3">Press inquires</p>
-          <a href="#" class="flex items-center text-blue-500">
-            <p class="mr-3">GET IN TOUCH WITH US</p>
-            <i class="fa fa-arrow-right"></i>
-          </a>
-        </div>
-        <div class="flex flex-col">
-          <p class="text-xl border-2 font-semibold mb-3">Join our team</p>
-          <a href="#" class="flex items-center text-blue-500">
-            <p class="mr-3">CHECK OUR OPEN VACANCIES</p>
-            <i class="fa fa-arrow-right"></i>
-          </a>
-        </div>
-      </div>
     </div>
   </form>
 
@@ -1094,17 +1062,16 @@
 
 
 @section('js')
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>	
-{{-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>	 --}}
-<script src="{{ asset('js/jquery-latest.min.js') }}"></script>	
-    <script>	
-        $(".card-lists").slice(0, 3).show();	
-        $("#loadMore").click('on', function(){	
-          $(".card-lists:hidden").slice(0, 3).show();	
-            if ($(".card-lists:hidden").length == 0) {	
-              $("#loadMore").fadeOut();	
-            }	
-        });	
-    </script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+            <script src="{{ asset('js/jquery-latest.min.js') }}"></script>
+            <script>
+                $(".card-lists").slice(0, 3).show();
+                $("#loadMore").click('on', function(){
+                    $(".card-lists:hidden").slice(0, 3).show();
+                    if ($(".card-lists:hidden").length == 0) {
+                        $("#loadMore").fadeOut();
+                    }
+                });
+            </script>
 @endsection
-

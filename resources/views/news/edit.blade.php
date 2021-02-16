@@ -37,13 +37,13 @@
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
                                                  <label for="Image">Image</label><br>
-                                                 <input type="file"  id="images" name="image" value="{{ $news->image }}">
+                                                 <input type="file"  id="images" name="image" value="{{ $news->image??asset('images/default-image.png') }}">
                                              </div>
                                          </div>
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <td><img src="/uploads/news/{{ $news->image }}" class="rounded-right" style="width: 200px; height: 200px;"></td>
+                                                 <td><img src="/uploads/news/{{ $news->image??asset('images/default-image.png') }}" class="rounded-right" style="width: 200px; height: 200px;"></td>
                                              </div>
                                          </div>
                                          <!-- Description Text Field -->

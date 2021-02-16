@@ -13,7 +13,7 @@ $(tableName).DataTable({
     },
     columnDefs: [
         {
-            'targets': [11],
+            'targets': [10],
             'orderable': false,
             'className': 'text-center',
             'width': '11%',
@@ -21,8 +21,8 @@ $(tableName).DataTable({
     ],
     columns: [
         {
-            data: 'category_id',
-            name: 'category_id'
+            data: 'id',
+            name: 'id'
         },{
             data: 'category_id',
             name: 'category_id'

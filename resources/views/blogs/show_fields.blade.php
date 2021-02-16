@@ -13,7 +13,7 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', 'Image:') !!}
-    <p>{{ $blog->image }}</p>
+    <p>{{ $blog->image??asset('images/default-image.png') }}</p>
 </div>
 
 <!-- Title Field -->

@@ -1,5 +1,10 @@
 <!-- Parent Id Field -->
 <div class="form-group">
+    {!! Form::label('id', 'Id:') !!}
+    <p>{{ $category->id }}</p>
+</div>
+<!-- Parent Id Field -->
+<div class="form-group">
     {!! Form::label('category_id', 'Parent Id:') !!}
     <p>{{ $category->category_id }}</p>
 </div>
@@ -31,13 +36,13 @@
 <!-- Icon Field -->
 <div class="form-group">
     {!! Form::label('icon', 'Icon:') !!}
-    <p>{{ $category->icon }}</p>
+    <p>{{ $category->icon??asset('images/default-image.png') }}</p>
 </div>
 
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', 'Image:') !!}
-    <p>{{ $category->image }}</p>
+    <p>{{ $category->image??asset('images/default-image.png') }}</p>
 </div>
 
 <!-- Path Blade Field -->

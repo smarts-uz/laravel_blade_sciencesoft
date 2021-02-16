@@ -23,6 +23,10 @@
                                      @method('PUT')
                                      <!-- Name Field -->
                                          <div class="row">
+                                             <div class="form-group col-sm-6">
+                                                 <label for="id">Id</label>
+                                                 <input type="number" class="form-control" id="id" name="id" value="{{ $category->id }}">
+                                             </div>
                                          <div class="form-group col-sm-6">
                                                  <label for="category_id">Category Id</label>
                                                  <input type="number" class="form-control" id="category_id" name="category_id" value="{{ $category->category_id }}">
@@ -64,9 +68,9 @@
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
                                                  <label for="Icon">Icon</label><br>
-                                                 <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon }}">
+                                                 <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="/uploads/categories/icons/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
                                          </div>
 
@@ -74,17 +78,25 @@
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
                                                  <label for="Image">Image</label><br>
-                                                 <input type="file" style="width: 500px;" id="images" name="image" value="{{ $category->image }}">
+                                                 <input type="file" style="width: 500px;" id="images" name="image" value="{{ $category->image??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="/uploads/categories/{{ $category->image }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
                                          </div>
-                                         <!-- Active Field -->
-                                         <div class="form-group col-sm-6">
-                                              <label for="active">Active</label>
-                                              <label class="checkbox-inline">
-                                                  <input type="checkbox" onclick="myCheckbox()" id="myCheck" name="active" value=@if($category->active)'yes'@else'no'@endif @if($category->active) checked @endif/>
-                                              </label>
-                                         </div>
+{{--                                         <!-- Active Field -->--}}
+{{--                                         <div class="form-group col-sm-6">--}}
+{{--                                              <label for="active">Active</label>--}}
+{{--                                              <label class="checkbox-inline">--}}
+{{--                                                  <input type="checkbox" id="myCheck"  name="active" value=@if($category->active)'yes'@else'no'@endif @if($category->active) checked @endif/>--}}
+{{--                                              </label>--}}
+{{--                                         </div>--}}
+                                             <!-- Active Field -->
+                                             <div class="form-group col-sm-6">
+                                                 <label for="active">Active</label>
+                                                 <label class="checkbox-inline">
+                                                     <input type="hidden" name="active" value="0" checked/>
+                                                     <input type="checkbox" name="active" id="cb1" value="1"  />
+                                                 </label>
+                                             </div>
                                          </div>
                                      <!-- Submit Field -->
                                      <div class="form-group col-sm-12">

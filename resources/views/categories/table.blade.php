@@ -1,6 +1,7 @@
 <table class="table table-responsive-sm table-striped table-bordered" id="categoriesTable" >
     <thead>
     <tr>
+        <th scope="col">id</th>
         <th scope="col">category_id</th>
         <th scope="col">name</th>
         <th scope="col">name_lang</th>
