@@ -1,10 +1,5 @@
 <!-- Parent Id Field -->
 <div class="form-group">
-    {!! Form::label('id', 'Id:') !!}
-    <p>{{ $category->id }}</p>
-</div>
-<!-- Parent Id Field -->
-<div class="form-group">
     {!! Form::label('category_id', 'Parent Id:') !!}
     <p>{{ $category->category_id }}</p>
 </div>
@@ -62,4 +57,3 @@
     {!! Form::label('active', 'Active:') !!}
     <p>{{ $category->active }}</p>
 </div>
-

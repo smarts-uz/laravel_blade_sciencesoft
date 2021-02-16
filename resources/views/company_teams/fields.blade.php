@@ -25,5 +25,5 @@
 <!-- Submit Field -->
 <div class="form-group col-sm-12">
     {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-    <a href="{{ route('companyTeams.index') }}" class="btn btn-light">Cancel</a>
+    <a href="{{ route('companyTeams.index') }}" class="btn btn-light">{{ _trans("Cancel")  }}</a>
 </div>
