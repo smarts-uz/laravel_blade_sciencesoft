@@ -3,7 +3,7 @@
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">{{ @translate_lang("Change Password")  }}</h5>
+                <h5 class="modal-title">{{ _trans("Change Password")  }}</h5>
                 <button type="button" aria-label="Close" class="close outline-none" data-dismiss="modal">×</button>
             </div>
             <form method="POST" id='changePasswordForm'>
@@ -23,7 +23,7 @@
                     {{csrf_field()}}
                 <div class="row">
                     <div class="form-group col-sm-12">
-                        <label>{{ @translate_lang("Current Password:")  }}</label><span
+                        <label>{{ _trans("Current Password:")  }}</label><span
                                 class="required confirm-pwd"></span><span class="required">*</span>
                         <div class="input-group">
                             <input class="form-control input-group__addon" id="pfCurrentPassword" type="password"
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="form-group col-sm-12">
-                        <label>{{ @translate_lang("New Password:")  }}</label><span
+                        <label>{{ _trans("New Password:")  }}</label><span
                                 class="required confirm-pwd"></span><span class="required">*</span>
                         <div class="input-group">
                             <input class="form-control input-group__addon" id="pfNewPassword" type="password"
@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="form-group col-sm-12">
-                        <label>{{ @translate_lang("Confirm Password:")  }}</label><span
+                        <label>{{ _trans("Confirm Password:")  }}</label><span
                                 class="required confirm-pwd"></span><span class="required">*</span>
                         <div class="input-group">
                             <input class="form-control input-group__addon" id="pfNewConfirmPassword" type="password"
@@ -63,8 +63,8 @@
                     </div>
                 </div>
                 <div class="text-right">
-                    <button type="submit" class="btn btn-primary" id="btnPrPasswordEditSave" data-loading-text="<span class='spinner-border spinner-border-sm'></span> Processing...">{{ @translate_lang("Save")  }}</button>
-                    <button type="button" class="btn btn-light ml-1" data-dismiss="modal">{{ @translate_lang("Cancel")  }}</button>
+                    <button type="submit" class="btn btn-primary" id="btnPrPasswordEditSave" data-loading-text="<span class='spinner-border spinner-border-sm'></span> Processing...">{{ _trans("Save")  }}</button>
+                    <button type="button" class="btn btn-light ml-1" data-dismiss="modal">{{ _trans("Cancel")  }}</button>
                 </div>
             </div>
             </form>

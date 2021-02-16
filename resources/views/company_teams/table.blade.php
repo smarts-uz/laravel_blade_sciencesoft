@@ -1,8 +1,8 @@
 <table class="table table-responsive-sm table-striped table-bordered" id="companyTeamsTable">
     <thead>
     <tr>
-        <th scope="col">{{ @translate_lang("name")  }}</th><th scope="col">{{ @translate_lang("job")  }}</th><th scope="col">{{ @translate_lang("image")  }}</th><th scope="col">{{ @translate_lang("description")  }}</th>
-        <th scope="col">{{ @translate_lang("Action")  }}</th>
+        <th scope="col">{{ _trans("name")  }}</th><th scope="col">{{ _trans("job")  }}</th><th scope="col">{{ _trans("image")  }}</th><th scope="col">{{ _trans("description")  }}</th>
+        <th scope="col">{{ _trans("Action")  }}</th>
     </tr>
     </thead>
     <tbody>

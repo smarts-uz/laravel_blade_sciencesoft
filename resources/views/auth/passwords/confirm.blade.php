@@ -23,7 +23,7 @@
 
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">{{ @translate_lang("Please confirm your password before continuing.")  }}</p>
+            <p class="login-box-msg">{{ _trans("Please confirm your password before continuing.")  }}</p>
 
             <form method="POST" action="{{ route('password.confirm') }}">
                 @csrf
@@ -32,7 +32,7 @@
                     <input type="password"
                            name="password"
                            class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"
-                           placeholder="{{ @translate_lang("Password")  }}"
+                           placeholder="{{ _trans("Password")  }}"
                            required autocomplete="current-password">
                     <div class="input-group-append">
                         <div class="input-group-text"><span class="fas fa-lock"></span></div>
@@ -45,14 +45,14 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <button type="submit" class="btn btn-primary btn-block">{{ @translate_lang("Confirm Password")  }}</button>
+                        <button type="submit" class="btn btn-primary btn-block">{{ _trans("Confirm Password")  }}</button>
                     </div>
                     <!-- /.col -->
                 </div>
             </form>
 
             <p class="mt-3 mb-1">
-                <a href="{{ route('password.request') }}">{{ @translate_lang("Forgot Your Password")  }}?</a>
+                <a href="{{ route('password.request') }}">{{ _trans("Forgot Your Password")  }}?</a>
             </p>
         </div>
         <!-- /.login-card-body -->

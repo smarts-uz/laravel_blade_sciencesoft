@@ -18,9 +18,9 @@
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base mt-4">
                 <i class="fas fa-map-marker-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ @translate_lang("5900 S. Lake Forest Drive")  }}
-                  {{ @translate_lang("Suite 300,")  }}<br/>
-                  {{ @translate_lang("McKinney, Dallas area, TX 75070")  }}</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ _trans("5900 S. Lake Forest Drive")  }}
+                  {{ _trans("Suite 300,")  }}<br/>
+                  {{ _trans("McKinney, Dallas area, TX 75070")  }}</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-phone-alt"></i>
@@ -58,8 +58,8 @@
             </div>
           </div>
           <div class="flex mt-5">
-            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ @translate_lang("2021 ScienceSoft USA Corporation.")  }}
-              {{ @translate_lang("All rights reserved.")  }}</span>
+            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ _trans("2021 ScienceSoft USA Corporation.")  }}
+              {{ _trans("All rights reserved.")  }}</span>
           </div>
         </div>
       </div>

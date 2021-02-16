@@ -10,28 +10,28 @@
         <div>
 
             <h1 class="uppercase font-bold mt-10 text-2xl">
-                {{ @translate_lang("Software Testing and QA Services")  }}
+                {{ _trans("Software Testing and QA Services")  }}
             </h1>
             <hr class="w-12 mt-5 text-yellow-400 h-4">
             <img src="https://www.scnsoft.com/cover-pictures/software-testing-and-qa-services-new.svg">
 
             <p class="my-10 text-lg">
-                {{ @translate_lang("Software testing services help companies to ensure that their software is fully functional,
+                {{ _trans("Software testing services help companies to ensure that their software is fully functional,
                 reliable,
-                secure, and user-friendly.")  }} <strong>{{ @translate_lang("A software testing company with 31 years of
+                secure, and user-friendly.")  }} <strong>{{ _trans("A software testing company with 31 years of
                 experience")  }}</strong>,
-                {{ @translate_lang("ScienceSoft is ready
+                {{ _trans("ScienceSoft is ready
                 to take up a testing project of any scale and complexity, introduce an efficient quality
                 assurance
                 process, and enhance your software quality management strategy.")  }}
             </p>
             <div class="text-2xl md:text-3xl font-bold">
-                {{ @translate_lang("CHOOSE YOUR SERVICE OPTION")  }}
+                {{ _trans("CHOOSE YOUR SERVICE OPTION")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
 
             <div class="text-2xl md:text-3xl font-bold">
-                {{ @translate_lang("OUR COMPETENCIES AND ACHIEVEMENTS")  }}
+                {{ _trans("OUR COMPETENCIES AND ACHIEVEMENTS")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
             <div class="container">
@@ -50,44 +50,44 @@
             </div>
 
             <div class="text-2xl md:text-3xl font-bold mt-10 uppercase">
-                {{ @translate_lang("test automation for better quality outcomes")  }}
+                {{ _trans("test automation for better quality outcomes")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
             <p>
-                {{ @translate_lang("We combine manual and automated testing and apply our experience with trusted automation
+                {{ _trans("We combine manual and automated testing and apply our experience with trusted automation
                 frameworks to help you accelerate releases, increase test coverage, and find more bugs before
                 they enter production.")  }}
             </p>
 
             <ul class="list-disc text-base md:text-xl">
-                <li><strong>31 {{ @translate_lang("years")  }}</strong> {{ @translate_lang("of experience in providing software testing services.")  }}
+                <li><strong>31 {{ _trans("years")  }}</strong> {{ _trans("of experience in providing software testing services.")  }}
                 </li>
-                <li><strong>18 {{ @translate_lang("years")  }}</strong> {{ @translate_lang("of experience in QA consulting and outsourcing.")  }}
+                <li><strong>18 {{ _trans("years")  }}</strong> {{ _trans("of experience in QA consulting and outsourcing.")  }}
                 </li>
-                <li><strong>730+ {{ @translate_lang("completed software testing projects")  }}</strong> {{ @translate_lang("since")  }} 2010.
+                <li><strong>730+ {{ _trans("completed software testing projects")  }}</strong> {{ _trans("since")  }} 2010.
                 </li>
-                <li><strong>75+ {{ @translate_lang("full-time QA professionals")  }}</strong> {{ @translate_lang("experienced in complex projects (over 80K
+                <li><strong>75+ {{ _trans("full-time QA professionals")  }}</strong> {{ _trans("experienced in complex projects (over 80K
                 person-hours).")  }}
                 </li>
-                <li><strong>{{ @translate_lang("ISO 13485 certified")  }}</strong> {{ @translate_lang("software testing company.")  }}
+                <li><strong>{{ _trans("ISO 13485 certified")  }}</strong> {{ _trans("software testing company.")  }}
                 </li>
-                <li>{{ @translate_lang("Software testing processes in")  }} <strong>{{ @translate_lang("compliance with ISO")  }} 9001:2015</strong>.
+                <li>{{ _trans("Software testing processes in")  }} <strong>{{ _trans("compliance with ISO")  }} 9001:2015</strong>.
                 </li>
-                <li>{{ @translate_lang("Respect to test artefacts required by")  }} <strong>ISO/IEC/IEEE 29119-3:2013</strong>.
+                <li>{{ _trans("Respect to test artefacts required by")  }} <strong>ISO/IEC/IEEE 29119-3:2013</strong>.
                 </li>
-                <li><strong>{{ @translate_lang("ISTQB-certified")  }}</strong>, {{ @translate_lang("domain-trained test engineers.")  }}
+                <li><strong>{{ _trans("ISTQB-certified")  }}</strong>, {{ _trans("domain-trained test engineers.")  }}
                 </li>
-                <li>{{ @translate_lang("In-house")  }} <strong>{{ @translate_lang("center of excellence")  }}</strong> {{ @translate_lang("for software testing services.")  }}
+                <li>{{ _trans("In-house")  }} <strong>{{ _trans("center of excellence")  }}</strong> {{ _trans("for software testing services.")  }}
                 </li>
             </ul>
 
             <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ @translate_lang("TESTING SERVICES FOR DIFFERENT APPLICATION TYPES")  }}
+                {{ _trans("TESTING SERVICES FOR DIFFERENT APPLICATION TYPES")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
 
             <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ @translate_lang("EVERY ASPECT OF YOUR SOFTWARE, VALIDATED")  }}
+                {{ _trans("EVERY ASPECT OF YOUR SOFTWARE, VALIDATED")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
             <!-- <div class="aylan1a"> -->
@@ -99,11 +99,11 @@
                                 alt="">
                         </div>
                         <div class="text-2xl font-bold">
-                            {{ @translate_lang("Full-cycle testing of Image-Processing Applications for a Global Digital Imaging
+                            {{ _trans("Full-cycle testing of Image-Processing Applications for a Global Digital Imaging
                             Leader")  }}
                         </div>
                         <div class="text-base font-normal ">
-                            {{ @translate_lang("We performed automated functional testing of an innovative cross-platform
+                            {{ _trans("We performed automated functional testing of an innovative cross-platform
                             desktop
                             application
                             for image processing and validated its seamless integration with third-party
@@ -119,11 +119,11 @@
                                 alt="">
                         </div>
                         <div class="text-2xl font-bold">
-                            {{ @translate_lang("Full-cycle testing of Image-Processing Applications for a Global Digital Imaging
+                            {{ _trans("Full-cycle testing of Image-Processing Applications for a Global Digital Imaging
                             Leader")  }}
                         </div>
                         <div class="text-base font-normal ">
-                            {{ @translate_lang("We performed automated functional testing of an innovative cross-platform
+                            {{ _trans("We performed automated functional testing of an innovative cross-platform
                             desktop
                             application
                             for image processing and validated its seamless integration with third-party
@@ -133,20 +133,20 @@
                 </div>
 
             <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ @translate_lang("Our Customers Say")  }}
+                {{ _trans("Our Customers Say")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
             <div class="text-lg md:text-2xl leading-relaxed">
 
                 <p>
 
-                    {{ @translate_lang("We started working with ScienceSoft in early 2011 testing our core application called
+                    {{ _trans("We started working with ScienceSoft in early 2011 testing our core application called
                     Careware.
                     The application is quite complex and has many ERP and mobile elements in it.")  }}
                 </p>
 
                 <p>
-                    {{ @translate_lang("We have worked with the team in very close cooperation ever since and value professional as
+                    {{ _trans("We have worked with the team in very close cooperation ever since and value professional as
                     well
                     as flexible attitude towards testing. Since starting our cooperation the test team has
                     changed
@@ -157,7 +157,7 @@
                 <div class="flex justify-end">
                     <em>
                         <strong>
-                            {{ @translate_lang("Roderick Schipper, CTO and Henriette Trampedach, Test Manager, helpLine")  }}
+                            {{ _trans("Roderick Schipper, CTO and Henriette Trampedach, Test Manager, helpLine")  }}
                             B.V.
                         </strong>
                     </em>
@@ -170,7 +170,7 @@
 
             </div>
             <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ @translate_lang("Why testing with sciencesoft is a success")  }}
+                {{ _trans("Why testing with sciencesoft is a success")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
 
@@ -180,9 +180,9 @@
                     <img class="w-14 my-8"
                         src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg"
                         alt="">
-                    <p><strong class="text-xl">{{ @translate_lang("Mature project management")  }}</strong></p>
-                    <p class="mb-20 mt-8">{{ @translate_lang("We have a structured test process compliant with")  }} ISO 13485 {{ @translate_lang("and")  }} ISO
-                        9001:2015 {{ @translate_lang("and
+                    <p><strong class="text-xl">{{ _trans("Mature project management")  }}</strong></p>
+                    <p class="mb-20 mt-8">{{ _trans("We have a structured test process compliant with")  }} ISO 13485 {{ _trans("and")  }} ISO
+                        9001:2015 {{ _trans("and
                         establish result-oriented collaboration with the project team and third-party vendors.")  }}
                     </p>
                 </div>
@@ -190,9 +190,9 @@
                     <img class="w-14 my-8"
                         src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg"
                         alt="">
-                    <p><strong class="text-xl">{{ @translate_lang("Mature project management")  }}</strong></p>
-                    <p class="mt-8">{{ @translate_lang("We have a structured test process compliant with")  }} ISO 13485 and ISO 9001:2015
-                        {{ @translate_lang("and
+                    <p><strong class="text-xl">{{ _trans("Mature project management")  }}</strong></p>
+                    <p class="mt-8">{{ _trans("We have a structured test process compliant with")  }} ISO 13485 and ISO 9001:2015
+                        {{ _trans("and
                         establish result-oriented collaboration with the project team and third-party vendors.")  }}
                     </p>
                 </div>
@@ -200,9 +200,9 @@
                     <img class="w-14 my-8"
                         src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg"
                         alt="">
-                    <p><strong class="text-xl">{{ @translate_lang("Mature project management")  }}</strong></p>
-                    <p class="mt-8">{{ @translate_lang("We have a structured test process compliant with")  }} ISO 13485 and ISO 9001:2015
-                        {{ @translate_lang("and
+                    <p><strong class="text-xl">{{ _trans("Mature project management")  }}</strong></p>
+                    <p class="mt-8">{{ _trans("We have a structured test process compliant with")  }} ISO 13485 and ISO 9001:2015
+                        {{ _trans("and
                         establish result-oriented collaboration with the project team and third-party vendors.")  }}
                     </p>
                 </div>
@@ -210,7 +210,7 @@
             </div>
 
             <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ @translate_lang("More success stories")  }}
+                {{ _trans("More success stories")  }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
             <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
@@ -221,10 +221,10 @@
                             alt="">
                     </div>
                     <div class=" flex flex-col w-4/5 mb-10">
-                        <h1 class="text-3xl md:text-4xl font-bold">{{ @translate_lang("Tailored pricing plan")  }}</h1>
+                        <h1 class="text-3xl md:text-4xl font-bold">{{ _trans("Tailored pricing plan")  }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                         <p class=" text-gray-500 text-xl md:text-2xl">
-                            {{ @translate_lang("We calculate custom-made pricing plans to meet your expectations and adjust pricing
+                            {{ _trans("We calculate custom-made pricing plans to meet your expectations and adjust pricing
                             if your
                             requirements change
                             during our cooperation.")  }}
@@ -232,7 +232,7 @@
 
                     </div>
                 </div>
-                <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">{{ @translate_lang("Learn More")  }}<i
+                <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">{{ _trans("Learn More")  }}<i
                         class="fas fa-arrow-right ml-4"></i></a>
             </div>
             <div class="pt-20"></div>

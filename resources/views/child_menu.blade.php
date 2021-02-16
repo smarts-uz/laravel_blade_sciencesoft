@@ -16,112 +16,112 @@
       <i onclick="closeSidebarMenu()" class="fa cursor-pointer fa-times text-black right-0 text-3xl z-50 absolute top-2 "></i>
       <ul class="flex-col w-56">
         <div class="flex items-center justify-between mt-14 cursor-pointer">
-        <li onclick="dropdownBtnAbout()">{{ @translate_lang("About") }}</li>
+        <li onclick="dropdownBtnAbout()">{{ _trans("About") }}</li>
        <i onclick="dropdownBtnAbout()" class="fas fa-chevron-down arrowDownAbout"></i>
        <span onclick="closedropdownAbout()" class="hidden arrowUpAbout">
         <i class="fas fa-chevron-up"></i>
         </span>
         </div>
         <ul class="dropdown-container-about hidden flex-col mt-6 ml-4">
-          <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Company") }}</h1>
+          <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Company") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="/about/about-company"><li class="mt-4">{{ @translate_lang("About Company") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Management Team") }}</li></a>
-          <a href="/about/careers"><li class="mt-4">{{ @translate_lang("Careers") }}</li></a>
-          <a href="/partnerships"><li class="mt-4">{{ @translate_lang("Partnerships") }}</li></a>
-          <a href="/Sciencesoft-Referral-Program"><li class="mt-4">{{ @translate_lang("ScienceSoft Referral Program") }}</li></a>
-          <a href="/our-locations"><li class="mt-4">{{ @translate_lang("Our Locations")</li></a>
-          <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Approach") }}</h1>
+          <a href="/about/about-company"><li class="mt-4">{{ _trans("About Company") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Management Team") }}</li></a>
+          <a href="/about/careers"><li class="mt-4">{{ _trans("Careers") }}</li></a>
+          <a href="/partnerships"><li class="mt-4">{{ _trans("Partnerships") }}</li></a>
+          <a href="/Sciencesoft-Referral-Program"><li class="mt-4">{{ _trans("ScienceSoft Referral Program") }}</li></a>
+          <a href="/our-locations"><li class="mt-4">{{ _trans("Our Locations")</li></a>
+          <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Approach") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="#"><li class="mt-4">{{ @translate_lang("Development Process") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Sustainability Policy") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Privacy Policy") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Terms Of Use") }}</li></a>
-          <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Recognition") }}</h1>
+          <a href="#"><li class="mt-4">{{ _trans("Development Process") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Sustainability Policy") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Privacy Policy") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Terms Of Use") }}</li></a>
+          <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Recognition") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="#"><li class="mt-4">{{ @translate_lang("Testimonials") }}</li>
-          <a href="/management-Team"><li class="mt-4">{{ @translate_lang("Management Team") }}</li>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Awards and Acknowledgements") }}</li>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Press Room") }}</li>
-          <a href="#"><li class="mt-4">{{ @translate_lang("News") }}</li>
+          <a href="#"><li class="mt-4">{{ _trans("Testimonials") }}</li>
+          <a href="/management-Team"><li class="mt-4">{{ _trans("Management Team") }}</li>
+          <a href="#"><li class="mt-4">{{ _trans("Awards and Acknowledgements") }}</li>
+          <a href="#"><li class="mt-4">{{ _trans("Press Room") }}</li>
+          <a href="#"><li class="mt-4">{{ _trans("News") }}</li>
         </ul>
         <div class="flex items-center justify-between mt-4 cursor-pointer">
-          <li onclick="dropdownBtnServices()" class="relative">{{ @translate_lang("Services") }}</li>
+          <li onclick="dropdownBtnServices()" class="relative">{{ _trans("Services") }}</li>
           <i onclick="dropdownBtnServices()" class="fas fa-chevron-down arrowDownServices"></i>
           <span onclick="closedropdownServices()" class="hidden arrowUpServices">
           <i class="fas fa-chevron-up hidden"></i>
           </span>
           </div>
           <ul class="dropdown-container-Services hidden flex-col mt-6 ml-4">
-            <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Services Types") }}</h1>
+            <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Services Types") }}</h1>
             <hr class="border-b-2 w-12 border-yellow-500">
-            <a href="/services/software-development"><li class="mt-4">{{ @translate_lang("Software Development") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("Testing and QA") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("Application Services") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("UI/UX Design") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("Infrastructure Services") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("Managed IT Services") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("IT Outsourcing") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("IT Consulting") }}</li></a>
-            <a href="#"><li class="mt-4">{{ @translate_lang("IT Support") }}</li></a>
-            <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Solutions") }}</h1>
+            <a href="/services/software-development"><li class="mt-4">{{ _trans("Software Development") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("Testing and QA") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("Application Services") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("UI/UX Design") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("Infrastructure Services") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("Managed IT Services") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("IT Outsourcing") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("IT Consulting") }}</li></a>
+            <a href="#"><li class="mt-4">{{ _trans("IT Support") }}</li></a>
+            <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Solutions") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="#"><li class="mt-4">{{ @translate_lang("Data Analytics") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("CRM") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Cybersecurity") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Internet of Things") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Virtual Reality") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Image Analysis") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Web Portals") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Ecommerce") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Fleet Management") }}</li></a>
-          <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Platforms") }}</h1>
+          <a href="#"><li class="mt-4">{{ _trans("Data Analytics") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("CRM") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Cybersecurity") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Internet of Things") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Virtual Reality") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Image Analysis") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Web Portals") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Ecommerce") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Fleet Management") }}</li></a>
+          <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Platforms") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="#"><li class="mt-4">{{ @translate_lang("SharePoint and Office 365") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Microsoft Dynamics 365") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Microsoft Power BI") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Salesforce") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("Magento") }}</li></a>
-          <a href="#"><li class="mt-4">{{ @translate_lang("ServiceNow") }}</li></a>
-          <h1 class="mb-2 mt-2 font-extrabold">{{ @translate_lang("Technologies") }}</h1>
+          <a href="#"><li class="mt-4">{{ _trans("SharePoint and Office 365") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Microsoft Dynamics 365") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Microsoft Power BI") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Salesforce") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("Magento") }}</li></a>
+          <a href="#"><li class="mt-4">{{ _trans("ServiceNow") }}</li></a>
+          <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Technologies") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
-          <a href="/services/java"><li class="mt-4">{{ @translate_lang("Java") }}</li></a>
-          <a href="/services/NET"><li class="mt-4">{{ @translate_lang(".NET") }}</li></a>
-          <a href="/services/PHP"><li class="mt-4">{{ @translate_lang("PHP") }}</li></a>
-          <a href="/services/python"><li class="mt-4">{{ @translate_lang("Python") }}</li></a>
-          <a href="/services/golang"><li class="mt-4">{{ @translate_lang("Golang") }}</li></a>
-          <a href="/services/c++"><li class="mt-4">{{ @translate_lang("C++") }}</li></a>
-          <a href="/services/configureYourTeam"><li class="mt-4">{{ @translate_lang("Configure Your Team") }}</li></a>
+          <a href="/services/java"><li class="mt-4">{{ _trans("Java") }}</li></a>
+          <a href="/services/NET"><li class="mt-4">{{ _trans(".NET") }}</li></a>
+          <a href="/services/PHP"><li class="mt-4">{{ _trans("PHP") }}</li></a>
+          <a href="/services/python"><li class="mt-4">{{ _trans("Python") }}</li></a>
+          <a href="/services/golang"><li class="mt-4">{{ _trans("Golang") }}</li></a>
+          <a href="/services/c++"><li class="mt-4">{{ _trans("C++") }}</li></a>
+          <a href="/services/configureYourTeam"><li class="mt-4">{{ _trans("Configure Your Team") }}</li></a>
           </ul>
           <div  class="flex items-center justify-between mt-4 cursor-pointer">
-            <li onclick="dropdownBtnIndustries()">{{ @translate_lang("Industries") }}</li>
+            <li onclick="dropdownBtnIndustries()">{{ _trans("Industries") }}</li>
            <i onclick="dropdownBtnIndustries()" class="fas fa-chevron-down arrowDownIndustries"></i>
            <span onclick="closedropdownIndustries()" class="hidden arrowUpIndustries">
             <i class="fas fa-chevron-up hidden"></i>
             </span>
             </div>
             <ul class="dropdown-container-Industries hidden flex-col mt-2 ml-4">
-              <a href="/industries/healthcare"><li class="mt-4">{{ @translate_lang("Healthcare") }}</li></a>
-              <a href="{{route('banking_financial_services')}}"><li class="mt-4">{{ @translate_lang("Banking and Financial Services") }}</li></a>
-              <a href="/industries/retail"><li class="mt-4">{{ @translate_lang("Retail") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("Ecommerce") }}</li></a>
-              <a href="/industries/manufacturing"><li class="mt-4">{{ @translate_lang("Manufacturing") }}</li></a>
-              <a href="/industries/market-Advertising"><li class="mt-4">{{ @translate_lang("Marketing & Advertising") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("Telecommunications") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("eLearning") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("Transportation and Logistics") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("Oil and Gas") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("Professional Services") }}</li></a>
-              <a href="#"><li class="mt-4">{{ @translate_lang("Insurance") }}</li></a>
+              <a href="/industries/healthcare"><li class="mt-4">{{ _trans("Healthcare") }}</li></a>
+              <a href="{{route('banking_financial_services')}}"><li class="mt-4">{{ _trans("Banking and Financial Services") }}</li></a>
+              <a href="/industries/retail"><li class="mt-4">{{ _trans("Retail") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("Ecommerce") }}</li></a>
+              <a href="/industries/manufacturing"><li class="mt-4">{{ _trans("Manufacturing") }}</li></a>
+              <a href="/industries/market-Advertising"><li class="mt-4">{{ _trans("Marketing & Advertising") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("Telecommunications") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("eLearning") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("Transportation and Logistics") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("Oil and Gas") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("Professional Services") }}</li></a>
+              <a href="#"><li class="mt-4">{{ _trans("Insurance") }}</li></a>
             </ul>
-         <a href="#"><li class="mt-4 cursor-pointer">{{ @translate_lang("Case Studies") }}</li></a>
-         <a href="#"><li class="mt-4 cursor-pointer">{{ @translate_lang("Blog") }}</li></a>
-         <a href="/contact-us"><li class="bg-blue-700 py-1 px-8 text-white w-36 mt-4">{{ @translate_lang("Let's Talk") }}</li></a>
+         <a href="#"><li class="mt-4 cursor-pointer">{{ _trans("Case Studies") }}</li></a>
+         <a href="#"><li class="mt-4 cursor-pointer">{{ _trans("Blog") }}</li></a>
+         <a href="/contact-us"><li class="bg-blue-700 py-1 px-8 text-white w-36 mt-4">{{ _trans("Let's Talk") }}</li></a>
       </ul>
     </div>
     <div class="mb-8">
-      <p>{{ @translate_lang("Can't find what you need?") }}</p>
-      <button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ @translate_lang("Ask Us") }}</button>
+      <p>{{ _trans("Can't find what you need?") }}</p>
+      <button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ _trans("Ask Us") }}</button>
     </div>
   </div>
   <div class="px-10 md:px-16 lg:px-16 py-4">
@@ -135,53 +135,53 @@
         <ul class="w-11/12 hidden lg:flex justify-end items-center font-semibold list-none uppercase text-black">
           <li class="flex mr-8 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
             <a id="about" class="relative py-6" href="#">
-            {{ @translate_lang("About") }}
+            {{ _trans("About") }}
             <div id="aboutHover" class="hidden flex absolute left-0 z-40 justify-evenly top-20 border-t-2 border-b-2 bg-white items-start py-6">
               <div class="w-1/5">
-                <h1 class="mb-2 font-extrabold">{{ @translate_lang("About") }}</h1>
+                <h1 class="mb-2 font-extrabold">{{ _trans("About") }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
-                <p class="mt-4 text-black font-normal">{{ @translate_lang("ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.") }}</p>
-                <p class="font-extrabold mt-4 text-black">{{ @translate_lang("Can't find what you need?") }}</p>
-                <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a href="#">{{ @translate_lang("ASK US") }}</a></div>
+                <p class="mt-4 text-black font-normal">{{ _trans("ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.") }}</p>
+                <p class="font-extrabold mt-4 text-black">{{ _trans("Can't find what you need?") }}</p>
+                <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a href="#">{{ _trans("ASK US") }}</a></div>
               </div>
               <div class="w-1/5 list-none">
-                <h1 class="mb-2 font-extrabold">{{ @translate_lang("Company") }}</h1>
+                <h1 class="mb-2 font-extrabold">{{ _trans("Company") }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-                <a href="/about/about-company"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("About Company") }}</li></a>
-                <a href="/management-Team"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Management Team") }}</li></a>
-                <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Careers") }}</li></a>
-                <a href="/partnerships"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Partnerships") }}</li></a>
-                <a href="/Sciencesoft-Referral-Program"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("ScienceSoft Referral Program") }}</li></a>
-                <a href="/our-locations"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Our Locations") }}</li></a>
+                <a href="/about/about-company"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("About Company") }}</li></a>
+                <a href="/management-Team"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Management Team") }}</li></a>
+                <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Careers") }}</li></a>
+                <a href="/partnerships"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Partnerships") }}</li></a>
+                <a href="/Sciencesoft-Referral-Program"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("ScienceSoft Referral Program") }}</li></a>
+                <a href="/our-locations"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Our Locations") }}</li></a>
               </ul>
               </div>
               <div class="w-1/5 list-none">
-                <h1 class="mb-2 font-extrabold">{{ @translate_lang("Approach") }}</h1>
+                <h1 class="mb-2 font-extrabold">{{ _trans("Approach") }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Development Process") }}</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Sustainability Policy") }}</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Privacy Policy") }}</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Terms Of Use") }}</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Development Process") }}</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Sustainability Policy") }}</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Privacy Policy") }}</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Terms Of Use") }}</li></a>
               </ul>
               </div>
               <div class="w-1/5 list-none">
-                <h1 class="mb-2 font-extrabold">{{ @translate_lang("Recognition") }}</h1>
+                <h1 class="mb-2 font-extrabold">{{ _trans("Recognition") }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <ul>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Testimonials") }}</li>
-                <a href="/management-Team"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Management Team") }}</li>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Awards and Acknowledgements") }}</li>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("Press Room") }}</li>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ @translate_lang("News") }}</li>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Testimonials") }}</li>
+                <a href="/management-Team"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Management Team") }}</li>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Awards and Acknowledgements") }}</li>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Press Room") }}</li>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("News") }}</li>
                 </ul>
               </div>
             </div>
           </a>
           </li>
           <li class="flex justify-center items- center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
-          <a href="/contact-us">{{ @translate_lang("Let's talk") }}</a>
+          <a href="/contact-us">{{ _trans("Let's talk") }}</a>
           </li>
         </ul>
         <!-- Search Bar -->

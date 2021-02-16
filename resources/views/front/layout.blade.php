@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
   <link rel="stylesheet" href="{{ asset('style.css') }}">
   <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
-  <title>{{ @translate_lang("Sciensoft Development Company")  }}</title>
+  <title>{{ _trans("Sciensoft Development Company")  }}</title>
 
 
 

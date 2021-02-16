@@ -3,7 +3,7 @@
         <!-- Modal content-->
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">{{ @translate_lang("Edit Profile")  }}</h5>
+                <h5 class="modal-title">{{ _trans("Edit Profile")  }}</h5>
                 <button type="button" aria-label="Close" class="close outline-none" data-dismiss="modal">×</button>
             </div>
             <form method="POST" id="editProfileForm" enctype="multipart/form-data">
@@ -14,15 +14,15 @@
                     {{csrf_field()}}
                     <div class="row">
                         <div class="form-group col-sm-6">
-                            <label>{{ @translate_lang("Name:")  }}</label><span class="required">*</span>
+                            <label>{{ _trans("Name:")  }}</label><span class="required">*</span>
                             <input type="text" name="name" id="pfName" class="form-control" required autofocus tabindex="1">
                         </div>
                         <div class="form-group col-sm-6 d-flex">
                             <div class="col-sm-4 col-md-6 pl-0 form-group">
-                                <label>{{ @translate_lang("Profile Image:")  }}</label>
+                                <label>{{ _trans("Profile Image:")  }}</label>
                                 <br>
                                 <label class="image__file-upload btn btn-primary text-white"
-                                        tabindex="2">{{ @translate_lang("Choose")  }}
+                                        tabindex="2">{{ _trans("Choose")  }}
                                     <input type="file" name="photo" id="pfImage" class="d-none" >
                                 </label>
                             </div>
@@ -34,14 +34,14 @@
                     </div>
                     <div class="row">
                         <div class="form-group col-sm-6">
-                            <label>{{ @translate_lang("Email:")  }}</label><span class="required">*</span>
+                            <label>{{ _trans("Email:")  }}</label><span class="required">*</span>
                             <input type="text" name="email" id="pfEmail" class="form-control" required tabindex="3">
                         </div>
                     </div>
                     <div class="text-right">
-                        <button type="submit" class="btn btn-primary" id="btnPrEditSave" data-loading-text="<span class='spinner-border spinner-border-sm'></span> Processing..." tabindex="5">{{ @translate_lang("Save")  }}</button>
+                        <button type="submit" class="btn btn-primary" id="btnPrEditSave" data-loading-text="<span class='spinner-border spinner-border-sm'></span> Processing..." tabindex="5">{{ _trans("Save")  }}</button>
                         <button type="button" class="btn btn-light ml-1 edit-cancel-margin margin-left-5"
-                                data-dismiss="modal">{{ @translate_lang("Cancel")  }}</button>
+                                data-dismiss="modal">{{ _trans("Cancel")  }}</button>
                     </div>
                 </div>
             </form>

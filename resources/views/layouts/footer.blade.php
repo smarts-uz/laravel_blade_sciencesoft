@@ -1,3 +1,3 @@
 <div class="footer-left">
-    {{ @translate_lang("All rights reserved")  }} & {{ @translate_lang("copy")  }}; {{ date('Y') }}
+    {{ _trans("All rights reserved")  }} & {{ _trans("copy")  }}; {{ date('Y') }}
 </div>

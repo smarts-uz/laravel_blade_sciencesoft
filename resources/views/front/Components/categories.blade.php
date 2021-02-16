@@ -14,8 +14,8 @@
                         <h1 class="mb-2 font-bold">{{ $category->name }}</h1>
                         <hr class="border-b-2 w-12 border-yellow-500">
                         <p class="mt-4 text-black font-medium">{{ $category->description }}</p>
-                        <p class=" mt-4 text-black font-medium">{{ @translate_lang("Can't find what you need?")  }}  }}</p>
-                        <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a href="#">{{ @translate_lang("ASK US")  }}  }}</a></div>
+                        <p class=" mt-4 text-black font-medium">{{ _trans("Can't find what you need?")  }}  }}</p>
+                        <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a href="#">{{ _trans("ASK US")  }}  }}</a></div>
                     </div>
                     @if(empty($category->path_blade))
                         @foreach ($category->subCategories as $subCategory)

@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('title')
-    {{ @translate_lang("Edit Blog")  }}
+    {{ _trans("Edit Blog")  }}
 @endsection
 @section('content')
     <section class="section">
             <div class="section-header">
-                <h3 class="page__heading m-0">{{ @translate_lang("Edit Blog")  }}</h3>
+                <h3 class="page__heading m-0">{{ _trans("Edit Blog")  }}</h3>
                 <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                    <a href="{{ route('blogs.index') }}"  class="btn btn-primary">{{ @translate_lang("Back")  }}</a>
+                    <a href="{{ route('blogs.index') }}"  class="btn btn-primary">{{ _trans("Back")  }}</a>
                 </div>
             </div>
   <div class="content">
@@ -24,13 +24,13 @@
                                      <div class="row">
                                          <!-- Tag Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="tag">{{ @translate_lang("Tag")  }}</label>
+                                             <label for="tag">{{ _trans("Tag")  }}</label>
                                              <textarea class="form-control" id="tag" name="tag">{{ old('tag', $blog->tag) }}</textarea>
                                          </div>
 
                                          <!-- Title Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="title">{{ @translate_lang("Title")  }}</label>
+                                             <label for="title">{{ _trans("Title")  }}</label>
                                              <input type="text" class="form-control" id="title" name="title" value="{{ $blog->title }}">
                                          </div>
 

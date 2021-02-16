@@ -73,14 +73,14 @@
                         </td>
                         <td class="text-right">
                             <a class="btn btn-soft-info btn-icon btn-circle btn-sm" href="{{route('languages.show', encrypt($language->id))}}" title="{{ translate('Translation') }}">
-                                {{ @translate_lang("Show")  }}
+                                {{ _trans("Show")  }}
                             </a>
                             <a class="btn btn-soft-primary btn-icon btn-circle btn-sm" href="{{route('languages.edit', encrypt($language->id))}}" title="{{ translate('Edit') }}">
-                                {{ @translate_lang("Edit")  }}
+                                {{ _trans("Edit")  }}
                             </a>
                             @if($language->code != 'en')
                                 <a href="#" class="btn btn-soft-danger btn-icon btn-circle btn-sm confirm-delete" data-href="{{route('languages.destroy', $language->id)}}" title="{{ translate('Delete') }}">
-                                    {{ @translate_lang("Delete")  }}
+                                    {{ _trans("Delete")  }}
                                 </a>
                             @endif
                         </td>

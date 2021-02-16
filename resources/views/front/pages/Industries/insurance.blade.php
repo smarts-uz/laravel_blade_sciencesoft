@@ -9,7 +9,7 @@
 <main class="mx-6 md:mx-16 lg:mx-24 my-10">
 
       <div>
-        <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-5 ">{{ @translate_lang("Insurance Software: IT Solutions for Streamlined Insurance Services")  }}</p>
+        <p class="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold pt-5 ">{{ _trans("Insurance Software: IT Solutions for Streamlined Insurance Services")  }}</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
       </div>
 
@@ -18,9 +18,9 @@
       </div>
 
       <div class="text-xl py-4">
-        <p class="mb-4">{{ @translate_lang("IT solutions for insurance allow insurers to speed up service delivery, reduce labor costs, achieve insurance data accuracy and compliance with government regulations, as well as provide a personalized approach to clients and improve customer service.")  }}</p>
+        <p class="mb-4">{{ _trans("IT solutions for insurance allow insurers to speed up service delivery, reduce labor costs, achieve insurance data accuracy and compliance with government regulations, as well as provide a personalized approach to clients and improve customer service.")  }}</p>
 
-        <p> {{ @translate_lang("Having 8-year experience with theinsurance industry, ScienceSoftprovides insurance companies with ITsolutions and related services fromsolution consulting to support to helpthem")  }} <span class="font-bold">{{ @translate_lang("facilitate digital lead generationand increase the efficiency ofapplication processing and claimmanagement.")  }}</span></p>
+        <p> {{ _trans("Having 8-year experience with theinsurance industry, ScienceSoftprovides insurance companies with ITsolutions and related services fromsolution consulting to support to helpthem")  }} <span class="font-bold">{{ _trans("facilitate digital lead generationand increase the efficiency ofapplication processing and claimmanagement.")  }}</span></p>
       </div>
 
       <div class="mb-10">
@@ -28,16 +28,16 @@
             class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8"
           >
             <div class="flex flex-col">
-              <h1 class="text-xl font-bold">{{ @translate_lang("Eager to Improve Your Insurance Services?")  }}</h1>
+              <h1 class="text-xl font-bold">{{ _trans("Eager to Improve Your Insurance Services?")  }}</h1>
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
                 <p class="text-gray-500 pr-5 text-xl w-full lg:w-4/5">
-                  {{ @translate_lang("ScienceSoft’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
+                  {{ _trans("ScienceSoft’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
                 </p>
                 <button
                 class="uppercase text-white text-sm bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center w-full focus:outline-none hover:bg-blue-800 md:p-4 sm:p-4"
                 >
-                {{ @translate_lang("GET A CONSULTATION")  }}
+                {{ _trans("GET A CONSULTATION")  }}
                 </button>
               </div>
               </div>
@@ -46,7 +46,7 @@
       </div>
 
       <div class="mx-6 md:mx-16 lg:mx-24 my-10">
-        <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">{{ @translate_lang("WHAT MAKES SCIENCESOFT A RELIABLE PARTNER")  }}</p>
+        <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">{{ _trans("WHAT MAKES SCIENCESOFT A RELIABLE PARTNER")  }}</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <!-- STARS -->
         <div class="grid md:grid-cols-3 gap-4 border mb-4">
@@ -54,19 +54,19 @@
             <div class="flex justify-center pb-10">
               <img src="{{ asset ('/images/industries/insurance/star.svg')}}" alt="" class="w-10">
             </div>
-            <p class="text-center text-xl"><b>31</b> {{ @translate_lang("years in software")  }} <br> {{ @translate_lang("development and consulting")  }}</p>
+            <p class="text-center text-xl"><b>31</b> {{ _trans("years in software")  }} <br> {{ _trans("development and consulting")  }}</p>
           </div>
           <div>
             <div class="flex justify-center pb-10">
               <img src="{{ asset ('/images/industries/insurance/star.svg')}}" alt="" class="w-10">
             </div>
-            <p class="text-center text-xl"><b>8</b> {{ @translate_lang("years in IT for insurance")  }}</p>
+            <p class="text-center text-xl"><b>8</b> {{ _trans("years in IT for insurance")  }}</p>
           </div>
           <div>
             <div class="flex justify-center pb-10">
               <img src="{{ asset ('/images/industries/insurance/star.svg')}}" alt="" class="w-10">
             </div>
-            <p class="text-center text-xl">{{ @translate_lang("Experience in delivering both")  }} <br><b>B2B</b> {{ @translate_lang("and")  }} <b>B2C</b> {{ @translate_lang("insurance")  }} <br> {{ @translate_lang("solutions.")  }}</p>
+            <p class="text-center text-xl">{{ _trans("Experience in delivering both")  }} <br><b>B2B</b> {{ _trans("and")  }} <b>B2C</b> {{ _trans("insurance")  }} <br> {{ _trans("solutions.")  }}</p>
           </div>
         </div>
         <!-- END-STARS -->
@@ -75,20 +75,20 @@
             <div class="flex justify-center pb-5">
               <img class="w-28" src="{{ asset ('/images/industries/insurance/aws-apn-select-consulting-partner.svg')}}" alt="">
             </div>
-            <p><b>{{ @translate_lang("AWS Select Tier")  }}</b> {{ @translate_lang("partnership")  }}</p>
+            <p><b>{{ _trans("AWS Select Tier")  }}</b> {{ _trans("partnership")  }}</p>
           </div>
           <div class="text-center">
             <div class="flex justify-center pb-5">
               <img class="w-72 border" src="{{ asset ('/images/industries/insurance/microsoft-gold-partner-8-competences.svg')}}" alt="" >
             </div>
-            <p><b>8</b> {{ @translate_lang("Microsoft Gold Competencies")  }}</p>
+            <p><b>8</b> {{ _trans("Microsoft Gold Competencies")  }}</p>
           </div>
         </div>
       </div>
 
       <!-- PIC-CARD -->
       <div class="mx-6 md:mx-16 lg:mx-24 my-10">
-        <p class="text-xl md:text-3xl lg:text-3xl font-bold pt-5 ">{{ @translate_lang("IT SOLUTIONS FOR INSURANCE WE DEVELOP")  }}</p>
+        <p class="text-xl md:text-3xl lg:text-3xl font-bold pt-5 ">{{ _trans("IT SOLUTIONS FOR INSURANCE WE DEVELOP")  }}</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <div class="grid md:grid-cols-2">
           <div class="shadow-xl border m-6">
@@ -100,27 +100,27 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("Underwriting")  }}
+                {{ _trans("Underwriting")  }}
               </p>
               <ul class="list-disc mb-3 ml-6">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Processing customers’ applications.")  }}
+                  {{ _trans("Processing customers’ applications.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Conversion of prospects into customers.")  }}
+                  {{ _trans("Conversion of prospects into customers.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Risk management.")  }}
+                  {{ _trans("Risk management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Premium calculation.")  }}
+                  {{ _trans("Premium calculation.")  }}
                 </li>
                 <li class="mb-1 text-gray-800 mb-5">
-                  {{ @translate_lang("Compliance management.")  }}
+                  {{ _trans("Compliance management.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
-              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ @translate_lang("Cloud-native solutions based on Azure and AWS services")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
+              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ _trans("Cloud-native solutions based on Azure and AWS services")  }}</p>
             </div>
           </div>
           <div class="lg:mx-4 shadow-xl border m-6">
@@ -132,21 +132,21 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("Claim estimation")  }}
+                {{ _trans("Claim estimation")  }}
               </p>
               <ul class="list-disc mb-3 ml-5">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Claim submission and management.")  }}
+                  {{ _trans("Claim submission and management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Damage estimation.")  }}
+                  {{ _trans("Damage estimation.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Compliance assurance.")  }}
+                  {{ _trans("Compliance assurance.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
-              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ @translate_lang("Cloud-native solutions based on Azure and AWS services PWA or native mobile applications")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
+              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ _trans("Cloud-native solutions based on Azure and AWS services PWA or native mobile applications")  }}</p>
             </div>
           </div>
         </div>
@@ -160,24 +160,24 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("Injury management")  }}
+                {{ _trans("Injury management")  }}
               </p>
               <ul class="list-disc mb-3 ml-6">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Case processing and claim management.")  }}
+                  {{ _trans("Case processing and claim management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Insurance coverage.")  }}
+                  {{ _trans("Insurance coverage.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Treatment plans and reimbursement.")  }}
+                  {{ _trans("Treatment plans and reimbursement.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Compensations for injuries.")  }}
+                  {{ _trans("Compensations for injuries.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
-              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ @translate_lang("Cloud-native solutions based on Azure and AWS services")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
+              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ _trans("Cloud-native solutions based on Azure and AWS services")  }}</p>
             </div>
           </div>
           <div class="lg:mx-4 shadow-xl border m-6">
@@ -189,58 +189,58 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("CRM")  }}
+                {{ _trans("CRM")  }}
               </p>
-              <p class="font-bold text-md">{{ @translate_lang("Marketing")  }}</p>
+              <p class="font-bold text-md">{{ _trans("Marketing")  }}</p>
               <ul class="list-disc mb-3 ml-5">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Building brand awareness.")  }}
+                  {{ _trans("Building brand awareness.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Content marketing.")  }}
+                  {{ _trans("Content marketing.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Customer journey management.")  }}
+                  {{ _trans("Customer journey management.")  }}
                 </li>
               </ul>
-              <p class="font-bold text-md">{{ @translate_lang("B2C Sales")  }}</p>
+              <p class="font-bold text-md">{{ _trans("B2C Sales")  }}</p>
               <ul class="list-disc mb-3 ml-5">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Online sales.")  }}
+                  {{ _trans("Online sales.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("In-person sales.")  }}
+                  {{ _trans("In-person sales.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Integration with underwriting software.")  }}
+                  {{ _trans("Integration with underwriting software.")  }}
                 </li>
               </ul>
-              <p class="font-bold text-md">{{ @translate_lang("B2B Sales")  }}</p>
+              <p class="font-bold text-md">{{ _trans("B2B Sales")  }}</p>
               <ul class="list-disc mb-3 ml-5">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Long-cycle sales.")  }}
+                  {{ _trans("Long-cycle sales.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Account development.")  }}
+                  {{ _trans("Account development.")  }}
                 </li>
               </ul>
-              <p class="font-bold text-md">{{ @translate_lang("Customer service")  }}</p>
+              <p class="font-bold text-md">{{ _trans("Customer service")  }}</p>
               <ul class="list-disc mb-3 ml-5">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Omni-channel communication.")  }}
+                  {{ _trans("Omni-channel communication.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Case management.")  }}
+                  {{ _trans("Case management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Registering claims.")  }}
+                  {{ _trans("Registering claims.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
               <div class="flex justify-between">
-                <p class="text-sm rounded bg-green-50 mb-1 w-50">{{ @translate_lang("Dynamics 365 Marketing")  }}</p>
-                <p class="text-sm rounded bg-green-50 mb-1 w-30">{{ @translate_lang("Dynamics 365 Sales")  }}</p>
-                <p class="text-sm rounded bg-green-50 mb-1 w-40">{{ @translate_lang("Dynamics 365 Customer Service")  }}</p>
+                <p class="text-sm rounded bg-green-50 mb-1 w-50">{{ _trans("Dynamics 365 Marketing")  }}</p>
+                <p class="text-sm rounded bg-green-50 mb-1 w-30">{{ _trans("Dynamics 365 Sales")  }}</p>
+                <p class="text-sm rounded bg-green-50 mb-1 w-40">{{ _trans("Dynamics 365 Customer Service")  }}</p>
               </div>
             </div>
           </div>
@@ -255,24 +255,24 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("Customer portal")  }}
+                {{ _trans("Customer portal")  }}
               </p>
               <ul class="list-disc mb-3 ml-6">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Up to 100% of clients’ self-service.")  }}
+                  {{ _trans("Up to 100% of clients’ self-service.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Application management.")  }}
+                  {{ _trans("Application management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Claim management.")  }}
+                  {{ _trans("Claim management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("AI assistant.")  }}
+                  {{ _trans("AI assistant.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
-              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ @translate_lang("Cloud-native solutions based on Azure and AWS services")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
+              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ _trans("Cloud-native solutions based on Azure and AWS services")  }}</p>
             </div>
           </div>
           <div class="lg:mx-4 shadow-xl border m-6">
@@ -284,21 +284,21 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("Data analytics")  }}
+                {{ _trans("Data analytics")  }}
               </p>
               <ul class="list-disc mb-3 ml-5">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Risk management.")  }}
+                  {{ _trans("Risk management.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Fraud detection.")  }}
+                  {{ _trans("Fraud detection.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Customer behavior analysis.")  }}
+                  {{ _trans("Customer behavior analysis.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
-              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ @translate_lang("Cloud-native solutions based on Azure and AWS services PWA or native mobile applications")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
+              <p class="text-sm rounded bg-green-50 mb-10 p-1">{{ _trans("Cloud-native solutions based on Azure and AWS services PWA or native mobile applications")  }}</p>
             </div>
           </div>
         </div>
@@ -312,30 +312,30 @@
                 class="w-28 mx-auto"
               />
               <p class="text-center mt-5 text-xl font-bold">
-                {{ @translate_lang("Business intelligence")  }}
+                {{ _trans("Business intelligence")  }}
               </p>
               <ul class="list-disc mb-3 ml-6">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Finance analytics.")  }}
+                  {{ _trans("Finance analytics.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Customer analytics.")  }}
+                  {{ _trans("Customer analytics.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Performance analytics.")  }}
+                  {{ _trans("Performance analytics.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Workforce analytics.")  }}
+                  {{ _trans("Workforce analytics.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Operational analytics.")  }}
+                  {{ _trans("Operational analytics.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Planning and forecasting.")  }}
+                  {{ _trans("Planning and forecasting.")  }}
                 </li>
               </ul>
-              <p class="font-semibold mb-1">{{ @translate_lang("Technology/platform")  }}</p>
-              <p class="text-sm rounded bg-green-50 mb-10 p-1 w-20">{{ @translate_lang("Power BI")  }}</p>
+              <p class="font-semibold mb-1">{{ _trans("Technology/platform")  }}</p>
+              <p class="text-sm rounded bg-green-50 mb-10 p-1 w-20">{{ _trans("Power BI")  }}</p>
             </div>
           </div>
         </div>
@@ -348,16 +348,16 @@
             class="rounded-sm  border-2 border-white shadow-2xl transition-shadow mx-6 md:mx-16 lg:mx-24 my-10 mr-20 p-8 mt-20"
           >
             <div class="flex flex-col ">
-              <h1 class="text-xl font-bold">{{ @translate_lang("Eager to Improve Your Insurance Services?")  }}</h1>
+              <h1 class="text-xl font-bold">{{ _trans("Eager to Improve Your Insurance Services?")  }}</h1>
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
                 <p class="text-gray-500 pr-5 text-xl w-full lg:w-4/5">
-                  {{ @translate_lang("ScienceSoft’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
+                  {{ _trans("ScienceSoft’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
                 </p>
                 <button
                 class="uppercase text-white text-sm bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center w-full focus:outline-none hover:bg-blue-800 md:p-4 sm:p-4"
                 >
-                {{ @translate_lang("GET A CONSULTATION")  }}
+                {{ _trans("GET A CONSULTATION")  }}
                 </button>
               </div>
               </div>
@@ -367,7 +367,7 @@
 
       <!-- CHOOSE-SERVICE -->
       <div class=" mx-6 md:mx-16 lg:mx-24 my-10">
-        <p class="text-2xl md:text-3xl lg:text-3xl font-bold mb-4">{{ @translate_lang("CHOOSE YOUR SERVICE OPTION")  }}</p>
+        <p class="text-2xl md:text-3xl lg:text-3xl font-bold mb-4">{{ _trans("CHOOSE YOUR SERVICE OPTION")  }}</p>
         <hr class="w-12 border-b-2 border-yellow-600 mb-6" />
         <div class="grid md:grid-cols-2">
           <div class="shadow-xl border m-5">
@@ -379,36 +379,36 @@
                 class="w-28 mx-auto"
               />
               <p class="text-blue-700 text-center mt-5 text-xl font-semibold mb-4">
-                {{ @translate_lang("Solution consulting, implementation and support for insurance")  }}
+                {{ _trans("Solution consulting, implementation and support for insurance")  }}
               </p>
-              <p class="font-bold  text-xl mb-3">{{ @translate_lang("We consult on:")  }}</p>
+              <p class="font-bold  text-xl mb-3">{{ _trans("We consult on:")  }}</p>
               <ul class="list-disc text-lg mb-4 ml-6">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Choosing suitable solutions and their optimal functionality to meet your business needs.")  }}
+                  {{ _trans("Choosing suitable solutions and their optimal functionality to meet your business needs.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Reducing implementation costs.")  }}
+                  {{ _trans("Reducing implementation costs.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Ensuring user adoption.")  }}
+                  {{ _trans("Ensuring user adoption.")  }}
                 </li>
               </ul>
-              <p class="font-bold text-xl mb-4">{{ @translate_lang("We offer:")  }}</p>
+              <p class="font-bold text-xl mb-4">{{ _trans("We offer:")  }}</p>
               <ul class="list-disc text-lg mb-3 ml-6">
                 <li class="mb-1 text-gray-800 mb-3">
-                  {{ @translate_lang("End-to-end solution implementation.")  }}
+                  {{ _trans("End-to-end solution implementation.")  }}
                 </li>
                 <li class="mb-1 text-gray-800 mb-3">
-                  {{ @translate_lang("After-launch support.")  }}
+                  {{ _trans("After-launch support.")  }}
                 </li>
                 <li class="mb-1 text-gray-800 mb-3">
-                  {{ @translate_lang("Continuous solution maintenance and evolution.")  }}
+                  {{ _trans("Continuous solution maintenance and evolution.")  }}
                 </li>
               </ul>
               <button
                 class="uppercase text-white text-sm bg-blue-700 py-2 px-4 w-2/5 mttext-center w-full focus:outline-none hover:bg-blue-800 md:p-4 sm:p-4"
                 >
-                {{ @translate_lang("GET A CONSULTATION")  }}
+                {{ _trans("GET A CONSULTATION")  }}
                 </button>
             </div>
           </div>
@@ -421,33 +421,33 @@
                 class="w-28 mx-auto"
               />
               <p class="text-blue-700 text-center mt-5 text-xl font-semibold mb-4">
-                {{ @translate_lang("IT outsourcing for insurance")  }}
+                {{ _trans("IT outsourcing for insurance")  }}
               </p>
-              <p class="font-bold  text-xl mb-3">{{ @translate_lang("Outsourcing of one or several IT functions:")  }}</p>
+              <p class="font-bold  text-xl mb-3">{{ _trans("Outsourcing of one or several IT functions:")  }}</p>
               <ul class="list-disc text-lg sm:mb-4 lg:mb-20 ml-6">
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Business analysis to elicit your automation requirements.")  }}
+                  {{ _trans("Business analysis to elicit your automation requirements.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("End-to-end insurance software development.")  }}
+                  {{ _trans("End-to-end insurance software development.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Testing and QA.")  }}
+                  {{ _trans("Testing and QA.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Data analytics for insights without developing own analytics solution.")  }}
+                  {{ _trans("Data analytics for insights without developing own analytics solution.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("Managed infrastructure services.")  }}
+                  {{ _trans("Managed infrastructure services.")  }}
                 </li>
                 <li class="mb-1 text-gray-800">
-                  {{ @translate_lang("IT support and help desk.")  }}
+                  {{ _trans("IT support and help desk.")  }}
                 </li>
               </ul>
               <button
                 class="uppercase text-white text-sm bg-blue-700 py-2 px-4 w-2/5 mt-30 text-center w-full focus:outline-none hover:bg-blue-800 md:p-4 sm:p-4"
                 >
-                {{ @translate_lang("GET A CONSULTATION")  }}
+                {{ _trans("GET A CONSULTATION")  }}
                 </button>
             </div>
           </div>
