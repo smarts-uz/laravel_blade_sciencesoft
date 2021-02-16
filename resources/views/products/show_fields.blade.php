@@ -31,6 +31,6 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', 'Image:') !!}
-    <p>{{ $product->image }}</p>
+    <p>{{ $product->image??asset('images/default-image.png') }}</p>
 </div>
 

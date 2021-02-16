@@ -18,7 +18,7 @@ class HomePageController extends Controller
     public function index(){
         // dd('hi');
         $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
+            ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
 //        $cardlists = CardLists::orderBy('id', 'desc')->get();
 //        $lists = Category::with('lists')->get();
@@ -30,7 +30,7 @@ class HomePageController extends Controller
     public function getDynamicPage($page, $name, $items, $translation='en')
     {
         $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
+            ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         if(!view()->exists('front.pages.'.$page)){
             $cards = CardLists::all();
@@ -43,9 +43,8 @@ class HomePageController extends Controller
 
     public function getBlade($page, $translation='en')
     {
-
         $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')
+            ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         $teams = CompanyTeam::all();
         $blogs = Blog::all();

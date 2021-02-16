@@ -1,4 +1,4 @@
-<li>{{ $child_category->name }} 
+<li>{{ $child_category->name }}
     @if($child_category->path_blade)
     -
         {{ $child_category->path_blade }}

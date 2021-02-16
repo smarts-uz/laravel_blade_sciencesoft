@@ -31,7 +31,7 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', 'Image:') !!}
-    <p>{{ $portfolio->image }}</p>
+    <p>{{ $portfolio->image??asset('images/default-image.png') }}</p>
 </div>
 
 <!-- Blade Link Field -->
@@ -39,4 +39,3 @@
     {!! Form::label('blade_link', 'Blade Link:') !!}
     <p>{{ $portfolio->blade_link }}</p>
 </div>
-

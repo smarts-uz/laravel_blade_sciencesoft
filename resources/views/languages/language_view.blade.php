@@ -10,7 +10,7 @@
          <div class="col-md-4">
            <form class="" id="sort_keys" action="" method="GET">
              <div class="input-group input-group-sm">
-                 <input type="text" class="form-control" id="search" name="search"@isset($sort_search) value="{{ $sort_search }}" @endisset placeholder="{{ translate('Type key & Enter') }}">
+                 <input type="text" class="form-control" id="search" name="search"@isset($sort_search) value="{{ $sort_search }}" @endisset placeholder="{{ translate_lang('Type key & Enter') }}">
              </div>
            </form>
          </div>
@@ -23,8 +23,8 @@
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th width="45%">{{translate('Key')}}</th>
-                            <th width="45%">{{translate('Value')}}</th>
+                            <th width="45%">{{translate_lang('Key')}}</th>
+                            <th width="45%">{{translate_lang('Value')}}</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -46,8 +46,8 @@
                 </div>
 
                 <div class="form-group mb-0 text-right">
-                    <button type="button" class="btn btn-primary" onclick="copyTranslation()">{{ translate('Copy Translations') }}</button>
-                    <button type="submit" class="btn btn-primary">{{translate('Save')}}</button>
+                    <button type="button" class="btn btn-primary" onclick="copyTranslation()">{{ translate_lang('Copy Translations') }}</button>
+                    <button type="submit" class="btn btn-primary">{{translate_lang('Save')}}</button>
                 </div>
             </div>
         </form>
@@ -56,6 +56,7 @@
 @endsection
 
 @section('script')
+
     <script type="text/javascript">
         //translate in one click
         function copyTranslation() {
@@ -68,4 +69,5 @@
             $('#sort_keys').submit();
         }
     </script>
+
 @endsection

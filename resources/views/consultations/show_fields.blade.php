@@ -27,4 +27,3 @@
     {!! Form::label('description', 'Description:') !!}
     <p>{{ $consultation->description }}</p>
 </div>
-
