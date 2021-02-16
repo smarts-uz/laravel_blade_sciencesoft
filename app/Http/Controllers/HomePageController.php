@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\News;
+use App\Models\Portfolio;
 use App\Models\Product;
 use Illuminate\Http\Request;
 use App\Models\Category;
@@ -20,46 +21,41 @@ class HomePageController extends Controller
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
-//        $cardlists = CardLists::orderBy('id', 'desc')->get();
-//        $lists = Category::with('lists')->get();
-
-//        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists, 'lists' => $lists]);
-        $cards = CardLists::all();
-        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
+        $blogs = Blog::all();
+        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs]);
     }
-    public function getDynamicPage($page, $name, $items, $translation='en')
+    public function getDynamicPage($page, $name=null, $items=[], $translation='en')
     {
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         if(!view()->exists('front.pages.'.$page)){
-            $cards = CardLists::all();
-            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
+            return $this->index();
         }
-        return view('page_controller', ['page'=>'front.pages.'.$page, $name=>$items,'categories'=> $categories]);
+        return view('page_controller', ['page'=>'front.pages.'.$page,'categories'=> $categories, $name=>$items]);
 
     }
-
 
     public function getBlade($page, $translation='en')
     {
-        $categories = Category::whereNull('category_id')
-            ->with('childrenCategories')->whereNull('deleted_at')
-            ->get();
-        $teams = CompanyTeam::all();
-        $blogs = Blog::all();
-        $news = News::all();
-        $cards = CardLists::all();
-        $products = Product::all();
-        if(!view()->exists('front.pages.'.$page)){
-//            $cards = CardLists::all();
-            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cards'=>$cards]);
+        if(str_contains($page, 'blog')){
+            $blogs = Blog::all();
+            return $this->getDynamicPage($page, 'blogs', $blogs);
+        }else if(str_contains($page, 'management_team')){
+            $teams = CompanyTeam::all();
+            return $this->getDynamicPage($page, 'teams', $teams);
+        }else if(str_contains($page, 'news')){
+            $news = News::all();
+            return $this->getDynamicPage($page, 'news', $news);
+        }else if(str_contains($page, 'products')){
+            $products = Product::all();
+            return $this->getDynamicPage($page, 'products', $products);
+        }else if(str_contains($page, 'portfolios')){
+            $portfolios = Portfolio::all();
+            return $this->getDynamicPage($page, 'portfolios', $portfolios);
         }
+        return $this->getDynamicPage($page);
 
-        return view('page_controller', ['page'=>'front.pages.'.$page, 'categories'=>$categories, 'teams'=>$teams, 'blogs'=>$blogs, 'news'=>$news, 'cards'=>$cards, 'products'=>$products]);
-
-            $cardlists = CardList::orderBy('id', 'desc')->get();
-            return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'cardlists'=>$cardlists]);
     }
     public function getCategoryByName($name, $view)
     {
@@ -109,4 +105,11 @@ class HomePageController extends Controller
 
     }
 
+    public function SingleBlog($id)
+    {
+        $blog = Blog::all()->find($id);
+        $categories = Category::all();
+
+        return view('front.pages.blog_single_page', ['blog' => $blog,'categories'=> $categories]);
+    }
 }

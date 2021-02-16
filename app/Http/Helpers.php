@@ -2,8 +2,8 @@
 
 use App\Translation;
 
-if (! function_exists('translate_lang')) {
-    function translate_lang($key, $lang = null){
+if (! function_exists('_trans')) {
+    function _trans($key, $lang = null){
         // if($lang == null){
         //     $lang = App::getLocale();
         // }

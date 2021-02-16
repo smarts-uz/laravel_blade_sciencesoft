@@ -2302,6 +2302,8 @@
                 }
             ],
             "time": "2021-02-11T18:30:17+00:00"
+<<<<<<< HEAD
+=======
         },
         {
             "name": "nette/finder",
@@ -2454,6 +2456,7 @@
                 "source": "https://github.com/nette/utils/tree/v3.2.1"
             },
             "time": "2021-01-11T03:05:59+00:00"
+>>>>>>> b282e6f840903fd4ad59cc5876353fc7224013c9
         },
         {
             "name": "nikic/php-parser",

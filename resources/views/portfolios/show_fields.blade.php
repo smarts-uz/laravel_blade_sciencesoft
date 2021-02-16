@@ -39,4 +39,3 @@
     {!! Form::label('blade_link', 'Blade Link:') !!}
     <p>{{ $portfolio->blade_link }}</p>
 </div>
-

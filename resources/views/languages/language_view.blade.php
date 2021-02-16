@@ -56,6 +56,7 @@
 @endsection
 
 @section('script')
+
     <script type="text/javascript">
         //translate in one click
         function copyTranslation() {
@@ -68,4 +69,5 @@
             $('#sort_keys').submit();
         }
     </script>
+
 @endsection
