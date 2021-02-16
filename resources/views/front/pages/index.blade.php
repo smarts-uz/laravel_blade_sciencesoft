@@ -981,21 +981,31 @@
     <hr class="w-10 h-1 bg-yellow-500">
   </div>
       <div class="flex flex-wrap">
-    @foreach($cards as $card)
-    <div class="rounded overflow-hidden shadow-lg my-2 w-full h-full mx-3 hover:shadow-2xl transition duration-500 mt-10 lg:w-96 cursor-pointer">
-      <img class="w-72 h-48" src="/uploads/cardLists/{{ $card->image }}"
-        alt="Sunset in the mountains">
-      <div class="px-6 py-4">
-        <h1 class="text-yellow-400 mb-3 text-bold uppercase">{{ $card->title }}</h1>
-        <div class="font-bold text-xl mb-2">{{ $card->sub_title }}</div>
-        <p class="text-grey-darker text-base mb-5">
-            {{ $card->description }}
-        </p>
+          @foreach($blogs->splice(0, 3) as $blog)
+              <div class="w-2/6 p-4">
+                  <a href="{{ route('SingleBlog', [$blog->id]) }}" class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
+                      <div>
+                          <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}"
+                               alt="CardImg">
+                      </div>
+                      <div class="px-4">
+                          <span class="text-yellow-400 text-xs font-bold">CRM</span>
+                          <h1 class="text-lg text-black font-bold py-2">
+                              {{ $blog->title }}
+                          </h1>
+                          <p class="text-sm text-black">
+                              {{ $blog->description }}
+                          </p>
+
+                          <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">
+                              <i class="fas fa-arrow-right"></i>
+                          </div>
+                      </div>
+                  </a>
+              </div>
+          @endforeach
       </div>
-    </div>
-      @endforeach
-      </div>
-            <button class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</button>
+            <a href="{{route('getBlade', ['page'=>$category->path_blade??'404'])}}" class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</a>
   </div>
   <!-- Need a CONSULTATION? -->
   </div>
