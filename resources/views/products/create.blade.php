@@ -37,15 +37,14 @@
                                        </div>
                                        <!-- Name Lang Field -->
                                        <div class="form-group col-sm-6">
-                                           <label for="read_more_link">{{ _trans("Read More Link")  }}</label>
-                                           <input type="text" class="form-control" id="read_more_link" name="read_more_link" value="{{ old('read_more_link') }}">
-                                       </div>
-                                       <!-- Name Lang Field -->
-                                       <div class="form-group col-sm-6">
                                            <label for="view_website_link">{{ _trans("View Website Link")  }}</label>
                                            <input type="text" class="form-control" id="view_website_link" name="view_website_link" value="{{ old('view_website_link') }}">
                                        </div>
-
+                                       <!-- Description Text Field -->
+                                       <div class="form-group col-sm-6 col-lg-12">
+                                           <label for="description_text">{{ _trans("Read More Link")  }}</label>
+                                           <textarea class="form-control" id="description_text" name="description_text"></textarea>
+                                       </div>
                                        <!-- Image Field -->
                                        <div class="form-group col-sm-6">
                                            <div class="form-group">

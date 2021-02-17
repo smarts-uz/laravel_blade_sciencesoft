@@ -25,9 +25,9 @@
 
     {{-- @include('front.Components.navbar') --}}
     @include('front.Components.categories', $categories)
-
+    <div class="mt-28">
     @yield('main')
-
+    </div>
     @include('front.Components.footer')
 
 

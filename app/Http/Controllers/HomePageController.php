@@ -54,6 +54,9 @@ class HomePageController extends Controller
         }else if(str_contains($page, 'portfolios')){
             $portfolios = Portfolio::all();
             return $this->getDynamicPage($page, 'portfolios', $portfolios);
+        }else if(str_contains($page, 'partnerships')){
+            $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, 'partnerships', $partnerships);
         }
         return $this->getDynamicPage($page);
 
@@ -112,5 +115,12 @@ class HomePageController extends Controller
         $categories = Category::all();
 
         return view('front.pages.blog_single_page', ['blog' => $blog,'categories'=> $categories]);
+    }
+    public function SingleProduct($id)
+    {
+        $product = Product::all()->find($id);
+        $categories = Category::all();
+
+        return view('front.pages.products.product_single_page', ['product' => $product,'categories'=> $categories]);
     }
 }
