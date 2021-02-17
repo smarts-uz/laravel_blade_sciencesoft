@@ -16,7 +16,7 @@
             <div
               class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
-              Разработка и создание сайтов в Ташкенте
+              Разработка и создание <br> сайтов в <br> Ташкенте
             </div>
             <div class="lg:px-20">
               <a
@@ -38,7 +38,7 @@
 
 
         <div
-          class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16"
+          class="grid sm:grid-cols-5 grid-cols-2  m-auto justify-between container"
         >
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/images/1/1.svg')}}" alt="" class="m-auto" />
@@ -52,7 +52,7 @@
               Landing Page
             </p>
           </div>
-          <div class="pt-8" data-aos="fade-left">
+          <div class="pt-8" data-aos="fade-up">
             <img src="{{asset('images/open_engine/images/1/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Техническая поддержка
@@ -91,11 +91,11 @@
         </div>
 
         <div
-          class="grid grid-cols-1 md:grid-cols-3 container m-auto text-center"
+          class="grid grid-cols-1 md:grid-cols-3 container m-auto text-center "
         >
           <div
             data-aos="flip-left"
-            class="flex-1 shadow-lg rounded-lg mb-8 m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
+            class="flex-1 shadow-lg rounded-lg m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
           >
             <p class="font-bold pb-5 pt-2">01</p>
             <img src="{{asset('images/open_engine/images/2/1.svg')}}" alt="" class="m-auto" />
@@ -106,7 +106,7 @@
 
           <div
             data-aos="flip-left"
-            class="flex-1 shadow-lg rounded-lg mb-8 m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
+            class="flex-1 shadow-lg rounded-lg m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
           >
             <p class="font-bold pb-5 pt-2">02</p>
             <img src="{{asset('images/open_engine/images/2/2.svg')}}" alt="" class="m-auto" />
@@ -117,7 +117,7 @@
 
           <div
             data-aos="flip-left"
-            class="flex-1 shadow-lg rounded-lg mb-8 m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
+            class="flex-1 shadow-lg rounded-lg m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
           >
             <p class="font-bold pb-5 pt-2">03</p>
             <img src="{{asset('images/open_engine/images/2/3.svg')}}" alt="" class="m-auto" />
@@ -125,13 +125,11 @@
               Адаптация под любые устройства
             </p>
           </div>
-        </div>
-        <div
-          class="grid grid-cols-1 md:grid-cols-3 container m-auto text-center"
-        >
+
+
           <div
             data-aos="flip-left"
-            class="flex-1 shadow-lg rounded-lg mb-8 m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
+            class="flex-1 shadow-lg rounded-lg m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
           >
             <p class="font-bold pb-5 pt-2">04</p>
             <img src="{{asset('images/open_engine/images/2/4.svg')}}" alt="" class="m-auto" />
@@ -142,7 +140,7 @@
 
           <div
             data-aos="flip-left"
-            class="flex-1 shadow-lg rounded-lg mb-8 m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
+            class="flex-1 shadow-lg rounded-lg m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
           >
             <p class="font-bold pb-5 pt-2">05</p>
             <img src="{{asset('images/open_engine/images/2/5.svg')}}" alt="" class="m-auto" />
@@ -153,7 +151,7 @@
 
           <div
             data-aos="flip-left"
-            class="flex-1 shadow-lg rounded-lg mb-8 m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
+            class="flex-1 shadow-lg rounded-lg m-4 hover:text-white hover:bg-blue-500 bg-white p-4"
           >
             <p class="font-bold pb-5 pt-2">06</p>
             <img src="{{asset('images/open_engine/images/2/6.svg')}}" alt="" class="m-auto" />
@@ -308,7 +306,7 @@
             <div class="m-auto pt-8 order-last sm:order-none">
               <img src="{{asset('images/open_engine/images/3/step6.svg')}}" alt="" />
             </div>
-            <div data-aos="fade-right" class="pl-20 m-auto">
+            <div data-aos="fade-right" class="pl-5 m-auto">
               <h1
                 class="text-3xl font-bold text-gray-700 py-5 leading-none -ml-5"
               >
@@ -349,14 +347,7 @@
             </label>
           </form>
 
-          <div>
-            <div class="dots dots-form mx-auto">
-              <span class="active"><i class="fa fa-check"></i></span>
-              <span><i class="fa fa-check"></i></span>
-              <span><i class="fa fa-check"></i></span>
-              <span><i class="fa fa-check"></i></span>
-            </div>
-          </div>
+
 
           <div class="flex justify-center">
             <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
