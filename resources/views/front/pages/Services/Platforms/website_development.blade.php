@@ -35,6 +35,8 @@
       </div>
 
       <div class="bg-gray-200">
+
+
         <div
           class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16"
         >
@@ -323,7 +325,7 @@
         </div>
       </div>
 
-      <div class="bg-gray-100 h-12"></div>
+      <div class="bg-gray-400 h-12"></div>
 
       <div class="px-8">
         <div
