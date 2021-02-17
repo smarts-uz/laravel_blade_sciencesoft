@@ -753,6 +753,9 @@
           </div>
       </div>
 
+
+
+
       <div
         class="grid grid-cols-1 lg:grid-cols-3 container m-auto justify-center lg:p-20"
         data-aos="fade-right"
@@ -946,7 +949,7 @@
                 >
                   <div class="splide__track">
                     <ul class="splide__list">
-                      <li class="splide__slide">
+                      <li class="splide__slide flex flex-cols">
                         <div
                           class="shadow-lg hover:bg-blue-400 hover:text-white bg-white mx-3 px-10 py-5 rounded-lg"
                         >
@@ -957,8 +960,8 @@
                           />
                           <p class="text-center">Разработка <br />брендбуков</p>
                         </div>
-                      </li>
-                      <li class="splide__slide">
+
+
                         <div
                           class="shadow-lg hover:bg-blue-400 hover:text-white bg-white mx-3 px-10 py-5 rounded-lg"
                         >
@@ -972,9 +975,10 @@
                             продвижение
                           </p>
                         </div>
-                      </li>
-                      <li class="splide__slide">
-                        <div
+
+
+
+                            <div
                           class="shadow-lg hover:bg-blue-400 hover:text-white bg-white mx-3 px-10 py-5 rounded-lg"
                         >
                           <img
@@ -987,8 +991,23 @@
                             реклама
                           </p>
                         </div>
-                      </li>
-                      <li class="splide__slide">
+
+
+<div
+                          class="shadow-lg hover:bg-blue-400 hover:text-white bg-white mx-3 px-10 py-5 rounded-lg"
+                        >
+                          <img
+                            class="mx-auto p-3"
+                            src="{{asset('images/open_engine/e-commerce _development/images/4/web-site_dark.svg')}}"
+                            alt=""
+                          />
+                          <p class="text-center">
+                            Разработка <br />
+                            сайтов
+                          </p>
+                        </div>
+
+
                         <div
                           class="shadow-lg hover:bg-blue-400 hover:text-white bg-white mx-3 px-10 py-5 rounded-lg"
                         >
@@ -1002,22 +1021,11 @@
                             продвижение
                           </p>
                         </div>
+
+
+
                       </li>
-                      <li class="splide__slide">
-                        <div
-                          class="shadow-lg hover:bg-blue-400 hover:text-white bg-white mx-3 px-10 py-5 rounded-lg"
-                        >
-                          <img
-                            class="mx-auto p-3"
-                            src="{{asset('images/open_engine/e-commerce _development/images/4/web-site_dark.svg')}}"
-                            alt=""
-                          />
-                          <p class="text-center">
-                            Разработка <br />
-                            сайтов
-                          </p>
-                        </div>
-                      </li>
+
                     </ul>
                   </div>
                 </div>
