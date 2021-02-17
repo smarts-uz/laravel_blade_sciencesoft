@@ -64,6 +64,7 @@ Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCat
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
 Route::get('/SingleBlog/{id}', 'App\Http\Controllers\HomePageController@SingleBlog')->name('SingleBlog');
+Route::get('/SingleProduct/{id}', 'App\Http\Controllers\HomePageController@SingleProduct')->name('SingleProduct');
 
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
