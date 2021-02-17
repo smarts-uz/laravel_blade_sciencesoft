@@ -18,9 +18,10 @@
 </div>
 <div class="container mb-24">
     <section class="customer-logos slider px-16">
-      @foreach($categories as $category)
-      <div class="slide"><img class="h-32 w-32" src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" alt="logo"></div>
-      @endforeach
+      @foreach($partnerships as $partner)
+        <div class="slide"><img class="h-32 w-32"
+            src="{{ "/uploads/categories/".$partner->image??asset('images/default-image.png') }}" alt="logo"></div>
+    @endforeach
     </section>
   </div>
   <!-- EXPLORE OUR OFFERING Responsive -->
@@ -948,11 +949,11 @@
   <!-- Ahadov ILhomjon -->
   @isset($blogs)
   <div>
-    <div class="my-4">
+    <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
     <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans("Featured Insights")  }}</h1>
     <hr class="w-10 h-1 bg-pink-600">
-  </div>
-      <div class="flex flex-wrap">
+    </div>
+      <div class="flex flex-wrap mx-6 sm:mx-16 lg:mx-12">
           @foreach($blogs->splice(0, 3) as $blog)
               <div class="w-2/6 p-4">
                   <a href="{{ route('SingleBlog', [$blog->id]) }}" class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
@@ -977,7 +978,7 @@
               </div>
           @endforeach
       </div>
-            <a href="{{route('getBlade', ['page'=>$category->path_blade??'404'])}}" class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto" id="loadMore">All Blog Articles</a>
+            <a href="{{route('getBlade', ['page'=>'blog'??'404'])}}" class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/5 text-center" id="loadMore">All Blog Articles</a>
   </div>
   @endisset
   <!-- Need a CONSULTATION? -->

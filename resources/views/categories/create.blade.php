@@ -21,6 +21,16 @@
                                    <form method="post" action="{{ route('categories.store') }}" enctype="multipart/form-data">
                                        @csrf
                                            <div class="row">
+                                               <!-- Parent Id Field -->
+                                           <div class="form-group col-sm-6">
+                                               <label for="id">{{ _trans("Id")  }}</label>
+                                               <input type="number" class="form-control" id="id" name="id" value="{{ old('id') }}">
+                                           </div>
+                                           <!-- Parent Id Field -->
+                                           <div class="form-group col-sm-6">
+                                               <label for="category_id">{{ _trans("Category Id")  }}</label>
+                                               <input type="number" class="form-control" id="category_id" name="category_id" value="{{ old('category_id') }}">
+                                           </div>
                                            <!-- Name Field -->
                                            <div class="form-group col-sm-6">
                                                <label for="name">{{ _trans("Name")  }}</label>
