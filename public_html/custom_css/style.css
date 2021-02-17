@@ -31,7 +31,7 @@ body{
   z-index: 10;
 }
 .dark {
-  background: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5));   
+  background: linear-gradient( rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5));
 }
 #about:hover + #aboutHover {
   display: flex;
@@ -62,13 +62,6 @@ body{
   box-shadow: 5px 5px 8px rgb(190, 190, 190);
 }
 
-
-/* #carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet,
-    #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet,
-    #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
-      color: #2b6cb0;
-      /* Set to match the Tailwind colour you want the active one to be
-      } */
 .responsive-active {
   display: block;
 }
@@ -120,10 +113,6 @@ body{
   }
 }
 
-.container{
-  padding-top: 150px;
-}
-
 .slick-slide img{
   width: 150px;
 }
@@ -160,11 +149,6 @@ body{
   padding-top: 250px;
 }
 
-
-.container{
-    padding-top: 150px;
-}
-
 .slick-slide img{
     width: 150px;
 }
@@ -189,7 +173,7 @@ body{
 .slick-slide{
     display: none;
     float: left;
-  
+
 }
 .slick-slide img{
     display: block;
@@ -213,7 +197,7 @@ body{
   .button {
       position: relative;
   }
-  
+
   .btn {
       position: absolute;
       right: 96px;
@@ -234,7 +218,7 @@ body{
   .button {
       position: relative;
   }
-  
+
   .btn {
       position: absolute;
       right: 108px;
@@ -252,7 +236,7 @@ body{
   .button {
       position: relative;
   }
-  
+
   .btn {
       position: absolute;
       right: 124px;

@@ -7,12 +7,12 @@
 @section('main')
 
 
-    <div class="mx-6 md:mx-16 lg:mx-24 my-10">
+    <div class="mx-6 md:mx-16 lg:mx-16 my-10">
 
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans("About ScienceSoft – Global IT Company")  }}
         </h1>
-        <hr class="w-12 mt-5 text-yellow-400 h-4" />
+        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
         <img src="https://www.scnsoft.com/about/company-new/about-company-sciencesoft.svg" />
         <p class="my-5 text-lg">
             {{ _trans("Founded in 1989, ScienceSoft is a provider of IT consulting and software
