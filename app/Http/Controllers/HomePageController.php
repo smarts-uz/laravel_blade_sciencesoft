@@ -25,11 +25,17 @@ class HomePageController extends Controller
         $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
         return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs, 'partnerships'=>$partnerships]);
     }
-    public function getDynamicPage($page, $name=null, $items=[], $translation='en')
+    public function getDynamicPage($page, $name=null, $items=[], $category_id=null, $translation='en')
     {
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
+        if($category_id){
+            $categories = Category::where('category_id', '=', $category_id)
+            ->with('childrenCategories')->whereNull('deleted_at')
+            ->get();
+        }
+        
         if(!view()->exists('front.pages.'.$page) || $page=='index'){
             return $this->index();
         }
@@ -57,6 +63,8 @@ class HomePageController extends Controller
         }else if(str_contains($page, 'partnerships')){
             $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, 'partnerships', $partnerships);
+        }else if(str_contains($page, 'ecommerce')){            
+            return $this->getDynamicPage($page, null, null, 38);
         }
         return $this->getDynamicPage($page);
 
@@ -115,5 +123,12 @@ class HomePageController extends Controller
         $categories = Category::all();
 
         return view('front.pages.blog_single_page', ['blog' => $blog,'categories'=> $categories]);
+    }
+    public function SingleProduct($id)
+    {
+        $product = Product::all()->find($id);
+        $categories = Category::all();
+
+        return view('front.pages.products.product_single_page', ['product' => $product,'categories'=> $categories]);
     }
 }

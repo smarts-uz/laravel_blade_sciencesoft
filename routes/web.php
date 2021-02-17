@@ -22,48 +22,49 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->name('contact');
 
-Route::get('/services/software-development','App\Http\Controllers\Front\softController@softwaredevelopment')->name('softwaredevelopment');
+// Route::get('/services/software-development','App\Http\Controllers\Front\softController@softwaredevelopment')->name('softwaredevelopment');
 
-// about-company pages start
-Route::get('/about/about-company', 'App\Http\Controllers\Front\softController@aboutCompany')->name('aboutCompany');
-Route::get('/management-Team', 'App\Http\Controllers\Front\softController@managementTeam')->name('managementTeam');
-Route::get('/about/careers', 'App\Http\Controllers\Front\softController@careers')->name('careers');
-Route::get('/partnerships', 'App\Http\Controllers\Front\softController@partnerships')->name('partnerships');
-Route::get('/Sciencesoft-Referral-Program', 'App\Http\Controllers\Front\softController@ScienceSoftReferralProgram')->name('ScienceSoftReferralProgram');
-Route::get('/our-locations', 'App\Http\Controllers\Front\softController@ourLocations')->name('ourLocations');
-// about-company pages end
-
-
+// // about-company pages start
+// Route::get('/about/about-company', 'App\Http\Controllers\Front\softController@aboutCompany')->name('aboutCompany');
+// Route::get('/management-Team', 'App\Http\Controllers\Front\softController@managementTeam')->name('managementTeam');
+// Route::get('/about/careers', 'App\Http\Controllers\Front\softController@careers')->name('careers');
+// Route::get('/partnerships', 'App\Http\Controllers\Front\softController@partnerships')->name('partnerships');
+// Route::get('/Sciencesoft-Referral-Program', 'App\Http\Controllers\Front\softController@ScienceSoftReferralProgram')->name('ScienceSoftReferralProgram');
+// Route::get('/our-locations', 'App\Http\Controllers\Front\softController@ourLocations')->name('ourLocations');
+// // about-company pages end
 
 
-// services-technologies pages start
-Route::get('/services/java', 'App\Http\Controllers\Front\softController@java')->name('java');
-Route::get('/services/NET', 'App\Http\Controllers\Front\softController@NET')->name('NET');
-Route::get('/services/PHP', 'App\Http\Controllers\Front\softController@PHP')->name('PHP');
-Route::get('/services/python', 'App\Http\Controllers\Front\softController@python')->name('python');
-Route::get('/services/golang', 'App\Http\Controllers\Front\softController@golang')->name('golang');
-Route::get('/services/c++', 'App\Http\Controllers\Front\softController@cPlus')->name('cPlus');
-Route::get('/services/configureYourTeam', 'App\Http\Controllers\Front\softController@configureYourTeam')->name('configureYourTeam');
-// services-technologies pages end
 
-// Industries pages start
-Route::get('/industries/healthcare', 'App\Http\Controllers\Front\softController@healthcare')->name('healthcare');
-Route::get('/industries/banking_financial_services', 'App\Http\Controllers\Front\softController@banking_financial_services')->name('banking_financial_services');
-Route::get('/industries/retail', 'App\Http\Controllers\Front\softController@retail')->name('retail');
-Route::get('/industries/ecommerce', 'App\Http\Controllers\Front\softController@ecommerce')->name('ecommerce');
-Route::get('/industries/manufacturing', 'App\Http\Controllers\Front\softController@manufacturing')->name('manufacturing');
-Route::get('/industries/market-Advertising', 'App\Http\Controllers\Front\softController@marketAdvertising')->name('marketAdvertising');
-Route::get('/industries/telecommunications', 'App\Http\Controllers\Front\softController@telecommunications')->name('telecommunications');
-Route::get('/industries/elearning', 'App\Http\Controllers\Front\softController@elearning')->name('elearning');
-Route::get('/industries/transportation-Logistics', 'App\Http\Controllers\Front\softController@transportationLogistics')->name('transportationLogistics');
-Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oilGas')->name('oilGas');
-Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
-Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
+
+// // services-technologies pages start
+// Route::get('/services/java', 'App\Http\Controllers\Front\softController@java')->name('java');
+// Route::get('/services/NET', 'App\Http\Controllers\Front\softController@NET')->name('NET');
+// Route::get('/services/PHP', 'App\Http\Controllers\Front\softController@PHP')->name('PHP');
+// Route::get('/services/python', 'App\Http\Controllers\Front\softController@python')->name('python');
+// Route::get('/services/golang', 'App\Http\Controllers\Front\softController@golang')->name('golang');
+// Route::get('/services/c++', 'App\Http\Controllers\Front\softController@cPlus')->name('cPlus');
+// Route::get('/services/configureYourTeam', 'App\Http\Controllers\Front\softController@configureYourTeam')->name('configureYourTeam');
+// // services-technologies pages end
+
+// // Industries pages start
+// Route::get('/industries/healthcare', 'App\Http\Controllers\Front\softController@healthcare')->name('healthcare');
+// Route::get('/industries/banking_financial_services', 'App\Http\Controllers\Front\softController@banking_financial_services')->name('banking_financial_services');
+// Route::get('/industries/retail', 'App\Http\Controllers\Front\softController@retail')->name('retail');
+// Route::get('/industries/ecommerce', 'App\Http\Controllers\Front\softController@ecommerce')->name('ecommerce');
+// Route::get('/industries/manufacturing', 'App\Http\Controllers\Front\softController@manufacturing')->name('manufacturing');
+// Route::get('/industries/market-Advertising', 'App\Http\Controllers\Front\softController@marketAdvertising')->name('marketAdvertising');
+// Route::get('/industries/telecommunications', 'App\Http\Controllers\Front\softController@telecommunications')->name('telecommunications');
+// Route::get('/industries/elearning', 'App\Http\Controllers\Front\softController@elearning')->name('elearning');
+// Route::get('/industries/transportation-Logistics', 'App\Http\Controllers\Front\softController@transportationLogistics')->name('transportationLogistics');
+// Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oilGas')->name('oilGas');
+// Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
+// Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
 Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCategoryByName')->name('getCategoryByName');
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
 Route::get('/SingleBlog/{id}', 'App\Http\Controllers\HomePageController@SingleBlog')->name('SingleBlog');
+Route::get('/SingleProduct/{id}', 'App\Http\Controllers\HomePageController@SingleProduct')->name('SingleProduct');
 
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');

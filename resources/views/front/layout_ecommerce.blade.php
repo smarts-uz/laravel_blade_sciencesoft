@@ -22,7 +22,8 @@
   <body>
 
     <div class="wrapper">
-    @include('front.Components.ecommerce_navbar')
+    {{-- @include('front.Components.ecommerce_navbar') --}}
+    @include('front.Components.categories')
 
     <div class="mt-32">
         @yield('main')
