@@ -38,7 +38,7 @@
 
 
         <div
-          class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16"
+          class="grid sm:grid-cols-5 items-center grid-cols-2 container m-auto justify-between pt-16"
         >
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/images/1/1.svg')}}" alt="" class="m-auto" />
@@ -593,6 +593,9 @@
 
 </div>
 
+
+
+
     <div class="flex justify-center">
         <div
           class="grid grid-cols-1 md:grid-cols-2 sm:px-20 relative justify-center"
@@ -958,6 +961,13 @@
             </p>
           </div>
         </div>
+
+
+
+
+
+
+
         <div class="flex justify-end pb-20">
           <div class="flex">
             <div
@@ -1048,6 +1058,9 @@
           </div>
           <div></div>
         </div>
+
+
+
       </div>
     </main>
 
