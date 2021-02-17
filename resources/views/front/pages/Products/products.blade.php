@@ -36,7 +36,7 @@
                                 </p>
                             </div>
                             <div class="flex justify-between">
-                                <a href="{{ $product->read_more_link }}" class="mr-6 focus:outline-none border-none rounded-md bg-blue-500 hover:bg-blue-700 border-b-2 border-l-2 border-gray-700 py-2 px-4 text-white">
+                                <a href="{{ route('SingleProduct', [$product->id]) }}" class="mr-6 focus:outline-none border-none rounded-md bg-blue-500 hover:bg-blue-700 border-b-2 border-l-2 border-gray-700 py-2 px-4 text-white">
                                     Read more
                                 </a>
                                 <a href="{{ $product->view_website_link }}" class="mr-6 focus:outline-none border-none rounded-md bg-blue-500 hover:bg-blue-700 border-b-2 border-l-2 border-gray-700 py-2 px-4 text-white">

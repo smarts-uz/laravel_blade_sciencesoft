@@ -62,7 +62,7 @@ class ProductController extends AppBaseController
         $product->name=$request->name;
         $product->title=$request->title;
         $product->sub_title=$request->sub_title;
-        $product->read_more_link=$request->read_more_link;
+        $product->read_more_link=$request->description_text;
         $product->view_website_link=$request->view_website_link;
         if($request->file('image')!=null){
             $file = $request->file('image');
@@ -131,7 +131,7 @@ class ProductController extends AppBaseController
         $product->name=$request->name;
         $product->title=$request->title;
         $product->sub_title=$request->sub_title;
-        $product->read_more_link=$request->read_more_link;
+        $product->read_more_link=$request->description_text;
         $product->view_website_link=$request->view_website_link;
         if($request->file('image')!=null){
             $file = $request->file('image');
