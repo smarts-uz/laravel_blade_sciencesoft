@@ -73,7 +73,7 @@
                                                  <label for="Icon">{{ _trans("Icon") }}</label><br>
                                                  <input type="file" style="width: 500px;" id="icon" name="icon" value="{{ $category->icon??asset('images/default-image.png') }}">
                                              </div>
-                                             <td><img src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
+                                             <td><img src="{{ "/uploads/categories/icons".$category->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
                                          </div>
 

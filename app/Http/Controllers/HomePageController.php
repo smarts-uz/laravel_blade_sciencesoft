@@ -22,14 +22,15 @@ class HomePageController extends Controller
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         $blogs = Blog::all();
-        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs]);
+        $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+        return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs, 'partnerships'=>$partnerships]);
     }
     public function getDynamicPage($page, $name=null, $items=[], $translation='en')
     {
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
-        if(!view()->exists('front.pages.'.$page)){
+        if(!view()->exists('front.pages.'.$page) || $page=='index'){
             return $this->index();
         }
         return view('page_controller', ['page'=>'front.pages.'.$page,'categories'=> $categories, $name=>$items]);

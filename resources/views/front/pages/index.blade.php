@@ -18,9 +18,10 @@
 </div>
 <div class="container mb-24">
     <section class="customer-logos slider px-16">
-      @foreach($categories as $category)
-      <div class="slide"><img class="h-32 w-32" src="{{ "/uploads/categories/".$category->image??asset('images/default-image.png') }}" alt="logo"></div>
-      @endforeach
+      @foreach($partnerships as $partner)
+        <div class="slide"><img class="h-32 w-32"
+            src="{{ "/uploads/categories/".$partner->image??asset('images/default-image.png') }}" alt="logo"></div>
+    @endforeach
     </section>
   </div>
   <!-- EXPLORE OUR OFFERING Responsive -->
