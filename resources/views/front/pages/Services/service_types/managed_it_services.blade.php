@@ -6,9 +6,9 @@
 
 @section('main')
 
-<div class="mx-6 md:mx-16 lg:mx-24">
+<div class="mx-6 md:mx-16 lg:mx-16">
 
-<div class="text-2xl md:text-4xl font-bold m-10">
+<div class="text-2xl md:text-4xl font-bold">
     {{ _trans("Managed IT Services for Stable and Reliably Evolving IT Environment")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-sciencesoft.svg">
@@ -41,17 +41,17 @@
         outsourcing services are a cost-effective way of increasing business performance.")  }} </p>
     </div>
     <div class='w-2/5 m-0 flex justify-center items-center'>
-        <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("DISCUSS MY
+        <a href="#" class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("DISCUSS MY
         OUTSOURCING OPTIONS")  }}</a>
     </div>
 </div>
 
-<div class="text-2xl md:text-4xl font-bold m-6">
+<div class="text-2xl md:text-4xl font-bold my-6">
     {{ _trans("IT Infrastructure Components Our Managed IT Services Tackle")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
-<div class="flex flex-col md:flex-row  items-start ">
+<div class="flex flex-col md:flex-row items-start ">
     <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
         <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
             <li class="mb-4 underline text-black"><a href="#">{{ _trans("Networks.")  }}</a></li>
@@ -77,19 +77,19 @@
         </ul>
     </div>
 </div>
-<div class="m-10">
+<div class="w-full flex items-center justify-center">
     <img
         src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-support/it-infrastructure-components-sciencesoft.svg">
 
 </div>
 
-<div class="text-2xl md:text-3xl font-bold mx-8">
+<div class="text-2xl md:text-3xl font-bold mt-5">
     {{ _trans("Deliverables of ScienceSoft’s Managed IT Services")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
-<div class="flex flex-row m-8">
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+<div class="flex flex-row flex-wrap">
+    <div class="rounded-sm border-2 transition-shadow hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("Increased IT services and infrastructure
@@ -113,7 +113,7 @@
             </ul>
         </div>
     </div>
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("Transparent service:")  }}</p>
@@ -137,7 +137,7 @@
         </div>
     </div>
 
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("CSAT and user adoption rate improvement
@@ -155,7 +155,7 @@
 </div>
 
 <div class="flex flex-row m-8">
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("Compliance with industry standards:
@@ -167,7 +167,7 @@
             </ul>
         </div>
     </div>
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("Cost-effective user support with:
@@ -185,12 +185,12 @@
         </div>
     </div>
 </div>
-<div class='w-2/5 m-0 flex justify-center items-center'>
-    <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("REQUEST MANAGED IT
+<div class='w-full m-0 flex justify-center items-center'>
+    <a href="#" class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("REQUEST MANAGED IT
     SERVICES")  }}</a>
 </div>
 
-<div class="text-2xl md:text-4xl font-bold m-10">
+<div class="text-2xl md:text-4xl font-bold my-10">
     {{ _trans("Why Choose ScienceSoft")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <ul class="font-normal list-outside list-disc bg-rose-200 text-lg leading-relaxed m-4">
@@ -214,28 +214,102 @@
         </li>
     </ul>
 </div>
-
-<div class="container -mt-36">
-    <section class="customer-logos slider ">
-        <div class="slide"><img src="images/adidas.png" alt="logo"></div>
-        <div class="slide"><img src="images/facebook.png" alt="logo"></div>
-        <div class="slide"><img src="images/google.png" alt="logo"></div>
-        <div class="slide"><img src="images/instagram.png" alt="logo"></div>
-        <div class="slide"><img src="images/nike.png" alt="logo"></div>
-        <div class="slide"><img src="images/twitter.png" alt="logo"></div>
-        <div class="slide"><img src="images/uber.png" alt="logo"></div>
-        <div class="slide"><img src="images/youtube.png" alt="logo"></div>
-    </section>
-</div>
-
 <div class="text-2xl md:text-3xl font-bold mt-20">
     {{ _trans("Technologies We Work with")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
-=============davomi bor===============
+  <div class="flex my-5 shadow-lg">
+    <ul class="w-1/5 border-r border-gray-200">
+      <li class="link text-xl cursor-pointer px-5 py-3 text-blue-500 border-l-8 border-blue-500 duration-300 bg-gray-50" onclick="Tab(event, 'Platforms')">Platforms</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Monitoring-tools')">Monitoring tools</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'DevOps')">DevOps</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Clouds')">Clouds</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Backend')">Backend</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Frontend')">Frontend</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Mobile')">Mobile</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Databases')">Databases</li>
+      <li class="link text-xl cursor-pointer px-5 py-3" onclick="Tab(event, 'Cloud-Databases')">Cloud Databases (DBaaS)</li>
+    </ul>
+    <div class="bg-gray-50 w-4/5 p-5">
+      <div id="Platforms" style="display: block;" class="content hidden">
+        <h1 class="text-2xl font-bold">Programming</h1>
+        <hr class="w-14 h-0.5 border-none my-3 bg-yellow-400"/>
+        <p>Click on the platform to learn about our capabilities in it.</p>
+        <div class="flex flex-wrap">
+            <div class="w-28 h-28 flex hover:shadow-lg duration-300 bg-white items-center justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/dynamics-365-logo.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/power-bi-2020.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/salesforce.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/sap.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/servicenow-logo.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/sharepoint-logo-vertical.svg') }}" alt="tab">
+            </div>
+        </div>
+      </div>
+      <div id="Monitoring-tools" class="content hidden">
+        <h1 class="text-2xl font-bold">Monitoring tools</h1>
+        <hr class="w-14 h-0.5 border-none my-3 bg-yellow-400"/>
+        <div class="flex flex-wrap">
+            <div class="w-28 h-28 flex hover:shadow-lg duration-300 bg-white items-center justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/dynamics-365-logo.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/power-bi-2020.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/salesforce.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/sap.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/servicenow-logo.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/sharepoint-logo-vertical.svg') }}" alt="tab">
+            </div>
+        </div>
+      </div>
+      <div id="DevOps" class="content hidden">
+        <h1 class="text-2xl font-bold">DevOps</h1>
+        <hr class="w-14 h-0.5 border-none my-3 bg-yellow-400"/>
+        <div class="flex flex-wrap">
+            <div class="w-28 h-28 flex hover:shadow-lg duration-300 bg-white items-center justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/dynamics-365-logo.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/power-bi-2020.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/salesforce.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/sap.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/servicenow-logo.svg') }}" alt="tab">
+            </div>
+            <div class="w-28 h-28 flex items-center hover:shadow-lg duration-300 bg-white justify-center border border-gray-200 p-5 m-3">
+                <img src="{{ asset('images/tab/sharepoint-logo-vertical.svg') }}" alt="tab">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
+
+<div class="text-2xl md:text-3xl font-bold mt-20">
     {{ _trans("Your Questions about Managed Services Answered")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
@@ -300,18 +374,18 @@
 
 ================davomi bor Carousel=================
 
-<div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
+<div class="text-2xl md:text-3xl font-bold mt-20">
     {{ _trans("Our Service Packages")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
-<div class="flex flex-row m-8">
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+<div class="flex flex-row flex-wrap justify-between m-8">
+    <div class="rounded-sm border-2 transition-shadow hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("Basic")  }}</p>
             <p>
-                {{ _trans("Get your infrastructure <strong>continuously supported and optimized:")  }}</strong>
+                {{ _trans("Get your infrastructure continuously supported and optimized:") }}
             </p>
             <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
                 <li class="my-2">
@@ -343,11 +417,11 @@
 
         </div>
     </div>
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans("Extended")  }}</p>
-            <p>{{ _trans("Includes the <strong>Basic package and assistance with new infrastructure initiatives:")  }}</strong></p>
+            <p>{{ _trans("Includes the Basic package and assistance with new infrastructure initiatives:")  }}</p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
                 <li>
                     {{ _trans("Analyzing problems in IT infrastructure and providing recommendations")  }}
@@ -368,14 +442,14 @@
 
     </div>
 
-    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/5 h-auto mr-10">
+    <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
         <hr class="w-full border-t-4 border-blue-800" />
         <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
                 {{ _trans("Extended Plus")  }}
             </p>
             <p>
-                {{ _trans("Includes the")  }} <strong>{{ _trans("Extended package and modernization of your IT")  }}</strong> {{ _trans("infrastructure:")  }}
+                {{ _trans("Includes the Extended package and modernization of your IT infrastructure:")  }}
             </p>
             <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
 

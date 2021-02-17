@@ -882,67 +882,6 @@
       <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans("SUCCESS Stories")  }}</h1>
       <hr class="w-10 h-1 bg-pink-600">
     </div>
-    <div id="container" class="overflow-hidden bg-gray-200 md:w-1/2 w-full relative ">
-      <div id="title" class="absolute w-full duration-500 z-50">
-        <h1 class="text-white font-bold md:text-2xl text-lg">{{ _trans("eCommers By TeamPro")  }}</h1>
-        <hr class="h-0.5 duration-500 border-none bg-yellow-600">
-      </div>
-      <div id="title-link"
-      class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
-        <p>{{ _trans("Programming")  }}</p>
-        <i class="fas fa-arrow-right"></i>
-      </div>
-      <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
-      <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
-        <div id="child-title" class="absolute duration-500">
-          <h1 class="text-center md:text-2xl text-lg font-bold text-black">{{ _trans("eCommers by TeamPro")  }}</h1>
-          <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
-        </div>
-
-        <div id="child-dis" class="absolute text-sm md:text-base duration-500">
-          <p>{{ _trans("C++")  }}</p>
-          <p>{{ _trans("JavaScript")  }}</p>
-          <p>{{ _trans("Java")  }}</p>
-          <p>{{ _trans("Go")  }}</p>
-        </div>
-
-        <a
-        href="#"
-        id="link"
-        class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">{{ _trans("Learn More")  }} <i class="fas ml-3 fa-arrow-right"></i></a>
-      </div>
-    </div>
-
-    <div id="container" class="overflow-hidden bg-gray-200 md:w-1/2 w-full relative ">
-      <div id="title" class="absolute w-full duration-500 z-50">
-        <h1 class="text-white font-bold md:text-2xl text-lg">{{ _trans("eCommers By TeamPro")  }}</h1>
-        <hr class="h-0.5 duration-500 border-none bg-yellow-600">
-      </div>
-      <div id="title-link"
-      class="absolute text-sm md:text-lg duration-500 z-50 w-full text-white flex justify-between items-center">
-        <p>{{ _trans("Programming")  }}</p>
-        <i class="fas fa-arrow-right"></i>
-      </div>
-      <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
-      <div id="first" class="absolute w-full h-full duration-500 top-0 left-0 flex justify-start">
-        <div id="child-title" class="absolute duration-500">
-          <h1 class="text-center md:text-2xl text-lg font-bold text-black">{{ _trans("eCommers by TeamPro")  }}</h1>
-          <hr class="h-0.5 duration-1000 border-none bg-yellow-600">
-        </div>
-
-        <div id="child-dis" class="absolute text-sm md:text-base duration-500">
-          <p>{{ _trans("C++")  }}</p>
-          <p>{{ _trans("JavaScript")  }}</p>
-          <p>{{ _trans("Java")  }}</p>
-          <p>{{ _trans("Go")  }}</p>
-        </div>
-
-        <a
-        href="#"
-        id="link"
-        class="absolute text-sm md:text-base text-blue-400 duration-500 z-50">{{ _trans("Learn More")  }} <i class="fas ml-3 fa-arrow-right"></i></a>
-      </div>
-    </div>
   </div>
 
 
