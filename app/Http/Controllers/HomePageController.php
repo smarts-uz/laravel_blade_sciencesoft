@@ -60,8 +60,9 @@ class HomePageController extends Controller
             return $this->getDynamicPage($page, ['products' => $products]);
         }else if(str_contains($page, 'portfolios')){
             $technologies=Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+            $industries=Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
             $portfolios = Portfolio::all();
-            return $this->getDynamicPage($page, ['portfolios'=> $portfolios, 'technologies'=>$technologies]);
+            return $this->getDynamicPage($page, ['portfolios'=> $portfolios, 'technologies'=>$technologies, 'industries'=>$industries]);
         }else if(str_contains($page, 'partnerships')){
             $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partnerships' => $partnerships]);
@@ -122,15 +123,11 @@ class HomePageController extends Controller
     public function SingleBlog($id)
     {
         $blog = Blog::all()->find($id);
-        $categories = Category::all();
-
-        return view('front.pages.blog_single_page', ['blog' => $blog,'categories'=> $categories]);
+        return $this->getDynamicPage('blog_single_page', ['blog' => $blog]);
     }
     public function SingleProduct($id)
     {
         $product = Product::all()->find($id);
-        $categories = Category::all();
-
-        return view('front.pages.products.product_single_page', ['product' => $product,'categories'=> $categories]);
+        return $this->getDynamicPage('products.product_single_page', ['product' => $product]);
     }
 }
