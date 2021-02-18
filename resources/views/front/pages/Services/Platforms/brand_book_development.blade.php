@@ -6,56 +6,37 @@
 
 @section('main')
 
+<main class="overflow-hidden">
 
-
-
-<div class="bg-black h-screen">
-    <div class="flex ">
-        <div class="container m-auto ">
-            <div class="flex justify-between m-6 mx-10">
-
-                <div class="max-h-10">
-                    <video>
-                        <source src="/local/templates/oe/media/images/amo-crm/movie.mp4" type="video/mp4">
-                        <source src="/local/templates/oe/media/images/amo-crm/movie.ogg" type="video/ogg">
-                    </video>
-                </div>
-
-                <div>
-                    <a href=""
-                       class="bg-blue-700 rounded-full text-white px-3 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        заказать проект
-                    </a>
-                    <span class="text-white text-xl ">
-                    Меню
-                </span>
-                </div>
+<div class="bg-black h-auto px-4 pt-32">
+        <div
+          class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
+        >
+          <div data-aos="fade-right">
+            <div
+              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
+            >
+              Разработка <br> логотипа и <br> Брендбуков
             </div>
-        </div>
-    </div>
-
-    <div class="grid grid-flow-col grid-cols-2 container m-auto sm:grid-cols-2">
-        <div data-aos="fade-right">
-            <div class="text-white text-6xl font-semibold m-auto leading-tight mb-12">
-                Разработка <br> логотипа и <br> Брендбуков
+            <div class="lg:px-20">
+              <a
+                href="#"
+                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+              >
+                Получить консультацию
+              </a>
             </div>
-            <div class="content-center">
-                <a href=""
-                   class="mx-auto bg-blue-700 rounded-full text-white py-3 px-5  transition duration-300 ease-in-out hover:bg-blue-900">
-                    Получить консультацию
-                </a>
-            </div>
+          </div>
+
+          <div data-aos="fade-left" class="my-8 flex justify-center">
+            <img src="https://oe.uz/local/templates/oe/media/images/brand/intro.svg" alt="" />
+          </div>
         </div>
-
-        <div data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/brand/intro.svg" alt="">
-        </div>
-
-    </div>
-</div>
+      </div>
 
 
-<div>
+
+<div class="pt-8">
     <div class="grid container lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-2 m-auto pt-16 items-center justify-center mb-10">
         <div data-aos="fade-left">
             <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-feature/1.svg" alt="" class="m-auto">
@@ -80,10 +61,10 @@
     </div>
 </div>
 
-<div class="grid grid-cols-2 m-20 my-40">
+<div class="grid grid-cols-1 lg:grid-cols-2 sm:m-20 my-40">
     <div>
         <div class="flex justify-center mx-6 mt-10">
-            <div class="text-5xl  leading-10 ">
+            <div class="text-4xl sm:text-5xl  leading-10 ">
                 <div class="flex">
                     <p style="font-size: 10rem" class="font-bold text-gray-500 mt-10" data-aos="fade-up">1</p>
                     <h1 class=" font-bold text-blue-600" data-aos="fade-right">Разработка <br>
@@ -100,9 +81,9 @@
             </div>
         </div>
     </div>
-    <div class="text-gray-500">
-        <div class="">
-            <div class="grid  grid-cols-3 gap-10 ">
+    <div class="text-gray-500 flex justify-center pt-8">
+        <div class="grid justify-center">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 ">
                 <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
                     <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-what/6.svg" alt=""
                          class="mx-auto">
@@ -120,7 +101,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-3 gap-10 ">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 ">
                 <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
                     <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-what/6.svg" alt=""
                          class="mx-auto">
@@ -148,10 +129,15 @@
     <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center leading-8">Что входит в
         разработку <br>
         фирменного стиля</h1>
-    <p data-aos="fade-up" style="font-size: 8rem"
-       class="item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">
-        2
-    </p>
+    <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-300 "
+              >
+                2
+              </p>
+          </div>
 </div>
 
 <div class="flex flex-wrap">
@@ -243,40 +229,62 @@
 
 </div>
 
+<div class="mt-40">
 
-<div class="bg-gray-100 h-12  mt-64">
+    <div class="bg-gray-400 h-12"></div>
+
+          <div class="px-8">
+            <div
+              data-aos="zoom-in"
+              class="max-w-3xl mx-auto bg-white shadow-2xl rounded-3xl p-10 sm:p-20 -mt-56"
+            >
+              <h1
+                class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700"
+              >
+                Заполните форму прямо сейчас и получите квалифицированную бесплатную
+                консультацию.
+              </h1>
+              <h2 class="text-lg p-6 pl-13">Название организации</h2>
+              <form>
+                <label>
+                  <input
+                    type="text"
+                    placeholder="Пример: Open Engine"
+                    class="h-12 w-full border-b border-blue-700"
+                  />
+                </label>
+              </form>
+
+              <div>
+                <div class="dots dots-form mx-auto">
+                  <span class="active"><i class="fa fa-check"></i></span>
+                  <span><i class="fa fa-check"></i></span>
+                  <span><i class="fa fa-check"></i></span>
+                  <span><i class="fa fa-check"></i></span>
+                </div>
+              </div>
+
+              <div class="flex justify-center">
+                <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
+                  <a
+                    href=""
+                    class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+                  >
+                    Назад
+                  </a>
+
+                  <a
+                    href=""
+                    class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
+                  >
+                    Далее
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
 </div>
-<div data-aos="zoom-in" class="max-w-3xl mx-auto bg-white shadow-lg rounded-3xl  p-20 -mt-56">
-    <h1 class="text-center text-3xl font-semibold leading-tight text-blue-700">Заполните форму прямо сейчас и
-        получите квалифицированную бесплатную консультацию.</h1>
-    <h2 class="text-lg p-6 pl-13">Название организации</h2>
-    <label>
-        <input type="text" placeholder="Пример: Open Engine" class="h-12 w-full border-b border-blue-700">
-    </label>
-
-    <div>
-        <div class="dots dots-form mx-auto">
-            <span class="active"><i class="fa fa-check"></i></span>
-            <span><i class="fa fa-check"></i></span>
-            <span><i class="fa fa-check"></i></span>
-            <span><i class="fa fa-check"></i></span>
-        </div>
-    </div>
-
-    <div class="flex mt-10 justify-center">
-        <a href=""
-           class="bg-blue-700 rounded-full text-white px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-            Назад
-        </a>
-
-        <a href=""
-           class="bg-blue-700 rounded-full text-white px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-            Далее
-        </a>
-    </div>
-</div>
-
 
 <div class="grid grid-cols-2 my-20">
     <div class="flex justify-center mx-6 mt-10">
@@ -360,13 +368,20 @@
 
 <div class="flex justify-center items-center my-20 relative ">
     <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Кейсы</h1>
-    <p data-aos="fade-down" style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0">
-        4</p>
+    <div class="flex text-center absolute item-center justify-center z-0">
+              <p
+                data-aos="fade-up"
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-300 "
+              >
+                4
+              </p>
+          </div>
 </div>
 
 
 <div class="flex container mx-auto">
-    <div class="grid grid-cols-2 relative">
+    <div class="grid grid-cols-1 md:grid-cols-2 relative">
 
         <div style="border-radius: 0 0 200px 0" class="bg-blue-700 py-10 m-10 px-10 " data-aos="fade-right">
             <div class="flex justify-center items-center ">
@@ -377,9 +392,9 @@
                 гарантировать <br> правильный результат</p>
         </div>
 
-        <div>
-            <div class="flex justify-center ">
-                <div class="grid grid-cols-2 gap-20">
+        <div class="grid grid-cols-1 justify-center">
+            <div class="grid justify-center">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-5">
                     <div class=" p-5">
                         <img class=""
                              src="https://oe.uz/local/templates/oe/media/images/brand/icons-why/1.svg"
@@ -400,8 +415,8 @@
                 </div>
             </div>
 
-            <div class="flex justify-center">
-                <div class="grid grid-cols-2 gap-20">
+            <div class="grid  justify-center">
+                <div class="grid  grid-cols-1 md:grid-cols-2 gap-5">
                     <div class=" p-5">
                         <img class=""
                              src="https://oe.uz/local/templates/oe/media/images/brand/icons-why/1.svg"
@@ -613,7 +628,7 @@
 
 
 
-
+</main>
 @endsection
 
 

@@ -81,6 +81,12 @@
         </div>
 </div>
 
+
+
+
+
+
+
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-down" class="font-bold sm:text-4xl text-3xl font-bold text-blue-700 z-10 text-center leading-10">Что такое <br>
             контекстная реклама</h1>
