@@ -6,11 +6,11 @@
 
 @section('main')
 
-<main style="overflow-y: hidden; overflow-x: hidden">
+<main class="overflow-hidden">
 
 <div class="bg-black h-auto px-4 pt-40">
         <div
-          class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
+          class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
           <div data-aos="fade-right">
             <div
@@ -79,7 +79,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 1
               </p>
@@ -260,14 +260,7 @@
                 </label>
               </form>
 
-              <div>
-                <div class="dots dots-form mx-auto">
-                  <span class="active"><i class="fa fa-check"></i></span>
-                  <span><i class="fa fa-check"></i></span>
-                  <span><i class="fa fa-check"></i></span>
-                  <span><i class="fa fa-check"></i></span>
-                </div>
-              </div>
+
 
               <div class="flex justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
@@ -350,7 +343,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 4
               </p>
@@ -504,7 +497,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 5
               </p>
@@ -594,7 +587,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 6
               </p>
@@ -684,7 +677,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 7
               </p>
@@ -724,7 +717,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-400 opacity-50"
               >
                 8
               </p>
@@ -737,7 +730,7 @@
     </div>
 
 
-    <div class="bg-gray-200 z-0" data-aos="fade-up">
+    <div class="bg-gray-50 z-0" data-aos="fade-up">
         <div style="margin-left: 20%; margin-right: 20%; font-size: 17px" class="pt-20 text-gray-700 pb-20">
 
             <div class="z-0">
