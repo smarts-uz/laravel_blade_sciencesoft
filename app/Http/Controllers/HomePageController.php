@@ -26,7 +26,7 @@ class HomePageController extends Controller
         return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs, 'partnerships'=>$partnerships]);
     }
 
-    public function getDynamicPage($page, $collections, $category_id=null, $translation='en')
+    public function getDynamicPage($page, $collections=null, $category_id=null, $translation='en')
     {
         $categories = Category::whereNull('category_id')
             ->with('childrenCategories')->whereNull('deleted_at')
