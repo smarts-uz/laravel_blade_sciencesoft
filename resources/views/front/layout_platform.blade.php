@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
   <link href="{{ asset('custom_css/font-google.css') }}" rel="stylesheet">
   <link href="{{asset('custom_css/tailwind.css')}}" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
+  <!-- <link rel="stylesheet" href="{{ asset('style-carousel.css') }}"> -->
   <link rel="stylesheet" href="{{ asset('style.css') }}">
 
   <!-- open engine -->
@@ -20,6 +20,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+
+
+    <style>
+    .container{
+        padding-top: 0px;
+    }
+    </style>
   <title>Sciensoft Development Company</title>
 
 
