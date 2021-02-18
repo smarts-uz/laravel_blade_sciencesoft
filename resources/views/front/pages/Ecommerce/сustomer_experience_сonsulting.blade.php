@@ -62,7 +62,7 @@
       </div>
   <i class="mt-12"> * The business impact of effective customer experience management according to <a class="hover:text-blue-700 underline" href="/">Forrester</a></i>
 
-  <div class=" mb-4 mt-8  p-4 border hover:shadow-2xl">
+  <div class="mb-4 mt-8  p-4 border hover:shadow-2xl">
     <h1 class="  pt-3 font-bold text-2xl">Build a Web Portal that is Easy for Users and<br> Effective for Business</h1><br>
     <hr class="w-10 border-b-3 border-yellow-500  mb-10 ml-4"/>
     <p class="leading-8 pl-6 text-2xl text-gray-600 pr-4 pb-8">ScienceSoft’s team is ready to deliver the most challenging portal<br> projects to help your leverage streamlined, transparent and consistent<br> web communication with your clients, partners, employees, or<br> community.
@@ -70,13 +70,33 @@
     <button class="mt-4 ml-6 mb-24 bg-blue-700">
       <p class="p-3 text-lg text-white">DISCUSS MY WEB PORTAL</p>
     </button>
-
  </div>
+    <h1 class="uppercase font-bold mt-10 text-2xl">
+        {{ _trans("IS THERE A REASON WHY YOU SHY AWAY FROM CX OPTIMIZATION?")  }}
+    </h1>
+    <hr class="w-12 mt-5 text-yellow-400 h-4" />
+    <p class="my-5 text-lg">
+        {{ _trans("Most challenges of customer experience management are concealed
+         in thought-patterns and business processes conserved within a company,
+          rather than in the low awareness of customer experience best practices.
+        We have summarized our action plan to address your most frequent concerns.")  }}
+    </p>
+    <div class="container">
+        <div class="grid grid-cols-2">
+            <div class="block border p-8 pt-12">
+                <img class="w-32" src="https://www.scnsoft.com/ecommerce/cx/reasonable-money.svg" alt="">
+                <p class="text-xl text-sm text-bold mt-8">CX optimization may start with reasonable money</p>
+                <p class="loading-8 mt-8">
+                    You don’t need heavy up-front investments to move towards better experience
+                    for your customers. Applying an agile approach, we can prioritize the areas
+                     to improve and start where a quick ROI is envisaged. This will give you
+                     financial resources and a
+                    powerful boost to continue the transformation into an experience-led business.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
-
-
-
-
 
 
 

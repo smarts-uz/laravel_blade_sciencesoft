@@ -109,7 +109,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 1
               </p>
@@ -230,7 +230,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 3
               </p>
@@ -311,7 +311,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 4
               </p>
@@ -384,7 +384,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 5
               </p>
@@ -503,7 +503,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-300 "
               >
                 6
               </p>
@@ -530,7 +530,7 @@
 <div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative" data-aos="fade-up-right">
     <div class="flex justify-center items-center my-20 pt-10">
         <h1 class="md:text-4xl text-3xl font-bold text-white z-10">Разработка телеграм ботов</h1>
-        <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-400 z-0 opacity-50">7</p>
+        <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">7</p>
     </div>
 </div>
 
@@ -564,7 +564,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+                class="  font-bold  text-gray-400 opacity-50"
               >
                 8
               </p>
