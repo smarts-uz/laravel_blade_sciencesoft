@@ -7,7 +7,7 @@
 @section('main')
 
 
-<main style="overflow-y: hidden; overflow-x: hidden">
+<main class="overflow-hidden">
       <div class="bg-black h-auto px-4 pt-32">
         <div
           class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
