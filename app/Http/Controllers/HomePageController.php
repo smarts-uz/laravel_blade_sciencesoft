@@ -123,15 +123,11 @@ class HomePageController extends Controller
     public function SingleBlog($id)
     {
         $blog = Blog::all()->find($id);
-        $categories = Category::all();
-
-        return view('front.pages.blog_single_page', ['blog' => $blog,'categories'=> $categories]);
+        return $this->getDynamicPage('blog_single_page', ['blog' => $blog]);
     }
     public function SingleProduct($id)
     {
         $product = Product::all()->find($id);
-        $categories = Category::all();
-
-        return view('front.pages.products.product_single_page', ['product' => $product,'categories'=> $categories]);
+        return $this->getDynamicPage('products.product_single_page', ['product' => $product]);
     }
 }
