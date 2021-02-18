@@ -10,7 +10,7 @@
 
 <div class="bg-black h-auto px-4 pt-32">
         <div
-          class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
+          class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
           <div data-aos="fade-right">
             <div
@@ -255,14 +255,7 @@
                 </label>
               </form>
 
-              <div>
-                <div class="dots dots-form mx-auto">
-                  <span class="active"><i class="fa fa-check"></i></span>
-                  <span><i class="fa fa-check"></i></span>
-                  <span><i class="fa fa-check"></i></span>
-                  <span><i class="fa fa-check"></i></span>
-                </div>
-              </div>
+
 
               <div class="flex justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
@@ -551,7 +544,7 @@
 </div>
 
 <div class="bg-gray-100 h-12 z-10" data-aos="fade-up-right"></div>
-<div class="bg-gray-200 z-0" data-aos="fade-up-right">
+<div class="bg-gray-50 z-0" data-aos="fade-up-right">
     <div style=" font-size: 17px" class="pt-20 text-gray-700 pb-20">
 
         <div style="margin-left: 20%; margin-right: 20%;" class="z-0 text-gray-600 text-lg">
