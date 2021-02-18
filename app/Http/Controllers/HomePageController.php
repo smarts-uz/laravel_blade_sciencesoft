@@ -81,15 +81,10 @@ class HomePageController extends Controller
     public function getBlogByTag(Request $request)
     {
         $blogs = Blog::all();
-
-//        Product::('JSON_CONTAINS(shops,"'.$this->id.'")');
-//        if($blogs = DB::table('blogs')->orWhereJsonContains('tag->category', $request->tag_name)->get()){
-        if($blogs = Blog::whereJsonContains('tag->category', $request->tag_name)){
-//        if($blogs = Blog::whereRaw('JSON_CONTAINS(blogs, tag->category', $request->tag_name)->get()){
-            return $this->getDynamicPage('blog', 'blogs', $blogs);
-//            return View::make('front.pages.blog')->with(compact('blogs', $blogs));
+        if($blogs = Blog::where('tag','like', "%".$request->tag_name."%")->get()){
+            return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
         }
-        return $this->getBlade('blog', ['blogs'=>$blogs]);
+        return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
     }
 
     public function getCategoryById($id)
