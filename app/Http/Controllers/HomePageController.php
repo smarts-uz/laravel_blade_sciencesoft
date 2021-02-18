@@ -60,8 +60,9 @@ class HomePageController extends Controller
             return $this->getDynamicPage($page, ['products' => $products]);
         }else if(str_contains($page, 'portfolios')){
             $technologies=Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+            $industries=Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
             $portfolios = Portfolio::all();
-            return $this->getDynamicPage($page, ['portfolios'=> $portfolios, 'technologies'=>$technologies]);
+            return $this->getDynamicPage($page, ['portfolios'=> $portfolios, 'technologies'=>$technologies, 'industries'=>$industries]);
         }else if(str_contains($page, 'partnerships')){
             $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partnerships' => $partnerships]);
