@@ -21,39 +21,13 @@
                 </select>
             </div>
 
-            <div class="">
-                <label class="font-bold text-xl pr-2" for="technology"
-                >Industries:</label
-                >
+            <div class=""><label class="font-bold text-xl pr-2" for="technology">Industries:</label>
                 <select
-                    class="p-2 border-none outline-none bg-transparent text-blue-500 text-xl font-bold"
-                    name="technology"
-                    id="technology"
-                >
+                    class="p-2 border-none outline-none bg-transparent text-blue-500 text-xl font-bold" name="technology" id="technology">
                     <optgroup class="text-black" label="All">
-                        <option class="text-black" value="crm">All</option>
-                        <option class="text-black" value="Digital Marketing">
-                            Digital Marketing
-                        </option>
-                        <option class="text-black" value="lamp">lamp</option>
-                        <option class="text-black" value="crm">crm</option>
-                        <option class="text-black" value="Digital Marketing">
-                            Digital Marketing
-                        </option>
-                        <option class="text-black" value="lamp">lamp</option>
-                    </optgroup>
-
-                    <optgroup class="text-black" label="Something">
-                        <option class="text-black" value="crm">All</option>
-                        <option class="text-black" value="Digital Marketing">
-                            Digital Marketing
-                        </option>
-                        <option class="text-black" value="lamp">lamp</option>
-                        <option class="text-black" value="crm">crm</option>
-                        <option class="text-black" value="Digital Marketing">
-                            Digital Marketing
-                        </option>
-                        <option class="text-black" value="lamp">lamp</option>
+                        @foreach($industries as $industry)
+                        <option class="text-black" value="crm">{{ $industry->name }}</option>
+                        @endforeach
                     </optgroup>
                 </select>
             </div>
@@ -79,9 +53,7 @@
                                 @if($category->category_id == 69)
                                     {{$category->icon}}
                                     <div class="my-2 rounded-full p-1 border-2 border-light-blue-500">
-                                        <img class="mx-auto"
-                                             src="{{ asset('uploads/categories/icons/' . $category->icon) }}"
-                                             alt=""/>
+                                        <img class="mx-auto" src="{{ asset('uploads/categories/icons/' . $category->icon) }}" alt=""/>
                                     </div>
                                 @endif
                             @endforeach
