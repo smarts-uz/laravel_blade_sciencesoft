@@ -67,7 +67,7 @@ class HomePageController extends Controller
             $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partnerships' => $partnerships]);
         }else if(str_contains($page, 'ecommerce')){
-            return $this->getDynamicPage($page, null, null, 38);
+            return $this->getDynamicPage($page, null,  38);
         }
         return $this->getDynamicPage($page);
 
@@ -81,15 +81,10 @@ class HomePageController extends Controller
     public function getBlogByTag(Request $request)
     {
         $blogs = Blog::all();
-
-//        Product::('JSON_CONTAINS(shops,"'.$this->id.'")');
-//        if($blogs = DB::table('blogs')->orWhereJsonContains('tag->category', $request->tag_name)->get()){
-        if($blogs = Blog::whereJsonContains('tag->category', $request->tag_name)){
-//        if($blogs = Blog::whereRaw('JSON_CONTAINS(blogs, tag->category', $request->tag_name)->get()){
-            return $this->getDynamicPage('blog', 'blogs', $blogs);
-//            return View::make('front.pages.blog')->with(compact('blogs', $blogs));
+        if($blogs = Blog::where('tag','like', "%".$request->tag_name."%")->get()){
+            return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
         }
-        return $this->getBlade('blog', ['blogs'=>$blogs]);
+        return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
     }
 
     public function getCategoryById($id)
