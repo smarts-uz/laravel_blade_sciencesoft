@@ -23,11 +23,27 @@
                                  <!-- Name Field -->
                                      <div class="row">
                                          <!-- Tag Field -->
+{{--                                         <div class="form-group col-sm-6">--}}
+{{--                                             <label for="tag">{{ _trans("Tag")  }}</label>--}}
+{{--                                             <textarea class="form-control" id="tag" name="tag">{{ old('tag', $blog->tag) }}</textarea>--}}
+{{--                                         </div>--}}
                                          <div class="form-group col-sm-6">
                                              <label for="tag">{{ _trans("Tag")  }}</label>
-                                             <textarea class="form-control" id="tag" name="tag">{{ old('tag', $blog->tag) }}</textarea>
+                                             <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="tag[]">
+                                                 <option value="All Topics">All Topics</option>
+                                                 @foreach($tags as $tag)
+                                                     <option value="{{ $tag->name }}">{{ $tag->name }}</option>
+                                                 @endforeach
+                                                 @foreach($solutionstags as $solutionstag)
+                                                     <option value="{{ $solutionstag->name }}">{{ $solutionstag->name }}</option>
+                                                 @endforeach
+                                                 @foreach($platformstags as $platformstag)
+                                                     <option value="{{ $platformstag->name }}">{{ $platformstag->name }}</option>
+                                                 @endforeach
+                                                 @foreach($techstags as $techstag)
+                                                     <option value="{{ $techstag->name }}">{{ $techstag->name }}</option>
+                                                 @endforeach</select>
                                          </div>
-
                                          <!-- Title Field -->
                                          <div class="form-group col-sm-6">
                                              <label for="title">{{ _trans("Title")  }}</label>

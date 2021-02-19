@@ -62,7 +62,7 @@ class PortfolioController extends AppBaseController
         $portfolio->name=$request->name;
         $portfolio->title=$request->title;
         $portfolio->sub_title=$request->sub_title;
-        $portfolio->blade_link=$request->blade_link;
+        $portfolio->blade_link=$request->description_text;
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
@@ -131,7 +131,7 @@ class PortfolioController extends AppBaseController
         $portfolio->name=$request->name;
         $portfolio->title=$request->title;
         $portfolio->sub_title=$request->sub_title;
-        $portfolio->blade_link=$request->blade_link;
+        $portfolio->blade_link=$request->description_text;
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
