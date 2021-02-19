@@ -24,9 +24,22 @@
 
                                        <!-- Tag Field -->
                                        <div class="form-group col-sm-6">
-                                           <label for="tag">{{ _trans("Tag")  }}</label>
+                                       <label for="tag">{{ _trans("Tag")  }}</label>
                                            <textarea class="form-control" id="tag" name="tag"></textarea>
                                        </div>
+                                       <!-- Tag Field -->
+                                       <div class="form-group col-sm-6">
+                                           <label for="tag">{{ _trans("Tag")  }}</label>
+                                           <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="tag[]">
+                                               <option value="cheese">Cheese</option>
+                                               <option value="tomatoes">Tomatoes</option>
+                                               <option value="mozarella">Mozzarella</option>
+                                               <option value="mushrooms">Mushrooms</option>
+                                               <option value="pepperoni">Pepperoni</option>
+                                               <option value="onions">Onions</option>
+                                           </select>
+                                       </div>
+
 
                                        <!-- Title Field -->
                                        <div class="form-group col-sm-6">

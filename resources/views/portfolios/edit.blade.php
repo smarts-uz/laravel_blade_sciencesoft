@@ -56,10 +56,11 @@
                                              <label for="sub_title">{{ _trans("Sub Title")  }}</label>
                                              <input type="text" class="form-control" id="sub_title" name="sub_title" value="{{ $portfolio->sub_title }}">
                                          </div>
-                                         <!-- Name Lang Field -->
-                                         <div class="form-group col-sm-6">
-                                             <label for="blade_link">{{ _trans("Blade Link")  }}</label>
-                                             <input type="text" class="form-control" id="blade_link" name="blade_link" value="{{ $portfolio->blade_link }}">
+
+                                         <!-- Description Text Field -->
+                                         <div class="form-group col-sm-6 col-lg-12">
+                                             <label for="description_text">{{ _trans("Blade Link") }}</label>
+                                             <textarea class="form-control" id="description_text" name="description_text">{{ old('blade_link', $portfolio->blade_link) }}</textarea>
                                          </div>
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
