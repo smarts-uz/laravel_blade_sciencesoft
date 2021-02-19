@@ -95,7 +95,7 @@ Route::group(['middleware'=>'auth'], function() {
 Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
 // Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('language.update');
 // Route::delete('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
-Route::resource('languages', 'App\Http\Controllers\LanguageController');
+// Route::resource('languages', 'App\Http\Controllers\LanguageController');
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
 // Route::post('/env_key_update', 'BusinessSettingsController@env_key_update')->name('env_key_update.update');
@@ -104,3 +104,16 @@ Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageControll
 
 
 Route::post('consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
+
+
+Route::post('/language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
+
+Route::get('/languages', 'App\Http\Controllers\LanguageController@index')->name('languages.index');
+// Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('languages.update');
+// Route::get('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
+Route::get('/languages/create', 'App\Http\Controllers\LanguageController@create')->name('languages.create');
+Route::post('/languages/store', 'App\Http\Controllers\LanguageController@store')->name('languages.store');
+Route::get('/languages/show/{id}', 'App\Http\Controllers\LanguageController@show')->name('languages.show');
+Route::get('/languages/edit/{id}', 'App\Http\Controllers\LanguageController@edit')->name('languages.edit');
+Route::put('/languages/update', 'App\Http\Controllers\LanguageController@update')->name('languages.update');
+Route::get('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
