@@ -22,21 +22,28 @@
                                    @csrf
                                    <div class="row">
 
-                                       <!-- Tag Field -->
-                                       <div class="form-group col-sm-6">
-                                       <label for="tag">{{ _trans("Tag")  }}</label>
-                                           <textarea class="form-control" id="tag" name="tag"></textarea>
-                                       </div>
+{{--                                       <!-- Tag Field -->--}}
+{{--                                       <div class="form-group col-sm-6">--}}
+{{--                                       <label for="tag">{{ _trans("Tag")  }}</label>--}}
+{{--                                           <textarea class="form-control" id="tag" name="tag"></textarea>--}}
+{{--                                       </div>--}}
                                        <!-- Tag Field -->
                                        <div class="form-group col-sm-6">
                                            <label for="tag">{{ _trans("Tag")  }}</label>
                                            <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="tag[]">
-                                               <option value="cheese">Cheese</option>
-                                               <option value="tomatoes">Tomatoes</option>
-                                               <option value="mozarella">Mozzarella</option>
-                                               <option value="mushrooms">Mushrooms</option>
-                                               <option value="pepperoni">Pepperoni</option>
-                                               <option value="onions">Onions</option>
+                                               <option value="All Topics">All Topics</option>
+                                               @foreach($tags as $tag)
+                                               <option value="{{ $tag->name }}">{{ $tag->name }}</option>
+                                               @endforeach
+                                               @foreach($solutionstags as $solutionstag)
+                                               <option value="{{ $solutionstag->name }}">{{ $solutionstag->name }}</option>
+                                               @endforeach
+                                               @foreach($platformstags as $platformstag)
+                                                   <option value="{{ $platformstag->name }}">{{ $platformstag->name }}</option>
+                                               @endforeach
+                                               @foreach($techstags as $techstag)
+                                                   <option value="{{ $techstag->name }}">{{ $techstag->name }}</option>
+                                               @endforeach
                                            </select>
                                        </div>
 
