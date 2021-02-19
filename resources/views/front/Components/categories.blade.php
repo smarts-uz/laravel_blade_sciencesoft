@@ -1,6 +1,5 @@
 <div class="md:px-16 lg:px-16 px-6 w-full top-0 left-0 fixed bg-white shadow z-50">
     <div class="flex justify-between items-center">
-<<<<<<< HEAD
         <a href="/">
             <img class="w-32"
                 src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
@@ -29,27 +28,6 @@
                                                 <a href="#">ASK US</a>
                                             </div>
                                         </div>
-=======
-      <a href="/">
-        <img class="w-32" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="Microsoft ASP.NET">
-      </a>
-      <div id="searchbar" class="flex justify-end items-center w-4/5">
-        <ul class="w-11/12 hidden lg:flex justify-end items-center list-none">
-            @foreach ($categories as $category)
-                @if($category->active)
-                    <li class="flex mr-10 border-white hover:border-blue-700 cursor-pointer hover:text-blue-500">
-                        @if(empty($category->path_blade)  )
-                            <a id="about" class="relative" href="#">
-                                <h1 class="font-bold hover:text-blue-500 border-b-4 border-white hover:border-blue-500 duration-300 py-4 text-black">{{ $category->name }}</h1>
-                                <div id="aboutHover" class="w-full hidden duration-500 flex absolute left-0 z-40 top-16 border-t-2 border-b-2 bg-white justify-start py-5 px-10">
-                                <div class="w-1/3 px-3">
-                                    <h1 class="mb-2 font-bold text-black uppercase">{{ $category->name }}</h1>
-                                    <hr class="border-b w-12 border-yellow-500">
-                                    <p class="mt-4 text-black text-sm font-normal">{{ $category->description }}</p>
-                                    <p class=" mt-4 text-black font-bold">Can't find what you need?</p>
-                                    <div class="bg-blue-700 px-6 py-2 text-sm font-bold text-white mt-4 w-36 text-center"><a  href="#">ASK US</a></div>
-                                </div>
->>>>>>> 4dee03e2287d09361d43c7a55453280e4d3a1504
 
                                         @foreach ($category->subCategories as $subCategory)
                                             <div class="w-1/5 list-none">
@@ -74,13 +52,6 @@
                                                                 </li>
                                                             </a>
 
-
-                                                            {{-- @isset($subCategory->path_blade)
-                                                    hi
-                                                        @includeIf('front.pages.'.$subCategory->path_blade, ['current_page' => $subCategory->path_blade])
-                                                    @endisset --}}
-
-                                                            {{-- <a href="{{$subCategory->path_blade}}"><li class="mt-4 text-black hover:text-blue-700">{{ $subSubCategory->name }} </li></a> --}}
                                                         @endforeach
                                                     @endif
                                                 </ul>
