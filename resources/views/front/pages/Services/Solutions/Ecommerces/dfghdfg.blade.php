@@ -1,5 +1,5 @@
 
-@extends('front.layout_ecommerce')
+@extends('front.layout')
 
 @section('css')
 
