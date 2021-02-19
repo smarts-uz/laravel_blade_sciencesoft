@@ -82,7 +82,7 @@
     <h1 class="text-3xl font-medium pb-3 text-gray-800">{{ _trans("How to Control Cookies")  }}</h1>
     <p class="py-3 text-lg text-gray-500">{{ _trans("You may usually switch off cookies in your browser.")  }}</p>
     <h1 class="text-3xl font-medium pb-3 text-gray-800">{{ _trans("Other Similar Technologies")  }}</h1>
-    <p class="py-3 text-lg text-gray-500">{{ _trans("In addition to standard cookies, we can use other similar technologies to store and read data files on your computer. This is typically done to improve speed and performance by storing certain files locally. Similar to standard cookies, these technologies can also be used to store a unique identifier for your computer, which can then be used to track behavior. These technologies include Local Shared Objects (or "Flash cookies")  }}.")  }}</p>
+    <p class="py-3 text-lg text-gray-500">{{ _trans("In addition to standard cookies, we can use other similar technologies to store and read data files on your computer. This is typically done to improve speed and performance by storing certain files locally. Similar to standard cookies, these technologies can also be used to store a unique identifier for your computer, which can then be used to track behavior. These technologies include Local Shared Objects or 'Flash cookies'.")  }}</p>
     <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans("NOTICE TO END USERS")  }}</h1>
     <div class="w-10 h-0.5 bg-yellow-600"></div>
     <p class="py-3 text-lg text-gray-500">{{ _trans("ScienceSoft is intended to deliver its services  to organizations. Your use of ScienceSoft’s website may be subject to your organization's policies, if any. If your organization is administering your use of ScienceSoft’s website, please direct your privacy inquiries to your administrator. ScienceSoft is not responsible for the privacy or security practices of our customers, which may differ from those set forth in this privacy statement.")  }}</p>
@@ -99,7 +99,7 @@
     </ul>
     <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans("HOW WE CHANGE THIS PRIVACY POLICY")  }}</h1>
     <div class="w-10 h-0.5 bg-yellow-600"></div>
-    <p class="py-3 text-lg text-gray-500">{{ _trans("We will update this privacy statement when necessary to amend its terms or reflect customer feedback. When we post changes to this statement, we will revise the "last updated" date at the top of the statement. If there are material changes to the statement, we will notify you either by prominently posting a notice of such changes before they take effect or by directly sending you a notification.")  }}</p>
+    <p class="py-3 text-lg text-gray-500">{{ _trans("We will update this privacy statement when necessary to amend its terms or reflect customer feedback. When we post changes to this statement, we will revise the 'last updated' date at the top of the statement. If there are material changes to the statement, we will notify you either by prominently posting a notice of such changes before they take effect or by directly sending you a notification.")  }}</p>
     <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans("HOW TO CONTACT US")  }}</h1>
     <div class="w-10 h-0.5 bg-yellow-600"></div>
     <p class="py-3 text-lg text-gray-500">{{ _trans("If you have a privacy concern, complaint, or question to Data Protection Officer, please email us at data-protection-officer@scnsoft.com. We will respond within 30 days.")  }}</p>
