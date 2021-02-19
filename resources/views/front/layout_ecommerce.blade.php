@@ -13,16 +13,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap" rel="stylesheet">
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="{{ asset('style-carousel.css') }}">
-  <link rel="stylesheet" href="{{ asset('style.css') }}">
-  <link rel="stylesheet" href="{{ asset('cardHoverStyle.css') }}">
   <title>Sciensoft Development Company</title>
 
   </head>
   <body>
 
     <div class="wrapper">
-    {{-- @include('front.Components.ecommerce_navbar') --}}
     @include('front.Components.categories')
 
     <div class="mt-32">
