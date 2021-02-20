@@ -22,7 +22,7 @@ class HomePageController extends Controller
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         $blogs = Blog::all();
-        $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+        $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->where('image','<>', null)->get();
         return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs, 'partnerships'=>$partnerships]);
     }
 

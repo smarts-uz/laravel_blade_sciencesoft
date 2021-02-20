@@ -20,14 +20,16 @@
 
     <div style="margin: 0 4rem" class="swiper-container main-slide">
         <div class="swiper-wrapper flex items-center">
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/ebay.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/deloitte.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/ford.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/ibm.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/leo-burnett.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/nasa_1.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/nestle.svg') }}"></div>
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/tieto.svg') }}"></div>
+            @foreach ($partnerships as $partnership)
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+
+                <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
+                @else{{asset('images/default-image.png')}}@endif">
+
+            </div>
+            @endforeach
+
+
           <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
         </div>
       </div>
@@ -509,6 +511,7 @@
         </div>
     </div>
     <div class="flex flex-wrap overflow-hidden my-2">
+
         @foreach ($categories as $category)
             @if ($category->category_id == 40)
                 <div
@@ -618,14 +621,14 @@
         <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
         <div class="swiper-container main-slide">
             <div class="swiper-wrapper flex items-center">
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/ebay.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/deloitte.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/ford.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/ibm.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/leo-burnett.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/nasa_1.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/nestle.svg') }}"></div>
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/tieto.svg') }}"></div>
+                @foreach ($partnerships as $partnership)
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+
+                    <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
+                    @else{{asset('images/default-image.png')}}@endif">
+
+                </div>
+                @endforeach
               <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
             </div>
           </div>
