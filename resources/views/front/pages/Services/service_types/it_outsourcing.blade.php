@@ -6,7 +6,7 @@
 
 @section('main')
 
-<div class="mx-6 md:mx-16 lg:mx-24 my-10">
+<div class="my-10">
         <div class="text-2xl md:text-4xl font-bold mt-6">
             {{ _trans("IT Infrastructure Services – Consulting, Implementation, Management – to Increase Your Business
             Sustainability")  }}
