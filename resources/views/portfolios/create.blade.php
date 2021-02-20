@@ -20,14 +20,13 @@
                                <form method="post" action="{{ route('portfolios.store') }}" enctype="multipart/form-data">
                                    @csrf
                                    <div class="row">
+
                                        <div class="form-group col-sm-3">
-                                           <label for="technology">{{ _trans("Technology")  }}</label>
-                                           <select class="form-control" id="technology">
-                                               <option>1</option>
-                                               <option>2</option>
-                                               <option>3</option>
-                                               <option>4</option>
-                                               <option>5</option>
+                                           <label for="tag">{{ _trans("Technology")  }}</label>
+                                           <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="technology[]">
+                                               @foreach($technologies as $technology)
+                                               <option value="{{ $technology->name }}">{{ $technology->name }}</option>
+                                               @endforeach
                                            </select>
                                        </div>
                                        <div class="form-group col-sm-3">

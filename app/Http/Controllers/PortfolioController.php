@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\DataTables\PortfolioDataTable;
 use App\Http\Requests;
+use App\Models\Category;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreatePortfolioRequest;
@@ -46,7 +47,8 @@ class PortfolioController extends AppBaseController
      */
     public function create()
     {
-        return view('portfolios.create');
+        $technologies = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+        return view('portfolios.create', ['technologies'=>$technologies]);
     }
 
     /**
@@ -63,6 +65,7 @@ class PortfolioController extends AppBaseController
         $portfolio->title=$request->title;
         $portfolio->sub_title=$request->sub_title;
         $portfolio->blade_link=$request->description_text;
+        $portfolio['technology'] = json_encode($request['technology']);
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
@@ -107,6 +110,8 @@ class PortfolioController extends AppBaseController
     public function edit($id)
     {
         $portfolio = $this->portfolioRepository->find($id);
+        $technologies = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+
 
         if (empty($portfolio)) {
             Flash::error('Portfolio not found');
@@ -114,7 +119,7 @@ class PortfolioController extends AppBaseController
             return redirect(route('portfolios.index'));
         }
 
-        return view('portfolios.edit')->with('portfolio', $portfolio);
+        return view('portfolios.edit', ['technologies'=>$technologies])->with('portfolio', $portfolio);
     }
 
     /**
@@ -132,6 +137,7 @@ class PortfolioController extends AppBaseController
         $portfolio->title=$request->title;
         $portfolio->sub_title=$request->sub_title;
         $portfolio->blade_link=$request->description_text;
+        $portfolio['technology'] = json_encode($request['technology']);
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
