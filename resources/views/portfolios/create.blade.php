@@ -24,6 +24,7 @@
                                        <div class="form-group col-sm-3">
                                            <label for="tag">{{ _trans("Technology")  }}</label>
                                            <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="technology[]">
+                                               <option value="all">All</option>
                                                @foreach($technologies as $technology)
                                                <option value="{{ $technology->name }}">{{ $technology->name }}</option>
                                                @endforeach
@@ -32,9 +33,10 @@
                                        <div class="form-group col-sm-3">
                                            <label for="industry">{{ _trans("Industry")  }}</label>
                                            <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="industry[]">
-                                            @foreach($industries as $industry)
-                                            <option value="{{ $industry->name }}">{{ $industry->name }}</option>
-                                            @endforeach
+                                               <option value="all">All</option
+                                               @foreach($industries as $industry)
+                                               <option value="{{ $industry->name }}">{{ $industry->name }}</option>
+                                                @endforeach
                                         </select>
                                        </div>
                                        <!-- Name Field -->
