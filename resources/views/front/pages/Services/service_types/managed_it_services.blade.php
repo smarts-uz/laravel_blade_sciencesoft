@@ -6,7 +6,7 @@
 
 @section('main')
 
-<div class="mx-6 md:mx-16 lg:mx-16">
+<div>
 
 <div class="text-2xl md:text-4xl font-bold">
     {{ _trans("Managed IT Services for Stable and Reliably Evolving IT Environment")  }}

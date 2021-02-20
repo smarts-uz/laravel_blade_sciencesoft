@@ -6,7 +6,7 @@
 
 @section('main')
 
-<div class="mx-6 md:mx-16 lg:mx-24 my-10">
+<div class="my-10">
       <div class="text-2xl md:text-3xl font-bold">
         {{ _trans("Information Technology Consulting")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
