@@ -28,7 +28,7 @@
             </div>
           </div>
 
-          <div data-aos="fade-left" class="my-8 flex justify-center">
+          <div data-aos="fade-left" class="my-8 flex justify-center border-8 border-blue-600 rounded-tr-3xl rounded-bl-3xl">
             <img src="https://oe.uz/local/templates/oe/media/images/mobile/1.svg" alt="" />
           </div>
         </div>
