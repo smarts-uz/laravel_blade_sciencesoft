@@ -59,10 +59,8 @@ class HomePageController extends Controller
             $products = Product::all();
             return $this->getDynamicPage($page, ['products' => $products]);
         }else if(str_contains($page, 'portfolios')){
-            $technologies=Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
-            $industries=Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
             $portfolios = Portfolio::all();
-            return $this->getDynamicPage($page, ['portfolios'=> $portfolios, 'technologies'=>$technologies, 'industries'=>$industries]);
+            return $this->getDynamicPage($page, ['portfolios'=> $portfolios]);
         }else if(str_contains($page, 'partnerships')){
             $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partnerships' => $partnerships]);
@@ -92,6 +90,18 @@ class HomePageController extends Controller
             return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
         }
         return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
+    }
+    public function getPortfolioByTechnology(Request $request)
+    {
+        $portfolios = Portfolio::latest();
+        if($request->technology_name){
+            $portfolios = $portfolios->where('technology', 'like', "%".$request->technology_name."%");
+        }
+        if($request->industry_name){
+            $portfolios = $portfolios->where('industry', 'like', "%".$request->industry_name."%");
+        }
+        $portfolios=$portfolios->get();
+        return $this->getDynamicPage('portfolios.portfolios', ['portfolios'=>$portfolios]);
     }
 
     public function getCategoryById($id)
