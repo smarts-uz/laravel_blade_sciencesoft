@@ -22,15 +22,10 @@
         <div class="swiper-wrapper flex items-center">
             @foreach ($partnerships as $partnership)
             <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
-
                 <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
                 @else{{asset('images/default-image.png')}}@endif">
-
             </div>
             @endforeach
-
-
-          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
         </div>
       </div>
 
