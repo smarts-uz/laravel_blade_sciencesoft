@@ -24,8 +24,10 @@
                     @endforeach
                         <ul x-show="open" @click.away="open = false" class="absolute border border-gray-200 bg-white z-30">
                             @foreach($all as $tech)
+                            <a href="{{route('getPortfolioByTechnology', ['technology_name' => $tech])}}">
                             <li class="text-black hover:bg-blue-400 hover:text-white duration-100 px-5 py-1" value="{{$tech}}">
-                                <a href="{{route('getPortfolioByTechnology', ['technology_name' => $tech])}}">{{$tech}}</a></li>
+                                {{$tech}}</li>
+                            </a>
                             @endforeach
                         </ul>
                 </div>
@@ -46,9 +48,11 @@
                     @endforeach
                     <ul x-show="open" @click.away="open = false" class="absolute border border-gray-200 bg-white z-30">
                     @foreach($all as $tech)
+                            <a href="{{route('getPortfolioByTechnology', ['industry_name' => $tech])}}">
                         <li class="text-black hover:bg-blue-400 hover:text-white duration-100 px-5 py-1" value="{{$tech}}">
-                            <a href="{{route('getPortfolioByTechnology', ['industry_name' => $tech])}}">{{$tech}}</a>
+                            {{$tech}}
                         </li>
+                            </a>
                     @endforeach
                         </ul>
                 </div>
