@@ -48,7 +48,9 @@ class PortfolioController extends AppBaseController
     public function create()
     {
         $technologies = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
-        return view('portfolios.create', ['technologies'=>$technologies]);
+        $industries = Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
+
+        return view('portfolios.create', ['technologies'=>$technologies , 'industries'=>$industries]);
     }
 
     /**
@@ -66,6 +68,7 @@ class PortfolioController extends AppBaseController
         $portfolio->sub_title=$request->sub_title;
         $portfolio->blade_link=$request->description_text;
         $portfolio['technology'] = json_encode($request['technology']);
+        $portfolio['industry'] = json_encode($request['industry']);
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
@@ -111,6 +114,8 @@ class PortfolioController extends AppBaseController
     {
         $portfolio = $this->portfolioRepository->find($id);
         $technologies = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+        $industries = Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
+
 
 
         if (empty($portfolio)) {
@@ -119,7 +124,7 @@ class PortfolioController extends AppBaseController
             return redirect(route('portfolios.index'));
         }
 
-        return view('portfolios.edit', ['technologies'=>$technologies])->with('portfolio', $portfolio);
+        return view('portfolios.edit', ['technologies'=>$technologies , 'industries'=>$industries])->with('portfolio', $portfolio);
     }
 
     /**
@@ -138,6 +143,7 @@ class PortfolioController extends AppBaseController
         $portfolio->sub_title=$request->sub_title;
         $portfolio->blade_link=$request->description_text;
         $portfolio['technology'] = json_encode($request['technology']);
+        $portfolio['industry'] = json_encode($request['industry']);
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();

@@ -28,17 +28,16 @@
                                                      <option value="{{ $technology->name }}">{{ $technology->name }}</option>
                                                  @endforeach
                                              </select>
+
                                          </div>
 
                                          <div class="form-group col-sm-3">
                                              <label for="industry">{{ _trans("Industry")  }}</label>
-                                             <select class="form-control" id="industry">
-                                                 <option>1</option>
-                                                 <option>2</option>
-                                                 <option>3</option>
-                                                 <option>4</option>
-                                                 <option>5</option>
-                                             </select>
+                                             <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="industry[]">
+                                                @foreach($industries as $industry)
+                                                    <option value="{{ $industry->name }}">{{ $industry->name }}</option>
+                                                @endforeach
+                                            </select>
                                          </div>
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
