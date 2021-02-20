@@ -52,8 +52,8 @@ class Portfolio extends Model
      */
     protected $casts = [
         'id' => 'integer',
-        'technology' => 'string',
-        'industry' => 'string',
+        'technology' => 'array',
+        'industry' => 'array',
         'name' => 'string',
         'title' => 'string',
         'sub_title' => 'string',
@@ -67,8 +67,8 @@ class Portfolio extends Model
      * @var array
      */
     public static $rules = [
-        'technology' => 'nullable|string',
-        'industry' => 'nullable|string',
+        'technology' => 'nullable',
+        'industry' => 'nullable',
         'name' => 'nullable|string|max:255',
         'title' => 'nullable|string|max:255',
         'sub_title' => 'nullable',
