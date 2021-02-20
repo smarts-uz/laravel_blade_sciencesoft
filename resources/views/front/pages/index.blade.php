@@ -21,26 +21,25 @@
     <div style="margin: 0 4rem" class="swiper-container main-slide">
         <div class="swiper-wrapper flex items-center">
             @foreach ($partnerships as $partnership)
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
 
-                    <img src="@if ($partnership->image) {{ '/uploads/categories/' . $partnership->image }}
-                    @else{{ asset('images/default-image.png') }} @endif">
+                <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
+                @else{{asset('images/default-image.png')}}@endif">
 
-                </div>
+            </div>
             @endforeach
 
 
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/viber.svg') }}" alt=""></div>
+          <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
         </div>
-    </div>
+      </div>
 
 
 
 
 
     <!-- EXPLORE OUR OFFERING Responsive -->
-    <div class="hidden lg:block">
+    <div class="bg-gray-200 px-16 py-8 hidden lg:block">
         <h1 class="text-3xl font-semibold mb-20 pt-10">
             <p class="mb-4">{{ _trans('EXPLORE OUR OFFERING') }}</p>
             <hr class="w-10 h-0.5 border-none bg-yellow-500">
@@ -103,7 +102,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="relative flex flex-col min-w-0 break-words bg-gray-50 rounded w-full mb-6">
+                <div class="relative flex flex-col min-w-0 break-words bg-white rounded w-full mb-6">
                     <div class="p-4 flex-auto lg:h-h-auto">
                         <div class="tab-content tab-space p-8">
                             <div class="block text-xl pb-10" id="software-development">
@@ -516,7 +515,7 @@
         @foreach ($categories as $category)
             @if ($category->category_id == 40)
                 <div
-                    class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+                    class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/6 xl:w-1/6">
                     <a href="">
                         <div
                             class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
@@ -623,18 +622,17 @@
         <div class="swiper-container main-slide">
             <div class="swiper-wrapper flex items-center">
                 @foreach ($partnerships as $partnership)
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
 
-                        <img src="@if ($partnership->image) {{ '/uploads/categories/' . $partnership->image }}
-                        @else{{ asset('images/default-image.png') }} @endif">
+                    <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
+                    @else{{asset('images/default-image.png')}}@endif">
 
-                    </div>
+                </div>
                 @endforeach
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/viber.svg') }}" alt=""></div>
+              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
             </div>
+          </div>
         </div>
-    </div>
 
     <div class="mx-6 sm:mx-16 lg:mx-16">
         <h1 class="uppercase font-bold text-2xl">{{ _trans('PLATFORMS WE WORK WITH') }}</h1>
@@ -644,130 +642,129 @@
             support
             for your business evolution.</p>
         <div class="py-3 flex justify-between flex-wrap">
-            <div
-                class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{ asset('images/ebay.svg') }}" />
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/sharepoint-logo.svg")}}"/>
             </div>
-            <div
-                class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{ asset('images/ibm.svg') }}" />
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/dynamics-365.svg")}}"/>
             </div>
-            <div
-                class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{ asset('images/ford.svg') }}" />
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/salesforce.svg")}}"/>
             </div>
-            <div
-                class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{ asset('images/viber.svg') }}" />
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/servicenow-logo.svg")}}"/>
+            </div>
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/magento-logo.svg")}}"/>
             </div>
         </div>
-    </div>
+        </div>
 
-    @isset($blogs)
-        <div>
-            <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
-                <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
-                <hr class="w-10 h-0.5 border-none bg-yellow-500">
-            </div>
-            <div class="flex flex-wrap mx-6 sm:mx-16 lg:mx-12">
-                @foreach ($blogs->splice(0, 3) as $blog)
-                    <div class="w-2/6 p-4">
-                        <a href="{{ route('SingleBlog', [$blog->id]) }}"
-                            class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
-                            <div>
-                                <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}" alt="CardImg">
-                            </div>
-                            <div class="px-4">
-                                <span class="text-yellow-400 text-xs font-bold">CRM</span>
-                                <h1 class="text-lg text-black font-bold py-2">
-                                    {{ $blog->title }}
-                                </h1>
-                                <p class="text-sm text-black">
-                                    {{ $blog->description }}
-                                </p>
+            @isset($blogs)
+                <div>
+                    <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
+                        <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
+                        <hr class="w-10 h-0.5 border-none bg-yellow-500">
+                    </div>
+                    <div class="flex flex-wrap mx-6 sm:mx-16 lg:mx-12">
+                        @foreach ($blogs->splice(0, 3) as $blog)
+                            <div class="w-2/6 p-4">
+                                <a href="{{ route('SingleBlog', [$blog->id]) }}"
+                                    class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
+                                    <div>
+                                        <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}" alt="CardImg">
+                                    </div>
+                                    <div class="px-4">
+                                        <span class="text-yellow-400 text-xs font-bold">CRM</span>
+                                        <h1 class="text-lg text-black font-bold py-2">
+                                            {{ $blog->title }}
+                                        </h1>
+                                        <p class="text-sm text-black">
+                                            {{ $blog->description }}
+                                        </p>
 
-                                <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">
-                                    <i class="fas fa-arrow-right"></i>
-                                </div>
+                                        <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
+                        @endforeach
+                    </div>
+                    <a href="{{ route('getBlade', ['page' => 'blog' ?? '404']) }}"
+                        class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/6 text-center"
+                        id="loadMore">All Blog Articles</a>
+                </div>
+            @endisset
+            <!-- Need a CONSULTATION? -->
+        </div>
+
+        <h1 class="px-16 text-3xl py-5">
+            <p class="mb-4">{{ _trans('NEED A CONSULTATION?') }}</p>
+            <hr class="w-10 h-0.5 border-none bg-yellow-500">
+        </h1>
+
+        <form method="POST" action="{{ route('consultation') }}" class="px-16 py-5 text-gray-800">
+            @csrf
+            <p class="py-5">{{ _trans('Drop us a line! We are here to answer your questions 24/7.') }}</p>
+            <div class="flex">
+                <div class="w-full">
+                    <div class="w-full flex justify-between flex-wrap">
+                        <input type="text" name="Name" placeholder="Full Name"
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                        <input type="text" name="Company" placeholder="Company"
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                        <input type="email" name="Email" placeholder="Work Email"
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                        <input type="tel" name="Phone" placeholder="Work Phone"
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                    </div>
+                    <div class="border border-gray-400 rounded my-5">
+                        <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription"
+                            placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button
+                        class="bg-blue-500 px-5 m-auto py-2 uppercase font-bold text-white rounded text-sm">{{ _trans('Disscuss my needs') }}</button>
+                </div>
+                <div class="px-5 md:block hidden">
+                    <div>
+                        <h1 class="font-bold text-xl pb-2">{{ _trans('Our contact details') }}</h1>
+                        <a class="text-blue-400 flex items-center" href="#">
+                            <i class="fas fa-phone-alt pr-3"></i>
+                            <p>{{ _trans('+998 94 123 45 67') }}</p>
+                        </a>
+                        <a class="text-blue-400 flex items-center" href="#">
+                            <i class="fas fa-envelope pr-3"></i>
+                            <p>{{ _trans('teamprodev@gmail.com') }}</p>
                         </a>
                     </div>
-                @endforeach
-            </div>
-            <a href="{{ route('getBlade', ['page' => 'blog' ?? '404']) }}"
-                class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/5 text-center"
-                id="loadMore">All Blog Articles</a>
-        </div>
-    @endisset
-    <!-- Need a CONSULTATION? -->
-    </div>
+                    <div>
+                        <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Press inquires') }}</h1>
+                        <a class="text-blue-400 flex items-center text-xs" href="#">
+                            <p class="uppercase">{{ _trans('Get in touch with us') }}</p>
+                            <i class="fas fa-arrow-right pl-3"></i>
+                        </a>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Join our team') }}</h1>
+                        <a class="text-blue-400 flex items-center text-xs" href="#">
+                            <p class="uppercase">{{ _trans('Check our open vacancies') }}</p>
+                            <i class="fas fa-arrow-right pl-3"></i>
+                        </a>
 
-    <h1 class="px-16 text-3xl py-5">
-        <p class="mb-4">{{ _trans('NEED A CONSULTATION?') }}</p>
-        <hr class="w-10 h-0.5 border-none bg-yellow-500">
-    </h1>
+                    </div>
+                    <div>
 
-    <form method="POST" action="{{ route('consultation') }}" class="px-16 py-5 text-gray-800">
-        @csrf
-        <p class="py-5">{{ _trans('Drop us a line! We are here to answer your questions 24/7.') }}</p>
-        <div class="flex">
-            <div class="w-full">
-                <div class="w-full flex justify-between flex-wrap">
-                    <input type="text" name="Name" placeholder="Full Name"
-                        class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                    <input type="text" name="Company" placeholder="Company"
-                        class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                    <input type="email" name="Email" placeholder="Work Email"
-                        class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                    <input type="tel" name="Phone" placeholder="Work Phone"
-                        class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                </div>
-                <div class="border border-gray-400 rounded my-5">
-                    <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription"
-                        placeholder="How can we help you?"></textarea>
-                </div>
-                <button
-                    class="bg-blue-500 px-5 m-auto py-2 uppercase font-bold text-white rounded text-sm">{{ _trans('Disscuss my needs') }}</button>
-            </div>
-            <div class="px-5 md:block hidden">
-                <div>
-                    <h1 class="font-bold text-xl pb-2">{{ _trans('Our contact details') }}</h1>
-                    <a class="text-blue-400 flex items-center" href="#">
-                        <i class="fas fa-phone-alt pr-3"></i>
-                        <p>{{ _trans('+998 94 123 45 67') }}</p>
-                    </a>
-                    <a class="text-blue-400 flex items-center" href="#">
-                        <i class="fas fa-envelope pr-3"></i>
-                        <p>{{ _trans('teamprodev@gmail.com') }}</p>
-                    </a>
-                </div>
-                <div>
-                    <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Press inquires') }}</h1>
-                    <a class="text-blue-400 flex items-center text-xs" href="#">
-                        <p class="uppercase">{{ _trans('Get in touch with us') }}</p>
-                        <i class="fas fa-arrow-right pl-3"></i>
-                    </a>
-                </div>
-                <div>
-                    <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Join our team') }}</h1>
-                    <a class="text-blue-400 flex items-center text-xs" href="#">
-                        <p class="uppercase">{{ _trans('Check our open vacancies') }}</p>
-                        <i class="fas fa-arrow-right pl-3"></i>
-                    </a>
-
-                </div>
-                <div>
-
+                    </div>
                 </div>
             </div>
-        </div>
-    </form>
+        </form>
 
 
 
-@endsection
+    @endsection
 
 
-@section('js')
+    @section('js')
 
-@endsection
+    @endsection
