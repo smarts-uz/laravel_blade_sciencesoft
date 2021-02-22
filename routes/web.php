@@ -63,6 +63,7 @@ Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->n
 Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCategoryByName')->name('getCategoryByName');
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
+Route::get('/getPortfolioByTechnology', 'App\Http\Controllers\HomePageController@getPortfolioByTechnology')->name('getPortfolioByTechnology');
 Route::get('/SingleBlog/{id}', 'App\Http\Controllers\HomePageController@SingleBlog')->name('SingleBlog');
 Route::get('/SingleProduct/{id}', 'App\Http\Controllers\HomePageController@SingleProduct')->name('SingleProduct');
 

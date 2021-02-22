@@ -24,6 +24,11 @@
     </section>
 @endsection
 @section('scripts')
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('select').selectpicker();
+        });
+    </script>
     <script>
         let recordsURL = "{{ route('blogs.index') }}/";
     </script>

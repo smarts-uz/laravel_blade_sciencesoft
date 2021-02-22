@@ -6,7 +6,7 @@
 
 @section('main')
 
-<div class="mx-6 md:mx-16 lg:mx-24 my-10">
+<div class="my-10">
         <div class="text-2xl md:text-4xl font-bold mt-6">
             {{ _trans("IT Infrastructure Services – Consulting, Implementation, Management – to Increase Your Business
             Sustainability")  }}
@@ -37,7 +37,7 @@
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <div class="text-xl">
                         <p class="my-10">
-                            {{ _trans(""When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
+                            {{ _trans("When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
                             their budget but constantly underperforms. And they do not see business growth possible
                             without profound IT changes that they simply cannot accomplish internally.")  }}
                         </p>
@@ -45,7 +45,7 @@
                             {{ _trans("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                             applying deep tech expertise with the focus on cost-effectiveness and unlocking new
                             revenue streams. And this is exactly what ScienceSoft does. By doing the right IT and
-                            doing IT right, ScienceSoft helps companies make their IT a business growth enabler."")  }}
+                            doing IT right, ScienceSoft helps companies make their IT a business growth enabler.")  }}
                         </p>
                     </div>
                 </div>

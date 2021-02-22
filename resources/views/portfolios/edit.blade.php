@@ -22,24 +22,24 @@
                                      @method('PUT')
                                      <div class="row">
                                          <div class="form-group col-sm-3">
-                                             <label for="technology">{{ _trans("Technology")  }}</label>
-                                             <select class="form-control" id="technology">
-                                                 <option>1</option>
-                                                 <option>2</option>
-                                                 <option>3</option>
-                                                 <option>4</option>
-                                                 <option>5</option>
+                                             <label for="tag">{{ _trans("Technology")  }}</label>
+                                             <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="technology[]">
+                                                 <option value="all">All</option>
+                                                 @foreach($technologies as $technology)
+                                                     <option value="{{ $technology->name }}">{{ $technology->name }}</option>
+                                                 @endforeach
                                              </select>
+
                                          </div>
+
                                          <div class="form-group col-sm-3">
                                              <label for="industry">{{ _trans("Industry")  }}</label>
-                                             <select class="form-control" id="industry">
-                                                 <option>1</option>
-                                                 <option>2</option>
-                                                 <option>3</option>
-                                                 <option>4</option>
-                                                 <option>5</option>
-                                             </select>
+                                             <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="industry[]">
+                                                 <option value="all">All</option>
+                                                 @foreach($industries as $industry)
+                                                     <option value="{{ $industry->name }}">{{ $industry->name }}</option>
+                                                 @endforeach
+                                            </select>
                                          </div>
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
@@ -56,10 +56,11 @@
                                              <label for="sub_title">{{ _trans("Sub Title")  }}</label>
                                              <input type="text" class="form-control" id="sub_title" name="sub_title" value="{{ $portfolio->sub_title }}">
                                          </div>
-                                         <!-- Name Lang Field -->
-                                         <div class="form-group col-sm-6">
-                                             <label for="blade_link">{{ _trans("Blade Link")  }}</label>
-                                             <input type="text" class="form-control" id="blade_link" name="blade_link" value="{{ $portfolio->blade_link }}">
+
+                                         <!-- Description Text Field -->
+                                         <div class="form-group col-sm-6 col-lg-12">
+                                             <label for="description_text">{{ _trans("Blade Link") }}</label>
+                                             <textarea class="form-control" id="description_text" name="description_text">{{ old('blade_link', $portfolio->blade_link) }}</textarea>
                                          </div>
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">

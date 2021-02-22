@@ -66,7 +66,7 @@
         <div class="flex justify-center mx-6 mt-10">
             <div class="text-4xl sm:text-5xl  leading-10 ">
                 <div class="flex">
-                    <p style="font-size: 10rem" class="font-bold text-gray-500 mt-10" data-aos="fade-up">1</p>
+                    <p style="font-size: 10rem" class="font-bold text-gray-300 mt-10" data-aos="fade-up">1</p>
                     <h1 class=" font-bold text-blue-600" data-aos="fade-right">Разработка <br>
                         фирменного стиля <br>
                         от <span class="text-blue-200">Open Engine</span> - это...
@@ -279,7 +279,7 @@
 
 </div>
 
-<div class="grid grid-cols-2 my-20">
+<div class="grid grid-cols-1 my-20">
     <div class="flex justify-center mx-6 mt-10">
         <div class="text-5xl  leading-10 ">
             <div class="flex">
@@ -295,68 +295,106 @@
         </div>
     </div>
 
-    <div>
 
-    </div>
 </div>
 
 
-<div class="step-wrapper relative move-line" style="top: -100px;">
-    <article class="linestep linestep1" style="left: 56%; top: -2%;">
-        <span class="num"> 1</span>
-        <p class="bottom">
+<div class="container max-w-5xl mx-auto relative  my-0 mx-auto relative">
+
+    <div class="step-wrapper move-line m-8 mb-48 relative">
+
+    <article class="linestep linestep1 invisible absolute text-center max-w-xs delay-75" style="left: 56%; top: -1%;animation-delay: 0.4s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 1</span>
+        <p class="bottom w-48 absolute mt-2 font-bold text-lg text-gray-700" style="">
             Анализ технического задания или брифа
         </p>
     </article>
-    <article class="linestep linestep2" style=" right: -0.5%; top: 20%;">
-        <span class="num"> 2</span>
-        <p class="left">
+
+    <article class="linestep linestep2 invisible absolute delay-100" style=" right: -1.2%; top: 20%;animation-delay: 0.8s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 2</span>
+        <p class="left w-48 absolute mt-2 font-bold text-lg text-gray-700" style="  width: 200px;
+      right: 34px;
+      top: -17px;">
             Определение стратегической задачи
         </p>
     </article>
-    <article class="linestep linestep3" style="left: 68%; top: 44%;">
-        <span class="num"> 3</span>
-        <p class="bottom">
+
+    <article class="linestep linestep3 invisible absolute" style="left: 68%; top: 45%;animation-delay: 1.2s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 3</span>
+        <p  class="bottom w-48 absolute mt-2 font-bold text-lg text-gray-700" style="  left: -110px;">
             Анализ конкурентной среды и целевой аудитории
         </p>
     </article>
-    <article class="linestep linestep4" style="left: 32%; top: 44.5%;">
-        <span class="num">4</span>
-        <p class="top">
-            Обзор трендов в отрасли или товарной категории
+
+    <article class="linestep linestep4 invisible absolute" style="left: 32%; top: 45%; animation-delay: 1.6s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 4</span>
+        <p class="top w-48 absolute mt-2 font-bold text-lg text-gray-700" style="bottom: 50px;
+      left: -110px;">
+        Обзор трендов в отрасли или товарной категории
         </p>
     </article>
-    <article class="linestep linestep5" style="left: -1.5%; top: 68%;">
-        <span class="num"> 5</span>
-        <p class="right">
+
+    <article class="linestep linestep5 invisible absolute" style="left: -2%; top: 68%; animation-delay: 2s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 5</span>
+        <p  class="right w-48 absolute mt-2 font-bold text-lg text-gray-700" style="  width: 200px;
+      left: 34px;
+      top: -17px;">
             Поиск идеологической концепции логотипа
         </p>
     </article>
-    <article class="linestep linestep6" style="left: 21%;  top: 93%;">
-        <span class="num"> 6</span>
-        <p class="bottom">
+
+    <article class="linestep linestep6 invisible absolute" style="left: 21%;  top: 94.5%; animation-delay: 2.4s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 6</span>
+        <p  class="bottom w-48 absolute mt-2 font-bold text-lg text-gray-700" style="">
             Создание графических вариантов логотипа
         </p>
     </article>
-    <article class="linestep linestep7" style="left: 53%; top: 93%;">
-        <span class="num"> 7</span>
-        <p class="top">
-            Создание <br> презентации
+
+    <article class="linestep linestep7 invisible absolute" style="left: 53%; top: 94.5%;  animation-delay: 2.8s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 7</span>
+        <p class="top w-48 absolute mt-2 font-bold text-lg text-gray-700" style="">
+            Создание
+    презентации
         </p>
     </article>
-    <article class="linestep linestep8" style="left: 86%; top: 93%;">
-        <span class="num"> 8</span>
-        <p class="bottom">
+
+    <article class="linestep linestep8 invisible absolute" style="left: 86%; top: 94.5%; animation-delay: 3.2s; animation-name: show-step-item;
+      animation-duration: 0.2s;
+      animation-fill-mode: forwards;">
+        <span class="text-white rounded-full  text-center font-bold bg-blue-700 py-2 px-4"> 8</span>
+        <p  class="bottom w-48 absolute mt-2 font-bold text-lg text-gray-700" style="">
             Подготовка файлов исходников
         </p>
+        <div class="flag">
+            <img src="https://oe.uz/local/templates/oe/media/images/brand/goal.svg" alt="">
+        </div>
     </article>
+
     <svg width="100%" viewBox="0 0 1156 608" xmlns="http://www.w3.org/2000/svg">
-        <path class="path"
-              d="m560.30957,10.588011c0,0 438.0947,1.90476 439.04708,1.90476c0.95238,0 144.57857,-1.02912 143.80934,137.14269c-0.76923,138.17181 -116.81095,142.30859 -131.61967,143.8923c-14.80873,1.58372 -840.41472,-0.71429 -860.5941,0.71429c-20.17938,1.42858 -148.4991,6.80903 -146.83244,147.05973c1.66666,140.2507 129.52365,152.14266 129.33243,151.27321c0.19122,0.86945 815.268425,2.687632 951.42748,0"
-              opacity="0.5" stroke-width="7" stroke="#7CCCDB" fill="none"></path>
+      <path style="  visibility: visible;
+      stroke-dasharray: 3700;
+      stroke-dashoffset: 3700;
+      animation: moveline 4s linear forwards;" class="path invisible visible" d="m560.30957,10.588011c0,0 438.0947,1.90476 439.04708,1.90476c0.95238,0 144.57857,-1.02912 143.80934,137.14269c-0.76923,138.17181 -116.81095,142.30859 -131.61967,143.8923c-14.80873,1.58372 -840.41472,-0.71429 -860.5941,0.71429c-20.17938,1.42858 -148.4991,6.80903 -146.83244,147.05973c1.66666,140.2507 129.52365,152.14266 129.33243,151.27321c0.19122,0.86945 815.268425,2.687632 951.42748,0" opacity="0.5" stroke-width="9" stroke="#7cccdb" fill="none"/>
     </svg>
-    <img src="/local/templates/oe/media/images/brand/goal.svg" class="icon-finish" alt="">
-</div>
+
+    </div>
+
+    </div>
+
 
 
 <div class="flex justify-center items-center my-20 relative ">
@@ -438,10 +476,15 @@
 </div>
 
 
-<div class="flex justify-center items-center my-20 relative ">
-    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
-    <p data-aos="fade-down" style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0">
-        5</p>
+<div class="flex justify-center items-center my-20 relative">
+    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
+        Цены и тарифы
+    </h1>
+    <div class="flex text-center absolute item-center justify-center z-0">
+        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+            5
+        </p>
+    </div>
 </div>
 
 <div class="flex container m-auto justify-between  p-20" data-aos="fade-right">
@@ -535,7 +578,7 @@
 <!--    -->
 
 
-<div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
+<div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
      data-aos="fade-up-right">
     <div class="flex justify-center items-center my-20 pt-10">
         <h1 class="text-4xl font-bold text-white z-10">Создание логотипа</h1>
@@ -574,48 +617,101 @@
                         7</p>
                 </div>
 
-                <div style="height: 10rem;" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5  z-20 mt-32"
-                     data-aos="fade-up-left">
-                    <div class="flex justify-center items-center pl-20 pt-5">
-
-                        <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                            <img class="mx-auto p-3"
-                                 src="https://oe.uz/local/templates/oe/media/images/home/icons-serv/web-site.svg"
-                                 alt="">
-                            <p class="text-center">Разработка <br> сайтов</p>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                <p class="text-center">
+                                    Разработка <br/>
+                                    сайтов
+                                </p>
+                            </div>
                         </div>
-
-                        <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                            <img class="mx-auto p-3"
-                                 src="https://oe.uz/local/templates/oe/media/images/home/icons-serv/web-site.svg"
-                                 alt="">
-                            <p class="text-center">SEO <br> продвижение</p>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                <p class="text-center">
+                                    Разработка <br/>
+                                    сайтов
+                                </p>
+                            </div>
                         </div>
-
-                        <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                            <img class="mx-auto p-3"
-                                 src="https://oe.uz/local/templates/oe/media/images/home/icons-serv/web-site.svg"
-                                 alt="">
-                            <p class="text-center">Контекстная <br> реклама</p>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                <p class="text-center">
+                                    Разработка <br/>
+                                    сайтов
+                                </p>
+                            </div>
                         </div>
-
-                        <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                            <img class="mx-auto p-3"
-                                 src="https://oe.uz/local/templates/oe/media/images/home/icons-serv/web-site.svg"
-                                 alt="">
-                            <p class="text-center"> СММ <br> продвижение</p>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
+                                <p class="text-center">
+                                    SEO <br/>
+                                    продвижение
+                                </p>
+                            </div>
                         </div>
-
-                        <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                            <img class="mx-auto p-3"
-                                 src="https://oe.uz/local/templates/oe/media/images/home/icons-serv/web-site.svg"
-                                 alt="">
-                            <p class="text-center">Разработка <br>брендбуков</p>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
+                                <p class="text-center">
+                                    Контекстная <br/>
+                                    реклама
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
+                                     alt=""/>
+                                <p class="text-center">
+                                    СММ <br/>
+                                    продвижение
+                                </p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                <p class="text-center">Разработка <br/>брендбуков</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                <p class="text-center">Разработка <br/>брендбуков</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                <p class="text-center">Разработка <br/>брендбуков</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                <img class="mx-auto p-3"
+                                     src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                <p class="text-center">Разработка <br/>брендбуков</p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-            </div>
-        </div>
+
     </div>
 </div>
 
