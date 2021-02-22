@@ -30,6 +30,91 @@
                 {{ _trans('CHOOSE YOUR SERVICE OPTION') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
+            <div class="flex flex-wrap my-4">
+
+                <div class="border pb-6 w-96 m-2 hover:shadow-md">
+                    <div class="h-3 w-full bg-blue-500"></div>
+                    <img width="120" height="108"
+                        src="https://www.scnsoft.com/it-consulting/it-consulting-upd/business-digitalization-consulting.svg"
+                        class="m-auto my-4" alt="">
+                    <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Business
+                        digitalization consulting (for CEO)</h1>
+
+                    <div class="px-4 text-md lg:text-xl text-gray-600">
+                        <p class="mb-4">We assist in turning IT into a major contributor to a business performance increase
+                            with:</p>
+                        <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
+                            <li class="text-blue-800 mt-2">
+                                <span class="text-gray-600">A value-driving </span>
+                                <span class="text-gray-700 font-bold">business-IT strategy.</span>
+                            </li>
+                            <li class="text-blue-800 mt-2">
+                                <span class="text-gray-600">A plan on </span>
+                                <span class="text-gray-700 font-bold">IT service delivery optimization.</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                            TRANSFORM YOUR IT
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border pb-6 w-96 m-2 hover:shadow-md">
+                    <div class="h-3 w-full bg-blue-500"></div>
+                    <img width="120" height="108"
+                        src="https://www.scnsoft.com/it-consulting/it-consulting-upd/business-digitalization-consulting.svg"
+                        class="m-auto my-4" alt="">
+                    <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Business
+                        digitalization consulting (for CEO)</h1>
+
+                    <div class="px-4 text-md lg:text-xl text-gray-600">
+                        <p class="mb-4">We assist in turning IT into a major contributor to a business performance increase
+                            with:</p>
+                        <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
+                            <li class="text-blue-800 mt-2">
+                                <span class="text-gray-600">A value-driving </span>
+                                <span class="text-gray-700 font-bold">business-IT strategy.</span>
+                            </li>
+                            <li class="text-blue-800 mt-2">
+                                <span class="text-gray-600">A plan on </span>
+                                <span class="text-gray-700 font-bold">IT service delivery optimization.</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                            TRANSFORM YOUR IT
+                        </a>
+                    </div>
+                </div>
+
+                <div class="border pb-6 w-96 m-2 hover:shadow-md">
+                    <div class="h-3 w-full bg-blue-500"></div>
+                    <img width="120" height="108"
+                        src="https://www.scnsoft.com/it-consulting/it-consulting-upd/business-digitalization-consulting.svg"
+                        class="m-auto my-4" alt="">
+                    <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Business
+                        digitalization consulting (for CEO)</h1>
+
+                    <div class="px-4 text-md lg:text-xl text-gray-600">
+                        <p class="mb-4">We assist in turning IT into a major contributor to a business performance increase
+                            with:</p>
+                        <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
+                            <li class="text-blue-800 mt-2">
+                                <span class="text-gray-600">A value-driving </span>
+                                <span class="text-gray-700 font-bold">business-IT strategy.</span>
+                            </li>
+                            <li class="text-blue-800 mt-2">
+                                <span class="text-gray-600">A plan on </span>
+                                <span class="text-gray-700 font-bold">IT service delivery optimization.</span>
+                            </li>
+                        </ul>
+                        <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                            TRANSFORM YOUR IT
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
 
             <div class="text-2xl md:text-3xl font-bold">
                 {{ _trans('OUR COMPETENCIES AND ACHIEVEMENTS') }}
@@ -60,19 +145,33 @@
         <div class="swiper-button-prev"></div>
     </div>
             </div>
-            
 
-            <div class="text-2xl md:text-3xl font-bold mt-10 uppercase">
-                {{ _trans('test automation for better quality outcomes') }}
-                <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+            <div class="swiper-container about-slide h-40">
+                <div class="swiper-wrapper flex items-center">
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/ebay.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/deloitte.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/ford.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/ibm.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/leo-burnett.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/nasa_1.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/nestle.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/tieto.svg') }}"></div>
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                            src="{{ asset('images/viber.svg') }}" alt=""></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            <p>
-                {{ _trans("We combine manual and automated testing and apply our experience with trusted automation
-                frameworks to help you accelerate releases, increase test coverage, and find more bugs before
-                they enter production.") }}
-            </p>
 
-            <ul class="list-disc text-base md:text-xl">
+            <ul class="list-disc text-base md:text-xl px-5">
                 <li><strong>31 {{ _trans('years') }}</strong>
                     {{ _trans('of experience in providing software testing services.') }}
                 </li>
@@ -99,11 +198,6 @@
                     {{ _trans('for software testing services.') }}
                 </li>
             </ul>
-
-            <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ _trans('TESTING SERVICES FOR DIFFERENT APPLICATION TYPES') }}
-                <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            </div>
 
             <div class="text-2xl md:text-3xl font-bold mt-10">
                 {{ _trans('EVERY ASPECT OF YOUR SOFTWARE, VALIDATED') }}
@@ -149,6 +243,38 @@
                             tools.") }}
                     </div>
                 </div>
+            </div>
+
+            <div class="text-2xl md:text-3xl font-bold mt-10">
+                {{ _trans('TESTING SERVICES FOR DIFFERENT APPLICATION TYPES') }}
+                <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+            </div>
+            <div class="flex flex-wrap gap-4">
+                <a href="#"
+                    class="w-64 px-5 py-2 border border-gray-200 hover:shadow-lg group duration-300 flex flex-col justify-between items-center">
+                    <img class="w-24" src="https://www.scnsoft.com/colored-icons-on-grey-background/web-application-1.svg">
+                    <p class="group-hover:text-blue-400 duration-300 font-bold">Web Application Testing</p>
+                </a>
+                <a href="#"
+                    class="w-64 px-5 py-2 border border-gray-200 hover:shadow-lg group duration-300 flex flex-col justify-between items-center">
+                    <img class="w-24" src="https://www.scnsoft.com/colored-icons-on-grey-background/saas.svg">
+                    <p class="group-hover:text-blue-400 duration-300 font-bold">saaS Testing</p>
+                </a>
+                <a href="#"
+                    class="w-64 px-5 py-2 border border-gray-200 hover:shadow-lg group duration-300 flex flex-col justify-between items-center">
+                    <img class="w-24" src="https://www.scnsoft.com/colored-icons-on-grey-background/mobile.svg">
+                    <p class="group-hover:text-blue-400 duration-300 font-bold">Mobile App Testing</p>
+                </a>
+            </div>
+            <div
+                class="w-full flex items-center justify-between px-10 py-5 my-5 border border-gray-200 hover:shadow-lg duration-300">
+                <div class=" my-5">
+                    <h1 class="text-2xl font-bold">{{ _trans('Take the First Step to Test Process Improvement') }}</h1>
+                    <hr class="border-t-2 w-12 border-yellow-600 my-2">
+                    <p>ScienceSoft’s QA team will help you stay ahead of the competition with quality software released on
+                        time.</p>
+                </div>
+                <a class="px-10 py-3 bg-blue-500 text-white font-bold rounded" href="#">Start Testing Now</a>
             </div>
 
             <div class="text-2xl md:text-3xl font-bold mt-10">
@@ -232,29 +358,17 @@
                 {{ _trans('More success stories') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
-            <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
-                <div class="flex flex-col md:flex-row items-center ">
-                    <div class="flex justify-center  w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                        <img class="w-64  top-0"
-                            src="https://www.scnsoft.com/boss/images/12fecd0e-697d-4793-be78-c950a790f5c5plm-platform.png"
-                            alt="">
-                    </div>
-                    <div class=" flex flex-col w-4/5 mb-10">
-                        <h1 class="text-3xl md:text-4xl font-bold">{{ _trans('Tailored pricing plan') }}</h1>
-                        <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                        <p class=" text-gray-500 text-xl md:text-2xl">
-                            {{ _trans("We calculate custom-made pricing plans to meet your expectations and adjust pricing
-                            if your
-                            requirements change
-                            during our cooperation.") }}
-                        </p>
-
-                    </div>
+            <div
+                class="w-full flex items-center justify-between px-10 py-5 my-5 border border-gray-200 hover:shadow-lg duration-300">
+                <div class=" my-5">
+                    <h1 class="text-2xl font-bold">
+                        {{ _trans('Enjoy Quality at Speed While We Handle Software Testing') }}</h1>
+                    <hr class="border-t-2 w-12 border-yellow-600 my-2">
+                    <p>ScienceSoft’s QA team will help you jump-start your releases and minimize the number of defects in
+                        production.</p>
                 </div>
-                <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">{{ _trans('Learn More') }}<i
-                        class="fas fa-arrow-right ml-4"></i></a>
+                <a class="px-10 py-3 bg-blue-500 text-white font-bold rounded" href="#">Start Testing</a>
             </div>
-            <div class="pt-20"></div>
         </div>
     </div>
 

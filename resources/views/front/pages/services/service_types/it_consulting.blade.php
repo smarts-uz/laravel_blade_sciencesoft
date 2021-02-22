@@ -249,10 +249,41 @@
         {{ _trans("INDUSTRIES WE SERVE")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
-
       <p class="text-xl">
         {{ _trans("We have expertise in 23 domains, including experience in information technology consulting for:")  }}
       </p>
+
+
+
+<!-- Muhammadali grid qoshdi -->
+<div class="grid sm:grid-cols-2 lg:grid-cols-3 mt-8 gap-6">
+    <div class="border hover:shadow-lg hover:text-blue-700 text-center p-4">
+        <img width="75" height="75" class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/professional-services-1.svg" alt="">
+        <h1 class="text-xl font-bold">Professional services</h1>
+    </div>
+    <div class="border hover:shadow-lg hover:text-blue-700 text-center p-4">
+        <img width="75" height="75" class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/manufacturing.svg" alt="">
+        <h1 class="text-xl font-bold">Manufacturing</h1>
+    </div>
+    <div class="border hover:shadow-lg hover:text-blue-700 text-center p-4">
+        <img width="75" height="75" class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/retail.svg" alt="">
+        <h1 class="text-xl font-bold">Retail</h1>
+    </div>
+    <div class="border hover:shadow-lg hover:text-blue-700 text-center p-4">
+        <img width="75" height="75" class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/transportation.svg" alt="">
+        <h1 class="text-xl font-bold">Logistics</h1>
+    </div>
+    <div class="border hover:shadow-lg hover:text-blue-700 text-center p-4">
+        <img width="75" height="75" class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/healthcare.svg" alt="">
+        <h1 class="text-xl font-bold">Healthcare</h1>
+    </div>
+    <div class="border hover:shadow-lg hover:text-blue-700 text-center p-4">
+        <img width="75" height="75" class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/telecoms.svg" alt="">
+        <h1 class="text-xl font-bold">Telecommunications</h1>
+    </div>
+</div>
+
+
 
       <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
         <div class='w-2/3'>
