@@ -6,10 +6,11 @@
 
 @section('main')
 
-      <h1>
-          Manufacturing
-      </h1>
+<h1>
+    Image analysis
+</h1>
 @endsection
+
 
 @section('js')
 
