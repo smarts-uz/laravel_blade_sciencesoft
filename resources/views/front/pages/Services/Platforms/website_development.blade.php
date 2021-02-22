@@ -12,7 +12,7 @@
         <div class="py-8 grid grid-cols-1 items-center lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20 ">
             <div data-aos="fade-right">
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
-                    Разработка и создание сайтов в Ташкенте
+                    Разработка и <br> создание <br> сайтов в <br> Ташкенте
                 </div>
                 <div class="lg:px-20">
                     <a href="#" class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
