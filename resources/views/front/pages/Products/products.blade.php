@@ -26,9 +26,9 @@
                                 <h1 class="text-blue-500 font-bold text-md mb-6 capitalize">
                                     {{ $product->name }}
                                 </h1>
-                                <a href="#">
+                                <a href="{{ route('SingleProduct', [$product->id]) }}">
                                     <p class="text-gray-800 hover:text-blue-500 text-xl font-bold mb-6 capitalize">
-                                        {{ $product->title }}
+                                    {{ $product->title }}
                                     </p>
                                 </a>
                                 <p class="text-gray-800 text-lg mb-6 ">
