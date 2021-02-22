@@ -11,6 +11,9 @@
 
     <h1>
         B2B Ecommerce Platforms
+
+        SAIDAMIR
+        @saidamirisomiddinov
     </h1>
 </div>
 
