@@ -35,20 +35,7 @@
                 {{ _trans('OUR COMPETENCIES AND ACHIEVEMENTS') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
-            <div class="container">
-                <section class="customer-logos slider">
-                    <div><img class="h-32 w-32" src="images/baxter.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/deloitte.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/ebay.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/ford.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/ibm.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/leo-burnett.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/nasa_1.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/nestle.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/tieto.svg" alt="logo"></div>
-                    <div><img class="h-32 w-32" src="images/viber.svg" alt="logo"></div>
-                </section>
-            </div>
+            
 
             <div class="text-2xl md:text-3xl font-bold mt-10 uppercase">
                 {{ _trans('test automation for better quality outcomes') }}
