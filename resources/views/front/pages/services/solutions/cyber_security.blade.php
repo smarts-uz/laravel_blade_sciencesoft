@@ -12,13 +12,13 @@
         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
         <img src="{{ asset('/images/services/service_types/cyber_security/cybersecurity-services.svg') }}" alt="">
         <p class="py-5 text-lg text-gray-500 mx-10">
-            {{ _trans('ScienceSoft offers a variety of services from information security consulting to assessing, testing and improving the protection of applications and networks for companies operating in healthcare, manufacturing, banking, retail, telecommunications, and other industries.') }}
+            {{ _trans('TeamPRO offers a variety of services from information security consulting to assessing, testing and improving the protection of applications and networks for companies operating in healthcare, manufacturing, banking, retail, telecommunications, and other industries.') }}
         </p>
         <p class="py-5 text-lg text-gray-500 mx-10">
             {{ _trans('Our security experts develop a personal approach to each customer based on best practices and enriched with our own experience. We are ready to support our clients at all project stages.') }}
         <p>
         <h1 class="lg:text-4xl font-semibold mx-10 pb-10 text-gray-800 md:text-3xl sm:text-3xl">
-            {{ _trans('Why ScienceSoft:') }}</h1>
+            {{ _trans('Why TeamPRO:') }}</h1>
         <div class="lg:grid lg:grid-cols-2 lg:gap-2 md:flex md:flex-col">
             <img class="w-72 h-62 mx-5"
                 src="{{ asset('/images/services/service_types/cyber_security/ibm-silver-business-partner.svg') }}" alt="">
@@ -36,7 +36,7 @@
                 class="btn w-48 h-12 bg-blue-800 hover:bg-blue-900 font-medium absolute mt-10 mx-3 lg:right-0 lg:bottom-5 md:right-0 md:bottom-5 md:w:36 sm:right-28 sm:bottom-12 sm:w-96 text-white text-lg uppercase">{{ _trans('Get A Quote') }}</button>
         </div>
         <h1 class="text-4xl font-semibold pt-10 pb-5 text-gray-800">
-            {{ _trans('CYBERSECURITY SERVICES BY SCIENCESOFT') }}</h1>
+            {{ _trans('CYBERSECURITY SERVICES BY TEAMPRO') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
         <p class="py-5 text-lg text-gray-500">
             {{ _trans('We offer our customers a variety of cybersecurity services to:') }}</p>
@@ -107,7 +107,7 @@
         </h1>
         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
         <p class="py-5 text-lg text-gray-500">
-            {{ _trans('ScienceSoft delivers full-scale security assessment and planning services for the components of IT infrastructures:') }}
+            {{ _trans('TeamPRO delivers full-scale security assessment and planning services for the components of IT infrastructures:') }}
         </p>
 
         <div class="lg:grid lg:grid-cols-3 lg:gap-3">
@@ -162,7 +162,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ _trans('Security testing of IT infrastructures and its components') }}</h1>
                 <p class="py-5 text-lg text-gray-500">
-                    {{ _trans('We uncover security loopholes in the components of our customers’ IT environments. ScienceSoft’s security team carefully checks the protection level of your IT infrastructure and defines measures to reduce the number of security weaknesses inside your network and apps.') }}
+                    {{ _trans('We uncover security loopholes in the components of our customers’ IT environments. TeamPRO’s security team carefully checks the protection level of your IT infrastructure and defines measures to reduce the number of security weaknesses inside your network and apps.') }}
                 </p>
                 <p class="py-5 text-lg text-gray-500">{{ _trans('The complex of security testing services includes:') }}
                 </p>
@@ -184,11 +184,11 @@
                 </p>
                 <h1 class="text-3xl font-bold pt-3 pb-10 text-gray-800">{{ _trans('Vulnerability assessment') }}</h1>
                 <p class="py-5 text-lg text-gray-500">
-                    {{ _trans('ScienceSoft performs automated and manual security evaluation to detect vulnerabilities in their customers’ IT infrastructures. Our security testing team identifies, quantifies, and ranks network security weaknesses. Based on the assessment results, we give our customers recommendations to help them to eliminate security risks.') }}
+                    {{ _trans('TeamPRO performs automated and manual security evaluation to detect vulnerabilities in their customers’ IT infrastructures. Our security testing team identifies, quantifies, and ranks network security weaknesses. Based on the assessment results, we give our customers recommendations to help them to eliminate security risks.') }}
                 </p>
                 <h1 class="text-3xl font-bold pt-3 pb-10 text-gray-800">{{ _trans('Penetration testing') }}</h1>
                 <p class="py-5 text-lg text-gray-500">
-                    {{ _trans('ScienceSoft’s security testing team pinpoints system vulnerabilities, validates existing security measures, and provides a detailed remediation roadmap. Equipped with the special tools and industry-specific test scenarios, the team performs penetration testing according to one of the three approaches:') }}
+                    {{ _trans('TeamPRO’s security testing team pinpoints system vulnerabilities, validates existing security measures, and provides a detailed remediation roadmap. Equipped with the special tools and industry-specific test scenarios, the team performs penetration testing according to one of the three approaches:') }}
                 </p>
                 <ul class="list-disc pl-5">
                     <li class="text-gray-500 text-xl py-3"><strong>{{ _trans('Black box testing.') }}</strong>
@@ -210,7 +210,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ _trans('Stress testing: Emulation of DDoS / DoS attacks') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security testing team evaluates the stability of your infrastructure and its components by testing it beyond normal operational capacity with the use of special tools such as Siege and Apache JMeter. We apply our expertise to emulate denial of service (DoS) or distributed denial of service (DDoS) attacks against your network or applications to:') }}
+                            {{ _trans('TeamPRO’s security testing team evaluates the stability of your infrastructure and its components by testing it beyond normal operational capacity with the use of special tools such as Siege and Apache JMeter. We apply our expertise to emulate denial of service (DoS) or distributed denial of service (DDoS) attacks against your network or applications to:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -226,7 +226,7 @@
         <h1 class="text-4xl font-semibold pt-10 pb-5 text-gray-800">{{ _trans('APPLICATION SECURITY') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
         <p class="py-5 text-lg text-gray-500">
-            {{ _trans('Poorly coded and insufficiently protected applications can put a company at risk and result in data breaches. ScienceSoft offers their skills and knowledge in assessing and testing the security of applications (web, mobile, desktop), as well as finding ways to help their customers to achieve the effective protection of the corporate data stored locally or remotely.') }}
+            {{ _trans('Poorly coded and insufficiently protected applications can put a company at risk and result in data breaches. TeamPRO offers their skills and knowledge in assessing and testing the security of applications (web, mobile, desktop), as well as finding ways to help their customers to achieve the effective protection of the corporate data stored locally or remotely.') }}
         </p>
         <div class="infos flex flex-row mt-5">
             <img class="w-32 h-28" src="{{ asset('/images/services/service_types/cyber_security/code_review.svg') }}"
@@ -234,7 +234,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('Security code review') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('Each programming language has its quirks that may cause security flaws during the development phase. ScienceSoft’s security experts detect existing loopholes before your applications ‘go live.’') }}
+                            {{ _trans('Each programming language has its quirks that may cause security flaws during the development phase. TeamPRO’s security experts detect existing loopholes before your applications ‘go live.’') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
                             {{ _trans('Our security engineers conduct automated and manual security code review and engage senior developers and architects (if needed) to help you to:') }}
@@ -260,7 +260,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ _trans('Mobile device management and mobile application management') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('With the proliferation of mobile devices, mobile applications and programs used within corporate networks, enterprises face the need to manage and secure their usage. ScienceSoft offers their expertise in applying the appropriate device management policies and implementing control measures to the installation of new mobile apps.') }}
+                            {{ _trans('With the proliferation of mobile devices, mobile applications and programs used within corporate networks, enterprises face the need to manage and secure their usage. TeamPRO offers their expertise in applying the appropriate device management policies and implementing control measures to the installation of new mobile apps.') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
                             {{ _trans('Our security testing team has a wide experience in correctly installing and tuning mobile device management (MDM) and mobile application management (MAM) solutions like Microsoft Intune to ensure mobile security. We can fine-tune mobile security services you choose to apply and set the necessary policies properly for you to:') }}
@@ -282,10 +282,10 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('Cloud security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft helps their customers to secure their cloud solutions. Being a Gold Microsoft Business Partner, we have the necessary experience to tune special security components, such as Azure Security Center, allowing security management and threat protection across cloud workloads.') }}
+                            {{ _trans('TeamPRO helps their customers to secure their cloud solutions. Being a Gold Microsoft Business Partner, we have the necessary experience to tune special security components, such as Azure Security Center, allowing security management and threat protection across cloud workloads.') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security engineers can apply appropriate cloud security measures and configure cloud protection solutions to ensure:') }}
+                            {{ _trans('TeamPRO’s security engineers can apply appropriate cloud security measures and configure cloud protection solutions to ensure:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -310,7 +310,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('Web application security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security experts ensure proper protection of a website, a web app, or web services.') }}
+                            {{ _trans('TeamPRO’s security experts ensure proper protection of a website, a web app, or web services.') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -332,7 +332,7 @@
             {{ _trans('By increasing corporate network security specifically, you may decrease the risk of becoming the victim of privacy spoofing, identity or company’s proprietary information theft, Man-in-the-Middle and DDoS attacks.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">
-            {{ _trans('We apply multiple defense layers to protect your corporate network and the sensitive data stored within it. ScienceSoft’s security engineers know various ways to keep your proprietary information safe and reduce the probability that you will have to experience successful attack attempts against your network.') }}
+            {{ _trans('We apply multiple defense layers to protect your corporate network and the sensitive data stored within it. TeamPRO’s security engineers know various ways to keep your proprietary information safe and reduce the probability that you will have to experience successful attack attempts against your network.') }}
         </p>
 
         <div class="infos flex flex-row mt-5">
@@ -340,7 +340,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('Web application security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security experts ensure proper protection of a website, a web app, or web services.') }}
+                            {{ _trans('TeamPRO’s security experts ensure proper protection of a website, a web app, or web services.') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
                             {{ _trans('We deliver a full range of QRadar-related services.') }}</p>
@@ -392,7 +392,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('DDoS protection') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('In case a company decides on applying a special online solution, such as CloudFlare, to protect their network against DDoS attacks, ScienceSoft has the security experts with the skills in implementing and configuring such solutions properly. Our security engineers set them up to:') }}
+                            {{ _trans('In case a company decides on applying a special online solution, such as CloudFlare, to protect their network against DDoS attacks, TeamPRO has the security experts with the skills in implementing and configuring such solutions properly. Our security engineers set them up to:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -414,7 +414,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('Email security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('We can help our customers to keep their corporate information safe in email communication and secure from unauthorized access, loss, etc. ScienceSoft’s security experts will protect your network from phishing, spamming, malware, and other attacks against email services. Having worked with the solutions offered by major vendors, such as FortiGate and Cisco, we’ve gained the required experience to:') }}
+                            {{ _trans('We can help our customers to keep their corporate information safe in email communication and secure from unauthorized access, loss, etc. TeamPRO’s security experts will protect your network from phishing, spamming, malware, and other attacks against email services. Having worked with the solutions offered by major vendors, such as FortiGate and Cisco, we’ve gained the required experience to:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -437,7 +437,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ _trans('Firewalls, IDS / IPS, DLP implementation and setting') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security team implements and sets the security rules of special solutions to control incoming network traffic, scan it to detect and block potential attacks. We offer you the following cybersecurity measures to apply:') }}
+                            {{ _trans('TeamPRO’s security team implements and sets the security rules of special solutions to control incoming network traffic, scan it to detect and block potential attacks. We offer you the following cybersecurity measures to apply:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -459,7 +459,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('Antivirus protection') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security engineers configure antivirus protection to:') }}</p>
+                            {{ _trans('TeamPRO’s security engineers configure antivirus protection to:') }}</p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
                                 {{ _trans('Improve the security of the network from viruses, spyware, and other types of malicious software coming from the internet or external drives.') }}
@@ -490,7 +490,7 @@
                         <h1 class="text-2xl font-bold text-gray-800">{{ _trans('One-time services') }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft delivers one-time services to assess, test and improve the protection level of your network, application or another component of the IT environment. This cooperation model may help you to form an opinion on the vendor and decide whether to cooperate with them afterwards. When getting acquainted with the part of IT environment the customer wants to protect, our security testing team thoroughly studies the details, e.g., gathers and understands the information on software installed on the devices in the network. After that, our security engineers carry out the appropriate cybersecurity services and draw up a report of the achieved results.') }}
+                            {{ _trans('TeamPRO delivers one-time services to assess, test and improve the protection level of your network, application or another component of the IT environment. This cooperation model may help you to form an opinion on the vendor and decide whether to cooperate with them afterwards. When getting acquainted with the part of IT environment the customer wants to protect, our security testing team thoroughly studies the details, e.g., gathers and understands the information on software installed on the devices in the network. After that, our security engineers carry out the appropriate cybersecurity services and draw up a report of the achieved results.') }}
                         </p>
                     </div>
                 </div>
@@ -507,7 +507,7 @@
                         <h1 class="text-2xl font-bold text-gray-800">{{ _trans('Managed services') }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('Opting for specialized managed services (managed vulnerability assessment, managed email security, managed cloud security) means building long-term relationships with one vendor. Once we gather the information on your IT infrastructure in the course of the first project, we can subsequently assess, test or improve your security level spending less time on the project and reducing the costs for you. To prevent a decrease in the protection of your IT infrastructure elements, ScienceSoft suggests putting the appropriate services in your list of regular tasks. We have the necessary resources to ensure the compliance with your company’s security needs and regulatory requirements.') }}
+                            {{ _trans('Opting for specialized managed services (managed vulnerability assessment, managed email security, managed cloud security) means building long-term relationships with one vendor. Once we gather the information on your IT infrastructure in the course of the first project, we can subsequently assess, test or improve your security level spending less time on the project and reducing the costs for you. To prevent a decrease in the protection of your IT infrastructure elements, TeamPRO suggests putting the appropriate services in your list of regular tasks. We have the necessary resources to ensure the compliance with your company’s security needs and regulatory requirements.') }}
                         </p>
                     </div>
                 </div>
@@ -524,7 +524,7 @@
                         <h1 class="text-2xl font-bold text-gray-800">{{ _trans('Managed IT services') }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
                         <p class="py-5 text-lg text-gray-500">
-                            {{ _trans('Opting for specialized managed services (managed vulnerability assessment, managed email security, managed cloud security) means building long-term relationships with one vendor. Once we gather the information on your IT infrastructure in the course of the first project, we can subsequently assess, test or improve your security level spending less time on the project and reducing the costs for you. To prevent a decrease in the protection of your IT infrastructure elements, ScienceSoft suggests putting the appropriate services in your list of regular tasks. We have the necessary resources to ensure the compliance with your company’s security needs and regulatory requirements.') }}
+                            {{ _trans('Opting for specialized managed services (managed vulnerability assessment, managed email security, managed cloud security) means building long-term relationships with one vendor. Once we gather the information on your IT infrastructure in the course of the first project, we can subsequently assess, test or improve your security level spending less time on the project and reducing the costs for you. To prevent a decrease in the protection of your IT infrastructure elements, TeamPRO suggests putting the appropriate services in your list of regular tasks. We have the necessary resources to ensure the compliance with your company’s security needs and regulatory requirements.') }}
                         </p>
                     </div>
                 </div>
@@ -539,7 +539,7 @@
                     <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
                     <div class="flex  flex-wrap ">
                         <p class=" w-8/12 py-5 text-lg text-gray-500">
-                            {{ _trans('ScienceSoft’s security team is ready to help you to apply the most relevant defense measures for your IT environment. Don’t hesitate to get in touch with us for a free consultation on any security issue you have, and we’ll define and implement an optimal way to address it.') }}
+                            {{ _trans('TeamPRO’s security team is ready to help you to apply the most relevant defense measures for your IT environment. Don’t hesitate to get in touch with us for a free consultation on any security issue you have, and we’ll define and implement an optimal way to address it.') }}
                         </p>
                         <div class="bottom-16 md:my-32">
                             <button
@@ -561,7 +561,7 @@
                         {{ _trans('IBM Security QRadar SIEM Implementation for 70+ US State Agencies') }}</h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
                     <p class="py-5 text-lg text-gray-500">
-                        {{ _trans("ScienceSoft implemented and customized IBM Security QRadar SIEM for one of the US states' government. The solution enabled permanent collection and analysis of events coming from log sources of more than 70 state agencies.") }}
+                        {{ _trans("TeamPRO implemented and customized IBM Security QRadar SIEM for one of the US states' government. The solution enabled permanent collection and analysis of events coming from log sources of more than 70 state agencies.") }}
                     </p>
                 </div>
             </div>

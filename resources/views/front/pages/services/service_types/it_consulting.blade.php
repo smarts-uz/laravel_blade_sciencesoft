@@ -13,7 +13,7 @@
       </div>
       <p class="text-2xl">
         {{ _trans("With IT consulting services, you revamp your IT environment to make it go in hand with your business needs.
-         Leveraging 31-year experience in IT, ScienceSoft offers consultancy on holistic, fast, and cost-effective
+         Leveraging 31-year experience in IT, TeamPRO offers consultancy on holistic, fast, and cost-effective
          optimization of IT systems and processes to ensure tangible business outcomes.")  }}
       </p>
    
@@ -192,7 +192,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("SCIENCESOFT’S APPROACH TO IT CONSULTING")  }}
+        {{ _trans("TEAMPRO’S APPROACH TO IT CONSULTING")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -226,7 +226,7 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
           </div>
           <div class=" flex flex-col w-3/5">
-            <h1 class="text-2xl md:text-3xl font-bold">{{ _trans("Nikolay Kurayev, CEO at ScienceSoft")  }} </h1>
+            <h1 class="text-2xl md:text-3xl font-bold">{{ _trans("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
             <hr class="w-12 border-yellow-600 text-gray-800 my-4">
             <div class="text-xl">
               <p class="my-10">
@@ -237,8 +237,8 @@
               <p>
                 {{ _trans("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                 applying deep tech expertise with the focus on cost-effectiveness and unlocking new
-                revenue streams. And this is exactly what ScienceSoft does. By doing the right IT and
-                doing IT right, ScienceSoft helps companies make their IT a business growth enabler.")  }}
+                revenue streams. And this is exactly what TeamPRO does. By doing the right IT and
+                doing IT right, TeamPRO helps companies make their IT a business growth enabler.")  }}
               </p>
             </div>
           </div>
@@ -310,7 +310,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("BENEFITS OF IT CONSULTING WITH SCIENCESOFT")  }}
+        {{ _trans("BENEFITS OF IT CONSULTING WITH TEAMPRO")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -324,7 +324,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
                end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -341,7 +341,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -358,7 +358,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -375,7 +375,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -392,7 +392,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("ScienceSoft is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>

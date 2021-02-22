@@ -20,7 +20,7 @@
     </div>
     <div class="text-center mb-6">
         <a href="#" class="text-lg text-blue-700 font-medium">Tanya Yablonskaya</a>
-        <p class="text-gray-500">Ecommerce Industry Analyst, ScienceSoft</p>
+        <p class="text-gray-500">Ecommerce Industry Analyst, TeamPRO</p>
     </div>
     <hr>
     <div class="mt-6 lg:flex lg:text-right justify-end">
@@ -83,14 +83,14 @@
                 <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
                 <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                    ScienceSoft’s team can help you build and support a website for your online auction business.
+                    TeamPRO’s team can help you build and support a website for your online auction business.
                 </p>
             </div>
 
             <div class="lg:w-2/6 m-auto">
                 <a href="#">
                     <div class="bg-blue-700 text-white text-center lg:mx-16 py-4  hover:bg-blue-800">
-                        HIRE SCIENCESOFT
+                        HIRE TEAMPRO
                     </div>
                 </a>
 
@@ -128,7 +128,7 @@
     In order to create an auction website, one needs to be well-versed in different platforms available on the
     market to be able to choose a suitable one, understand the functional specifics of online bidding, and have
     profound skills in web design and development. If you are looking for a company to assist you on the way,
-    feel free to <a href="#" class="border-b border-indigo-900"> contact ScienceSoft’s team.</a>
+    feel free to <a href="#" class="border-b border-indigo-900"> contact TeamPRO’s team.</a>
 </p>
 
 <div class="p-6 shadow-xl md:flex my-6">
@@ -138,7 +138,7 @@
     </div>
     <div class="mt-6 md:w-6/12 ml-3">
         <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-xl">
-            Ecommerce Development Services by ScienceSoft
+            Ecommerce Development Services by TeamPRO
         </a>
         <p class="text-lg text-gray-600 mt-6 md:text-xl">
             Are you planning to expand your business online? We will translate your ideas into intelligent and

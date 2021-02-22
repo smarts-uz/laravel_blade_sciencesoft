@@ -16,7 +16,7 @@
         <p class="text-center text-base sm:text-lg md:text-xl lg:text-2xl leading-10 text-gray-700 ">At its core,
             digital commerce is selling and buying goods and services online. The market is highly competitive, and
             businesses need to strive for more and more excellence to stay resilient, even though consumer demand for
-            online shopping is remarkably strong now. ScienceSoft brings in technology expertise and a problem-oriented
+            online shopping is remarkably strong now. TeamPRO brings in technology expertise and a problem-oriented
             approach to drive positive and tangible changes across your business resulting in cost savings and revenue
             growth.</p>
     </div>
@@ -190,7 +190,7 @@
                     alt="Sunset in the mountains">
                 <div class="px-6 py-4">
                     <p class="text-grey-darker text-base">
-                        Functional portfolio of ecommerce platforms and top 10 shortlisted by ScienceSoft.
+                        Functional portfolio of ecommerce platforms and top 10 shortlisted by TeamPRO.
                     </p>
                 </div>
             </div>

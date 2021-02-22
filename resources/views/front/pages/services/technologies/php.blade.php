@@ -21,7 +21,7 @@
         {{ _trans("PHP is an open-source programming language powering up 80% of the web. It is the language of the White House websites, Facebook, Slack, Wikipedia, Flickr, and the basis for the majority of present-day web services, B2C and B2B applications, content management systems, and ecommerce solutions.")  }}
         </p>
         <p class="my-5 text-lg">
-          {{ _trans("With more than 15 years in PHP development, ScienceSoft provides qualified PHP developers to help you leverage major PHP-based software appeals:")  }}
+          {{ _trans("With more than 15 years in PHP development, TeamPRO provides qualified PHP developers to help you leverage major PHP-based software appeals:")  }}
         </p>
 
        <div class="flex flex-row">
@@ -52,10 +52,10 @@
           </div>
       </div>
 
-      <!-- SCIENCESOFT’S EXPERIENCE -->
+      <!-- TEAMPRO’S EXPERIENCE -->
       <div>
         <h1 class="uppercase font-bold mt-10 text-3xl">
-        {{ _trans("SCIENCESOFT’S EXPERIENCE")  }}
+        {{ _trans("TEAMPRO’S EXPERIENCE")  }}
         </h1>
         <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
 

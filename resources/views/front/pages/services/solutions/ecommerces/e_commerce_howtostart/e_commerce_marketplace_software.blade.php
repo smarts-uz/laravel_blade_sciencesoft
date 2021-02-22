@@ -627,13 +627,13 @@
 
     <div class="mt-14">
         <strong class="text-3xl">
-            LAUNCH AN ONLINE MARKETPLACE WITH SCIENCESOFT
+            LAUNCH AN ONLINE MARKETPLACE WITH TEAMPRO
         </strong>
         <div class="w-14 h-0.5 bg-yellow-600 mt-3.5"></div>
         <p class="text-xl mt-3.5">
             One needs an in-depth understanding of the marketplace business model and an optimal technology set to make
             a marketplace venture a success. You can foster the knowledge and competencies in-house or team up with
-            ScienceSoft – an experienced ecommerce services provider that will save your time and take care of
+            TeamPRO – an experienced ecommerce services provider that will save your time and take care of
             cost-effective marketplace implementation.
         </p>
         </p>
@@ -789,19 +789,19 @@
     <div class="hover:shadow-xl mt-24  mt-6 border border-black-600 mb-28">
         <div class="flex flex-wrap">
             <div class="w-32 -mt-10 ml-10 h-44">
-                <img src="Images/sciencesoft-logo-short.svg" alt="">
+                <img src="Images/teampro-logo-short.svg" alt="">
 
             </div>
 
             <div class="w-9/12">
                 <div class=" mb-6 mt-6">
                     <strong class="text-2xl">
-                        ABOUT SCIENCESOFT
+                        ABOUT TEAMPRO
                     </strong>
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">Since 1989, ScienceSoft has been providing IT consulting and software
+                    <p class="text-xl mt-3.5">Since 1989, TeamPRO has been providing IT consulting and software
                         development services. The company’s cross-industry expertise in platform-based and custom
                         development now encompasses healthcare, manufacturing, banking, education and entertainment to
                         name a few strategic directions. For retail businesses, the team offers assistance in ecommerce

@@ -8,11 +8,11 @@
 
     <div class="block">
         <div class="card w-full p-4">
-            <h1 class="text-2xl md:text-3xl font-bold text-gray-800">{{ _trans('ScienceSoft’s press room') }}</h1>
+            <h1 class="text-2xl md:text-3xl font-bold text-gray-800">{{ _trans('TeamPRO’s press room') }}</h1>
             <hr class="w-14 border-b-2 bg-yellow-400 my-4">
             <img src="https://www.scnsoft.com/about/press-room_.svg" alt="" class="w-11/12 m-auto my-6">
             <p class="text-md leading-normal md:text-xl text-gray-600 my-6">
-                {{ _trans("ScienceSoft is 31 years in IT business. We systematically post articles on acute IT
+                {{ _trans("TeamPRO is 31 years in IT business. We systematically post articles on acute IT
                     problems to share our experience and enlighten people on IT topics. We are eager to
                     expand our public relations and cooperate with reporters, bloggers, influences, speakers,
                     and everyone else interested in creating expert IT content.") }}
@@ -23,7 +23,7 @@
             </h1>
             <hr class="w-14 border-b-2 bg-yellow-400 my-4">
             <p class="text-md leading-normal md:text-xl text-gray-600 my-6">
-                {{ _trans("ScienceSoft provides IT consulting and custom software development services for multiple
+                {{ _trans("TeamPRO provides IT consulting and custom software development services for multiple
                     industries, including healthcare, retail, manufacturing, banking, and telecoms. Key domains
                     of our expertise are IoT, big data, information security, mobile and web development,
                     collaboration & knowledge management, and more.") }}<br><br>
@@ -51,7 +51,7 @@
                                 {{ _trans('Boris Shiklo:') }}</p>
                         </a>
                         <p class="my-4 text-md text-gray-600">
-                            {{ _trans('IT consulting and IoT expert, CTO at ScienceSoft.') }}
+                            {{ _trans('IT consulting and IoT expert, CTO at TeamPRO.') }}
                         </p>
                     </div>
                 </div>

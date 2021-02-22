@@ -18,7 +18,7 @@
           src="https://www.scnsoft.com/software-development-services/python-devs/hire-sciencesofts-python-devs.svg"
         />
         <p class="my-5 text-lg">
-        {{ _trans("Extend your in-house team with Python developers or hire a dedicated Python team from ScienceSoft to achieve technological advantage and save development costs with first-time-right code, on-time delivery, and high development productivity.")  }}
+        {{ _trans("Extend your in-house team with Python developers or hire a dedicated Python team from TeamPRO to achieve technological advantage and save development costs with first-time-right code, on-time delivery, and high development productivity.")  }}
         </p>
       </div>
 
@@ -157,12 +157,12 @@
 
         </div>
 
-        <!-- WHY CHOOSE SCIENCESOFT AS YOUR JAVA DEVELOPMENT PARTNER? -->
+        <!-- WHY CHOOSE TEAMPRO AS YOUR JAVA DEVELOPMENT PARTNER? -->
 
-        <!-- WHAT MAKES SCIENCESOFT’S JAVA DEVELOPERS STAND OUT -->
+        <!-- WHAT MAKES TEAMPRO’S JAVA DEVELOPERS STAND OUT -->
         <div>
           <h1 class="uppercase font-bold mt-10 text-3xl">
-            {{ _trans("What makes sciencesoft's java developers stand out")  }}
+            {{ _trans("What makes teampro's java developers stand out")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <div class="mt-7 flex flex-row">

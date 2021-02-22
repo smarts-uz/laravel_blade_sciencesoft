@@ -42,7 +42,7 @@
           <div class="flex justify-between flex-wrap w-full mt-5">
             <div class="flex flex-row flex-wrap ">
               <span class="text-base hover:underline w-full md:w-48 text-white text-opacity-70 mr-5 hover:text-white">{{_trans("About
-                ScienceSoft")}}</span>
+                TeamPRO")}}</span>
               <span class="w-full md:w-48"><a href="#"
                   class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{_trans("Join Us as an
                   agent")}}</a></span>
@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="flex mt-5">
-            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ _trans("2021 ScienceSoft USA Corporation.")  }}
+            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ _trans("2021 TeamPRO USA Corporation.")  }}
               {{ _trans("All rights reserved.")  }}</span>
           </div>
         </div>

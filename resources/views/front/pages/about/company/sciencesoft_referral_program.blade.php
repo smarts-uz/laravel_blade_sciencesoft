@@ -24,7 +24,7 @@
             {{ _trans('you can help us hunt for new IT consulting and custom software development opportunities. All you need is to provide us with relevant leads, and we’ll reward your efforts according to our Referral Program.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">
-            {{ _trans('Join ScienceSoft Referral Program for IT consulting and software development services and get rewarded for the leads you bring us. We are open to expanding our business network and obtaining new IT consulting and software development challenges.') }}
+            {{ _trans('Join TeamPRO Referral Program for IT consulting and software development services and get rewarded for the leads you bring us. We are open to expanding our business network and obtaining new IT consulting and software development challenges.') }}
         </p>
         <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('COOPERATION PROCEDURE') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
@@ -51,7 +51,7 @@
                     class="underline hover:text-blue-600" href="#">{{ _trans('retail') }}</a> ,<a
                     class="hover:text-blue-600 underline" href="#">{{ _trans('manufacturing') }}</a> , <a
                     class="underline hover:text-blue-600" href="">{{ _trans('telecom') }}</a>
-                {{ _trans('in the US and Europe, which resulted in new beneficial long-term business relationships for our partners and us. At ScienceSoft, we believe that doing business with partners is an effective way to reach out to the customers, meet their expectations and win their trust.') }}
+                {{ _trans('in the US and Europe, which resulted in new beneficial long-term business relationships for our partners and us. At TeamPRO, we believe that doing business with partners is an effective way to reach out to the customers, meet their expectations and win their trust.') }}
             </p>
             <p class="py-5 text-lg text-gray-500 mb-5">
                 {{ _trans('Please feel free to send your questions to us and set up a free consultation with our representative.') }}
@@ -196,12 +196,12 @@
                         <h1 class="uppercase font-bold text-2xl">IT consulting</h1>
                         <p class="lg:text-lg lg:text-left text-center text-gray-400 lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                             We can start with solution and platform consulting to
-                            help our clients get a clear vision of the IT solution 
+                            help our clients get a clear vision of the IT solution
                             they want to implement. Also we can provide IT strategic
                             consulting advising companies how to improve their IT strategies.
                         </p>
                     </div>
-        
+
                 </div>
             </div>
             <div class="col-12 mt-10 group flex flex-wrap">
@@ -219,11 +219,11 @@
                         <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                             Apart from developing and testing an IT solution,
                             we are always ready to assist our customers in integration,
-                            data migration and other related processes to ensure that a new IT solution integrates 
+                            data migration and other related processes to ensure that a new IT solution integrates
                             into corporate workflows and contributes to business value.
                         </p>
                     </div>
-        
+
                 </div>
             </div>
             <div class="col-12 mt-10 group flex flex-wrap">
@@ -233,18 +233,18 @@
                             3
                         </div>
                     </div>
-                    
+
                 </div>
                 <div class="flex flex-wrap lg:w-5/6">
                     <div class=" lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
                         <h1 class="uppercase font-bold text-2xl">Support</h1>
                         <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                             We provide all-round support of the IT solutions our customers are
-                            using (whether delivered by ScienceSoft or other teams): add new functionality, 
+                            using (whether delivered by ScienceSoft or other teams): add new functionality,
                             ensure better interoperability, performance and usability, fix bugs.
                         </p>
                     </div>
-        
+
                 </div>
             </div>
         </div>
@@ -265,19 +265,19 @@
                     Contact Us
                 </h1>
                 <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
-    
+
                 <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
                     {{ _trans("Ready to start? Need more info about partnership details? Contact us to get free consultation and explore how we can cooperate. Our specialists are open to give the presentation of ScienceSoft services and provide you with our demos, success stories and other materials you need.")  }}
                 </p>
             </div>
-    
+
             <div class="lg:w-2/6 m-auto">
                 <a href="#">
                     <div class="bg-blue-700 text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
                         Contact Us
                     </div>
                 </a>
-    
+
             </div>
         </div>
     </div>

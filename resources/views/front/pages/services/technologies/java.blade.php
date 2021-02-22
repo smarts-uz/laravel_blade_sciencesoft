@@ -24,7 +24,7 @@
           language and frameworks.")  }}
         </p>
         <p class="my-5 text-lg">
-          <b>{{ _trans("ScienceSoft")  }}</b> {{ _trans("is a")  }}
+          <b>{{ _trans("TeamPRO")  }}</b> {{ _trans("is a")  }}
           <b>{{ _trans("global Java application development company")  }}</b>
           {{ _trans("that has already accumulated")  }}
           <b>{{ _trans("more than 20 years of experience in Java development.")  }}</b> {{ _trans("We’re
@@ -50,7 +50,7 @@
               </h1>
               <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
               <p class="text-gray-600 text-lg md:text-xl leading-4">
-                {{ _trans("ScienceSoft offers timely development of Java applications
+                {{ _trans("TeamPRO offers timely development of Java applications
                 with a sustainable architecture, clean code and a high
                 coverage with unit tests.")  }}
               </p>
@@ -63,11 +63,11 @@
           </div>
         </div>
 
-        <!-- WHY CHOOSE SCIENCESOFT AS YOUR JAVA DEVELOPMENT PARTNER? -->
+        <!-- WHY CHOOSE TEAMPRO AS YOUR JAVA DEVELOPMENT PARTNER? -->
 
         <div>
           <h1 class="uppercase font-bold mt-10 text-3xl">
-            {{ _trans("Why choose sciencesoft as your java development partner?")  }}
+            {{ _trans("Why choose teampro as your java development partner?")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <div class="flex flex-row mt-5">
@@ -132,10 +132,10 @@
           </div>
         </div>
 
-        <!-- WHAT MAKES SCIENCESOFT’S JAVA DEVELOPERS STAND OUT -->
+        <!-- WHAT MAKES TEAMPRO’S JAVA DEVELOPERS STAND OUT -->
         <div>
           <h1 class="uppercase font-bold mt-10 text-3xl">
-            {{ _trans("What makes sciencesoft's java developers stand out")  }}
+            {{ _trans("What makes teampro's java developers stand out")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <div class="mt-7 flex flex-row">

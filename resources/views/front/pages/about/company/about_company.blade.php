@@ -10,12 +10,12 @@
     <div class="my-10">
 
         <h1 class="uppercase font-bold mt-10 text-2xl">
-            {{ _trans('About ScienceSoft – Global IT Company') }}
+            {{ _trans('About TeamPRO – Global IT Company') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
-        <img src="https://www.scnsoft.com/about/company-new/about-company-sciencesoft.svg" />
+        <img src="https://www.scnsoft.com/about/company-new/about-company-teampro" />
         <p class="my-5 text-lg">
-            {{ _trans("Founded in 1989, ScienceSoft is a provider of IT consulting and software
+            {{ _trans("Founded in 1989, TeamPROa provider of IT consulting and software
             development services. Having started as a small AI product company, we
             switched to IT services in 2002 and ever since we have helped non-IT
             organizations and software product companies improve business
@@ -38,12 +38,12 @@
 
     <div class="my-10">
         <div class="text-2xl md:text-3xl font-bold">
-            {{ _trans('SCIENCESOFT’S HIGHLIGHTS') }}
+            {{ _trans('TEAMPRO’S HIGHLIGHTS') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
         <div class="flex flex-row">
             <div class="w-2/3">
-                <img src="https://www.scnsoft.com/about/company-new/about-company-sciencesoft.svg" alt="">
+                <img src="https://www.scnsoft.com/about/company-new/about-company-teampro" alt="">
             </div>
             <div>
                 <ul class="ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -51,17 +51,17 @@
                         2020
                     </p>
                     <li>
-                        {{ _trans('ScienceSoft attained AWS Select Tier Consulting Partner status.') }}
+                        {{ _trans('TeamPRO attained AWS Select Tier Consulting Partner status.') }}
                     </li>
                     <li>
-                        {{ _trans("ScienceSoft featured on the Clutch lists of Top IT Services Firms, Top Cloud Consultants, and Top
+                        {{ _trans("TeamPRO featured on the Clutch lists of Top IT Services Firms, Top Cloud Consultants, and Top
                         1000 B2B Providers Globally.") }}
                     </li>
                     <li>
-                        {{ _trans('ScienceSoft featured in IAOP Global Outsourcing 100 Award Lists 2020.') }}
+                        {{ _trans('TeamPRO featured in IAOP Global Outsourcing 100 Award Lists 2020.') }}
                     </li>
                     <li>
-                        {{ _trans('ScienceSoft acquired Gold Microsoft Competency in Application Integration.') }}
+                        {{ _trans('TeamPRO acquired Gold Microsoft Competency in Application Integration.') }}
                     </li>
                 </ul>
             </div>
@@ -176,7 +176,7 @@
                 <div class="text-xl">
                     <p class="my-10">
                         {{ _trans(" “It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                       tend to result in excessive hours spent. We, at ScienceSoft, don't practice reducing IT service
+                       tend to result in excessive hours spent. We, at TeamPRO don't practice reducing IT service
                        costs by hiring low-paid employees. Instead, we raise productivity, i.e., deliver more in less
                        time. It results in a lower cost of output (new application functionality, stable
                        infrastructure, user issues resolved).”") }}
@@ -335,7 +335,7 @@
 
 
     <div class="my-10 text-2xl md:text-3xl font-bold">
-        {{ _trans('WHAT OUR CUSTOMERS GET CHOOSING SCIENCESOFT AS A VENDOR') }}
+        {{ _trans('WHAT OUR CUSTOMERS GET CHOOSING TEAMPRO AS A VENDOR') }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
 
@@ -410,7 +410,7 @@
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
             <p class='text-gray-600 text-xl'>
-                {{ _trans("ScienceSoft will help you improve your business operations with an optimal
+                {{ _trans("TeamPRO will help you improve your business operations with an optimal
                  service or assist you in launching a product that would win customers fast.") }}
             </p>
         </div>

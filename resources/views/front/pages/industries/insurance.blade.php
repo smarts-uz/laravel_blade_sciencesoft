@@ -32,7 +32,7 @@
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
                 <p class="text-gray-500 pr-5 text-xl w-full lg:w-4/5">
-                  {{ _trans("ScienceSoft’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
+                  {{ _trans("TeamPRO’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
                 </p>
                 <button
                 class="uppercase text-white text-sm bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center w-full focus:outline-none hover:bg-blue-800 md:p-4 sm:p-4"
@@ -46,7 +46,7 @@
       </div>
 
       <div class="mx-6 md:mx-16 lg:mx-24 my-10">
-        <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">{{ _trans("WHAT MAKES SCIENCESOFT A RELIABLE PARTNER")  }}</p>
+        <p class="text-xl  md:text-3xl lg:text-3xl font-bold pt-5 ">{{ _trans("WHAT MAKES TEAMPRO A RELIABLE PARTNER")  }}</p>
         <hr class="w-12 border-b-2 border-yellow-600 my-4" />
         <!-- STARS -->
         <div class="grid md:grid-cols-3 gap-4 border mb-4">
@@ -352,7 +352,7 @@
               <hr class="w-12 border-b-2 border-yellow-600 my-4" />
               <div class="flex flex-wrap">
                 <p class="text-gray-500 pr-5 text-xl w-full lg:w-4/5">
-                  {{ _trans("ScienceSoft’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
+                  {{ _trans("TeamPRO’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.")  }}
                 </p>
                 <button
                 class="uppercase text-white text-sm bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center w-full focus:outline-none hover:bg-blue-800 md:p-4 sm:p-4"

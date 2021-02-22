@@ -21,7 +21,7 @@
     <div class="container mb-24">
         <section class="customer-logos slider px-16">
             <div class="slide"><img class="h-32 w-32"
-                    src="https://seal-dallas.bbb.org/logo/ruhzbul/sciencesoft-90933001.png" alt="logo"></div>
+                    src="https://seal-dallas.bbb.org/logo/ruhzbul/teampro-90933001.png" alt="logo"></div>
             <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/deloitte.svg') }}" alt="logo"></div>
             <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ebay.svg') }}" alt="logo"></div>
             <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ford.svg') }}" alt="logo"></div>
@@ -202,7 +202,7 @@
                     alt="Sunset in the mountains">
                 <div class="px-6 py-4">
                     <p class="text-grey-darker text-base">
-                        Functional portfolio of ecommerce platforms and top 10 shortlisted by ScienceSoft.
+                        Functional portfolio of ecommerce platforms and top 10 shortlisted by TeamPRO.
                     </p>
                 </div>
             </div>

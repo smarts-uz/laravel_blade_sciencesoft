@@ -20,7 +20,7 @@
 
         <strong class="text-blue-900">Tanya Yablonskaya</strong>
         <p class="text-lg">
-            Ecommerce Industry Analyst, ScienceSoft</p>
+            Ecommerce Industry Analyst, TeamPRO</p>
 
         <hr class="mt-3.5">
 
@@ -205,7 +205,7 @@
 
                 <p class=" mt-4 text-xl">
 
-                    ScienceSoft offers 17 years of ecommerce development and integration experience to automate and
+                    TeamPRO offers 17 years of ecommerce development and integration experience to automate and
                     synchronize your business flows and reduce related costs.
 
 
@@ -251,7 +251,7 @@
             Though ecommerce website integration offers multiple advantages, it calls for sufficient experience to
             execute it skillfully. One needs to review the systems intended for integration, investigate current
             business processes, and decide how to streamline them with automation in the best possible way. If you are
-            looking to integrate software components into a cohesive ecosystem, shortlist ScienceSoft as a potential
+            looking to integrate software components into a cohesive ecosystem, shortlist TeamPRO as a potential
             vendor. We have vast ecommerce integration expertise and huge enthusiasm to bring transformative changes to
             your business fast. Send us a request and get a response shortly!
         </p>
@@ -273,7 +273,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">ScienceSoft’s team migrated two Magento 1 websites with about 90% of
+                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of
                         custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>

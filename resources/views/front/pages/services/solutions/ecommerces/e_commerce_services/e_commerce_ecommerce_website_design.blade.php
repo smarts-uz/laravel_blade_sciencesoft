@@ -30,7 +30,7 @@
         life.</strong> Along with proficiency in
         <br> design
         tools and frameworks, one needs the knowledge of customer psychology and aesthetic excellence to <br> create
-        inspiring designs. And we are proud to say that ScienceSoft has it all to make a difference in ecommerce <br>
+        inspiring designs. And we are proud to say that TeamPRO has it all to make a difference in ecommerce <br>
         website
         design!
     </p>
@@ -78,7 +78,7 @@
                     <h1 class="uppercase font-bold mt-10 text-2xl pt-4">Convey a Strong Brand Message to Your
                         Audience</h1>
                     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-                    <p class="text-lg pb-3 xl:text-xl">With ScienceSoft, you have your ecommerce website designed
+                    <p class="text-lg pb-3 xl:text-xl">With TeamPRO, you have your ecommerce website designed
                         beautifully to:</p>
                     <ul style="list-style: square" class="text-blue-600 text-lg pl-6 xl:text-xl">
                         <li><a href="#" class="text-black leading-9">Inspire customer trust.</a></li>

@@ -14,7 +14,7 @@
           <div class="w-10 mb-5 pl-4 mx-3 bg-yellow-500"></div>
           <div class="md:flex-row w-full bg-gray-200 justify-between flex flex-row flex-col">
             <div class="md:w-4/12 w-full bg-white">
-              <h2 class="font-bold text-center text-2xl pt-5">{{ _trans("ScienceSoft in brief")  }}</h2><br>
+              <h2 class="font-bold text-center text-2xl pt-5">{{ _trans("TeamPRO in brief")  }}</h2><br>
               <div class="flex">
                 <i class="text-2xl fas fa-check text-green-600 pl-6 pr-3 py-3"></i>
                 <p class="text-lg py-3"><span class="font-semibold">{{ _trans("31 years")  }}</span>{{ _trans(" in IT.")  }}</p>

@@ -14,7 +14,7 @@
             <img src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-services_1.svg">
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
-                    {{ _trans("ScienceSoft’s IT team delivers a full set of services to keep your IT infrastructure reliable
+                    {{ _trans("TeamPRO’s IT team delivers a full set of services to keep your IT infrastructure reliable
                      with on-going infrastructure administration, continuous monitoring and prompt troubleshooting.
                      We are also ready to plan, implement and manage changes in your IT environment to support the
                      uninterrupted flow of your business operations.")  }}
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="text-2xl md:text-3xl font-bold uppercase">
-            {{ _trans("Why Collaborate with ScienceSoft")  }}
+            {{ _trans("Why Collaborate with TeamPRO")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -62,7 +62,7 @@
         </ul>
 
         <div class="text-2xl md:text-3xl font-bold mt-10">
-            {{ _trans("IT Infrastructure Services ScienceSoft Delivers")  }}
+            {{ _trans("IT Infrastructure Services TeamPRO Delivers")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -96,7 +96,7 @@
                          efficiency.")  }}
                     </p>
                     <p class=" text-xl md:text-2xl my-6">
-                        {{ _trans("ScienceSoft offers the following services in terms of IT infrastructure consulting:")  }}
+                        {{ _trans("TeamPRO offers the following services in terms of IT infrastructure consulting:")  }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="mb-4">{{ _trans("Audit of the entire IT infrastructure according to the industry standards
@@ -128,7 +128,7 @@
                         {{ _trans("Our offering in terms of IT infrastructure management includes the following services:")  }}
                     </p>
                     <p class=" text-xl md:text-2xl my-6">
-                        {{ _trans("ScienceSoft offers the following services in terms of IT infrastructure consulting:")  }}
+                        {{ _trans("TeamPRO offers the following services in terms of IT infrastructure consulting:")  }}
                     </p>
                     <div class="ml-6">
                         <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -144,13 +144,13 @@
                             <p class="text-lg">
                                 {{ _trans("With the help of such tools as System Center Configuration Manager (for Windows
                                  servers) and Ansible (both for Windows and Linux) our team is well versed in,
-                                 ScienceSoft can detect and mitigate performance or security issues before your
+                                 TeamPRO can detect and mitigate performance or security issues before your
                                  employees or external users find them. Thus, we’ll help you maintain a high level of
                                  user satisfaction")  }}
                             </p>
                             <li class="mb-4 text-2xl font-bold">{{ _trans("IT infrastructure troubleshooting")  }} </li>
                             <p class="text-lg">
-                                {{ _trans("ScienceSoft’s IT team offers you their 24/7 availability and readiness to mitigate
+                                {{ _trans("TeamPRO’s IT team offers you their 24/7 availability and readiness to mitigate
                                  the issues related to your IT infrastructure scalability, its uptime, resource
                                  utilization, storage use, and many more")  }}
                             </p>
@@ -174,7 +174,7 @@
         </h1>
         <p class="text-lg">
             {{ _trans("Taking into consideration your current business needs and requirements and applying the extensive
-             expertise in cloud computing platforms, i.e. AWS, Azure, Google Cloud (GCP), and more, ScienceSoft’s IT
+             expertise in cloud computing platforms, i.e. AWS, Azure, Google Cloud (GCP), and more, TeamPRO’s IT
              team is ready to provide you with a range of cloud-specific services.")  }}
         </p>
         <div class="rounded-sm p-2 md:p-8">
@@ -187,7 +187,7 @@
                     <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("Cloud infrastructure consulting")  }}</h1>
 
                     <p class=" text-xl md:text-2xl mt-6">
-                         {{ _trans("ScienceSoft’s team of certified cloud architects will help you to find a suitable approach
+                         {{ _trans("TeamPRO’s team of certified cloud architects will help you to find a suitable approach
                           to integrate a cloud strategy into your general business strategy. We offer professional
                           consulting services on migrating your business to the cloud faultlessly and increasing the
                           number of cloud services used across your organization to accelerate your business
@@ -205,7 +205,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-1xl md:text-2xl font-bold">{{ _trans("Cloud infrastructure management")  }}</h1>
                     <p class=" text-xl md:text-2xl mt-4">
-                        {{ _trans("ScienceSoft’s cloud administrators can set up and maintain your cloud-based IT
+                        {{ _trans("TeamPRO’s cloud administrators can set up and maintain your cloud-based IT
                          infrastructure. Our experts provide cloud management services focusing on:")  }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -260,7 +260,7 @@
                     <p class=" text-xl md:text-2xl mt-4">
                         {{ _trans("As a Gold Microsoft Business Partner equipped with the competencies in Cloud Platform, Data
                          Platform, Datacenter, and Messaging, and an IBM Business Partner in Security Operations &
-                         Response, ScienceSoft is ready to ensure the security management and threat protection
+                         Response, TeamPRO is ready to ensure the security management and threat protection
                          across your cloud infrastructure by:")  }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -294,7 +294,7 @@
                     <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("Cloud migration")  }}</h1>
 
                     <p class=" text-xl md:text-2xl mt-6">
-                        {{ _trans("ScienceSoft’s team can perform a full-scale migration of your on-premises IT infrastructure
+                        {{ _trans("TeamPRO’s team can perform a full-scale migration of your on-premises IT infrastructure
                          to the cloud with the minimal downtime during the migration process. We can seamlessly put
                          your IT infrastructure in the virtual environment to increase its flexibility and
                          scalability with the reduced operational costs. Having the experience with a number of cloud
@@ -308,7 +308,7 @@
             {{ _trans("Data center services")  }}
         </h1>
         <p class="text-lg">
-            {{ _trans("ScienceSoft’s IT infrastructure team is experienced in a wide range of data center services – we cover
+            {{ _trans("TeamPRO’s IT infrastructure team is experienced in a wide range of data center services – we cover
              management, maintenance, and monitoring of on-premises, cloud-based, and hybrid data centers.")  }}
         </p>
 
@@ -327,7 +327,7 @@
                          scheduling and monitoring, application delivery.")  }}
                     </p>
                     <p class="text-xl my-4">
-                        {{ _trans("ScienceSoft’s data center management services include:")  }}
+                        {{ _trans("TeamPRO’s data center management services include:")  }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="my-4">{{ _trans("Installing and properly configuring servers, storage and network
@@ -371,11 +371,11 @@
                     <h1 class="text-1xl md:text-2xl font-bold">{{ _trans("Data center monitoring")  }}</h1>
                     <p class=" text-xl md:text-2xl mt-4">
                         {{ _trans("If you do not feel like outsourcing all the set of data center management activities,
-                         ScienceSoft offers their data center monitoring services separately. Our team supervises the
+                         TeamPRO offers their data center monitoring services separately. Our team supervises the
                          entire data center infrastructure, be it on-premises, cloud-based or hybrid. To ensure
                          constant monitoring within your data center infrastructure and deliver you detailed insights
                          into your data center state, we use such automated monitoring tools as Zabbix and Nagios.
-                         ScienceSoft provides:")  }}
+                         TeamPRO provides:")  }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="my-4">{{ _trans("Ongoing monitoring of Windows, Linux servers and computer systems to ensure
@@ -395,7 +395,7 @@
         <p class="text-lg my-4">
             {{ _trans("By applying DevOps practices and techniques, such as continuous integration and continuous delivery
              (CI/CD), infrastructure as code (IaC), as well as unifying the efforts of your development and
-             operations teams, ScienceSoft’s technical team experienced in ITSM and DevOps practices can accelerate
+             operations teams, TeamPRO’s technical team experienced in ITSM and DevOps practices can accelerate
              your overall infrastructure management, modernization and maintenance.")  }}
         </p>
 
@@ -408,7 +408,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-1xl md:text-2xl font-bold"><a href="#">{{ _trans("DevOps consulting")  }}</a></h1>
                     <p class=" text-xl md:text-2xl mt-4">
-                        {{ _trans("ScienceSoft’s team helps apply the DevOps approach to:")  }}
+                        {{ _trans("TeamPRO’s team helps apply the DevOps approach to:")  }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="my-4">{{ _trans("Automate and accelerate the provision of a new infrastructure for a new
@@ -434,7 +434,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-1xl md:text-2xl font-bold">{{ _trans("DevOps implementation")  }}</h1>
                     <p class=" text-xl md:text-2xl mt-4">
-                        {{ _trans("ScienceSoft’s team provides you with the end-to-end service aimed at the faultless
+                        {{ _trans("TeamPRO’s team provides you with the end-to-end service aimed at the faultless
                          implementation of the DevOps approach. Taking into account your business needs and
                          requirements, we:")  }}
                     </p>
@@ -459,7 +459,7 @@
             {{ _trans("Virtual desktop infrastructure (VDI) services: consulting, implementation and support")  }}
         </h1>
         <p class="text-lg my-4">
-            {{ _trans("ScienceSoft’s experts are ready to offer you their experience in desktop virtualization consulting,
+            {{ _trans("TeamPRO’s experts are ready to offer you their experience in desktop virtualization consulting,
              implementation and support to significantly increase your corporate data protection (since it’s stored
              in the data center, not on the endpoints your employees use) and your employees’ productivity (due to
              their ability to work remotely, comfortably and securely from any device). Our specialists can help you:")  }}
@@ -521,7 +521,7 @@
                          Semantic Search")  }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                         <p class=" text-gray-500 text-lg md:text-xl">
-                            {{ _trans("ScienceSoft successfully introduced the DevOps approach and implemented CI/CD pipeline
+                            {{ _trans("TeamPRO successfully introduced the DevOps approach and implemented CI/CD pipeline
                              to manage the IT infrastructure of a US multi-industry enterprise with a core business
                              in retail.")  }}
                         </p>
@@ -546,7 +546,7 @@
                          Semantic Search")  }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                         <p class=" text-gray-500 text-lg md:text-xl">
-                            {{ _trans("ScienceSoft successfully introduced the DevOps approach and implemented CI/CD pipeline
+                            {{ _trans("TeamPRO successfully introduced the DevOps approach and implemented CI/CD pipeline
                              to manage the IT infrastructure of a US multi-industry enterprise with a core business
                              in retail.")  }}
                         </p>
@@ -571,7 +571,7 @@
                          Semantic Search")  }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                         <p class=" text-gray-500 text-lg md:text-xl">
-                            {{ _trans("ScienceSoft successfully introduced the DevOps approach and implemented CI/CD pipeline
+                            {{ _trans("TeamPRO successfully introduced the DevOps approach and implemented CI/CD pipeline
                              to manage the IT infrastructure of a US multi-industry enterprise with a core business
                              in retail.")  }}
                         </p>
@@ -596,7 +596,7 @@
                          Semantic Search")  }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                         <p class=" text-gray-500 text-lg md:text-xl">
-                            {{ _trans("ScienceSoft successfully introduced the DevOps approach and implemented CI/CD pipeline
+                            {{ _trans("TeamPRO successfully introduced the DevOps approach and implemented CI/CD pipeline
                              to manage the IT infrastructure of a US multi-industry enterprise with a core business
                              in retail.")  }}
                         </p>
@@ -620,7 +620,7 @@
                          Semantic Search")  }}</h1>
                         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                         <p class=" text-gray-500 text-lg md:text-xl">
-                            {{ _trans("ScienceSoft successfully introduced the DevOps approach and implemented CI/CD pipeline
+                            {{ _trans("TeamPRO successfully introduced the DevOps approach and implemented CI/CD pipeline
                              to manage the IT infrastructure of a US multi-industry enterprise with a core business
                              in retail.")  }}
                         </p>
