@@ -19,7 +19,7 @@
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3 md:px-16 text-center">As an <a href="#"
                                                                 class="border-b border-indigo-900 hover:text-blue-600">
-        ecommerce consulting and development partner,</a> ScienceSoft boasts 17 years of launching and scaling business
+        ecommerce consulting and development partner,</a> TeamPRO boasts 17 years of launching and scaling business
         operations for e-retailers.
     </p>
     <div class="w-full bg-blue-400 h-0.5"></div>
@@ -691,7 +691,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                ScienceSoft is ready to be your consulting partner throughout a business launch and help you with a
+                TeamPRO is ready to be your consulting partner throughout a business launch and help you with a
                 website implementation part.
             </p>
         </div>
@@ -707,7 +707,7 @@
     </div>
 
     <h1 class="text-2xl font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-        WHY TRUST YOUR DIGITAL COMMERCE SUCCESS TO SCIENCESOFT?
+        WHY TRUST YOUR DIGITAL COMMERCE SUCCESS TO TEAMPRO?
     </h1>
     <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
@@ -821,12 +821,12 @@
     </div>
 
     <h1 class="text-2xl font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-        LAUNCH YOUR MARKETPLACE PROJECT WITH SCIENCESOFT
+        LAUNCH YOUR MARKETPLACE PROJECT WITH TEAMPRO
     </h1>
     <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-        At ScienceSoft, we offer 17 years of experience in ecommerce consulting and development to make your marketplace
+        At TeamPRO, we offer 17 years of experience in ecommerce consulting and development to make your marketplace
         business a success.
     </p>
 
@@ -930,15 +930,15 @@
     <div class="md:flex md:w-11/12 mt-20 md:ml-auto shadow-2xl">
 
         <img width="100" height="100" class="lg:-ml-12 m-auto md:-ml-6"
-             src="https://www.scnsoft.com/sciencesoft-logos/sciencesoft-logo-short.svg" alt="">
+             src="https://www.scnsoft.com/teampro-logos/teampro-logo-short.svg" alt="">
 
         <div class="md:w-11/12 text-center md:text-left p-2">
             <h1 class="text-2xl  md:ml-6 font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-                ABOUT SCIENCESOFT
+                ABOUT TEAMPRO
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                As digital presence becomes a must-have across business verticals, ScienceSoft builds on 17 years of experience to deliver quality
+                As digital presence becomes a must-have across business verticals, TeamPRO builds on 17 years of experience to deliver quality
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600"> ecommerce implementation services </a>
                 to our customers. We house consulting and development competencies to assume full ownership over ecommerce business launch.
             </p>

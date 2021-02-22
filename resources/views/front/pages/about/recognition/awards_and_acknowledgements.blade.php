@@ -9,18 +9,18 @@
     <div>
         <div>
             <div class="my-4">
-                <h1 class="uppercase font-extrabold text-3xl pb-4">{{ _trans('ScienceSoft’s Awards and Recognitions') }}
+                <h1 class="uppercase font-extrabold text-3xl pb-4">{{ _trans('TeamPRO’s Awards and Recognitions') }}
                 </h1>
                 <hr class="w-10 h-1 bg-yellow-600">
             </div>
             <div>
-                <img src="https://www.scnsoft.com/about/awards-recognitions/awards-and-recognitions-sciencesoft-01.svg"
+                <img src="https://www.scnsoft.com/about/awards-recognitions/awards-and-recognitions-teampro-01.svg"
                     alt="">
             </div>
 
             <div class="text-lg my-10">
                 <p>
-                    {{ _trans("For over 31 years, ScienceSoft has supported businesses with high-quality IT services. We help
+                    {{ _trans("For over 31 years, TeamPRO has supported businesses with high-quality IT services. We help
                     enterprises leverage technologies to keep business processes optimized and bring on digital
                     transformation. We assist product companies with delivering selling software products to the market.") }}
                 </p>
@@ -44,7 +44,7 @@
                     </div>
                     <ul class="list-disc text-base md:text-xl leading-loose col">
                         <li class="mb-4">
-                            {{ _trans("Clutch featured ScienceSoft in the list of Top IT Services Firms and Top 1000 B2B Providers
+                            {{ _trans("Clutch featured TeamPRO in the list of Top IT Services Firms and Top 1000 B2B Providers
                             Globally, as well as named us No.1 in the lists Top AWS Partners, Top Azure Consultants, Top
                             Salesforce Consultants.") }}
                         </li>
@@ -54,7 +54,7 @@
                             compare industry leaders.") }}
                         </li>
                         <li class="mb-4">
-                            {{ _trans("International Association of Outsourcing Professionals (IAOP) selected ScienceSoft for the
+                            {{ _trans("International Association of Outsourcing Professionals (IAOP) selected TeamPRO for the
                             Global Outsourcing 100 rating in two categories – Top Customer References and Top Awards &
                             Certifications.
                             FIAOP connects customers, outsourcing providers, and advisors in a synergic environment aimed at
@@ -66,13 +66,13 @@
                             under evaluation.") }}
                         </li>
                         <li class="mb-4">
-                            {{ _trans("TechReviewer put ScienceSoft first in the list of Leading QA and Software Testing Companies.
+                            {{ _trans("TechReviewer put TeamPRO first in the list of Leading QA and Software Testing Companies.
                             TechReviewer is an analytics hub that carries out studies and publishes lists with the best
                             software development companies in various business domains based on market research and
                             analysis.") }}
                         </li>
                         <li>
-                            {{ _trans("UpFirms.com included ScienceSoft is the list of Top Web Development Companies.
+                            {{ _trans("UpFirms.com included TeamPRO is the list of Top Web Development Companies.
                             UpFirms.com is one of the leading full-fledged B2B platforms with reviews, ratings & rankings.
                             One of their highlights is collecting reviews directly from a company’s clients.") }}
                         </li>
@@ -99,7 +99,7 @@
                     </div>
                     <ul class="list-disc text-base md:text-xl leading-loose col">
                         <li class="mb-4">
-                            {{ _trans("Clutch featured ScienceSoft in the list of Top IT Services Firms and Top 1000 B2B Providers
+                            {{ _trans("Clutch featured TeamPRO in the list of Top IT Services Firms and Top 1000 B2B Providers
                             Globally, as well as named us No.1 in the lists Top AWS Partners, Top Azure Consultants, Top
                             Salesforce Consultants.") }}
                         </li>
@@ -109,7 +109,7 @@
                             compare industry leaders.") }}
                         </li>
                         <li class="mb-4">
-                            {{ _trans("International Association of Outsourcing Professionals (IAOP) selected ScienceSoft for the
+                            {{ _trans("International Association of Outsourcing Professionals (IAOP) selected TeamPRO for the
                             Global Outsourcing 100 rating in two categories – Top Customer References and Top Awards &
                             Certifications.
                             FIAOP connects customers, outsourcing providers, and advisors in a synergic environment aimed at
@@ -121,13 +121,13 @@
                             under evaluation.") }}
                         </li>
                         <li class="mb-4">
-                            {{ _trans("TechReviewer put ScienceSoft first in the list of Leading QA and Software Testing Companies.
+                            {{ _trans("TechReviewer put TeamPRO first in the list of Leading QA and Software Testing Companies.
                             TechReviewer is an analytics hub that carries out studies and publishes lists with the best
                             software development companies in various business domains based on market research and
                             analysis.") }}
                         </li>
                         <li>
-                            {{ _trans("UpFirms.com included ScienceSoft is the list of Top Web Development Companies.
+                            {{ _trans("UpFirms.com included TeamPRO is the list of Top Web Development Companies.
                             UpFirms.com is one of the leading full-fledged B2B platforms with reviews, ratings & rankings.
                             One of their highlights is collecting reviews directly from a company’s clients.") }}
                         </li>
@@ -154,7 +154,7 @@
                     </div>
                     <ul class="list-disc text-base md:text-xl leading-loose col">
                         <li class="mb-4">
-                            {{ _trans("Clutch featured ScienceSoft in the list of Top IT Services Firms and Top 1000 B2B Providers
+                            {{ _trans("Clutch featured TeamPRO in the list of Top IT Services Firms and Top 1000 B2B Providers
                             Globally, as well as named us No.1 in the lists Top AWS Partners, Top Azure Consultants, Top
                             Salesforce Consultants.") }}
                         </li>
@@ -164,7 +164,7 @@
                             compare industry leaders.") }}
                         </li>
                         <li class="mb-4">
-                            {{ _trans("International Association of Outsourcing Professionals (IAOP) selected ScienceSoft for the
+                            {{ _trans("International Association of Outsourcing Professionals (IAOP) selected TeamPRO for the
                             Global Outsourcing 100 rating in two categories – Top Customer References and Top Awards &
                             Certifications.
                             FIAOP connects customers, outsourcing providers, and advisors in a synergic environment aimed at
@@ -176,13 +176,13 @@
                             under evaluation.") }}
                         </li>
                         <li class="mb-4">
-                            {{ _trans("TechReviewer put ScienceSoft first in the list of Leading QA and Software Testing Companies.
+                            {{ _trans("TechReviewer put TeamPRO first in the list of Leading QA and Software Testing Companies.
                             TechReviewer is an analytics hub that carries out studies and publishes lists with the best
                             software development companies in various business domains based on market research and
                             analysis.") }}
                         </li>
                         <li>
-                            {{ _trans("UpFirms.com included ScienceSoft is the list of Top Web Development Companies.
+                            {{ _trans("UpFirms.com included TeamPRO is the list of Top Web Development Companies.
                             UpFirms.com is one of the leading full-fledged B2B platforms with reviews, ratings & rankings.
                             One of their highlights is collecting reviews directly from a company’s clients.") }}
                         </li>

@@ -22,7 +22,7 @@
 
         <strong class="text-blue-900">Tanya Yablonskaya</strong>
         <p class="text-lg">
-            Ecommerce Industry Analyst, ScienceSoft</p>
+            Ecommerce Industry Analyst, TeamPRO</p>
 
         <hr class="mt-3.5">
 
@@ -35,7 +35,7 @@
             <i>
                 <b> Editor’s note: </b>Without going into much detail, we put together the essential information on how
                 to start an online retail business in six steps. And if you are determined to profit from online sales,
-                our team at ScienceSoft will be happy to provide further ecommerce consulting services.
+                our team at TeamPRO will be happy to provide further ecommerce consulting services.
             </i>
 
         </p>
@@ -191,7 +191,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3.5"></div>
                 </div>
                 <p class=" mt-4 text-xl">
-                    ScienceSoft will help you set up an ecommerce website and provide strong business consulting support
+                    TeamPRO will help you set up an ecommerce website and provide strong business consulting support
                     throughout the cooperation.
                 </p>
             </div>
@@ -288,7 +288,7 @@
         <p class="text-xl mt-6">
             Ecommerce is definitely an industry worth investing in. And though I’ve only briefed you on the most
             important steps, you can conclude that it is not hard to get started therein, especially if you have expert
-            support. ScienceSoft offers consulting and development services for entrepreneurs planning to benefit from
+            support. TeamPRO offers consulting and development services for entrepreneurs planning to benefit from
             an online business presence – contact our team for details and guidance.
         </p>
     </div>
@@ -303,7 +303,7 @@
             <div class="w-6/12">
                 <div class="ml-20 mb-6 mt-6">
                     <strong class="text-2xl">
-                        Ecommerce Development Services by ScienceSoft
+                        Ecommerce Development Services by TeamPRO
                     </strong>
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 

@@ -16,7 +16,7 @@
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
     <div class=" mt-8 text-xl lg:text-2xl">
-        <p class="">As online presence is a must for modern businesses, ScienceSoft develops <a href="#"
+        <p class="">As online presence is a must for modern businesses, TeamPRO develops <a href="#"
                                                                                                 class="underline hover:text-blue-700">ecommerce
             portals</a> to help
             sellers establish and nurture long-term and productive relationship with customers. Let’s take a tour across
@@ -40,7 +40,7 @@
 
     <div class=" mt-8 text-xl lg:text-2xl">
         <p class="">Backed up with solid experience in <a href="#" class="underline hover:text-blue-700">B2B ecommerce
-            development, </a> ScienceSoft has come to a winning
+            development, </a> TeamPRO has come to a winning
             strategy - you sell to businesses, but we target at people standing behind. At our work, we rely on great
             functionality and intuitive design to ensure a smooth customer journey through an ecommerce portal. Using a
             B2B demo format, we show how we realize these key features and share our vision of a customer-oriented

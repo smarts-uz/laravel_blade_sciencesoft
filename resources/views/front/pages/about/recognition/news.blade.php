@@ -27,8 +27,8 @@
                 <div class="flex flex-col max-w-sm mb-6 duration-300 rounded-lg p-3 hover:shadow-2xl">
                     <img src="https://www.scnsoft.com/news/ibmthink2020.jpg" class="w-96 h-52 mb-6" alt="" srcset="">
                     <h3 class="font-bold">
-                        {{ _trans('ScienceSoft Is in Two 2020 Lists of Top Companies by SoftwareWorld') }}</h3>
-                    <p>{{ _trans(" featured ScienceSoft in Top 30+ World’s Web Design &amp; Development and U.S. Based
+                        {{ _trans('TeamPRO Is in Two 2020 Lists of Top Companies by SoftwareWorld') }}</h3>
+                    <p>{{ _trans(" featured TeamPRO in Top 30+ World’s Web Design &amp; Development and U.S. Based
                     Mobile App Development Companies.") }}
                     </p>
                     <a href="#" class="text-blue-700 hover:text-red-700">{{ _trans('Click here') }}</a>
@@ -37,8 +37,8 @@
                     <img src="https://www.scnsoft.com/news/servicenow-certified-reseller-status-for-us-sales-1.png"
                         class="w-96 h-52 mb-6" alt="" srcset="">
                     <h3 class="font-bold">
-                        {{ _trans('ScienceSoft Is in Two 2020 Lists of Top Companies by SoftwareWorld') }}</h3>
-                    <p>{{ _trans("SoftwareWorld featured ScienceSoft in Top 30+ World’s Web Design &amp; Development and U.S. Based
+                        {{ _trans('TeamPRO Is in Two 2020 Lists of Top Companies by SoftwareWorld') }}</h3>
+                    <p>{{ _trans("SoftwareWorld featured TeamPRO in Top 30+ World’s Web Design &amp; Development and U.S. Based
                     Mobile App Development Companies.") }}
                     </p>
                     <a href="#" class="text-blue-700 hover:text-red-700">{{ _trans('Click here') }}</a>
@@ -46,8 +46,8 @@
                 <div class="flex flex-col max-w-sm mb-6 duration-300 rounded-lg p-3 hover:shadow-2xl">
                     <img src="https://www.scnsoft.com/news/ibm_beacon_awards.jpg" class="w-96 h-52 mb-6" alt="" srcset="">
                     <h3 class="font-bold">
-                        {{ _trans('ScienceSoft Is in Two 2020 Lists of Top Companies by SoftwareWorld') }}</h3>
-                    <p>{{ _trans("SoftwareWorld featured ScienceSoft in Top 30+ World’s Web Design &amp; Development and U.S. Based
+                        {{ _trans('TeamPRO Is in Two 2020 Lists of Top Companies by SoftwareWorld') }}</h3>
+                    <p>{{ _trans("SoftwareWorld featured TeamPRO in Top 30+ World’s Web Design &amp; Development and U.S. Based
                     Mobile App Development Companies.") }}
                     </p>
                     <a href="#" class="text-blue-700 hover:text-red-700">{{ _trans('Click here') }}</a>

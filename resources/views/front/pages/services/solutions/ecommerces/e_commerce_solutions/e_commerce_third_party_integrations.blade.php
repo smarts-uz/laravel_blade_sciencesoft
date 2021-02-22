@@ -21,7 +21,7 @@
              alt="">
     </div>
     <h5 class="text-center text-blue-600 text-xl font-bold">Tanya Yablonskaya</h5>
-    <p class="text-lg text-gray-800 mt-1 text-center">Ecommerce Industry Analyst, ScienceSoft</p>
+    <p class="text-lg text-gray-800 mt-1 text-center">Ecommerce Industry Analyst, TeamPRO</p>
     <hr class="mt-7">
     <div class="md:flex  justify-end ">
         <div>
@@ -57,7 +57,7 @@
     </div>
 
     <div class=" mt-8 text-xl lg:text-2xl">
-        <p class="">At ScienceSoft, we have experience of integrating online and offline sales channels (check <a
+        <p class="">At TeamPRO, we have experience of integrating online and offline sales channels (check <a
                 href="#" class="underline hover:text-blue-700">this
             project </a> as an example), so we see direct business benefits of integration. Surely, the initiative
             requires
@@ -107,7 +107,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                Task ScienceSoft to create seamless customer experience across sales channels and automate your business
+                Task TeamPRO to create seamless customer experience across sales channels and automate your business
                 processes.
             </p>
         </div>
@@ -147,7 +147,7 @@
     <div class=" mt-8 text-xl lg:text-2xl">
         <p class="">Running several isolated systems, your retail business risks to suffer from tons of manual work and
             frequent data inconsistencies. You need an elaborate plan on how to map data flows and connect the systems
-            effectively. ScienceSoft will be happy to bring our extensive integration expertise together and help
+            effectively. TeamPRO will be happy to bring our extensive integration expertise together and help
             transform your independent systems into a coherent whole. <a href="#" class="underline hover:text-blue-700">Contact
                 our team</a> for a targeted dialogue.
 
@@ -163,7 +163,7 @@
         </div>
         <div class="mt-6 md:w-6/12 ml-3">
             <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-2xl ">
-                Ecommerce Development Services by ScienceSoft
+                Ecommerce Development Services by TeamPRO
             </a>
             <p class="text-lg text-gray-600 mt-6 md:text-xl">
                 Are you planning to expand your business online? We will translate your ideas into intelligent and

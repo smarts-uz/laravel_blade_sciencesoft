@@ -11,7 +11,7 @@
             {{ _trans("IT Infrastructure Services – Consulting, Implementation, Management – to Increase Your Business
             Sustainability")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-sciencesoft.svg">
+            <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-teampro.svg">
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
                     {{ _trans("Within")  }} <strong>{{ _trans("IT outsourcing")  }}</strong>, {{ _trans("a vendor takes responsibility for 30-100% of your IT
@@ -19,7 +19,7 @@
                     services.")  }}
                 </p>
                 <p class="text-lg font-normal py-6">
-                    {{ _trans("Having a 31-year background in IT, ScienceSoft provides customizable IT outsourcing services to
+                    {{ _trans("Having a 31-year background in IT, TeamPRO provides customizable IT outsourcing services to
                     reinforce your business with cost-effective")  }} <strong>{{ _trans("IT operations and fast software
                     development.")  }}</strong>
                 </p>
@@ -33,7 +33,7 @@
                         src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
                 </div>
                 <div class=" flex flex-col w-3/5">
-                    <h1 class="text-2xl md:text-3xl font-bold">{{ _trans("Nikolay Kurayev, CEO at ScienceSoft")  }} </h1>
+                    <h1 class="text-2xl md:text-3xl font-bold">{{ _trans("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <div class="text-xl">
                         <p class="my-10">
@@ -44,8 +44,8 @@
                         <p>
                             {{ _trans("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                             applying deep tech expertise with the focus on cost-effectiveness and unlocking new
-                            revenue streams. And this is exactly what ScienceSoft does. By doing the right IT and
-                            doing IT right, ScienceSoft helps companies make their IT a business growth enabler.")  }}
+                            revenue streams. And this is exactly what TeamPRO does. By doing the right IT and
+                            doing IT right, TeamPRO helps companies make their IT a business growth enabler.")  }}
                         </p>
                     </div>
                 </div>
@@ -120,11 +120,11 @@
         <div class="text-lg md:text-2xl leading-relaxed">
 
             <p>
-                {{ _trans("We have been working with ScienceSoft for five years so far. The team successfully performed the
+                {{ _trans("We have been working with TeamPRO for five years so far. The team successfully performed the
                     migration project in order to improve our processes.")  }} <…> {{ _trans("We have experienced great cooperation from
                     management, quick understanding of requirements, deep technical skills from assigned resources,
                     and company’s commitment to time, price, and quality. We would be pleased to recommend
-                    ScienceSoft to anyone looking for outsourcing or extension of their own team!")  }}
+                    TeamPRO to anyone looking for outsourcing or extension of their own team!")  }}
             </p>
             <div class="flex justify-end">
                 <em>
@@ -338,7 +338,7 @@
         </p>
         <p class="text-xl">
             {{ _trans("With timely transformations, the same IT landscape can become a source of sustainable business growth –
-            and that’s what ScienceSoft helps achieve within the IT outsourcing services. Here’re some results on
+            and that’s what TeamPRO helps achieve within the IT outsourcing services. Here’re some results on
             both business and IT levels that you can expect.")  }}
         </p>
 

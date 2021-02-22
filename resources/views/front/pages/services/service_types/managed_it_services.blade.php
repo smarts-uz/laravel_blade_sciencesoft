@@ -11,7 +11,7 @@
 <div class="text-2xl md:text-4xl font-bold">
     {{ _trans("Managed IT Services for Stable and Reliably Evolving IT Environment")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-    <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-sciencesoft.svg">
+    <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-teampro.svg">
     <div>
         <p class="font-normal text-lg leading-loose mt-10">
             {{ _trans("Managed IT services are aimed at handing over your IT operations to a third-party IT services provider,
@@ -20,7 +20,7 @@
         </p>
 
         <p class="text-lg font-normal py-6">
-            <strong>{{ _trans("Managed IT services by ScienceSoft backed with 12 years of experience in ITSM span the all-round
+            <strong>{{ _trans("Managed IT services by TeamPRO backed with 12 years of experience in ITSM span the all-round
             support
             for cloud, on-premises and hybrid infrastructures")  }}</strong> {{ _trans("and include consulting and migration
             services for
@@ -79,12 +79,12 @@
 </div>
 <div class="w-full flex items-center justify-center">
     <img
-        src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-support/it-infrastructure-components-sciencesoft.svg">
+        src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-support/it-infrastructure-components-teampro.svg">
 
 </div>
 
 <div class="text-2xl md:text-3xl font-bold mt-5">
-    {{ _trans("Deliverables of ScienceSoft’s Managed IT Services")  }}
+    {{ _trans("Deliverables of TeamPRO’s Managed IT Services")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
@@ -191,7 +191,7 @@
 </div>
 
 <div class="text-2xl md:text-4xl font-bold my-10">
-    {{ _trans("Why Choose ScienceSoft")  }}
+    {{ _trans("Why Choose TeamPRO")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <ul class="font-normal list-outside list-disc bg-rose-200 text-lg leading-relaxed m-4">
 
@@ -323,7 +323,7 @@
             <h1 class="text-xl md:text-2xl font-bold">{{ _trans("How do I know if my IT infrastructure costs may be reduced?")  }}
             </h1>
             <p class=" text-lg md:text-xl ">
-                {{ _trans("ScienceSoft adheres to strict security policies and applies in-house security management systems
+                {{ _trans("TeamPRO adheres to strict security policies and applies in-house security management systems
                 ensuring 24/7 security monitoring to prevent unsolicited access and ransomware threats to sensitive
                 data.")  }}
             </p>
@@ -359,7 +359,7 @@
             </h1>
             <p class=" text-lg md:text-xl ">
                 {{ _trans("We analyze the current state of your IT infrastructure to see the potential for its improvement and
-                compare the TCO of your IT infrastructure managed in-house vs. by ScienceSoft.")  }}
+                compare the TCO of your IT infrastructure managed in-house vs. by TeamPRO.")  }}
             </p>
 
         </div>
@@ -557,7 +557,7 @@
             <p class='text-2xl font-bold'>{{ _trans("Start Improving Your IT Infrastructure NOW!")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </h1>
-        <p class='text-gray-600 text-xl'> {{ _trans("ScienceSoft’s professionals will keep your IT infrastructure reliable and
+        <p class='text-gray-600 text-xl'> {{ _trans("TeamPRO’s professionals will keep your IT infrastructure reliable and
         highly efficient 24/7 to let you focus on the strategic decisions only.")  }} </p>
     </div>
     <div class='w-2/5 m-0 flex justify-center items-center'>

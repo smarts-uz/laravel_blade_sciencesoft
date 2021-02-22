@@ -17,7 +17,7 @@
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3 md:px-16 text-center">An <a href="#"
                                                              class="border-b border-indigo-900 hover:text-blue-600">
-        ecommerce consultancy</a> since 2003, ScienceSoft drives digital commerce success of B2C and B2B retailers.
+        ecommerce consultancy</a> since 2003, TeamPRO drives digital commerce success of B2C and B2B retailers.
     </p>
     <div class="w-full bg-blue-400 h-0.5"></div>
 
@@ -370,7 +370,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                ScienceSoft’s ecommerce team will offer an optimal multistore architecture and implement your ecommerce
+                TeamPRO’s ecommerce team will offer an optimal multistore architecture and implement your ecommerce
                 presence end-to-end.
             </p>
         </div>
@@ -904,7 +904,7 @@
     </h1>
     <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl mb-6">
-        Since 2003, ScienceSoft’s ecommerce team delivers professional consulting and development services for varied
+        Since 2003, TeamPRO’s ecommerce team delivers professional consulting and development services for varied
         e-retailers’ demands.
     </p>
 
@@ -1014,15 +1014,15 @@
     <div class="md:flex md:w-11/12 mt-20 md:ml-auto shadow-2xl">
 
         <img width="100" height="100" class="lg:-ml-12 m-auto md:-ml-6"
-             src="https://www.scnsoft.com/sciencesoft-logos/sciencesoft-logo-short.svg" alt="">
+             src="https://www.scnsoft.com/teampro-logos/teampro-logo-short.svg" alt="">
 
         <div class="md:w-11/12 text-center md:text-left p-2">
             <h1 class="text-2xl  md:ml-6 font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-                ABOUT SCIENCESOFT
+                ABOUT TEAMPRO
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                Founded in 1989, ScienceSoft is a reputed IT consultancy and software development company. Competent
+                Founded in 1989, TeamPRO is a reputed IT consultancy and software development company. Competent
                 ecommerce service providers, we advise on the multistore setup if your business targets multiple
                 geographies or manages multiple brands.
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Engage our ecommerce team </a>

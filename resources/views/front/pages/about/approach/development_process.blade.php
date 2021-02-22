@@ -14,12 +14,12 @@
 
             <!-- Servise -- develompent -- SubTitle -->
             <p class="lg:text-5xl text-3xl  font-bold">
-                {{ _trans('Overview of Software Development Process at ScienceSoft') }}
+                {{ _trans('Overview of Software Development Process at TeamPRO') }}
             </p>
             <!-- Servise -- develompent -- SubTitles LINE -->
             <div class="h-0.5 w-10 mb-5 pl-4 mx-3 bg-yellow-500 my-3"></div>
             <p class="mb-5  text-xl text-gray-600 font-normal">
-                {{ _trans("At ScienceSoft, we tailor the software development
+                {{ _trans("At TeamPRO, we tailor the software development
     process to your specific business needs to deliver high-quality software on time and within budget.") }}
             </p>
             <h1 class="uppercase lg:text-5xl  font-bold mt-10 text-3xl">
@@ -77,7 +77,7 @@
                     <hr class="w-12 border-b-2 border-yellow-600 m-4" /><br>
                     <p class=" text-base sm:text-lg text-sm">{{ _trans('With an established') }} <a href="#"
                             class="underline hover:text-blue-800 ">{{ _trans('DevOps') }} </a>
-                        {{ _trans("culture at ScienceSoft, we streamline
+                        {{ _trans("culture at TeamPRO, we streamline
             software delivery and improve its quality with the following DevOps best practices:") }}
                     </p>
                     <br>
@@ -168,7 +168,7 @@
 
             <div class="mt-10">
                 <p class="lg:text-4xl text-3xl  font-bold">
-                    {{ _trans('HIGHLIGHTS OF SOFTWARE DEVELOPMENT WITH SCIENCESOFT') }}
+                    {{ _trans('HIGHLIGHTS OF SOFTWARE DEVELOPMENT WITH TEAMPRO') }}
                 </p>
                 <!-- Servise -- develompent -- SubTitles LINE -->
                 <div class="h-0.5 w-10 mb-5 pl-4 mx-3 bg-yellow-500 my-3"></div>

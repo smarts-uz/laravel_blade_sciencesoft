@@ -49,7 +49,7 @@
             <div class="w-full mb-16">
                 <div class="p-4 border">
                     <h1 class="text-xl md:text-2xl lg:text-3xl text-gray-800 font-bold mb-4">
-                        Make Value-Driven Business Decisions with ScienceSoft
+                        Make Value-Driven Business Decisions with TeamPRO
                     </h1>
                     <hr class="w-12 border-b-2 border-yellow-500 mb-6">
                     <p class="text-lg md:text-xl text-gray-600 mb-6">
@@ -174,7 +174,7 @@
             </div>
             <div class="w-full mb-16">
                 <h1 class="text-gray-800 font-bold text-2xl md:text-3xl lg:text-4xl mb-4">
-                    About ScienceSoft
+                    About TeamPRO
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-500 mb-6">
                 <h1 class="text-4xl font-bold mb-6">Carousel//////</h1>
@@ -224,7 +224,7 @@
                             </h1>
                             <hr class="w-12 border-b-2 border-yellow-500 mb-6">
                             <p class="text-lg md:text-xl text-gray-600">
-                                ScienceSoft’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
+                                TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
                             </p>
                         </div>
                         <p class="md:text-right mt-9">
@@ -243,7 +243,7 @@
                             </h1>
                             <hr class="w-12 border-b-2 border-yellow-500 mb-6">
                             <p class="text-lg md:text-xl text-gray-600">
-                                ScienceSoft’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
+                                TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
                             </p>
                         </div>
                         <p class="md:text-right mt-9">
@@ -262,7 +262,7 @@
                             </h1>
                             <hr class="w-12 border-b-2 border-yellow-500 mb-6">
                             <p class="text-lg md:text-xl text-gray-600">
-                                ScienceSoft’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
+                                TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
                             </p>
                         </div>
                         <p class="md:text-right mt-9">
@@ -281,7 +281,7 @@
                             </h1>
                             <hr class="w-12 border-b-2 border-yellow-500 mb-6">
                             <p class="text-lg md:text-xl text-gray-600">
-                                ScienceSoft’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
+                                TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code to Magento 2 and merged them into a single multistore.
                             </p>
                         </div>
                         <p class="md:text-right mt-9">

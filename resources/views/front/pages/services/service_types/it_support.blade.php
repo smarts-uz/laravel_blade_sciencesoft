@@ -12,11 +12,11 @@
             {{ _trans("IT Infrastructure Services – Consulting, Implementation, Management – to Increase Your Business
              Sustainability")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            <img src="https://www.scnsoft.com/it-outsourcing-services/it-support-2-sciencesoft.svg">
+            <img src="https://www.scnsoft.com/it-outsourcing-services/it-support-2-teampro.svg">
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
                     {{ _trans("IT support comprises procedures intended to maintain failsafe IT workflows and reduce IT costs.
-                     ScienceSoft’s IT support services are backed with 13 years of experience in help desk and
+                     TeamPRO’s IT support services are backed with 13 years of experience in help desk and
                      application support and include IT help desk, Network Operations Center (NOC) and software
                      support to guarantee superior user experience and on-the-go improvement of your IT processes.")  }}
                 </p>
@@ -143,7 +143,7 @@
         </div>
 
         <div class="text-2xl md:text-3xl font-bold mt-10">
-            {{ _trans("Why Choose ScienceSoft")  }}
+            {{ _trans("Why Choose TeamPRO")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -202,7 +202,7 @@
         </div>
 
         <div class="text-2xl md:text-3xl font-bold uppercase">
-            {{ _trans("Competitive Traits of ScienceSoft’s IT Support Services")  }}
+            {{ _trans("Competitive Traits of TeamPRO’s IT Support Services")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -363,7 +363,7 @@
         </div>
 
         <div class="text-2xl md:text-3xl font-bold my-10">
-            {{ _trans("Why ScienceSoft’s IT Support Matters")  }}
+            {{ _trans("Why TeamPRO’s IT Support Matters")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -428,7 +428,7 @@
                     <p class='text-2xl font-bold'>{{ _trans("Get Your Stable and Efficient IT with Least Effort!")  }} </p>
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
-                <p class='text-gray-600 text-xl'>{{ _trans("ScienceSoft professionals will conduct close monitoring of your IT
+                <p class='text-gray-600 text-xl'>{{ _trans("TeamPRO professionals will conduct close monitoring of your IT
                 infrastructure or its components and set up efficient IT support workflows.")  }} </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>

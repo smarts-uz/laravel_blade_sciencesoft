@@ -21,7 +21,7 @@
                 secure, and user-friendly.") }}
                 <strong>{{ _trans("A software testing company with 31 years of
                 experience") }}</strong>,
-                {{ _trans("ScienceSoft is ready
+                {{ _trans("TeamPRO is ready
                 to take up a testing project of any scale and complexity, introduce an efficient quality
                 assurance
                 process, and enhance your software quality management strategy.") }}
@@ -246,7 +246,7 @@
                 <div class=" my-5">
                     <h1 class="text-2xl font-bold">{{ _trans('Take the First Step to Test Process Improvement') }}</h1>
                     <hr class="border-t-2 w-12 border-yellow-600 my-2">
-                    <p>ScienceSoft’s QA team will help you stay ahead of the competition with quality software released on
+                    <p>TeamPRO’s QA team will help you stay ahead of the competition with quality software released on
                         time.</p>
                 </div>
                 <a class="px-10 py-3 bg-blue-500 text-white font-bold rounded" href="#">Start Testing Now</a>
@@ -260,7 +260,7 @@
 
                 <p>
 
-                    {{ _trans("We started working with ScienceSoft in early 2011 testing our core application called
+                    {{ _trans("We started working with TeamPRO in early 2011 testing our core application called
                     Careware.
                     The application is quite complex and has many ERP and mobile elements in it.") }}
                 </p>
@@ -289,7 +289,7 @@
 
             </div>
             <div class="text-2xl md:text-3xl font-bold mt-10">
-                {{ _trans('Why testing with sciencesoft is a success') }}
+                {{ _trans('Why testing with TeamPRO is a success') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
 
@@ -339,7 +339,7 @@
                     <h1 class="text-2xl font-bold">
                         {{ _trans('Enjoy Quality at Speed While We Handle Software Testing') }}</h1>
                     <hr class="border-t-2 w-12 border-yellow-600 my-2">
-                    <p>ScienceSoft’s QA team will help you jump-start your releases and minimize the number of defects in
+                    <p>TeamPRO’s QA team will help you jump-start your releases and minimize the number of defects in
                         production.</p>
                 </div>
                 <a class="px-10 py-3 bg-blue-500 text-white font-bold rounded" href="#">Start Testing</a>

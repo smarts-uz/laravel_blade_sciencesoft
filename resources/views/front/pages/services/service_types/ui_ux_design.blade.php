@@ -14,7 +14,7 @@
         <hr class="w-12 mt-5 text-yellow-400 h-4" />
         <img src="https://www.scnsoft.com/application-development/web-design/cover-pic---web-design-(3).png" />
         <p class="my-5 text-lg">
-            {{ _trans("Founded in 1989, ScienceSoft is a provider of IT consulting and
+            {{ _trans("Founded in 1989, TeamPRO is a provider of IT consulting and
             software development services. Having started as a small AI product
             company, we switched to IT services in 2002 and ever since we have
             helped non-IT organizations and software product companies improve
@@ -53,7 +53,7 @@
         <div class="w-full lg:px-4 lg:flex lg:flex-row lg:justify-around flex md:items-start justify-center flex-col">
             <div class="lg:w-full w-full mb-8">
                 <h1 class="uppercase lg:text-3xl font-bold mt-10 text-2xl">
-                    {{ _trans('WHY SCIENCESOFT') }}
+                    {{ _trans('WHY TEAMPRO') }}
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-600" />
                 <br />
@@ -99,7 +99,7 @@
             </div>
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">
-            {{ _trans('PERKS OF WEB DESIGN WITH SCIENCESOFT') }}
+            {{ _trans('PERKS OF WEB DESIGN WITH TEAMPRO') }}
         </h1>
         <div
             class="w-full hover:shadow-2xl lg:px-4 lg:flex lg:flex-row lg:justify-around flex md:items-start justify-center flex-col border-solid border-gray-200 border-2 my-7">
@@ -179,7 +179,7 @@
                 <hr class="w-12 border-b-2 border-yellow-600 m-4" />
                 <br />
                 <p class="px-4 text-base sm:text-lg text-sm">
-                    {{ _trans("ScienceSoft’s web design services resulted in a 6x increase in
+                    {{ _trans("TeamPRO’s web design services resulted in a 6x increase in
               conversions of a US telecom company’s website.") }}
                 </p>
             </div>

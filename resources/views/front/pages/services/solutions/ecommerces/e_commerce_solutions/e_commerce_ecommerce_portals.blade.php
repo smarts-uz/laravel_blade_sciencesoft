@@ -16,7 +16,7 @@
 
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3 md:px-16 text-center">
-        ScienceSoft is a trusted consulting and implementation partner to businesses starting online sales. In <a
+        TeamPRO is a trusted consulting and implementation partner to businesses starting online sales. In <a
             href="#" class="border-b border-indigo-900 hover:text-blue-600">
         portal development</a> we advocate savvy use of technologies to disrupt the way ecommerce business is done.
     </p>
@@ -409,7 +409,7 @@
                         <p>No missed orders and payments.</p>
                     </div>
                 </div>
-                <h1 class="text-lg mb-4 text-gray-800 font-semibold mt-4">ScienceSoft's expertise:</h1>
+                <h1 class="text-lg mb-4 text-gray-800 font-semibold mt-4">TeamPRO's expertise:</h1>
                 <p class="text-gray-600 mb-4">
                     <a href="#" class="border-b border-indigo-900 hover:text-blue-600"> Microsoft Dynamics 365</a>
                     SAP, Acumatica
@@ -455,7 +455,7 @@
                         <p>Self-management of product catalogs by suppliers.</p>
                     </div>
                 </div>
-                <h1 class="text-lg mb-4 text-gray-800 font-semibold mt-4">ScienceSoft's expertise:</h1>
+                <h1 class="text-lg mb-4 text-gray-800 font-semibold mt-4">TeamPRO's expertise:</h1>
                 <p class="text-gray-600 mb-4">
                     Akeneo,
                     <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Pimcore</a>
@@ -496,7 +496,7 @@
                         <p>AI-powered insights into customer data and informed CX decisions.</p>
                     </div>
                 </div>
-                <h1 class="text-lg mb-4 text-gray-800 font-semibold mt-4">ScienceSoft's expertise:</h1>
+                <h1 class="text-lg mb-4 text-gray-800 font-semibold mt-4">TeamPRO's expertise:</h1>
                 <p class="text-gray-600 mb-4">
                     <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Salesforce,</a>
                     <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Microsoft Dynamics CRM,</a>
@@ -929,11 +929,11 @@
     </p>
 
     <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-        LAUNCH YOUR ECOMMERCE PORTAL WITH SCIENCESOFT
+        LAUNCH YOUR ECOMMERCE PORTAL WITH TEAMPRO
     </h1>
     <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
     <p class="text-lg text-gray-600 my-6 md:text-xl mb-4 lg:text-2xl">
-        As for now, 250+ companies globally have tapped into ScienceSoft’s expertise to launch a digital presence. We
+        As for now, 250+ companies globally have tapped into TeamPRO’s expertise to launch a digital presence. We
         offer a full-fledged consulting and development partnership.
     </p>
 
@@ -1011,7 +1011,7 @@
     <div class="p-6 mt-6 shadow-xl lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-                Have Your Ecommerce Portal Designed by ScienceSoft
+                Have Your Ecommerce Portal Designed by TeamPRO
             </h1>
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
@@ -1023,7 +1023,7 @@
         <div class="lg:w-2/6 m-auto">
             <a href="#">
                 <div class="bg-blue-700 text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                    HIRE SCIENCESOFT
+                    HIRE TEAMPRO
                 </div>
             </a>
 
@@ -1033,15 +1033,15 @@
     <div class="md:flex md:w-11/12 mt-20 md:ml-auto shadow-2xl">
 
         <img width="100" height="100" class="lg:-ml-12 m-auto md:-ml-6"
-             src="https://www.scnsoft.com/sciencesoft-logos/sciencesoft-logo-short.svg" alt="">
+             src="https://www.scnsoft.com/teampro-logos/teampro-logo-short.svg" alt="">
 
         <div class="md:w-11/12 text-center md:text-left p-2">
             <h1 class="text-2xl  md:ml-6 font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-                ABOUT SCIENCESOFT
+                ABOUT TEAMPRO
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                ScienceSoft is an IT consulting and software development company with a history dating back to 1989 and
+                TeamPRO is an IT consulting and software development company with a history dating back to 1989 and
                 a global presence encompassing delivery centers in the US, UAE, and Europe.
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Web portal development </a>
                 is our strategic business direction, and we consistently grow our expertise and knowledge to bring true

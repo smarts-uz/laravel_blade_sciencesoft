@@ -9,7 +9,7 @@
 
     <div class="my-10">
         <h1 class="text-5xl font-semibold pb-10">
-            {{ _trans('ScienceSoft Policy on Sustainability and Corporate Responsibility') }}</h1>
+            {{ _trans('TeamPRO Policy on Sustainability and Corporate Responsibility') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <img src="https://www.scnsoft.com/cover-pictures/sustainability-policy.svg" alt="">
         <p class="py-5 text-lg text-gray-500">

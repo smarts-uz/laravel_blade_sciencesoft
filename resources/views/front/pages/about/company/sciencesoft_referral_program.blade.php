@@ -10,7 +10,7 @@
         <h1 class="text-5xl font-semibold pb-5 text-gray-800">
             {{ _trans('Referral Program for IT Consulting and Software Development Services') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-        <img src="https://www.scnsoft.com/cover-pictures/become-sciencesoft-s-partner.svg" alt="">
+        <img src="https://www.scnsoft.com/cover-pictures/become-teampro-s-partner.svg" alt="">
         <p class="py-5 text-lg text-gray-500">{{ _trans('If you are a') }} <strong>
                 {{ _trans('trusted consultancy') }} </strong>, {{ _trans(' an') }} <strong></strong>
             {{ _trans('individual consultant') }}</strong> {{ _trans('or a') }} <strong>
@@ -22,7 +22,7 @@
             {{ _trans('you can help us hunt for new IT consulting and custom software development opportunities. All you need is to provide us with relevant leads, and we’ll reward your efforts according to our Referral Program.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">
-            {{ _trans('Join ScienceSoft Referral Program for IT consulting and software development services and get rewarded for the leads you bring us. We are open to expanding our business network and obtaining new IT consulting and software development challenges.') }}
+            {{ _trans('Join TeamPRO Referral Program for IT consulting and software development services and get rewarded for the leads you bring us. We are open to expanding our business network and obtaining new IT consulting and software development challenges.') }}
         </p>
         <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ _trans('COOPERATION PROCEDURE') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 my-4">
@@ -49,7 +49,7 @@
                     class="underline hover:text-blue-600" href="#">{{ _trans('retail') }}</a> ,<a
                     class="hover:text-blue-600 underline" href="#">{{ _trans('manufacturing') }}</a> , <a
                     class="underline hover:text-blue-600" href="">{{ _trans('telecom') }}</a>
-                {{ _trans('in the US and Europe, which resulted in new beneficial long-term business relationships for our partners and us. At ScienceSoft, we believe that doing business with partners is an effective way to reach out to the customers, meet their expectations and win their trust.') }}
+                {{ _trans('in the US and Europe, which resulted in new beneficial long-term business relationships for our partners and us. At TeamPRO, we believe that doing business with partners is an effective way to reach out to the customers, meet their expectations and win their trust.') }}
             </p>
             <p class="py-5 text-lg text-gray-500 mb-5">
                 {{ _trans('Please feel free to send your questions to us and set up a free consultation with our representative.') }}

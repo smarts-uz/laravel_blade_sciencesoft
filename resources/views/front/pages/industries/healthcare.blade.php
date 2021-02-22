@@ -17,7 +17,7 @@
           {{ _trans("Healthcare IT consulting services help healthcare organizations overcome limited or low-level healthcare IT expertise and support the effective implementation of digital healthcare initiatives.")  }}
         </p>
         <p class="my-5 text-lg">
-          {{ _trans("ScienceSoft provides hospitals, clinics, practices, assisted living facilities, labs, and other healthcare organizations with healthcare IT consulting services to help them adopt complex digital initiatives, provide digital patient care, optimize internal processes, improve the IT infrastructure, and more.")  }}
+          {{ _trans("TeamPRO provides hospitals, clinics, practices, assisted living facilities, labs, and other healthcare organizations with healthcare IT consulting services to help them adopt complex digital initiatives, provide digital patient care, optimize internal processes, improve the IT infrastructure, and more.")  }}
         </p>
 
       <div class="rounded-sm border-2 border-white shadow-2xl transition-shadow w-full mr-20 p-8">
@@ -26,7 +26,7 @@
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
           <div class=" flex flex-wrap">
           <p class="text-gray-500 text-xl w-full lg:w-4/5">
-            {{ _trans("ScienceSoft’s healthcare IT consultants help choose and adopt fitting healthcare solutions and ensure your IT landscape works effectively to support clinical processes and drive new digital healthcare initiatives.")  }}
+            {{ _trans("TeamPRO’s healthcare IT consultants help choose and adopt fitting healthcare solutions and ensure your IT landscape works effectively to support clinical processes and drive new digital healthcare initiatives.")  }}
           </p>
           <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center">{{ _trans("request a consultation")  }}</div>
         </div>
@@ -35,7 +35,7 @@
 
   <div class="pt-12">
     <h1 class="uppercase font-bold mt-10 text-2xl">
-      {{ _trans("WHY SCIENCESOFT?")  }}
+      {{ _trans("WHY TEAMPRO?")  }}
     </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
@@ -78,7 +78,7 @@
               </div>
 
               <h1 class="uppercase font-bold mt-10 text-2xl">
-                {{ _trans("HIGHLIGHTS OF HEALTHCARE IT CONSULTING SERVICES BY SCIENCESOFT")  }}
+                {{ _trans("HIGHLIGHTS OF HEALTHCARE IT CONSULTING SERVICES BY TEAMPRO")  }}
               </h1>
               <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
               <div class="flex justify-center flex-wrap">
@@ -93,7 +93,7 @@
                     <h1 class="text-2xl md:text-3xl font-semibold">{{ _trans("Deep healthcare industry knowledge")  }}</h1>
 
                     <p class="mt-4 text-gray-500 text-lg md:text-xl">
-                      {{ _trans("ScienceSoft’s healthcare IT team consists of highly qualified professionals with experience in the healthcare field and related domains, such as pharmaceutical, biotech, health insurance, and medical device industry.")  }}
+                      {{ _trans("TeamPRO’s healthcare IT team consists of highly qualified professionals with experience in the healthcare field and related domains, such as pharmaceutical, biotech, health insurance, and medical device industry.")  }}
                     </p>
                   </div>
                 </div>
@@ -108,7 +108,7 @@
                     <h1 class="text-2xl md:text-3xl font-semibold">{{ _trans("Consulting and practical assistance")  }}</h1>
 
                     <p class="mt-4 text-gray-500 text-lg md:text-xl">
-                      {{ _trans("ScienceSoft combines IT consulting with end-to-end IT services for the healthcare industry: business analysis, software implementation, continuous support, managed services.")  }}
+                      {{ _trans("TeamPRO combines IT consulting with end-to-end IT services for the healthcare industry: business analysis, software implementation, continuous support, managed services.")  }}
                     </p>
                   </div>
                 </div>
@@ -124,7 +124,7 @@
   <h1 class="uppercase font-bold mt-10 text-2xl">
     {{ _trans("HEALTHCARE IT CONSULTING SERVICES WE OFFER")  }}
   </h1>
-  
+
 
 
 

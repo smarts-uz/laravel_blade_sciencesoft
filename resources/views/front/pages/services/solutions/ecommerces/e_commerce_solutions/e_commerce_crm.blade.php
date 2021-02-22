@@ -20,7 +20,7 @@
     </div>
     <div class="text-center mb-6">
         <a href="#" class="text-lg text-blue-700 font-medium">Oleg Khmelkov</a>
-        <p class="text-gray-500">Head of Microsoft Dynamics 365 Department, ScienceSoft</p>
+        <p class="text-gray-500">Head of Microsoft Dynamics 365 Department, TeamPRO</p>
     </div>
     <hr>
 
@@ -39,7 +39,7 @@
         <span class="font-bold text-current">Editor’s note: </span>In the article, Oleg dives into what makes ecommerce
         CRM such a powerful solution for your business and shares things you need to consider before its implementation.
         And if you’re looking for the ways to win more customers, increase customer retention, and build brand loyalty,
-        consider ScienceSoft’s <a href="#" class="border-b border-indigo-900 hover:text-blue-700">
+        consider TeamPRO’s <a href="#" class="border-b border-indigo-900 hover:text-blue-700">
         CRM consulting service.</a>
     </p>
     <p class="text-lg text-gray-600 mt-6 md:text-xl">
@@ -54,12 +54,12 @@
         Ecommerce CRM basics and business benefits
     </h1>
     <p class="text-lg text-gray-600 mt-6 md:text-xl">
-        Many ScienceSoft’s customers from the ecommerce industry perceive CRM as catering to the needs of salespeople,
+        Many TeamPRO’s customers from the ecommerce industry perceive CRM as catering to the needs of salespeople,
         thus, not so effective in their domain. The truth is, at its core, ecommerce customer relationship management
         goes deeper into personalized marketing and customer service to bolster the conversion rate of your customer
         journeys. Such personalization may include individual promotions, discounts, priority customer service, just to
         name a few examples. A good example of such personalization making an impact on your customer relationships can
-        be found in a project ScienceSoft did for a
+        be found in a project TeamPRO did for a
         <a href="#" class="border-b border-indigo-900 hover:text-blue-700">group of companies engaged in fashion retail
             and hospitality </a>
         where we implemented Dynamics 365 Marketing to enable the customer to run personalized email campaigns and
@@ -82,7 +82,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                ScienceSoft will help you choose the most feasible CRM option, design its implementation strategy, and
+                TeamPRO will help you choose the most feasible CRM option, design its implementation strategy, and
                 carry out the whole implementation process to help you create more sales opportunities.
             </p>
         </div>
@@ -252,7 +252,7 @@
         </div>
         <div class="mt-6 md:w-6/12 ml-3">
             <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-2xl">
-                CRM Consulting by ScienceSoft
+                CRM Consulting by TeamPRO
             </a>
             <p class="text-lg text-gray-600 mt-6 md:text-xl">
                 Do you want to manage customer relationships more efficiently? Experienced consultants will help you

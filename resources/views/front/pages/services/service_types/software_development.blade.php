@@ -20,11 +20,11 @@
                 <p class='text-5xl font-bold'>{{ _trans('Software Development Services') }}</p>
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
-            <img src="https://www.scnsoft.com/software-development-services/sciencesoft-software-development-services.svg"
+            <img src="https://www.scnsoft.com/software-development-services/teampro-software-development-services.svg"
                 alt="">
             <p class='text-gray-700 text-xl mt-2'><strong>{{ _trans('Invent, build, integrate, scale') }}</strong>
                 {{ _trans('and') }} <strong>{{ _trans('upgrade') }}</strong>
-                {{ _trans('your applications with ScienceSoft! For more than three decades, ScienceSoft has been harnessing digital technologies for the benefit of Fortune 500 businesses, mid and large enterprises, and startups across the variety of industries. Fully in the art and science of software engineering and management, we help you to build high-quality software solutions and products as well as deliver a wide range of related professional services.') }}
+                {{ _trans('your applications with TeamPRO! For more than three decades, TeamPRO has been harnessing digital technologies for the benefit of Fortune 500 businesses, mid and large enterprises, and startups across the variety of industries. Fully in the art and science of software engineering and management, we help you to build high-quality software solutions and products as well as deliver a wide range of related professional services.') }}
             </p>
             <h1 class='text-gray-900 mt-6'>
                 <p class='text-3xl font-bold'>{{ _trans('WHAT SERVICE ARE YOU LOOKING FOR?') }}</p>
@@ -159,7 +159,7 @@
                 </li>
             </ul>
             <h1 class='text-gray-900 mt-6'>
-                <p class='text-3xl font-bold'>{{ _trans('WHY SCIENCESOFT?') }}</p>
+                <p class='text-3xl font-bold'>{{ _trans('WHY TEAMPRO?') }}</p>
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
             <div class="container">
@@ -1329,7 +1329,7 @@
                         </h1>
                         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                         <p class=" text-gray-500 text-sm mb-6 md:text-xl">
-                            {{ _trans('Migration to a new analytical system that ScienceSoft implemented helped one of the top market research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and Apache Spark frameworks. The new system was 100 times faster compared to the old one and could process 1,000 different data formats.') }}
+                            {{ _trans('Migration to a new analytical system that TeamPRO implemented helped one of the top market research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and Apache Spark frameworks. The new system was 100 times faster compared to the old one and could process 1,000 different data formats.') }}
                         </p>
                         <a href="#"
                             class='absolute bottom-3 right-2 text-xl text-blue-500 hover:text-blue-800'>{{ _trans('Learn More') }}
