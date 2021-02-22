@@ -16,7 +16,7 @@
             <div
               class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
-              Разработка ботов для телеграма в Ташкенте
+            Разработка приложений на андроид и ios
             </div>
             <div class="lg:px-20">
               <a
