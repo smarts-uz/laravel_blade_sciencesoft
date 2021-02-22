@@ -249,6 +249,133 @@
 </div>
 
 
+ <h1 class="uppercase font-bold mt-10 text-3xl">HOW WE TEST YOUR ECOMMERCE SOLUTION</h1>
+    <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+
+
+<div class="">
+    <div class="lg:flex flex-row items-center my-12 group">
+        <div class="p-2 border-2 w-12 text-center group-hover:border-blue-400 duration-300">
+            1
+        </div>
+        <div class="lg:mx-6 ">
+            <h1 class="font-bold text-xl">Analyzing your ecommerce project’s requirements</h1>
+            <p class="text-xl">
+                We study project requirements and help you improve them, if needed (e.g., they may be incomplete).
+            </p>
+        </div>
+    </div>
+
+
+    <div class="lg:flex flex-row items-center my-12 group">
+        <div class="p-2 border-2 w-12 text-center group-hover:border-blue-400 duration-300">
+            2
+        </div>
+        <div class="lg:mx-6 ">
+            <h1 class="font-bold text-xl">Test planning and design</h1>
+            <p class="text-xl">
+                We prepare a detailed testing plan considering your ideas and expectations. We make test cases covering
+                every aspect of your ecommerce solution.
+            </p>
+        </div>
+    </div>
+    <div class="lg:flex flex-row items-center my-12 group">
+        <div class="p-2 border-2 w-12 text-center group-hover:border-blue-400 duration-300">
+            3
+        </div>
+        <div class="lg:mx-6 ">
+            <h1 class="font-bold text-xl">Test implementation</h1>
+            <p class="text-xl">
+                We test your ecommerce solution and identify defects and possible areas of improvement.
+            </p>
+        </div>
+    </div>
+    <div class="lg:flex flex-row items-center my-12 group">
+        <div class="p-2 border-2 w-12 text-center group-hover:border-blue-400 duration-300">
+            4
+        </div>
+        <div class="lg:mx-6 ">
+            <h1 class="font-bold text-xl">Analyzing testing results</h1>
+            <p class="text-xl">
+                We provide you with the test summary report describing the identified bugs and analyzing their nature.
+                Also, we give you the overall feedback on the quality of your ecommerce solution.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<h1 class="uppercase font-bold mt-10 text-3xl">HOW WE TEST YOUR ECOMMERCE SOLUTION</h1>
+    <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+
+<div class="lg:grid grid-cols-3 gap-8">
+    <div class="my-5 ">
+        <div>
+            <img src="https://www.scnsoft.com/ecommerce/standalone-testing-ecommerce-solution.svg" alt=""
+                 width="200"
+                 height="200">
+        </div>
+        <h4 class="text-2xl font-bold mt-6">Testing a standalone ecommerce solution doesn’t guarantee its success</h4>
+        <p class="text-xl lg:text-2xl text-justify mt-4 ">It’s critical to test an ecommerce solution together with a number of external
+        systems it’s connected to (such as payment gateways, PIM, CRM and delivery management system). We develop a testing strategy based on
+        the understanding of your solution’s structure and the connections it’s expected to support. Our experts have a deep understanding of
+        the systems an ecommerce solution is expected to align and exchange data with.
+
+</p>
+    </div>
+
+
+    <div class="my-5">
+        <div>
+            <img src="https://www.scnsoft.com/ecommerce/subjective-ux.svg" alt="" width="200"
+                 height="200">
+        </div>
+        <h4 class="text-2xl font-bold mt-6">UX, which is essential for an ecommerce solution success, is subjective</h4>
+        <p class="text-xl lg:text-2xl text-justify mt-4 ">Although it’s hardly possible to tailor an ecommerce
+        solution to every user’s taste, we gather statistics and conduct analytics, set up user interviews and surveys, compare your
+         solution against recognized heuristics to minimize subjectivity in testing ecommerce UX.
+
+</p>
+    </div>
+
+    <div class="my-5 text-justify">
+        <div>
+            <img src="https://www.scnsoft.com/ecommerce/high-personalization.svg" alt="" width="200"
+                 height="200">
+        </div>
+        <h4 class="text-2xl font-bold mt-6">Due to a high personalization level, different customers have different page views</h4>
+        <p class="text-xl lg:text-2xl text-justify mt-4 ">To address this challenge, we offer testing your solution
+        with and without personalization. To test personalization, we create a purchase history, a site view history, a Google
+        search history and other aspects depending on the working principles of your personalization engine.
+
+</p>
+    </div>
+</div>
+
+
+ <div class="p-6 shadow-2xl lg:flex mt-9 mb-10">
+        <div class="lg:w-4/6">
+            <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
+                Planning to Launch an E-Grocery Solution?
+            </h1>
+            <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
+
+            <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
+                At ScienceSoft, we have a clear vision of competitive advantages for your digital presence. Let’s bring
+                your business to the market fast and with success!
+
+            </p>
+        </div>
+
+        <div class="lg:w-2/6 m-auto">
+            <a href="#">
+                <div class="bg-blue-700 text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
+                    DISCUSS OUR COOPERATION
+                </div>
+            </a>
+
+        </div>
+    </div>
 
 </div>
 
