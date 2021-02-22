@@ -22,7 +22,7 @@
             </a>
         @endforeach
     </div>
-    <div class="flex flex-wrap md:flex-row flex-col items-center md:justify-between">
+    <div class="flex flex-wrap md:flex-row flex-col items-center md:justify-start">
         @foreach ($blogs as $blog)
             <div class="p-4">
                 <a href="{{ route('SingleBlog', [$blog->id]) }}"
