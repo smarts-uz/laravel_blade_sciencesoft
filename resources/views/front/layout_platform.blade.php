@@ -115,6 +115,10 @@
   });
 });
 </script>
+
+<script>
+    var swiper = new Swiper('.swiper-container-three');
+</script>
 </body>
 
 </html>

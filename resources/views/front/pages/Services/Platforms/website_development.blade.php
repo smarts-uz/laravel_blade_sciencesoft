@@ -72,8 +72,7 @@
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
                         data-aos="fade-up"
-                        style="font-size: 8rem"
-                        class="  font-bold  text-gray-300 "
+                        class="  font-bold  text-gray-300 text-9xl "
                 >
                     1
                 </p>
@@ -163,8 +162,7 @@
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
                         data-aos="fade-up"
-                        style="font-size: 8rem"
-                        class="  font-bold  text-gray-300 "
+                        class="  font-bold  text-gray-300 text-9xl"
                 >
                     2
                 </p>
@@ -316,7 +314,7 @@
             <h2 class="text-lg p-6 pl-13">Название организации</h2>
             <form>
                 <label>
-                    <input type="text" placeholder="Пример: Open Engine" class="h-12 w-full border-b border-blue-700"/>
+                    <input type="text" placeholder="Пример: Open Engine" class="h-12 w-full border-b border-blue-700 outline-none"/>
                 </label>
             </form>
 
@@ -340,7 +338,7 @@
             Кейсы
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-            <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+            <p data-aos="fade-up"  class="  font-bold  text-gray-300 text-9xl">
                 3
             </p>
         </div>
@@ -446,7 +444,7 @@
             Используем в работе
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-            <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+            <p data-aos="fade-up" class="text-9xl  font-bold  text-gray-300 ">
                 4
             </p>
         </div>
@@ -520,8 +518,8 @@
                 <div style="border-radius: 200px 0 200px 0; left: -80px" class="bg-blue-500 py-20 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block" data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
-                        <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-blue-500 z-0">
-                            7
+                        <p class="item-center font-bold absolute left-48 text-blue-500 z-0 text-9xl">
+                            5
                         </p>
                     </div>
                     <p class="text-blue-500 text-md p-10 pt-10 text-center">
@@ -531,11 +529,11 @@
                 </div>
                 <div style="border-radius: 0 0 200px 0; top: 80px" class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative" data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
-                        <h1 class="lg:text-3xl font-bold text-white z-10 ">
+                        <h1 class="lg:text-3xl font-bold text-white z-10 " data-aos="fade-down">
                             Почему мы?
                         </h1>
                         <div class="flex text-center absolute item-center justify-center z-0 opacity-50">
-                            <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                            <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
                                 5
                             </p>
                         </div>
@@ -598,9 +596,8 @@
             Цены и тарифы
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-            <p data-aos="fade-up"
-               style="font-size: 8rem"
-               class="  font-bold  text-gray-300 opacity-50 ">
+            <p data-aos="fade-down"
+               class="  font-bold  text-gray-300 opacity-50 text-9xl">
                 6
             </p>
         </div>
@@ -771,8 +768,8 @@
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
                     <p data-aos="fade-up"
-                            style="font-size: 8rem"
-                            class="  font-bold  text-gray-400 opacity-50">
+
+                            class="  font-bold  text-gray-400 opacity-50 text-9xl">
                         7
                     </p>
                 </div>
@@ -814,7 +811,7 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                        <p data-aos="fade-up" class="text-9xl  font-bold  text-gray-300 ">
                             8
                         </p>
                     </div>

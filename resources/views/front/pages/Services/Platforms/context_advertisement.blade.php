@@ -18,7 +18,7 @@
             <div
               class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
-              Контекстная реклама Яндекс и Google в Ташкенте
+              Контекстная <br> реклама <br> Яндекс и Google <br> в Ташкенте
             </div>
             <div class="lg:px-20">
               <a

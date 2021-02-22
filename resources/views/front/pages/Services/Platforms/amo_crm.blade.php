@@ -84,7 +84,7 @@
                 <div class="text-5xl  leading-10 ">
                     <div>
                         <div class="flex">
-                            <p style="font-size: 10rem" class="font-bold text-gray-500 mt-10" data-aos="fade-up">1</p>
+                            <p style="font-size: 10rem" class="font-bold text-gray-300 mt-10" data-aos="fade-up">1</p>
                             <h1 class=" font-bold text-blue-600" data-aos="fade-right">amoCRM - это...
                             </h1>
                         </div>
@@ -133,20 +133,14 @@
                             Bitrix24, Moysklad</p>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 
     <div class="flex justify-center items-center mt-20 mb-10 relative ">
         <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-left">Бизнес без CRM</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-              <p
-                data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
-              >
+              <p data-aos="fade-up"  style="font-size: 8rem" class="  font-bold  text-gray-300 ">
                 2
               </p>
           </div>
@@ -250,7 +244,6 @@
                     </ul>
                 </div>
             </div>
-
         </div>
 </div>
 
