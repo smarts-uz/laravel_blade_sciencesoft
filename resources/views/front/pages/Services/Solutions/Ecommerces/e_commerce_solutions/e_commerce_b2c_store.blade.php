@@ -11,6 +11,8 @@
 
     <h1>
         B2C Store
+         asliddin
+        @Abdullayevasliddin
     </h1>
 </div>
 
