@@ -20,7 +20,7 @@
         <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
         <img src="https://www.scnsoft.com/cover-pictures/ecommerce-implementation-.svg" alt="">
         <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-            ScienceSoft works towards building a strong online presence for differing companies – those who only start
+            TeamPRO works towards building a strong online presence for differing companies – those who only start
             selling online, move from offline to omnichannel retailing or evolve their existing ecommerce business.
             <span class="font-bold text-current">17 years in ecommerce development and consulting</span> made us
             proficient at
@@ -454,7 +454,7 @@
 
 
         <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-            SCIENCESOFT’S ECOMMERCE SOLUTIONS FROM A TO Z
+            TEAMPRO’S ECOMMERCE SOLUTIONS FROM A TO Z
         </h1>
         <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 

@@ -19,7 +19,7 @@
     </div>
     <div class="text-center mb-6">
         <a href="#" class="text-lg text-blue-700 font-medium">Tanya Yablonskaya</a>
-        <p class="text-gray-500">Ecommerce Industry Analyst, ScienceSoft</p>
+        <p class="text-gray-500">Ecommerce Industry Analyst, TeamPRO</p>
     </div>
     <hr>
     <div class="my-6 lg:flex lg:text-right justify-end">
@@ -36,7 +36,7 @@
             <span class="font-bold text-current">Editor’s note:</span>Personalization remains one of the most important
             trends in the ecommerce industry and plays a huge role in achieving great customer experience. If you are
             not sure how to personalize your website and create a better environment for your audience, you are welcome
-            to request the assistance from ScienceSoft’s experts in <a href="#" class="border-b border-indigo-900">
+            to request the assistance from TeamPRO’s experts in <a href="#" class="border-b border-indigo-900">
             custom ecommerce development.</a>
         </p>
         <p class="text-lg text-gray-600 mt-6 md:text-xl">
@@ -96,7 +96,7 @@
         </p>
         <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
             If you wonder what kind of content can be personalized on the homepage, start watching our ecommerce demo.
-            It illustrates ScienceSoft’s vision of effective ecommerce personalization and gives a cool idea for the
+            It illustrates TeamPRO’s vision of effective ecommerce personalization and gives a cool idea for the
             homepage.
         </p>
         <div class="w-4/6 sm:w-3/6  md:w-2/6 m-auto mb-8">
@@ -145,7 +145,7 @@
                 <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
                 <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                    Our team at ScienceSoft is creative and skilled. With us, customer experience in your web store will
+                    Our team at TeamPRO is creative and skilled. With us, customer experience in your web store will
                     be personalized just to the right extent.
                 </p>
             </div>
@@ -195,7 +195,7 @@
             Brands all over the world are already aware that personalization is something that is bringing them higher
             engagement rates and more conversions. It is easy to get accustomed to good things, and we can't blame
             customers for having high expectations of your brand too. There are many website examples that you can look
-            at and get inspired. The hard part of it is execution, and here we can be of real help! ScienceSoft’s
+            at and get inspired. The hard part of it is execution, and here we can be of real help! TeamPRO’s
             experts are ready to create customized journeys for your customers, just
             <a href="#" class="border-b border-indigo-900">let us know.</a>
         </p>
@@ -206,7 +206,7 @@
             </div>
             <div class="mt-6 md:w-6/12 ml-3">
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-2xl">
-                    Ecommerce Consulting by ScienceSoft
+                    Ecommerce Consulting by TeamPRO
                 </a>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl">
                     Our consultants will help to shape an optimal ecommerce solution for your business.

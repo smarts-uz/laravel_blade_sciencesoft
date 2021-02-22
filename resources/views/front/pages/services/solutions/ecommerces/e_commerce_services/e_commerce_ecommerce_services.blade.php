@@ -18,7 +18,7 @@
                 <p class="text-md md:text-lg text-gray-600 mb-4">
                  CRM services are aimed to <strong>automate marketing, sales and customer service</strong>,
                  and range from CRM consulting and implementation to testing and support of a CRM solution.<br><br>
-                 Having <strong>12 years of experience in CRM services</strong>, ScienceSoft helps businesses reduce their
+                 Having <strong>12 years of experience in CRM services</strong>, TeamPRO helps businesses reduce their
                  marketing, sales and customer service costs with all-round CRM implementation and regain lost
                  business opportunities through evolution of the existing CRM.
                 </p>
@@ -231,7 +231,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        With our vast ecommerce competencies at ScienceSoft, we meet diverse needs
+                        With our vast ecommerce competencies at TeamPRO, we meet diverse needs
                         of ecommerce businesses comprehensively.
                     </p>
                 </div>
@@ -251,11 +251,11 @@
                     <i class="fas fa-quote-right text-gray-300 text-6xl mb-6"></i>
                 </div>
                 <p class="text-lg text-gray-600 mb-6">
-                    ScienceSoft has been vital to our companies growth in ecommerce over the
+                    TeamPRO has been vital to our companies growth in ecommerce over the
                     last 2 years. They are knowledgeable, efficient, communicative, and are
                     always able to provide a strong resource for any needs that arise. They
                     are a very versatile company in terms of the amount of services they provide.
-                    ScienceSoft is quite possibly the most beneficial outside resource we’ve ever had.
+                    TeamPRO is quite possibly the most beneficial outside resource we’ve ever had.
                 </p>
                 <p class="text-gray-600 text-lg mb-6 text-right">
                     <em>
@@ -277,7 +277,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        Turn to ScienceSoft’s fleet management team now, and start enjoying the
+                        Turn to TeamPRO’s fleet management team now, and start enjoying the
                         operational and business benefits promised by custom fleet management software!
                     </p>
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 w-full md:w-72 md:text-sm uppercase">

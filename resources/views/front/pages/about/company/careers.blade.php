@@ -60,13 +60,13 @@
             </a>
         </div>
 
-        
+
 
         <div class="w-full lg:w-9/12">
             <div class="px-1 md:px-8 lg:px-12 flex flex-col">
 
                 <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-3xl md:text-4xl my-3">
-                    {{ _trans('Careers at ScienceSoft') }}</h1>
+                    {{ _trans('Careers at TeamPRO') }}</h1>
                 <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-2xl md:text-3xl mt-6 mb-3">
                     {{ _trans('Software Development Department') }}</h1>
                 <ul class="flex flex-col">
@@ -83,8 +83,8 @@
                                 <p class="hover:underline">{{ _trans('Front-end developer (React / React Native)') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Requirements:') }}</h1>
@@ -151,8 +151,8 @@
                                 <p class="hover:underline">{{ _trans('Middle/Senior iOS Developer') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Requirements:') }}</h1>
@@ -179,7 +179,7 @@
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('MQTT/ WebSocket / Real time protocols') }}</span>
-                                </li>                              
+                                </li>
                                 <li class="text-white -ml-6 mt-4">
                                     <a  href="#" class="bg-blue-800 font-bold hover:bg-yellow-500 transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
@@ -188,8 +188,8 @@
                             </ul>
                         </div>
                     </li>
-                    <hr>     
-                
+                    <hr>
+
                     <li x-data="{ open: false }" class="flex flex-col my-3">
                         <div @click="open = true"
                             class="flex justify-between items-center text-gray-500 text-xl cursor-pointer hover:text-blue-500">
@@ -202,8 +202,8 @@
                                 <p class="hover:underline">{{ _trans('Senior Java Developer') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Responsibilities:') }}</h1>
@@ -246,43 +246,43 @@
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Advanced level in:') }}</span>
-                                </li>             
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Java 8, J2EE;') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Spring(Core, Security, AOP, Transactions, Boot, MVC);') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Hibernate3, JPA;') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('SQL;') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('RESTful WebServices;') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Upper Intermediate English;') }}</span>
-                                </li>       
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Good Communication Skills;') }}</span>
-                                </li>   
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Good Logical & Analytical skills;') }}</span>
-                                </li>   
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Experience in source version control systems (Github).') }}</span>
-                                </li>                  
+                                </li>
                                 <li class="text-white mt-4 -ml-6">
                                     <a  href="#" class="bg-blue-800 hover:bg-yellow-500 font-bold transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
@@ -291,7 +291,7 @@
                             </ul>
                         </div>
                     </li>
-                          
+
                     <hr>
                     <li x-data="{ open: false }" class="flex flex-col my-3">
                         <div @click="open = true"
@@ -305,8 +305,8 @@
                                 <p class="hover:underline">{{ _trans('Middle/Senior Python Developer') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Role:') }}</h1>
@@ -373,28 +373,28 @@
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('An understanding in Architecture patterns: micro services, scaling, load balancing') }}</span>
-                                </li>             
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('A deep knowledge of web development technologies and frameworks') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Configuration CI\CD, autodeployment to cloud, Git flow variants') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Solid professional PostgreSQL experience') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('Understanding the fundamentals of software design principles') }}</span>
-                                </li>     
+                                </li>
                                 <li class="text-blue-800 mt-2">
                                     <span
                                         class="text-gray-600">{{ _trans('English is a must') }}</span>
-                                </li>     
-                                               
+                                </li>
+
                                 <li class="text-white mt-4 -ml-6">
                                     <a  href="#" class="bg-blue-800 hover:bg-yellow-500 font-bold transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
@@ -403,10 +403,10 @@
                             </ul>
                         </div>
                     </li>
-                    <hr>          
+                    <hr>
                 </ul>
 
-                
+
                 <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-2xl md:text-3xl mt-6 mb-3">
                     {{ _trans('Department of Marketing and Sales') }}</h1>
                 <ul class="flex flex-col">
@@ -423,12 +423,12 @@
                                 <p class="hover:underline">{{ _trans('Copywriting Team Lead') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            ScienceSoft, 700-employee IT company, is looking for Copywriting Team Lead who will manage a team of 8-10 copywriters.
+                            TeamPRO, 700-employee IT company, is looking for Copywriting Team Lead who will manage a team of 8-10 copywriters.
                             </p>
                             <h1 class="text-3xl mb-4 text-gray-700 font-bold">{{ _trans('Ideal candidate') }}</h1>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Copywriting team lead') }}</h1>
@@ -452,7 +452,7 @@
                            <p> <a  href="#" class="bg-blue-800 lg:text-xl text-white font-bold hover:bg-yellow-500 transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
                                     {{ _trans('APPLY FOR THIS POSITION') }}</a></p>
-                         
+
                         </div>
                     </li>
                     <hr>
@@ -468,8 +468,8 @@
                                 <p class="hover:underline">{{ _trans('Senior Sales manager') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Candidate:') }}</h1>
@@ -506,8 +506,8 @@
                                     <span
                                         class="text-gray-600">{{ _trans('Willingness/ability to travel and potentially to relocate abroad') }}</span>
                                 </li>
-                            
-                                               
+
+
                                 <li class="text-white mt-4 -ml-6">
                                     <a  href="#" class="bg-blue-800 hover:bg-yellow-500 font-bold transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
@@ -516,9 +516,9 @@
                             </ul>
                         </div>
                     </li>
-                    <hr>     
+                    <hr>
                 </ul>
-            
+
 
                 <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-2xl md:text-3xl mt-6 mb-3">
                     {{ _trans('ICT Department') }}</h1>
@@ -536,10 +536,10 @@
                                 <p class="hover:underline">{{ _trans('DevOps Specialist') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
-                        <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">                           
+                        <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
 
 
                         <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Required skills:') }}</h1>
@@ -576,9 +576,9 @@
                                     <span
                                         class="text-gray-600">{{ _trans('Bachelor’s Degree in IT a relevant field or High School Diploma and solid related work experience') }}</span>
                                 </li>
-                            
-                                               
-                        
+
+
+
                             </ul>
 
 
@@ -588,12 +588,12 @@
                            <p> <a  href="#" class="bg-blue-800 lg:text-xl text-white font-bold hover:bg-yellow-500 transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
                                     {{ _trans('APPLY FOR THIS POSITION') }}</a></p>
-                         
+
                         </div>
                     </li>
                     <hr>
-                
-                   
+
+
                 </ul>
 
 
@@ -601,8 +601,8 @@
                     {{ _trans('Business Analysis Department') }}</h1>
                 <ul class="flex flex-col">
 
-                
-                
+
+
                     <li x-data="{ open: false }" class="flex flex-col my-3">
                         <div @click="open = true"
                             class="flex justify-between items-center text-gray-500 text-xl cursor-pointer hover:text-blue-500">
@@ -615,12 +615,12 @@
                                 <p class="hover:underline">{{ _trans('Middle Business Analyst') }}</p>
                             </div>
                             <p class="md:block hidden hover:text-blue-500 text-yellow-400">{{ _trans('Details') }} <i class="fas fa-chevron-right ml-2"></i></p>
-                
-                        
+
+
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Responsibilities:') }}</h1>
-                           
+
                             <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
                                 <li class="text-blue-800 mt-2">
                                     <span
@@ -642,9 +642,9 @@
                                     <span
                                         class="text-gray-600">{{ _trans('Process requests for proposal, including participation in the creation of commercial proposals and BA activities estimation.') }}</span>
                                 </li>
-                            
-                                               
-                        
+
+
+
                             </ul>
 
                             <h1 class="text-xl mt-4 text-gray-700 font-bold">{{ _trans('The Candidate:') }}</h1>
@@ -673,10 +673,10 @@
                                     <span
                                         class="text-gray-600">{{ _trans('Fluent written and spoken English (Upper-Intermediate+).') }}</span>
                                 </li>
-                        
-                            
-                                               
-                            
+
+
+
+
                             </ul>
 
                             <p class="text-gray-600 lg:text-xl my-4">As a plus will be:</p>
@@ -707,9 +707,9 @@
                                     <span
                                         class="text-gray-600">{{ _trans('Experience in direct communication to End-customer.') }}</span>
                                 </li>
-                        
-                            
-                               
+
+
+
                             </ul>
 
 
@@ -738,10 +738,10 @@
                                     <span
                                         class="text-gray-600">{{ _trans('High attention to details.') }}</span>
                                 </li>
-                          
-                        
-                            
-                                               
+
+
+
+
                                 <li class="text-white mt-4 -ml-6">
                                     <a  href="#" class="bg-blue-800 hover:bg-yellow-500 font-bold transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
@@ -753,7 +753,7 @@
 
                         </div>
                     </li>
-                    <hr>     
+                    <hr>
                 </ul>
 
 

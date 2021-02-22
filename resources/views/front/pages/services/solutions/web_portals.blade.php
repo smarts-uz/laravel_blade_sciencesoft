@@ -11,7 +11,7 @@
         <img src="https://www.scnsoft.com/cover-pictures/web-portals-development-01.svg" alt="">
         <p class="my-5 text-xl mb-16 text-gray-600">
             <strong>Web portal development</strong> implies engineering access to a variety of data and
-            services via a single web<br> interface. Since <strong>2006</strong>, ScienceSoft has covered end-to-end
+            services via a single web<br> interface. Since <strong>2006</strong>, TeamPRO has covered end-to-end
             portal implementation services for<br> different purposes
             (B2C, B2B, B2E, and community communications) and industries.
         </p>
@@ -64,7 +64,7 @@
             <hr class="w-12 border-b-3 border-yellow-500 pl-2 ml-1 my-4" />
         </div>
         <p class="leading-8 pl-5 text-2xl text-gray-600 -pr-5">Harding and Carbone has been very pleased with selecting
-            ScienceSoft as our vendor for developing a client portal for our customers.<br>
+            TeamPRO as our vendor for developing a client portal for our customers.<br>
 
             <br>Their professionalism, expertise, guidance, organization, and timing has been wonderful. They were also very
             patient with explaining their process and the next steps if we ran into any issues that we did not
@@ -401,7 +401,7 @@
                 Business</h1><br>
             <hr class="w-10 border-b-3 border-yellow-500  mb-10 ml-4" />
 
-            <p class="leading-8 pl-6 text-2xl text-gray-600 pr-6 pb-8">ScienceSoft’s team is ready to deliver the most
+            <p class="leading-8 pl-6 text-2xl text-gray-600 pr-6 pb-8">TeamPRO’s team is ready to deliver the most
                 challenging portal<br> projects to help your leverage streamlined, transparent and consistent<br> web
                 communication with your clients, partners, employees, or<br> community.
             </p>

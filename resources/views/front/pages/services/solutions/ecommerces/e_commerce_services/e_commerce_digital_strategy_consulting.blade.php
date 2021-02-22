@@ -27,7 +27,7 @@
         <p class="text-xl leading-normal mt-3.5">Digital strategy consulting helps consumer-oriented industries carry
             out <b>fast, yet well-planned, business migration</b> or <b>
                 expansion to digital channels.
-            </b> At ScienceSoft, we
+            </b> At TeamPRO, we
             offer
             ample digital strategy consulting services to support you at each step of digital strategy planning and
             guide you through the challenges of a digital launch.</p>
@@ -108,7 +108,7 @@
     <div class="mx-24 mt-10">
         <div>
             <strong class="text-3xl">
-                WHY TRUST DIGITAL STRATEGY SERVICES TO SCIENCESOFT
+                WHY TRUST DIGITAL STRATEGY SERVICES TO TEAMPRO
             </strong>
             <div class="w-14 h-0.5 bg-yellow-600 mt-3.5"></div>
 

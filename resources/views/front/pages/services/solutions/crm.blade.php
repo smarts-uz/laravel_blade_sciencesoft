@@ -15,7 +15,7 @@
                <p class="text-md md:text-lg text-gray-600 mb-4">
                 CRM services are aimed to <strong>automate marketing, sales and customer service</strong>,
                 and range from CRM consulting and implementation to testing and support of a CRM solution.<br><br>
-                Having <strong>12 years of experience in CRM services</strong>, ScienceSoft helps businesses reduce their
+                Having <strong>12 years of experience in CRM services</strong>, TeamPRO helps businesses reduce their
                 marketing, sales and customer service costs with all-round CRM implementation and regain lost
                 business opportunities through evolution of the existing CRM.
                </p>
@@ -27,7 +27,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        Decrease the costs and improve the output of customer acquisition and retention with ScienceSoft’s CRM services.
+                        Decrease the costs and improve the output of customer acquisition and retention with TeamPRO’s CRM services.
                     </p>
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">
@@ -36,7 +36,7 @@
             </div>
             <div class="w-full mb-6 mt-6">
                 <h1 class="text-xl md:text-2xl mb-4 font-bold text-gray-800">
-                    WHY TURN TO SCIENCESOFT
+                    WHY TURN TO TEAMPRO
                 </h1>
                 <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                 <ul style="list-style: square;" class="text-blue-700 m-6">
@@ -143,7 +143,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        ScienceSoft can assess the feasibility of different
+                        TeamPRO can assess the feasibility of different
                         CRM options or CRM evolution investments and calculate your potential ROI.</p>
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">

@@ -17,7 +17,7 @@
           <a href="#"><li class="mt-4">{{ _trans("Management Team")  }}</li></a>
           <a href="/about/careers"><li class="mt-4">{{ _trans("Careers")  }}</li></a>
           <a href="/partnerships"><li class="mt-4">{{ _trans("Partnerships")  }}</li></a>
-          <a href="/Sciencesoft-Referral-Program"><li class="mt-4">{{ _trans("ScienceSoft Referral Program")  }}</li></a>
+          <a href="/TeamPRO-Referral-Program"><li class="mt-4">{{ _trans("TeamPRO Referral Program")  }}</li></a>
           <a href="/our-locations"><li class="mt-4">{{ _trans("Our Locations")  }}</li></a>
           <h1 class="mb-2 mt-2 font-extrabold">{{ _trans("Approach")  }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
@@ -126,7 +126,7 @@
               <div class="w-1/5">
                 <h1 class="mb-2 font-extrabold">{{ _trans("About")  }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
-                <p class="mt-4 text-black font-normal">{{ _trans("ScienceSoft is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.")  }}</p>
+                <p class="mt-4 text-black font-normal">{{ _trans("TeamPRO is a US-based IT consulting and software development company founded in 1989. We are a team of 700 employees, including technical experts and BAs.")  }}</p>
                 <p class="font-extrabold mt-4 text-black">{{ _trans("Can't find what you need?")  }}</p>
                 <div class="bg-blue-700 px-6 py-2 text-white w-36 text-center"><a href="#">{{ _trans("ASK US")  }}</a></div>
               </div>
@@ -138,7 +138,7 @@
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Management Team")  }}</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Careers")  }}</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Partnerships")  }}</li></a>
-                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("ScienceSoft Referral Program")  }}</li></a>
+                <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("TeamPRO Referral Program")  }}</li></a>
                 <a href="#"><li class="mt-4 text-black hover:text-blue-700">{{ _trans("Our Locations")  }}</li></a>
               </ul>
               </div>
@@ -243,7 +243,7 @@
                 <h1 class="mb-2  font-extrabold">{{ _trans("Industries")  }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <p class="mt-4 text-black font-normal">
-                  {{ _trans("To power businesses with a meaningful digital change, ScienceSoft’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.")  }}</p>
+                  {{ _trans("To power businesses with a meaningful digital change, TeamPRO’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.")  }}</p>
                 <p class="font-extrabold mt-4 text-black">{{ _trans("Can't find what you need?")  }}</p>
                 <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a  href="#">{{ _trans("ASK US")  }}</a></div>
               </div>

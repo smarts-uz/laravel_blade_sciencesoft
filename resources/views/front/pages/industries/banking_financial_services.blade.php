@@ -15,7 +15,7 @@
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
         <img src="{{ asset ('images/industries/banking_financial_services/banking-software-it-services-for-banks.svg')}}">
         <p class="my-5 text-lg">
-          {{ _trans("For 14 years ScienceSoft delivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation, integration, testing and deployment as well as ensures their solid support.")  }}
+          {{ _trans("For 14 years TeamPRO delivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation, integration, testing and deployment as well as ensures their solid support.")  }}
         </p>
         <p class="my-5 text-lg">
           {{ _trans("We provide both platform-based and custom banking software that serves the needs of retail and corporate banking and improves the relationships between financial facilities and their customers, attracting and retaining the most profitable clientele.")  }}
@@ -60,7 +60,7 @@
                     {{ _trans("Internet banking
                     Answer the ever-growing customers’ needs for secure 24/7 access to their banking accounts with custom internet banking.")  }}</p>
                     <p class="px-4 text-base sm:text-lg text-sm">
-                      {{ _trans("Whether you want to implement a solution from scratch or update your current obsolete software, ScienceSoft will provide you with rich functional scope and ensure implementation of the best online banking practices. With custom internet banking solutions, your clients will be able to enjoy the following functionality:")  }}</p>
+                      {{ _trans("Whether you want to implement a solution from scratch or update your current obsolete software, TeamPRO will provide you with rich functional scope and ensure implementation of the best online banking practices. With custom internet banking solutions, your clients will be able to enjoy the following functionality:")  }}</p>
                   <br>
                   <div class="w-full  px-4 flex flex-row mb-5">
                       <span class="w-2 h-2 bg-blue-500 mt-3"></span><p class="px-4 text-base sm:text-lg text-sm">{{ _trans("get detailed information about their checking, savings and credit accounts")  }}</p>
@@ -92,7 +92,7 @@
             {{ _trans("THRIVE WITH BANKING SOFTWARE")  }}
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-          <p class="my-4">{{ _trans("At ScienceSoft, we help our customers reap the following benefits:")  }}</p>
+          <p class="my-4">{{ _trans("At TeamPRO, we help our customers reap the following benefits:")  }}</p>
           <img src="{{ asset ('images/industries/banking_financial_services/banking-software-benefits.svg')}}" alt="">
 
 
@@ -102,7 +102,7 @@
               <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
               <div class=" flex flex-wrap">
               <p class="text-gray-500 text-xl w-full lg:w-4/5">
-                {{ _trans("ScienceSoft’s banking software solutions that we develop fully compliant with regulatory standards, including FRS requirements, Dodd-Frank Act, Payment Application Data Security Standard (PA-DSS), Payment Card Industry Data Security Standard (PCI-DSS), SOX, and others.")  }}
+                {{ _trans("TeamPRO’s banking software solutions that we develop fully compliant with regulatory standards, including FRS requirements, Dodd-Frank Act, Payment Application Data Security Standard (PA-DSS), Payment Card Industry Data Security Standard (PCI-DSS), SOX, and others.")  }}
               </p>
               <div class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/6 text-center">{{ _trans("get a quote")  }}</div>
             </div>
@@ -122,11 +122,11 @@
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
           <div class="">
-            <p class="my-6">{{ _trans("At ScienceSoft, we successfully meet the following business challenges of retail and corporate banking:")  }}</p>
+            <p class="my-6">{{ _trans("At TeamPRO, we successfully meet the following business challenges of retail and corporate banking:")  }}</p>
             <div class="flex flex-row">
               <span class="text-blue-600 mr-4">&#9632;</span>
               <p class="text-lg">
-                {{ _trans("ScienceSoft attained")  }}
+                {{ _trans("TeamPRO attained")  }}
                 <b>{{ _trans("AWS Select Tier Consulting Partner")  }}</b>
                 {{ _trans("status.")  }}
               </p>
@@ -134,7 +134,7 @@
             <div class="flex flex-row">
               <span class="text-blue-600 mr-4">&#9632;</span>
               <p class="text-lg">
-                {{ _trans("ScienceSoft featured on the")  }}
+                {{ _trans("TeamPRO featured on the")  }}
                 <b>{{ _trans("Clutch lists of Top IT Services Firms, Top Cloud
                 Consultants, and Top 1000 B2B Providers Globally.")  }}</b>
               </p>
@@ -142,14 +142,14 @@
             <div class="flex flex-row">
               <span class="text-blue-600 mr-4">&#9632;</span>
               <p class="text-lg">
-                {{ _trans("ScienceSoft featured in IAOP Global Outsourcing 100 Award
+                {{ _trans("TeamPRO featured in IAOP Global Outsourcing 100 Award
                 Lists 2020.")  }}
               </p>
             </div>
             <div class="flex flex-row">
               <span class="text-blue-600 mr-4">&#9632;</span>
               <p class="text-lg">
-                {{ _trans("ScienceSoft acquired Gold Microsoft Competency in
+                {{ _trans("TeamPRO acquired Gold Microsoft Competency in
                 Application Integration.")  }}
               </p>
 
@@ -170,7 +170,7 @@
           </div>
 
           <h1 class="uppercase font-bold mt-10 text-2xl">
-            {{ _trans("About ScienceSoft – Global IT Company")  }}
+            {{ _trans("About TeamPRO – Global IT Company")  }}
           </h1>
           <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
           <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">

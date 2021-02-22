@@ -11,11 +11,11 @@
 
         <h1 class="font-bold mt-10 text-4xl">{{ _trans("Hire Golang Developers | Advanced Tech Expertise")  }}</h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-        <img src="https://www.scnsoft.com/software-development-services/golang/hire-sciencesoft's-golang-developers.svg" alt="">
+        <img src="https://www.scnsoft.com/software-development-services/golang/hire-teampro's-golang-developers.svg" alt="">
         <p class="pt-5">
            <strong>{{ _trans("Go")  }}</strong>, {{ _trans("or")  }} <strong>{{ _trans("Golang")  }}</strong>, {{ _trans("is a cross-platform server-side language to build heavy-load
            software with exceptionally high performance and scalability due to native support of
-           concurrency, fast code compilation and automatic memory management. ScienceSoft’s developers
+           concurrency, fast code compilation and automatic memory management. TeamPRO’s developers
            use Go to build robust cloud-native applications
            that can leverage advanced techs – IoT, big data, AI, machine learning, blockchain.")  }}
         </p>
@@ -34,7 +34,7 @@
 
         <div class="flex flex-col">
             <h1 class="uppercase font-bold mt-10 text-2xl">
-                {{ _trans("SCIENCESOFT’S FACTS")  }}
+                {{ _trans("TEAMPRO’S FACTS")  }}
             </h1>
             <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
             <div class="flex flex-row">

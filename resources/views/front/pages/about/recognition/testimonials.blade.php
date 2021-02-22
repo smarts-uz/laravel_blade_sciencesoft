@@ -16,7 +16,7 @@
                 {{ _trans('Our project portfolio includes') }} <strong>2,695 {{ _trans('success stories') }}</strong>,
                 {{ _trans("including projects
                     for Walmart, eBay, NASA JPL, PerkinElmer, Baxter, IBM, Leo Burnett. We
-                    asked our customers what are their impressions on cooperation with ScienceSoft –
+                    asked our customers what are their impressions on cooperation with TeamPRO –
                     have a look at their answers in the testimonials below.") }}
             </p>
         </div>
@@ -28,10 +28,10 @@
             </div>
             <div class="lg:flex-row lg:w-1/2">
                 <h1 class="text-2xl lg:3xl text-gray-800 font-bold">
-                    {{ _trans('Leo Burnett Worldwide: What Is Working with ScienceSoft Like') }}</h1>
+                    {{ _trans('Leo Burnett Worldwide: What Is Working with TeamPRO Like') }}</h1>
                 <hr class="w-12 my-3 border-b-2 bg-yellow-300">
                 <p class="text-gray-600 text-md md:text-lg lg:text-xlleading-7 md:leading-8 lg:leading-9">
-                    {{ _trans("For 4 years, ScienceSoft have been an outsourcing partner of a global advertising agency
+                    {{ _trans("For 4 years, TeamPRO have been an outsourcing partner of a global advertising agency
                     Leo Burnett Worldwide. Sam Gooby, Head of Platform Production at Leo Burnett, shares his
                     first-hand experience on collaboration with our IT experts.") }}
                 </p>
@@ -53,17 +53,17 @@
                         <em>
                             {{ _trans("Chiron Health’s core business is providing caregivers with a web-based
                                 telemedicine platform which allows them to connect with patients for routine
-                                follow-ups and similar use cases. We engaged ScienceSoft to build an Android
+                                follow-ups and similar use cases. We engaged TeamPRO to build an Android
                                 app that complements our web-based platform for our patients.") }}
-                            <br>{{ _trans("ScienceSoft developers proved themselves to be Android experts.
+                            <br>{{ _trans("TeamPRO developers proved themselves to be Android experts.
                                 They advised and successfully lead the way from end to end through the technical
-                                challenges and considerations with development of the Android app. ScienceSoft
+                                challenges and considerations with development of the Android app. TeamPRO
                                 team was in daily contact with our developers and our method of communication was
                                 a huge factor in how successful this engagement was. I would also like to point out
-                                ScienceSoft’s solid approach to testing. The thorough testing they performed on our
+                                TeamPRO’s solid approach to testing. The thorough testing they performed on our
                                 beta environment ensured that the app was launched without critical bugs. We have
                                 also engaged them to introduce a few enhancements to the app and would certainly
-                                consider ScienceSoft as a technology partner in further software development initiatives.") }}
+                                consider TeamPRO as a technology partner in further software development initiatives.") }}
                         </em>
                     </p>
                 </div>
@@ -89,12 +89,12 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("We have been cooperating with ScienceSoft for 5 years. ScienceSoft's
+                            {{ _trans("We have been cooperating with TeamPRO for 5 years. TeamPRO's
                                 team of five Java developers and one Test Engineer have been working hard
                                 to ensure our product - Enonic XP - exceeds our customer's expectations.
                                 The team has become an integrated part of Enonic, and we appreciate their
                                 efforts and passion for the product.") }}<br>
-                            {{ _trans("ScienceSoft's experience in agile development ensured smooth project
+                            {{ _trans("TeamPRO's experience in agile development ensured smooth project
                                 implementation and iterative development of Enonic XP. This enabled us to adjust
                                 to the changing market requirements and incorporate features that made us stand out
                                 from competition. As a result, Enonic XP has evolved into an easy-to-use and scalable
@@ -130,7 +130,7 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("We worked with ScienceSoft in developing our SharePoint Intranet.
+                            {{ _trans("We worked with TeamPRO in developing our SharePoint Intranet.
                                 The development and implementation process was very smooth and delivered
                                 the exact results we were expecting. We will surely work with them in the
                                 future.") }}
@@ -160,16 +160,16 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("We partnered with ScienceSoft to carry out penetration testing of our Simpli5®
+                            {{ _trans("We partnered with TeamPRO to carry out penetration testing of our Simpli5®
                                 web-based application.") }}
                             <br>{{ _trans("We were under some time pressure to get penetration testing performed as quickly
-                                as possible. When I reached out ScienceSoft, they were immediately responsive to my
+                                as possible. When I reached out TeamPRO, they were immediately responsive to my
                                 inquiry, they provided a very competitive quote quickly, and they were able to schedule
                                 the testing shortly after our acceptance of the quote.") }}
-                            <br>{{ _trans("ScienceSoft’s security testing team performed exceptionally well and gave us
+                            <br>{{ _trans("TeamPRO’s security testing team performed exceptionally well and gave us
                                 confidence that our application posed no serious vulnerabilities. The collaboration
-                                was smooth and easy, and we were very pleased with selecting ScienceSoft as our vendor.") }}
-                            <br>{{ _trans("Cooperating with ScienceSoft was a terrific experience, and we will definitely
+                                was smooth and easy, and we were very pleased with selecting TeamPRO as our vendor.") }}
+                            <br>{{ _trans("Cooperating with TeamPRO was a terrific experience, and we will definitely
                                 consider them for our future security testing needs.") }}
                         </em>
                         <a href="#" class="text-blue-500">{{ _trans('Read original') }}</a>
@@ -197,11 +197,11 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("ScienceSoft offers a high caliber of resources skilled in Microsoft
+                            {{ _trans("TeamPRO offers a high caliber of resources skilled in Microsoft
                                 Azure .NET, mobile and Quality Assurance. Over the past three years,
-                                Lixar was very pleased with the service provided by ScienceSoft development
+                                Lixar was very pleased with the service provided by TeamPRO development
                                 teams and executive management. For accelerated project timelines which
-                                require skilled resources, ScienceSoft is a company that your team should consider.") }}
+                                require skilled resources, TeamPRO is a company that your team should consider.") }}
                         </em>
                     </p>
                 </div>

@@ -21,7 +21,7 @@
         <b>{{ _trans(".NET")  }}</b> {{ _trans("is a programming language with powerful tools for web, mobile and desktop development. It is supported by the robust Microsoft ecosystem and allows building applications suitable for any device and platform.")  }}
         </p>
         <p class="my-5 text-lg">
-        {{ _trans("Taking advantage of Microsoft technologies, ScienceSoft’s developers deliver fast, scalable, and reliable .NET-based applications. Our team can supplement the developed solutions with trending cloud services, ensure engaging and highly interactive JavaScript SPA user experience and easy integration through an enterprise service bus.")  }}
+        {{ _trans("Taking advantage of Microsoft technologies, TeamPRO’s developers deliver fast, scalable, and reliable .NET-based applications. Our team can supplement the developed solutions with trending cloud services, ensure engaging and highly interactive JavaScript SPA user experience and easy integration through an enterprise service bus.")  }}
         </p>
 
       </div>
@@ -203,10 +203,10 @@
             </div>
        </div>
 
-        <!-- STREAMLINE YOUR .NET DEVELOPMENT WITH SCIENCESOFT -->
+        <!-- STREAMLINE YOUR .NET DEVELOPMENT WITH TEAMPRO -->
         <div>
         <h1 class="uppercase font-bold mt-10 text-3xl">
-        {{ _trans("STREAMLINE YOUR .NET DEVELOPMENT WITH SCIENCESOFT")  }}
+        {{ _trans("STREAMLINE YOUR .NET DEVELOPMENT WITH TEAMPRO")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <h3 class="font-bold text-xl my-5">{{ _trans("We keep our code short and clean…")  }}</h3>
@@ -245,7 +245,7 @@
             <p class='text-2xl font-bold'>{{ _trans("Eager to Use .NET in Your Future Project?")  }}</p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
           </h1>
-          <p class='text-gray-600 text-xl'>{{ _trans("Let’s see what ScienceSoft’s team can do for you.")  }}</p>
+          <p class='text-gray-600 text-xl'>{{ _trans("Let’s see what TeamPRO’s team can do for you.")  }}</p>
         </div>
         <div class='w-1/3 m-0 flex justify-center items-center'>
           <a href="#" class='px-8 py-3 bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Contact us")  }}</a>

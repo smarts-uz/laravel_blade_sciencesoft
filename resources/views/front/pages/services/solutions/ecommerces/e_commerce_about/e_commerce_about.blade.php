@@ -10,13 +10,13 @@
 <div class="container mx-auto w-full">
     <div class="lg:mx-36 mx-2">
         <div class="col-12">
-            <h1 class="font-bold lg:text-4xl text-2xl">ScienceSoft: Ecommerce Agency for Your Digital Success</h1>
+            <h1 class="font-bold lg:text-4xl text-2xl">TeamPRO: Ecommerce Agency for Your Digital Success</h1>
             <hr class="bg-yellow-500 w-12 mt-5" style="height: 3px">
             <div>
-                <img src="https://www.scnsoft.com/about/ecommerce-microsite/about-company-ecommerce-sciencesoft-1.svg"
+                <img src="https://www.scnsoft.com/about/ecommerce-microsite/about-company-ecommerce-teampro-1.svg"
                      alt="about" class="mt-8">
             </div>
-            <h1 class="mt-16 lg:text-3xl text-2xl font-bold">THE STORY OF SCIENCESOFT</h1>
+            <h1 class="mt-16 lg:text-3xl text-2xl font-bold">THE STORY OF TEAMPRO</h1>
             <hr class="bg-yellow-500 w-12 mt-4" style="height: 3px;">
         </div>
         <div class="col-12 mt-10 group flex flex-wrap">
@@ -32,7 +32,7 @@
                 <div class="lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
                     <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                         Back in 1989, a small team of IT enthusiasts launched a company focusing on the development of a
-                        software product powered by semantic search. In 2002, ScienceSoft transformed into a
+                        software product powered by semantic search. In 2002, TeamPRO transformed into a
                         full-service IT
                         provider and moved to an outsourced service delivery model.
                     </p>
@@ -80,7 +80,7 @@
             <div class="flex flex-wrap lg:w-5/6">
                 <div class="lg:ml-7 ml-2 lg:mr-12 mr-28 lg:w-4/5 w-full">
                     <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-14 w-full lg:mt-0 mt-2">
-                        Now in 2020, ScienceSoft is a large team of 700+ talents from a variety of IT domains with
+                        Now in 2020, TeamPRO is a large team of 700+ talents from a variety of IT domains with
                         competencies in 23 industries, international presence and 2,695 projects completed.
                     </p>
                 </div>
@@ -138,7 +138,7 @@
         <div class="flex mt-10 lg:mx-0 lg:flex-row flex-col flex-wrap">
             <div class="shadow-xl border-t-8 border-blue-900 p-10 mt-6 mx-7 lg:w-96">
                 <div class="text-center">
-                    <img src="https://www.scnsoft.com/software-development-services/software-product-development/sciencesoft-guarantees_committed-teams.svg"
+                    <img src="https://www.scnsoft.com/software-development-services/software-product-development/teampro-guarantees_committed-teams.svg"
                          class="w-32 h-32 block w-full">
                     <p class="text-xl text-blue-700 mt-3 font-bold">
                         Our background in ecommerce is diverse
@@ -175,7 +175,7 @@
         </div>
     </div>
     <div class="lg:mx-36 mx-2 lg:mt-3 mt-0 mb-5">
-        <h1 class="text-2xl lg:ml-16 ml-2 lg:mr-0 mr-2 lg:text-left text-center mt-20 mb-3">ScienceSoft proved to be a
+        <h1 class="text-2xl lg:ml-16 ml-2 lg:mr-0 mr-2 lg:text-left text-center mt-20 mb-3">TeamPRO proved to be a
             professional service provider from the outset. We appreciate their proactive
             approach and ability to suggest improvements to a prospective solution on both architectural and business
             levels.

@@ -14,7 +14,7 @@
             <p class="text-center text-base sm:text-lg md:text-xl lg:text-2xl leading-10 text-gray-700 ">{{ _trans("At its core,
             digital commerce is selling and buying goods and services online. The market is highly competitive, and
             businesses need to strive for more and more excellence to stay resilient, even though consumer demand for
-            online shopping is remarkably strong now. ScienceSoft brings in technology expertise and a problem-oriented
+            online shopping is remarkably strong now. TeamPRO brings in technology expertise and a problem-oriented
             approach to drive positive and tangible changes across your business resulting in cost savings and revenue
             growth.")  }}</p>
         </div>
@@ -22,7 +22,7 @@
         <div class="container mb-24">
             <section class="customer-logos slider px-16">
                 <div class="slide"><img class="h-32 w-32"
-                        src="https://seal-dallas.bbb.org/logo/ruhzbul/sciencesoft-90933001.png" alt="logo"></div>
+                        src="https://seal-dallas.bbb.org/logo/ruhzbul/teampro-90933001.png" alt="logo"></div>
                 <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/deloitte.svg') }}" alt="logo"></div>
                 <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ebay.svg') }}" alt="logo"></div>
                 <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ford.svg') }}" alt="logo"></div>
@@ -198,7 +198,7 @@
                         alt="Sunset in the mountains">
                     <div class="px-6 py-4">
                         <p class="text-grey-darker text-base">
-                            {{ _trans("Functional portfolio of ecommerce platforms and top 10 shortlisted by ScienceSoft.")  }}
+                            {{ _trans("Functional portfolio of ecommerce platforms and top 10 shortlisted by TeamPRO.")  }}
                         </p>
                     </div>
                 </div>
@@ -217,7 +217,7 @@
 
         <form class="px-16 py-12 bg-gray-200 text-gray-800">
             <label class="">
-                {{ _trans("ScienceSoft is a full-service ecommerce team to handle diverse consulting and development tasks. Outline
+                {{ _trans("TeamPRO is a full-service ecommerce team to handle diverse consulting and development tasks. Outline
                 briefly the service or challenge you want to discuss with us, and we will be quick to follow up and start
                 our dialogue.")  }}
             </label>

@@ -12,7 +12,7 @@
     <!-- <hr class="divide-blue-800 w-10 h-3"> -->
     <div class="w-10 h-0.5 bg-yellow-600"></div>
     <p class="py-5 text-lg text-gray-500">{{ _trans("Last updated: September 11, 2020")  }}</p>
-    <p class="py-5 text-lg text-gray-500">{{ _trans("Please read these Terms of Use ('Terms', 'Terms of Use')")  }} carefully before using the https://www.scnsoft.com/ (the "Site")  }} operated by ScienceSoft USA Corporation ("The Company", "us", "we", or "our")  }}.")  }}</p>
+    <p class="py-5 text-lg text-gray-500">{{ _trans("Please read these Terms of Use ('Terms', 'Terms of Use')")  }} carefully before using the https://www.scnsoft.com/ (the "Site")  }} operated by TeamPRO USA Corporation ("The Company", "us", "we", or "our")  }}.")  }}</p>
     <p class="py-5 text-lg text-gray-500">{{ _trans("This Site provides online access to information about Company and our products, services and opportunities")  }}</p>
     <p class="py-5 text-lg text-gray-500">{{ _trans("Your access to and use of the Site is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Site.")  }}</p>
     <h3 class="text-lg font-medium pb-3 text-gray-800">{{ _trans("BY ACCESSING OR USING THE SITE YOU AGREE TO BE BOUND BY THESE TERMS. IF YOU DO NOT ACCEPT, DO NOT USE THE SITE.")  }}</h3>
@@ -89,7 +89,7 @@
     <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans("CONTACT US")  }}</h1>
     <div class="w-10 h-0.5 bg-yellow-600"></div>
     <p class="py-5 text-lg text-gray-500">{{ _trans("If you have any questions about these Terms, please contact us by email ")  }}<a href="#" class="underline">contact@scnsoft.com</a>{{ _trans("  or by phone ")  }}+1 214 306 68 37.</p>
-    <p class="py-5 text-lg text-gray-500">{{ _trans("Copyright 2015-2020 ScienceSoft USA Corporation. All rights reserved")  }}</p>
+    <p class="py-5 text-lg text-gray-500">{{ _trans("Copyright 2015-2020 TeamPRO USA Corporation. All rights reserved")  }}</p>
 </div>
 
 @endsection

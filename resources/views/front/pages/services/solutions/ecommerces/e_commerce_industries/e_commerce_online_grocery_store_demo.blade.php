@@ -79,7 +79,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                At ScienceSoft, we have a clear vision of competitive advantages for your digital presence. Let’s bring
+                At TeamPRO, we have a clear vision of competitive advantages for your digital presence. Let’s bring
                 your business to the market fast and with success!
 
             </p>
