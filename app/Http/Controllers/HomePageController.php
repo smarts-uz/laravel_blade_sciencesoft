@@ -73,6 +73,8 @@ class HomePageController extends Controller
         }else if(str_contains($page, 'awards_and_acknowledgement')){
             $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partners' => $partners]);
+        }else if(str_contains($page, 'contact_us')){
+            return $this->getDynamicPage($page);
         }
         return $this->getDynamicPage($page);
 
