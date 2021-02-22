@@ -29,11 +29,8 @@
                     <div class="col-lg-9">
                         <select class="form-control aiz-selectpicker mb-2 mb-md-0" name="code" data-live-search="true" >
                             <option value="uz" data-content="<span>Uz</span></div>">{{ _trans("Uz")  }}</option>
-                                <option value="ru" data-content="<span>Ru</span></div>">{{ _trans("Ru")  }}</option>
-                                <option value="en" data-content="<span>En</span></div>">{{ _trans("En")  }}</option>
-                            {{-- @foreach(\File::files(base_path('public/assets/img/flags')) as $path)
-                                <option value="{{ pathinfo($path)['filename'] }}" @if($language->code == pathinfo($path)['filename']) {{ _trans("selected")  }} @endif data-content="<div class=''><img src='{{ static_asset('assets/img/flags/'.pathinfo($path)['filename'].'.png') }}' class='mr-2'><span>{{ strtoupper(pathinfo($path)['filename']) }}</span></div>"></option>
-                            @endforeach --}}
+                            <option value="ru" data-content="<span>Ru</span></div>">{{ _trans("Ru")  }}</option>
+                            <option value="en" data-content="<span>En</span></div>">{{ _trans("En")  }}</option>
                         </select>
                     </div>
                 </div>
