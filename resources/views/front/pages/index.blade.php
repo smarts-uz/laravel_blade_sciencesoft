@@ -17,6 +17,22 @@
         </p>
     </div>
 
+
+    <div style="margin: 0 4rem" class="swiper-container main-slide">
+        <div class="swiper-wrapper flex items-center">
+            @foreach ($partnerships as $partnership)
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+                <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
+                @else{{asset('images/default-image.png')}}@endif">
+            </div>
+            @endforeach
+        </div>
+      </div>
+
+
+
+
+
     <!-- EXPLORE OUR OFFERING Responsive -->
     <div class="bg-gray-200 px-16 py-8 hidden lg:block">
         <h1 class="text-3xl font-semibold mb-20 pt-10">
@@ -490,10 +506,11 @@
         </div>
     </div>
     <div class="flex flex-wrap overflow-hidden my-2">
+
         @foreach ($categories as $category)
             @if ($category->category_id == 40)
                 <div
-                    class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/5 xl:w-1/5">
+                    class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/3 lg:my-2 lg:px-2 lg:w-1/6 xl:w-1/6">
                     <a href="">
                         <div
                             class="border-2 border-gray-50 rounded flex justify-center items-center shadow-md hover:shadow-lg transition-shadow h-full py-5 px-5 md:py-3 md:py-3 sm:py-2 sm:py-2">
@@ -595,6 +612,24 @@
     </div>
 
     <div class="mx-6 sm:mx-16 lg:mx-16">
+        <h1 class="uppercase font-bold text-2xl">{{ _trans('TECHNOLOGIES WE USE') }}</h1>
+        <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
+        <div class="swiper-container main-slide">
+            <div class="swiper-wrapper flex items-center">
+                @foreach ($partnerships as $partnership)
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+
+                    <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
+                    @else{{asset('images/default-image.png')}}@endif">
+
+                </div>
+                @endforeach
+              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
+            </div>
+          </div>
+        </div>
+
+    <div class="mx-6 sm:mx-16 lg:mx-16">
         <h1 class="uppercase font-bold text-2xl">{{ _trans('PLATFORMS WE WORK WITH') }}</h1>
         <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
         <p class='text-lg text-gray-800'>Distilling deep tech experience, our experts can help you with platform-specific
@@ -602,31 +637,24 @@
             support
             for your business evolution.</p>
         <div class="py-3 flex justify-between flex-wrap">
-            <div class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/ebay.svg")}}"/>
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/sharepoint-logo.svg")}}"/>
             </div>
-            <div class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/ibm.svg")}}"/>
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/dynamics-365.svg")}}"/>
             </div>
-            <div class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/ford.svg")}}"/>
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/salesforce.svg")}}"/>
             </div>
-            <div class="w-full m-2 md:w-1/5 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/viber.svg")}}"/>
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/servicenow-logo.svg")}}"/>
+            </div>
+            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{asset("images/magento-logo.svg")}}"/>
             </div>
         </div>
         </div>
 
-        <div>
-            <div class=" mx-6 sm:mx-16 lg:mx-16">
-                <div class="my-4">
-                    <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('SUCCESS Stories') }}</h1>
-                    <hr class="w-10 h-0.5 border-none bg-yellow-500">
-                </div>
-            </div>
-
-
-            <!-- Ahadov ILhomjon -->
             @isset($blogs)
                 <div>
                     <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
@@ -659,7 +687,7 @@
                         @endforeach
                     </div>
                     <a href="{{ route('getBlade', ['page' => 'blog' ?? '404']) }}"
-                        class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/5 text-center"
+                        class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/6 text-center"
                         id="loadMore">All Blog Articles</a>
                 </div>
             @endisset
@@ -678,13 +706,13 @@
                 <div class="w-full">
                     <div class="w-full flex justify-between flex-wrap">
                         <input type="text" name="Name" placeholder="Full Name"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
                         <input type="text" name="Company" placeholder="Company"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
                         <input type="email" name="Email" placeholder="Work Email"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
                         <input type="tel" name="Phone" placeholder="Work Phone"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
+                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
                     </div>
                     <div class="border border-gray-400 rounded my-5">
                         <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription"

@@ -28,7 +28,7 @@
             </div>
           </div>
 
-          <div data-aos="fade-left" class="my-8 flex justify-center">
+          <div data-aos="fade-left" class="my-8 flex justify-center border-8 border-blue-600 rounded-tr-3xl rounded-bl-3xl">
             <img src="https://oe.uz/local/templates/oe/media/images/mobile/1.svg" alt="" />
           </div>
         </div>
@@ -400,7 +400,7 @@
 
 <div class="mt-48">
 
-        <div class="bg-gray-400 h-12"></div>
+        <div class="bg-gray-200 h-12"></div>
 
           <div class="px-8">
             <div
@@ -419,7 +419,7 @@
                   <input
                     type="text"
                     placeholder="Пример: Open Engine"
-                    class="h-12 w-full border-b border-blue-700"
+                    class="h-12 w-full border-b border-blue-700 outline-none"
                   />
                 </label>
               </form>

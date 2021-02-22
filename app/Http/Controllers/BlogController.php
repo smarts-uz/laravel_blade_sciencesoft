@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\DataTables\BlogDataTable;
 use App\Http\Requests;
 use App\Models\Blog;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreateBlogRequest;
 use App\Http\Requests\UpdateBlogRequest;
@@ -36,6 +37,7 @@ class BlogController extends AppBaseController
             return Datatables::of((new BlogDataTable())->get())->make(true);
         }
 
+
         return view('blogs.index');
     }
 
@@ -46,7 +48,13 @@ class BlogController extends AppBaseController
      */
     public function create()
     {
-        return view('blogs.create');
+        $tags = Category::where('category_id', '=', 21)->whereNull('deleted_at')->get();
+        $solutionstags = Category::where('category_id', '=', 30)->whereNull('deleted_at')->get();
+        $platformstags = Category::where('category_id', '=', 40)->whereNull('deleted_at')->get();
+        $techstags = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+
+        return view('blogs.create', ['tags'=>$tags, 'solutionstags'=>$solutionstags , 'platformstags'=>$platformstags, 'techstags'=>$techstags ]);
+
     }
 
     /**
@@ -60,7 +68,7 @@ class BlogController extends AppBaseController
     {
         $blog = new Blog();
         $blog->user_id=$request->user_id;
-        $blog->tag=$request->tag;
+        $blog['tag'] = json_encode($request['tag']);
         $blog->title=$request->title;
         $blog->description=$request->description;
         $blog->description_text=$request->description_text;
@@ -110,6 +118,10 @@ class BlogController extends AppBaseController
     public function edit($id)
     {
         $blog = $this->blogRepository->find($id);
+        $tags = Category::where('category_id', '=', 21)->whereNull('deleted_at')->get();
+        $solutionstags = Category::where('category_id', '=', 30)->whereNull('deleted_at')->get();
+        $platformstags = Category::where('category_id', '=', 40)->whereNull('deleted_at')->get();
+        $techstags = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
 
         if (empty($blog)) {
             Flash::error('Blog not found');
@@ -117,7 +129,7 @@ class BlogController extends AppBaseController
             return redirect(route('blogs.index'));
         }
 
-        return view('blogs.edit')->with('blog', $blog);
+        return view('blogs.edit', ['tags'=>$tags, 'solutionstags'=>$solutionstags , 'platformstags'=>$platformstags, 'techstags'=>$techstags ])->with('blog', $blog);
     }
 
     /**
@@ -132,7 +144,7 @@ class BlogController extends AppBaseController
     {
         $blog = $this->blogRepository->find($id);
         $blog->user_id=$request->user_id;
-        $blog->tag=$request->tag;
+        $blog['tag'] = json_encode($request['tag']);
         $blog->title=$request->title;
         $blog->description=$request->description;
         $blog->description_text=$request->description_text;

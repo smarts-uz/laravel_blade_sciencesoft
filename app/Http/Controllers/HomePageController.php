@@ -22,7 +22,7 @@ class HomePageController extends Controller
             ->with('childrenCategories')->whereNull('deleted_at')
             ->get();
         $blogs = Blog::all();
-        $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+        $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->where('image','<>', null)->get();
         return view('front.pages.index', ['categories'=> $categories, 'page'=>'front.pages.index', 'blogs'=>$blogs, 'partnerships'=>$partnerships]);
     }
 
@@ -59,15 +59,20 @@ class HomePageController extends Controller
             $products = Product::all();
             return $this->getDynamicPage($page, ['products' => $products]);
         }else if(str_contains($page, 'portfolios')){
-            $technologies=Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
-            $industries=Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
             $portfolios = Portfolio::all();
-            return $this->getDynamicPage($page, ['portfolios'=> $portfolios, 'technologies'=>$technologies, 'industries'=>$industries]);
+            return $this->getDynamicPage($page, ['portfolios'=> $portfolios]);
         }else if(str_contains($page, 'partnerships')){
             $partnerships=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partnerships' => $partnerships]);
         }else if(str_contains($page, 'ecommerce')){
-            return $this->getDynamicPage($page, null,  38);
+            $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners' => $partners],  38);
+        }else if(str_contains($page, 'about_company')){
+            $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners' => $partners]);
+        }else if(str_contains($page, 'awards_and_acknowledgement')){
+            $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners' => $partners]);
         }
         return $this->getDynamicPage($page);
 
@@ -85,6 +90,18 @@ class HomePageController extends Controller
             return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
         }
         return $this->getDynamicPage('blog', ['blogs'=>$blogs]);
+    }
+    public function getPortfolioByTechnology(Request $request)
+    {
+        $portfolios = Portfolio::latest();
+        if($request->technology_name){
+            $portfolios = $portfolios->where('technology', 'like', "%".$request->technology_name."%");
+        }
+        if($request->industry_name){
+            $portfolios = $portfolios->where('industry', 'like', "%".$request->industry_name."%");
+        }
+        $portfolios=$portfolios->get();
+        return $this->getDynamicPage('portfolios.portfolios', ['portfolios'=>$portfolios]);
     }
 
     public function getCategoryById($id)
