@@ -14,7 +14,7 @@
 
 
 
-<div class="mx-6 md:mx-16 lg:mx-24">
+<div class="mx-6 ">
     <div class="xl:px-60 mt-16">
         <h1 class="font-bold text-4xl text-center ">Quick Intro into the Topic of an Online Business License in
             Ecommerce</h1>

@@ -10,7 +10,7 @@
 
 
 
-<div class="mx-6 md:mx-16 lg:mx-24">
+<div class="mb-8">
     <div class="xl:px-60 mt-16">
         <h1 class="font-bold text-3xl text-center ">Integrate Ecommerce and POS Systems to Manage Two Sales Channels as
             One</h1>

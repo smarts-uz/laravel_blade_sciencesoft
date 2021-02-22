@@ -12,7 +12,7 @@
 
 
 
-<div class="block p-4 lg:p-7 xl:px-40">
+<div class="block">
     <div class="w-full mb-9">
         <h1 class="text-3xl font-bold text-gray-800 mb-4 md:text-4xl lg:text-5xl">
             Ecommerce Implementation Services
@@ -89,11 +89,11 @@
 
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next bg-gray-300 rounded-full w-12 h-12 text-transparent">
-                <i class="fas fa-arrow-right text-white absolute"></i>
+            <div class="swiper-button-next">
+            
             </div>
-            <div class="swiper-button-prev bg-gray-300 rounded-full w-12 h-12 text-transparent">
-                <i class="fas fa-arrow-left text-white absolute"></i>
+            <div class="swiper-button-prev">
+            
             </div>
         </div>
 
@@ -436,11 +436,11 @@
 
             </div>
             <div class="swiper-pagination"></div>
-            <div class="swiper-button-next bg-gray-300 rounded-full w-12 h-12 text-transparent">
-                <i class="fas fa-arrow-right text-white absolute"></i>
+            <div class="swiper-button-next ">
+                
             </div>
-            <div class="swiper-button-prev bg-gray-300 rounded-full w-12 h-12 text-transparent">
-                <i class="fas fa-arrow-left text-white absolute"></i>
+            <div class="swiper-button-prev">
+        
             </div>
         </div>
 

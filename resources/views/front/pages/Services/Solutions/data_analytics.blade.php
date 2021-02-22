@@ -58,18 +58,38 @@
             {{ _trans("WHY CHOOSE SCIENCESOFT AS YOUR DATA ANALYTICS SERVICE PROVIDER")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
-        <div class="container -mt-36">
-            <section class="customer-logos slider ">
-                <div class="slide"><img src="images/adidas.png" alt="logo"></div>
-                <div class="slide"><img src="images/facebook.png" alt="logo"></div>
-                <div class="slide"><img src="images/google.png" alt="logo"></div>
-                <div class="slide"><img src="images/instagram.png" alt="logo"></div>
-                <div class="slide"><img src="images/nike.png" alt="logo"></div>
-                <div class="slide"><img src="images/twitter.png" alt="logo"></div>
-                <div class="slide"><img src="images/uber.png" alt="logo"></div>
-                <div class="slide"><img src="images/youtube.png" alt="logo"></div>
-            </section>
+     
+
+
+<!-- Muhammadali carusel qoshdi -->
+<div class="swiper-container about-slide h-40">
+        <div class="swiper-wrapper flex items-center">
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ebay.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/deloitte.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ford.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ibm.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/leo-burnett.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nasa_1.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nestle.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/tieto.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/viber.svg') }}" alt=""></div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+
+
         <div>
             <ul class="list-disc text-base md:text-lg leading-loose">
                 <li class="my-8">

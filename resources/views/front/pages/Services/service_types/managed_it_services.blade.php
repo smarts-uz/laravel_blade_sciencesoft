@@ -214,6 +214,37 @@
         </li>
     </ul>
 </div>
+
+
+<!-- Muhammadali caruselni qoshdi -->
+
+<div class="swiper-container about-slide h-40">
+        <div class="swiper-wrapper flex items-center">
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ebay.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/deloitte.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ford.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ibm.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/leo-burnett.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nasa_1.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nestle.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/tieto.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/viber.svg') }}" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+
 <div class="text-2xl md:text-3xl font-bold mt-20">
     {{ _trans("Technologies We Work with")  }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
@@ -372,7 +403,9 @@
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 </div>
 
-================davomi bor Carousel=================
+Carusel bor
+
+
 
 <div class="text-2xl md:text-3xl font-bold mt-20">
     {{ _trans("Our Service Packages")  }}
@@ -607,5 +640,6 @@
         });
     });
 </script>
+
 
 @endsection

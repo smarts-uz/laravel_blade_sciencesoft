@@ -7,7 +7,7 @@
 
 @section('main')
 
-<div class="block p-4 lg:px-20">
+<div class="block p-4">
             <div class="w-full mb-16">
                 <h1 class="text-gray-800 font-bold text-xl md:text-2xl lg:text-3xl mb-4">
                     Ecommerce Consulting Services
@@ -48,7 +48,42 @@
                     About ScienceSoft
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-500 mb-6">
-                <h1 class="text-4xl font-bold mb-6">Carousel//////</h1>
+              
+
+
+<!-- Muhammadali carusel qoshdi -->
+
+
+                <div class="swiper-container about-slide h-40">
+        <div class="swiper-wrapper flex items-center">
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ebay.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/deloitte.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ford.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ibm.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/leo-burnett.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nasa_1.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nestle.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/tieto.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/viber.svg') }}" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+
+
+
+
                 <ul class="ml-4 mb-6" style="list-style: square;">
                     <li class="text-blue-500"><span class="text-gray-600 text-lg lg:text-xl">20+ ecommerce experts.</span></li>
                     <li class="text-blue-500"><span class="text-gray-600 text-lg lg:text-xl">17 years in ecommerce.</span></li>

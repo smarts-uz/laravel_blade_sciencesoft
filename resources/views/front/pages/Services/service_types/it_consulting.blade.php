@@ -16,101 +16,180 @@
          Leveraging 31-year experience in IT, ScienceSoft offers consultancy on holistic, fast, and cost-effective
          optimization of IT systems and processes to ensure tangible business outcomes.")  }}
       </p>
-      <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("Choose your option")  }}
-        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-      </div>
+   
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("CHOOSE YOUR SERVICE OPTION")  }}
+        {{ _trans("CHOOSE YOUR OPTION")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-      </div>
-
-      <div class="flex flex-row">
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-4 border-blue-800" />
-          <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Full-service IT outsourcing")  }}</p>
-            <p class="mb-3">{{ _trans("Drawing on your needs, we can suggest either an offshore dedicated team or team
-             augmentation model of cooperation to back up your .NET development project or migration of
-             legacy software to .NET. We offer pre-vetted developers, which match your requirements –
-             you’re free to screen them before the start of cooperation.")  }}</p>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans("Outsource 100% of it")  }}</button>
-          </div>
-        </div>
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-4 border-blue-800" />
-          <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Co-sourcing with an in-house IT team")  }}
-            </p>
-            <p class="mb-3">{{ _trans("Outsource your entire IT landscape, including IT service planning and
-             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
-            <p>
-              {{ _trans("We can also act as a service integrator taking up the management of your IT vendor
-               ecosystem.")  }}
-            </p>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans("Outsource 70%-90% of
-             it")  }}</button>
-          </div>
-        </div>
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-4 border-blue-800" />
-          <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Co-sourcing with an in-house IT team")  }}
-            </p>
-            <p class="mb-3">{{ _trans("Outsource your entire IT landscape, including IT service planning and
-             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
-            <p>
-              {{ _trans("We can also act as a service integrator taking up the management of your IT vendor
-               ecosystem.")  }}
-            </p>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans("Outsource 70%-90% of
-             it")  }}</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="flex flex-row my-10">
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-4 border-blue-800" />
-          <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Full-service IT outsourcing")  }}</p>
-            <p class="mb-3">{{ _trans("Drawing on your needs, we can suggest either an offshore dedicated team or team
-             augmentation model of cooperation to back up your .NET development project or migration of
-             legacy software to .NET. We offer pre-vetted developers, which match your requirements –
-             you’re free to screen them before the start of cooperation.")  }}</p>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans("Outsource 100% of it")  }}</button>
-          </div>
-        </div>
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
-          <hr class="w-full border-t-4 border-blue-800" />
-          <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Co-sourcing with an in-house IT team")  }}
-            </p>
-            <p class="mb-3">{{ _trans("Outsource your entire IT landscape, including IT service planning and
-             management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
-            <p>
-              {{ _trans("We can also act as a service integrator taking up the management of your IT vendor
-               ecosystem.")  }}
-            </p>
-
-            <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans("Outsource 70%-90% of
-             it")  }}</button>
-          </div>
         </div>
 
-      </div>
+
+<!-- Muhammadali gridlarni qoshdi -->
+
+        <div class="grid mt-6 md:grid-cols-2 lg:grid-cols-3 my-8 gap-4">
+    <div class="border pb-6 hover:shadow-md">
+        <div class="h-3 w-full bg-blue-500"></div>
+        <img width="120" height="108"
+             src="https://www.scnsoft.com/it-consulting/it-consulting-upd/business-digitalization-consulting.svg"
+             class="m-auto my-4" alt="">
+        <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Business digitalization consulting (for CEO)</h1>
+
+        <div class="px-4 text-md lg:text-xl text-gray-600">
+            <p class="mb-4">We assist in turning IT into a major contributor to a business performance increase with:</p>
+            <ul style="list-style: square;" class="flex flex-col ml-6 text-md lg:text-xl">
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">A value-driving </span>
+                    <span class="text-gray-700 font-bold">business-IT strategy.</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">A plan on </span>
+                    <span class="text-gray-700 font-bold">IT service delivery optimization.</span>
+                </li>
+            </ul>
+            <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                TRANSFORM YOUR IT
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="border pb-6 hover:shadow-md relative">
+        <div class="h-3 w-full bg-blue-500"></div>
+        <img width="120" height="108"
+             src="https://www.scnsoft.com/it-consulting/it-consulting-upd/it-strategy-consulting.svg"
+             class="m-auto my-4" alt="">
+        <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">IT strategy consulting (for CIO)</h1>
+
+        <div class="px-4 text-md lg:text-xl text-gray-600">
+            <p class="mb-4">We create a strategy that would bring together a diversified IT landscape and make it work towards supporting existing business processes and driving new business initiatives.</p>
+
+            <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 md:absolute bottom-6 right-4 left-4 text-white block text-center p-4">
+                BUILD YOUR IT STRATEGY
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="border pb-6 hover:shadow-md relative">
+        <div class="h-3 w-full bg-blue-500"></div>
+        <img width="120" height="108"
+             src="https://www.scnsoft.com/it-consulting/it-consulting-upd/solution-consulting.svg"
+             class="m-auto my-4" alt="">
+        <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Solution consulting (for project sponsor or PM)</h1>
+
+        <div class="px-4 text-md lg:text-xl text-gray-600">
+            <p class="mb-4">We analyze your business needs and help you make strategic decisions on the fast and successful implementation of business-critical solutions.</p>
+
+            <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 lg:absolute bottom-6 right-4 left-4 text-white block text-center p-4">
+                GET SOLUTION CONSULTING
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="border pb-6 hover:shadow-md relative">
+        <div class="h-3 w-full bg-blue-500"></div>
+        <img width="120" height="108"
+             src="https://www.scnsoft.com/it-consulting/it-consulting-upd/digital-transformation-consulting.svg"
+             class="m-auto my-4" alt="">
+        <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Digital transformation consulting (for DT leader)</h1>
+
+        <div class="px-4 text-md lg:text-xl text-gray-600">
+            <p class="mb-4">We help verify and plan digital transformation (DT) initiatives that will add the competitive edge to your business.</p>
+
+            <a href="#" class="bg-blue-700 lg:text-lg hover:bg-blue-800 mt-4 md:absolute bottom-6 right-4 left-4 text-white block text-center p-4">
+                GO FOR DT
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="border pb-6 hover:shadow-md relative">
+        <div class="h-3 w-full bg-blue-500"></div>
+        <img width="120" height="108"
+             src="https://www.scnsoft.com/it-consulting/it-consulting-upd/technology-consulting.svg"
+             class="m-auto my-4" alt="">
+        <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Technology consulting (for IT manager)</h1>
+
+        <div class="px-4 text-md lg:text-xl text-gray-600">
+            <p class="mb-4">We analyze the existing state of the technology area of your interest and assist in its steady evolution to make it play a more prominent role in your business growth.</p>
+
+            <a href="#" class="bg-blue-700 lg:text-lg  hover:bg-blue-800 mt-4 bottom-6 right-4 left-4 text-white block text-center p-4">
+                ADOPT NEW TECHNOLOGIES
+            </a>
+
+        </div>
+
+    </div>
+</div>
+
+      
+
+     
+
+
 
       <div class="text-2xl md:text-3xl font-bold">
         {{ _trans("Dedicated consulting services")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
-      ============Ishi bor==============
+
+
+<!-- Muhammadali gridlarni qoshdi -->
+
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-8  gap-4">
+    <a href="#" class="py-8 px-4 text-center  relative font-bold text-lg border hover:shadow-lg">Startup consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        SaaS/XaaS consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+
+        Cloud consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        CRM consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        Ecommerce consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        Data Analytics Consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        Data science consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        IoT consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        Cybersecurity Consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        ITSM consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+    <a href="#" class="py-8 px-4 text-center relative font-bold text-lg border hover:shadow-lg">
+        Computer vision consulting
+        <i class="fal fa-arrow-right absolute bottom-2 right-2 text-blue-700 transform rotate-45 hover:rotate-0 duration-300 "></i>
+    </a>
+
+</div>
+
 
       <div class="text-2xl md:text-3xl font-bold">
         {{ _trans("SCIENCESOFT’S APPROACH TO IT CONSULTING")  }}
@@ -189,6 +268,15 @@
            Feasibility analysis")  }}</a>
         </div>
       </div>
+
+
+
+
+    Carusel bor
+
+
+
+
 
       <div class="text-2xl md:text-3xl font-bold">
         {{ _trans("BENEFITS OF IT CONSULTING WITH SCIENCESOFT")  }}
@@ -369,5 +457,8 @@
 @endsection
 
 @section('js')
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 
 @endsection

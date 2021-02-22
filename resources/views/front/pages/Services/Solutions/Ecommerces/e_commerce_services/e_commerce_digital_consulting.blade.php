@@ -7,7 +7,7 @@
 
 @section('main')
 
-<main class="px-8">
+<main>
 
     <div class="container mx-auto">
 

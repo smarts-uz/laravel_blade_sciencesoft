@@ -7,7 +7,7 @@
 
 @section('main')
 
-<div class="block p-4 lg:p-7 xl:px-40">
+<div class="block mb-8">
     <h1 class="text-2xl font-bold text-gray-800 mb-8 md:text-4xl text-center">
         Ecommerce Personalization for Enhanced Online Experience: Be Helpful, Not Invasive
     </h1>

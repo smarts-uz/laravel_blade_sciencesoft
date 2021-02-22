@@ -7,7 +7,7 @@
 
 @section('main')
 
-<div class="block p-4 lg:px-20 ">
+<div class="block p-4  ">
         <div class="w-full mb-9">
             <div class="w-full mb-6">
                 <h1 class=" lg:text-3xl text-xl md:text-2xl mb-4 font-bold text-gray-800">
@@ -50,7 +50,38 @@
                         </div>
                     </div>
                 </div>
-                <h1 class=" lg:text-2xl text-4xl font-bold">Carousel/////</h1>
+               
+
+<!-- Muhammadali Carusel qoshdi -->
+
+                <div class="swiper-container about-slide h-40">
+        <div class="swiper-wrapper flex items-center">
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ebay.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/deloitte.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ford.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/ibm.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/leo-burnett.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nasa_1.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/nestle.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/tieto.svg') }}"></div>
+            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                    src="{{ asset('images/viber.svg') }}" alt=""></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+
+
+
             </div>
             <div class="card-box">
                 <div class="card md:flex md:justify-between">

@@ -7,7 +7,7 @@
 
 @section('main')
 
-<div class="block p-4 lg:px-20">
+<div class="block">
             <div class="w-full mb-16">
                 <h1 class="text-gray-800 font-bold text-xl md:text-2xl lg:text-3xl mb-4">
                     Ecommerce Consulting Services

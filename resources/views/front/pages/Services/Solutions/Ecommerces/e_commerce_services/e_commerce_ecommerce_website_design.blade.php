@@ -14,7 +14,7 @@
 
 
 
-<div class="mx-6 md:mx-16 lg:mx-24">
+<div class="block">
 
     <h1 class="uppercase font-bold mt-10 text-3xl">Ecommerce Website Design Services</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>

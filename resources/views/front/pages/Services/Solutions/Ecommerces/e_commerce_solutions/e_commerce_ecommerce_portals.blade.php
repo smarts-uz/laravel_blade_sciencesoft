@@ -7,7 +7,7 @@
 
 @section('main')
 
-<div class="block p-4 lg:p-7 xl:px-40">
+<div class="block mb-8">
     <h1 class="text-2xl font-bold text-gray-800 mb-4 md:text-4xl text-center lg:px-16">
         Ecommerce Portals: Business Guide
     </h1>
