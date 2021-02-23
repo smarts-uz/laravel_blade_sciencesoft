@@ -177,7 +177,7 @@
                     About TeamPRO
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-500 mb-6">
-               
+
 
 <!-- Muhammadali carusel qoshdi -->
 

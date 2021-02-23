@@ -119,57 +119,17 @@
             <div class="text-2xl md:text-3xl font-bold">
                 {{ _trans('OUR COMPETENCIES AND ACHIEVEMENTS') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            
-                <div class="swiper-container about-slide h-40">
-        <div class="swiper-wrapper flex items-center">
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/ebay.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/deloitte.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/ford.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/ibm.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/leo-burnett.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/nasa_1.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/nestle.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/tieto.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/viber.svg') }}" alt=""></div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
-            </div>
 
-            <div class="swiper-container about-slide h-40">
-                <div class="swiper-wrapper flex items-center">
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/ebay.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/deloitte.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/ford.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/ibm.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/leo-burnett.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/nasa_1.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/nestle.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/tieto.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/viber.svg') }}" alt=""></div>
+                <div class="swiper-container about-slide h-40">
+                    <div class="swiper-wrapper flex items-center">
+                        @foreach($partners as $partner)
+                            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                                    src="@if($partner->image) {{"/uploads/categories/" .$partner->image}} @else{{"asset(images/default-image.png)"}} @endif "></div>
+                        @endforeach
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
 
             <ul class="list-disc text-base md:text-xl px-5">
                 <li><strong>31 {{ _trans('years') }}</strong>
