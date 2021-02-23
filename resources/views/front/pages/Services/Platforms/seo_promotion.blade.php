@@ -17,7 +17,7 @@
             <div
               class="text-white text-4xl lg:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
-              Seo продвижение сайта в Ташкенте
+              Seo <br/> продвижение <br/> сайта в <br/> Ташкенте
             </div>
             <div class="lg:px-20">
               <a
@@ -97,7 +97,7 @@
 
 
         <div class="container mx-auto flex flex-col">
-            <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-3">
+            <div class="grid grid-cols-1 md:grid-cols-4 justify-center gap-3">
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="">
@@ -106,6 +106,7 @@
                         <h1 class="text-gray-700 font-bold text-base">Аудит сайта</h1>
                     </div>
                 </div>
+
                 <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
                     <div class="px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="">
@@ -169,14 +170,7 @@
                         <h1 class="text-gray-700 font-bold text-base">Внешняя оптимизация</h1>
                     </div>
                 </div>
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="">
-                    </div>
-                    <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
-                    </div>
-                </div>
+
              </div>
         </div>
 
@@ -292,7 +286,7 @@
               <input
                 type="text"
                 placeholder="Пример: Open Engine"
-                class="h-12 w-full border-b border-blue-700"
+                class="h-12 w-full border-b border-blue-700 outline-none"
               />
             </label>
           </form>
@@ -536,7 +530,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-600 "
+                class="  font-bold  text-gray-400 "
               >
                 6
               </p>
@@ -755,7 +749,7 @@
               <p
                 data-aos="fade-up"
                 style="font-size: 8rem"
-                class="  font-bold  text-gray-400 opacity-50"
+                class="  font-bold  text-gray-400 opacity-30"
               >
                 9
               </p>

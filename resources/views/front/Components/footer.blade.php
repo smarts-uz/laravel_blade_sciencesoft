@@ -10,25 +10,25 @@
           <div class="flex justify-between items-center w-full flex-wrap">
             <div class="flex justify-between w-full items-center flex-wrap">
               <span>
-                <a href="/">
+                <a href="{{asset('images/logoteampro/footer-logo.png')}}">
                 <img class="w-56 mt-4"
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+          src=""
           alt="Microsoft ASP.NET">
                 </a>
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base mt-4">
                 <i class="fas fa-map-marker-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ _trans("5900 S. Lake Forest Drive")  }}
-                  {{ _trans("Suite 300,")  }}<br/>
-                  {{ _trans("McKinney, Dallas area, TX 75070")  }}</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ _trans("100027, №2, Bog’ str.,")  }}
+                  {{ _trans("Shayxontohur district, ")  }}<br/>
+                  {{ _trans("Tashkent, Uzbekistan")  }}</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-phone-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">+1 214 306 68 37</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">+998 97 4037243</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-envelope"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white hover:underline ml-2">contact@scnsoft.com</i></a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white hover:underline ml-2">teamprodev@gmail.com</i></a>
               </span>
               <div class="my-2 flex w-full md:w-16">
                 <a href="#" class="text-white   hover:text-gray-50 px-1"><i class="fab fa-dribbble"></i></a>
@@ -53,7 +53,7 @@
             </div>
             <div>
               <span class="my-2 text-base text-white text-opacity-70 text-md ">{{_trans("For press inquries:")}}<a
-                  href="mailto: contact@scnsoft.com" class="text-white px-2 hover:underline text-opacity-70 text-md hover:text-white">
+                  href="mailto: teamprodev@gmail.com" class="text-white px-2 hover:underline text-opacity-70 text-md hover:text-white">
                   {{_trans("contact@scnsoft.com")}}</a></span>
             </div>
           </div>

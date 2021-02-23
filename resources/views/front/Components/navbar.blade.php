@@ -114,7 +114,7 @@
     <div class="flex justify-between items-center">
       <a href="/">
       <img class="w-32"
-        src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+        src="{{asset('/uploads/blogs/header-logo.png')}}"
         alt="Microsoft ASP.NET">
       </a>
       <div id="searchbar" class="flex justify-end items-center w-4/5">
