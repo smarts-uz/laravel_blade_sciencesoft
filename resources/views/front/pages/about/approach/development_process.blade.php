@@ -192,7 +192,7 @@
                                       elaborate on the concept of your software.') }}
                                 </p>
                             </div>
-        
+
                         </div>
                     </div>
                     <div class="col-12 mt-10 group flex flex-wrap">
@@ -209,15 +209,15 @@
                                 <h1 class="uppercase font-bold text-2xl">{{ _trans('Software development process and management') }}</h1>
                                 <p class="lg:text-lg lg:text-left text-center text-gray-400 lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                                     {{ _trans('In every project, we design UX and UI, build
-                                     a future-proof architecture as well as run coding, integration 
-                                     and deployment processes. We take care of the overall 
+                                     a future-proof architecture as well as run coding, integration
+                                     and deployment processes. We take care of the overall
                                     project management and regularly report to you on the development progress.
-                                    We suggest going for iterative development, as it 
-                                    enables to launch the first version of software in just 3-4 
+                                    We suggest going for iterative development, as it
+                                    enables to launch the first version of software in just 3-4
                                     months, and then get it further evolved every 1-4 weeks.') }}
                                 </p>
                             </div>
-        
+
                         </div>
                     </div>
                     <div class="col-12 mt-10 group flex flex-wrap">
@@ -233,11 +233,11 @@
                             <div class="lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
                                 <h1 class="uppercase font-bold text-2xl"><a href="#" class="hover:underline hover:text-blue-400">{{ _trans('QA & testing') }}</a></h1>
                                 <p class="lg:text-lg lg:text-left text-center text-gray-500 lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
-                                    {{ _trans('We keep up software quality with continuous testing, starting from unit tests and code reviews done by our developers to functionality, performance, usability, integration, compatibility and security testing by our QA team. A reasonable amount of test automation helps us speed 
+                                    {{ _trans('We keep up software quality with continuous testing, starting from unit tests and code reviews done by our developers to functionality, performance, usability, integration, compatibility and security testing by our QA team. A reasonable amount of test automation helps us speed
                                     up software delivery and minimize the number of missed bugs.') }}
                                 </p>
                             </div>
-        
+
                         </div>
                     </div>
                     <div class="col-12 mt-10 group flex flex-wrap">
@@ -256,7 +256,7 @@
                                     {{ _trans('We define and estimate risks related to the project budget, delivery
                                      time, cybersecurity, new technologies and personnel. Then, we prepare a mitigation
                                       plan for each risk, monitor risks and report to responsible project stakeholders
-                                       to keep all parties informed about existing 
+                                       to keep all parties informed about existing
                                     risks and their states and ensure the consistency of risk management actions.') }}
                                 </p>
                             </div>
@@ -276,7 +276,7 @@
                                 <h1 class="uppercase font-bold text-2xl">{{ _trans('Change management') }}</h1>
                                 <p class="lg:text-lg lg:text-left text-center text-gray-500 lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                                     {{ _trans('We review the required software changes with all parties
-                                     concerned, analyzing how the changes will impact software 
+                                     concerned, analyzing how the changes will impact software
                                     business logic and adapting it accordingly before any change implementation.') }}
                                 </p>
                             </div>
@@ -440,5 +440,10 @@
 
 
 @section('js')
-
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 @endsection
