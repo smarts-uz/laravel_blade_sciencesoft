@@ -30,7 +30,7 @@
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
-            <img src="{{asset('igrid-column-gap: 7remmages/open_engine/smm_promotion/images/intro.svg')}}" alt="" />
+            <img src="https://oe.uz/local/templates/oe/media/images/smm/intro.svg" alt="" />
           </div>
         </div>
       </div>
