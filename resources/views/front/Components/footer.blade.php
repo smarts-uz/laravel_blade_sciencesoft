@@ -12,7 +12,7 @@
               <span>
                 <a href="/">
                 <img class="w-56 mt-4"
-          src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+          src="{{ asset('assets/images/logo2.png') }}"
           alt="Microsoft ASP.NET">
                 </a>
               </span>
