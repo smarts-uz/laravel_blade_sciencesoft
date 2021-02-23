@@ -73,6 +73,33 @@ class HomePageController extends Controller
         }else if(str_contains($page, 'awards_and_acknowledgement')){
             $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partners' => $partners]);
+        }else if(str_contains($page, 'testing_and_qa')){
+            $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners' => $partners]);
+        }else if(str_contains($page, 'healthcare')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'it_outsourcing')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'it_support')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'managed_it_services')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'data_analytics')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'e_commmerce_ecommerce_consulting')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'e_commerce_ecommerce_development')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
+        }else if(str_contains($page, 'e_commerce_ecommerce_services')){
+            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
+            return $this->getDynamicPage($page, ['partners'=>$partners]);
         }else if(str_contains($page, 'contact_us')){
             return $this->getDynamicPage($page);
         }
