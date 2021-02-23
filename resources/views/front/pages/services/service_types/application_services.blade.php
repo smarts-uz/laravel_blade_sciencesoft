@@ -129,17 +129,20 @@
             <li class="pt-2"><strong>{{ _trans('Re-hosting') }}
                     –</strong>{{ _trans('moving an entire application from the on-premises or the old cloud infrastructure to the new cloud without significant modifications and changes in code.') }}
             </li>
-            <li class="pt-2"><strong>{{ _trans('Re-hosting') }}
-                    –</strong>{{ _trans('moving an entire application from the on-premises or the old cloud infrastructure to the new cloud without significant modifications and changes in code.') }}
+
+            <li class="pt-2"><strong>{{ _trans('Re-platforming') }}
+                    –</strong>{{ _trans('moving a part or an entire application to the cloud with small optimizations and upgrades to leverage such cloud capabilities as automated performance scaling and improved resillience.') }}
             </li>
-            <li class="pt-2"><strong>{{ _trans('Re-hosting') }}
-                    –</strong>{{ _trans('moving an entire application from the on-premises or the old cloud infrastructure to the new cloud without significant modifications and changes in code.') }}
+
+            <li class="pt-2"><strong>{{ _trans('Re-architecting') }}
+                    –</strong>{{ _trans('changing an application’s architecture and design to make it more scalable, flexible, and integration-friendly or to allow for simplified app maintenance and streamlined testing and deployment of further upgrades.') }}
             </li>
-            <li class="pt-2"><strong>{{ _trans('Re-hosting') }}
-                    –</strong>{{ _trans('moving an entire application from the on-premises or the old cloud infrastructure to the new cloud without significant modifications and changes in code.') }}
+
+            <li class="pt-2"><strong>{{ _trans('Re-engineering') }}
+                    –</strong>{{ _trans('redesigning certain application components, updating certain aspects (e.g., performance, functionality) or introducing new elements to an already existing system.') }}
             </li>
-            <li class="pt-2"><strong>{{ _trans('Re-hosting') }}
-                    –</strong>{{ _trans('moving an entire application from the on-premises or the old cloud infrastructure to the new cloud without significant modifications and changes in code.') }}
+            <li class="pt-2"><strong>{{ _trans('Re-coding') }}
+                    –</strong>{{ _trans('rewriting legacy applications on PowerBuilder, Delphi, VB, C++, etc. and outdated versions of Java, .NET, PHP and Python with modern technologies and tools.') }}
             </li>
         </ul>
 
