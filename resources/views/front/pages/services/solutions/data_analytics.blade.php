@@ -61,7 +61,6 @@
             {{ _trans('WHY CHOOSE TEAMPRO AS YOUR DATA ANALYTICS SERVICE PROVIDER') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
-<<<<<<< HEAD:resources/views/front/pages/Services/Solutions/data_analytics.blade.php
      
 
 
@@ -86,31 +85,6 @@
                     src="{{ asset('images/tieto.svg') }}"></div>
             <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
                     src="{{ asset('images/viber.svg') }}" alt=""></div>
-=======
-        <div class="swiper-container about-slide h-40">
-            <div class="swiper-wrapper flex items-center">
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/ebay.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/deloitte.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/ford.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/ibm.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/leo-burnett.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/nasa_1.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/nestle.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/tieto.svg') }}"></div>
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="{{ asset('images/viber.svg') }}" alt=""></div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
->>>>>>> 4d661ca473b121839673ace280f696d3f04900a2:resources/views/front/pages/services/solutions/data_analytics.blade.php
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
