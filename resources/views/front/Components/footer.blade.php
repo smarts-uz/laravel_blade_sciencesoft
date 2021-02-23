@@ -12,7 +12,7 @@
               <span>
                 <a href="/">
                 <img class="w-56 mt-4"
-          src="{{ asset('assets/images/logo2.png') }}"
+          src="{{ asset('assets/images/Group 24.png') }}"
           alt="Microsoft ASP.NET">
                 </a>
               </span>
