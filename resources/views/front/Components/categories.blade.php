@@ -72,7 +72,7 @@
                 @endforeach
                 <li
                     class="flex justify-center rounded items-center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
-                    <a class="text-sm font-bold" href="/contact-us">Let's talk</a>
+                    <a class="text-sm font-bold" href="{{ route('getBlade', ['page' => 'contact_us']) }}">Let's talk</a>
                 </li>
             </ul>
             <!-- Search Bar -->
