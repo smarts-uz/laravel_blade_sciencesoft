@@ -14,8 +14,7 @@
                 <hr class="w-10 h-1 bg-yellow-600">
             </div>
             <div>
-                <img src="https://www.scnsoft.com/about/awards-recognitions/awards-and-recognitions-teampro-01.svg"
-                    alt="">
+                <img src="https://www.scnsoft.com/about/awards-recognitions/awards-and-recognitions-teampro-01.svg" alt="">
             </div>
 
             <div class="text-lg my-10">
@@ -225,99 +224,28 @@
                 </div>
             </div>
 
-            <div class="my-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-                <div class="flex flex-col md:flex-row items-start">
-                    <div class="flex justify-center items-center w-1/4 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                        <img class="w-full h-full md:w-60 md:h-60"
-                            src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
-                    </div>
-                    <div class=" flex flex-col w-3/5">
-                        <h1 class="text-2xl md:text-3xl font-bold">{{ _trans('Boris Shiklo, CTO:') }}</h1>
-                        <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                        <div class="text-xl">
-                            <p class="my-10">
-                                {{ _trans("“It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                                tend to result in excessive hours spent.") }}
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="my-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-                <div class="flex flex-col md:flex-row items-start">
-                    <div class="flex justify-center items-center w-1/4 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                        <img class="w-full h-full md:w-60 md:h-60"
-                            src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
-                    </div>
-                    <div class=" flex flex-col w-3/5">
-                        <h1 class="text-2xl md:text-3xl font-bold">{{ _trans('Boris Shiklo, CTO:') }}</h1>
-                        <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                        <div class="text-xl">
-                            <p class="my-10">
-                                {{ _trans("“It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                                tend to result in excessive hours spent.") }}
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-2xl md:text-3xl font-bold mt-20">
-                {{ _trans('OUR AWARD-WINNING PROJECTS') }}
+            <div class="mt-20">
+                <h1 class="text-2xl md:text-3xl font-bold ">{{ _trans('OUR AWARD-WINNING PROJECTS') }}</h1>
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            </div>
-
-            <div class="my-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-                <div class="flex flex-col md:flex-row items-start">
-                    <div class="flex justify-center items-center w-1/4 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                        <img class="w-full h-full md:w-60 md:h-60"
-                            src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
-                    </div>
-                    <div class=" flex flex-col w-3/5">
-                        <h1 class="text-2xl md:text-3xl font-bold">{{ _trans('Boris Shiklo, CTO:') }}</h1>
-                        <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                        <div class="text-xl">
-                            <p class="my-10">
-                                {{ _trans("“It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                                tend to result in excessive hours spent.") }}
-                            </p>
+                <div>
+                    <div class="w-full flex py-3 border border-gray-200">
+                        <img
+                            src="https://www.scnsoft.com/screenshots/screenshots-slider-with-content/information-security/image-thumb__18021__auto_3ca4101f19bef858b11d4c063bb36968/qlean-demo-02.png">
+                        <div class="px-5">
+                            <h1 class="text-2xl md:text-3xl font-bold ">
+                                {{ _trans('ScienceSoft’s iOS and Android mobile banking apps for one of the major banks in the Eastern Europe') }}
+                            </h1>
+                            <hr class="border-t-2 w-12 border-yellow-500 mt-4 mb-4">
                             <p>
-                                {{ _trans("QLEAN is an off-the-shelf automated tuning, optimization and health assessment tool that
-                                delivers a 360-degree view of IBM QRadar SIEM and conducts a thorough analysis of multiple
-                                QRadar deployment parameters including performance metrics, quality of incoming data and
-                                system settings. QLEAN provides a detailed QRadar health check report and actionable
-                                recommendations for any necessary fixes and enhancements.
-                                Global clients include Fortune 500, The Forbes Global 2000, TOP 10 MSSPs, Government and Law
-                                Enforcement agencies.") }}
+                                {{ trans('Awarded gold in The Best Mobile Banking for iOS – 2015 category and The Best Mobile Banking
+                                for Android – 2015 category and silver in The Android Mobile App – 2014 category by
+                                Infobank.') }}
                             </p>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="my-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-                <div class="flex flex-col md:flex-row  items-start">
-                    <div class="flex justify-center items-center w-1/4 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                        <img class="w-full h-full md:w-60 md:h-60"
-                            src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
-                    </div>
-                    <div class=" flex flex-col w-3/5">
-                        <h1 class="text-2xl md:text-3xl font-bold">{{ _trans('Boris Shiklo, CTO:') }}</h1>
-                        <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                        <div class="text-xl">
-                            <p class="my-10">
-                                {{ _trans("“It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                                tend to result in excessive hours spent.") }}
-                            </p>
+                            <br>
                             <p>
-                                {{ _trans("Infobank.by is a financial and analytical portal covering all major events from the world of
+                                {{ trans('Infobank.by is a financial and analytical portal covering all major events from the world of
                                 finance in the Eastern Europe. Infobank.by is dedicated to the idea of financial literacy
-                                and takes a proactive stand in its promotion.") }}
-
+                                and takes a proactive stand in its promotion.') }}
                             </p>
                         </div>
                     </div>
@@ -328,26 +256,13 @@
                 {{ _trans('PUBLICATIONS IN THE MEDIA') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </div>
+
             <div class="swiper-container about-slide h-40">
                 <div class="swiper-wrapper flex items-center">
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/ebay.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/deloitte.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/ford.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/ibm.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/leo-burnett.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/nasa_1.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/nestle.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/tieto.svg') }}"></div>
-                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                            src="{{ asset('images/viber.svg') }}" alt=""></div>
+                    @foreach ($partners as $partner)
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="@if ($partner->image) {{ '/uploads/categories/' . $partner->image }}
+                            @else{{ 'asset(images/default-image.png)' }} @endif "></div>
+                    @endforeach
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>

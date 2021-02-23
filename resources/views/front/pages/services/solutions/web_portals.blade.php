@@ -17,12 +17,12 @@
         </p>
 
 
-        <div class="border hover:shadow-2xl	mb-5">
-            <div class="flex res-fel mt-6">
+        <div class="border rounded hover:shadow-2xl	mb-5">
+            <div class="flex justify-between mt-6">
 
                 <div>
-                    <h1 class="fond-thin font-bold ml-5 mb-4 pt-2 text-2xl">Create Your Portal from A to Z under One
-                        <br>Roof</h1>
+                    <h1 class="fond-thin font-bold ml-5 mb-4 pt-2 text-2xl">Create Your Portal from A to Z under One Roof
+                    </h1>
                     <hr class="w-12 border-b-3 border-yellow-500 pl-4 ml-4 my-4" />
                     <ul class="pl-12 text-xl text-gray-600 pr-12 ">
                         <li class="flex res-text-siz">
@@ -38,11 +38,9 @@
                             portal version.
                         </li>
 
-                        <button class="mt-12 mb-24 bg-blue-700">
+                        <button class="mt-12 mb-24 rounded bg-blue-700">
                             <p class="p-2 text-lg text-white">DISCUSS MY WEB PORTAL</p>
                         </button>
-
-
 
                     </ul>
                 </div>
@@ -59,18 +57,21 @@
 
 
         </div>
-        <div class="mt-10 mb-7 fond-thin ml-10 text-3xl">
+        <div class="mt-10 mb-7 fond-thin text-3xl">
             <h1><strong>OUR CUSTOMERS SAY</strong></h1>
             <hr class="w-12 border-b-3 border-yellow-500 pl-2 ml-1 my-4" />
         </div>
-        <p class="leading-8 pl-5 text-2xl text-gray-600 -pr-5">Harding and Carbone has been very pleased with selecting
-            TeamPRO as our vendor for developing a client portal for our customers.<br>
+        <p class="leading-8 pl-5 text-2xl text-gray-600 -pr-5">
+            {{ trans('Harding and Carbone has been very pleased with selecting
+            TeamPRO as our vendor for developing a client portal for our customers.') }}<br>
 
-            <br>Their professionalism, expertise, guidance, organization, and timing has been wonderful. They were also very
+            <br>
+            {{ trans('Their professionalism, expertise, guidance, organization, and timing has been wonderful. They were also very
             patient with explaining their process and the next steps if we ran into any issues that we did not
-            understand.<br>
-
-            <br><strong>Amber Amescua, Director of Operations, Harding and Carbone</strong>
+            understand.') }}
+            <br>
+            <br>
+            <strong>{{ trans('Amber Amescua, Director of Operations, Harding and Carbone') }}</strong>
 
         </p>
         <div class="imagine ml-7">
@@ -80,8 +81,8 @@
         </div>
 
         <div class="mt-8 fond-thin font-bold  text-3xl">
-            <h1 class="m-4">WEB PORTALS WE DELIVER</h1>
-            <hr class="w-12 border-b-3 border-yellow-500 pl-4 ml-4 my-4" />
+            <h1>{{ trans('WEB PORTALS WE DELIVER') }}</h1>
+            <hr class="w-12 border-b-3 border-yellow-500 my-4" />
         </div>
         <div class="border hover:shadow-2xl 	">
 
@@ -390,7 +391,8 @@
                 <br>
                 <p class=" leading-8 pl-6 text-2xl text-gray-600 pr-6 pb-8">These are just a few examples out of an
                     extensive functionality that is packed in <br>a responsive design to let our educational portals
-                    <strong>provide the true learning experience</strong>.</p>
+                    <strong>provide the true learning experience</strong>.
+                </p>
 
             </div>
 
@@ -405,7 +407,7 @@
                 challenging portal<br> projects to help your leverage streamlined, transparent and consistent<br> web
                 communication with your clients, partners, employees, or<br> community.
             </p>
-            <button class="mt-4 ml-6 mb-24 bg-blue-700">
+            <button class="mt-4 ml-6 bg-blue-700">
                 <p class="p-3 text-lg text-white">DISCUSS MY WEB PORTAL</p>
             </button>
 

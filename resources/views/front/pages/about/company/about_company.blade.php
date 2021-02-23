@@ -12,8 +12,8 @@
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans('About TeamPRO – Global IT Company') }}
         </h1>
-        <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
-        <img src="https://www.scnsoft.com/about/company-new/about-company-teampro" />
+        <hr class="border-t-2 w-12 border-yellow-600 my-1" />
+        <img src="https://www.scnsoft.com/cover-pictures/data-analytics.svg" />
         <p class="my-5 text-lg">
             {{ _trans("Founded in 1989, TeamPROa provider of IT consulting and software
             development services. Having started as a small AI product company, we
@@ -119,9 +119,9 @@
 
     <div class="swiper-container about-slide h-40">
         <div class="swiper-wrapper flex items-center">
-            @foreach($partners as $partner)
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                        src="@if($partner->image) {{"/uploads/categories/" .$partner->image}} @else{{"asset(images/default-image.png)"}} @endif "></div>
+            @foreach ($partners as $partner)
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="@if ($partner->image) {{ '/uploads/categories/' . $partner->image }}
+                    @else{{ 'asset(images/default-image.png)' }} @endif "></div>
             @endforeach
         </div>
         <div class="swiper-button-next"></div>
@@ -288,26 +288,13 @@
                 more than a year. Some of our prominent clients include:") }}
     </p>
 
+
     <div class="swiper-container about-slide h-40">
         <div class="swiper-wrapper flex items-center">
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/ebay.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/deloitte.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/ford.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/ibm.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/leo-burnett.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/nasa_1.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/nestle.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/tieto.svg') }}"></div>
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
-                    src="{{ asset('images/viber.svg') }}" alt=""></div>
+            @foreach ($partners as $partner)
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="@if ($partner->image) {{ '/uploads/categories/' . $partner->image }}
+                    @else{{ 'asset(images/default-image.png)' }} @endif "></div>
+            @endforeach
         </div>
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
@@ -400,7 +387,7 @@
 
     </div>
 
-    <div class='flex justify-between items-center p-10 shadow-2xl my-20'>
+    <div class='flex justify-between items-center p-10 shadow-2xl border border-200 my-20'>
         <div class='w-2/3'>
             <h1 class='text-gray-900 mt-6'>
                 <p class='text-2xl font-bold'>

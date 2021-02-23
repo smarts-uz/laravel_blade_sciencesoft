@@ -9,7 +9,7 @@
     <div class="block">
         <div class="card w-full my-4">
             <h1 class="text-3xl text-gray-800 font-bold">{{ _trans('Testimonials') }}</h1>
-            <hr class="w-12 my-3 border-b-2 bg-yellow-300">
+            <hr class="border-t-2 w-12 border-yellow-600 my-1" />
             <p class="text-gray-600 text-md leading-7 md:leading-8 lg:leading-9 md:text-lg lg:text-xl">
                 {{ _trans('We collaborate with companies from') }} <strong>37 {{ _trans('countries') }}</strong>
                 {{ _trans('and') }} <strong>23 {{ _trans('industries') }}</strong>.
@@ -29,7 +29,7 @@
             <div class="lg:flex-row lg:w-1/2">
                 <h1 class="text-2xl lg:3xl text-gray-800 font-bold">
                     {{ _trans('Leo Burnett Worldwide: What Is Working with TeamPRO Like') }}</h1>
-                <hr class="w-12 my-3 border-b-2 bg-yellow-300">
+                <hr class="border-t-2 w-12 border-yellow-600 my-1" />
                 <p class="text-gray-600 text-md md:text-lg lg:text-xlleading-7 md:leading-8 lg:leading-9">
                     {{ _trans("For 4 years, TeamPRO have been an outsourcing partner of a global advertising agency
                     Leo Burnett Worldwide. Sam Gooby, Head of Platform Production at Leo Burnett, shares his
