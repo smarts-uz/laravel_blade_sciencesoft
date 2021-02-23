@@ -1,4 +1,4 @@
-var swiper = new Swiper('.main-slide', {
+new Swiper('.main-slide', {
     slidesPerView: 1,
     spaceBetween: 10,
     autoplay: {
@@ -21,7 +21,7 @@ var swiper = new Swiper('.main-slide', {
       }
   });
 
-  var swiper = new Swiper('.about-slide', {
+new Swiper('.about-slide', {
     slidesPerView: 1,
     spaceBetween: 10,
     autoplay: {
@@ -47,3 +47,13 @@ var swiper = new Swiper('.main-slide', {
         },
       }
   });
+
+  new Swiper('.big-slide', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+});

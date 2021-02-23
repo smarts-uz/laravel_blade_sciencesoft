@@ -2,8 +2,8 @@
     <div class="flex justify-between items-center">
         <a href="/">
             <img class="w-32"
-                src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
-                alt="Microsoft ASP.NET">
+                src="{{ asset('assets/images/logo2.png') }}"
+                alt="logo">
         </a>
         <div id="searchbar" class="flex justify-end items-center w-4/5">
             <ul class="w-11/12 hidden lg:flex justify-end items-center list-none">
@@ -72,7 +72,7 @@
                 @endforeach
                 <li
                     class="flex justify-center rounded items-center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
-                    <a class="text-sm font-bold" href="/contact-us">Let's talk</a>
+                    <a class="text-sm font-bold" href="{{ route('getBlade', ['page' => 'contact_us']) }}">Let's talk</a>
                 </li>
             </ul>
             <!-- Search Bar -->
