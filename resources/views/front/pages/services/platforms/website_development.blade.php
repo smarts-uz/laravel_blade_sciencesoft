@@ -12,11 +12,11 @@
         <div class="py-8 grid grid-cols-1 items-center lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20 ">
             <div data-aos="fade-right">
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
-                    Разработка и <br> создание <br> сайтов в <br> Ташкенте
+                    {{ _trans("Разработка и ") }} <br> {{ _trans("создание") }} <br> {{ _trans("сайтов в") }} <br> {{ _trans("Ташкенте") }}
                 </div>
                 <div class="lg:px-20">
                     <a href="#" class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
-                        Получить консультацию
+                        {{ _trans("Получить консультацию") }}
                     </a>
                 </div>
             </div>
@@ -33,31 +33,31 @@
             <div class="pt-8" data-aos="fade-left">
                 <img src="{{asset('images/open_engine/images/1/1.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Интернет-магазин
+                    {{ _trans(" Интернет-магазин") }}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-left">
                 <img src="{{asset('images/open_engine/images/1/2.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Landing Page
+                    {{ _trans("Landing Page") }}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-up">
                 <img src="{{asset('images/open_engine/images/1/3.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Техническая поддержка
+                    {{ _trans("Техническая поддержка") }}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-right">
                 <img src="{{asset('images/open_engine/images/1/4.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Корпоративные сайты
+                    {{ _trans("Корпоративные сайты") }}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-right">
                 <img src="{{asset('images/open_engine/images/1/5.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Сложные системы
+                    {{ _trans("Сложные системы") }}
                 </p>
             </div>
         </div>
@@ -67,7 +67,7 @@
                     data-aos="fade-down"
                     class="text-3xl sm:text-4xl text-center font-bold text-blue-700 z-10"
             >
-                Что входит в создание сайта?
+            {{ _trans("Что входит в создание сайта?") }}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
@@ -89,7 +89,7 @@
                 <p class="font-bold pb-5 pt-2">01</p>
                 <img src="{{asset('images/open_engine/images/2/1.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md">
-                    Продуманный и функциональный <br> прототип
+                    {{ _trans("Продуманный и функциональный") }} <br>  {{ _trans("прототип") }}
                 </p>
             </div>
 
@@ -100,7 +100,7 @@
                 <p class="font-bold pb-5 pt-2">02</p>
                 <img src="{{asset('images/open_engine/images/2/2.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Красивый продающий <br> дизайн
+                    {{ _trans("Красивый продающий") }} <br>  {{ _trans("дизайн") }}
                 </p>
             </div>
 
@@ -111,7 +111,7 @@
                 <p class="font-bold pb-5 pt-2">03</p>
                 <img src="{{asset('images/open_engine/images/2/3.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Адаптация под <br> любые устройства
+                    {{ _trans("Адаптация под") }} <br> {{ _trans("любые устройства") }}
                 </p>
             </div>
         </div>
@@ -125,7 +125,7 @@
                 <p class="font-bold pb-5 pt-2">04</p>
                 <img src="{{asset('images/open_engine/images/2/4.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Правильная техническая <br> структура и грамотная верстка
+                    {{ _trans("Правильная техническая") }} <br>  {{ _trans("структура и грамотная верстка") }}
                 </p>
             </div>
 
@@ -136,7 +136,7 @@
                 <p class="font-bold pb-5 pt-2">05</p>
                 <img src="{{asset('images/open_engine/images/2/5.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Наполнение продающим контентом
+                    {{ _trans("Наполнение продающим контентом") }}
                 </p>
             </div>
 
@@ -147,7 +147,7 @@
                 <p class="font-bold pb-5 pt-2">06</p>
                 <img src="{{asset('images/open_engine/images/2/6.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Предварительное тестирование
+                    {{ _trans("Предварительное тестирование") }}
                 </p>
             </div>
         </div>
@@ -157,7 +157,7 @@
                     data-aos="fade-down"
                     class="text-2xl sm:text-4xl font-bold text-blue-700 z-10"
             >
-                Этапы разработки сайта
+            {{ _trans("Этапы разработки сайта") }}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
@@ -182,12 +182,12 @@
                     <h1
                             class="sm:text-3xl text-2xl font-bold text-gray-700 py-5 leading-none z-10"
                     >
-                        Согласование целей и <br/>задач
+                    {{ _trans("Согласование целей и") }} <br/>{{ _trans("задач") }}
                     </h1>
                     <ul class="list-disc pl-5 text-gray-700 text-base">
-                        <li>Определяем задачу, которую должен решать сайт</li>
-                        <li>Анализируем конкурентов</li>
-                        <li>Анализируем особенности целевой аудитории</li>
+                        <li>{{ _trans("Определяем задачу, которую должен решать сайт") }}</li>
+                        <li>{{ _trans("Анализируем конкурентов") }}</li>
+                        <li>{{ _trans("Анализируем особенности целевой аудитории") }}</li>
                     </ul>
                 </div>
                 <div class="m-auto pt-8">
@@ -201,12 +201,12 @@
                 </div>
                 <div data-aos="fade-right" class="flex flex-col justify-center m-auto relative z-10">
                     <h1 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none">
-                        Прототип и дизайн
+                        {{ _trans("Прототип и дизайн") }}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Выбираем прототип сайта</li>
-                        <li>Определяемся с дизайном</li>
-                        <li>Подготавливаем визуальную часть</li>
+                        <li>{{ _trans("Выбираем прототип сайта") }}</li>
+                        <li>{{ _trans("Определяемся с дизайном") }}</li>
+                        <li>{{ _trans("Подготавливаем визуальную часть") }}</li>
                     </ul>
                 </div>
             </div>
@@ -221,12 +221,12 @@
                     <h1
                             class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
                     >
-                        Верстка дизайна
+                    {{ _trans("Верстка дизайна") }}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Верстаем визуальную часть сайта</li>
-                        <li>Подгоняем вид сайта под дизайн</li>
-                        <li>Оптимизируем код для дальнейшего программирования</li>
+                        <li>{{ _trans("Верстаем визуальную часть сайта") }}</li>
+                        <li>{{ _trans("Подгоняем вид сайта под дизайн") }}</li>
+                        <li>{{ _trans("Оптимизируем код для дальнейшего программирования") }}</li>
                     </ul>
                 </div>
                 <div class="m-auto pt-8">
@@ -247,14 +247,14 @@
                     <h1
                             class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
                     >
-                        Программирование
+                    {{ _trans("Программирование") }}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Подготавливем код сайта</li>
-                        <li>Интегрируем код в CMS (платформа управления сайтом)</li>
+                        <li>{{ _trans("Подготавливем код сайта") }}</li>
+                        <li>{{ _trans("Интегрируем код в CMS (платформа управления сайтом)") }}</li>
                         <li>
-                            Подключаем внешние системы и упрощаем интерфейс CMS (если Вы в
-                            дальнейшем планируете сами работать над сайтом)
+                            {{ _trans("Подключаем внешние системы и упрощаем интерфейс CMS (если Вы в
+                            дальнейшем планируете сами работать над сайтом)") }}
                         </li>
                     </ul>
                 </div>
@@ -266,12 +266,12 @@
                         data-aos="fade-right"
                         class="flex flex-col justify-center m-auto relative z-10">
                     <h1 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none">
-                        А\Б - тестирование
+                        {{ _trans("А\Б - тестирование") }}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Первичное тестирование системы</li>
-                        <li>Тестирование внешних систем сайта</li>
-                        <li>Правка и доработка</li>
+                        <li>{{ _trans("Первичное тестирование системы") }}</li>
+                        <li>{{ _trans("Тестирование внешних систем сайта") }}</li>
+                        <li>{{ _trans("Правка и доработка") }}</li>
                     </ul>
                 </div>
                 <div class="m-auto pt-8">
@@ -287,13 +287,13 @@
                 <div data-aos="fade-right" class="pl-20 m-auto">
                     <h1
                             class="text-3xl font-bold text-gray-700 py-5 leading-none -ml-5">
-                        Наполнение и запуск
+                        {{ _trans("Наполнение и запуск") }}
                     </h1>
                     <ul class="list-disc text-gray-700 text-base">
-                        <li>Наполняем контентом</li>
-                        <li>Проводим конечную проверку</li>
-                        <li>Запускаем сайт</li>
-                        <li>Техническая поддержка сайта</li>
+                        <li>{{ _trans("Наполняем контентом") }}</li>
+                        <li>{{ _trans("Проводим конечную проверку") }}</li>
+                        <li>{{ _trans("Запускаем сайт") }}</li>
+                        <li>{{ _trans("Техническая поддержка сайта") }}</li>
                     </ul>
                 </div>
             </div>
@@ -308,10 +308,10 @@
                 class="max-w-3xl mx-auto bg-white shadow-2xl rounded-3xl p-10 sm:p-20 -mt-56">
             <h1
                     class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700">
-                Заполните форму прямо сейчас и получите квалифицированную бесплатную
-                консультацию.
+                    {{ _trans("Заполните форму прямо сейчас и получите квалифицированную бесплатную
+                консультацию.") }}
             </h1>
-            <h2 class="text-lg p-6 pl-13">Название организации</h2>
+            <h2 class="text-lg p-6 pl-13">{{ _trans("Название организации") }}</h2>
             <form>
                 <label>
                     <input type="text" placeholder="Пример: Open Engine" class="h-12 w-full border-b border-blue-700 outline-none"/>
@@ -322,11 +322,11 @@
             <div class="flex justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
                     <a href="" class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        Назад
+                        {{ _trans(" Назад") }}
                     </a>
 
                     <a href="" class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        Далее
+                        {{ _trans(" Далее") }}
                     </a>
                 </div>
             </div>
@@ -335,7 +335,7 @@
 
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-            Кейсы
+            {{ _trans("Кейсы") }}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
             <p data-aos="fade-up"  class="  font-bold  text-gray-300 text-9xl">
@@ -352,24 +352,24 @@
                         <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
+                        <p><b> {{ _trans("Клиент:") }}</b></p>
+                        <p> {{ _trans("Мебельная фабрика Keng Makon") }}</p>
 
-                        <p><b>Год создания:</b></p>
+                        <p><b> {{ _trans("Год создания:") }}</b></p>
                         <p>2020</p>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+                        <p><b> {{ _trans("Тип сайта:") }}</b></p>
+                        <p> {{ _trans("Разработка интернет-магазина.") }}</p>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+                        <p><b> {{ _trans("Направление:") }}</b></p>
+                        <p> {{ _trans("Мебель") }}</p>
 
-                        <p><b>Технология:</b></p>
+                        <p><b> {{ _trans("Технология:") }}</b></p>
                         <p class="border-b pb-5 mb-10">1C </p>
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                             {{ _trans("заказать") }}
                         </a>
                     </div>
 
