@@ -211,21 +211,22 @@
 
 
         </div>
-        <div class="rounded-sm border-2 border-white shadow-2xl  transition-shadow w-full mr-20 p-8">
+        <div class="rounded border border-gray-200 shadow-2xl transition-shadow w-full flex justify-between mr-20 p-8">
             <div class="flex flex-col">
                 <h1 class="text-xl font-bold">{{ _trans('Eager to Improve Your Insurance Services?') }}</h1>
-                <hr class="w-12 border-b-2 border-yellow-600  my-4" />
+                <hr class="w-12 h-0.5 bg-yellow-600 my-4" />
                 <div class=" flex flex-wrap">
                     <p class="text-gray-400 text-xl w-full lg:w-4/5">
                         {{ _trans('TeamPRO’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.') }}
                     </p>
-                    <button
-                        class="uppercase text-white bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center cursor-pointer">{{ _trans('request a consultation') }}</button>
                 </div>
             </div>
+            <button
+                class="uppercase text-white rounded bg-blue-700 py-2 px-4 w-2/5 mt-8 lg:w-1/5 text-center cursor-pointer">{{ _trans('request a consultation') }}
+            </button>
         </div>
         <h1 class="pt-5 uppercase text-xl font-bold">{{ _trans('SELECTED PROJECTS') }}</h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4" />
+        <hr class="w-12 h-0.5 bg-yellow-600  my-4" />
 
         <div class="rounded-sm bg-gray-50 relative mt-10 transition-shadow p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center ">
