@@ -585,7 +585,7 @@
 
 
     <!-- IMPROVE AND INNOVATE WITH THE TECH TRENDS -->
-    <div class="bg-blue-900 lg:px-16 px-3 my-5 py-10 text-white">
+    <div class="bg-blue-900 zzzmy-5 py-10 text-white">
         <h1 class="text-2xl lg:text-3xl font-semibold">
             <p class="mb-4">{{ _trans('Solutions we deliver') }}</p>
             <hr class="w-10 h-0.5 border-none bg-yellow-500">

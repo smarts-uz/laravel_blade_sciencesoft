@@ -92,6 +92,10 @@
         var swiperOne = new Swiper('.swiper-container-one');
     </script>
 
+<script>
+    var swiperOne = new Swiper('.swiper-container-three');
+</script>
+
     <script>
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 4,
