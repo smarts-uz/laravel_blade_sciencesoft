@@ -18,7 +18,8 @@
             businesses need to strive for more and more excellence to stay resilient, even though consumer demand for
             online shopping is remarkably strong now. TeamPRO brings in technology expertise and a problem-oriented
             approach to drive positive and tangible changes across your business resulting in cost savings and revenue
-            growt
+            growth") }}
+            </p>
         </div>
         <div style="margin: 0 4rem" class="swiper-container main-slide swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
                 <div class="swiper-wrapper flex items-center" id="swiper-wrapper-424aebbb4ac8a93c" aria-live="off" style="transform: translate3d(-1313px, 0px, 0px); transition-duration: 0ms;">
