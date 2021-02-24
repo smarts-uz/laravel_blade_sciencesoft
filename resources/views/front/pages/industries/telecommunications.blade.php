@@ -6,9 +6,9 @@
 
 @section('main')
 
-     <h1>
-         Telecommunications
-     </h1>
+    <h1>
+        Telecommunications
+    </h1>
 
 @endsection
 

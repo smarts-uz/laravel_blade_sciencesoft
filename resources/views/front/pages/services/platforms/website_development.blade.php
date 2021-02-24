@@ -1,3 +1,4 @@
+
 @extends('front.layout_platform')
 
 @section('css')
@@ -8,14 +9,15 @@
 
 
 <main class="overflow-hidden">
-    <div class="bg-black h-auto px-4 pt-32">
+    <div class="bg-black h-auto px-4">
         <div class="py-8 grid grid-cols-1 items-center lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20 ">
             <div data-aos="fade-right">
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
                     Разработка и <br> создание <br> сайтов в <br> Ташкенте
                 </div>
                 <div class="lg:px-20">
-                    <a href="#" class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
+                    <a href="#"
+                       class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
                         Получить консультацию
                     </a>
                 </div>
@@ -316,18 +318,21 @@
             <h2 class="text-lg p-6 pl-13">Название организации</h2>
             <form>
                 <label>
-                    <input type="text" placeholder="Пример: Open Engine" class="h-12 w-full border-b border-blue-700"/>
+                    <input type="text" placeholder="Пример: Open Engine"
+                           class="h-12 w-full border-b border-blue-700 outline-none"/>
                 </label>
             </form>
 
 
             <div class="flex justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
-                    <a href="" class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                    <a href=""
+                       class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
                         Назад
                     </a>
 
-                    <a href="" class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                    <a href=""
+                       class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
                         Далее
                     </a>
                 </div>
@@ -348,95 +353,608 @@
 
     <div class="swiper-container-one">
         <div class="swiper-wrapper">
+
+
             <div class="swiper-slide">
                 <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
                     <div>
-                        <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
+                        <img src="{{asset('images/open_engine/web-development/19.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Мебельная фабрика Keng Makon</p>
 
-                        <p><b>Год создания:</b></p>
-                        <p>2020</p>
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2020</p>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Разработка интернет-магазина.</p>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Мебель</p>
 
-                        <p><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10">1C </p>
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1C </p>
 
                         <a href=""
-                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
                             заказать
                         </a>
                     </div>
 
                 </div>
             </div>
+
             <div class="swiper-slide">
                 <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
-
                     <div>
-                        <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
+                        <img src="{{asset('images/open_engine/web-development/20.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500"> Peno Dekor</p>
 
-                        <p><b>Год создания:</b></p>
-                        <p>2020</p>
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Услуги</p>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Корпоративный сайт</p>
 
-                        <p><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10">1C </p>
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress</p>
 
                         <a href=""
-                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
                             заказать
                         </a>
                     </div>
 
                 </div>
             </div>
+
             <div class="swiper-slide">
                 <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
-
                     <div>
-                        <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
+                        <img src="{{asset('images/open_engine/web-development/21.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Formula plus+</p>
 
-                        <p><b>Год создания:</b></p>
-                        <p>2020</p>
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Каталог</p>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Авто</p>
 
-                        <p><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10">1C </p>
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1C Битрикс</p>
 
                         <a href=""
-                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
                             заказать
                         </a>
                     </div>
 
                 </div>
             </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/22.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Alibazar</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Интернет-магазин</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Стройматериали</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500"> 1С Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/23.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Territoriya Group</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Каталог</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Новостройка</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress</p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/24.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Aptechka.uz</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Доставка лекарств</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Интернет-магазин</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">Php</p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/25.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Mashhura.uz</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500"> Каталог</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500"> Учеба </p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1С Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/26.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Human Media</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500"> Новостной</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Новости</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1C Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/27.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Human</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2019</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Корпоративний</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Работа</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1C Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/28.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500"> Art Plast</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500"> 2016</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500"> Сайт каталог</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Производство окон</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500"> WordPress </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/29.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500"> Vek Building </p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2018</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500"> Корпоративный</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Новостройки</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1С-Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/30.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Best GO</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2017</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Сайт услуга</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Служба доставки</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">WordPress </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/31.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Formulaplus.uz</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2018</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Интернет-магазин</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Авто диски и шины</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1С-Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/32.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Higo</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500"> 2017</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Интернет-магазин</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Одежды </p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1С-Битрикс </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/33.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Fundament Group</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500"> 2018</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Landing Page</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Строительство</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">WordPress </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/34.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500"> Art Deco Design </p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2016</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Сайт услуга</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500"> Архитектура и дизайн</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/35.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500"> Shirin Shakar</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2017</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500"> Сайт каталог</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500"> Производство</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500"> Wordpress</p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/36.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Web Expert</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2014</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500"> Новостной портал</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500"> Новости Узбекистана и Мира</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">Php YII2</p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/37.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Royal Garden</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2017</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Сайт каталог</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500"> Сухофрукты</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress </p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/web-development/38.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-700"><b>Клиент:</b></p>
+                        <p class="text-gray-500">Saroy Mebel</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-gray-500">2018</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
+                        <p class="text-gray-500">Сайт каталог</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                        <p class="text-gray-500">Мебель</p>
+
+                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">1С Битрикс</p>
+
+                        <a href=""
+                           class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
 
         </div>
     </div>
@@ -467,7 +985,8 @@
         <div class="grid grid-cols-2 md:grid-cols-5 container justify-center text-center">
             <div class="">
                 <div class="grid justify-center">
-                    <img class="shadow-lg rounded-full m-0" src="{{asset('images/open_engine/images/4icons/1.svg')}}" alt=""/>
+                    <img class="shadow-lg rounded-full m-0" src="{{asset('images/open_engine/images/4icons/1.svg')}}"
+                         alt=""/>
                 </div>
                 <p class="text-center font-bold text-lg text-center text-gray-600 mt-5">
                     Wordpress
@@ -476,7 +995,8 @@
 
             <div>
                 <div class="grid justify-center">
-                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/2.svg')}}" alt=""/>
+                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/2.svg')}}"
+                         alt=""/>
                 </div>
 
                 <p class="font-bold text-lg text-center text-gray-600 mt-5">
@@ -486,7 +1006,8 @@
 
             <div>
                 <div class="grid justify-center">
-                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt=""/>
+                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/3.svg')}}"
+                         alt=""/>
                 </div>
 
                 <p class="font-bold text-lg text-center text-gray-600 mt-5">YII2</p>
@@ -494,7 +1015,8 @@
 
             <div>
                 <div class="grid justify-center">
-                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/4.svg')}}" alt=""/>
+                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/4.svg')}}"
+                         alt=""/>
                 </div>
 
                 <p class="font-bold text-lg text-center text-gray-600 mt-5">
@@ -504,7 +1026,8 @@
 
             <div>
                 <div class="grid justify-center">
-                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/5.svg')}}" alt=""/>
+                    <img class="shadow-lg rounded-full" src="{{asset('images/open_engine/images/4icons/5.svg')}}"
+                         alt=""/>
                 </div>
 
                 <p class="font-bold text-lg text-center text-gray-600 mt-5">Bitrix</p>
@@ -517,19 +1040,21 @@
     <div class="flex justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 sm:px-20 relative justify-center">
             <div class="relative pt-20">
-                <div style="border-radius: 200px 0 200px 0; left: -80px" class="bg-blue-500 py-20 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block" data-aos="fade-right">
+                <div style="border-radius: 200px 0 200px 0; left: -80px"
+                     class="bg-blue-500 py-20 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block"
+                     data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
-                        <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-blue-500 z-0">
+                        <p style="font-size: 9rem" class="item-center font-bold absolute left-48 text-blue-500 z-0">
                             7
                         </p>
                     </div>
                     <p class="text-blue-500 text-md p-10 pt-10 text-center">
-                        Потому что у нас Вы можете создать по-настоящему классный сайт,
-                        со всеми нужными Вам функциями
+                        Потому что у нас Вы можете создать по-настоящему классный сайт, со всеми нужными Вам функциями
                     </p>
                 </div>
-                <div style="border-radius: 0 0 200px 0; top: 80px" class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative" data-aos="fade-right">
+                <div style="border-radius: 0 0 200px 0; top: 80px"
+                     class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative" data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="lg:text-3xl font-bold text-white z-10 ">
                             Почему мы?
@@ -549,9 +1074,9 @@
 
             <div class="pt-20 grid justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 max-w-md justify-center">
-                    <div class="p-5">
-                        <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt=""/>
-                        <p>01</p>
+                    <div class="p-5 mr-5">
+                        <img src="{{asset('images/open_engine/web-development/48.svg')}}" alt=""/>
+
                         <p class="text-base lg:text-xl text-gray-600">
                             Более 500 <br/>
                             выполненых проектов
@@ -559,8 +1084,8 @@
                     </div>
 
                     <div class="p-5">
-                        <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt=""/>
-                        <p>02</p>
+                        <img src="{{asset('images/open_engine/web-development/49.svg')}}" alt=""/>
+
                         <p class="text-base lg:text-xl text-gray-600">
                             Более 100 <br/>
                             постоянных клиентов
@@ -568,9 +1093,9 @@
                     </div>
                 </div>
                 <div class="grid grid-cols-1 sm:grid-cols-2 max-w-md justify-center">
-                    <div class="p-5">
-                        <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt=""/>
-                        <p>03</p>
+                    <div class="p-5 mr-5">
+                        <img src="{{asset('images/open_engine/web-development/50.svg')}}" alt=""/>
+
                         <p class="text-base lg:text-xl text-gray-600">
                             Команда <br/>
                             сертифицированных <br/>
@@ -579,8 +1104,8 @@
                     </div>
 
                     <div class="p-5">
-                        <img class="rounded-full border-indigo-600 border-4" src="{{asset('images/open_engine/images/4icons/3.svg')}}" alt=""/>
-                        <p>04</p>
+                        <img src="{{asset('images/open_engine/web-development/51.svg')}}" alt=""/>
+
                         <p class="text-base lg:text-xl text-gray-600">
                             Индивидуальный <br/>
                             подход к каждому <br/>
@@ -591,8 +1116,6 @@
             </div>
         </div>
     </div>
-
-
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
             Цены и тарифы
@@ -605,7 +1128,6 @@
             </p>
         </div>
     </div>
-
 
     <div
             class="grid grid-cols-1 lg:grid-cols-3 container m-auto justify-center lg:p-20"
@@ -736,14 +1258,15 @@
 
 
     <div class="max-w-xl mx-auto my-10 mb-40 relative pt-20" data-aos="fade-left">
-        <img
-                class="-my-16 m-auto shadow-lg rounded-full border-gray-300 border"
-                src="{{asset('images/open_engine/images/1/1.svg')}}/4icons/3.svg"
-                alt=""
-        />
+        <div class="">
+            <img class="-my-16  m-auto shadow-lg rounded-full border-gray-300 border"
+                 src="{{asset('images/open_engine/images/4icons/3.svg')}}"
+                 alt=""/>
+        </div>
         <div
                 class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 z-10"
         ></div>
+
         <!--    -->
         <div class="shadow-lg rounded-2xl z-20 px-10 pt-10 pb-5 m-5 z-20">
             <div class="text-center">
@@ -755,7 +1278,8 @@
                 </h1>
             </div>
             <div class="justify-center flex">
-                <a href="" class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
+                <a href=""
+                   class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
                     Заказать
                 </a>
             </div>
@@ -764,15 +1288,15 @@
 
     <div class="mr-4 sm:mr-4 md:mr-16">
         <div class="h-48 bg-blue-700 left-0 relative md:w-full rounded-r-2xl pt-1 z-20 mt-32 flex flex-col justify-center items-center"
-                data-aos="fade-right">
+             data-aos="fade-right">
             <div class="flex justify-center items-center sm:pl-20">
                 <h1 class="text-2xl sm:text-4xl font-bold text-white z-10 p-5 leading-10">
                     Разработка сайтов в Ташкенте
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
                     <p data-aos="fade-up"
-                            style="font-size: 8rem"
-                            class="  font-bold  text-gray-400 opacity-50">
+                       style="font-size: 8rem"
+                       class="  font-bold  text-gray-400 opacity-50">
                         7
                     </p>
                 </div>
@@ -805,7 +1329,6 @@
         </div>
 
 
-
         <div class="flex justify-end pb-20">
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
@@ -826,80 +1349,78 @@
                     <div class="flex justify-center items-center pl-20 pt-5">
 
 
-
-
-
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                    <p class="text-center">
-                                        Разработка <br/>
-                                        сайтов
-                                    </p>
-                                </div></div>
-                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                    <p class="text-center">
-                                        Разработка <br/>
-                                        сайтов
-                                    </p>
-                                </div></div>
-                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                    <p class="text-center">
-                                        Разработка <br/>
-                                        сайтов
-                                    </p>
-                                </div></div>
-                                <div class="swiper-slide">  <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                    <p class="text-center">
-                                        SEO <br/>
-                                        продвижение
-                                    </p>
-                                </div></div>
-                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                    <p class="text-center">
-                                        Контекстная <br/>
-                                        реклама
-                                    </p>
-                                </div></div>
-                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
-                                         alt=""/>
-                                    <p class="text-center">
-                                        СММ <br/>
-                                        продвижение
-                                    </p>
-                                </div></div>
-                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                    <p class="text-center">Разработка <br/>брендбуков</p>
-                                </div></div>
-                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                    <p class="text-center">Разработка <br/>брендбуков</p>
-                                </div></div>
-                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                    <p class="text-center">Разработка <br/>брендбуков</p>
-                                </div></div>
-                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                    <img class="mx-auto p-3"
-                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                    <p class="text-center">Разработка <br/>брендбуков</p>
-                                </div></div>
+
+                                <div class="swiper-slide table">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
+                                        <img class="mx-auto p-3"
+                                             src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                        <p class="text-center">
+                                            Разработка интернет-
+                                            магазина
+
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
+                                        <img class="mx-auto p-3"
+                                             src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
+                                        <p class="text-center pb-6">
+                                            Seo продвижение
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
+                                        <img class="mx-auto p-3"
+                                             src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
+                                        <p class="text-center pb-6">
+                                            Контекстная реклама
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
+                                        <img class="mx-auto p-3"
+                                             src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
+                                             alt=""/>
+                                        <p class="text-center pb-6">
+                                            СММ продвижения
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
+                                        <img class="mx-auto p-3"
+                                             src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                        <p class="text-center pb-6">
+                                            Разработка брендбуков
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
+                                        <img class="mx-auto p-3"
+                                             src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
+                                        <p class="text-center pb-6">
+                                            Автоматизация бизнеса
+                                        </p>
+                                    </div>
+                                </div>
+
+
                             </div>
 
                         </div>
