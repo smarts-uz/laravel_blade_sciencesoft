@@ -11,7 +11,7 @@
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans('Healthcare IT Consulting') }}
         </h1>
-        <hr class="w-12 border-b-2 border-yellow-600  my-4" />
+        <hr class="w-12 h-1 bg-yellow-600  my-4" />
         <img src="{{ asset('/images/industries/healthcare/cover-pic-healthcare-it-consulting-4.svg') }}">
         <p class="my-5 text-lg">
             {{ _trans('Healthcare IT consulting services help healthcare organizations overcome limited or low-level healthcare IT expertise and support the effective implementation of digital healthcare initiatives.') }}
