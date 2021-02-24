@@ -102,7 +102,7 @@
             </ul>
         </div>
         <div class="text-2xl md:text-4xl font-bold mt-20 mb-8">
-            {{ _trans('WHY OUR CUSTOMERS THINK THAT DATA ANALYTICS IS WORTH INVESTING IN') }}
+            {{ _trans('WHY OUR CUSTOMERS THINK T HAT DATA ANALYTICS IS WORTH INVESTING IN') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
         <p class="text-xl">
