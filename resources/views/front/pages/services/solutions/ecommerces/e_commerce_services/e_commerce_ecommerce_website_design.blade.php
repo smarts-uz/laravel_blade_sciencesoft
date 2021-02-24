@@ -105,102 +105,64 @@
     <h1 class="uppercase font-bold mt-10 text-3xl">WE DESIGN ACROSS PRODUCT LINES</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
-    <div class="swiper-container ">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide px-16 pb-4 w-full">
-                <div class="p-6  md:flex  my-6 w-full">
-                    <div class="mt-6  ml-3">
+    <div class="swiper-container big-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2C ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2C ecommerce portals, customers value personalized and frictionless experience
+                                        across
+                                        the digital channels.
+                                    </p>
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
 
-                        <div class="m-auto">
-                            <img src="https://www.scnsoft.com/screenshots/ecommerce/new-fashion-slider/new-fashion-slider-5.png"
-                                 alt="" class="block mx-auto xl:w-10/12 sm:w-full">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto"
+                                        src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png" alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2B ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2B ecommerce portals, buyers value convenient self-service tools to place and
+                                        manage
+                                        their bulk orders.
+                                    </p>
+
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+
                         </div>
-                        <div>
-                            <h5 class="font-bold text-center text-lg mt-4 lg:text-3xl">Apparel & Footwear</h5>
-                        </div>
+
 
                     </div>
+                    <div class="swiper-button-next text-gray-400"></div>
+                    <div class="swiper-button-prev text-gray-400"></div>
                 </div>
-
-            </div>
-
-            <div class="swiper-slide px-16 pb-4 w-full">
-                <div class="p-6  md:flex  my-6 w-full">
-                    <div class="mt-6 ml-3">
-                        <div class="m-auto">
-                            <img src="https://www.scnsoft.com/screenshots/screenshots-slider/ecommerce/beauty.jpg"
-                                 alt="" class="block mx-auto xl:w-10/12 sm:w-full">
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-center text-lg mt-4 lg:text-3xl">Beauty & Personal care</h5>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-slide px-16 pb-4 w-full">
-                <div class="p-6  md:flex  my-6 w-full">
-                    <div class="mt-6 ml-3">
-                        <div class="m-auto">
-                            <img src="https://www.scnsoft.com/screenshots/screenshots-slider/ecommerce/furniture.jpg"
-                                 alt="" class="block mx-auto xl:w-10/12 sm:w-full">
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-center text-lg mt-4 lg:text-3xl">Furniture & Household goods</h5>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="swiper-slide px-16 pb-4 w-full">
-                <div class="p-6  md:flex  my-6 w-full">
-                    <div class="mt-6 ml-3">
-                        <div class="m-auto">
-                            <img src="https://www.scnsoft.com/screenshots/screenshots-slider/ecommerce/food.jpg" alt=""
-                                 class="block mx-auto xl:w-10/12 sm:w-full">
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-center text-lg mt-4 lg:text-3xl">Food & Beverages</h5>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-slide px-16 pb-4 w-full">
-                <div class="p-6  md:flex  my-6 w-full">
-                    <div class="mt-6 ml-3">
-                        <div class="m-auto">
-                            <img src="https://www.scnsoft.com/screenshots/screenshots-slider/ecommerce/garden.jpg"
-                                 alt="" class="block mx-auto xl:w-10/12 sm:w-full">
-                        </div>
-                        <div>
-                            <h5 class="font-bold text-center text-lg mt-4 lg:text-3xl">Home & Garden</h5>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span
-                    class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span
-                    class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button"
-                    aria-label="Go to slide 5"></span></div>
-
-
-        </div>
-
-
-        <div class="swiper-pagination"></div>
-        <div class="swiper-button-next rounded-none text-gray-400"></div>
-        <div class="swiper-button-prev rounded-none text-gray-400"></div>
-    </div>
 
 
     <h1 class="uppercase font-bold mt-10 text-3xl">OUR ECOMMERCE WEBSITE DESIGN PROCESS</h1>
@@ -409,37 +371,7 @@
 
  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-    });
-    document.querySelectorAll('.swiper-pagination > .swiper-pagination-bullet').forEach(item => {
-        item.style.borderRadius = 0;
-        item.style.backgroundColor = "#f59000";
-
-
-        console.log(document.querySelectorAll('.swiper-pagination-bullet'));
-    });
-
-
-</script>
+ 
 
 @endsection
 
