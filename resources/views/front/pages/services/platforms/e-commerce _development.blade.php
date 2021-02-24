@@ -14,7 +14,7 @@
         >
           <div data-aos="fade-right">
             <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
+              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12"
             >
               Разработка <br> интернет <br> магазина
             </div>
@@ -387,7 +387,7 @@
               <input
                 type="text"
                 placeholder="Пример: Open Engine"
-                class="h-12 w-full border-b border-blue-700"
+                class="h-12 w-full border-b border-blue-700 outline-none"
               />
             </label>
           </form>
@@ -980,7 +980,7 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                        <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">
                             10
                         </p>
                     </div>

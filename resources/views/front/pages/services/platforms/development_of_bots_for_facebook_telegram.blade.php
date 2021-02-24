@@ -15,9 +15,9 @@
         >
           <div data-aos="fade-right">
             <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
+              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide lg:"
             >
-              Разработка ботов для телеграма в Ташкенте
+              Разработка ботов <br> для телеграма <br> в Ташкенте
             </div>
             <div class="lg:px-20">
               <a

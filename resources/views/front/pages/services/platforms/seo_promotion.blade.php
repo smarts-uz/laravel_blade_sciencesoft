@@ -17,7 +17,7 @@
             <div
               class="text-white text-4xl lg:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
-              Seo продвижение сайта в Ташкенте
+              Seo <br> продвижение <br> сайта в <br>  Ташкенте
             </div>
             <div class="lg:px-20">
               <a
@@ -535,8 +535,7 @@
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-600 "
+                class="  font-bold  text-gray-400 opacity-50 text-9xl"
               >
                 6
               </p>
@@ -606,8 +605,8 @@
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="  font-bold  text-gray-300 text-9xl"
               >
                 7
               </p>
@@ -748,7 +747,7 @@
         </div>
 
 
-        <div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative">
+        <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative">
             <div class="flex justify-center items-center my-20 pt-10">
                 <h1 class="text-4xl font-bold text-white z-10">SEO Продвижение</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
@@ -926,3 +925,4 @@
 @section('js')
 
 @endsection
+

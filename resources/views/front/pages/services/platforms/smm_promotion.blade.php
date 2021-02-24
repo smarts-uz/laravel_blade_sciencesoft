@@ -307,7 +307,7 @@
               <input
                 type="text"
                 placeholder="Пример: Open Engine"
-                class="h-12 w-full border-b border-blue-700"
+                class="h-12 w-full border-b border-blue-700 outline-none"
               />
             </label>
           </form>
@@ -967,3 +967,4 @@
 @section('js')
 
 @endsection
+
