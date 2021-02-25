@@ -18,26 +18,52 @@
             businesses need to strive for more and more excellence to stay resilient, even though consumer demand for
             online shopping is remarkably strong now. TeamPRO brings in technology expertise and a problem-oriented
             approach to drive positive and tangible changes across your business resulting in cost savings and revenue
-            growth.") }}
+            growth") }}
             </p>
         </div>
-
-        <div class="container mb-24">
-            <section class="customer-logos slider px-16">
-                <div class="slide"><img class="h-32 w-32"
-                        src="https://seal-dallas.bbb.org/logo/ruhzbul/teampro-90933001.png" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/deloitte.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ebay.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ford.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/ibm.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/leo-burnett.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/nasa_1.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/nestle.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/tieto.svg') }}" alt="logo"></div>
-                <div class="slide"><img class="h-32 w-32" src="{{ asset('/images/viber.svg') }}" alt="logo"></div>
-            </section>
+        <div style="margin: 0 4rem" class="swiper-container main-slide swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+                <div class="swiper-wrapper flex items-center" id="swiper-wrapper-424aebbb4ac8a93c" aria-live="off" style="transform: translate3d(-1313px, 0px, 0px); transition-duration: 0ms;">
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="1 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612865191.png">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="2 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612865402.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="3 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612865846.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="4 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612865992.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14 swiper-slide-prev" role="group" aria-label="5 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612866086.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14 swiper-slide-active" role="group" aria-label="6 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612866200.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14 swiper-slide-next" role="group" aria-label="7 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612866302.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="8 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612866595.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="9 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612866730.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="10 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612866851.png">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="11 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612867064.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="12 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612867228.svg">
+                        </div>
+                        <div class="swiper-slide flex justify-center items-center p-24 md:p-14" role="group" aria-label="13 / 13" style="width: 212.6px; margin-right: 50px;">
+                            <img src=" /uploads/categories/1612867656.svg">
+                        </div>
+                </div>
         </div>
-
         <div class="mx-6 sm:mx-16 lg:mx-18 ">
             <div class="my-4">
                 <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
@@ -290,5 +316,10 @@
 @endsection
 
 @section('js')
-
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 @endsection

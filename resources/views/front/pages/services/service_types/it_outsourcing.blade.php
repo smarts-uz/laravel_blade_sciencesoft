@@ -123,19 +123,7 @@
 
 
 
-        <div class="container -mt-36">
-            <section class="customer-logos slider h-1/3 my-10">
-                <div class="slide"><img src="images/adidas.png" alt="logo"></div>
-                <div class="slide"><img src="images/facebook.png" alt="logo"></div>
-                <div class="slide"><img src="images/google.png" alt="logo"></div>
-                <div class="slide"><img src="images/instagram.png" alt="logo"></div>
-                <div class="slide"><img src="images/nike.png" alt="logo"></div>
-                <div class="slide"><img src="images/twitter.png" alt="logo"></div>
-                <div class="slide"><img src="images/uber.png" alt="logo"></div>
-                <div class="slide"><img src="images/youtube.png" alt="logo"></div>
-            </section>
-        </div>
-
+   
         <div class="text-lg md:text-2xl leading-relaxed">
 
             <p>
@@ -219,10 +207,66 @@
         </div>
 
 
-<div class="text-2xl md:text-3xl text-blue-700 font-bold">
-            {{ _trans("Carusel qoshish kere")  }}
 
-        </div>
+        <div class="swiper-container big-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2C ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2C ecommerce portals, customers value personalized and frictionless experience
+                                        across
+                                        the digital channels.
+                                    </p>
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto"
+                                        src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png" alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2B ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2B ecommerce portals, buyers value convenient self-service tools to place and
+                                        manage
+                                        their bulk orders.
+                                    </p>
+
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next text-gray-400"></div>
+                    <div class="swiper-button-prev text-gray-400"></div>
+                </div>
+
 
 
         <div class="text-2xl md:text-3xl font-bold">
@@ -463,6 +507,21 @@
 
 @endsection
 
+
+<<<<<<< HEAD
+@section('js')
+
+=======
+
+@section('js')
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
+
+
 <script>
     $(document).ready(function () {
         $('.customer-logos').slick({
@@ -501,7 +560,5 @@
         });
     });
 </script>
-
-@section('js')
-
+>>>>>>> 1b9a16be13477bab6177358126a18af41c3667fd
 @endsection

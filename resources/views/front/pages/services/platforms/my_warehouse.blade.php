@@ -36,6 +36,8 @@
 
 
 
+<div class="bg-gray-100">
+
 
 <div class="flex justify-center">
     <div class="grid">
@@ -352,8 +354,8 @@
 <!--    -->
 <div class="mt-48">
 
-        <div class="bg-gray-200 h-12"></div>
-
+        <div class="h-12"></div>
+    </div>
           <div class="px-8">
             <div
               data-aos="zoom-in"
@@ -574,7 +576,7 @@
 
 
     <div data-aos="fade-left">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/certificate.png" alt="">
+        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/certificate.png" alt="" class="max-w-md">
     </div>
 
 </div>
@@ -867,5 +869,10 @@
 
 
 @section('js')
-
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 @endsection

@@ -162,7 +162,66 @@
                     FEATURED CRM SUCCESS STORIES
                 </h1>
                 <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
-                <p class="text-4xl font-bold text-gray-600">Corusel</p>
+
+                <div class="swiper-container big-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2C ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2C ecommerce portals, customers value personalized and frictionless experience
+                                        across
+                                        the digital channels.
+                                    </p>
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto"
+                                        src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png" alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2B ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2B ecommerce portals, buyers value convenient self-service tools to place and
+                                        manage
+                                        their bulk orders.
+                                    </p>
+
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next text-gray-400"></div>
+                    <div class="swiper-button-prev text-gray-400"></div>
+                </div>
+
             </div>
             <div class="w-full mb-9">
                 <h1 class="text-2xl md:text-2xl mb-4 font-bold text-gray-800 uppercase">
@@ -373,5 +432,11 @@
 @endsection
 
 @section('js')
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 
 @endsection

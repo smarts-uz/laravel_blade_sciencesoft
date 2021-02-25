@@ -9,8 +9,9 @@
 
 
 <main class="overflow-hidden">
-    <div class="bg-black h-auto px-4">
+    <div class="bg-black h-auto px-4 pt-20 pb-10">
         <div class="py-8 grid grid-cols-1 items-center lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20 ">
+         <div class="flex justify-center">
             <div data-aos="fade-right">
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
                     Разработка и <br> создание <br> сайтов в <br> Ташкенте
@@ -22,6 +23,7 @@
                     </a>
                 </div>
             </div>
+         </div>
 
             <div data-aos="fade-left" class="my-8 flex justify-center">
                 <img src="{{asset('images/open_engine/images/intro.svg')}}" alt=""/>
@@ -1179,9 +1181,7 @@
             <img class="-my-16 m-auto shadow-lg rounded-full border-gray-300 border"
                  src="{{asset('images/open_engine/images/4icons/2.svg')}}"
                  alt=""/>
-            <div
-                    class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 z-0"
-            ></div>
+            <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 -z-10"></div>
             <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5">
                 <div class="text-center">
                     <h1 style="font-size: 21px"
@@ -1286,7 +1286,7 @@
         </div>
     </div>
 
-    <div class="mr-4 sm:mr-4 md:mr-16">
+    <div class="mr-4 sm:mr-4 md:mr-16" >
         <div class="h-48 bg-blue-700 left-0 relative md:w-full rounded-r-2xl pt-1 z-20 mt-32 flex flex-col justify-center items-center"
              data-aos="fade-right">
             <div class="flex justify-center items-center sm:pl-20">
@@ -1440,5 +1440,10 @@
 
 
 @section('js')
-
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 @endsection
