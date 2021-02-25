@@ -14,7 +14,7 @@
         >
           <div data-aos="fade-right">
             <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12"
+              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
               Разработка <br> интернет <br> магазина
             </div>
@@ -387,7 +387,7 @@
               <input
                 type="text"
                 placeholder="Пример: Open Engine"
-                class="h-12 w-full border-b border-blue-700 outline-none"
+                class="h-12 w-full border-b border-blue-700"
               />
             </label>
           </form>
@@ -980,7 +980,7 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">
+                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
                             10
                         </p>
                     </div>
@@ -997,76 +997,75 @@
 
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
-
-                                <div class="swiper-slide table">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                        <p class="text-center">
-                                            Разработка интернет-
-                                            магазина
-
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide ">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            Seo продвижение
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide ">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            Контекстная реклама
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide ">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
-                                             alt=""/>
-                                        <p class="text-center pb-6">
-                                            СММ продвижения
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide ">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            Разработка брендбуков
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide ">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            Автоматизация бизнеса
-                                        </p>
-                                    </div>
-                                </div>
-
-
+                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                    <p class="text-center">
+                                        Разработка <br/>
+                                        сайтов
+                                    </p>
+                                </div></div>
+                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                    <p class="text-center">
+                                        Разработка <br/>
+                                        сайтов
+                                    </p>
+                                </div></div>
+                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
+                                    <p class="text-center">
+                                        Разработка <br/>
+                                        сайтов
+                                    </p>
+                                </div></div>
+                                <div class="swiper-slide">  <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
+                                    <p class="text-center">
+                                        SEO <br/>
+                                        продвижение
+                                    </p>
+                                </div></div>
+                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
+                                    <p class="text-center">
+                                        Контекстная <br/>
+                                        реклама
+                                    </p>
+                                </div></div>
+                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
+                                         alt=""/>
+                                    <p class="text-center">
+                                        СММ <br/>
+                                        продвижение
+                                    </p>
+                                </div></div>
+                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                    <p class="text-center">Разработка <br/>брендбуков</p>
+                                </div></div>
+                                <div class="swiper-slide"><div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                    <p class="text-center">Разработка <br/>брендбуков</p>
+                                </div></div>
+                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                    <p class="text-center">Разработка <br/>брендбуков</p>
+                                </div></div>
+                                <div class="swiper-slide"> <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+                                    <img class="mx-auto p-3"
+                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
+                                    <p class="text-center">Разработка <br/>брендбуков</p>
+                                </div></div>
                             </div>
 
                         </div>
