@@ -529,7 +529,7 @@
             </div>
         </div>
 
-        <div style="z-index: 100; height: 14rem" class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative">
+        <div class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative h-56">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
                 <h1 class="text-4xl font-bold text-white z-10">Почему мы?</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
@@ -544,7 +544,7 @@
         </div>
 
 
-        <div style="z-index: 100" class="flex relative justify-center flex-col md:flex-row mx-20 -mt-20">
+        <div class="flex relative justify-center flex-col md:flex-row mx-20 -mt-20 z-20">
             <div class=" bg-white rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
@@ -815,95 +815,76 @@
 
                         <div class="swiper-container">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+
+                                <div class="swiper-slide table">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
                                         <p class="text-center">
-                                            Разработка <br/>
-                                            сайтов
+                                            Разработка интернет-
+                                            магазина
+
                                         </p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                        <p class="text-center">
-                                            Разработка <br/>
-                                            сайтов
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                        <p class="text-center">
-                                            Разработка <br/>
-                                            сайтов
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                        <p class="text-center">
-                                            SEO <br/>
-                                            продвижение
+                                        <p class="text-center pb-6">
+                                            Seo продвижение
                                         </p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                        <p class="text-center">
-                                            Контекстная <br/>
-                                            реклама
+                                        <p class="text-center pb-6">
+                                            Контекстная реклама
                                         </p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
                                              alt=""/>
-                                        <p class="text-center">
-                                            СММ <br/>
-                                            продвижение
+                                        <p class="text-center pb-6">
+                                            СММ продвижения
                                         </p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                        <p class="text-center">Разработка <br/>брендбуков</p>
+                                        <p class="text-center pb-6">
+                                            Разработка брендбуков
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
+
+
+                                <div class="swiper-slide ">
+                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                        <p class="text-center">Разработка <br/>брендбуков</p>
+                                             src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
+                                        <p class="text-center pb-6">
+                                            Автоматизация бизнеса
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                        <p class="text-center">Разработка <br/>брендбуков</p>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="bg-white mx-3 px-10 py-5 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                        <p class="text-center">Разработка <br/>брендбуков</p>
-                                    </div>
-                                </div>
+
+
                             </div>
 
                         </div>
@@ -930,3 +911,4 @@ var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
 })('https://widget.replain.cc/dist/client.js');
 </script>
 @endsection
+

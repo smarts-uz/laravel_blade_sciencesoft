@@ -32,9 +32,9 @@
         <ul class="list-disc pl-5">
             <li class="py-2 text-lg text-gray-500">{{ _trans('send the request via contact form,') }}</li>
             <li class="py-2 text-lg text-gray-500">{{ _trans('send the request via live chat,') }}</li>
-            <li class="py-2 text-lg text-gray-500">{{ _trans('send the request to ') }}<a class="underline"
-                    href="#">contact@scnsoft.com</a>{{ _trans(' or ') }}<a class="underline"
-                    href="#">eu@scnsoft.com</a>{{ _trans(' or ') }}<a class="underline" href="#">gulf@scnsoft.com</a> ,
+            <li class="py-2 text-lg text-gray-500">{{ _trans('send the request to ') }}<a class="underline hover:text-blue-400"
+                    href="#">contact@scnsoft.com</a>{{ _trans(' or ') }}<a class="underline hover:text-blue-400"
+                    href="#">eu@scnsoft.com</a>{{ _trans(' or ') }}<a class="underline hover:text-blue-400" href="#">gulf@scnsoft.com</a> ,
             </li>
             <li class="py-2 text-lg text-gray-500">{{ _trans('call by phone') }} +1 214 306 68 37.</li>
         </ul>
@@ -62,7 +62,7 @@
         </p>
         <p class="py-5 text-lg text-gray-500">
             {{ _trans("Except as expressly provided in these Terms, no part of the Site and no Content may be copied, reproduced, modified, published, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted or distributed in any way (including 'mirroring')") }}
-            to any other computer, server, Web site or other medium for publication or distribution or for any commercial
+            {{ _trans("to any other computer, server, Web site or other medium for publication or distribution or for any commercial
             enterprise, without Company’s express prior written consent. You also agree not to modify, rent, lease, loan,
             sell, distribute, transmit, broadcast, or create derivative works based on the Content or the Site, in whole or
             in part, by any means.") }}</p>
