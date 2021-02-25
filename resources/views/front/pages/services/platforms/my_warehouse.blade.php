@@ -36,6 +36,8 @@
 
 
 
+<div class="bg-gray-100">
+
 
 <div class="flex justify-center">
     <div class="grid">
@@ -352,8 +354,8 @@
 <!--    -->
 <div class="mt-48">
 
-        <div class="bg-gray-200 h-12"></div>
-
+        <div class="h-12"></div>
+    </div>
           <div class="px-8">
             <div
               data-aos="zoom-in"
@@ -574,7 +576,7 @@
 
 
     <div data-aos="fade-left">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/certificate.png" alt="">
+        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/certificate.png" alt="" class="max-w-md">
     </div>
 
 </div>
