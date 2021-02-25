@@ -90,10 +90,10 @@
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next">
-            
+
             </div>
             <div class="swiper-button-prev">
-            
+
             </div>
         </div>
 
@@ -437,10 +437,10 @@
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next ">
-                
+
             </div>
             <div class="swiper-button-prev">
-        
+
             </div>
         </div>
 
@@ -583,6 +583,16 @@
 @endsection
 
 @section('js')
+
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
+
+
+
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
