@@ -103,8 +103,9 @@ Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageControll
 
 
 
-
-Route::post('consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
+Route::post('/', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
+//Route::post('consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
+Route::post('', 'App\Http\Controllers\HomePageController@postFile')->name('postFile');
 
 
 Route::post('/language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
