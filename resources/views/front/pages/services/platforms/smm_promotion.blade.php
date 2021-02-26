@@ -9,24 +9,26 @@
 
 <main class="overflow-hidden">
 
-<div class="bg-black h-auto px-4 pt-40">
+<div class="bg-black h-auto px-4 pt-20 pb-20">
         <div
           class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
-            >
-              SMM <br> продвижение в <br> Ташкенте
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
-              >
-                Получить консультацию
-              </a>
-            </div>
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div
+                class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
+                SMM <br> продвижение в <br> Ташкенте
+              </div>
+              <div class="lg:px-20">
+                <a
+                  href="#"
+                  class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+              </div>
+
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
@@ -42,7 +44,7 @@
           class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16"
         >
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/smm_promotion/images/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Креатив
 
@@ -50,25 +52,25 @@
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-feature/2.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/smm_promotion/images/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Дизайн
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-feature/3.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/smm_promotion/images/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Таргетинг
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-feature/4.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/smm_promotion/images/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Маркетинг
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-feature/5.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/smm_promotion/images/7.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
              Лидогенерация
             </p>
@@ -97,34 +99,34 @@
 <div class=" flex justify-center">
     <div style="grid-column-gap: 7rem" class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 mb-20">
         <div class="mt-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-why/1.svg" alt=""
+            <img src="{{asset('images/open_engine/smm_promotion/39.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
             <h1 class="text-gray-600 text-center"><b>Привлечение посетителей <br> на сайт компании</b></h1>
         </div>
         <div class="mt-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-why/1.svg" alt=""
+            <img src="{{asset('images/open_engine/smm_promotion/40.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
             <h1 class="text-gray-600 text-center"><b>Повышение узнаваемости <br> вашего брэнда</b></h1>
         </div>
         <div class="mt-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-why/1.svg" alt=""
+            <img src="{{asset('images/open_engine/smm_promotion/41.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
             <h1 class="text-gray-600 text-center"><b>Поддержание <br>
                 репутации</b></h1>
         </div>
 
         <div>
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-why/1.svg" alt=""
+            <img src="{{asset('images/open_engine/smm_promotion/42.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
             <h1 class="text-gray-600 text-center"><b>Привлечение посетителей <br> на сайт компании</b></h1>
         </div>
         <div>
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-why/1.svg" alt=""
+            <img src="{{asset('images/open_engine/smm_promotion/43.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
             <h1 class="text-gray-600 text-center"><b>Повышение узнаваемости <br> вашего брэнда</b></h1>
         </div>
         <div>
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-why/1.svg" alt=""
+            <img src="{{asset('images/open_engine/smm_promotion/44.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
             <h1 class="text-gray-600 text-center"><b>Поддержание <br>
                 репутации</b></h1>
@@ -166,7 +168,7 @@
               </ul>
             </div>
             <div class="m-auto pt-8">
-              <img src="https://oe.uz/local/templates/oe/media/images/smm/step1.svg" alt="" />
+              <img src="{{asset('images/open_engine/smm_promotion/images/8.svg')}}" alt="" />
             </div>
           </div>
 
@@ -174,7 +176,7 @@
             class="grid grid-cols-1 sm:grid-cols-2 container m-auto items-center z-10 pt-10"
           >
             <div class="m-auto pt-8 order-last sm:order-none">
-              <img src="https://oe.uz/local/templates/oe/media/images/smm/step2.svg" alt="" />
+              <img src="{{asset('images/open_engine/smm_promotion/images/9.svg')}}" alt="" />
             </div>
             <div
               data-aos="fade-right"
@@ -212,7 +214,7 @@
               </ul>
             </div>
             <div class="m-auto pt-8">
-              <img src="https://oe.uz/local/templates/oe/media/images/smm/step3.svg" alt="" />
+              <img src="{{asset('images/open_engine/smm_promotion/images/10.svg')}}" alt="" />
             </div>
           </div>
 
@@ -220,7 +222,7 @@
             class="grid grid-cols-1 sm:grid-cols-2 container m-auto items-center z-10 pt-10"
           >
             <div class="m-auto pt-8 order-last sm:order-none">
-              <img src="https://oe.uz/local/templates/oe/media/images/smm/step4.svg" alt="" />
+              <img src="{{asset('images/open_engine/smm_promotion/images/11.svg')}}" alt="" />
             </div>
             <div
               data-aos="fade-right"
@@ -260,7 +262,7 @@
               </ul>
             </div>
             <div class="m-auto pt-8">
-              <img src="https://oe.uz/local/templates/oe/media/images/smm/step5.svg" alt="" />
+              <img src="{{asset('images/open_engine/smm_promotion/images/12.svg')}}" alt="" />
             </div>
           </div>
 
@@ -268,7 +270,7 @@
             class="grid grid-cols-1 sm:grid-cols-2 container m-auto items-center z-10 pt-10"
           >
             <div class="m-auto pt-8 order-last sm:order-none">
-              <img src="https://oe.uz/local/templates/oe/media/images/smm/step6.svg" alt="" />
+              <img src="{{asset('images/open_engine/smm_promotion/images/13.svg')}}" alt="" />
             </div>
             <div data-aos="fade-right" class="max-w-md pl-20 m-auto">
               <h1
@@ -349,95 +351,236 @@
 
 <div class="swiper-container-one">
     <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
-                <div>
-                    <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/smm_promotion/30.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-gray-500 mt-1"> Formula plus</p>
+
+                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-gray-500 mt-1"> 05.01.2018-05.02.2019</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-gray-500 mt-1"> 6000</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-gray-500 mt-1"> 20 000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-gray-500 mt-1"> 800 000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class=" text-gray-500 mt-1"> 450%</p>
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение продаж:</b></p>
+                        <p class=" text-gray-500 mt-1">300%</p>
+
+                        <p class="text-blue-800 mt-1"><b>Продано более:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500 mt-1">2500 комплектов</p>
+
+                        <a href=""
+                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+
                 </div>
-                <div class="text-2xl " data-aos="fade-up">
-                    <p><b>Клиент:</b></p>
-                    <p>Мебельная фабрика Keng Makon</p>
-
-                    <p><b>Год создания:</b></p>
-                    <p>2020</p>
-
-                    <p><b>Тип сайта:</b></p>
-                    <p>Разработка интернет-магазина.</p>
-
-                    <p><b>Направление:</b></p>
-                    <p>Мебель</p>
-
-                    <p><b>Технология:</b></p>
-                    <p class="border-b pb-5 mb-10">1C </p>
-
-                    <a href=""
-                       class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        заказать
-                    </a>
-                </div>
-
             </div>
-        </div>
-        <div class="swiper-slide">
-            <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
 
-                <div>
-                    <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/smm_promotion/31.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-gray-500 mt-1">Divan by Demir</p>
+
+                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-gray-500 mt-1"> 01.06.2019-30.09.2019</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-gray-500 mt-1"> 7000</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-gray-500 mt-1">13000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-gray-500 mt-1"> 350 000 </p>
+
+
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-gray-500 mt-1"> 500%</p>
+    <div class="  mb-10">
+       <p class="text-blue-800 mt-1 "><b>Подробно:</b></p>
+                        <p><a href="https://www.facebook.com/divan.by.demir/" class="text-blue-800 border-b pb-5 ">https://www.facebook.com/divan.by.demir/</a>
+                        </p>
+    </div>
+
+
+                        <a href=""
+                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+
                 </div>
-                <div class="text-2xl " data-aos="fade-up">
-                    <p><b>Клиент:</b></p>
-                    <p>Мебельная фабрика Keng Makon</p>
-
-                    <p><b>Год создания:</b></p>
-                    <p>2020</p>
-
-                    <p><b>Тип сайта:</b></p>
-                    <p>Разработка интернет-магазина.</p>
-
-                    <p><b>Направление:</b></p>
-                    <p>Мебель</p>
-
-                    <p><b>Технология:</b></p>
-                    <p class="border-b pb-5 mb-10">1C </p>
-
-                    <a href=""
-                       class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        заказать
-                    </a>
-                </div>
-
             </div>
-        </div>
-        <div class="swiper-slide">
-            <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
 
-                <div>
-                    <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/smm_promotion/32.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-gray-500 mt-1"> Фабрика мебели Keng Makon </p>
+
+                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-gray-500 mt-1"> 2015 по настоящее время</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-gray-500 mt-1"> 21 100</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-gray-500 mt-1">5825 </p>
+
+
+
+                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-gray-500 mt-1">820 000 </p>
+    <div class="  mb-10">
+       <p class="text-blue-800 mt-1 "><b>Подробно:</b></p>
+                        <p><a href="https://www.facebook.com/kengmakon.uz" class="text-blue-800 border-b pb-5 ">https://www.facebook.com/kengmakon.uz</a>
+                        </p>
+    </div>
+
+
+                        <a href=""
+                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+
                 </div>
-                <div class="text-2xl " data-aos="fade-up">
-                    <p><b>Клиент:</b></p>
-                    <p>Мебельная фабрика Keng Makon</p>
-
-                    <p><b>Год создания:</b></p>
-                    <p>2020</p>
-
-                    <p><b>Тип сайта:</b></p>
-                    <p>Разработка интернет-магазина.</p>
-
-                    <p><b>Направление:</b></p>
-                    <p>Мебель</p>
-
-                    <p><b>Технология:</b></p>
-                    <p class="border-b pb-5 mb-10">1C </p>
-
-                    <a href=""
-                       class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        заказать
-                    </a>
-                </div>
-
             </div>
-        </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/smm_promotion/33.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-gray-500 mt-1">Pinar</p>
+
+                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-gray-500 mt-1"> 10.02.2019-10.04.2019</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-gray-500 mt-1"> 1500</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-gray-500 mt-1"> 2000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-gray-500 mt-1">500 000</p>
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500 mt-1"> 420%</p>
+
+
+                        <a href=""
+                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/smm_promotion/34.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-gray-500 mt-1">Mashhura oquv markazi </p>
+
+                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-gray-500 mt-1">01.06.2019-01.08.2019</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-gray-500 mt-1"> 3000</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-gray-500 mt-1"> 4000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-gray-500 mt-1"> 250 000</p>
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500 mt-1"> 170%</p>
+
+
+                        <a href=""
+                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+                    <div>
+                        <img src="{{asset('images/open_engine/smm_promotion/35.png')}}" alt="">
+                    </div>
+                    <div class="text-2xl " data-aos="fade-up">
+                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-gray-500 mt-1">Smile Design </p>
+
+                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-gray-500 mt-1"> 10.01.2019-05.08.2019</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-gray-500 mt-1"> 3000</p>
+
+                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-gray-500 mt-1"> 6000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-gray-500 mt-1">150 000 </p>
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-gray-500 mt-1"> 250%</p>
+
+                        <p class="text-blue-800 mt-1"><b>Увеличение продаж:</b></p>
+                        <p class="text-gray-500 mt-1">200%</p>
+
+                        <p class="text-blue-800 mt-1"><b>Продано более:</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500 mt-1">1500</p>
+
+                        <a href=""
+                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                            заказать
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
 
     </div>
 </div>
@@ -463,8 +606,8 @@
             <div class="">
               <div class="grid justify-center">
                   <img
-                class="shadow-lg rounded m-0"
-                src="https://oe.uz/local/templates/oe/media/images/smm/icons-tool/1.svg"
+                class="shadow-lg rounded m-0  p-4 rounded-full"
+                src="{{asset('images/open_engine/smm_promotion/images/23.svg')}}"
                 alt=""
               />
               </div>
@@ -476,8 +619,8 @@
             <div>
                 <div class="grid justify-center">
                     <img
-                class="shadow-lg rounded"
-                src="https://oe.uz/local/templates/oe/media/images/smm/icons-tool/2.svg"
+                class="shadow-lg rounded  p-4 rounded-full"
+                src="{{asset('images/open_engine/smm_promotion/images/24.svg')}}"
                 alt=""
               />
                 </div>
@@ -490,8 +633,8 @@
             <div>
                 <div class="grid justify-center">
                     <img
-                class="shadow-lg rounded"
-                src="https://oe.uz/local/templates/oe/media/images/smm/icons-tool/3.svg"
+                class="shadow-lg p-4 rounded-full"
+                src="{{asset('images/open_engine/smm_promotion/images/25.svg')}}"
                 alt=""
               />
                 </div>
@@ -502,8 +645,8 @@
             <div>
                 <div class="grid justify-center">
                     <img
-                class="shadow-lg rounded"
-                src="https://oe.uz/local/templates/oe/media/images/smm/icons-tool/4.svg"
+                class="shadow-lg rounded  p-4 rounded-full"
+                src="{{asset('images/open_engine/smm_promotion/images/26.svg')}}"
                 alt=""
               />
                 </div>
@@ -540,12 +683,12 @@
         <div class="flex justify-center pt-8">
             <div>
                 <div class="mb-20">
-                    <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-whyus/3.svg" alt="">
+                    <img src="{{asset('images/open_engine/smm_promotion/images/27.svg')}}" alt="">
                     <p class="text-gray-600 text-lg ml-10">Сертифицированные <br> специалисты</p>
                 </div>
 
                 <div class="mt-20">
-                    <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-whyus/3.svg" alt="">
+                    <img src="{{asset('images/open_engine/smm_promotion/images/28.svg')}}" alt="">
                     <p class="text-gray-600 text-lg ml-10">Более 50-ти кейсов <br> в портфолио</p>
                 </div>
             </div>
@@ -554,19 +697,19 @@
 
 
         <div class="flex items-center pt-8">
-            <img src="https://oe.uz/local/templates/oe/media/images/smm/man.svg" alt="">
+            <img src="{{asset('images/open_engine/smm_promotion/images/31.svg')}}" alt="">
         </div>
 
 
         <div class="flex justify-center pt-8">
             <div>
                 <div class="mb-20">
-                    <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-whyus/3.svg" alt="">
+                    <img src="{{asset('images/open_engine/smm_promotion/images/29.svg')}}" alt="">
                     <p class="text-gray-600 text-lg ml-10">20 брендов сейчас <br> в работе</p>
                 </div>
 
                 <div class="mt-20">
-                    <img src="https://oe.uz/local/templates/oe/media/images/smm/icons-whyus/3.svg" alt="">
+                    <img src="{{asset('images/open_engine/smm_promotion/images/30.svg')}}" alt="">
                     <p class="text-gray-600 text-lg ml-10">7 лет опыта <br> работы</p>
                 </div>
             </div>
@@ -737,7 +880,7 @@
                 </h1>
                 <p
                   style="font-size: 8rem"
-                  class="item-center font-bold absolute left-48 text-gray-500 z-0"
+                  class="item-center font-bold absolute left-48 text-gray-400 z-0"
                 >
                   7
                 </p>

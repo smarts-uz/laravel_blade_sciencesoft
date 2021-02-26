@@ -8,23 +8,25 @@
 
 
 <main class="overflow-hidden">
-      <div class="bg-black h-auto px-4 pt-20 pb-20">
+      <div class="bg-black h-auto px-4 pt-32">
         <div
-          class="py-8 grid lg:text-left grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
-        >
-          <div data-aos="fade-right" class="flex justify-center items-center">
+          class="py-8 grid lg:text-left grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20">
+
+          <div data-aos="fade-right" class="flex justify-center items-center leading-loose">
               <div>
-                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 lg:leading-relaxed">
+                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 ">
                     Разработка <br> интернет <br> магазина
                   </div>
                   <div class="lg:px-20">
                     <a
                       href="#"
-                      class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
+                      class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                    >
                       Получить консультацию
                     </a>
                   </div>
               </div>
+
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
