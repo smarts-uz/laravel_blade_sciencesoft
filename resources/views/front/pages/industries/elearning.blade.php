@@ -332,6 +332,115 @@
 
      </div>
 
+     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
+        {{ _trans('WHAT MAKES SCIENCESOFT AN EXPERIENCED ELEARNING SOFTWARE DEVELOPER') }}
+    </h1>
+    <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+    <div class="md:flex">
+        <div class="md:w-4/12">
+            <img class="w-80 m-auto" src="https://www.scnsoft.com/partners/ms-8-and-aws-2.svg" alt="">
+        </div>
+        <div class="md:w-8/12 md:ml-4">
+            <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-800 font-bold">{{ _trans('31 ') }}</span>
+                    <span class="text-gray-600">{{ _trans('years in software development, data analytics, and AI.') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-800 font-bold">{{ _trans('5') }}</span>
+                    <span class="text-gray-600">{{ _trans('years in eLearning software development.') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-800 font-bold">{{ _trans('25+') }}</span>
+                    <span class="text-gray-600">{{ _trans(' business analysts with ') }}</span>
+                    <span class="text-gray-800 font-bold">{{ _trans(' 5-9 ') }}</span>
+                    <span class="text-gray-600">{{ _trans('years of experience. ') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans(' Expertise in ') }}</span>
+                    <span class="text-gray-800 font-bold">{{ _trans(' 23 ') }}</span>
+                    <span class="text-gray-600">{{ _trans(' industries, including healthcare, manufacturing, oil and gas, banking, retail.') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-800 font-bold">{{ _trans('Gold ') }}</span>
+                    <span class="text-gray-600">{{ _trans('Microsoft Competencies: Application Development, Collaboration and Content, Cloud Platform.') }}</span>
+
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-800 font-bold">{{ _trans('AWS Select Tier ') }}</span>
+                    <span class="text-gray-600">{{ _trans('partnership.') }}</span>
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+    <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
+        {{ _trans('BENEFITS OF ELEARNING DEVELOPMENT BY SCIENCESOFT') }}
+    </h1>
+    <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+
+    <div class="grid gap-4 md:grid-cols-3 gap-4">
+        <div class="p-6 border">
+            <img src="https://www.scnsoft.com/colored-icons-on-grey-background/speed.svg" height="120" width="120" alt="">
+            <h1 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4 mt-6">
+                {{ _trans('Fast solution delivery') }}
+            </h1>
+
+            <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+        {{ _trans('Of a viable MVP (within 3-5 months) due to agile iterative development and applying CI/CD practices.') }}
+    </p>            
+        </div>
+
+        <div class="p-6 border">
+            <img src="https://www.scnsoft.com/colored-icons-on-grey-background/save-money.svg" height="120" width="120" alt="">
+            <h1 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4 mt-6">
+                {{ _trans('Cost-efficiency') }}
+            </h1>
+
+            <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+        {{ _trans('Due to applying proven third-party components and public APIs, using cloud-native architecture and continuous implementation costs optimization by ScienceSoft’s PMs.') }}
+    </p>            
+        </div>
+
+        <div class="p-6 border">
+            <img src="https://www.scnsoft.com/colored-icons-on-grey-background/quality.svg" height="120" width="120" alt="">
+            <h1 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4 mt-6">
+                {{ _trans('Guaranteed software quality') }}
+            </h1>
+
+            <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+        {{ _trans('Due to regular code reviews, integrated APM (application performance management), and unit testing.') }}
+    </p>            
+        </div>
+
+        </div>
+
+        <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
+        {{ _trans('WE KNOW YOUR INDUSTRY') }}
+    </h1>
+    <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+    <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+        {{ _trans('We develop eLearning solutions for various industries:') }}
+    </p>   
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 group">
+
+    <div class="group-hover:text-blue-700 text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/healthcare.svg" alt="">
+    <h1>Healthcare</h1>
+    </div>
+    <div class="group-hover:text-blue-700 text-gray-700 font-bold text-xl p-4">
+    <img src="https://www.scnsoft.com/---home-page-illustrations/industries/healthcare.svg" alt="">
+    <h1>Healthcare</h1>
+    </div>
+
+
+    </div>
 
 
 </div>
