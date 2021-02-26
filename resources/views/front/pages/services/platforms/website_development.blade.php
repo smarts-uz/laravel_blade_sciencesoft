@@ -1,4 +1,3 @@
-
 @extends('front.layout_platform')
 
 @section('css')
@@ -14,12 +13,12 @@
          <div class="flex justify-center">
             <div data-aos="fade-right">
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
-                    Разработка и <br> создание <br> сайтов в <br> Ташкенте
+                    {{_trans('Разработка и')}} <br>{{_trans('создание')}} <br> {{_trans('сайтов в ')}}<br>  {{_trans('Ташкенте')}}
                 </div>
                 <div class="lg:px-20">
                     <a href="#"
                        class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
-                        Получить консультацию
+                         {{_trans('Получить консультацию')}}
                     </a>
                 </div>
             </div>
@@ -37,31 +36,31 @@
             <div class="pt-8" data-aos="fade-left">
                 <img src="{{asset('images/open_engine/images/1/1.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Интернет-магазин
+                    {{_trans('Интернет-магазин')}}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-left">
                 <img src="{{asset('images/open_engine/images/1/2.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Landing Page
+                     {{_trans('Landing Page')}}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-up">
                 <img src="{{asset('images/open_engine/images/1/3.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Техническая поддержка
+                     {{_trans('Техническая поддержка')}}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-right">
                 <img src="{{asset('images/open_engine/images/1/4.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Корпоративные сайты
+                    {{_trans('Корпоративные сайты')}}
                 </p>
             </div>
             <div class="pt-8" data-aos="fade-right">
                 <img src="{{asset('images/open_engine/images/1/5.svg')}}" alt="" class="m-auto"/>
                 <p class="text-center font-bold text-md text-gray-700">
-                    Сложные системы
+                    {{_trans('Сложные системы')}}
                 </p>
             </div>
         </div>
@@ -71,7 +70,7 @@
                     data-aos="fade-down"
                     class="text-3xl sm:text-4xl text-center font-bold text-blue-700 z-10"
             >
-                Что входит в создание сайта?
+                {{_trans('Что входит в создание сайта?')}}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
@@ -94,7 +93,7 @@
                 <p class="font-bold pb-5 pt-2">01</p>
                 <img src="{{asset('images/open_engine/images/2/1.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md">
-                    Продуманный и функциональный <br> прототип
+                    {{_trans('Продуманный и функциональный')}} <br>{{_trans(' прототип')}}
                 </p>
             </div>
 
@@ -105,7 +104,7 @@
                 <p class="font-bold pb-5 pt-2">02</p>
                 <img src="{{asset('images/open_engine/images/2/2.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Красивый продающий <br> дизайн
+                   {{_trans('Красивый продающий')}}  <br>{{_trans('дизайн')}}
                 </p>
             </div>
 
@@ -116,7 +115,7 @@
                 <p class="font-bold pb-5 pt-2">03</p>
                 <img src="{{asset('images/open_engine/images/2/3.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Адаптация под <br> любые устройства
+                    {{_trans('Адаптация под')}} <br>{{_trans('любые устройства')}}
                 </p>
             </div>
         </div>
@@ -130,7 +129,7 @@
                 <p class="font-bold pb-5 pt-2">04</p>
                 <img src="{{asset('images/open_engine/images/2/4.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Правильная техническая <br> структура и грамотная верстка
+                    {{_trans('Правильная техническая')}} <br> {{_trans('структура и грамотная верстка')}}
                 </p>
             </div>
 
@@ -141,7 +140,7 @@
                 <p class="font-bold pb-5 pt-2">05</p>
                 <img src="{{asset('images/open_engine/images/2/5.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Наполнение продающим контентом
+                   {{_trans('Наполнение продающим контентом')}}
                 </p>
             </div>
 
@@ -152,7 +151,7 @@
                 <p class="font-bold pb-5 pt-2">06</p>
                 <img src="{{asset('images/open_engine/images/2/6.svg')}}" alt="" class="m-auto"/>
                 <p class="p-8 font-bold text-md text-gray-700 hover:text-white">
-                    Предварительное тестирование
+                    {{_trans('Предварительное тестирование')}}
                 </p>
             </div>
         </div>
@@ -162,7 +161,7 @@
                     data-aos="fade-down"
                     class="text-2xl sm:text-4xl font-bold text-blue-700 z-10"
             >
-                Этапы разработки сайта
+                {{_trans('Этапы разработки сайта')}}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
@@ -188,12 +187,12 @@
                     <h1
                             class="sm:text-3xl text-2xl font-bold text-gray-700 py-5 leading-none z-10"
                     >
-                        Согласование целей и <br/>задач
+                       {{_trans('Согласование целей и ')}} <br/>{{_trans('задач')}}
                     </h1>
                     <ul class="list-disc pl-5 text-gray-700 text-base">
-                        <li>Определяем задачу, которую должен решать сайт</li>
-                        <li>Анализируем конкурентов</li>
-                        <li>Анализируем особенности целевой аудитории</li>
+                        <li>{{_trans('Определяем задачу, которую должен решать сайт')}}</li>
+                        <li>{{_trans('Анализируем конкурентов')}}</li>
+                        <li>{{_trans('Анализируем особенности целевой аудитории')}}</li>
                     </ul>
                 </div>
                 <div class="m-auto pt-8">
@@ -207,12 +206,12 @@
                 </div>
                 <div data-aos="fade-right" class="flex flex-col justify-center m-auto relative z-10">
                     <h1 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none">
-                        Прототип и дизайн
+                        {{_trans('Прототип и дизайн')}}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Выбираем прототип сайта</li>
-                        <li>Определяемся с дизайном</li>
-                        <li>Подготавливаем визуальную часть</li>
+                        <li>{{_trans('Выбираем прототип сайта')}}</li>
+                        <li>{{_trans('Определяемся с дизайном')}}</li>
+                        <li>{{_trans('Подготавливаем визуальную часть')}}</li>
                     </ul>
                 </div>
             </div>
@@ -227,12 +226,12 @@
                     <h1
                             class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
                     >
-                        Верстка дизайна
+                        {{_trans('Верстка дизайна')}}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Верстаем визуальную часть сайта</li>
-                        <li>Подгоняем вид сайта под дизайн</li>
-                        <li>Оптимизируем код для дальнейшего программирования</li>
+                        <li>{{_trans('Верстаем визуальную часть сайта')}}</li>
+                        <li>{{_trans('Подгоняем вид сайта под дизайн')}}</li>
+                        <li>{{_trans('Оптимизируем код для дальнейшего программирования')}}</li>
                     </ul>
                 </div>
                 <div class="m-auto pt-8">
@@ -253,14 +252,14 @@
                     <h1
                             class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
                     >
-                        Программирование
+                        {{_trans('Программирование')}}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Подготавливем код сайта</li>
-                        <li>Интегрируем код в CMS (платформа управления сайтом)</li>
-                        <li>
+                        <li>{{_trans('Подготавливем код сайта')}}</li>
+                        <li>{{_trans('Интегрируем код в CMS (платформа управления сайтом)')}}</li>
+                        <li>{{_trans('
                             Подключаем внешние системы и упрощаем интерфейс CMS (если Вы в
-                            дальнейшем планируете сами работать над сайтом)
+                            дальнейшем планируете сами работать над сайтом)')}}
                         </li>
                     </ul>
                 </div>
@@ -272,12 +271,12 @@
                         data-aos="fade-right"
                         class="flex flex-col justify-center m-auto relative z-10">
                     <h1 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none">
-                        А\Б - тестирование
+                       {{_trans('А\Б - тестирование')}}
                     </h1>
                     <ul class="pl-5 list-disc text-gray-700 text-base">
-                        <li>Первичное тестирование системы</li>
-                        <li>Тестирование внешних систем сайта</li>
-                        <li>Правка и доработка</li>
+                        <li>{{_trans('Первичное тестирование системы')}}</li>
+                        <li>{{_trans('Тестирование внешних систем сайта')}}</li>
+                        <li>{{_trans('Правка и доработка')}}</li>
                     </ul>
                 </div>
                 <div class="m-auto pt-8">
@@ -293,13 +292,13 @@
                 <div data-aos="fade-right" class="pl-20 m-auto">
                     <h1
                             class="text-3xl font-bold text-gray-700 py-5 leading-none -ml-5">
-                        Наполнение и запуск
+                        {{_trans('Наполнение и запуск')}}
                     </h1>
                     <ul class="list-disc text-gray-700 text-base">
-                        <li>Наполняем контентом</li>
-                        <li>Проводим конечную проверку</li>
-                        <li>Запускаем сайт</li>
-                        <li>Техническая поддержка сайта</li>
+                        <li>{{_trans('Наполняем контентом')}}</li>
+                        <li>{{_trans('Проводим конечную проверку')}}</li>
+                        <li>{{_trans('Запускаем сайт')}}</li>
+                        <li>{{_trans('Техническая поддержка сайта')}}</li>
                     </ul>
                 </div>
             </div>
@@ -314,10 +313,10 @@
                 class="max-w-3xl mx-auto bg-white shadow-2xl rounded-3xl p-10 sm:p-20 -mt-56">
             <h1
                     class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700">
-                Заполните форму прямо сейчас и получите квалифицированную бесплатную
-                консультацию.
+                {{_trans('Заполните форму прямо сейчас и получите квалифицированную бесплатную
+                                          консультацию.')}}
             </h1>
-            <h2 class="text-lg p-6 pl-13">Название организации</h2>
+            <h2 class="text-lg p-6 pl-13">{{_trans('Название организации')}}</h2>
             <form>
                 <label>
                     <input type="text" placeholder="Пример: Open Engine"
@@ -330,12 +329,12 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
                     <a href=""
                        class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        Назад
+                        {{_trans('Назад')}}
                     </a>
 
                     <a href=""
                        class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        Далее
+                       {{_trans('Далее')}}
                     </a>
                 </div>
             </div>
@@ -344,7 +343,7 @@
 
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-            Кейсы
+            {{_trans('Кейсы')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
             <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
@@ -363,24 +362,24 @@
                         <img src="{{asset('images/open_engine/web-development/19.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Мебельная фабрика Keng Makon</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Мебельная фабрика Keng Makon')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2020</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Разработка интернет-магазина.</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Разработка интернет-магазина.')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Мебель</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Мебель')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">1C </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -393,24 +392,24 @@
                         <img src="{{asset('images/open_engine/web-development/20.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500"> Peno Dekor</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Peno Dekor')}}</p>
+{{_trans('')}}
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('')}}2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
-                        <p class="text-gray-500">2019</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('')}}Услуги</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Услуги</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Корпоративный сайт')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Корпоративный сайт</p>
-
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('Wordpress')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -423,24 +422,24 @@
                         <img src="{{asset('images/open_engine/web-development/21.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Formula plus+</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Formula plus+')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Каталог')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Авто</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Авто')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1C Битрикс</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1C Битрикс')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                           {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -453,24 +452,24 @@
                         <img src="{{asset('images/open_engine/web-development/22.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Alibazar</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Alibazar')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
-                        <p class="text-gray-500">2019</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('')}}2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Интернет-магазин</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Интернет-магазин')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Стройматериали</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Стройматериали')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500"> 1С Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500"> {{_trans('1С Битрикс')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -483,24 +482,24 @@
                         <img src="{{asset('images/open_engine/web-development/23.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Territoriya Group</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Territoriya Group')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Каталог')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Новостройка</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Новостройка')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('Wordpress')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -513,24 +512,24 @@
                         <img src="{{asset('images/open_engine/web-development/24.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Aptechka.uz</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Aptechka.uz')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Доставка лекарств</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Доставка лекарств')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Интернет-магазин</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Интернет-магазин')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">Php</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -543,24 +542,24 @@
                         <img src="{{asset('images/open_engine/web-development/25.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Mashhura.uz</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Mashhura.uz')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
-                        <p class="text-gray-500">2019</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('')}}2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500"> Каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Каталог')}} </p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500"> Учеба </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Учеба ')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1С Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1С Битрикс ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -573,24 +572,24 @@
                         <img src="{{asset('images/open_engine/web-development/26.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Human Media</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Human Media')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
-                        <p class="text-gray-500">2019</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('')}}2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500"> Новостной</p>
+                        <p class="text-blue-700 mt-3.5"><b>Т{{_trans('ип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans(' Новостной')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Новости</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Новости')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1C Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1C Битрикс ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -603,24 +602,24 @@
                         <img src="{{asset('images/open_engine/web-development/27.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Human</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Human')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2019</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Корпоративний</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Корпоративний')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Работа</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Работа')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1C Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1C Битрикс ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -633,24 +632,24 @@
                         <img src="{{asset('images/open_engine/web-development/28.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500"> Art Plast</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans(' Art Plast')}} </p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500"> 2016</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500"> Сайт каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans(' Сайт каталог')}} </p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Производство окон</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Производство окон')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500"> WordPress </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans(' WordPress')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -663,24 +662,24 @@
                         <img src="{{asset('images/open_engine/web-development/29.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500"> Vek Building </p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Vek Building')}} </p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans(' Год создания:')}}</b></p>
                         <p class="text-gray-500">2018</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500"> Корпоративный</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Корпоративный')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Новостройки</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Новостройки')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1С-Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans(' 1С-Битрикс')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -693,24 +692,24 @@
                         <img src="{{asset('images/open_engine/web-development/30.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Best GO</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans(' Best GO')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans(' Год создания:')}}</b></p>
                         <p class="text-gray-500">2017</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Сайт услуга</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans(' Сайт услуга')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Служба доставки</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Служба доставки')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">WordPress </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('WordPress ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -723,24 +722,24 @@
                         <img src="{{asset('images/open_engine/web-development/31.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Formulaplus.uz</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Formulaplus.uz')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2018</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Интернет-магазин</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Интернет-магазин')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Авто диски и шины</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Авто диски и шины')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1С-Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1С-Битрикс')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -753,24 +752,24 @@
                         <img src="{{asset('images/open_engine/web-development/32.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Higo</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Higo')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500"> 2017</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Интернет-магазин</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Интернет-магазин')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Одежды </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Одежды ')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1С-Битрикс </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1С-Битрикс')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -783,24 +782,24 @@
                         <img src="{{asset('images/open_engine/web-development/33.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Fundament Group</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Fundament Group')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500"> 2018</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Landing Page</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Landing Page')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Строительство</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Строительство')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">WordPress </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('')}}WordPress </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -813,24 +812,24 @@
                         <img src="{{asset('images/open_engine/web-development/34.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500"> Art Deco Design </p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Art Deco Design ')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2016</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Сайт услуга</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Сайт услуга')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500"> Архитектура и дизайн</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Архитектура и дизайн')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('Wordpress ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -843,24 +842,24 @@
                         <img src="{{asset('images/open_engine/web-development/35.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500"> Shirin Shakar</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Shirin Shakar')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2017</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500"> Сайт каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Сайт каталог')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500"> Производство</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Производство')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500"> Wordpress</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500"> {{_trans('Wordpress')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -873,24 +872,24 @@
                         <img src="{{asset('images/open_engine/web-development/36.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Web Expert</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Web Expert')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2014</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500"> Новостной портал</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Новостной портал')}} </p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500"> Новости Узбекистана и Мира</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Новости Узбекистана и Мира')}} </p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">Php YII2</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -903,24 +902,24 @@
                         <img src="{{asset('images/open_engine/web-development/37.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Royal Garden</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Royal Garden')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2017</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Сайт каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Сайт каталог')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500"> Сухофрукты</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500"> {{_trans('Сухофрукты')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">Wordpress </p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('Wordpress ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -933,24 +932,24 @@
                         <img src="{{asset('images/open_engine/web-development/38.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-700"><b>Клиент:</b></p>
-                        <p class="text-gray-500">Saroy Mebel</p>
+                        <p class="text-blue-700"><b>{{_trans('Клиент:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Saroy Mebel')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Год создания:</b></p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Год создания:')}}</b></p>
                         <p class="text-gray-500">2018</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Тип сайта:</b></p>
-                        <p class="text-gray-500">Сайт каталог</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Тип сайта:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Сайт каталог')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                        <p class="text-gray-500">Мебель</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Направление:')}}</b></p>
+                        <p class="text-gray-500">{{_trans('Мебель')}}</p>
 
-                        <p class="text-blue-700 mt-3.5"><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">1С Битрикс</p>
+                        <p class="text-blue-700 mt-3.5"><b>{{_trans('Технология:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{_trans('1С Битрикс')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{_trans('заказать')}}
                         </a>
                     </div>
 
@@ -963,7 +962,7 @@
 
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-2xl sm:text-4xl font-bold text-blue-700 z-10">
-            Используем в работе
+            {{_trans('Используем в работе')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
             <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
@@ -974,12 +973,12 @@
 
     <div class="flex justify-center items-center">
         <a href="" class="bg-blue-700 text-white px-3 py-3 mr-1">
-            заказать проект
+            {{_trans('заказать проект')}}
         </a>
         <a
                 href=""
                 class="bg-blue-400 text-white px-3 py-3 transition duration-300 ease-in-out hover:bg-blue-300 ml-1">
-            заказать проект
+            {{_trans('заказать проект')}}
         </a>
     </div>
     <div class="flex justify-center items-center py-20">
@@ -1052,14 +1051,14 @@
                         </p>
                     </div>
                     <p class="text-blue-500 text-md p-10 pt-10 text-center">
-                        Потому что у нас Вы можете создать по-настоящему классный сайт, со всеми нужными Вам функциями
+                        {{_trans('Потому что у нас Вы можете создать по-настоящему классный сайт, со всеми нужными Вам функциями')}}
                     </p>
                 </div>
                 <div style="border-radius: 0 0 200px 0; top: 80px"
                      class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative" data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="lg:text-3xl font-bold text-white z-10 ">
-                            Почему мы?
+                            {{_trans('Почему мы?')}}
                         </h1>
                         <div class="flex text-center absolute item-center justify-center z-0 opacity-50">
                             <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
@@ -1068,8 +1067,8 @@
                         </div>
                     </div>
                     <p class="text-white text-base text-md p-5 pt-10 text-center">
-                        Потому что у нас Вы можете создать по-настоящему классный сайт,
-                        со всеми нужными Вам функциями
+                        {{_trans('Потому что у нас Вы можете создать по-настоящему классный сайт,
+                                                          со всеми нужными Вам функциями')}}
                     </p>
                 </div>
             </div>
@@ -1080,8 +1079,8 @@
                         <img src="{{asset('images/open_engine/web-development/48.svg')}}" alt=""/>
 
                         <p class="text-base lg:text-xl text-gray-600">
-                            Более 500 <br/>
-                            выполненых проектов
+                            {{_trans('Более 500 ')}}<br/>
+                            {{_trans('выполненых проектов')}}
                         </p>
                     </div>
 
@@ -1089,8 +1088,8 @@
                         <img src="{{asset('images/open_engine/web-development/49.svg')}}" alt=""/>
 
                         <p class="text-base lg:text-xl text-gray-600">
-                            Более 100 <br/>
-                            постоянных клиентов
+                            {{_trans('Более 100')}} <br/>
+                            {{_trans('постоянных клиентов')}}
                         </p>
                     </div>
                 </div>
@@ -1099,9 +1098,9 @@
                         <img src="{{asset('images/open_engine/web-development/50.svg')}}" alt=""/>
 
                         <p class="text-base lg:text-xl text-gray-600">
-                            Команда <br/>
-                            сертифицированных <br/>
-                            специалистов
+                            {{_trans('Команда ')}}<br/>
+                            {{_trans('сертифицированных ')}}<br/>
+                            {{_trans('специалистов')}}
                         </p>
                     </div>
 
@@ -1109,9 +1108,9 @@
                         <img src="{{asset('images/open_engine/web-development/51.svg')}}" alt=""/>
 
                         <p class="text-base lg:text-xl text-gray-600">
-                            Индивидуальный <br/>
-                            подход к каждому <br/>
-                            клиенту
+                            {{_trans('Индивидуальный')}} <br/>
+                            {{_trans('подход к каждому')}} <br/>
+                            {{_trans('клиенту')}}
                         </p>
                     </div>
                 </div>
@@ -1149,29 +1148,29 @@
                 <div class="text-center">
                     <h1 style="font-size: 21px"
                         class="font-bold text-gray-700 mb-1 mt-5">
-                        LANDING PAGE
+                        {{_trans('LANDING PAGE')}}
                     </h1>
                     <h1 style="font-size: 25px" class="border-b pb-5 text-gray-600">
-                        от <span class="font-bold text-gray-700">9 000 000</span> uzs
+                        {{_trans('')}}от <span class="font-bold text-gray-700">9 000 000</span> uzs
                     </h1>
                 </div>
                 <ul class="list-disc text-gray-600 text-base mt-3">
-                    <li>Адаптивный дизайн</li>
-                    <li>Наполнение сайта</li>
-                    <li>Система аналитики</li>
-                    <li>Настройка почты</li>
-                    <li>Онлайн чат</li>
-                    <li>Хостинг и домен в подарок</li>
-                    <li>Гарантийная поддержка в течение года</li>
-                    <li>Обучение – 1 час</li>
-                    <li>Срок от 10 дней</li>
+                    <li>{{_trans('Адаптивный дизайн')}}</li>
+                    <li>{{_trans('Наполнение сайта')}}</li>
+                    <li>{{_trans('Система аналитики')}}</li>
+                    <li>{{_trans('Настройка почты')}}</li>
+                    <li>{{_trans('Онлайн чат')}}</li>
+                    <li>{{_trans('Хостинг и домен в подарок')}}</li>
+                    <li>{{_trans('Гарантийная поддержка в течение года')}}</li>
+                    <li>{{_trans('Обучение – 1 час')}}</li>
+                    <li>{{_trans('Срок от 10 дней')}}</li>
                 </ul>
                 <div class="justify-center flex">
                     <a
                             href=""
                             class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
                     >
-                        Заказать
+                        {{_trans('Заказать')}}
                     </a>
                 </div>
             </div>
@@ -1186,28 +1185,28 @@
                 <div class="text-center">
                     <h1 style="font-size: 21px"
                         class="font-bold text-gray-700 mb-1 mt-5">
-                        Корпоративный сайт
+                        {{_trans('Корпоративный сайт')}}
                     </h1>
                     <h1 style="font-size: 25px" class="border-b pb-5 text-gray-600">
                         от <span class="font-bold text-gray-700">14 000 000</span> uzs
                     </h1>
                 </div>
                 <ul class="list-disc text-gray-600 text-base mt-3">
-                    <li>Система управления сайтом</li>
-                    <li>Адаптивный дизайн</li>
-                    <li>Каталог товаров или услуг</li>
-                    <li>Новости / Блог / Модули</li>
-                    <li>Настройка почты</li>
-                    <li>Онлайн чат</li>
-                    <li>Хостинг и домен в подарок</li>
-                    <li>Гарантийная поддержка в течение года</li>
-                    <li>Обучение – 2 часа</li>
-                    <li>Срок от 15 дней</li>
+                    <li>{{_trans('Система управления сайтом')}}</li>
+                    <li>{{_trans('Адаптивный дизайн')}}</li>
+                    <li>{{_trans('Каталог товаров или услуг')}}</li>
+                    <li>{{_trans('Новости / Блог / Модули')}}</li>
+                    <li>{{_trans('Настройка почты')}}</li>
+                    <li>{{_trans('Онлайн чат')}}</li>
+                    <li>{{_trans('Хостинг и домен в подарок')}}</li>
+                    <li>{{_trans('Гарантийная поддержка в течение года')}}</li>
+                    <li>{{_trans('Обучение – 2 часа')}}</li>
+                    <li>{{_trans('Срок от 15 дней')}}</li>
                 </ul>
                 <div class="justify-center flex">
                     <a href=""
                        class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-                        Заказать
+                        {{_trans('Заказать')}}
                     </a>
                 </div>
             </div>
@@ -1224,32 +1223,32 @@
                 <div class="text-center">
                     <h1 style="font-size: 21px"
                         class="font-bold text-gray-700 mb-1 mt-5">
-                        Интернет-магазин
+                        {{_trans('Интернет-магазин')}}
                     </h1>
                     <h1 style="font-size: 25px" class="border-b pb-5 text-gray-600">
-                        от <span class="font-bold text-gray-700">35 000 000</span> uzs
+                        {{_trans('от')}} <span class="font-bold text-gray-700">35 000 000</span> uzs
                     </h1>
                 </div>
                 <ul class="list-disc text-gray-600 text-base mt-3">
-                    <li>Система управления сайтом 1С битрикс</li>
-                    <li>Лицензия бизнес редакция</li>
-                    <li>Готовое решение с маркетплейс</li>
-                    <li>Личный кабинет</li>
-                    <li>Онлайн чат</li>
-                    <li>Система оплаты Click,Payme, Visa, Mastercard</li>
-                    <li>Домен в ПОДАРОК</li>
-                    <li>Телеграм бот в ПОДАРОК</li>
-                    <li>Система лоялности ПОДАРОК</li>
-                    <li>Гарантийная поддержка в течение года</li>
-                    <li>Обучение – 3 часа</li>
-                    <li>Срок от 20 дней</li>
+                    <li>{{_trans('Система управления сайтом 1С битрикс')}}</li>
+                    <li>{{_trans('Лицензия бизнес редакция')}}</li>
+                    <li>{{_trans('Готовое решение с маркетплейс')}}</li>
+                    <li>{{_trans('Личный кабинет')}}</li>
+                    <li>{{_trans('Онлайн чат')}}</li>
+                    <li>{{_trans('Система оплаты Click,Payme, Visa, Mastercard')}}</li>
+                    <li>{{_trans('Домен в ПОДАРОК')}}</li>
+                    <li>{{_trans('Телеграм бот в ПОДАРОК')}}</li>
+                    <li>{{_trans('Система лоялности ПОДАРОК')}}</li>
+                    <li>{{_trans('Гарантийная поддержка в течение года')}}</li>
+                    <li>{{_trans('Обучение – 3 часа')}}</li>
+                    <li>{{_trans('Срок от 20 дней')}}</li>
                 </ul>
                 <div class="justify-center flex">
                     <a
                             href=""
                             class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
                     >
-                        Заказать
+                        {{_trans('Заказать')}}
                     </a>
                 </div>
             </div>
@@ -1271,16 +1270,16 @@
         <div class="shadow-lg rounded-2xl z-20 px-10 pt-10 pb-5 m-5 z-20">
             <div class="text-center">
                 <h1 style="font-size: 21px" class="font-bold text-gray-700 mb-1 mt-5">
-                    ИНДИВИДУАЛЬНЫЙ
+                    {{_trans('ИНДИВИДУАЛЬНЫЙ')}}
                 </h1>
                 <h1 style="font-size: 21px" class="text-gray-700 mb-1 mt-5 text-4xl">
-                    По договору
+                    {{_trans('По договору')}}
                 </h1>
             </div>
             <div class="justify-center flex">
                 <a href=""
                    class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-                    Заказать
+                    {{_trans('Заказать')}}
                 </a>
             </div>
         </div>
@@ -1291,7 +1290,7 @@
              data-aos="fade-right">
             <div class="flex justify-center items-center sm:pl-20">
                 <h1 class="text-2xl sm:text-4xl font-bold text-white z-10 p-5 leading-10">
-                    Разработка сайтов в Ташкенте
+                    {{_trans('Разработка сайтов в Ташкенте')}}
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
                     <p data-aos="fade-up"
@@ -1312,18 +1311,17 @@
                 class="pt-20 text-gray-700 pb-20">
             <div class="z-0">
                 <p>
-                    Хотите <b>заказать веб сайт</b> или <b>купить сайт в Ташкенте</b>?
-                    Звоните нам! Наша <b>веб студия</b> применяет собственный подход к
-                    созданию сайтов, <b>разработке интернет магазинов</b>. У нас
-                    работают опытные
-                    <b>разработчики сайтов и программисты в Узбекистане</b>. Мы
-                    уделяем достаточно времени каждому проекту и&nbsp;не&nbsp;работаем
-                    на&nbsp;потоке. Всегда готовы предложить оригинальные решения
-                    по&nbsp;целому комплексу услуг
-                    <b>разработки сайта в Узбекистане</b> и&nbsp;дизайна сайтов.
-                    Делаем всё,&nbsp;чтобы ваш сайт красиво и&nbsp;эффективно выполнял
-                    задачи компании. Также обеспечиваем
-                    <b>техническую поддержку сайтов в Узбекистане.</b>
+                    {{_trans('Хотите')}} <b>{{_trans('заказать веб сайт')}}</b>{{_trans('или ')}} <b>{{_trans('купить сайт в Ташкенте')}}</b>
+                    {{_trans('?Звоните нам! Наша ')}}<b>{{_trans('веб студия')}}</b> {{_trans('
+                    применяет собственный подход к созданию сайтов,')}} <b>{{_trans('разработке интернет магазинов')}}</b>. {{_trans('У нас работают опытные')}}
+                    <b>{{_trans('разработчики сайтов и программисты в Узбекистане')}}</b>. {{_trans('
+                    Мы уделяем достаточно времени каждому проекту и&nbsp;не&nbsp;работаем
+                                        на&nbsp;потоке. Всегда готовы предложить оригинальные решения
+                                        по&nbsp;целому комплексу услуг')}}
+                    <b>{{_trans('разработки сайта в Узбекистане')}}</b>{{_trans('
+                    и&nbsp;дизайна сайтов.
+                                        Делаем всё,&nbsp;чтобы ваш сайт красиво и&nbsp;эффективно выполнял
+                                        задачи компании. Также обеспечиваем')}}      <b>{{_trans('техническую поддержку сайтов в Узбекистане.')}}</b>
                 </p>
             </div>
         </div>
@@ -1333,8 +1331,8 @@
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                        Другие <br/>
-                        услуги
+                        {{_trans('Другие ')}}<br/>
+                        {{_trans('услуги')}}
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
                         <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
@@ -1350,72 +1348,71 @@
 
 
                         <div class="swiper-container">
-                            <div class="swiper-wrapper">
+                            <div class="swiper-wrapper table w-full">
 
-                                <div class="swiper-slide table">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
                                         <p class="text-center">
-                                            Разработка интернет-
-                                            магазина
+                                           {{_trans('Разработка интернет-магазина')}}
 
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Seo продвижение
+                                            {{_trans('Seo продвижение')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Контекстная реклама
+                                            {{_trans('Контекстная реклама')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
                                              alt=""/>
                                         <p class="text-center pb-6">
-                                            СММ продвижения
+                                            {{_trans('СММ продвижения')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Разработка брендбуков
+                                            {{_trans('Разработка брендбуков')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Автоматизация бизнеса
+                                            {{_trans('Автоматизация бизнеса')}}
                                         </p>
                                     </div>
                                 </div>
@@ -1447,3 +1444,4 @@ var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
 })('https://widget.replain.cc/dist/client.js');
 </script>
 @endsection
+
