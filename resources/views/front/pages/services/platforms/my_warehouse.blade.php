@@ -765,7 +765,7 @@
                     услуги
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
-                    <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                    <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">
                         8
                     </p>
                 </div>
