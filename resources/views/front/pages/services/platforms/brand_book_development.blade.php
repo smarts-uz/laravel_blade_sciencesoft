@@ -8,24 +8,26 @@
 
 <main class="overflow-hidden">
 
-<div class="bg-black h-auto px-4 pt-32">
+<div class="bg-black h-auto px-4 pt-20 pb-10">
         <div
           class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
-            >
-              Разработка <br> логотипа и <br> Брендбуков
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div
+                class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
               >
-                Получить консультацию
-              </a>
-            </div>
+                Разработка <br> логотипа и <br> Брендбуков
+              </div>
+              <div class="lg:px-20">
+                <a
+                  href="#"
+                  class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+              </div>
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
@@ -564,11 +566,6 @@
         </div>
     </div>
 </div>
-
-
-<!--    -->
-
-
 <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
      data-aos="fade-up-right">
     <div class="flex justify-center items-center my-20 pt-10">
@@ -576,11 +573,9 @@
         <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">6</p>
     </div>
 </div>
-
 <div class="bg-gray-100 h-12 z-10" data-aos="fade-up-right"></div>
 <div class="bg-gray-50 z-0" data-aos="fade-up-right">
     <div style=" font-size: 17px" class="pt-20 text-gray-700 pb-20">
-
         <div style="margin-left: 20%; margin-right: 20%;" class="z-0 text-gray-600 text-lg">
             <p>
                 Сейчас <b>разработка логотипа в Узбекистане</b> является неотъемлемой частью шагов по созданию бренда. <b>Заказать
@@ -594,10 +589,8 @@
                 дизайнеры сделают детальный анализ в основе ярких идей. Начиная работу над проектом, мы анализируем ваш
                 бизнес, целевую аудитории и состояние рынка. Так мы устанавливаем прочную связь между компанией и его
                 клиентами. Брендинговая агенство в ташкенте, разработка бренда в ташкенте. дизайн упаковки ташкент.
-
             </p>
         </div>
-
         <div class="flex justify-end">
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
@@ -607,10 +600,8 @@
                        class="item-center font-bold absolute left-48 text-gray-300 z-0">
                         7</p>
                 </div>
-
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-
                         <div class="swiper-slide table">
                             <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                 <img class="mx-auto p-3"
@@ -622,8 +613,6 @@
                                 </p>
                             </div>
                         </div>
-
-
                         <div class="swiper-slide ">
                             <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                 <img class="mx-auto p-3"
@@ -633,8 +622,6 @@
                                 </p>
                             </div>
                         </div>
-
-
                         <div class="swiper-slide ">
                             <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                 <img class="mx-auto p-3"
@@ -644,8 +631,6 @@
                                 </p>
                             </div>
                         </div>
-
-
                         <div class="swiper-slide ">
                             <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                 <img class="mx-auto p-3"
@@ -656,8 +641,6 @@
                                 </p>
                             </div>
                         </div>
-
-
                         <div class="swiper-slide ">
                             <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                 <img class="mx-auto p-3"
@@ -667,8 +650,6 @@
                                 </p>
                             </div>
                         </div>
-
-
                         <div class="swiper-slide ">
                             <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                 <img class="mx-auto p-3"
@@ -678,14 +659,9 @@
                                 </p>
                             </div>
                         </div>
-
-
                     </div>
-
                 </div>
-
     </div>
-
     <div class="flex justify-end pb-20">
                             <div class="flex">
                                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
@@ -699,16 +675,11 @@
                                         </p>
                                     </div>
                                 </div>
-
-
                                 <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
                                      data-aos="fade-up-left">
                                     <div class="flex justify-center items-center pl-20 pt-5">
-
-
                                         <div class="swiper-container">
                                             <div class="swiper-wrapper">
-
                                                 <div class="swiper-slide table">
                                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                                         <img class="mx-auto p-3"
@@ -716,11 +687,10 @@
                                                         <p class="text-center">
                                                             Разработка интернет-
                                                             магазина
+
                                                         </p>
                                                     </div>
                                                 </div>
-
-
                                                 <div class="swiper-slide ">
                                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                                         <img class="mx-auto p-3"
@@ -730,8 +700,6 @@
                                                         </p>
                                                     </div>
                                                 </div>
-
-
                                                 <div class="swiper-slide ">
                                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                                         <img class="mx-auto p-3"
@@ -741,8 +709,6 @@
                                                         </p>
                                                     </div>
                                                 </div>
-
-
                                                 <div class="swiper-slide ">
                                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                                         <img class="mx-auto p-3"
@@ -753,8 +719,6 @@
                                                         </p>
                                                     </div>
                                                 </div>
-
-
                                                 <div class="swiper-slide ">
                                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                                         <img class="mx-auto p-3"
@@ -764,8 +728,6 @@
                                                         </p>
                                                     </div>
                                                 </div>
-
-
                                                 <div class="swiper-slide ">
                                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                                         <img class="mx-auto p-3"
@@ -795,10 +757,5 @@
 
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 @endsection

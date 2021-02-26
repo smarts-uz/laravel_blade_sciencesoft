@@ -8,28 +8,31 @@
 
 <main class="overflow-hidden">
 
-<div class="bg-black h-auto px-4 pt-40">
+<div class="bg-black h-auto px-4 pt-20 pb-10">
         <div
           class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
-            >
-            Разработка приложений на андроид и ios
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div
+                class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
               >
-                Получить консультацию
-              </a>
-            </div>
+              Разработка приложений на андроид и ios
+              </div>
+              <div class="lg:px-20">
+                <a
+                  href="#"
+                  class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+              </div>
+
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/1.svg" alt="" />
+            <img src="{{asset('images/open_engine/mobil_razbotka/1.svg')}}" alt="" />
           </div>
         </div>
       </div>
@@ -39,31 +42,31 @@
           class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16 max-w-7xl"
         >
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/mobil_razbotka/2.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Google play
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-feature/2.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/mobil_razbotka/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Android
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-feature/3.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/mobil_razbotka/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Automatization
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-feature/4.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/mobil_razbotka/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               IOS
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-feature/5.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/mobil_razbotka/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Appstore
             </p>
@@ -78,8 +81,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl  font-bold  text-gray-300 "
               >
                 1
               </p>
@@ -96,7 +99,7 @@
                 <div class="">
                     <div class="flex flex-col justify-center lg:justify-end px-10 py-5 " data-aos="fade-right">
                         <div class="lg:self-end self-center py-4">
-                            <img class="" src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/1.svg" alt="">
+                            <img class="" src="{{asset('images/open_engine/mobil_razbotka/7.svg')}}" alt="">
                         </div>
                         <div class="lg:self-end self-center lg:text-right text-center">
                             <p class=" font-bold text-xl text-gray-700">МАКСИМУМ УСТРОЙСТВ</p>
@@ -106,7 +109,7 @@
                     </div>
                     <div class="flex flex-col justify-center lg:justify-end px-10 py-5 " data-aos="fade-right">
                         <div class="lg:self-end self-center py-4">
-                            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/2.svg" alt="">
+                            <img src="{{asset('images/open_engine/mobil_razbotka/8.svg')}}" alt="">
                         </div>
                         <div class="lg:self-end self-center lg:text-right text-center">
                             <p class="font-bold text-xl text-gray-700">ОФОРМЛЕНИЕ ЗАКАЗА</p>
@@ -117,14 +120,14 @@
             </div>
 
             <div class="flex justify-center item-center" data-aos="flip-right">
-                <img src="https://oe.uz/local/templates/oe/media/images/mobile/2.svg" alt="">
+                <img src="{{asset('images/open_engine/mobil_razbotka/11.svg')}}" alt="">
             </div>
 
             <div class="flex justify-center">
                 <div>
                     <div class="flex flex-col justify-center lg:justify-start px-10 py-5 " data-aos="fade-left">
                         <div class="lg:self-start self-center py-4">
-                            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/3.svg" alt="">
+                            <img src="{{asset('images/open_engine/mobil_razbotka/9.svg')}}" alt="">
                         </div>
                         <div class="lg:self-start self-center lg:text-left text-center">
                             <p class=" font-bold text-xl text-gray-700">МАКСИМАЛЬНОЕ УДОБСТВО</p>
@@ -137,7 +140,7 @@
 
                     <div class=" flex flex-col justify-center lg:justify-start px-10 py-5 " data-aos="fade-left">
                         <div class="lg:self-start self-center py-4">
-                            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/4.svg" alt="">
+                            <img src="{{asset('images/open_engine/mobil_razbotka/10.svg')}}" alt="">
                         </div>
                        <div class="lg:self-start self-center lg:text-left text-center">
                             <p class=" font-bold text-xl text-gray-700">БЫСТРОДЕЙСТВИЕ</p>
@@ -152,14 +155,14 @@
     </div>
 
 
-<div style="z-index: 100; height: 14rem" class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative">
+<div class="h-56 bg-blue-700 max-w-5xl rounded-r-2xl z-10 relative">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
                 <h1 class="text-4xl font-bold text-white z-10">Отрасли</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-600 "
+
+                class=" text-9xl  font-bold  text-gray-400 "
               >
                 2
               </p>
@@ -168,7 +171,7 @@
         </div>
 
 
-        <div style="z-index: 100" class="flex relative justify-center flex-col md:flex-row mx-20 -mt-20">
+        <div class="flex relative justify-center flex-col md:flex-row mx-20 z-20 -mt-20">
             <div class=" bg-white rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
@@ -287,48 +290,48 @@
     <div class="grid grid-cols-1 lg:grid-cols-4 container mx-auto gap-20 my-20 max-w-7xl px-4">
         <div class="flex justify-center items-center relative ">
             <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Этап работы</h1>
-            <p data-aos="fade-down" style="font-size: 8rem"
-               class="item-center font-bold absolute left-48 text-gray-300 z-0">
+            <p data-aos="fade-down"
+               class="item-center font-bold absolute text-9xl left-24 text-gray-300 z-0">
                 3</p>
         </div>
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">1</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">1</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Постановка задачи</p>
             <p class="text-gray-600">Мы изучаем рынок и потенциальную целевую аудиторию, чтобы сделать проект
                 эффективным и особенным.</p>
         </div>
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">2</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">2</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Прототипирование</p>
             <p class="text-gray-600">Создаем архитектуру нашего проекта – разрабатываем модель навигации, экраны и
                 другие элементы.</p>
         </div>
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">3</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">3</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Дизайн и верстка</p>
             <p class="text-gray-600">На основе прототипа наши дизайнеры создают конечный визуальный облик проекта.
                 Верстаем под нужные устройства.</p>
         </div>
 
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">4</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">4</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Завершение разработки</p>
             <p class="text-gray-600">Допиливаем код приложения и подготавливаем его к дальнейшим этапам</p>
         </div>
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">5</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">5</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Тестирование</p>
             <p class="text-gray-600">Привлекаем потенциальных пользователей для приложения и проводим бета-тестирование
                 функционала проекта.</p>
         </div>
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">6</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">6</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Запуск</p>
             <p class="text-gray-600">Публикуем готовое приложение. Оперативно собираем отзывы и выявляем малейшие
                 недочеты.</p>
         </div>
         <div>
-            <p class="p-2 text-white font-bold text-2xl bg-blue-400 rounded-2xl">7</p>
+            <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">7</p>
             <p class="font-bold text-gray-700 text-2xl py-3">Техническое поддержка</p>
             <p class="text-gray-600">Техническое поддержка</p>
         </div>
@@ -342,8 +345,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 4
               </p>
@@ -352,95 +355,126 @@
 
     <div class="swiper-container-one">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
-                    <div>
-                        <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
-                    </div>
-                    <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
 
-                        <p><b>Год создания:</b></p>
-                        <p>2020</p>
+<div class="swiper-slide">
+    <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+        <div class="text-2xl " data-aos="fade-up">
+            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-gray-500"> iMan Capital </p>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
+            <p class="text-gray-500"> P2P платформа  </p>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-gray-500">Android</p>
 
-                        <p><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10">1C </p>
+            <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
-                        <a href=""
-                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
-                        </a>
-                    </div>
+            <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                заказать
+            </a>
+        </div>
+        <div>
+            <img src="{{asset('images/open_engine/mobil_razbotka/12.png')}}" alt="">
+        </div>
+    </div>
+</div>
 
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+<div class="swiper-slide">
+    <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+        <div class="text-2xl " data-aos="fade-up">
+            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-gray-500">  Kun.uz  </p>
 
-                    <div>
-                        <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
-                    </div>
-                    <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
+            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
+            <p class="text-gray-500">  Новости и СМИ.  </p>
 
-                        <p><b>Год создания:</b></p>
-                        <p>2020</p>
+            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-gray-500"> IOS, Android</p>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+            <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+            <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                заказать
+            </a>
+        </div>
+        <div>
+            <img src="{{asset('images/open_engine/mobil_razbotka/13.png')}}" alt="">
+        </div>
+    </div>
+</div>
 
-                        <p><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10">1C </p>
+<div class="swiper-slide">
+    <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+        <div class="text-2xl " data-aos="fade-up">
+            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-gray-500">  Orzon.uz  </p>
 
-                        <a href=""
-                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
-                        </a>
-                    </div>
+            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
+            <p class="text-gray-500">  Интернет-магазин   </p>
 
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-gray-500"> IOS-Android</p>
 
-                    <div>
-                        <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="">
-                    </div>
-                    <div class="text-2xl " data-aos="fade-up">
-                        <p><b>Клиент:</b></p>
-                        <p>Мебельная фабрика Keng Makon</p>
+            <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
-                        <p><b>Год создания:</b></p>
-                        <p>2020</p>
+            <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                заказать
+            </a>
+        </div>
+        <div>
+            <img src="{{asset('images/open_engine/mobil_razbotka/14.png')}}" alt="">
+        </div>
+    </div>
+</div>
 
-                        <p><b>Тип сайта:</b></p>
-                        <p>Разработка интернет-магазина.</p>
+<div class="swiper-slide">
+    <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+        <div class="text-2xl " data-aos="fade-up">
+            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-gray-500">  Xabardor  </p>
 
-                        <p><b>Направление:</b></p>
-                        <p>Мебель</p>
+            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
+            <p class="text-gray-500">  Новости  </p>
 
-                        <p><b>Технология:</b></p>
-                        <p class="border-b pb-5 mb-10">1C </p>
+            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-gray-500"> IOS - Android</p>
 
-                        <a href=""
-                           class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
-                        </a>
-                    </div>
+            <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
-                </div>
-            </div>
+            <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                заказать
+            </a>
+        </div>
+        <div>
+            <img src="{{asset('images/open_engine/mobil_razbotka/15.png')}}" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="swiper-slide">
+    <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
+        <div class="text-2xl " data-aos="fade-up">
+            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-gray-500">  Human.uz  </p>
+
+            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
+            <p class="text-gray-500">  Новости и СМИ. </p>
+
+            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-gray-500"> IOS, Android</p>
+
+            <div class="w-3/4 h-px bg-gray-300 my-6"></div>
+
+            <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
+                заказать
+            </a>
+        </div>
+        <div>
+            <img src="{{asset('images/open_engine/mobil_razbotka/16.png')}}" alt="">
+        </div>
+    </div>
+</div>
 
         </div>
     </div>
@@ -460,15 +494,15 @@
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
-                <h1 class="text-3xl font-bold text-white z-10">Почему мы?</h1>
+                <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
                 <p
-                  style="font-size: 8rem"
-                  class="item-center font-bold absolute left-48 text-gray-500 z-0"
+
+                  class=" text-9xl item-center font-bold absolute left-48 text-blue-500 z-0"
                 >
-                  5
+                  7
                 </p>
               </div>
-              <p class="text-white text-md p-10 pt-10 text-center">
+              <p class="text-blue-500 text-md p-10 pt-10 text-center">
                 Потому что у нас Вы можете создать по-настоящему классный сайт,
                 со всеми нужными Вам функциями
               </p>
@@ -482,15 +516,12 @@
                 <h1 class="lg:text-3xl font-bold text-white z-10">
                   Почему мы?
                 </h1>
-                <div class="flex text-center absolute item-center justify-center z-0">
-              <p
-                data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
-              >
-                5
-              </p>
-          </div>
+                <p
+
+                  class="item-center font-bold text-9xl absolute left-48 text-gray-400 z-0"
+                >
+                 5
+                </p>
               </div>
               <p class="text-white text-base text-md p-5 pt-10 text-center">
                 Потому что у нас Вы можете создать по-настоящему классный сайт,
@@ -499,61 +530,39 @@
             </div>
           </div>
 
-          <div class="pt-20 grid justify-center">
-            <div class="grid grid-cols-1 sm:grid-cols-2 max-w-md justify-center">
+          <div class="pt-20 md:mt-20">
+            <div class="grid grid-cols-2 max-w-md">
               <div class="p-5">
                 <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>01</p>
-              <p class="text-base lg:text-xl text-gray-600">
-                Более 500 <br />
-                выполненых проектов
-              </p>
+                  class=""
+                  src="{{asset('images/open_engine/smm_promotion/images/facebook_certificate.png')}}"
+                  alt=""
+                />
               </div>
 
               <div class="p-5">
                 <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>02</p>
-              <p class="text-base lg:text-xl text-gray-600">
-                Более 100 <br />
-                постоянных клиентов
-              </p>
+                  class=""
+                  src="{{asset('images/open_engine/smm_promotion/images/facebook_certificate.png')}}"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="grid grid-cols-1 sm:grid-cols-2 max-w-md justify-center">
+            <div class="grid grid-cols-2 max-w-md">
               <div class="p-5">
                 <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>03</p>
-              <p class="text-base lg:text-xl text-gray-600">
-                Команда <br />
-                сертифицированных <br />
-                специалистов
-              </p>
+                  class=""
+                  src="{{asset('images/open_engine/smm_promotion/images/facebook_certificate.png')}}"
+                  alt=""
+                />
               </div>
 
               <div class="p-5">
                 <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>04</p>
-              <p class="text-base lg:text-xl text-gray-600">
-                Индивидуальный <br />
-                подход к каждому <br />
-                клиенту
-              </p>
+                  class=""
+                  src="{{asset('images/open_engine/smm_promotion/images/facebook_certificate.png')}}"
+                  alt=""
+                />
               </div>
             </div>
           </div>
@@ -575,10 +584,10 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
-                6
+
               </p>
           </div>
       </div>
@@ -589,7 +598,7 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 container mx-auto my-20 max-w-7xl">
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/17.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Приложение <br>
                 полностью ваше</p>
@@ -597,7 +606,7 @@
         </div>
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/18.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Работа
                 по договору</p>
@@ -605,7 +614,7 @@
         </div>
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/19.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Прозрачный <br>
                 процесс</p>
@@ -613,7 +622,7 @@
         </div>
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/20.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Гарантия – 1 год</p>
             <p class="text-gray-700">Бесплатно обеспечиваем работоспособность всех функций, указанных в Т.З.</p>
@@ -621,7 +630,7 @@
 
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/21.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">100% выполнение и <br>
                 сдача проектов</p>
@@ -630,7 +639,7 @@
         </div>
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/22.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">От идеи до <br>
                 публикации</p>
@@ -640,7 +649,7 @@
 
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/23.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">От идеи до <br>
                 публикации</p>
@@ -650,7 +659,7 @@
 
 
         <div class="text-center p-5">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/icons-why/why1.png" alt=""
+            <img src="{{asset('images/open_engine/mobil_razbotka/24.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
             <p class="text-gray-700 text-2xl font-bold leading-6 py-3">От идеи до <br>
                 публикации</p>
@@ -665,8 +674,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 7
               </p>
@@ -682,10 +691,13 @@
             </div>
             <div class="shadow-2xl rounded-3xl px-10 py-10 m-5 ">
 
-                <ul class=" text-gray-700 text-lg py-10">
-                   <li class="text-center text-xl">У нас нет стандартных тарифов для мобильного приложения</li>
+                <ul class=" text-gray-700 text-lg py-5">
+                   <li class="text-center text-3xl">Цена:<b> 2 000 000 сум</b> </li>
                 </ul>
-                <div class=" justify-center flex border-t border-gray-400">
+                  <ul class=" text-gray-700 py-6 border-t border-gray-400">
+                                   <li class="text-center text-xl">У нас нет стандартных тарифов для мобильного приложения</b> </li>
+                                </ul>
+                <div class=" justify-center flex">
                     <a href=""
                        class=" bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
                         Заказать
@@ -698,15 +710,15 @@
 
 
 
-    <div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
+    <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
          data-aos="fade-up-right">
         <div class="flex justify-center items-center my-20 pt-10">
             <h1 class="text-4xl font-bold text-white z-10">Мобильное приложение</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-400 opacity-50"
+
+                class=" text-9xl font-bold  text-gray-400 opacity-50"
               >
                 8
               </p>
@@ -743,8 +755,8 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
-                            8
+                        <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
+                          9
                         </p>
                     </div>
                 </div>
@@ -845,10 +857,5 @@
 
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 @endsection

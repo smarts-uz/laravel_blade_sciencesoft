@@ -765,7 +765,7 @@
                     услуги
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
-                    <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                    <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">
                         8
                     </p>
                 </div>
@@ -869,10 +869,5 @@
 
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 @endsection

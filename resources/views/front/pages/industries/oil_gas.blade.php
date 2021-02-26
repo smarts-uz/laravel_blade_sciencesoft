@@ -251,7 +251,7 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Integration with procurement and knowledge management processes.') }}</span>
             </li>
-        
+
         </ul>
            </div>
 
@@ -358,8 +358,8 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Drilling optimization via evaluation of multiple decision-making scenarios and selecting the best one.') }}</span>
             </li>
-        
-        
+
+
         </ul>
            </div>
 
@@ -388,8 +388,8 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Worker-amplified intelligence (AR-based visual clues and indicators, process steps, repair instructions for field service, etc.).') }}</span>
             </li>
-        
-        
+
+
         </ul>
            </div>
 
@@ -415,8 +415,8 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Drill bit defect recognition based on image analysis.') }}</span>
             </li>
-        
-        
+
+
         </ul>
            </div>
 
@@ -442,8 +442,8 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Safety training.') }}</span>
             </li>
-        
-        
+
+
         </ul>
            </div>
 
@@ -469,8 +469,8 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Semantic search across the knowledge base.') }}</span>
             </li>
-        
-        
+
+
         </ul>
            </div>
 
@@ -607,7 +607,7 @@
 
             <div class="px-4">
                 <p class="mb-4 text-lg text-gray-600">{{ _trans('Our consultants advise on the use of cloud, big data, IIoT, advanced analytics, VR and AR in the oil and gas sector for:') }}</p>
-                
+
                 <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
                <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Reservoir modeling, monitoring and management.') }}</span>
@@ -627,7 +627,7 @@
             </div>
 
 
-            
+
 
         </div>
 
@@ -642,7 +642,7 @@
 
             <div class="px-4">
                 <p class="mb-4 text-lg text-gray-600">{{ _trans('IT solution cost and time delivery estimation.') }}</p>
-                
+
                 <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
                <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Outline of the optimal solution functionality and architecture to meet business needs and guarantee high ROI.') }}</span>
@@ -668,7 +668,7 @@
             </div>
 
 
-            
+
 
         </div>
 
@@ -683,7 +683,7 @@
 
             <div class="px-4">
                 <p class="mb-4 text-lg text-gray-600">{{ _trans('We help optimize the quality and costs of oil and gas operations by offering outsourced IT functions, including:') }}</p>
-                
+
                 <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
                <li class="text-blue-800 mt-2">
                <a href="#" class="text-gray-600 hover:text-blue-700 border-b border-blue-700">{{ _trans('Outsourced development ') }}</a>
@@ -713,7 +713,7 @@
             </div>
 
 
-            
+
 
         </div>
 
@@ -729,7 +729,7 @@
 
             <div class="px-4">
                 <p class="mb-4 text-lg text-gray-600">{{ _trans('We help quickly cover resource gaps in your oil and gas IT initiative with the following experts:') }}</p>
-                
+
                 <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
                <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Developers (Java, .NET, Python, PHP, C++, and more).') }}</span>
@@ -752,12 +752,12 @@
             </div>
 
 
-            
+
 
         </div>
 
 
-    
+
     </div>
 
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
@@ -846,10 +846,5 @@
 @endsection
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 @endsection

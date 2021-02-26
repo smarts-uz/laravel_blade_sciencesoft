@@ -101,13 +101,13 @@
                 </li>
             </ul>
         </div>
-       
+
         <div class="text-2xl md:text-4xl font-bold mt-20 mb-8">
             {{ _trans('OUR HALLMARK DATA ANALYTICS PROJECTS') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
-       
-       
+
+
         <div class="swiper-container big-slide">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide px-16 pb-4">
@@ -166,9 +166,9 @@
                     <div class="swiper-button-next text-gray-400"></div>
                     <div class="swiper-button-prev text-gray-400"></div>
                 </div>
-       
-  
-       
+
+
+
         <div class="text-2xl md:text-4xl font-bold mt-20 mb-8">
             {{ _trans('WHY OUR CUSTOMERS THINK T HAT DATA ANALYTICS IS WORTH INVESTING IN') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
@@ -472,11 +472,6 @@
 @endsection
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 
 @endsection
