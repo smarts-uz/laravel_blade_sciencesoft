@@ -177,7 +177,7 @@
                 OUR CUSTOMERS SAY
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-500 mb-6">
-            
+
 
                 <div class="swiper-container big-slide">
                     <div class="swiper-wrapper">
@@ -379,27 +379,8 @@
                     for your time and tailor the description of our competencies to
                     situations most frequent in our practice.
                 </p>
-                <form class="bg-gray-100 p-4">
-                    <div class="md:flex md:flex-wrap md:justify-between">
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="text" placeholder="Full Name" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="text" placeholder="Company" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="email" placeholder="Work Email" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="text" placeholder="Work Phone" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                    </div>
-                    <p class="text-md text-blue-600 mb-2">How can I help you ?</p>
-                    <textarea rows="5" class="w-full p-2 text-lg border mb-4">I'm interested in ecommerce development services.</textarea>
-                    <div class="flex justify-center">
-                        <button class="text-white font-semibold  bg-blue-700 py-3 px-12 uppercase">Discuss my development needs</button>
-                    </div>
-                </form>
+                @include('front.Components.consultation')
+
             </div>
         </div>
 

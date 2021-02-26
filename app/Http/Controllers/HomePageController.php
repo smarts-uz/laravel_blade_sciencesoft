@@ -157,7 +157,7 @@ class HomePageController extends Controller
         $posts->description = $request->description;
         $posts->save();
 
-        return redirect('/')->with('success', 'Your information has been sent successfully!');
+        return back()->with('success', 'Your information has been sent successfully!');
 
     }
 
