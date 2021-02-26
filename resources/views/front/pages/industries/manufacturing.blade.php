@@ -8,7 +8,7 @@
         {{ _trans('IT Solutions for Manufacturing: Software to Drive Business Productivity and Cost Saving') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
-    
+
     <img src="https://www.scnsoft.com/manufacturing/cover-pic-it-for-manufacturing-1.svg" alt="">
 
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
@@ -19,7 +19,7 @@
     {{_trans('With ')}}
     <span class="text-gray-800 font-bold">{{ _trans('31-year experience')}}</span>
     {{_trans('in developing software for the manufacturing industry, ScienceSoft offers robust solutions and related services to support and modernize your enterprise’s operations and ensure ')}}
-    <span class="text-gray-800 font-bold">{{ _trans('increased efficiency of operations and optimized business costs, all without IT budget overruns.')}}</span>  
+    <span class="text-gray-800 font-bold">{{ _trans('increased efficiency of operations and optimized business costs, all without IT budget overruns.')}}</span>
     </p>
 
     <div class="p-4 my-16 shadow-xl border rounded lg:flex">
@@ -75,13 +75,13 @@
                 <li class="text-blue-800 mt-2">
                 <span class="text-gray-800 font-bold">{{ _trans('250+ ') }}</span>
                     <span class="text-gray-600">{{ _trans('developers, more than 50% of them are Seniors.') }}</span>
-                   
+
                 </li>
                 <li class="text-blue-800 mt-2">
                     <span class="text-gray-600">{{ _trans('Successful projects on diverse enterprise-level solutions, such as ERP, CRM, SCM, and more.') }}</span>
-                   
+
                 </li>
-            
+
         </ul>
     </div>
     </div>
@@ -93,18 +93,12 @@
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
 
-    
+
 
 </div>
 
 @endsection
  @section('js')
 
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
 
-</script>
 @endsection
