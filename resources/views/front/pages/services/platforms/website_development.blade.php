@@ -75,8 +75,8 @@
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
                         data-aos="fade-up"
-                        style="font-size: 8rem"
-                        class="  font-bold  text-gray-300 "
+
+                        class=" text-9xl  font-bold  text-gray-300 "
                 >
                     1
                 </p>
@@ -166,8 +166,8 @@
             <div class="flex text-center absolute item-center justify-center z-0">
                 <p
                         data-aos="fade-up"
-                        style="font-size: 8rem"
-                        class="  font-bold  text-gray-300 "
+
+                        class=" text-9xl font-bold  text-gray-300 "
                 >
                     2
                 </p>
@@ -346,7 +346,7 @@
             {{_trans('Кейсы')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-            <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+            <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
                 3
             </p>
         </div>
@@ -965,7 +965,7 @@
             {{_trans('Используем в работе')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-            <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+            <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">
                 4
             </p>
         </div>
@@ -1041,12 +1041,12 @@
     <div class="flex justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 sm:px-20 relative justify-center">
             <div class="relative pt-20">
-                <div style="border-radius: 200px 0 200px 0; left: -80px"
-                     class="bg-blue-500 py-20 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block"
+                <div style="border-radius: 200px 0 200px 0; "
+                     class="bg-blue-500 py-20 -left-32 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block"
                      data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
-                        <p style="font-size: 9rem" class="item-center font-bold absolute left-48 text-blue-500 z-0">
+                        <p  class=" text-9xl item-center font-bold absolute left-48 text-blue-500 z-0">
                             7
                         </p>
                     </div>
@@ -1054,14 +1054,14 @@
                         {{_trans('Потому что у нас Вы можете создать по-настоящему классный сайт, со всеми нужными Вам функциями')}}
                     </p>
                 </div>
-                <div style="border-radius: 0 0 200px 0; top: 80px"
-                     class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative" data-aos="fade-right">
+                <div style="border-radius: 0 0 200px 0; "
+                     class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative top-24" data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="lg:text-3xl font-bold text-white z-10 ">
                             {{_trans('Почему мы?')}}
                         </h1>
                         <div class="flex text-center absolute item-center justify-center z-0 opacity-50">
-                            <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                            <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">
                                 5
                             </p>
                         </div>
@@ -1123,8 +1123,8 @@
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
             <p data-aos="fade-up"
-               style="font-size: 8rem"
-               class="  font-bold  text-gray-300 opacity-50 ">
+
+               class=" text-9xl  font-bold  text-gray-300 opacity-50 ">
                 6
             </p>
         </div>
@@ -1146,11 +1146,11 @@
             ></div>
             <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5 z-20">
                 <div class="text-center">
-                    <h1 style="font-size: 21px"
-                        class="font-bold text-gray-700 mb-1 mt-5">
+                    <h1
+                        class="text-xl font-bold text-gray-700 mb-1 mt-5">
                         {{_trans('LANDING PAGE')}}
                     </h1>
-                    <h1 style="font-size: 25px" class="border-b pb-5 text-gray-600">
+                    <h1  class="border-b pb-5 text-gray-600 text-xl">
                         {{_trans('')}}от <span class="font-bold text-gray-700">9 000 000</span> uzs
                     </h1>
                 </div>
@@ -1183,11 +1183,11 @@
             <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 mx-8 bg-blue-700 -mb-16 -z-10"></div>
             <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5">
                 <div class="text-center">
-                    <h1 style="font-size: 21px"
-                        class="font-bold text-gray-700 mb-1 mt-5">
+                    <h1
+                        class="font-bold text-gray-700 mb-1 mt-5 text-xl">
                         {{_trans('Корпоративный сайт')}}
                     </h1>
-                    <h1 style="font-size: 25px" class="border-b pb-5 text-gray-600">
+                    <h1  class="border-b pb-5 text-gray-600 text-xl">
                         от <span class="font-bold text-gray-700">14 000 000</span> uzs
                     </h1>
                 </div>
@@ -1221,11 +1221,11 @@
             ></div>
             <div class="shadow-lg rounded-2xl px-10 pt-10 pb-5 m-5">
                 <div class="text-center">
-                    <h1 style="font-size: 21px"
-                        class="font-bold text-gray-700 mb-1 mt-5">
+                    <h1
+                        class="font-bold text-gray-700 mb-1 mt-5 text-xl">
                         {{_trans('Интернет-магазин')}}
                     </h1>
-                    <h1 style="font-size: 25px" class="border-b pb-5 text-gray-600">
+                    <h1  class="border-b pb-5 text-gray-600 text-xl">
                         {{_trans('от')}} <span class="font-bold text-gray-700">35 000 000</span> uzs
                     </h1>
                 </div>
@@ -1269,10 +1269,10 @@
         <!--    -->
         <div class="shadow-lg rounded-2xl z-20 px-10 pt-10 pb-5 m-5 z-20">
             <div class="text-center">
-                <h1 style="font-size: 21px" class="font-bold text-gray-700 mb-1 mt-5">
+                <h1  class="font-bold text-gray-700 mb-1 mt-5 text-xl">
                     {{_trans('ИНДИВИДУАЛЬНЫЙ')}}
                 </h1>
-                <h1 style="font-size: 21px" class="text-gray-700 mb-1 mt-5 text-4xl">
+                <h1  class="text-gray-700 mb-1 mt-5 text-4xl text-xl">
                     {{_trans('По договору')}}
                 </h1>
             </div>
@@ -1294,8 +1294,8 @@
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
                     <p data-aos="fade-up"
-                       style="font-size: 8rem"
-                       class="  font-bold  text-gray-400 opacity-50">
+
+                       class=" text-9xl font-bold  text-gray-400 opacity-50">
                         7
                     </p>
                 </div>
@@ -1307,8 +1307,8 @@
 
     <div class="bg-gray-50 z-0" data-aos="fade-up">
         <div
-                style="margin-left: 20%; margin-right: 20%; font-size: 17px"
-                class="pt-20 text-gray-700 pb-20">
+
+                class="pt-20 text-gray-700 pb-20 text-lg lg:mx-24 mx-16">
             <div class="z-0">
                 <p>
                     {{_trans('Хотите')}} <b>{{_trans('заказать веб сайт')}}</b>{{_trans('или ')}} <b>{{_trans('купить сайт в Ташкенте')}}</b>
@@ -1335,14 +1335,14 @@
                         {{_trans('услуги')}}
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                        <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">
                             8
                         </p>
                     </div>
                 </div>
 
 
-                <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
+                <div  class="bg-blue-700 max-w-5xl h-44 rounded-l-2xl pt-5 z-20 mt-32"
                      data-aos="fade-up-left">
                     <div class="flex justify-center items-center pl-20 pt-5">
 
