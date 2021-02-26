@@ -9,28 +9,31 @@
 <main style="overflow-y: hidden; overflow-x: hidden">
 
 
-<div class="bg-black h-auto px-4 pt-40">
+<div class="bg-black h-auto px-4 pt-20 pb-10">
         <div
-          class="py-8 grid grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
+          class="py-8 grid grid-cols-1  md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide lg:"
-            >
-              Разработка ботов <br> для телеграма <br> в Ташкенте
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div
+                class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 lg:leading-relaxed"
               >
-                Получить консультацию
-              </a>
-            </div>
+                Разработка ботов <br> для телеграма <br> в Ташкенте
+              </div>
+              <div class="lg:px-20">
+                <a
+                  href="#"
+                  class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+              </div>
+
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/1.svg" alt="" />
+            <img src="{{asset('images/open_engine/facebook_telegram/1.svg')}}" alt="" />
           </div>
         </div>
       </div>
@@ -41,31 +44,31 @@
           class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16 pb-32"
         >
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/facebook_telegram/2.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Креатив
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/2.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/facebook_telegram/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Дизайн
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/3.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/facebook_telegram/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Таргетинг
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/4.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/facebook_telegram/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Маркетинг
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/5.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/facebook_telegram/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
              Лидогенерация
             </p>
@@ -81,15 +84,15 @@
                 <div>
                     <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5  shadow-xl">
                         <div class="flex justify-center">
-                            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/4.svg" alt="">
+                            <img src="{{asset('images/open_engine/facebook_telegram/7.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
                             <p class="text-center font-bold text-gray-600">Экономия времени и <br> финансов</p>
                        </div>
                     </div>
-                    <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5  shadow-xl">
+                    <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5 mt-10 shadow-xl">
                         <div class="flex justify-center">
-                            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/4.svg" alt="">
+                            <img src="{{asset('images/open_engine/facebook_telegram/8.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
                             <p class="text-center font-bold text-gray-600">Увеличение аудитории  <br> мессенджеров</p>
@@ -106,8 +109,8 @@
                         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 1
               </p>
@@ -125,16 +128,16 @@
                 <div>
                     <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5  shadow-xl">
                         <div class="flex justify-center">
-                            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/4.svg" alt="">
+                            <img src="{{asset('images/open_engine/facebook_telegram/9.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
                             <p class="text-center font-bold text-gray-600">Простой <br> юзабилити</p>
                        </div>
                     </div>
 
-                    <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5  shadow-xl">
+                    <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5 mt-10 shadow-xl">
                         <div class="flex justify-center">
-                            <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-feature/4.svg" alt="">
+                            <img src="{{asset('images/open_engine/facebook_telegram/10.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
                             <p class="text-center font-bold text-gray-600">Вы автоматически<br>впереди конкурентов</p>
@@ -161,7 +164,7 @@
         </div>
 
 
-        <div style="z-index: 100" class="flex relative justify-center flex-col md:flex-row mx-20 -mt-20">
+        <div class="flex relative justify-center flex-col md:flex-row mx-20 -mt-20 z-20">
             <div class=" bg-white rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
                 <div>
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
@@ -226,8 +229,8 @@
                          <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 3
               </p>
@@ -244,7 +247,7 @@
                 </div>
         </div>
         <div class="flex items-center pt-8">
-            <img src="https://oe.uz/local/templates/oe/media/images/bot/step_image.svg" alt="">
+            <img src="{{asset('images/open_engine/facebook_telegram/17.svg')}}" alt="">
         </div>
     </div>
 
@@ -300,8 +303,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 4
               </p>
@@ -315,38 +318,40 @@
             <div class="flex justify-center">
                 <div>
                     <div class="px-10 py-5">
-                        <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/facebook_telegram/18.svg')}}" alt="">
                         <p class="text-2xl font-bold text-blue-700">Опыт</p>
                         <p class=" text-gray-700">Получили бесценный опыт и доверие клиентов</p>
                     </div>
                     <div class="px-10 py-5">
-                        <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/facebook_telegram/19.svg')}}" alt="">
                         <p class="text-2xl font-bold text-blue-700">Скорость</p>
                         <p class=" text-gray-700">Всегда выполняем всю работу вовремя</p>
                     </div>
                     <div class="px-10 py-5">
-                        <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/facebook_telegram/20.svg')}}" alt="">
                         <p class="text-2xl font-bold text-blue-700">  Кастомизация</p>
                         <p class=" text-gray-700">Бота можно изменить и дорабоать в любое время</p>
                     </div>
                 </div>
             </div>
 
-            <div >
-                <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/image.svg" alt="">
+            <div class="relative">
+               <img class="absolute" src="{{asset('images/open_engine/facebook_telegram/robot.svg')}}" alt="">
+                <img src="{{asset('images/open_engine/facebook_telegram/24.svg')}}" alt="">
+
             </div>
 
             <div class="flex justify-center">
                 <div>
                     <div class="px-10 py-5">
-                        <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/facebook_telegram/21.svg')}}" alt="">
                         <p class="text-2xl font-bold text-blue-700">  Результат
                             </p>
                         <p class=" text-gray-700">Погружаемся в ваш бизнес и добиваемся максимального результата</p>
                     </div>
 
                     <div class="px-10 py-5">
-                        <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/facebook_telegram/22.svg')}}" alt="">
                         <p class="text-2xl font-bold text-blue-700">  Поддержка
                             </p>
                         <p class=" text-gray-700">Мы всегда поможем и проконсультируем клиента</p>
@@ -355,7 +360,7 @@
 
 
                     <div class="px-10 py-5">
-                        <img src="https://oe.uz/local/templates/oe/media/images/bot/icons-why/1.svg" alt="">
+                        <img src="{{asset('images/open_engine/facebook_telegram/23.svg')}}" alt="">
                         <p class="text-2xl font-bold text-blue-700">  100% профит
                             </p>
                         <p class=" text-gray-700">Абсолютно все проекты были приняты заказчиками</p>
@@ -373,8 +378,8 @@
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 5
               </p>
@@ -386,10 +391,10 @@
           <ul class="splide__list">
             <li class="splide__slide">
               <div
-                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center  pt-20"
+                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center mt-14 pt-20"
               >
                 <div class="">
-                  <img src="https://oe.uz/upload/iblock/de5/de54874315e37b35d94523d5a9ed7cbb.png" alt="" />
+                  <img src="{{asset('images/open_engine/facebook_telegram/25.png')}}" alt="" />
                 </div>
                 <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
                   <p><b>Клиент:</b></p>
@@ -418,10 +423,10 @@
             </li>
             <li class="splide__slide">
               <div
-                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center  pt-20"
+                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center mt-14 pt-20"
               >
                 <div class="">
-                  <img src="https://oe.uz/upload/iblock/b1d/b1d80d5d88f16cadbf2862bd6cef52eb.png" alt="" />
+                  <img src="{{asset('images/open_engine/facebook_telegram/26.png')}}" alt="" />
                 </div>
                 <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
                   <p><b>Клиент:</b></p>
@@ -450,10 +455,10 @@
             </li>
             <li class="splide__slide">
               <div
-                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center  pt-20"
+                class="grid sm:grid-cols-2 grid-cols-1 container m-auto items-center mt-14 pt-20"
               >
                 <div class="">
-                  <img src="https://oe.uz/upload/iblock/ea5/ea57c7db360deff50584da720ef5ed4d.png" alt="" />
+                  <img src="{{asset('images/open_engine/facebook_telegram/27.png')}}" alt="" />
                 </div>
                 <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
                   <p><b>Клиент:</b></p>
@@ -492,20 +497,20 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 6
               </p>
           </div>
     </div>
 
-    <div class="flex justify-center items-center py-20  hover:scale-110 duration-200">
-        <div class="bg-white flex items-center  rounded-r-2xl">
+    <div class="flex justify-center items-center py-10 transform hover:scale-110 duration-200">
+        <div class="bg-white flex items-center shadow-lg  rounded-r-2xl">
             <div class="bg-black py-10 px-5 rounded-l-2xl">
-                <img src="https://oe.uz/local/templates/oe/media/images/icons/bot.png" alt="">
+                <img src="{{asset('images/open_engine/facebook_telegram/28.png')}}" alt="">
             </div>
-            <div class="text-3xl text-gray-700 font-bold px-10">
+            <div class="lg:text-3xl sm:text-lg text-gray-700 font-bold px-10">
                 <p>от 3 000 000 UZS</p>
             </div>
             <a href=""
@@ -525,8 +530,8 @@
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-400 opacity-50"
+
+                class=" text-9xl font-bold  text-gray-400 opacity-50"
               >
                 7
               </p>
@@ -540,7 +545,7 @@
 
 
 <div class="bg-gray-200 z-0" data-aos="fade-up">
-    <div style="margin-left: 20%; margin-right: 20%; font-size: 17px" class="pt-20 text-gray-700 pb-20">
+    <div class="pt-20 text-2xl md:mx-24 mx-10 text-gray-700 pb-20">
 
         <div class="z-0">
             <p>
@@ -564,7 +569,7 @@
                     услуги
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
-                    <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                    <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">
                         8
                     </p>
                 </div>

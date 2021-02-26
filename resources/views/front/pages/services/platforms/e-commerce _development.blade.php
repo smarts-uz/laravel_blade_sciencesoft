@@ -8,23 +8,25 @@
 
 
 <main class="overflow-hidden">
-      <div class="bg-black h-auto px-4 pt-20 pb-20">
+      <div class="bg-black h-auto px-4 pt-32">
         <div
-          class="py-8 grid lg:text-left grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
-        >
-          <div data-aos="fade-right" class="flex justify-center items-center">
+          class="py-8 grid lg:text-left grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20">
+
+          <div data-aos="fade-right" class="flex justify-center items-center leading-loose">
               <div>
-                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 lg:leading-relaxed">
+                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 ">
                     Разработка <br> интернет <br> магазина
                   </div>
                   <div class="lg:px-20">
                     <a
                       href="#"
-                      class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
+                      class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                    >
                       Получить консультацию
                     </a>
                   </div>
               </div>
+
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
@@ -815,7 +817,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1 class="text-2xl border-b py-5 text-gray-600">
                 <span class="text-gray-600">35 000 000</span> uzs
               </h1>
             </div>
@@ -852,7 +854,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1  class="text-2xl border-b py-5 text-gray-600">
                 <span class="text-gray-600">120 000 000</span> uzs
               </h1>
             </div>
@@ -891,7 +893,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1  class="text-2xl border-b py-5 text-gray-600">
                 <span class="text-gray-600">150 000 000</span> uzs
               </h1>
             </div>
@@ -950,7 +952,7 @@
       <div class="bg-gray-200 h-12 z-10" data-aos="fade-up-right"></div>
 
       <div class="bg-gray-100 z-0" data-aos="fade-up-right">
-        <div style="font-size: 17px" class="pt-20 text-gray-700 pb-20">
+        <div  class="text-lg pt-20 text-gray-700 pb-20">
           <div class="flex justify-center">
             <div class="z-0 text-gray-600 text-lg max-w-3xl">
               <p>
