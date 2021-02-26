@@ -18,10 +18,11 @@
     </div>
 
 
-    <div style="margin: 0 4rem" class="swiper-container main-slide">
+    <div class="swiper-container main-slide">
         <div class="swiper-wrapper flex items-center">
             @foreach ($partnerships as $partnership)
                 <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+
                     <img src="@if ($partnership->image) {{ '/uploads/categories/' . $partnership->image }}
                     @else{{ asset('images/default-image.png') }} @endif">
                 </div>
@@ -656,13 +657,13 @@
 
     @isset($blogs)
         <div>
-            <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
+            <div class="my-4lg:mt-12 mt-3">
                 <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
                 <hr class="w-10 h-0.5 border-none bg-yellow-500">
             </div>
-            <div class="flex flex-wrap justify-center md:justify-between">
+            <div class="flex flex-wrap justify-center">
                 @foreach ($blogs->splice(0, 3) as $blog)
-                    <div class="w-96 p-4">
+                    <div class="w-96 p-4 mx-8">
                         <a href="{{ route('SingleBlog', [$blog->id]) }}"
                             class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
                             <div>
@@ -745,7 +746,6 @@
                         <p class="uppercase">{{ _trans('Check our open vacancies') }}</p>
                         <i class="fas fa-arrow-right pl-3"></i>
                     </a>
-
                 </div>
                 <div>
 
