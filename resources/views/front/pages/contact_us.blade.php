@@ -69,14 +69,15 @@
               <p class="text-center text-lg pt-5 text-gray-400">{{ _trans("Drop us a line, and our rep will contact you
               within 30 minutes to arrange an initial discussion.")  }}</p>
             <form method="POST" action="{{ route('postFile') }}" class="w-full flex-col">
-                <div class="m-3 flex justify-around pb-5">
+                @csrf
+               <div class="m-3 flex justify-around pb-5">
                   <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="fullname"
                     placeholder="{{ _trans("Full Name")  }}">
                   <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="company"
                     placeholder="{{ _trans("Company")  }}">
                 </div>
                 <div class="m-3 flex justify-around">
-                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="email"
+                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="email" id="" name="email"
                     placeholder="{{ _trans("Work Email")  }}">
                   <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="phone_number"
                     placeholder="{{ _trans("Work Phone")  }}">
