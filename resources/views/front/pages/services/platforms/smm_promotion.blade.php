@@ -82,8 +82,8 @@
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-200 "
+
+                class=" text-9xl font-bold  text-gray-200 "
               >
                 1
               </p>
@@ -341,8 +341,8 @@
      <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 3
               </p>
@@ -592,8 +592,8 @@
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 4
               </p>
@@ -668,8 +668,8 @@
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 5
               </p>
@@ -725,8 +725,8 @@
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 6
               </p>
@@ -746,7 +746,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1 class="border-b py-5 text-2xl text-gray-600">
                 <span class=" text-gray-600"><b>850 USD</b></span> в месяц
               </h1>
             </div>
@@ -762,8 +762,8 @@
             <div class="justify-center flex">
               <a
                 href=""
-                style="margin-bottom: 7.5rem"
-                class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
+
+                class="mb-28 bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
                 Заказать
               </a>
@@ -779,7 +779,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1  class=" text-2xl border-b py-5 text-gray-600">
                 <span class=" text-gray-600"> <b>1100 USD</b></span> в месяц
               </h1>
             </div>
@@ -797,8 +797,8 @@
             <div class="justify-center flex">
               <a
                 href=""
-                style="margin-bottom: 4.5rem"
-                class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
+
+                class="bg-blue-700 rounded-full mb-20 text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
                 Заказать
               </a>
@@ -814,7 +814,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1 class="text-2xl border-b py-5 text-gray-600">
                 <span class=" text-gray-600"><b> 1500 USD</b></span> в месяц
               </h1>
             </div>
@@ -858,8 +858,8 @@
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
                 <p
-                  style="font-size: 8rem"
-                  class="item-center font-bold absolute left-48 text-blue-500 z-0"
+
+                  class="item-center font-bold text-9xl absolute left-48 text-blue-500 z-0"
                 >
                   7
                 </p>
@@ -879,8 +879,8 @@
                   Почему мы?
                 </h1>
                 <p
-                  style="font-size: 8rem"
-                  class="item-center font-bold absolute left-48 text-gray-400 z-0"
+
+                  class="item-center font-bold text-9xl absolute left-48 text-gray-400 z-0"
                 >
                   7
                 </p>
@@ -945,8 +945,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-400 opacity-50"
+
+                class="  font-bold text-9xl  text-gray-400 opacity-50"
               >
                 8
               </p>
@@ -987,7 +987,7 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                        <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">
                             9
                         </p>
                     </div>

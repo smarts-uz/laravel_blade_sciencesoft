@@ -81,8 +81,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl  font-bold  text-gray-300 "
               >
                 1
               </p>
@@ -161,8 +161,8 @@
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-400 "
+
+                class=" text-9xl  font-bold  text-gray-400 "
               >
                 2
               </p>
@@ -496,8 +496,8 @@
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
                 <p
-                  style="font-size: 8rem"
-                  class="item-center font-bold absolute left-48 text-blue-500 z-0"
+
+                  class=" text-9xl item-center font-bold absolute left-48 text-blue-500 z-0"
                 >
                   7
                 </p>
@@ -584,8 +584,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
 
               </p>
@@ -674,8 +674,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 7
               </p>
@@ -710,15 +710,15 @@
 
 
 
-    <div style="z-index: 100" class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
+    <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
          data-aos="fade-up-right">
         <div class="flex justify-center items-center my-20 pt-10">
             <h1 class="text-4xl font-bold text-white z-10">Мобильное приложение</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-400 opacity-50"
+
+                class=" text-9xl font-bold  text-gray-400 opacity-50"
               >
                 8
               </p>
@@ -755,7 +755,7 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+                        <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
                           9
                         </p>
                     </div>

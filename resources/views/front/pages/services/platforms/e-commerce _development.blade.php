@@ -817,7 +817,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1 class="text-2xl border-b py-5 text-gray-600">
                 <span class="text-gray-600">35 000 000</span> uzs
               </h1>
             </div>
@@ -854,7 +854,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1  class="text-2xl border-b py-5 text-gray-600">
                 <span class="text-gray-600">120 000 000</span> uzs
               </h1>
             </div>
@@ -893,7 +893,7 @@
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
-              <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+              <h1  class="text-2xl border-b py-5 text-gray-600">
                 <span class="text-gray-600">150 000 000</span> uzs
               </h1>
             </div>
@@ -952,7 +952,7 @@
       <div class="bg-gray-200 h-12 z-10" data-aos="fade-up-right"></div>
 
       <div class="bg-gray-100 z-0" data-aos="fade-up-right">
-        <div style="font-size: 17px" class="pt-20 text-gray-700 pb-20">
+        <div  class="text-lg pt-20 text-gray-700 pb-20">
           <div class="flex justify-center">
             <div class="z-0 text-gray-600 text-lg max-w-3xl">
               <p>
