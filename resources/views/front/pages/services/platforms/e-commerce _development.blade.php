@@ -8,24 +8,23 @@
 
 
 <main class="overflow-hidden">
-      <div class="bg-black h-auto px-4 pt-32">
+      <div class="bg-black h-auto px-4 pt-20 pb-20">
         <div
           class="py-8 grid lg:text-left grid-cols-1 text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12"
-            >
-              Разработка <br> интернет <br> магазина
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
-              >
-                Получить консультацию
-              </a>
-            </div>
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 lg:leading-relaxed">
+                    Разработка <br> интернет <br> магазина
+                  </div>
+                  <div class="lg:px-20">
+                    <a
+                      href="#"
+                      class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6">
+                      Получить консультацию
+                    </a>
+                  </div>
+              </div>
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
@@ -60,7 +59,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon1.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">ЗОЛОТОЙ ПАРТНЁР</h1>
 
@@ -73,7 +72,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon2.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">ОТ ИДЕИ ДО ПРОДАЖ</h1>
 
@@ -98,7 +97,7 @@
             class="flex justify-center md:justify-end flex-1 p-5"
             data-aos="fade-right"
           >
-            <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
+            <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon4.svg')}}" alt="" />
             <div>
               <h1 class="pl-10 text-gray-600">ГАРАНТИРУЕМ РЕЗУЛЬТАТ</h1>
 
@@ -511,7 +510,7 @@
         <div class="text-white grid grid-cols-1 items-center sm:grid-cols-2">
           <div class="sm:px-8 lg:px-8">
             <img
-              src="https://oe.uz/local/templates/oe/media/images/online-store/module6_img01.png"
+              src="{{asset('images/open_engine/e-commerce _development/images/2/module6_img01.png')}}"
               alt=""
             />
           </div>
@@ -569,7 +568,7 @@
             </div>
           <div class="sm:px-8 lg:px-8 order-first sm:order-none">
             <img
-              src="https://oe.uz/local/templates/oe/media/images/online-store/module6_img02.png"
+              src="{{asset('images/open_engine/e-commerce _development/images/2/module6_img02.png')}}"
               alt=""
             />
           </div>
@@ -580,7 +579,7 @@
         <div class="text-white grid grid-cols-1 items-center sm:grid-cols-2">
           <div class="sm:px-8 lg:px-8">
             <img
-              src="https://oe.uz/local/templates/oe/media/images/online-store/module6_img03.png"
+              src="{{asset('images/open_engine/e-commerce _development/images/2/module6_img03.png')}}"
               alt=""
             />
           </div>
@@ -696,7 +695,7 @@
             class="sm:px-8 lg:px-8 pt-8 flex justify-center"
           >
             <img
-              src="https://oe.uz/local/templates/oe/media/images/online-store/module8_img1.png"
+              src="{{asset('images/open_engine/e-commerce _development/images/2/module8_img1.png')}}"
               alt=""
             />
           </div>
@@ -753,15 +752,15 @@
               <div class="p-5" data-aos="fade-left">
                 <img
                   class=""
-                  src="https://oe.uz/local/templates/oe/media/images/online-store/bx-cert.jpg"
-                  alt=""
+                  src="{{asset('images/open_engine/e-commerce _development/images/2/bx-cert.jpg')}}"
+                  alt="bx-cert"
                 />
               </div>
 
               <div class="p-5" data-aos="fade-left">
                 <img
                   class=""
-                  src="https://oe.uz/local/templates/oe/media/images/online-store/bx-cert2.jpg"
+                  src="{{asset('images/open_engine/e-commerce _development/images/2/bx-cert2.jpg')}}"
                   alt=""
                 />
               </div>
@@ -770,7 +769,7 @@
               <div class="p-5" data-aos="fade-left">
                 <img
                   class=""
-                  src="https://oe.uz/local/templates/oe/media/images/online-store/bx-cert3.jpg"
+                  src="{{asset('images/open_engine/e-commerce _development/images/2/bx-cert3.jpg')}}"
                   alt=""
                 />
               </div>
@@ -778,7 +777,7 @@
               <div class="p-5" data-aos="fade-left">
                 <img
                   class=""
-                  src="https://oe.uz/local/templates/oe/media/images/online-store/bx-cert4.jpg"
+                  src="{{asset('images/open_engine/e-commerce _development/images/2/bx-cert4.jpg')}}"
                   alt=""
                 />
               </div>
