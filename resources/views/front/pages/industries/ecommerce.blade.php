@@ -254,62 +254,7 @@
             <hr class="w-10 h-1 bg-pink-600">
         </h1>
 
-        <form class="px-16 py-12 bg-gray-200 text-gray-800">
-            <label class="">
-                {{ _trans("TeamPRO is a full-service ecommerce team to handle diverse consulting and development tasks. Outline
-                briefly the service or challenge you want to discuss with us, and we will be quick to follow up and start
-                our dialogue.") }}
-            </label>
-            <div class="flex flex-col lg:flex-row justify-between">
-                <div class="flex flex-col mr-3">
-                    <div class="flex justify-between flex-row flex-wrap">
-                        <input type="text" name="FullName" placeholder="{{ _trans('Full Name') }}"
-                            class="border-2 border-gray-500 outline-none my-3 mr-3 p-4 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-                        <input type="text" name="Company" placeholder="{{ _trans('Company') }}"
-                            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto" />
-                        <input type="email" name="Email" placeholder="{{ _trans('Work Email') }}"
-                            class="border-2 border-gray-500 outline-none  py-4 px-3 my-3 mr-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-                        <input type="text" name="Phone Number" placeholder="{{ _trans('Work Phone') }}"
-                            class="border-2 border-gray-500 outline-none my-3 mr-3 py-4 px-3 w-full sm:w-auto md:w-2/5 xl:w-auto">
-                    </div>
-                    <textarea placeholder="{{ _trans('How can we we help you?') }}" cols="3" rows="6"
-                        class="border-2 border-gray-500 outline-none my-3 -mr-3 py-4 px-3"
-                        style="margin-right: 0.75rem;"></textarea>
-                    <div class="flex justify-center items-center mb-3">
-                        <button type="submit"
-                            class="text-center uppercase bg-blue-700 hover:bg-blue-900 text-white w-56 h-16 ">{{ _trans("Discuss my
-                            Ecommerce needs") }}</button>
-                    </div>
-                </div>
-                <div class="flex lg:flex-col md:flex-row md:justify-between flex-col">
-                    <div class="flex flex-col">
-                        <p class="text-xl font-semibold">{{ _trans('Our contact details') }}</p>
-                        <a href="#" class="flex flex-row items-center text-blue-500 my-3">
-                            <i class="fa fa-phone mr-3"></i>
-                            <p>(+998) 99 873-48-36</p>
-                        </a>
-                        <a href="#" class="flex flex-row items-center text-blue-500">
-                            <i class="fa fa-envelope mr-3"></i>
-                            <p>contact@scnsoft.com</p>
-                        </a>
-                    </div>
-                    <div class="flex flex-col my-3">
-                        <p class="text-xl font-semibold mb-3">{{ _trans('Press inquires') }}</p>
-                        <a href="#" class="flex items-center text-blue-500">
-                            <p class="mr-3">{{ _trans('GET IN TOUCH WITH US') }}</p>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="flex flex-col">
-                        <p class="text-xl border-2 font-semibold mb-3">{{ _trans('Join our team') }}</p>
-                        <a href="#" class="flex items-center text-blue-500">
-                            <p class="mr-3">{{ _trans('CHECK OUR OPEN VACANCIES') }}</p>
-                            <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </form>
+        @include('front.Components.consultation')
 
     </div>
 
