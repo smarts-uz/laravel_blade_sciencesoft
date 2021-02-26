@@ -7,14 +7,14 @@
 @section('main')
 
    <div class="my-8">
-   
+
    <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
         {{ _trans('Insurance Software: IT Solutions for Streamlined Insurance Services') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
     <img class="my-8" src="https://www.scnsoft.com/insurance/cover-pic-it-for-insurance.svg" alt="">
-   
+
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
     {{ _trans('IT solutions for insurance allow insurers to speed up service delivery, reduce labor costs, achieve insurance data accuracy and compliance with government regulations, as well as provide a personalized approach to clients and improve customer service.') }}
     </p>
@@ -23,7 +23,7 @@
             <span
             class="text-gray-800 font-bold">{{ _trans('facilitate digital lead generation and increase the efficiency of application processing and claim management.')}}</span>
     </p>
-   
+
     <div class="p-4 my-16 shadow-xl border rounded lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-6 lg:text-3xl">
@@ -45,7 +45,7 @@
 
         </div>
     </div>
-   
+
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
         {{ _trans('WHAT MAKES SCIENCESOFT A RELIABLE PARTNER') }}
     </h1>
@@ -53,15 +53,15 @@
 
 
     <div class="grid md:grid-cols-3">
-    
+
     <div class="text-center">
     <img class="m-auto" src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" width="45" height="45" alt="">
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
             <span class="text-gray-800 font-bold">{{ _trans('31 ')}}</span>
             {{_trans('years in software development and consulting')}}
-   
+
     </p>
-  
+
     </div>
 
     <div class="text-center">
@@ -69,9 +69,9 @@
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
             <span class="text-gray-800 font-bold">{{ _trans('8 ')}}</span>
             {{_trans(' years in IT for insurance')}}
-   
+
     </p>
-  
+
     </div>
 
     <div class="text-center">
@@ -83,7 +83,7 @@
             <span class="text-gray-800 font-bold">{{ _trans('B2C  ')}}</span>
             {{_trans(' insurance solutions.')}}
     </p>
-  
+
     </div>
 
     </div>
@@ -97,7 +97,7 @@
             class="text-gray-800 font-bold">{{ _trans('AWS Select Tier')}}</span>
             {{_trans('partnership')}}
     </p>
-   
+
     </div>
 
     <div>
@@ -116,7 +116,7 @@
         {{ _trans('IT SOLUTIONS FOR INSURANCE WE DEVELOP') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
-   
+
    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
    <div class="border pb-12 hover:shadow-md">
@@ -146,7 +146,7 @@
                 <span class="text-gray-600">{{ _trans('Compliance management.')}}</span>
             </li>
         </ul>
-    
+
 
 
            </div>
@@ -174,9 +174,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Compliance assurance.') }}</span>
             </li>
-           
+
         </ul>
-    
+
 
 
            </div>
@@ -206,9 +206,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Compensations for injuries.') }}</span>
             </li>
-           
+
         </ul>
-    
+
 
 
            </div>
@@ -239,7 +239,7 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Customer journey management.') }}</span>
             </li>
-           
+
         </ul>
 
         <p class="text-gray-800 font-semibold">B2C Sales</p>
@@ -253,7 +253,7 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Integration with underwriting software.') }}</span>
             </li>
-           
+
         </ul>
 
            <p class="text-gray-800 font-semibold">B2B Sales</p>
@@ -264,7 +264,7 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Account development.') }}</span>
             </li>
-           
+
         </ul>
 
         <p class="text-gray-800 font-semibold">Customer service</p>
@@ -278,7 +278,7 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Registering claims.') }}</span>
             </li>
-           
+
         </ul>
 
 
@@ -309,9 +309,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('AI assistant.') }}</span>
             </li>
-           
+
         </ul>
-    
+
 
 
            </div>
@@ -338,9 +338,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Customer behavior analysis.') }}</span>
             </li>
-           
+
         </ul>
-    
+
 
 
            </div>
@@ -376,9 +376,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Planning and forecasting.') }}</span>
             </li>
-           
+
         </ul>
-    
+
 
 
            </div>
@@ -386,7 +386,7 @@
         </div>
 
    </div>
-   
+
 
    <div class="p-4 my-16 shadow-xl border rounded lg:flex">
         <div class="lg:w-4/6">
@@ -537,7 +537,7 @@
             </div>
 
         </div>
-        
+
 
         <div class="border relative pb-6 hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
@@ -566,7 +566,7 @@
                         <p>{{_trans('Testing and QA.')}}</p>
                     </div>
                 </div>
-           
+
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
@@ -594,7 +594,7 @@
 
         </div>
 
-                
+
                 </div>
 
 
@@ -605,7 +605,7 @@
 
 
 
-    
+
     <div class="my-8 md:block hidden">
         <div class="grid mt-6 grid-cols-1 md:grid-cols-3 gap-4">
             <div class="border-l px-4 border-gray-400">
@@ -644,8 +644,8 @@
                     {{_trans('regulatory compliance due to strong security features.')}}
                 </p>
             </div>
-        
-           
+
+
         </div>
     </div>
 
@@ -671,7 +671,7 @@
                 </p>
             </div>
         </div>
-        
+
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
                 <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('99.99%')}}</h1>
@@ -709,7 +709,7 @@
         </div>
 
     </div>
-    
+
 </div>
 
 <div class="p-4 my-16 shadow-xl border rounded lg:flex">
@@ -736,16 +736,11 @@
     </div>
 
 
-   
+
    </div>
 
 @endsection
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 @endsection

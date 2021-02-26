@@ -64,7 +64,7 @@
 
     <div class="grid gap-4 md:grid-cols-2">
 
-   
+
         <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
                 <li class="text-blue-800 mt-2">
                 <span class="text-blue-700 font-bold">{{ _trans('12 years ') }}</span>
@@ -86,8 +86,8 @@
 
 
 
-  
-  
+
+
     </div>
 
     <h1 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4 md:text-3xl mt-6">
@@ -120,7 +120,7 @@
                 <span class="text-gray-800 font-bold">{{ _trans('8') }}</span>
                     <span class="text-gray-600">{{ _trans(' years in HR.') }}</span>
                 </li>
-            
+
         </ul>
 
 
@@ -135,7 +135,7 @@
 
 
     <div class="grid mt-6 md:grid-cols-2 md:gap-14 gap-4">
-      
+
         <div class="border pb-12 relative hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
             <img width="120" height="108"
@@ -193,7 +193,7 @@
             </h1>
 
            <div class="px-4 text-lg">
-           
+
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('360-degree customer view.') }}</span>
@@ -214,7 +214,7 @@
                 <span class="text-gray-600">{{ _trans('eLearning.') }}</span>
             </li>
         </ul>
-      
+
 
         <a href="#" class="text-blue-700 absolute bottom-4 right-4 font-semibold">SEE MORE <i class="fal fa-arrow-right ml-2"></i></a>
 
@@ -232,7 +232,7 @@
             </h1>
 
            <div class="px-4 text-lg">
-           
+
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Data upload (one-time and continuous).') }}</span>
@@ -249,9 +249,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Data and insight visualization.') }}</span>
             </li>
-          
+
         </ul>
-      
+
 
         <a href="#" class="text-blue-700 absolute bottom-4 right-4 font-semibold">SEE MORE <i class="fal fa-arrow-right ml-2"></i></a>
 
@@ -269,7 +269,7 @@
             </h1>
 
            <div class="px-4 text-lg">
-           
+
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Project planning.') }}</span>
@@ -286,9 +286,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Workforce utilization management.') }}</span>
             </li>
-          
+
         </ul>
-      
+
 
         <a href="#" class="text-blue-700 absolute bottom-4 right-4 font-semibold">SEE MORE <i class="fal fa-arrow-right ml-2"></i></a>
 
@@ -306,7 +306,7 @@
             </h1>
 
            <div class="px-4 text-lg">
-           
+
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Templates.') }}</span>
@@ -323,9 +323,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Document retention policies.') }}</span>
             </li>
-          
+
         </ul>
-      
+
 
         <a href="#" class="text-blue-700 absolute bottom-4 right-4 font-semibold">SEE MORE <i class="fal fa-arrow-right ml-2"></i></a>
 
@@ -343,7 +343,7 @@
             </h1>
 
            <div class="px-4 text-lg">
-           
+
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Organizational chart.') }}</span>
@@ -360,9 +360,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('External workforce management.') }}</span>
             </li>
-          
+
         </ul>
-      
+
 
         <a href="#" class="text-blue-700 absolute bottom-4 right-4 font-semibold">SEE MORE <i class="fal fa-arrow-right ml-2"></i></a>
 
@@ -381,7 +381,7 @@
             </h1>
 
            <div class="px-4 text-lg">
-           
+
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Finance analytics.') }}</span>
@@ -401,9 +401,9 @@
             <li class="text-blue-800 mt-2">
                 <span class="text-gray-600">{{ _trans('Planning and forecasting.') }}</span>
             </li>
-          
+
         </ul>
-      
+
 
         <a href="#" class="text-blue-700 absolute bottom-4 right-4 font-semibold">SEE MORE <i class="fal fa-arrow-right ml-2"></i></a>
 
@@ -506,7 +506,7 @@
 
 
     <div class="grid gap-8 md:grid-cols-2">
-    
+
     <div class="border pb-6 hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
             <img width="120" height="108"
@@ -554,7 +554,7 @@
                         <p>{{_trans('Continuous solution maintenance and evolution.')}}</p>
                     </div>
                 </div>
-                
+
 
                 <a href="#" class="bg-blue-700 hover:bg-blue-800 mt-4 text-white block text-center p-4">
                     GO FOR CONSULTING
@@ -573,7 +573,7 @@
             <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">{{_trans('IT outsourcing for professional services')}}</h1>
 
             <div class="px-4">
-               
+
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
@@ -599,7 +599,7 @@
                     </div>
                 </div>
 
-               
+
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
@@ -618,7 +618,7 @@
                         <p>{{_trans('Help desk..')}}</p>
                     </div>
                 </div>
-                
+
 
                 <a href="#" class="bg-blue-700 md:absolute bottom-6 right-6 left-6 hover:bg-blue-800 mt-4 text-white block text-center p-4">
                     GO FOR CONSULTING
@@ -678,8 +678,8 @@
                     {{_trans('IT operating costs')}}
                 </p>
             </div>
-        
-           
+
+
         </div>
     </div>
 
@@ -705,7 +705,7 @@
                 </p>
             </div>
         </div>
-        
+
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
                 <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+20-100%')}}</h1>
@@ -743,7 +743,7 @@
         </div>
 
     </div>
-    
+
 </div>
 
 <div class="p-4 my-16 shadow-xl border rounded lg:flex">
@@ -776,15 +776,5 @@
 @endsection
 
 @section('js')
-<<<<<<< HEAD
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-=======
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
->>>>>>> 1b9a16be13477bab6177358126a18af41c3667fd
+
 @endsection

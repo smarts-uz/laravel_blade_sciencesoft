@@ -17,7 +17,7 @@
     <img src="https://www.scnsoft.com/healthcare/healthcare-it-consulting/cover-pic-healthcare-it-consulting-4.svg" alt="">
 
 
-    
+
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
     {{ _trans('Healthcare IT consulting services help healthcare organizations overcome limited or low-level healthcare IT expertise and support the effective implementation of digital healthcare initiatives.') }}
     </p>
@@ -85,9 +85,9 @@
                 <span class="text-gray-600">{{ _trans(' Working experience with healthcare standards (e.g., ') }}</span>
                 <span class="text-gray-800 font-bold">{{ _trans('HL7, ICD-10, CPT, XDS/XDS-I') }}</span>
                     <span class="text-gray-600">{{ _trans(' ).') }}</span>
-                   
+
                 </li>
-            
+
         </ul>
     </div>
     </div>
@@ -127,8 +127,8 @@
         </p>
     </div>
 
-    
-   
+
+
 </div>
 
 <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
@@ -206,7 +206,7 @@
             </div>
 
         </div>
-        
+
         <div class="border pb-6 hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
             <img width="120" height="108"
@@ -289,9 +289,9 @@
                     {{_trans('user satisfaction score')}}
                 </p>
             </div>
-          
-        
-           
+
+
+
         </div>
     </div>
 
@@ -317,7 +317,7 @@
         </div>
 
     </div>
-    
+
 </div>
 
 <div class="p-4 my-16 shadow-xl border rounded lg:flex">
@@ -348,10 +348,5 @@
 @endsection
 
 @section('js')
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+
 @endsection
