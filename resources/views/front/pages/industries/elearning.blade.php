@@ -428,19 +428,432 @@
         {{ _trans('We develop eLearning solutions for various industries:') }}
     </p>   
 
-    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 group">
+    <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4">
 
-    <div class="group-hover:text-blue-700 text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
-    <img class="m-auto" src="https://www.scnsoft.com/---home-page-illustrations/industries/healthcare.svg" alt="">
-    <h1>Healthcare</h1>
-    </div>
-    <div class="group-hover:text-blue-700 text-gray-700 font-bold text-xl p-4">
-    <img src="https://www.scnsoft.com/---home-page-illustrations/industries/healthcare.svg" alt="">
-    <h1>Healthcare</h1>
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/healthcare.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Healthcare')}}</h1>
     </div>
 
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/manufacturing.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Manufacturing')}}</h1>
+    </div>
+
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/professional-services-1.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Professional services')}}</h1>
+    </div>
+
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/retail.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Retail')}}</h1>
+    </div>
+
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/banking.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Finance')}}</h1>
+    </div>
+
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/education.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Education')}}</h1>
+    </div>
+
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/construction.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Construction')}}</h1>
+    </div>
+
+    <div class="group text-gray-700 font-bold text-xl p-4 hover:shadow-md text-center border">
+    <img class="m-auto" width="84" height="84" src="https://www.scnsoft.com/---home-page-illustrations/industries/oil-and-gas.svg" alt="">
+    <h1 class="group-hover:text-blue-700">{{_trans('Oil & Gas')}}</h1>
+    </div>
+    
+    </div>
+
+
+    <div class="swiper-container big-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2C ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2C ecommerce portals, customers value personalized and frictionless experience
+                                        across
+                                        the digital channels.
+                                    </p>
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto"
+                                        src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png" alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2B ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2B ecommerce portals, buyers value convenient self-service tools to place and
+                                        manage
+                                        their bulk orders.
+                                    </p>
+
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next text-gray-400"></div>
+                    <div class="swiper-button-prev text-gray-400"></div>
+                </div>
+
+
+
+                <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
+        {{ _trans('CHOOSE YOUR SERVICE OPTION') }}
+    </h1>
+    <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+
+    <div class="grid md:grid-cols-2 gap-4">
+    
+    
+    <div class="border pb-6 hover:shadow-md">
+            <div class="h-3 w-full bg-blue-500"></div>
+            <img width="120" height="108"
+                 src="https://www.scnsoft.com/education-industry/elearning-development/custom-development-1.svg"
+                 class="m-auto my-4" alt="">
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('Custom eLearning development') }} </h1>
+
+            <div class="px-4">  
+                <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Learning needs analysis.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Selection of a suitable type of an eLearning solution (LMS, LXP, eLearning portal), an optimal feature set') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Selection of platform or a tech stack, and an implementation methodology.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('End-to-end eLearning software development.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Quality assurance.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('User training.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Post-implementation support and evolution.') }}</span>
+               </li>
+         
+            </ul>
+
+                <a href="#" class="bg-blue-700 hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                {{ _trans('REQUEST CUSTOM DEVELOPMENT') }}
+                </a>
+
+            </div>
+
+
+            
+
+        </div>
+
+
+        <div class="border pb-6 hover:shadow-md relative">
+            <div class="h-3 w-full bg-blue-500"></div>
+            <img width="120" height="108"
+                 src="https://www.scnsoft.com/education-industry/elearning-development/revamp.svg"
+                 class="m-auto my-4" alt="">
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('Revamp of legacy learning software') }} </h1>
+
+            <div class="px-4">  
+                <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Learning needs analysis.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Redesign of learning processes.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Suggesting new eLearning functionality (e.g., course publishing workflows, gamification).') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Cloud migration of an eLearning solution, if required.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Implementing and testing new eLearning features.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Implementing UX and UI improvements to the eLearning solution.') }}</span>
+               </li>
+             
+         
+            </ul>
+
+                <a href="#" class="bg-blue-700 md:absolute bottom-6 right-4 left-4 hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                {{ _trans('REQUEST LEGACY SOLUTION REVAMP') }}
+                </a>
+
+            </div>
+
+
+            
+
+        </div>
+
+        <div class="border pb-6 hover:shadow-md relative">
+            <div class="h-3 w-full bg-blue-500"></div>
+            <img width="120" height="108"
+                 src="https://www.scnsoft.com/education-industry/elearning-development/adding-features.svg"
+                 class="m-auto my-4" alt="">
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('Adding advanced functionality to your current eLearning solution') }} </h1>
+
+            <div class="px-4">  
+                <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Defining learning processes to transform with innovative techs (AI, VR, AR, big data) and redesigning the learning processes accordingly.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('A business case including costs, outcomes, ROI or NPV.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Implementation, integration and testing of new features.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('User training and support.') }}</span>
+               </li>
+                      
+            </ul>
+
+                <a href="#" class="bg-blue-700 absolute bottom-6 right-4 left-4 hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                {{ _trans('REQUEST INNOVATIVE FUNCTIONALITY') }}
+                </a>
+
+            </div>
+
+
+            
+
+        </div>
+
+        <div class="border pb-6 hover:shadow-md">
+            <div class="h-3 w-full bg-blue-500"></div>
+            <img width="120" height="108"
+                 src="https://www.scnsoft.com/education-industry/elearning-development/customization.svg"
+                 class="m-auto my-4" alt="">
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('Customization of an open-source eLearning platform') }} </h1>
+
+            <div class="px-4">  
+                <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Eliciting eLearning requirements.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Advising on an optimal open-source platform.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('Customizing an open-source eLearning platform. (e.g., to support complex content approval workflows, unique assessments).') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('eLearning solution testing.') }}</span>
+               </li>
+               <li class="text-blue-800 mt-2">
+                <span class="text-gray-600">{{ _trans('User training and support.') }}</span>
+               </li>
+            
+         
+            </ul>
+
+                <a href="#" class="bg-blue-700 hover:bg-blue-800 mt-4 text-white block text-center p-4">
+                {{ _trans('REQUEST CUSTOM DEVELOPMENT') }}
+                </a>
+
+            </div>
+
+
+            
+
+        </div>
+
 
     </div>
+
+    <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
+        {{ _trans('TIMEFRAMES FOR OUR ELEARNING SOFTWARE DEVELOPMENT SERVICES') }}
+    </h1>
+    <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+    
+    <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">{{ _trans('MVP development: ') }}</span>
+                    <span class="text-blue-800 font-bold">{{ _trans('3-5 months ') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">{{ _trans('MVP with an innovative component to increase learner engagement: ') }}</span>
+                    <span class="text-blue-800 font-bold">{{ _trans('4-6 months ') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">{{ _trans('Creation of an eLearning module with basic features or automation of one learning management process (e.g., performance assessment): ') }}</span>
+                    <span class="text-blue-800 font-bold">{{ _trans('1-3 months ') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">{{ _trans('Investment payback period: ') }}</span>
+                    <span class="text-blue-800 font-bold">{{ _trans('0.1-0.9 years') }}</span>
+                    <span class="text-gray-600">{{ _trans('(due to high value from innovative tech)') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">{{ _trans('Releases: ') }}</span>
+                    <span class="text-blue-800 font-bold">{{ _trans('every 2-6 weeks ') }}</span>
+                </li>
+                <li class="text-blue-800 mt-2">
+                    <span class="text-gray-600">{{ _trans('Minor changes and hotfixes: ') }}</span>
+                    <span class="text-blue-800 font-bold">{{ _trans(': several times a day ') }}</span>
+                </li>
+
+            
+        </ul>
+
+        <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
+        {{ _trans('WHY OPT FOR ELEARNING SOFTWARE DEVELOPMENT RIGHT NOW') }}
+    </h1>
+    <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+    <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+    {{ _trans('With a professionally implemented eLearning solution, you can get the following benefits:') }}
+    </p>
+
+    
+    <div class="my-8 md:block hidden">
+        <div class="grid mt-6 grid-cols-1 md:grid-cols-2 gap-4">
+          
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('120–430%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Annual ROI of eLearning solutions due to an optimal feature value/cost ratio and use of innovative techs.')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-20-50%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Learning costs due to saving money on materials, equipment, dedicated staff and trainers.')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('30–60%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Employee productivity due to improved knowledge and skills, policy awareness and on-demand access to learning')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+25-60%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Knowledge retention due to diversity of eLearning content and higher learning impact.')}}
+                </p>
+            </div>
+        
+           
+        </div>
+    </div>
+
+
+
+
+    <div class="swiper-container big-slide md:hidden">
+    <div class="swiper-wrapper">
+        
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('120–430%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Annual ROI of eLearning solutions due to an optimal feature value/cost ratio and use of innovative techs.')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-20-50%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Learning costs due to saving money on materials, equipment, dedicated staff and trainers.')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('30–60%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Employee productivity due to improved knowledge and skills, policy awareness and on-demand access to learning')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide tetx-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+25-60%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('Knowledge retention due to diversity of eLearning content and higher learning impact.')}}
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+
+<div class="p-4 my-16 shadow-xl border rounded lg:flex">
+        <div class="lg:w-4/6">
+            <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-4 lg:text-3xl">
+                {{ _trans('Profit by IT Solutions for Professional Services!') }}
+            </h1>
+            <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
+
+            <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
+                {{ _trans('Reach out to ScienceSoft’s team right NOW to learn how to streamline service delivery and raise the productivity of your business with IT.') }}
+            </p>
+            <a href="#">
+                <div class="bg-blue-700 rounded text-white text-center lg:w-4/12 px-2 py-4  hover:bg-blue-800">
+                    {{ _trans('GET A CONSULTATION') }}
+                </div>
+            </a>
+        </div>
+
+        <div class="lg:w-2/6 m-auto">
+           <img src="https://www.scnsoft.com/insurance/cta.svg" alt="">
+
+        </div>
+    </div>
+
 
 
 </div>
