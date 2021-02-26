@@ -805,19 +805,7 @@
 
 
             </div>
-            <div class="flex justify-end pb-20">
-                <div class="flex">
-                    <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
-                        <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">Другие <br> услуги</h1>
-                        <div class="flex text-center absolute item-center justify-center z-0">
-              <p
-                data-aos="fade-up"
-
-                class=" text-9xl font-bold  text-gray-300 "
-              >
-                8
-              </p>
-          </div>
+          
                     </div>
 
                     <div class="flex justify-end pb-20">
