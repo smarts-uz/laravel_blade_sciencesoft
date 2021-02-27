@@ -17,18 +17,11 @@
     </p>
 
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-<<<<<<< HEAD
         {{_trans('With ')}}
         <span class="text-gray-800 font-bold">{{ _trans('31-year experience')}}</span>
         {{_trans('in developing software for the manufacturing industry, ScienceSoft offers robust solutions and related
         services to support and modernize your enterprise’s operations and ensure ')}}
         <span class="text-gray-800 font-bold">{{ _trans('increased efficiency of operations and optimized business costs, all without IT budget overruns.')}}</span>
-=======
-    {{_trans('With ')}}
-    <span class="text-gray-800 font-bold">{{ _trans('31-year experience')}}</span>
-    {{_trans('in developing software for the manufacturing industry, ScienceSoft offers robust solutions and related services to support and modernize your enterprise’s operations and ensure ')}}
-    <span class="text-gray-800 font-bold">{{ _trans('increased efficiency of operations and optimized business costs, all without IT budget overruns.')}}</span>
->>>>>>> 001ee83aaef8be30d57678476a135926b4cbb11f
     </p>
 
     <div class="p-4 my-16 shadow-xl border rounded lg:flex">
@@ -89,7 +82,6 @@
                 <li class="text-blue-800 mt-2">
                     <span class="text-gray-600">{{ _trans('Successful projects on diverse enterprise-level solutions, such as ERP, CRM, SCM, and more.') }}</span>
 
-<<<<<<< HEAD
                 </li>
 
             </ul>
@@ -301,11 +293,6 @@ Full-cycle services.') }}
 
             </div>
         </div>
-=======
-                </li>
-
-        </ul>
->>>>>>> 001ee83aaef8be30d57678476a135926b4cbb11f
     </div>
 
 
@@ -556,7 +543,6 @@ Full-cycle services.') }}
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
 
-<<<<<<< HEAD
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
         {{ _trans('By leveraging IT at your manufacturing company, you can achieve a number of gains, including:')
         }}
@@ -697,8 +683,6 @@ Full-cycle services.') }}
 
    
    </div>
-=======
->>>>>>> 001ee83aaef8be30d57678476a135926b4cbb11f
 
 
 </div>

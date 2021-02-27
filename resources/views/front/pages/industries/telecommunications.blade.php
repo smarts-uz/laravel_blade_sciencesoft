@@ -6,7 +6,6 @@
 
 @section('main')
 
-<<<<<<< HEAD
      <div class="mx-6 md:mx-16 lg:mx-24">
          <h1 class="uppercase font-bold mt-10 text-2xl md:text-3xl">
                {{ _trans('Custom Telecom Software Development') }}
@@ -20,11 +19,6 @@
             <b>  {{ _trans('T-Mobile') }}</b> and <b> {{ _trans('Orange') }}</b>,{{ _trans('Orange') }}, as well as aspiring startups like   <b>{{ _trans('Viber') }}</b>
                {{ _trans(' (grew to over 750 mln users).') }}
          </p>
-=======
-    <h1>
-        Telecommunications
-    </h1>
->>>>>>> 001ee83aaef8be30d57678476a135926b4cbb11f
 
          <h1 class="uppercase font-bold mt-10 text-2xl md:text-3xl">
             {{ _trans('OPERATIONS SUPPORT SYSTEMS (OSS)') }}
