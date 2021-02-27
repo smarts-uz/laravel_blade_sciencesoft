@@ -810,7 +810,7 @@
           <div
             class="shadow-2xl rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0"
           >
-            <p class="text-3xl text-white text-center"><b>Start</b></p>
+            <p class="text-3xl text-white text-center"><b> {{_trans('Start')}}</b></p>
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
