@@ -70,8 +70,6 @@ Route::get('/SingleProduct/{id}', 'App\Http\Controllers\HomePageController@Singl
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
 Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
-// Route::post('/', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 
@@ -103,8 +101,7 @@ Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageControll
 
 
 
-Route::post('/', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
-//Route::post('consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
+Route::post('/consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
 Route::post('', 'App\Http\Controllers\HomePageController@postFile')->name('postFile');
 
 
