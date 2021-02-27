@@ -230,63 +230,7 @@
             <hr class="w-10 h-0.5 bg-yellow-500">
         </h1>
 
-        <form method="POST" action="{{ route('consultation') }}" class="py-5 text-gray-800">
-            @csrf
-            <p class="py-5">{{ _trans('Drop us a line! We are here to answer your questions 24/7.') }}</p>
-            <div class="flex">
-                <div class="w-full">
-                    <div class="w-full flex justify-between flex-wrap">
-                        <input type="text" name="Name" placeholder="Full Name"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                        <input type="text" name="Company" placeholder="Company"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                        <input type="email" name="Email" placeholder="Work Email"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                        <input type="tel" name="Phone" placeholder="Work Phone"
-                            class="px-5 lg:w-1/5 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                    </div>
-                    <div class="border border-gray-400 rounded my-5">
-                        <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription"
-                            placeholder="How can we help you?"></textarea>
-                    </div>
-                    <button
-                        class="bg-blue-500 px-5 m-auto py-2 uppercase font-bold text-white rounded text-sm">{{ _trans('Disscuss my needs') }}</button>
-                </div>
-                <div class="px-5 md:block hidden">
-                    <div>
-                        <h1 class="font-bold text-xl pb-2">{{ _trans('Our contact details') }}</h1>
-                        <a class="text-blue-400 flex items-center" href="#">
-                            <i class="fas fa-phone-alt pr-3"></i>
-                            <p>{{ _trans('+998 94 123 45 67') }}</p>
-                        </a>
-                        <a class="text-blue-400 flex items-center" href="#">
-                            <i class="fas fa-envelope pr-3"></i>
-                            <p>{{ _trans('teamprodev@gmail.com') }}</p>
-                        </a>
-                    </div>
-                    <div>
-                        <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Press inquires') }}</h1>
-                        <a class="text-blue-400 flex items-center text-xs" href="#">
-                            <p class="uppercase">{{ _trans('Get in touch with us') }}</p>
-                            <i class="fas fa-arrow-right pl-3"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Join our team') }}</h1>
-                        <a class="text-blue-400 flex items-center text-xs" href="#">
-                            <p class="uppercase">{{ _trans('Check our open vacancies') }}</p>
-                            <i class="fas fa-arrow-right pl-3"></i>
-                        </a>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
-            </div>
-        </form>
-
-
+        @include('front.Components.consultation')
 
     </div>
 

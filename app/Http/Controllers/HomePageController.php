@@ -157,7 +157,29 @@ class HomePageController extends Controller
         $posts->description = $request->description;
         $posts->save();
 
-        return redirect('/')->with('success', 'Your information has been sent successfully!');
+        return back()->with('success', 'Your information has been sent successfully!');
+
+    }
+
+    public function postFile(Request $request){
+
+        $this->validate($request, [
+            'fullname' => 'required',
+            'company' => 'required',
+            'email' => 'required|email',
+            'phone_number' => 'required|numeric',
+            'description' => 'required',
+        ]);
+
+        $posts = new Consultation();
+        $posts->fullname = $request->fullname;
+        $posts->company = $request->company;
+        $posts->email = $request->email;
+        $posts->phone_number = $request->phone_number;
+        $posts->description = $request->description;
+        $posts->save();
+
+        return back()->with('success', 'Your information has been sent successfully!');
 
     }
 

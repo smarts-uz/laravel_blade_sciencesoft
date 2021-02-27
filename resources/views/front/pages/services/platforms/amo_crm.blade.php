@@ -12,24 +12,27 @@
         <div
           class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
-            >
-              Система автоматизации отдела продаж
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div
+                class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
               >
-                Получить консультацию
-              </a>
-            </div>
+                Система автоматизации отдела продаж
+              </div>
+              <div class="lg:px-20">
+                <a
+                  href="#"
+                  class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+              </div>
+
           </div>
 
-          <div data-aos="fade-left" class="my-8 flex justify-center border-8 border-blue-600 rounded-tr-3xl rounded-bl-3xl">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/1.svg" alt="" />
+          <div data-aos="fade-left" class="my-8 flex justify-center ">
+            <img src="{{asset('images/open_engine/amo_crm/1.svg')}}" alt="" />
           </div>
         </div>
       </div>
@@ -44,31 +47,31 @@
           class="grid sm:grid-cols-5 grid-cols-2  m-auto justify-between pt-16 max-w-7xl"
         >
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/amo_crm/2.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               PR-article
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/amo_crm/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Banner
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
-            <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/amo_crm/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Traffic
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/amo_crm/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               News
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-feature/1.svg" alt="" class="m-auto" />
+            <img src="{{asset('images/open_engine/amo_crm/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
               Interview
             </p>
@@ -84,7 +87,7 @@
                 <div class="text-5xl  leading-10 ">
                     <div>
                         <div class="flex">
-                            <p style="font-size: 10rem" class="font-bold text-gray-300 mt-10" data-aos="fade-up">1</p>
+                            <p class="text-9xl font-bold text-gray-300 mt-10" data-aos="fade-up">1</p>
                             <h1 class=" font-bold text-blue-600" data-aos="fade-right">amoCRM - это...
                             </h1>
                         </div>
@@ -106,12 +109,12 @@
             <div class="grid justify-center">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 ">
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
-                        <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-what/6.svg" alt=""
+                        <img src="{{asset('images/open_engine/amo_crm/7.svg')}}" alt=""
                              class="mx-auto">
                         <p class="text-center text-sm p-3 text-gray-600">Отдельная команда для каждого проекта</p>
                     </div>
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
-                        <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-what/6.svg" alt=""
+                        <img src="{{asset('images/open_engine/amo_crm/8.svg')}}" alt=""
                              class="mx-auto">
                         <p class="text-center text-sm p-3 text-gray-600">Команда квалифицированных профессионалов</p>
                     </div>
@@ -120,14 +123,14 @@
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 ">
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
-                        <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-what/6.svg" alt=""
+                        <img src="{{asset('images/open_engine/amo_crm/9.svg')}}" alt=""
                              class="mx-auto">
                         <p class="text-center text-sm p-3 text-gray-600">Бесплатная консультация по любым вопросам
                             связанных с вашим бизнесом</p>
                     </div>
 
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
-                        <img src="https://oe.uz/local/templates/oe/media/images/brand/icons-what/6.svg" alt=""
+                        <img src="{{asset('images/open_engine/amo_crm/10.svg')}}" alt=""
                              class="mx-auto">
                         <p class="text-center text-sm p-3 text-gray-600">Сертифицированные специалисты по amoCRM,
                             Bitrix24, Moysklad</p>
@@ -140,7 +143,7 @@
     <div class="flex justify-center items-center mt-20 mb-10 relative ">
         <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-left">Бизнес без CRM</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
-              <p data-aos="fade-up"  style="font-size: 8rem" class="  font-bold  text-gray-300 ">
+              <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
                 2
               </p>
           </div>
@@ -178,8 +181,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 3
               </p>
@@ -190,7 +193,7 @@
         <div class="max-w-7xl flex flex-col justify-center px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 justify-center container mx-auto m-20">
                 <div class="flex justify-center" data-aos="flip-right pt-8">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/opportunities1.png" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/11.png')}}" alt="">
                 </div>
                 <div data-aos="fade-left" class="pt-8">
                     <p class="text-blue-700 font-bold text-xl text-3xl">Ведение базы клиентов</p>
@@ -223,13 +226,13 @@
                     </ul>
                 </div>
                 <div class="flex justify-center pt-8" data-aos="flip-left">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/opportunities1.png" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/12.png')}}" alt="">
                 </div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 justify-center container mx-auto m-20">
                 <div class="flex justify-center pt-8" data-aos="flip-right">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/opportunities1.png" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/13.png')}}" alt="">
                 </div>
                 <div data-aos="fade-left" class="pt-8">
                     <p class="text-blue-700 font-bold text-xl text-3xl">Аналитика</p>
@@ -261,7 +264,7 @@
                 </div>
             </div>
             <div class="flex justify-center pt-8" data-aos="flip-left">
-                <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/iPad.png"
+                <img src="{{asset('images/open_engine/amo_crm/14.png')}}"
                                                   alt="">
             </div>
         </div>
@@ -269,7 +272,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-7xl">
             <div class="flex justify-center pt-8 order-last md:order-none" data-aos="flip-right">
-                <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/iPad.png"
+                <img src="{{asset('images/open_engine/amo_crm/15.png')}}"
                                                   alt="">
             </div>
             <div class="flex justify-center items-center pt-8" data-aos="fade-left">
@@ -297,7 +300,7 @@
                 </div>
             </div>
             <div class="flex justify-center pt-8 order-first md:order-none" data-aos="flip-left">
-                <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/iPad.png" alt="">
+                <img src="{{asset('images/open_engine/amo_crm/16.png')}}" alt="">
             </div>
         </div>
     </div>
@@ -307,8 +310,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl  font-bold  text-gray-300 "
               >
                 4
               </p>
@@ -319,7 +322,7 @@
         <div class="flex justify-center flex-col lg:flex-row">
             <div class="flex bg-white rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/17.svg')}}" alt="">
                 </div>
                 <div class=" pl-5 pt-10">
                     <h1 class="text-gray-700 font-bold text-lg">Аудит сайта</h1>
@@ -327,7 +330,7 @@
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/18.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Автоматическая воронка</h1>
@@ -335,7 +338,7 @@
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/19.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Фиксация заявок</h1>
@@ -344,7 +347,7 @@
 
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/20.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Обучение не требуется</h1>
@@ -357,7 +360,7 @@
         <div class="flex justify-center flex flex-col lg:flex-row">
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/21.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Общайся и обсуждай</h1>
@@ -365,7 +368,7 @@
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/22.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Мобильная AMO CRM</h1>
@@ -373,7 +376,7 @@
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/23.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Звонок в один <br> клик</h1>
@@ -382,7 +385,7 @@
 
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
                 <div class="flex items-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/icons-benefit2/1.svg" alt="">
+                    <img src="{{asset('images/open_engine/amo_crm/2.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
                     <h1 class="text-gray-700 font-bold text-lg">Периодические продажи</h1>
@@ -446,8 +449,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 5
               </p>
@@ -518,15 +521,15 @@
         >
           <div class="relative pt-20">
             <div
-              style="border-radius: 200px 0 200px 0; left: -80px"
-              class="bg-blue-500 py-20 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block"
+
+              class="bg-blue-500 py-20 lg:m-10 px-10 md:px-10 rounded-tl-3xl -left-28 max-w-lg absolute hidden sm:block"
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
                 <p
-                  style="font-size: 8rem"
-                  class="item-center font-bold absolute left-48 text-blue-500 z-0"
+
+                  class="item-center text-9xl font-bold absolute left-48 text-blue-500 z-0"
                 >
                   7
                 </p>
@@ -537,21 +540,21 @@
               </p>
             </div>
             <div
-              style="border-radius: 0 0 200px 0; top: 80px"
-              class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative"
+
+              class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 rounded-br-3xl -bottom-28 max-w-lg relative"
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="lg:text-3xl font-bold text-white z-10">
-                  Почему мы?
+                    Основные преимущества amoCRM
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
-                5
+              6
               </p>
           </div>
               </div>
@@ -565,12 +568,10 @@
           <div class="pt-20 grid justify-center">
             <div class="grid grid-cols-1 sm:grid-cols-2 max-w-md justify-center">
               <div class="p-5">
-                <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>01</p>
+                <div class="rounded-full inline-block border-indigo-600 border-4">
+                    <p class="text-4xl py-8 px-6 text-indigo-600 font-bold">103</p>
+                </div>
+
               <p class="text-base lg:text-xl text-gray-600">
                 Более 500 <br />
                 выполненых проектов
@@ -578,12 +579,10 @@
               </div>
 
               <div class="p-5">
-                <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>02</p>
+                <div class="rounded-full inline-block border-indigo-600 border-4">
+                    <p class="text-4xl py-8 px-6 text-indigo-600 font-bold">154</p>
+                </div>
+
               <p class="text-base lg:text-xl text-gray-600">
                 Более 100 <br />
                 постоянных клиентов
@@ -592,12 +591,11 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 max-w-md justify-center">
               <div class="p-5">
-                <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>03</p>
+
+            <div class="rounded-full inline-block border-indigo-600 border-4">
+                <p class="text-4xl py-8 px-6 text-indigo-600 font-bold">143</p>
+            </div>
+
               <p class="text-base lg:text-xl text-gray-600">
                 Команда <br />
                 сертифицированных <br />
@@ -606,12 +604,10 @@
               </div>
 
               <div class="p-5">
-                <img
-                class="rounded-full border-indigo-600 border-4"
-                src="{{asset('images/open_engine/images/4icons/3.svg')}}"
-                alt=""
-              />
-              <p>04</p>
+                <div class="rounded-full inline-block border-indigo-600 border-4">
+                    <p class="text-4xl py-8 px-6 text-indigo-600 font-bold">154</p>
+                </div>
+
               <p class="text-base lg:text-xl text-gray-600">
                 Индивидуальный <br />
                 подход к каждому <br />
@@ -623,15 +619,15 @@
         </div>
       </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 mt-24">
         <div class="flex justify-center pt-8" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/amo-crm/certificat.png"
+            <img src="{{asset('images/open_engine/amo_crm/26.png')}}"
                                               alt="">
         </div>
         <div class="pt-8">
             <div class="flex justify-center items-center my-10 pt-10 " data-aos="fade-left">
                 <h1 class="text-4xl font-bold text-blue-700 z-10">Сертификаты</h1>
-                <p style="font-size: 8rem" class="item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">
+                <p   class="text-9xl item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">
                     7
                 </p>
             </div>
@@ -652,8 +648,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class=" text-9xl font-bold  text-gray-300 "
               >
                 8
               </p>
@@ -664,7 +660,7 @@
     <div class="flex justify-center items-center py-20  hover:scale-110 duration-200" data-aos="fade-up">
         <div class="bg-white flex items-center  rounded-2xl shadow-lg">
             <div class="bg-blue-700 py-12 px-5 rounded-l-2xl">
-                <img src="https://oe.uz/local/templates/oe/media/images/icons/crown.png" alt="">
+                <img src="{{asset('images/open_engine/amo_crm/27.png')}}" alt="">
             </div>
             <div class="text-2xl text-gray-700 font-bold px-10 leading-8 mx-10">
                 <p>Разработать <br> индивидуальную <br> стратегию?</p>
@@ -685,8 +681,8 @@
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-400 opacity-50">
+
+                class="text-9xl  font-bold  text-gray-400 opacity-50">
                 9
               </p>
           </div>
@@ -699,7 +695,7 @@
 
 
     <div class="bg-gray-50 z-0" data-aos="fade-up">
-        <div style="margin-left: 20%; margin-right: 20%; font-size: 17px" class="pt-20 text-gray-700 pb-20">
+        <div class="pt-20 text-xl lg:mx-24 mx-16 text-gray-700 pb-20">
 
             <div class="z-0">
                 <p>
@@ -734,14 +730,14 @@
                         услуги
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
-                        <p data-aos="fade-up" style="font-size: 8rem" class="  font-bold  text-gray-300 ">
-                            8
+                        <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
+                            10
                         </p>
                     </div>
                 </div>
 
 
-                <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
+                <div class="h-44 bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
                      data-aos="fade-up-left">
                     <div class="flex justify-center items-center pl-20 pt-5">
 

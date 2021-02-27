@@ -1041,8 +1041,8 @@
     <div class="flex justify-center">
         <div class="grid grid-cols-1 md:grid-cols-2 sm:px-20 relative justify-center">
             <div class="relative pt-20">
-                <div style="border-radius: 200px 0 200px 0; "
-                     class="bg-blue-500 py-20 -left-32 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block"
+                <div
+                     class="bg-blue-500 py-20 rounded-tl-3xl -left-32 lg:m-10 px-10 md:px-10 max-w-lg absolute hidden sm:block"
                      data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
@@ -1054,8 +1054,8 @@
                         {{_trans('Потому что у нас Вы можете создать по-настоящему классный сайт, со всеми нужными Вам функциями')}}
                     </p>
                 </div>
-                <div style="border-radius: 0 0 200px 0; "
-                     class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative top-24" data-aos="fade-right">
+                <div
+                     class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative top-24 rounded-br-3xl" data-aos="fade-right">
                     <div class="flex justify-center items-center my-10 relative">
                         <h1 class="lg:text-3xl font-bold text-white z-10 ">
                             {{_trans('Почему мы?')}}

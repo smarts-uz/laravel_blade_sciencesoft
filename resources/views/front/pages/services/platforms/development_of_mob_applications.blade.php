@@ -27,6 +27,7 @@
                   Получить консультацию
                 </a>
               </div>
+
               </div>
 
           </div>
@@ -581,13 +582,14 @@
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
           Почему мы...
         </h1>
+
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
 
                 class=" text-9xl font-bold  text-gray-300 "
               >
-
+6
               </p>
           </div>
       </div>
@@ -732,7 +734,7 @@
 
 
     <div class="bg-gray-50 z-0" data-aos="fade-up">
-        <div style="margin-left: 20%; margin-right: 20%; font-size: 17px" class="pt-20 text-gray-700 pb-20">
+        <div  class="pt-20 text-xl lg:mx-24 mx-16 text-gray-700 pb-20">
 
             <div class="z-0">
                 <p>
@@ -762,7 +764,7 @@
                 </div>
 
 
-                <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
+                <div  class="bg-blue-700 h-44 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
                      data-aos="fade-up-left">
                     <div class="flex justify-center items-center pl-20 pt-5">
 

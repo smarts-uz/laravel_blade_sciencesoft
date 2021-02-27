@@ -675,8 +675,8 @@
               <b>БУДУЩЕЕ ECOMMERCE УЖЕ НАСТУПИЛО!</b>
             </p>
             <p
-              style="line-height: 3.2rem"
-              class="text-blue-700 text-3xl md:text-5xl py-10"
+
+              class="text-blue-700 leading-8 text-3xl md:text-5xl py-10"
             >
               <b>Интернет-магазин + CRM на <br />1С-Битрикс24</b>
             </p>
@@ -837,8 +837,8 @@
             <div class="justify-center flex">
               <a
                 href=""
-                style="margin-bottom: 6rem"
-                class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
+
+                class="bg-blue-700 rounded-full text-white mb-14 px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
                 Заказать
               </a>
@@ -876,8 +876,8 @@
             <div class="justify-center flex">
               <a
                 href=""
-                style="margin-bottom: 4.5rem"
-                class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
+
+                class="bg-blue-700 rounded-full mb-14 text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
                 Заказать
               </a>
@@ -988,7 +988,7 @@
                 </div>
 
 
-                <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
+                <div  class="bg-blue-700 h-44 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
                      data-aos="fade-up-left">
                     <div class="flex justify-center items-center pl-20 pt-5">
 
