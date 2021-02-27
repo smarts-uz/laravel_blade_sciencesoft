@@ -213,12 +213,14 @@
                 </div>
                 <div class="flex flex-wrap lg:w-5/6">
                     <div class="lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
-                        <h1 class="uppercase font-bold text-2xl">IT consulting</h1>
-                        <p class="lg:text-lg lg:text-left text-center text-gray-400 lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
-                            We can start with solution and platform consulting to
+                        <h1 class="uppercase font-bold text-2xl">
+                            {{ _trans('IT consulting') }}
+                        </h1>
+                        <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
+                            {{ _trans('We can start with solution and platform consulting to
                             help our clients get a clear vision of the IT solution
                             they want to implement. Also we can provide IT strategic
-                            consulting advising companies how to improve their IT strategies.
+                            consulting advising companies how to improve their IT strategies.') }}
                         </p>
                     </div>
 
@@ -236,12 +238,14 @@
                 </div>
                 <div class="flex flex-wrap lg:w-5/6">
                     <div class=" lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
-                        <h1 class="uppercase font-bold text-2xl">IT consulting</h1>
+                        <h1 class="uppercase font-bold text-2xl">
+                            {{ _trans('IT consulting') }}
+                        </h1>
                         <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
-                            Apart from developing and testing an IT solution,
+                            {{ _trans('Apart from developing and testing an IT solution,
                             we are always ready to assist our customers in integration,
                             data migration and other related processes to ensure that a new IT solution integrates
-                            into corporate workflows and contributes to business value.
+                            into corporate workflows and contributes to business value.') }}
                         </p>
                     </div>
 
@@ -259,11 +263,13 @@
                 </div>
                 <div class="flex flex-wrap lg:w-5/6">
                     <div class=" lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
-                        <h1 class="uppercase font-bold text-2xl">Support</h1>
+                        <h1 class="uppercase font-bold text-2xl">
+                            {{ _trans('Support') }}
+                        </h1>
                         <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
-                            We provide all-round support of the IT solutions our customers are
+                            {{ _trans('We provide all-round support of the IT solutions our customers are
                             using (whether delivered by ScienceSoft or other teams): add new functionality,
-                            ensure better interoperability, performance and usability, fix bugs.
+                            ensure better interoperability, performance and usability, fix bugs.') }}
                         </p>
                     </div>
 
@@ -289,7 +295,7 @@
         <div class="p-6 shadow-xl lg:flex">
             <div class="lg:w-4/6">
                 <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-                    Contact Us
+                    {{ _trans('Contact Us ') }}
                 </h1>
                 <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
@@ -301,7 +307,7 @@
             <div class="lg:w-2/6 m-auto">
                 <a href="#">
                     <div class="bg-blue-700 text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                        Contact Us
+                        {{ _trans('Contact Us ') }}
                     </div>
                 </a>
 

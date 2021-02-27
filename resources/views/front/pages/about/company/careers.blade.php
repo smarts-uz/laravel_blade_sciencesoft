@@ -357,7 +357,9 @@
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Role:') }}</h1>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            We are looking for a Middle/Senior Python developer to help our company deliver value to our customers just in time and with excellent code quality. We offer you to participate in great, challenging and interesting projects.
+                                {{ _trans('We are looking for a Middle/Senior Python developer to help our company
+                                 deliver value to our customers just in time and with excellent code quality.
+                                 We offer you to participate in great, challenging and interesting projects.') }}
                             </p>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Responsibilities:') }}</h1>
                             <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
@@ -474,31 +476,32 @@
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            TeamPRO, 700-employee IT company, is looking for Copywriting Team Lead who will manage a team of 8-10 copywriters.
+                            {{ _trans('TeamPRO, 700-employee IT company, is looking for Copywriting Team Lead who will manage a team of 8-10 copywriters.') }}
                             </p>
                             <h1 class="text-3xl mb-4 text-gray-700 font-bold">{{ _trans('Ideal candidate') }}</h1>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Copywriting team lead') }}</h1>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            If you lead a small team of 2-4 copywriters, this position will be a next level for you.
+                                {{ _trans('If you lead a small team of 2-4 copywriters, this position will be a next level for you.') }} 
                             </p>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Content manager, chief editor') }}</h1>
-                            <p class="text-gray-600 my-3 lg:text-xl">
-                            If you have experience of managing internal or external copywriters, the position may let you develop further to a full-time manager.
+                            <p class="text-gray-600 my-3 lg:text-xl"> 
+                                {{ _trans('If you have experience of managing internal or external copywriters, the position may let you develop further to a full-time manager.') }}
                             </p>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            Management experience of at least 2 years is a must.
+                            {{ _trans('Management experience of at least 2 years is a must.') }}
                             </p>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            Those with experience in IT will have certain advantage, however we consider candidates from other industries and provide in-house training on IT.
+                                {{ _trans('Those with experience in IT will have certain advantage, however we consider candidates from other industries and provide in-house training on IT.') }}
                             </p>
 
-                           <p class="my-3">
-                           <a href="#" class="text-blue-600 lg:text-xl hover:text-black">Learn more</a></p>
-
+                        <p class="my-3">
+                           <a href="#" class="text-blue-600 lg:text-xl hover:text-black">{{ _trans('Learn more ') }}</a>
+                        </p>
                            <p> <a  href="#" class="bg-blue-800 lg:text-xl text-white font-bold hover:bg-yellow-500 transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
-                                    {{ _trans('APPLY FOR THIS POSITION') }}</a></p>
-
+                                    {{ _trans('APPLY FOR THIS POSITION') }}
+                                </a>
+                            </p>
                         </div>
                     </li>
                     <hr>
@@ -520,7 +523,9 @@
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Candidate:') }}</h1>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            We are looking for a Middle/Senior Python developer to help our company deliver value to our customers just in time and with excellent code quality. We offer you to participate in great, challenging and interesting projects.
+                                {{ _trans('We are looking for a Middle/Senior Python developer to help our company
+                                deliver value to our customers just in time and with excellent code quality. 
+                               We offer you to participate in great, challenging and interesting projects.') }}
                             </p>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Candidate:') }}</h1>
                             <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
@@ -569,7 +574,6 @@
                 <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-2xl md:text-3xl mt-6 mb-3">
                     {{ _trans('ICT Department') }}</h1>
                 <ul class="flex flex-col">
-
                     <li x-data="{ open: false }" class="flex flex-col mb-3 my-1">
                         <div @click="open = true"
                             class="flex justify-between items-center text-gray-500 text-xl cursor-pointer hover:text-blue-500">
