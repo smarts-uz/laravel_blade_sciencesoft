@@ -18,17 +18,17 @@
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base mt-4">
                 <i class="fas fa-map-marker-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ _trans("5900 S. Lake Forest Drive")  }}
-                  {{ _trans("Suite 300,")  }}<br/>
-                  {{ _trans("McKinney, Dallas area, TX 75070")  }}</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ _trans("100027, No. 2, Bog 'str., ")  }}
+                  {{ _trans("Shayxontohur district, ")  }}<br/>
+                  {{ _trans("Tashkent, Uzbekistan")  }}</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-phone-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">+1 214 306 68 37</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">+998 71 200-33-63</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-envelope"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white hover:underline ml-2">contact@scnsoft.com</i></a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white hover:underline ml-2">contact@teampro.com</i></a>
               </span>
               <div class="my-2 flex w-full md:w-16">
                 <a href="#" class="text-white   hover:text-gray-50 px-1"><i class="fab fa-dribbble"></i></a>
