@@ -7,7 +7,7 @@
 @section('main')
     <!--Komil Sobitov/ Team Management -->
     <div class="py-20 text-center  -mb-24 pb-24 overflow-hidden">
-        <h1 class="text-blue-700 text-2xl md:text-4xl py-8  font-extrabold">{{ _trans('Management Team') }}</h1>
+        <h1 class="text-blue-700 text-2xl md:text-4xl py-8  font-extrabold">{{ _trans('Our Team') }}</h1>
         <div class="flex flex-wrap mx-1 overflow-hidden mt-4 justify-center items-start xl:-mx-2">
              @foreach ($teams as $team)
 
