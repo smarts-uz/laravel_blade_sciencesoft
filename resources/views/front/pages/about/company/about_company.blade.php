@@ -13,7 +13,7 @@
             {{ _trans('About TeamPRO – Global IT Company') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 my-1" />
-        <img src="https://www.scnsoft.com/cover-pictures/data-analytics.svg" />
+        <img src="{{ asset('assets/icon/data-analytics.svg')}}" />
         <p class="my-5 text-lg">
             {{ _trans("Founded in 1989, TeamPROa provider of IT consulting and software
             development services. Having started as a small AI product company, we
