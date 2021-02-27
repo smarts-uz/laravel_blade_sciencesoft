@@ -90,10 +90,10 @@
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next">
-            
+
             </div>
             <div class="swiper-button-prev">
-            
+
             </div>
         </div>
 
@@ -437,10 +437,10 @@
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next ">
-                
+
             </div>
             <div class="swiper-button-prev">
-        
+
             </div>
         </div>
 
@@ -583,6 +583,11 @@
 @endsection
 
 @section('js')
+
+
+
+
+
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>

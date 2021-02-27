@@ -12,7 +12,7 @@
               <span>
                 <a href="/">
                 <img class="w-56 mt-4"
-          src="{{ asset('assets/images/logo2.png') }}"
+          src="{{ asset('assets/images/Group 24.png') }}"
           alt="Microsoft ASP.NET">
                 </a>
               </span>
@@ -53,8 +53,8 @@
             </div>
             <div>
               <span class="my-2 text-base text-white text-opacity-70 text-md ">{{_trans("For press inquries:")}}<a
-                  href="mailto: contact@scnsoft.com" class="text-white px-2 hover:underline text-opacity-70 text-md hover:text-white">
-                  {{_trans("contact@scnsoft.com")}}</a></span>
+                  href="mailto: contact@teampro.com" class="text-white px-2 hover:underline text-opacity-70 text-md hover:text-white">
+                  {{_trans("contact@teampro.com")}}</a></span>
             </div>
           </div>
           <div class="flex mt-5">

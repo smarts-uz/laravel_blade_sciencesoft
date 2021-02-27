@@ -1443,7 +1443,18 @@
         </div>
     </div>
 
-    <script>
+
+
+@endsection
+
+@section('js')
+
+
+
+
+
+
+ <script>
         function activeTabsAside(id) {
             const dropdown = document.getElementById(id);
             if (dropdown.style.display == 'flex') {
@@ -1456,9 +1467,4 @@
         }
 
     </script>
-
-@endsection
-
-@section('js')
-
 @endsection

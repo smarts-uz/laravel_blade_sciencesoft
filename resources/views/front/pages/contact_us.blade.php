@@ -64,30 +64,27 @@
                     alt="">
                 </div>
               </div>
-
-
-
             </div>
             <div class="md:w-8/12 w-full min-h-96">
               <p class="text-center text-lg pt-5 text-gray-400">{{ _trans("Drop us a line, and our rep will contact you
               within 30 minutes to arrange an initial discussion.")  }}</p>
-              <form action="" class="w-full flex-col">
-                <div class="m-3 flex justify-around pb-5">
-                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name=""
+            <form method="POST" action="{{ route('postFile') }}" class="w-full flex-col">
+                @csrf
+               <div class="m-3 flex justify-around pb-5">
+                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="fullname"
                     placeholder="{{ _trans("Full Name")  }}">
-                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name=""
+                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="company"
                     placeholder="{{ _trans("Company")  }}">
                 </div>
                 <div class="m-3 flex justify-around">
-                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name=""
+                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="email" id="" name="email"
                     placeholder="{{ _trans("Work Email")  }}">
-                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name=""
+                  <input class="p-3 w-2/4 mx-2 border-solid border-2 border-black" type="text" id="" name="phone_number"
                     placeholder="{{ _trans("Work Phone")  }}">
-
                 </div>
 
                 <div class="m-3 flex items-center ">
-                  <textarea class="flex  p-3 w-full  mx-2 border-solid border-2 border-black" name="" id="" cols="30" rows="4"
+                  <textarea class="flex  p-3 w-full  mx-2 border-solid border-2 border-black" name="description" id="" cols="30" rows="4"
                     placeholder="{{ _trans("Comments")  }}"></textarea>
                 </div>
 
@@ -99,10 +96,10 @@
                   <span>(Up to 5 files of 20MB overall)</span>
                 </div>
                 <div class="w-full flex items-center justify-center py-5">
-                  <button type="button" class="flex items-center border-2 border-blue-700 py-2 px-3 text-white bg-blue-700">
+                  <button type="submit" class="flex items-center border-2 border-blue-700 py-2 px-3 text-white bg-blue-700">
                   {{ _trans(" Discuss my needs")  }}</button>
                 </div>
-              </form>
+            </form>
             </div>
           </div>
         </div>

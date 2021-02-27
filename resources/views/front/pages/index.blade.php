@@ -6,7 +6,7 @@
 
 @section('main')
 
-    <div class="px-10 md:px-16 mb-10 lg:px-36 flex flex-col justify-center items-center text-center mt-20">
+    <div class="mb-10 flex flex-col justify-center items-center text-center mt-20">
         <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">
             {{ _trans('SOFTWARE CONSULTING AND DEVELOPMENT FOR YOUR DIGITAL SUCCESS') }}</h1>
         <hr class="w-20 h-0.5 border-none bg-yellow-600 my-10 ">
@@ -18,23 +18,19 @@
     </div>
 
 
-    <div style="margin: 0 4rem" class="swiper-container main-slide">
+    <div class="swiper-container main-slide">
         <div class="swiper-wrapper flex items-center">
             @foreach ($partnerships as $partnership)
-            <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
-                <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
-                @else{{asset('images/default-image.png')}}@endif">
-            </div>
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+
+                    <img src="@if ($partnership->image) {{ '/uploads/categories/' . $partnership->image }}
+                    @else{{ asset('images/default-image.png') }} @endif">
+                </div>
             @endforeach
         </div>
-      </div>
+    </div>
 
-
-
-
-
-    <!-- EXPLORE OUR OFFERING Responsive -->
-    <div class="bg-gray-200 px-16 py-8 hidden lg:block">
+    <div class="py-8 hidden lg:block">
         <h1 class="text-3xl font-semibold mb-20 pt-10">
             <p class="mb-4">{{ _trans('EXPLORE OUR OFFERING') }}</p>
             <hr class="w-10 h-0.5 border-none bg-yellow-500">
@@ -107,10 +103,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("The development of reliable and scalable software solutions for any OS, browser and device.
-                   We bring
-                   together deep industry expertise and the latest IT advancements to deliver custom solutions and products
-                   that perfectly fit the
-                   needs and behavior of their users.") }}
+               We bring
+               together deep industry expertise and the latest IT advancements to deliver custom solutions and products
+               that perfectly fit the
+               needs and behavior of their users.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -142,8 +138,8 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("We apply our 10-year experience to offer a full set of infrastructure services. We can help
-                   to maintain
-                   and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.") }}
+               to maintain
+               and modernize your IT infrastructure and solve various infrastructure-specific issues a business may face.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -179,10 +175,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("The full set of services around development and maintenance of complex business-critical
-                   applications. Our experts
-                   build, test, deploy, protect, manage, migrate and optimize enterprise-scale digital solutions ensuring
-                   they’re always up
-                   and running and achieve the optimal TCO.") }}
+               applications. Our experts
+               build, test, deploy, protect, manage, migrate and optimize enterprise-scale digital solutions ensuring
+               they’re always up
+               and running and achieve the optimal TCO.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -222,10 +218,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("User experience and user interface design for all types of websites, SaaS, and web/mobile
-                   apps. We combine the latest
-                   UI/UX trends with our customers’ individual goals and needs to deliver intuitive, vibrant, and impactful
-                   designs that
-                   power up businesses.") }}
+               apps. We combine the latest
+               UI/UX trends with our customers’ individual goals and needs to deliver intuitive, vibrant, and impactful
+               designs that
+               power up businesses.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -265,10 +261,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("We offer full-range QA and testing outsourcing services, can help to develop your QA or
-                   enhance the existing one, assist
-                   you in TCoE setup and evolution. We perform end-to-end testing of mobile, web and desktop application at
-                   each stage of
-                   the development lifecycle.") }}
+               enhance the existing one, assist
+               you in TCoE setup and evolution. We perform end-to-end testing of mobile, web and desktop application at
+               each stage of
+               the development lifecycle.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -308,8 +304,8 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("Our experts can help to develop and implement an effective IT strategy, assist in smooth
-                   digital transformation and
-                   system integration as well as advise on improvements to your digital customer experience.") }}
+               digital transformation and
+               system integration as well as advise on improvements to your digital customer experience.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -349,10 +345,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("We support businesses in achieving fact-based decision-making by converting their historical
-                   and real-time, traditional
-                   and big data into actionable insights. Our services are tailored to make the raw data and the environment
-                   ready, as well
-                   as strengthen the business with advanced analytics capabilities.") }}
+               and real-time, traditional
+               and big data into actionable insights. Our services are tailored to make the raw data and the environment
+               ready, as well
+               as strengthen the business with advanced analytics capabilities.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -391,10 +387,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("Help desk services for your IT environment or software products. We take on solving diverse
-                   issues from answering
-                   application functionality questions to performing fixes and enhancements on the code level for improved
-                   adoption of
-                   software, its smooth functioning and increased end user satisfaction.") }}
+               issues from answering
+               application functionality questions to performing fixes and enhancements on the code level for improved
+               adoption of
+               software, its smooth functioning and increased end user satisfaction.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-500 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -422,10 +418,10 @@
                                 </h1>
                                 <p class="my-8 text-gray-600">
                                     {{ _trans("Cybersecurity services to achieve the robust protection of the companies’ applications and
-                   networks. Equipped with
-                   16-year experience in information security, our security experts are ready to deliver a variety of cyber
-                   protection
-                   services.") }}
+               networks. Equipped with
+               16-year experience in information security, our security experts are ready to deliver a variety of cyber
+               protection
+               services.") }}
                                 </p>
                                 <ul class="flex flex-row flex-wrap ml-6 text-blue-600 underline">
                                     <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
@@ -465,7 +461,7 @@
 
 
 
-    <div class="px-16 home-page-form-1">
+    <div>
         <h1 class="text-center text-gray-500 mt-10 mb-20 text-xl">
             {{ _trans("Haven't found a suitable service? Type your need below!") }}</h1>
         <!-- Forms -->
@@ -505,6 +501,7 @@
             </div>
         </div>
     </div>
+
     <div class="flex flex-wrap overflow-hidden my-2">
 
         @foreach ($categories as $category)
@@ -524,11 +521,8 @@
             @endif
         @endforeach
     </div>
-    </div>
 
-
-    <!-- IMPROVE AND INNOVATE WITH THE TECH TRENDS -->
-    <div class="bg-blue-900 lg:px-16 px-3 my-5 py-10 text-white">
+    <div class="bg-blue-900 py-10 px-5 text-white">
         <h1 class="text-2xl lg:text-3xl font-semibold">
             <p class="mb-4">{{ _trans('Solutions we deliver') }}</p>
             <hr class="w-10 h-0.5 border-none bg-yellow-500">
@@ -611,25 +605,26 @@
         </ul>
     </div>
 
-    <div class="mx-6 sm:mx-16 lg:mx-16">
+    <div>
         <h1 class="uppercase font-bold text-2xl">{{ _trans('TECHNOLOGIES WE USE') }}</h1>
         <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
         <div class="swiper-container main-slide">
             <div class="swiper-wrapper flex items-center">
                 @foreach ($partnerships as $partnership)
-                <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
+                    <div class="swiper-slide flex justify-center items-center p-24 md:p-14">
 
-                    <img src="@if($partnership->image){{"/uploads/categories/" .$partnership->image }}
-                    @else{{asset('images/default-image.png')}}@endif">
+                        <img src="@if ($partnership->image) {{ '/uploads/categories/' . $partnership->image }}
+                        @else{{ asset('images/default-image.png') }} @endif">
 
-                </div>
+                    </div>
                 @endforeach
-              <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img src="{{ asset('images/viber.svg') }}" alt=""></div>
+                <div class="swiper-slide flex justify-center items-center p-24 md:p-14"><img
+                        src="{{ asset('images/viber.svg') }}" alt=""></div>
             </div>
-          </div>
         </div>
+    </div>
 
-    <div class="mx-6 sm:mx-16 lg:mx-16">
+    <div>
         <h1 class="uppercase font-bold text-2xl">{{ _trans('PLATFORMS WE WORK WITH') }}</h1>
         <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
         <p class='text-lg text-gray-800'>Distilling deep tech experience, our experts can help you with platform-specific
@@ -637,129 +632,80 @@
             support
             for your business evolution.</p>
         <div class="py-3 flex justify-between flex-wrap">
-            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/sharepoint-logo.svg")}}"/>
+            <div
+                class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{ asset('images/sharepoint-logo.svg') }}" />
             </div>
-            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/dynamics-365.svg")}}"/>
+            <div
+                class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{ asset('images/dynamics-365.svg') }}" />
             </div>
-            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/salesforce.svg")}}"/>
+            <div
+                class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{ asset('images/salesforce.svg') }}" />
             </div>
-            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/servicenow-logo.svg")}}"/>
+            <div
+                class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{ asset('images/servicenow-logo.svg') }}" />
             </div>
-            <div class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
-                <img src="{{asset("images/magento-logo.svg")}}"/>
+            <div
+                class="w-full m-2 md:w-1/6 px-10 rounded py-5 h-24 border border-gray-200 hover:shadow-lg duration-300 flex justify-center items-center ">
+                <img src="{{ asset('images/magento-logo.svg') }}" />
             </div>
         </div>
-        </div>
+    </div>
 
-            @isset($blogs)
-                <div>
-                    <div class="my-4 mx-6 sm:mx-16 lg:mx-18 lg:mt-12 mt-3">
-                        <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
-                        <hr class="w-10 h-0.5 border-none bg-yellow-500">
-                    </div>
-                    <div class="flex flex-wrap mx-6 sm:mx-16 lg:mx-12">
-                        @foreach ($blogs->splice(0, 3) as $blog)
-                            <div class="w-2/6 p-4">
-                                <a href="{{ route('SingleBlog', [$blog->id]) }}"
-                                    class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
-                                    <div>
-                                        <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}" alt="CardImg">
-                                    </div>
-                                    <div class="px-4">
-                                        <span class="text-yellow-400 text-xs font-bold">CRM</span>
-                                        <h1 class="text-lg text-black font-bold py-2">
-                                            {{ $blog->title }}
-                                        </h1>
-                                        <p class="text-sm text-black">
-                                            {{ $blog->description }}
-                                        </p>
-
-                                        <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">
-                                            <i class="fas fa-arrow-right"></i>
-                                        </div>
-                                    </div>
-                                </a>
+    @isset($blogs)
+        <div>
+            <div class="my-4 lg:mt-12 mt-3">
+                <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
+                <hr class="w-10 h-0.5 border-none bg-yellow-500">
+            </div>
+            <div class="flex flex-wrap justify-center">
+                @foreach ($blogs->splice(0, 3) as $blog)
+                    <div class="w-96 p-4 mx-8">
+                        <a href="{{ route('SingleBlog', [$blog->id]) }}"
+                            class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
+                            <div>
+                                <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}" alt="CardImg">
                             </div>
-                        @endforeach
-                    </div>
-                    <a href="{{ route('getBlade', ['page' => 'blog' ?? '404']) }}"
-                        class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-1/6 text-center"
-                        id="loadMore">All Blog Articles</a>
-                </div>
-            @endisset
-            <!-- Need a CONSULTATION? -->
-        </div>
+                            <div class="px-4">
+                                <span class="text-yellow-400 text-xs font-bold">CRM</span>
+                                <h1 class="text-lg text-black font-bold py-2">
+                                    {{ $blog->title }}
+                                </h1>
+                                <p class="text-sm text-black">
+                                    {{ $blog->description }}
+                                </p>
 
-        <h1 class="px-16 text-3xl py-5">
-            <p class="mb-4">{{ _trans('NEED A CONSULTATION?') }}</p>
-            <hr class="w-10 h-0.5 border-none bg-yellow-500">
-        </h1>
-
-        <form method="POST" action="{{ route('consultation') }}" class="px-16 py-5 text-gray-800">
-            @csrf
-            <p class="py-5">{{ _trans('Drop us a line! We are here to answer your questions 24/7.') }}</p>
-            <div class="flex">
-                <div class="w-full">
-                    <div class="w-full flex justify-between flex-wrap">
-                        <input type="text" name="Name" placeholder="Full Name"
-                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                        <input type="text" name="Company" placeholder="Company"
-                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                        <input type="email" name="Email" placeholder="Work Email"
-                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                        <input type="tel" name="Phone" placeholder="Work Phone"
-                            class="px-5 lg:w-1/6 w-1/2 py-2 border border-gray-400 rounded focus:outline-none">
-                    </div>
-                    <div class="border border-gray-400 rounded my-5">
-                        <textarea class="resize-none w-full px-5 py-2 h-20 focus:outline-none" name="Discription"
-                            placeholder="How can we help you?"></textarea>
-                    </div>
-                    <button
-                        class="bg-blue-500 px-5 m-auto py-2 uppercase font-bold text-white rounded text-sm">{{ _trans('Disscuss my needs') }}</button>
-                </div>
-                <div class="px-5 md:block hidden">
-                    <div>
-                        <h1 class="font-bold text-xl pb-2">{{ _trans('Our contact details') }}</h1>
-                        <a class="text-blue-400 flex items-center" href="#">
-                            <i class="fas fa-phone-alt pr-3"></i>
-                            <p>{{ _trans('+998 94 123 45 67') }}</p>
-                        </a>
-                        <a class="text-blue-400 flex items-center" href="#">
-                            <i class="fas fa-envelope pr-3"></i>
-                            <p>{{ _trans('teamprodev@gmail.com') }}</p>
+                                <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
                         </a>
                     </div>
-                    <div>
-                        <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Press inquires') }}</h1>
-                        <a class="text-blue-400 flex items-center text-xs" href="#">
-                            <p class="uppercase">{{ _trans('Get in touch with us') }}</p>
-                            <i class="fas fa-arrow-right pl-3"></i>
-                        </a>
-                    </div>
-                    <div>
-                        <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Join our team') }}</h1>
-                        <a class="text-blue-400 flex items-center text-xs" href="#">
-                            <p class="uppercase">{{ _trans('Check our open vacancies') }}</p>
-                            <i class="fas fa-arrow-right pl-3"></i>
-                        </a>
-
-                    </div>
-                    <div>
-
-                    </div>
-                </div>
+                @endforeach
             </div>
-        </form>
+            <a href="{{ route('getBlade', ['page' => 'blog' ?? '404']) }}"
+                class="border-2 border-blue-700 text-blue-700 font-semibold px-6 py-3 uppercase my-8 mx-auto block w-64 text-center"
+                id="loadMore">All Blog Articles</a>
+        </div>
+    @endisset
+    <!-- Need a CONSULTATION? -->
+    </div>
+
+    <h1 class="px-16 text-3xl py-5">
+        <p class="mb-4">{{ _trans('NEED A CONSULTATION?') }}</p>
+        <hr class="w-10 h-0.5 border-none bg-yellow-500">
+    </h1>
 
 
+    @include('front.Components.consultation')
 
-    @endsection
+
+@endsection
 
 
-    @section('js')
+@section('js')
 
-    @endsection
+@endsection

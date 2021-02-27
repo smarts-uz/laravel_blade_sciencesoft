@@ -67,39 +67,12 @@ class HomePageController extends Controller
         }else if(str_contains($page, 'ecommerce')){
             $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partners' => $partners],  38);
-        }else if(str_contains($page, 'about_company')){
+        }else if(str_contains($page, 'about_company') || str_contains($page, 'awards_and_acknowledgement')
+        || str_contains($page, 'testing_and_qa') || str_contains($page, 'healthcare') || str_contains($page, 'it_outsourcing') || str_contains($page, 'it_support')
+        || str_contains($page, 'managed_it_services') || str_contains($page, 'data_analytics') || str_contains($page, 'e_commmerce_ecommerce_consulting')
+        || str_contains($page, 'e_commerce_ecommerce_development') || str_contains($page, 'e_commerce_ecommerce_services')){
             $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
             return $this->getDynamicPage($page, ['partners' => $partners]);
-        }else if(str_contains($page, 'awards_and_acknowledgement')){
-            $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners' => $partners]);
-        }else if(str_contains($page, 'testing_and_qa')){
-            $partners=Category::where('category_id', '=', 8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners' => $partners]);
-        }else if(str_contains($page, 'healthcare')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'it_outsourcing')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'it_support')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'managed_it_services')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'data_analytics')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'e_commmerce_ecommerce_consulting')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'e_commerce_ecommerce_development')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
-        }else if(str_contains($page, 'e_commerce_ecommerce_services')){
-            $partners=Category::where('category_id', '=',8)->whereNull('deleted_at')->get();
-            return $this->getDynamicPage($page, ['partners'=>$partners]);
         }else if(str_contains($page, 'contact_us')){
             return $this->getDynamicPage($page);
         }
@@ -157,7 +130,29 @@ class HomePageController extends Controller
         $posts->description = $request->description;
         $posts->save();
 
-        return redirect('/')->with('success', 'Your information has been sent successfully!');
+        return back()->with('success', 'Your information has been sent successfully!');
+
+    }
+
+    public function postFile(Request $request){
+
+        $this->validate($request, [
+            'fullname' => 'required',
+            'company' => 'required',
+            'email' => 'required|email',
+            'phone_number' => 'required|numeric',
+            'description' => 'required',
+        ]);
+
+        $posts = new Consultation();
+        $posts->fullname = $request->fullname;
+        $posts->company = $request->company;
+        $posts->email = $request->email;
+        $posts->phone_number = $request->phone_number;
+        $posts->description = $request->description;
+        $posts->save();
+
+        return back()->with('success', 'Your information has been sent successfully!');
 
     }
 

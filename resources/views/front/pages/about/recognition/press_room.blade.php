@@ -33,7 +33,7 @@
                     Baxter, M&T Bank, and other corporations.") }}
             </p>
         </div>
-        <div class="text-center text-5xl text-gray-300 font-bold my-6">{{ _trans('CORUSEL') }}</div>
+
         <div class="card w-full p-4">
             <h1 class="text-xl md:text-3xl font-bold text-gray-800">{{ _trans('OUR EXPERTS') }}</h1>
             <hr class="w-14 border-b-2 bg-yellow-400 my-4">
@@ -131,7 +131,8 @@
                 <li class="text-md md:text-lg text-gray-600">
                     {{ _trans('Our CTO, Boris Shiklo, shared his proficient opinion on IT compliance issues for an') }}
                     <a href="#" class="text-blue-700 underline">{{ _trans('article') }}</a> {{ _trans('on') }}
-                    CIO.com.</li>
+                    CIO.com.
+                </li>
                 <li class="text-md md:text-lg text-gray-600">
                     {{ _trans('Our IoT expert was invited to participate in') }} <a href="#"
                         class="text-blue-700 underline">{{ _trans('research on Smart Cities.') }}</a></li>

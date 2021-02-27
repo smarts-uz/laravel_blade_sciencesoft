@@ -174,10 +174,71 @@
             </div>
             <div class="w-full mb-16">
                 <h1 class="text-gray-800 font-bold text-xl md:text-2xl lg:text-3xl mb-4">
-                    4 BUSINESS GOALS WE MEET
+                OUR CUSTOMERS SAY
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-500 mb-6">
-                <h1 class="text-4xl font-bold mb-6">Carousel/////</h1>
+
+
+                <div class="swiper-container big-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2C ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2C ecommerce portals, customers value personalized and frictionless experience
+                                        across
+                                        the digital channels.
+                                    </p>
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto"
+                                        src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png" alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2B ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2B ecommerce portals, buyers value convenient self-service tools to place and
+                                        manage
+                                        their bulk orders.
+                                    </p>
+
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next text-gray-400"></div>
+                    <div class="swiper-button-prev text-gray-400"></div>
+                </div>
+
+
             </div>
             <div class="w-full mb-16">
                 <h1 class="text-gray-800 font-bold text-xl md:text-2xl lg:text-3xl mb-4">
@@ -318,33 +379,15 @@
                     for your time and tailor the description of our competencies to
                     situations most frequent in our practice.
                 </p>
-                <form class="bg-gray-100 p-4">
-                    <div class="md:flex md:flex-wrap md:justify-between">
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="text" placeholder="Full Name" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="text" placeholder="Company" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="email" placeholder="Work Email" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                        <div class="md:p-2 md:w-1/2">
-                            <input type="text" placeholder="Work Phone" class="mb-4 border border-gray-300 w-full text-lg py-2 px-2">
-                        </div>
-                    </div>
-                    <p class="text-md text-blue-600 mb-2">How can I help you ?</p>
-                    <textarea rows="5" class="w-full p-2 text-lg border mb-4">I'm interested in ecommerce development services.</textarea>
-                    <div class="flex justify-center">
-                        <button class="text-white font-semibold  bg-blue-700 py-3 px-12 uppercase">Discuss my development needs</button>
-                    </div>
-                </form>
+                @include('front.Components.consultation')
+
             </div>
         </div>
 
 @endsection
 
 @section('js')
+
 
 @endsection
 

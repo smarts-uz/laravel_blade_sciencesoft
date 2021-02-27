@@ -69,7 +69,7 @@
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
 
         <!-- Cards -->
-        <div class="mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
+        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
                     <img class="w-full h-full md:w-32 md:h-32"
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class="mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
+        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
                     <img class="w-full h-full md:w-40 md:h-40"
@@ -102,7 +102,7 @@
             </div>
         </div>
 
-        <div class="mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
+        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
                     <img class="w-full h-full md:w-40 md:h-40"
@@ -119,7 +119,7 @@
             </div>
         </div>
 
-        <div class="mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
+        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
                     <img class="w-full h-full md:w-40 md:h-40"
@@ -135,7 +135,7 @@
             </div>
         </div>
 
-        <div class="mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
+        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
             <div class="flex flex-col md:flex-row items-center">
                 <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
                     <img class="w-full h-full md:w-40 md:h-40"
@@ -145,6 +145,9 @@
                     <h1 class="text-3xl md:text-4xl font-bold">{{ _trans('Mobile apps') }}</h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <p class=" text-gray-500 text-xl md:text-2xl">
+                        {{ _trans('Developing native and cross-platform apps for customers and employees in healthcare, banking, retail,
+                    manufacturing and professional services and more at employee, department and company level.') }}
+                    </p>
                 </div>
             </div>
         </div>
@@ -156,24 +159,40 @@
             <div class="border-2 border-gray-300 p-2 w-11/12">
                 <h1 class="mb-8 text-2xl pl-4 pt-4 font-bold">{{ _trans('Healthcare') }}</h1>
                 <ul class="list-disc font-normal ml-7">
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('15 years in healthcare IT consulting and software development.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('Our customers are') }} <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong> {{ _trans('and other healthcare service providers.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('We offer mobile applications for doctors and patients, healthcare CRM, medical portals, healthcare data analytics and more.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
+                        {{ _trans('15 years in healthcare IT consulting and software development.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('Our customers are') }}
+                        <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong>
+                        {{ _trans('and other healthcare service providers.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
+                        {{ _trans('We offer mobile applications for doctors and patients, healthcare CRM, medical portals, healthcare data analytics and more.') }}
+                    </li>
                 </ul>
             </div>
             <div class="border-2 border-gray-300 p-2 w-11/12">
                 <h1 class="mb-8 text-2xl pl-4 pt-4 font-bold">{{ _trans('Banking') }}</h1>
                 <ul class="list-disc font-normal ml-7">
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('15 years in mobile banking and intranets, document and knowledge management, banking data analytics, customer portals, loyalty program management and more.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('Our customers are') }} <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong> {{ _trans('and other healthcare service providers.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('We offer mobile applications for doctors and patients, healthcare CRM, medical portals, healthcare data analytics and more.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
+                        {{ _trans('15 years in mobile banking and intranets, document and knowledge management, banking data analytics, customer portals, loyalty program management and more.') }}
+                    </li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('Our customers are') }}
+                        <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong>
+                        {{ _trans('and other healthcare service providers.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
+                        {{ _trans('We offer mobile applications for doctors and patients, healthcare CRM, medical portals, healthcare data analytics and more.') }}
+                    </li>
                 </ul>
             </div>
             <div class="border-2 border-gray-300 p-2 w-11/12">
                 <h1 class="mb-8 text-2xl pl-4 pt-4 font-bold">{{ _trans('Retail and consumer goods') }}</h1>
                 <ul class="list-disc font-normal ml-7">
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('15 years in healthcare IT consulting and software development.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('We offer ecommerce, loyalty solutions, customer data analytics, retail business intelligence, in-store automation.') }} <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong> {{ _trans('We’ve been delivering IT Retail services since 2003 and created IT solutions for such corporations as Walmart, Nestle, Heinz and more.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
+                        {{ _trans('15 years in healthcare IT consulting and software development.') }}</li>
+                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
+                        {{ _trans('We offer ecommerce, loyalty solutions, customer data analytics, retail business intelligence, in-store automation.') }}
+                        <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong>
+                        {{ _trans('We’ve been delivering IT Retail services since 2003 and created IT solutions for such corporations as Walmart, Nestle, Heinz and more.') }}
+                    </li>
                 </ul>
             </div>
         </div>
@@ -181,11 +200,12 @@
             {{ _trans('HOW WE WORK') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
-        <div >
+        <div>
             <div class="col-12 mt-10 group flex flex-wrap">
                 <div>
                     <div>
-                        <div class="lg:ml-10 ml-44 lg:mb-0 mb-3 border border-gray-300 w-12 px-5 py-1 font-semibold text-lg group-hover:border-blue-800 group-hover:text-blue-800 transition duration-300">
+                        <div
+                            class="lg:ml-10 ml-36 lg:mb-0 mb-3 border border-gray-300 w-12 px-5 py-1 font-semibold text-lg group-hover:border-blue-800 group-hover:text-blue-800 transition duration-300">
                             1
                         </div>
                     </div>
@@ -207,7 +227,8 @@
             <div class="col-12 mt-10 group flex flex-wrap">
                 <div>
                     <div>
-                        <div class="lg:ml-10 ml-44 lg:mb-0 mb-3 border border-gray-300 w-12 px-5 py-1 font-semibold text-lg group-hover:border-blue-800 group-hover:text-blue-800 transition duration-300">
+                        <div
+                            class="lg:ml-10 ml-36 lg:mb-0 mb-3 border border-gray-300 w-12 px-5 py-1 font-semibold text-lg group-hover:border-blue-800 group-hover:text-blue-800 transition duration-300">
                             2
                         </div>
                     </div>
@@ -229,7 +250,8 @@
             <div class="col-12 mt-10 group flex flex-wrap">
                 <div>
                     <div>
-                        <div class="lg:ml-10 ml-44 lg:mb-0 mb-3 border border-gray-300 w-12 px-5 py-1 font-semibold text-lg group-hover:border-blue-800 group-hover:text-blue-800 transition duration-300">
+                        <div
+                            class="lg:ml-10 ml-36 lg:mb-0 mb-3 border border-gray-300 w-12 px-5 py-1 font-semibold text-lg group-hover:border-blue-800 group-hover:text-blue-800 transition duration-300">
                             3
                         </div>
                     </div>
@@ -253,13 +275,18 @@
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
         <ul class="list-disc">
-            <li class="mt-2">31 {{ _trans("years in IT.")  }}</li>
-            <li class="mt-2">12 {{ _trans("years in")  }} <a class="hover:text-blue-700" href="">{{ _trans("CRM consulting")  }}</a> {{ _trans("and implementation")  }}</li>
-            <li class="mt-2">700 {{ _trans("professionals on board")  }}</li>
-            <li class="mt-2">{{ _trans("Partnerships with leading CRM providers:")  }} <a class="hover:text-blue-700" href="#">{{ _trans("Microsoft")  }}</a> {{ _trans("and")  }} <a class="hover:text-blue-700" href="#">{{ _trans("Salesforce.")  }}</a></li>
-            <li class="mt-2">{{ _trans("Industry expertise in retail and wholesale, professional services, manufacturing, healthcare, banking, telecoms, etc.")  }}</li>
-          </ul>
-          <div class="p-6 shadow-xl lg:flex">
+            <li class="mt-2">31 {{ _trans('years in IT.') }}</li>
+            <li class="mt-2">12 {{ _trans('years in') }} <a class="hover:text-blue-700"
+                    href="">{{ _trans('CRM consulting') }}</a> {{ _trans('and implementation') }}</li>
+            <li class="mt-2">700 {{ _trans('professionals on board') }}</li>
+            <li class="mt-2">{{ _trans('Partnerships with leading CRM providers:') }} <a class="hover:text-blue-700"
+                    href="#">{{ _trans('Microsoft') }}</a> {{ _trans('and') }} <a class="hover:text-blue-700"
+                    href="#">{{ _trans('Salesforce.') }}</a></li>
+            <li class="mt-2">
+                {{ _trans('Industry expertise in retail and wholesale, professional services, manufacturing, healthcare, banking, telecoms, etc.') }}
+            </li>
+        </ul>
+        <div class="p-6 shadow-xl lg:flex">
             <div class="lg:w-4/6">
                 <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
                     Contact Us
@@ -267,7 +294,7 @@
                 <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
                 <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                    {{ _trans("Ready to start? Need more info about partnership details? Contact us to get free consultation and explore how we can cooperate. Our specialists are open to give the presentation of ScienceSoft services and provide you with our demos, success stories and other materials you need.")  }}
+                    {{ _trans('Ready to start? Need more info about partnership details? Contact us to get free consultation and explore how we can cooperate. Our specialists are open to give the presentation of ScienceSoft services and provide you with our demos, success stories and other materials you need.') }}
                 </p>
             </div>
 
