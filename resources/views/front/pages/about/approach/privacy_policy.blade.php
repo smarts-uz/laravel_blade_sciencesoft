@@ -12,7 +12,7 @@
         <p class="py-5 text-lg text-gray-500">
             {{ _trans('This privacy statement explains what personal data TeamPRO collects from you and how we use that data.') }}
         </p>
-        <p class="py-5 text-lg text-gray-500">{{ _trans('Last updated on 5/17/2018.') }}</p>
+        <p class="py-4 text-lg text-gray-500">{{ _trans('Last updated on 5/17/2018.') }}</p>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans('WHO WE ARE') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-5 text-lg text-gray-500">
@@ -26,19 +26,27 @@
         <p class="py-5 text-lg text-gray-500">
             {{ _trans('We also obtain data from third parties. We protect data obtained from third parties according to the practices described in this statement, plus any additional restrictions imposed by the source of the data. These third-party sources may vary over time, but currently include:') }}
         </p>
-        <ul class="list-disc pl-5">
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Service providers that help us determine a location based on your IP address in order to customize certain products to your location.') }}
+        <ul style="list-style:square" class=" pl-5 text-blue-700 ">
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Service providers that help us determine a location based on your IP address in order to customize certain products to your location.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Partners with which we offer co-branded services or engage in joint marketing activities.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Partners with which we offer co-branded services or engage in joint marketing activities.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Publicly-available sources such as open government databases or other data in the public domain.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Publicly-available sources such as open government databases or other data in the public domain.') }}
+                </p>
             </li>
         </ul>
-        <p class="py-3 text-lg text-gray-500">
+        <p class="py-3 text-lg ">
+        <p class="text-gray-500 text-lg">
             {{ _trans('You have choices about the data we collect. When you are asked to provide personal data, you may decline. But if you choose not to provide data that is necessary to deliver a service or a feature or give feedback, you may not be able to use this service or feature or receive feedback.') }}
+        </p>
         </p>
         <p class="py-3 text-lg text-gray-500">{{ _trans('The data we collect can include the following:') }}</p>
         <p class="py-3 text-lg text-gray-500">
@@ -50,22 +58,30 @@
         <p class="py-3 text-lg text-gray-500">
             <strong>{{ _trans(' Website data.') }}</strong>{{ _trans(' We collect data about how you interact within TeamPRO website. For example, we collect:') }}
         </p>
-        <ul class="list-disc pl-5">
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Details of visitor behaviour patterns, i.e. data about the website sections you visit and how much time you spend there.') }}
+        <ul style="list-style:square" class="text-blue-700 pl-5">
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Details of visitor behaviour patterns, i.e. data about the website sections you visit and how much time you spend there.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Configuration data. We collect data about the network you use to connect to our website. It includes your IP address.') }}
+            <li class="py-2 text-lg">
+                <p class="text-gray-500">
+                    {{ _trans('Configuration data. We collect data about the network you use to connect to our website. It includes your IP address.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Error reports and performance data. We collect data about problems you experience with our services. This data helps us to diagnose problems and to provide solutions. Depending on your browsing environment and settings, error reports can include such data as the type or the severity of the problem, details of the software or the hardware related to the error, the contents of the files you were using when the error occurred, as well as the data about other software on your device.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Error reports and performance data. We collect data about problems you experience with our services. This data helps us to diagnose problems and to provide solutions. Depending on your browsing environment and settings, error reports can include such data as the type or the severity of the problem, details of the software or the hardware related to the error, the contents of the files you were using when the error occurred, as well as the data about other software on your device.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Troubleshooting and Help Data. In case TeamPRO is engaged in troubleshooting and help, we collect data about you and your hardware, software, and other details related to the incident. Such data includes the contact data, the content of your chats and other communications with TeamPRO, the data about the condition of the machine and the application when the fault occurred and during diagnostics, and the system and registry data about software installations and hardware configurations.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Troubleshooting and Help Data. In case TeamPRO is engaged in troubleshooting and help, we collect data about you and your hardware, software, and other details related to the incident. Such data includes the contact data, the content of your chats and other communications with TeamPRO, the data about the condition of the machine and the application when the fault occurred and during diagnostics, and the system and registry data about software installations and hardware configurations.') }}
+                </p>
             </li>
         </ul>
         <p class="py-3 text-lg text-gray-500">
-            {{ _trans('Please, be aware you may communicate personal data we do NOT require, including your payment data, in the description section of a CONTACT-US form. We will not use this information in any way, besides storing it at our backup server. Please, do not share with us any personal data not requested from you directly.') }}
+            <b>{{ _trans('Please, be aware you may communicate personal data we do NOT require, including your payment data, in the description section of a CONTACT-US form. We will not use this information in any way, besides storing it at our backup server. Please, do not share with us any personal data not requested from you directly.') }}</b>
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ _trans("Our website is not intended for children and for private individuals and we do not knowingly collect data relating to them. Parents can revoke the consent choices previously made, and review, edit or request the deletion of their children's personal data.") }}
@@ -95,15 +111,21 @@
         <p class="py-3 text-lg text-gray-500">
             {{ _trans('We will access, transfer, disclose, and preserve personal data, when we have a good faith belief that doing so is necessary to:') }}
         </p>
-        <ul class="list-disc pl-5">
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Comply with the applicable law or respond to a valid legal process, including in response to a request from law enforcement or other government agencies.') }}
+        <ul style="list-style:decimal" class="text-gray-500 pl-5">
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Comply with the applicable law or respond to a valid legal process, including in response to a request from law enforcement or other government agencies.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Protect our customers, for example, to prevent spam or attempts to defraud users of our services, or to help prevent the loss of life or serious injury of anyone.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Protect our customers, for example, to prevent spam or attempts to defraud users of our services, or to help prevent the loss of life or serious injury of anyone.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Protect the rights of TeamPRO, including enforcing the terms governing the use of the services.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Protect the rights of TeamPRO, including enforcing the terms governing the use of the services.') }}
+                </p>
             </li>
         </ul>
         <p class="py-3 text-lg text-gray-500">
@@ -116,21 +138,29 @@
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
             {{ _trans('You are entitled to view, amend, or delete the personal information that we hold:') }}</p>
-        <ul class="list-disc pl-5">
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('You may ask what personal data about you we hold and who the recipients of your personal data are, at any time.') }}
+        <ul style="list-style:square" class=" pl-5 text-blue-700">
+            <li class="py-2 ">
+                <p class="text-gray-500">
+                    {{ _trans('You may ask what personal data about you we hold and who the recipients of your personal data are, at any time.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('You may ask us to update and correct any out-of-date or incorrect/incomplete personal data that we hold about you free of charge.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('You may ask us to update and correct any out-of-date or incorrect/incomplete personal data that we hold about you free of charge.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('You may opt out of any marketing communications that we may send you. This choice does not apply to mandatory service communications.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('You may opt out of any marketing communications that we may send you. This choice does not apply to mandatory service communications.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('You may recall your consent for the processing of your information at any time.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('You may recall your consent for the processing of your information at any time.') }}</p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('You may request erasing or updating your personal information here.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('You may request erasing or updating your personal information here.') }}</p>
             </li>
         </ul>
         <p class="py-3 text-lg text-gray-500">
@@ -143,11 +173,16 @@
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ _trans('We use cookies and similar technologies for several purposes, including:') }}</p>
-        <ul class="list-disc pl-5">
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Security. We use cookies to detect fraud and abuse of our website and services.') }}</li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Storing information you provide on a website. When you provide information, we store the data in a cookie to remember the information you have added.') }}
+        <ul style="list-style:square" class=" pl-5 text-blue-700">
+            <li class="py-2 text-lg">
+                <p class="text-gray-500">
+                    <b>{{ _trans('Security') }}</b>{{ _trans(' We use cookies to detect fraud and abuse of our website and services.') }}
+                </p>
+            </li>
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    <b>{{ _trans('Storing information you provide on a website.') }}</b>{{ _trans(' When you provide information, we store the data in a cookie to remember the information you have added.') }}
+                </p>
             </li>
         </ul>
         <p class="py-3 text-lg text-gray-500">
@@ -176,12 +211,16 @@
         <p class="py-3 text-lg text-gray-500">
             {{ _trans('TeamPRO retains personal data for as long as necessary to provide the services and the feedback you have requested, or for other essential purposes, such as complying with our legal obligations, enforcing our agreements. Because these needs can vary for different data types, actual retention periods may vary. The criteria used to determine the retention periods include:') }}
         </p>
-        <ul class="list-disc pl-5">
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Is the personal data of a sensitive type? If so, a shortened retention time would generally be appropriate, which amounts to up to five years.') }}
+        <ul style="list-style:square" class=" pl-5 text-blue-700">
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Is the personal data of a sensitive type? If so, a shortened retention time would generally be appropriate, which amounts to up to five years.') }}
+                </p>
             </li>
-            <li class="py-2 text-lg text-gray-500">
-                {{ _trans('Is TeamPRO subject to a legal, contractual, or similar obligation to retain the data? Examples can include mandatory data retention laws in the applicable jurisdiction, government orders to preserve data relevant to an investigation, or data that must be retained for the purposes of litigation.') }}
+            <li class="py-2 text-lg ">
+                <p class="text-gray-500">
+                    {{ _trans('Is TeamPRO subject to a legal, contractual, or similar obligation to retain the data? Examples can include mandatory data retention laws in the applicable jurisdiction, government orders to preserve data relevant to an investigation, or data that must be retained for the purposes of litigation.') }}
+                </p>
             </li>
         </ul>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans('HOW WE CHANGE THIS PRIVACY POLICY') }}</h1>

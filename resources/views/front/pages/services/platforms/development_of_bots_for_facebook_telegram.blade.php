@@ -6,7 +6,7 @@
 
 @section('main')
 
-<main style="overflow-y: hidden; overflow-x: hidden">
+<main class="overflow-x-hidden overflow-y-hidden">
 
 
 <div class="bg-black h-auto px-4 pt-20 pb-10">
@@ -336,8 +336,8 @@
             </div>
 
             <div class="relative">
-               <img class="absolute" src="{{asset('images/open_engine/facebook_telegram/robot.svg')}}" alt="">
-                <img src="{{asset('images/open_engine/facebook_telegram/24.svg')}}" alt="">
+               <img class="absolute right-1/2 top-1/4" src="{{asset('images/open_engine/facebook_telegram/robot.svg')}}" alt="">
+                <img class="" src="{{asset('images/open_engine/facebook_telegram/24.svg')}}" alt="">
 
             </div>
 
@@ -576,7 +576,7 @@
             </div>
 
 
-            <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
+            <div  class="bg-blue-700 h-44 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
                  data-aos="fade-up-left">
                 <div class="flex justify-center items-center pl-20 pt-5">
 

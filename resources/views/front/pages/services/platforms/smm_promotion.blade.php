@@ -139,8 +139,8 @@
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-                style="font-size: 8rem"
-                class="  font-bold  text-gray-300 "
+
+                class="text-9xl font-bold  text-gray-300 "
               >
                 2
               </p>
@@ -871,7 +871,7 @@
             </div>
             <div
               style="border-radius: 0 0 200px 0; top: 80px"
-              class="bg-blue-800 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative"
+              class="bg-blue-700 py-20 lg:m-10 sm:px-10 md:px-10 max-w-lg relative"
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
@@ -880,7 +880,7 @@
                 </h1>
                 <p
 
-                  class="item-center font-bold text-9xl absolute left-48 text-gray-400 z-0"
+                  class="item-center font-bold text-9xl absolute left-48 text-gray-300 z-0"
                 >
                   7
                 </p>
@@ -956,7 +956,7 @@
 
 <div class="bg-gray-100 h-12 z-10" data-aos="fade-up-right"></div>
 <div class="bg-gray-50 z-0" data-aos="fade-up-right">
-    <div style=" font-size: 17px" class="pt-20 text-gray-700 pb-20">
+    <div  class="pt-20 textxl text-gray-700 pb-20">
 
         <div style="margin-left: 20%; margin-right: 20%;" class="z-0 text-gray-600 text-lg">
             <p>
@@ -994,7 +994,7 @@
                 </div>
 
 
-                <div style="height: 10rem" class="bg-blue-700 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
+                <div  class="bg-blue-700 max-w-5xl h-36 rounded-l-2xl pt-5 z-20 mt-32"
                      data-aos="fade-up-left">
                     <div class="flex justify-center items-center pl-20 pt-5">
 

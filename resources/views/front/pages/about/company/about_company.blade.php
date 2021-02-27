@@ -137,55 +137,30 @@
         {{ _trans('Depending on a project and the nature of the delivered service, we resort to one of the following pricing') }}
         {{ _trans('models:') }}
     </p>
-
-    <div class="flex flex-col m-10 justify-between md:flex-row">
+    <div class="flex flex-col m-10 justify-between flex space-x-0 md:flex-row md:space-x-3">
 
         <p
-            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg">
+            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg md: m-0 w-full">
             {{ _trans('Fixed Price') }}
         </p>
 
         <p
-            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg">
+            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg md: m-0 w-full">
             {{ _trans('Time & Material') }}
         </p>
 
         <p
-            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg">
+            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg md: m-0 w-full">
             {{ _trans('Consumption-based pricing') }}
         </p>
 
         <p
-            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg">
+            class="uppercase flex items-center justify-center text-center p-4 duration-300 font-extrabold w-1/5 rounded border hover:shadow-lg md: m-0 w-full">
             {{ _trans('Monthly subscription fee') }}
         </p>
-
-
-
     </div>
 
-    <div class="my-10 rounded-sm border transition-shadow hover:shadow-xl p-2 md:p-8">
-        <div class="flex flex-col md:flex-row items-start">
-            <div class="flex justify-center items-center w-1/4 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                <img class="w-full h-full md:w-60 md:h-60"
-                    src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
-            </div>
-            <div class=" flex flex-col w-3/5">
-                <h1 class="text-2xl md:text-3xl font-bold">{{ _trans('Boris Shiklo, CTO:') }}</h1>
-                <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                <div class="text-xl">
-                    <p class="my-10">
-                        {{ _trans(" “It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                       tend to result in excessive hours spent. We, at TeamPRO don't practice reducing IT service
-                       costs by hiring low-paid employees. Instead, we raise productivity, i.e., deliver more in less
-                       time. It results in a lower cost of output (new application functionality, stable
-                       infrastructure, user issues resolved).”") }}
-                    </p>
-
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('front.Components.leader')
 
     <p class="text-xl my-10">
         {{ _trans("To increase productivity and provide for the project cost reduction for our customers, we invest a part of our
@@ -235,17 +210,18 @@
         resort to using the following technologies and methodologies:") }}
     </p>
 
+
     <div>
         <div class="flex flex-col md:flex-row  items-start">
             <div class="flex flex-row justify-start items-center w-4/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                <img class="m-8 w-full h-full md:w-20 md:h-20"
+                <img class="m-2 md:m-8 w-20 h-20 md:w-20 md:h-20"
                     src="https://www.scnsoft.com/about/company-new/technologies-and-methods-01-cloud-native.svg" alt="">
                 <p class=" text-xl md:text-2xl ">
                     {{ _trans('Cloud-native architecture') }}
                 </p>
             </div>
             <div class="flex flex-row justify-start items-center w-4/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                <img class="m-8 w-full h-full md:w-20 md:h-20"
+                <img class="m-2 md:m-8 w-20 h-20 md:w-20 md:h-20"
                     src="https://www.scnsoft.com/about/company-new/technologies-and-methods-03-test-automation.svg" alt="">
                 <p class=" text-xl md:text-2xl ">
                     {{ _trans('Test automation') }}
@@ -254,14 +230,14 @@
         </div>
         <div class="flex flex-col md:flex-row  items-start">
             <div class="flex flex-row justify-start items-center w-4/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                <img class="m-8 w-full h-full md:w-20 md:h-20"
+                <img class="m-2 md:m-8 w-20 h-20 md:w-20 md:h-20"
                     src="https://www.scnsoft.com/about/company-new/technologies-and-methods-02-devops-ci-cd.svg" alt="">
                 <p class=" text-xl md:text-2xl ">
                     {{ _trans('DevOps and the implementation of CI/CD pipelines') }}
                 </p>
             </div>
             <div class="flex flex-row justify-start items-center w-4/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                <img class="m-8 w-full h-full md:w-20 md:h-20"
+                <img class="m-2 md:m-8 w-20 h-20 md:w-20 md:h-20"
                     src="https://www.scnsoft.com/about/company-new/technologies-and-methods-04-app-performance-management.svg"
                     alt="">
                 <p class=" text-xl md:text-2xl ">
@@ -387,8 +363,8 @@
 
     </div>
 
-    <div class='flex justify-between items-center p-10 shadow-2xl border border-200 my-20'>
-        <div class='w-2/3'>
+    <div class='flex flex-col md:flex-row items-center p-10 shadow-2xl border border-200 my-20'>
+        <div class='w-full'>
             <h1 class='text-gray-900 mt-6'>
                 <p class='text-2xl font-bold'>
                     {{ _trans("Looking for a Partner to Support Your Business Growth or Monetize Your
@@ -401,7 +377,7 @@
                  service or assist you in launching a product that would win customers fast.") }}
             </p>
         </div>
-        <div class='w-1/3 m-0 flex justify-center items-center'>
+        <div class=' w-full mt-10 md:w-1/3 md:mt-0 flex justify-center items-center'>
             <a href="#"
                 class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Discuss My
                  Needs") }}</a>

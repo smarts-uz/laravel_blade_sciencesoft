@@ -9,6 +9,52 @@
 
     <div class=" flex flex-col lg:flex-row my-5 pb-12">
         <div class="w-full lg:w-3/12  lg:flex flex-col mr-2">
+
+        <div class="">
+
+
+
+
+
+        <ul class="flex flex-col">
+
+
+
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 p-2 my-3">
+    <div @click="open = true"
+        class="flex justify-between items-center text-gray-500 text-lg focus:text-blue-600 cursor-pointer hover:text-blue-500">
+        <div class="flex flex-row">
+            <p>{{ _trans('Middle Business Analyst') }}</p>
+        </div>
+        <p class="md:block hidden text-blue-500"><i class="fas fa-chevron-right ml-2"></i></p>
+
+
+    </div>
+    <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
+    
+
+
+
+
+    </div>
+</li>
+<hr>
+</ul>
+
+
+
+
+
+
+
+
+
+        
+        
+        </div>
+
+
+
             <div class="text-gray-600 w-full cursor-pointer hover:text-blue-600 mb-4">
                 <p class="border-b-2 py-1 uppercase font-bold border-gray-500 hover:border-blue-600">
                     {{ _trans('Careers') }}</p>
