@@ -98,7 +98,8 @@ Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage'
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
 // Route::post('/env_key_update', 'BusinessSettingsController@env_key_update')->name('env_key_update.update');
-
+// lang
+Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class, 'index']);
 
 
 Route::post('/consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
