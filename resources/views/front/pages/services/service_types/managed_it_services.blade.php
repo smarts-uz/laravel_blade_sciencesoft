@@ -249,7 +249,7 @@
 
 
 
-        <div class="text-2xl md:text-3xl font-bold mt-20">
+        {{-- <div class="text-2xl md:text-3xl font-bold mt-20">
             {{ _trans('Technologies We Work with') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
@@ -362,7 +362,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
 
 
         <div class="text-2xl md:text-3xl font-bold mt-20">
