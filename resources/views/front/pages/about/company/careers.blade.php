@@ -20,25 +20,93 @@
 
 
 
-<li x-data="{ open: false }" class="flex flex-col bg-gray-100 p-2 my-3">
-    <div @click="open = true"
-        class="flex justify-between items-center text-gray-500 text-lg focus:text-blue-600 cursor-pointer hover:text-blue-500">
-        <div class="flex flex-row">
-            <p>{{ _trans('Middle Business Analyst') }}</p>
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
+    <div 
+        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+        <div class="flex flex-row ">
+            <a href="#">{{ _trans('Software Development') }}</a>
         </div>
-        <p class="md:block hidden text-blue-500"><i class="fas fa-chevron-right ml-2"></i></p>
-
+        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down" @click="open = true"></i></p>
 
     </div>
-    <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
+    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"  @click.away="open = false" class="flex-col ">
     
 
-
+    <ul class="text-gray-500">
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Full-Stack Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Middle/Senior C++ Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('.NET WPF Sen‎ior Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('JavaScript Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Senior Java Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Senior Python Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Middle/Senior iOS Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Big Data Engineer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Middle Front-end (React, Redux) Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Senior Python Developer') }}</a></li>
+     
+    </ul>
 
 
     </div>
 </li>
-<hr>
+
+
+<li class="flex flex-col p-2 py-4 text-gray-500 hover:bg-indigo-100 bg-gray-100" ><a class="hover:text-blue-500" href="#">
+{{_trans('Testing')}}
+</a></li>
+
+
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
+    <div
+        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+        <div class="flex flex-row ">
+            <a href="#">{{ _trans('Software Development') }}</a>
+        </div>
+        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down"  @click="open = true"></i></p>
+
+    </div>
+    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"  @click.away="open = false" class="flex-col ">
+    
+
+    <ul class="text-gray-500">
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('DevOps S') }}</a></li>
+    </ul>
+
+
+    </div>
+</li>
+
+
+
+<li class="flex flex-col p-2 py-4 text-gray-500 text-lg hover:bg-indigo-100 bg-gray-100" ><a class="hover:text-blue-500" href="#">
+{{_trans('Business Analysis')}}
+</a></li>
+
+
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
+    <div
+        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+        <div class="flex flex-row ">
+            <a href="#">{{ _trans('Marketing and Sales') }}</a>
+        </div>
+        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down"  @click="open = true"></i></p>
+
+    </div>
+    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"  @click.away="open = false" class="flex-col ">
+    
+
+    <ul class="text-gray-500">
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Copywriter') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Copywriter Team Lead') }}</a></li>
+    </ul>
+
+
+    </div>
+</li>
+
+
+
+
 </ul>
 
 
@@ -55,11 +123,8 @@
 
 
 
-            <div class="text-gray-600 w-full cursor-pointer hover:text-blue-600 mb-4">
-                <p class="border-b-2 py-1 uppercase font-bold border-gray-500 hover:border-blue-600">
-                    {{ _trans('Careers') }}</p>
-            </div>
-            <ul class="flex flex-col">
+           
+            <ul class="flex flex-col mt-8">
                 <li class="flex flex-row items-start p-3 bg-blue-800 text-white outline-none border-none">
                     <i class="fas fa-users mt-1"></i>
                     <p class="uppercase ml-3 font-bold">{{ _trans('Hr department contact') }}</p>
