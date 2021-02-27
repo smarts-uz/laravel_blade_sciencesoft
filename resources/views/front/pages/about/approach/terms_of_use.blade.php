@@ -36,7 +36,7 @@
                     href="#">contact@scnsoft.com</a>{{ _trans(' or ') }}<a class="underline hover:text-blue-400"
                     href="#">eu@scnsoft.com</a>{{ _trans(' or ') }}<a class="underline hover:text-blue-400" href="#">gulf@scnsoft.com</a> ,
             </li>
-            <li class="py-2 text-lg text-gray-500">{{ _trans('call by phone') }} +1 214 306 68 37.</li>
+            <li class="py-2 text-lg text-gray-500">{{ _trans('call by phone') }} +998 71 200-33-63.</li>
         </ul>
 
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans('TERMINATION') }}</h1>
@@ -108,7 +108,7 @@
             {{ _trans('By using Site you accept the terms of Privacy Policy which is an integral part of these Terms.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">{{ _trans('Please check our Privacy Policy to learn more ') }}<a
-                href="https://www.scnsoft.com/about/privacy-policy">https://www.scnsoft.com/about/privacy-policy</a>.</p>
+                href="http://teamprodev.com/getBlade/about.approach.privacy_policy">http://teamprodev.com/getBlade/about.approach.privacy_policy</a>.</p>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ _trans('LINKS') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-5 text-lg text-gray-500">

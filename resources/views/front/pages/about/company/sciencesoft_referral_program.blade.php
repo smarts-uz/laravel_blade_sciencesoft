@@ -58,10 +58,10 @@
             </p>
         </ul>
         <div class="relative my-32 mx-10">
-            <button
-                class="w-48 h-12 bg-blue-800 hover:bg-blue-900 font-medium absolute mt-10 mx-3 right-0 bottom-16 text-white text-lg uppercase">
+            <a  href="http://teamprodev.com/getBlade/contact_us"
+                class="w-48 flex items-center justify-center h-12 bg-blue-800 hover:bg-blue-900 font-medium absolute mt-10 mx-3 right-0 bottom-16 text-white text-lg uppercase">
                 {{ _trans('Contact US') }}
-            </button>
+        </a>
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans('COOPERATION PROCEDURE') }}
