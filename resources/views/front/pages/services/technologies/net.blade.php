@@ -141,7 +141,7 @@
                   {{ _trans("Working out an optimal scalability map.")  }}
                   </p>
                 </div>
-                <button class="bg-blue-700 text-white w-full mt-3 uppercase p-3">{{ _trans("Contact us")  }}</button>
+                  <a href="http://teamprodev.com/getBlade/contact_us" class="bg-blue-700 flex items-center justify-center text-white w-full mt-3 uppercase p-3">{{ _trans("Contact us")  }}</a>
               </div>
             </div>
             <div
@@ -152,7 +152,7 @@
                 <p class="text-lg text-blue-700 mb-3">{{ _trans("Hire .NET developers")  }}</p>
                 <p class="mb-3">{{ _trans("Drawing on your needs, we can suggest either an offshore dedicated team or team augmentation model of cooperation to back up your .NET development project or migration of legacy software to .NET. We offer pre-vetted developers, which match your requirements – you’re free to screen them before the start of cooperation.")  }}</p>
 
-                <button class="bg-blue-700 text-white w-full mt-3 uppercase p-3">{{ _trans("Contact us")  }}</button>
+                <a href="http://teamprodev.com/getBlade/contact_us" class="bg-blue-700 flex items-center justify-center text-white w-full mt-3 uppercase p-3">{{ _trans("Contact us")  }}</a>
               </div>
             </div>
           </div>
@@ -248,7 +248,7 @@
           <p class='text-gray-600 text-xl'>{{ _trans("Let’s see what TeamPRO’s team can do for you.")  }}</p>
         </div>
         <div class='w-1/3 m-0 flex justify-center items-center'>
-          <a href="#" class='px-8 py-3 bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Contact us")  }}</a>
+            <a href="http://teamprodev.com/getBlade/contact_us" class='px-8 py-3 bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Contact us")  }}</a>
         </div>
       </div>
       </div>
