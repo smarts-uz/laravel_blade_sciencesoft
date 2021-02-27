@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
 
 
+
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
     <style>
@@ -48,6 +49,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
     <script src="{{ asset('index.js') }}"></script>
     <script>
         $(document).ready(function() {
@@ -118,6 +121,20 @@
     $('.step-wrapper').toggleClass('move-line');
   });
 });
+</script>
+
+<script>
+    $(function () {
+        $('.chart').easyPieChart({
+            size: 160,
+            barColor: "#1733e6",
+            scaleLength: 0,
+            lineWidth: 15,
+            trackColor: "#66a8d7",
+            lineCap: "circle",
+            animate: 2000,
+        });
+    });
 </script>
 </body>
 

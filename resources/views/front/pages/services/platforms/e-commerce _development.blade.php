@@ -14,15 +14,17 @@
 
           <div data-aos="fade-right" class="flex justify-center items-center leading-loose">
               <div>
-                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 ">
-                    Разработка <br> интернет <br> магазина
+                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 leading-8 ">
+                    {{_trans(' Development')}}
+                    <br>  {{_trans('of an
+                    online')}} <br> {{_trans(' store')}}
                   </div>
                   <div class="lg:px-20">
                     <a
                       href="#"
                       class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                     >
-                      Получить консультацию
+                       {{_trans('Get the consultation')}}
                     </a>
                   </div>
               </div>
@@ -40,8 +42,8 @@
           data-aos="fade-down"
           class="text-2xl md:text-4xl font-bold text-blue-700 z-10 text-center leading-10"
         >
-          Разрабатываем интернет магазины, <br />
-          которые продают
+         {{_trans('We develop online stores')}}  <br />
+        {{_trans(' that sell')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -63,10 +65,10 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon1.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">ЗОЛОТОЙ ПАРТНЁР</h1>
+              <h1 class="pl-10 text-gray-600">{{_trans(' GOLDEN PARTNER')}}</h1>
 
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>Сертифицированный  партнёр <br> 1С-Битрикс</b>
+                <b>{{_trans('Certified partner')}} <br>  {{_trans('1C-Bitrix')}}</b>
               </h1>
             </div>
           </div>
@@ -76,10 +78,10 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon2.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">ОТ ИДЕИ ДО ПРОДАЖ</h1>
+              <h1 class="pl-10 text-gray-600">{{_trans('FROM IDEA TO SALES')}}</h1>
 
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>  Выполняем работу  под ключ</b>
+                <b>{{_trans(' We carry out turnkey work')}}</b>
               </h1>
             </div>
           </div>
@@ -89,9 +91,9 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">БОЛЬШОЙ ОПЫТ</h1>
+              <h1 class="pl-10 text-gray-600">{{_trans('GREAT EXPERIENCE')}}</h1>
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>Запущено более 50 магазинов</b>
+                <b>{{_trans('More than 50 stores launched')}}</b>
               </h1>
             </div>
           </div>
@@ -101,10 +103,10 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon4.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">ГАРАНТИРУЕМ РЕЗУЛЬТАТ</h1>
+              <h1 class="pl-10 text-gray-600">{{_trans('WE GUARANTEE THE RESULT')}}</h1>
 
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>Фиксируем стоимость и сроки <br> работы</b>
+                <b>{{_trans('We fix the cost and terms of work')}} <br>{{_trans(' of work')}}</b>
               </h1>
             </div>
           </div>
@@ -119,7 +121,7 @@
           data-aos="fade-down"
           class="text-4xl font-bold text-blue-700 z-10 text-center"
         >
-          Почему мы...
+        {{_trans(' Why choose us?')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -143,8 +145,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">01</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">ДОСТУПНАЯ ЦЕНА МАГАЗИНА</h1>
-            <h1 class="text-gray-700 text-xl"><b>От 18 000 000 сум</b></h1>
+            <h1 class="text-gray-600">{{_trans('AFFORDABLE STORE PRICE')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('from')}} 18 000 000 uzs</b></h1>
           </div>
         </div>
         <div
@@ -156,8 +158,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">02</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">ОТКРЫВАЕТСЯ ЗА 1.5 СЕКУНДЫ</h1>
-            <h1 class="text-gray-700 text-xl"><b>Быстро работает</b></h1>
+            <h1 class="text-gray-600">{{_trans('OPENS IN 1.5 SECONDS')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('Works fast')}}</b></h1>
           </div>
         </div>
         <div
@@ -169,8 +171,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">03</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">МАГАЗИН ДОСТУПЕН 24/7</h1>
-            <h1 class="text-gray-700 text-xl"><b>Высокая надёжность</b></h1>
+            <h1 class="text-gray-600">{{_trans('STORE AVAILABLE 24/7')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('High reliability')}}</b></h1>
           </div>
         </div>
 
@@ -183,8 +185,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">04</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">УДОБНЫЙ ДЛЯ ПОЛЬЗОВАТЕЛЕЙ</h1>
-            <h1 class="text-gray-700 text-xl"><b>Высокая конверсия</b></h1>
+            <h1 class="text-gray-600">{{_trans('USER-FRIENDLY')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('High conversion')}}</b></h1>
           </div>
         </div>
         <div
@@ -196,8 +198,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">05</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">РАБОТАЕТ НА ВСЕХ УСТРОЙСТВАХ</h1>
-            <h1 class="text-gray-700 text-xl"><b>100% адаптивность</b></h1>
+            <h1 class="text-gray-600">{{_trans('WORKS ON ALL DEVICES')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('100% responsive')}}</b></h1>
           </div>
         </div>
         <div
@@ -210,8 +212,8 @@
           </div>
 
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">САЙТ АДАПТИРОВАН ПОД SEO</h1>
-            <h1 class="text-gray-700 text-xl"><b>Легко продвигать</b></h1>
+            <h1 class="text-gray-600">{{_trans('WEBSITE IS ADAPTED FOR SEO')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('Easy to promote')}}</b></h1>
           </div>
         </div>
 
@@ -224,8 +226,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">07</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">АВТОМАТИЗИРУЕМ РАБОТУ МАГАЗИНА</h1>
-            <h1 class="text-gray-700 text-xl"><b>Полная настройка</b></h1>
+            <h1 class="text-gray-600">{{_trans('WE AUTOMATE THE WORK OF THE STORE')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('Full customization')}}</b></h1>
           </div>
         </div>
         <div
@@ -237,8 +239,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">08</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">СВЯЗЫВАЕМ МАГАЗИН С 1С</h1>
-            <h1 class="text-gray-700 text-xl"><b>Удобно управлять</b></h1>
+            <h1 class="text-gray-600">{{_trans('WE CONNECT THE STORE WITH 1C')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{_trans('Convenient to operate')}}</b></h1>
           </div>
         </div>
         <div
@@ -250,9 +252,9 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">09</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">МАГАЗИН ПРОДАЕТ НА Я.МАРКЕТЕ</h1>
+            <h1 class="text-gray-600">{{_trans('THE STORE SELLS ON THE Y. MARKET')}}</h1>
             <h1 class="text-gray-700 text-xl">
-              <b>Увеличиваем продажи</b>
+              <b>{{_trans('We increase sales')}}</b>
             </h1>
           </div>
         </div>
@@ -263,7 +265,8 @@
           data-aos="fade-down"
           class="text-4xl font-bold text-blue-700 z-10 text-center"
         >
-          Наши гарантии
+        {{_trans('Our guarantees
+        ')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -286,8 +289,9 @@
               />
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
-                Заключаем договор на <br />
-                разработку интернет- <br />магазина
+
+{{_trans('We conclude a')}} <br />
+{{_trans('contract for the development of an ')}} <br />{{_trans('online store')}}
               </p>
             </div>
           </div>
@@ -301,8 +305,8 @@
               />
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
-                Заключаем договор на <br />
-                разработку интернет- <br />магазина
+
+               {{_trans(' We prescribe')}} <br> {{_trans('the development time and')}} <br> {{_trans('penalties for missed deadlines')}}
               </p>
             </div>
           </div>
@@ -316,8 +320,9 @@
               />
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
-                Заключаем договор на <br />
-                разработку интернет- <br />магазина
+
+{{_trans('We fix the')}} <br />
+{{_trans('development cost')}}
               </p>
             </div>
           </div>
@@ -331,8 +336,8 @@
               />
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
-                Заключаем договор на <br />
-                разработку интернет- <br />магазина
+
+               {{_trans(' We give a 1 year guarantee for the work performed')}}
               </p>
             </div>
           </div>
@@ -346,8 +351,8 @@
               />
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
-                Заключаем договор на <br />
-                разработку интернет- <br />магазина
+
+                {{_trans('We hand over a ready-made store and teach work')}}
               </p>
             </div>
           </div>
@@ -361,8 +366,8 @@
               />
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
-                Заключаем договор на <br />
-                разработку интернет- <br />магазина
+
+                {{_trans('We provide the first sales of the store')}}
               </p>
             </div>
           </div>
@@ -379,10 +384,9 @@
           <h1
             class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700"
           >
-            Заполните форму прямо сейчас и получите квалифицированную бесплатную
-            консультацию.
+          {{_trans('Fill out the form right now and get a qualified free consultation.')}}
           </h1>
-          <h2 class="text-lg p-6 pl-13">Название организации</h2>
+          <h2 class="text-lg p-6 pl-13">{{_trans('Name of the organization')}}</h2>
           <form>
             <label>
               <input
@@ -401,14 +405,14 @@
                 href=""
                 class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
               >
-                Назад
+               {{_trans(' Back to')}}
               </a>
 
               <a
                 href=""
                 class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
               >
-                Далее
+              {{_trans(' Next')}}
               </a>
             </div>
           </div>
@@ -424,8 +428,8 @@
             <h1
               class="text-2xl sm:text-4xl font-bold text-white z-10 p-5 leading-10"
             >
-              Почему мы разрабатываем <br />
-              интернет магазины на 1С-Битрикс?
+           {{_trans(' Why are we developing online')}} <br>
+             {{_trans('stores based on 1C-Bitrix?')}}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -441,55 +445,47 @@
 
         <div class="container mx-auto">
             <p class="text-5xl text-blue-500 font-semibold py-10">
-                Битрикс - самая популярная CMS для <br> электронной коммерции!
+               {{_trans(' Bitrix is ​​the most popular CMS for e-commerce!')}}
             </p>
 
             <p class="text-gray-600 font-bold text-3xl pt-5">
-                Максимальный функционал для интернет торговли
+               {{_trans(' Maximum functionality for online trading')}}
             </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                Магазин на 1С-Битрикс имеет полный набор решений для продажи товаров онлайн. Быстрый заказ,
-                гео-определение, различные валюты, скидки, бонусные системы, автоматизированная доставка, онлайн
-                оплата и касса. Магазин готовых решений имеет более 10 000 готовых модулей. Вы не будете
-                переплачивать за разработку.
+               {{_trans(' The store on 1C-Bitrix has a complete set of solutions for selling goods online. Quick order, geo-identification, various currencies, discounts, bonus systems, automated delivery, online payment and checkout. The store of ready-made solutions has more than 10,000 ready-made modules. You will not overpay for development.')}}
                </p>
 
                 <p class="text-gray-600 font-bold text-3xl pt-5">
-                    Удобное управление
+                  {{_trans('  Convenient management')}}
                 </p>
 
                 <p class="text-gray-500 text-2xl py-5">
-                    Управлять интернет магазином сможет человек, не знакомый с программированием. Интерфейс удобен и
-                имеет понятную логическую структуру.
-                </p>
+                   {{_trans('   A person who is not familiar with programming can manage an online store. The interface is user-friendly and has a clear logical structure. ')}}
+              </p>
 
                <p class="text-gray-600 font-bold text-3xl pt-5">
-                Штатная интеграция с 1С
+                 {{_trans(' Native integration with 1C')}}
                </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                Для интернет магазина крайне важно быстрое и удобное наполнение. В 1С-Битрикс реализован механизм
-                обмена, который подходит для всех основных редакций 1С.
+                 {{_trans(' Fast and convenient filling is extremely important for an online store. 1C-Bitrix implements an exchange mechanism that is suitable for all major editions of 1C.')}}
                </p>
 
                <p class="text-gray-600 font-bold text-3xl pt-5">
-                Надежность и безопасность
+                  {{_trans('Reliability and safety')}}
                </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                Безопасности системы уделяется самое пристальное внимание. Битрикс - это единственная система
-                управления сайтом, сертифицированная ФСТЭК РФ.
+                  {{_trans('The utmost attention is paid to the security of the system. Bitrix is ​​the only content management system certified by the FSTEC RF.')}}
                </p>
 
                <p  class="text-gray-600 font-bold text-3xl pt-5">
-                Качественная техподдержка
+                  {{_trans('High-quality technical support')}}
                </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                Вы всегда найдете квалифицированного разработчика для поддержки и развития интернет магазина. К
-                вашим услугам более 10 000 тысяч команд по всей России. Создавая магазин на Битрикс вы не привязаны
-                одному разработчику.
+                 {{_trans(' You will always find a qualified developer to support and develop your online store. More than 10,000 teams throughout Russia are at your service. When creating a store on Bitrix, you are not tied to one developer.')}}
                </p>
 
         </div>
@@ -497,7 +493,7 @@
 
       <div class="flex justify-center items-center m-20 relative">
         <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-          Кейсы
+           {{_trans(' Cases')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -519,23 +515,25 @@
           <div class="flex justify-center">
             <div class="sm:px-8 lg:px-8 text-center 2xl:text-left ">
                 <div class="text-2xl mb-8" data-aos="fade-up">
-                  <p class="p-2 text-3xl"><b>24 Pharm</b></p>
+                  <p class="p-2 text-3xl"><b>  24 Pharm
 
-                  <p class="p-1 text-2xl"><b>Тип сайта:</b></p>
-                  <p class="p-1 text-2xl">Интернет-магазин</p>
+                   </b></p>
 
-                  <p class="p-1 text-2xl"><b>Направления:</b></p>
-                  <p class="p-1 text-2xl">Онлайн-аптека</p>
+                  <p class="p-1 text-2xl"><b>   {{_trans(' Site type:')}} </b></p>
+                  <p class="p-1 text-2xl">  {{_trans(' Online store')}} </p>
 
-                  <p class="p-1 text-2xl"><b>Технология:</b></p>
-                  <p class="p-1 text-2xl">1С Битрикс</p>
+                  <p class="p-1 text-2xl"><b>   {{_trans('Directions:')}} </b></p>
+                  <p class="p-1 text-2xl">  {{_trans('Online pharmacy')}} </p>
+
+                  <p class="p-1 text-2xl"><b>    {{_trans('Technology:')}} </b></p>
+                  <p class="p-1 text-2xl">  {{_trans(' 1C Bitrix')}} </p>
                 </div>
                 <div class="">
                   <a
                     href=""
                     class="text-lg bg-white rounded-full text-green-500 px-8 py-3 transition duration-300 ease-in-out mr-6"
                   >
-                    Смотреть кейс
+                    {{_trans(' Watch the case')}}
                   </a>
                 </div>
               </div>
@@ -551,20 +549,20 @@
             <div class="text-2xl mb-8" data-aos="fade-up">
               <p class="p-2 text-2xl"><b>Chinbozor ©</b></p>
 
-              <p class="p-1 text-2xl"><b>Тип сайта:</b></p>
-              <p class="p-1 text-2xl">Интернет-магазин</p>
+              <p class="p-1 text-2xl"><b>{{_trans('Site type:')}}</b></p>
+              <p class="p-1 text-2xl">{{_trans('Online store')}}</p>
 
-              <p class="p-1 text-2xl"><b>Направления:</b></p>
-              <p class="p-1 text-2xl">Всё для дома</p>
+              <p class="p-1 text-2xl"><b>{{_trans('Directions:')}}</b></p>
+              <p class="p-1 text-2xl">Housing</p>
 
-              <p class="p-1 text-2xl"><b>Технология:</b></p>
-              <p class="p-1 text-2xl">1С Битрикс</p>
+              <p class="p-1 text-2xl"><b>{{_trans('Technology')}}:</b></p>
+              <p class="p-1 text-2xl">{{_trans('1С Bitrix')}}</p>
             </div>
             <a
               href=""
               class="text-lg bg-white rounded-full text-red-500 px-8 py-3 transition duration-300 ease-in-out"
             >
-              Смотреть кейс
+             {{_trans('Watch the case')}}
             </a>
           </div>
             </div>
@@ -590,20 +588,21 @@
             <div class="text-2xl mb-8" data-aos="fade-up">
               <p class="p-2 text-3xl"><b>Modo ©</b></p>
 
-              <p class="p-1 text-2xl"><b>Тип сайта:</b></p>
-              <p class="p-1 text-2xl">Интернет-магазин</p>
+              <p class="p-1 text-2xl"><b>{{_trans('Site type:')}}</b></p>
+              <p class="p-1 text-2xl">{{_trans('Online store')}}</p>
 
-              <p class="p-1 text-2xl"><b>Направления:</b></p>
-              <p class="p-1 text-2xl">Одежда и обувь</p>
+              <p class="p-1 text-2xl"><b>{{_trans('Directions:')}}</b></p>
+              <p class="p-1 text-2xl">{{_trans(' Clothes and footwear
+                ')}}</p>
 
-              <p class="p-1 text-2xl"><b>Технология:</b></p>
-              <p class="p-1 text-2xl">1С Битрикс</p>
+              <p class="p-1 text-2xl"><b>{{_trans('Technology:')}}</b></p>
+              <p class="p-1 text-2xl">1C Bitrix</p>
             </div>
             <a
               href=""
               class="text-lg bg-white rounded-full text-red-300 px-8 py-3 transition duration-300 ease-in-out"
             >
-              Смотреть кейс
+             {{_trans('Watch the case')}}
             </a>
           </div>
           </div>
@@ -614,7 +613,8 @@
         class="flex justify-center text-center items-center mt-40 mb-20 relative"
       >
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-          Своих не бросаем!
+            {{_trans(' We dont abandon our customers
+            ')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -628,8 +628,7 @@
 
       <div>
         <p class="text-center p-10 text-gray-700 text-2xl" data-aos="fade-down">
-          После разработки помогаем развивать проект. <br />
-          Поэтому Вы всегда можете рассчитывать на:
+             {{_trans('After development, we help to develop the project. Therefore, you can always count on:')}}
         </p>
         <div class="flex justify-center">
           <div
@@ -641,7 +640,7 @@
                 alt=""
                 class="mx-auto"
               />
-              <p class="text-base">Поддержку интернет магазина</p>
+              <p class="text-base"> {{_trans('Online store support')}}</p>
             </div>
 
             <div class="mx-20" data-aos="fade-up">
@@ -650,7 +649,7 @@
                 alt=""
                 class="mx-auto"
               />
-              <p class="text-base">Рекламу продукции</p>
+              <p class="text-base"> {{_trans('Product advertising')}}</p>
             </div>
 
             <div class="mx-20" data-aos="fade-up">
@@ -659,7 +658,7 @@
                 alt=""
                 class="mx-auto"
               />
-              <p class="text-base">Продвижение сайта</p>
+              <p class="text-base"> {{_trans('Website promotion')}}</p>
             </div>
           </div>
         </div>
@@ -672,24 +671,24 @@
         >
           <div class="lg:col-span-2">
             <p class="text-blue-700 text-xl">
-              <b>БУДУЩЕЕ ECOMMERCE УЖЕ НАСТУПИЛО!</b>
+              <b> {{_trans('THE FUTURE OF ECOMMERCE HAS ALREADY HAPPENED!')}}</b>
             </p>
             <p
 
               class="text-blue-700 leading-8 text-3xl md:text-5xl py-10"
             >
-              <b>Интернет-магазин + CRM на <br />1С-Битрикс24</b>
+              <b> {{_trans('Online store + CRM on ')}} <br /> {{_trans('1C-Bitrix24')}}</b>
             </p>
             <p class="text-gray-700 text-xl py-5 pb-10">
-              Испытайте уникальную торговую платформу, которая <br />
-              объединяет все каналы продаж
+                 {{_trans('Experience a unique trading platform that connects')}} <br>  {{_trans('all sales channels')}}
+
             </p>
 
             <a
               href=""
               class="text-lg bg-blue-700 rounded-full text-white px-8 py-3 transition duration-300 ease-in-out"
             >
-              Заказать консультацию
+            {{_trans('  Order a consultation')}}
             </a>
           </div>
           <div
@@ -715,7 +714,7 @@
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
-                <h1 class="text-3xl font-bold text-blue-500 z-10">Кто мы такие</h1>
+                <h1 class="text-3xl font-bold text-blue-500 z-10">{{_trans('Who we are')}}</h1>
                 <p
                   class="item-center text-9xl font-bold absolute left-48 text-blue-500 z-0"
                 >
@@ -723,8 +722,7 @@
                 </p>
               </div>
               <p class="text-blue-500 text-md p-10 pt-10 text-center">
-                Наша специализация — создание и поддержка интернет-магазинов и
-                 высокотехнологичных интернет-проектов на 1С-Битрикс.
+               {{_trans(' Our specialization is the creation and support of online stores and high-tech Internet projects on 1C-Bitrix.')}}
               </p>
             </div>
             <div
@@ -734,7 +732,7 @@
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="lg:text-3xl font-bold text-white z-10">
-                    Кто мы такие
+                   {{_trans(' Who we are')}}
                 </h1>
                 <p
                   class="item-center text-9xl font-bold absolute left-48 text-gray-300 z-0 opacity-50"
@@ -743,8 +741,7 @@
                 </p>
               </div>
               <p class="text-white text-base text-md p-5 pt-10 text-center">
-                Наша специализация — создание и поддержка интернет-магазинов и
-                 высокотехнологичных интернет-проектов на 1С-Битрикс.
+               {{_trans(' Our specialization is the creation and support of online stores and high-tech Internet projects on 1C-Bitrix.')}}
               </p>
             </div>
           </div>
@@ -790,7 +787,7 @@
 
       <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-          Цены и тарифы
+            {{_trans('Prices and rates')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -813,7 +810,7 @@
           <div
             class="shadow-2xl rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0"
           >
-            <p class="text-3xl text-white text-center"><b>Start</b></p>
+            <p class="text-3xl text-white text-center"><b> {{_trans('Start')}}</b></p>
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
@@ -822,17 +819,17 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Система управления сайтом 1С битрикс</li>
-              <li>Лицензия бизнес редакция&nbsp;</li>
-              <li>Готовое решение с маркетплейс</li>
-              <li>Личный кабинет</li>
-              <li>Онлайн чат</li>
-              <li>Система оплаты Click,Payme</li>
-              <li>Домен в ПОДАРОК</li>
-              <li>Телеграм бот в ПОДАРОК</li>
-              <li>Гарантийная поддержка в течение года</li>
-              <li>Обучение – 3 часа</li>
-              <li>Срок&nbsp;от 20 дней</li>
+                <li>Content management system 1C Bitrix</li>
+                 <li>Business edition license</li>
+                <li> Ready-made solution with a marketplace</li>
+                 <li>Personal Area</li>
+                 <li>Online chat</li>
+                <li> Payment system Click, Payme</li>
+                 <li>Domain</li>
+                 <li>Telegram bot</li>
+                 <li>One year warranty support</li>
+                 <li>Training - 3 hours</li>
+                 <li>Term from 20 days</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -840,7 +837,7 @@
 
                 class="bg-blue-700 rounded-full text-white mb-14 px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
-                Заказать
+               Order
               </a>
             </div>
           </div>
@@ -850,7 +847,7 @@
           <div
             class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0"
           >
-            <p class="text-3xl text-white text-center"><b>Бизнес</b></p>
+            <p class="text-3xl text-white text-center"><b>Business</b></p>
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
@@ -859,7 +856,7 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Система управления сайтом 1С битрикс</li>
+              <li>Система управления сайтом 1C Bitrix</li>
               <li>Лицензия бизнес редакция&nbsp;</li>
               <li>Готовое решение с маркетплейс</li>
               <li>Мобильное приложение IOS, Android</li>
@@ -898,7 +895,7 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Система управления сайтом 1С битрикс</li>
+              <li>Система управления сайтом 1C Bitrix</li>
               <li>Лицензия бизнес редакция&nbsp;</li>
               <li>Готовое решение с маркетплейс</li>
               <li>Интеграция и внедрение складского учёта (Мой Склад)</li>
@@ -962,12 +959,12 @@
                 предлагаем не только разработку веб сайта, но и обеспечиваем
                 техническую поддержку сайтов в Узбекистане. Также мы занимаемся
                 разработкой веб приложений в Ташкенте для вашего бизнеса.
-                Заказать Интернет-магазин под ключ. Веб сайт, заказать сайт,
+                Заказать Online store под ключ. Веб сайт, заказать сайт,
                 лучшие программисты, лучшая веб студия, сайт визитка в ташкенте,
                 разработка веб приложений ташкент, сайты на заказ, разработка
-                интернет магазина ташкент, как создать интернет-магазин
+                интернет магазина ташкент, как создать Online store
                 узбекистан, разработка веб-сайта, битрикс партнер узбекистан,
-                сайт на 1с битрикс, продающий сайт, промо сайт, заказать лендинг
+                сайт на 1C Bitrix, продающий сайт, промо сайт, заказать лендинг
                 пейдж в ташкенте,
               </p>
             </div>

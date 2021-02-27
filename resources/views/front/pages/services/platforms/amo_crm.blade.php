@@ -149,32 +149,66 @@
           </div>
     </div>
 
-    <div class="flex justify-center text-center">
-        <div>
-            <p class="text-2xl font-bold text-gray-700">Теряются заявки (лиды)</p>
-            <p class="text-gray-700 text-xl">Самые распространенные проблемы компаний <br> у которых нет CRM</p>
+      <div class="flex justify-center text-center mb-10">
+                <div>
+                    <p class="text-2xl font-bold text-gray-700">Теряются заявки (лиды)</p>
+                    <p class="text-gray-700 text-xl">Самые распространенные проблемы компаний <br> у которых нет CRM</p>
+                </div>
+
+            </div>
+
+            <div class="container grid lg:grid-cols-1 my-0 gap-1/2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-1 2xl:grid-cols-1 grid-cols-1">
+                <div class="w-11/12 lg:h-40 mx-auto flex flex-wrap">
+                    <div class="box mt-0 lg:w-3/12 w-full">
+                        <div class="chart mx-auto relative lg:w-40 xl:w-1/2 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700"
+                             data-percent="35"
+                             data-scale-color="#ffb400">
+                            <p class="top-12 mx-auto w-full absolute">35%</p>
+                        </div>
+                    </div>
+                    <div class="box lg:mt-0 mt-10 lg:w-3/12 w-full">
+                        <div class="chart mx-auto relative lg:w-40 xl:w-1/2 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700"
+                             data-percent="70"
+                             data-scale-color="#ffb400">
+                            <p class="top-12 mx-auto w-full absolute">70%</p>
+                        </div>
+                    </div>
+                    <div class="box lg:mt-0 mt-10 lg:w-3/12 w-full">
+                        <div class="chart mx-auto relative lg:w-40 xl:w-1/2 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700"
+                             data-percent="50"
+                             data-scale-color="#ffb400">
+                            <p class="top-12 mx-auto w-full absolute">50%</p>
+                        </div>
+                    </div>
+                    <div class="box lg:mt-0 mt-10 lg:mb-0 mb-10 lg:w-3/12 w-full">
+                        <div class="chart mx-auto relative lg:w-40 xl:w-1/2 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700"
+                             data-percent="40"
+                             data-scale-color="#ffb400">
+                            <p class="top-12 mx-auto w-full absolute">40%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  <div class="grid grid-cols-1 lg:grid-cols-4 text-center container mx-auto">
+            <div class="p-10" data-aos="fade-up">
+                <p class="font-bold text-lg p-3 text-gray-700">Время отдела продаж уходит на рутину</p>
+                <p class="text-gray-600 px-5">Менеджеры теряют 35% заявок в ходе первичной обработки.</p>
+            </div>
+            <div class="p-10" data-aos="fade-up">
+                <p class="font-bold text-lg p-3 text-gray-700">Забытые коммерческие предложения</p>
+                <p class="text-gray-600 px-5">Ручная обработка документов и контактов занимает 70% времени.</p>
+            </div>
+            <div class="p-10" data-aos="fade-up">
+                <p class="font-bold text-lg p-3 text-gray-700">Забытые коммерческие предложения</p>
+                <p class="text-gray-600 px-5">Половина отправленных КП остаётся без внимания.</p>
+            </div>
+            <div class="p-10" data-aos="fade-up">
+                <p class="font-bold text-lg p-3 text-gray-700">Не распознаются провальные сделки</p>
+                <p class="text-gray-600 px-5">Менеджеры ориентируются на интуицию вместо измеримых признаков.</p>
+            </div>
         </div>
 
-    </div>
 
-    <div class="grid grid-cols-1 lg:grid-cols-4 text-center container mx-auto">
-        <div class="p-10" data-aos="fade-up">
-            <p class="font-bold text-lg p-3 text-gray-700">Время отдела продаж уходит на рутину</p>
-            <p class="text-gray-600 px-5">Менеджеры теряют 35% заявок в ходе первичной обработки.</p>
-        </div>
-        <div class="p-10" data-aos="fade-up">
-            <p class="font-bold text-lg p-3 text-gray-700">Забытые коммерческие предложения</p>
-            <p class="text-gray-600 px-5">Ручная обработка документов и контактов занимает 70% времени.</p>
-        </div>
-        <div class="p-10" data-aos="fade-up">
-            <p class="font-bold text-lg p-3 text-gray-700">Забытые коммерческие предложения</p>
-            <p class="text-gray-600 px-5">Половина отправленных КП остаётся без внимания.</p>
-        </div>
-        <div class="p-10" data-aos="fade-up">
-            <p class="font-bold text-lg p-3 text-gray-700">Не распознаются провальные сделки</p>
-            <p class="text-gray-600 px-5">Менеджеры ориентируются на интуицию вместо измеримых признаков.</p>
-        </div>
-    </div>
 
     <div class="flex justify-center items-center mt-20 mb-10 relative ">
         <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-right">Возможности СРМ системы</h1>

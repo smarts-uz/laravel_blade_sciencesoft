@@ -28,7 +28,7 @@
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
-            <img src="https://oe.uz/local/templates/oe/media/images/mobile/1.svg" alt="" />
+            <img src="{{asset('images/open_engine/my-hours/1.svg')}}" alt="" />
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@
         <div class="swiper-slide">
             <div class="grid grid-cols-1 lg:grid-cols-2  container m-auto items-center p-10 pt-20 mt-10">
                 <div class="flex justify-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/slide1.svg" alt="">
+                    <img src="{{asset('images/open_engine/my-hours/2.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
                     <p class="pb-10 text-gray-600">Система<strong> автоматизации оптовой торговли</strong> контролирует расчеты между компанией,
@@ -80,7 +80,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20 mt-10">
 
                 <div class="flex justify-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/slide1.svg" alt="">
+                    <img src="{{asset('images/open_engine/my-hours/3.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
                     <p class="pb-10 text-gray-600">Система<strong> автоматизации оптовой торговли</strong> контролирует расчеты между компанией,
@@ -102,7 +102,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20 mt-10">
 
                 <div class="flex justify-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/slide1.svg" alt="">
+                    <img src="{{asset('images/open_engine/my-hours/4.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
                     <p class="pb-10 text-gray-600"><strong>Автоматизация производства </strong>или<strong> система для производства </strong>обеспечивает
@@ -128,7 +128,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20 mt-10">
 
                 <div class="flex justify-center">
-                    <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/slide1.svg" alt="">
+                    <img src="{{asset('images/open_engine/my-hours/5.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
                     <p class="pb-10 text-gray-600"><strong>Автоматизация производства </strong>или<strong> система для производства </strong>обеспечивает
@@ -172,13 +172,13 @@
                 ведение клиента или отдельного заказа через воронку продаж.</p>
         </div>
         <div class="flex justify-center items-center" data-aos="zoom-in">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/content1.png" alt="">
+            <img src="{{asset('images/open_engine/my-hours/6.png')}}" alt="">
         </div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 my-40">
         <div class="flex justify-center items-center order-last lg:order-none" data-aos="zoom-in">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/content1.png" alt="">
+            <img src="{{asset('images/open_engine/my-hours/7.png')}}" alt="">
         </div>
         <div data-aos="fade-left">
             <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Закупки и складской учёт</p>
@@ -218,13 +218,13 @@
             </p>
         </div>
         <div class="flex justify-center items-center" data-aos="zoom-in">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/content1.png" alt="">
+            <img src="{{asset('images/open_engine/my-hours/8.png')}}" alt="">
         </div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 my-40">
         <div class="flex justify-center items-center order-last lg:order-none" data-aos="zoom-in">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/content1.png" alt="">
+            <img src="{{asset('images/open_engine/my-hours/9.png')}}" alt="">
         </div>
         <div data-aos="fade-left">
             <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Производственные операции</p>
@@ -255,13 +255,13 @@
         </div>
 
         <div class="flex justify-center items-center" data-aos="zoom-in">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/content1.png" alt="">
+            <img src="{{asset('images/open_engine/my-hours/10.png')}}" alt="">
         </div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 my-40">
         <div class="flex justify-center items-center order-last lg:order-none" data-aos="zoom-in">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/content1.png" alt="">
+            <img src="{{asset('images/open_engine/my-hours/11.png')}}" alt="">
         </div>
 
         <div data-aos="fade-left">
@@ -292,10 +292,10 @@
 <div class="bg-gray-100 h-12 mt-64"></div>
 
 <div class="max-w-5xl mx-auto bg-white shadow-lg rounded-3xl  -mt-56 bg-blue-700 ">
-    <div class="grid grid-cols-1 md:grid-cols-3 ">
-        <div class="text-white col-span-2 md:p-10 pb-8 px-4" data-aos="fade-right">
+    <div class="grid grid-cols-1 md:grid-cols-3 relative">
+        <div class="text-white z-10 col-span-2 md:p-10 pb-8 px-4" data-aos="fade-right">
             <p class="text-center  font-bold text-4xl leading-10">Управляйте бизнесом там, <br> где удобно</p>
-            <p class="py-10 text-lg text-center ">Попробуйте мобильное приложение МоегоСклада. Пополняйте каталог
+            <p class="py-10 text-lg text-center">Попробуйте мобильное приложение МоегоСклада. Пополняйте каталог
                 товаров, просматривайте заказы и отчеты о
                 продажах, ставьте задачи сотрудникам — в любое время и в любом месте.
             </p>
@@ -311,11 +311,12 @@
                 </a>
             </div>
         </div>
-        <div class="order-first md:order-none" data-aos="fade-right">
-            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/app_bg.png" alt="">
+        <div class="order-first md:order-none absolute w-full h-96 right-0" data-aos="fade-right">
+            <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/app_bg.png" alt="" class="w-full h-full z-0">
         </div>
     </div>
 </div>
+
 
 <div>
     <p class="text-gray-700 text-blue-700 text-5xl font-bold mb-10 flex justify-center mt-40 mb-10"
@@ -327,26 +328,26 @@
     <div class="self-end">
         <p class="mx-auto text-gray-700 text-md text-center text-lg">На основе нее подбираем <br> подходящие конкретно
             вам <br> инструменты</p>
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/steps2.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/12.svg')}}" alt="" class="mx-auto">
     </div>
     <div class="self-end">
         <p class="mx-auto text-gray-700 text-md text-center text-lg">Обучаем ваших <br> сотрудников и <br>руководителя
         </p>
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/steps2.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/13.svg')}}" alt="" class="mx-auto">
     </div>
 </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-3 container mx-auto m-10" data-aos="fade-up">
     <div>
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/steps2.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/14.svg')}}" alt="" class="mx-auto">
         <p class="mx-auto text-gray-700 text-md text-center text-lg">Составляем карту ваших <br> бизнес-процессов</p>
     </div>
     <div>
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/steps2.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/15.svg')}}" alt="" class="mx-auto">
         <p class="mx-auto text-gray-700 text-md text-center text-lg">Настраиваем выбранные <br> инструменты под вас</p>
     </div>
     <div>
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/steps2.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/16.svg')}}" alt="" class="mx-auto">
         <p class="mx-auto text-gray-700 text-md text-center text-lg">Контролируем <br> правильность</p>
     </div>
 </div>
@@ -409,7 +410,7 @@
 
 <div class="grid grid-cols-1 md:grid-cols-3 container mx-auto gap-10 max-w-7xl">
     <div data-aos="fade-right">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/safety1.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/17.svg')}}" alt="" class="mx-auto">
         <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Хостинг</p>
         <p class="text-center text-xl text-gray-700">Наши серверы расположены в надежных дата-центрах в Москве и
             Санкт-Петербурге, которые имеют несколько
@@ -417,28 +418,28 @@
     </div>
 
     <div data-aos="fade-up">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/safety1.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/18.svg')}}" alt="" class="mx-auto">
         <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Шифрование данных</p>
         <p class="text-center text-xl text-gray-700">Вся информация, передаваемая сервисом МойСклад, зашифрована при
             помощи 256-битного SSL-сертификата GeoTrust. Перехват данных невозможен.</p>
     </div>
 
     <div data-aos="fade-left">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/safety1.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/19.svg')}}" alt="" class="mx-auto">
         <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Данные принадлежат вам</p>
         <p class="text-center text-xl text-gray-700">Вы всегда можете перенести все свои данные из сервиса МойСклад в
             Microsoft Excel, Access или любую другую базу данных.</p>
     </div>
 
     <div data-aos="fade-right" class="mt-20">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/safety1.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/20.svg')}}" alt="" class="mx-auto">
         <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Резервное копирование</p>
         <p class="text-center text-xl text-gray-700">Данные автоматически копируются между серверами в разных городах.
             Репликация <br> происходит в режиме реального <br>времени.</p>
     </div>
 
     <div data-aos="fade-up" class="mt-20">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/safety1.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/21.svg')}}" alt="" class="mx-auto">
         <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Качественное
             администрирование</p>
         <p class="text-center text-xl text-gray-700">Наши серверы ежедневно обслуживаются профессиональными системными
@@ -446,13 +447,14 @@
     </div>
 
     <div data-aos="fade-left" class="mt-20">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/safety1.svg" alt="" class="mx-auto">
+        <img src="{{asset('images/open_engine/my-hours/22.svg')}}" alt="" class="mx-auto">
         <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Система разграничения
             доступа</p>
         <p class="text-center text-xl text-gray-700">Ваши сотрудники будут работать только с той информацией и функциями
             системы, доступ к которым вы им <br> откроете.</p>
     </div>
 </div>
+
 
 <div data-aos="zoom-in" class="container mx-auto bg-white shadow-lg rounded-3xl  p-20 mt-20 ">
     <div class="flex justify-center items-center relative ">
@@ -470,21 +472,20 @@
                 <div class="">
                   <img src="https://oe.uz/upload/iblock/c10/c10f9e891a4c77f990cd15917d03642c.png" alt="" />
                 </div>
-                <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
-                  <p><b>Клиент:</b></p>
-                  <p>Мебельная фабрика Keng Makon</p>
+                <div class="text-lg md:text-xl p-5" data-aos="fade-up">
+                  <p class="text-blue-700"><b>Клиент:</b></p>
+                  <p class="text-gray-500">Profi Tools</p>
 
-                  <p><b>Год создания:</b></p>
-                  <p>2020</p>
+                  <p class="text-blue-700"><b>Направление:</b></p>
+                  <p class="text-gray-500">Оптовая и розничная торговля</p>
 
-                  <p><b>Тип сайта:</b></p>
-                  <p>Разработка интернет-магазина.</p>
+                  <p class="text-blue-700"><b>Информация:</b></p>
+                  <p class="text-gray-500">Компания занимается продажей мелкой <br> строительной и промышленной техникой в оптом, и <br> в рознице. Имеет 5 филиалов по городу.</p>
 
-                  <p><b>Направление:</b></p>
-                  <p>Мебель</p>
+                  <p class="text-blue-700"><b>Результат:</b></p>
+                  <p class="text-gray-500">Программа МойСклад была успешно реализована <br> во всех филиалов компании. Даже сотрудники в <br> возрасте свыше 50 лет, были полностью обучены <br> работе с системой на компьютере и на смартфоне. 							</p>
 
-                  <p><b>Технология:</b></p>
-                  <p class="border-b pb-5 mb-10">1C</p>
+                  <p class="border-b pb-5 mb-10"></p>
 
                   <a
                     href=""
@@ -502,21 +503,20 @@
                 <div class="">
                   <img src="https://oe.uz/upload/iblock/c10/c10f9e891a4c77f990cd15917d03642c.png" alt="" />
                 </div>
-                <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
-                  <p><b>Клиент:</b></p>
-                  <p>Мебельная фабрика Keng Makon</p>
+                <div class="text-lg md:text-xl p-5" data-aos="fade-up">
+                  <p class="text-blue-700"><b>Клиент:</b></p>
+                  <p class="text-gray-500">Formulamarket.uz</p>
 
-                  <p><b>Год создания:</b></p>
-                  <p>2020</p>
+                  <p class="text-blue-700"><b>Направление:</b></p>
+                  <p class="text-gray-500">Интернет-магазин</p>
 
-                  <p><b>Тип сайта:</b></p>
-                  <p>Разработка интернет-магазина.</p>
+                  <p class="text-blue-700"><b>Информация:</b></p>
+                  <p class="text-gray-500">Компания занимается продажей шин и дисков для <br> машин через фирменные магазины, и через <br> интернет-магазин.</p>
 
-                  <p><b>Направление:</b></p>
-                  <p>Мебель</p>
+                  <p class="text-blue-700"><b>Результат:</b></p>
+                  <p class="text-gray-500">Система МойСклад была интегрирована с интернет-магазином, и весь процесс товарооборота был полностью автоматизирован.</p>
 
-                  <p><b>Технология:</b></p>
-                  <p class="border-b pb-5 mb-10">1C</p>
+                  <p class="border-b pb-5 mb-10"></p>
 
                   <a
                     href=""
@@ -533,21 +533,20 @@
                 <div class="">
                   <img src="https://oe.uz/upload/iblock/c10/c10f9e891a4c77f990cd15917d03642c.png" alt="" />
                 </div>
-                <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
-                  <p><b>Клиент:</b></p>
-                  <p>Мебельная фабрика Keng Makon</p>
+                <div class="text-lg md:text-xl p-5" data-aos="fade-up">
+                  <p class="text-blue-700"><b>Клиент:</b></p>
+                  <p class="text-gray-500">Al-Pari</p>
 
-                  <p><b>Год создания:</b></p>
-                  <p>2020</p>
+                  <p class="text-blue-700"><b>Направление:</b></p>
+                  <p class="text-gray-500">Производство</p>
 
-                  <p><b>Тип сайта:</b></p>
-                  <p>Разработка интернет-магазина.</p>
+                  <p class="text-blue-700"><b>Информация:</b></p>
+                  <p class="text-gray-500">Компания занимается производством кондитерских <br> изделий. Продажи осуществляются через <br> фирменные магазины.</p>
 
-                  <p><b>Направление:</b></p>
-                  <p>Мебель</p>
+                  <p class="text-blue-700"><b>Результат:</b></p>
+                  <p class="text-gray-500">Не смотря на сложность процесса производство <br> кондитерских изделий, нам удалось <br> систематизировать все процессы от закупа и <br> калькуляции сырья, до учёта продаж сразу в <br> нескольких фирменных магазинах.</p>
 
-                  <p><b>Технология:</b></p>
-                  <p class="border-b pb-5 mb-10">1C</p>
+                  <p class="border-b pb-5 mb-10"></p>
 
                   <a
                     href=""
@@ -564,10 +563,9 @@
     </div>
 
 
-<!---->
 
 <div class="grid grid-cols-1 lg:grid-cols-2 sm:px-20 relative sm:my-20">
-    <div style="border-radius: 0 0 200px 0" class="bg-blue-700 py-20 m-10 px-20 " data-aos="fade-right">
+    <div style="border-radius: 0 0 200px 0" class="rounded-br-3xl bg-blue-700 py-20 m-10 px-20 " data-aos="fade-right">
         <div class="flex justify-center items-center my-20 relative ">
             <h1 class="text-3xl md:text-5xl font-bold text-white z-10 text-whites ">Сертификат <br> официального
                 <br> партнера</h1>
@@ -576,7 +574,7 @@
 
 
     <div data-aos="fade-left">
-        <img src="https://oe.uz/local/templates/oe/media/images/my-warehouse/certificate.png" alt="" class="max-w-md">
+        <img src="{{asset('images/open_engine/my-hours/23.png')}}" alt="" class="max-w-md">
     </div>
 
 </div>
@@ -621,7 +619,7 @@
         </div>
         <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
             <div class="text-center">
-                <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+                <h1  class="text-xl border-b py-5 text-gray-600">
                     от <b>10 000 000</b> uzs
                 </h1>
             </div>
@@ -650,7 +648,7 @@
         </div>
         <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
             <div class="text-center">
-                <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+                <h1  class="text-xl border-b py-5 text-gray-600">
                     от <b>15 000 000</b> uzs</h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3 border-b pb-5">
@@ -678,7 +676,7 @@
         </div>
         <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
             <div class="text-center">
-                <h1 style="font-size: 25px" class="border-b py-5 text-gray-600">
+                <h1  class="text-xl border-b py-5 text-gray-600">
                     от <b>20 000 000</b> uzs</h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3 border-b pb-5">
@@ -731,7 +729,7 @@
 
 
 <div class="bg-gray-50 z-0" data-aos="fade-up">
-    <div style="margin-left: 20%; margin-right: 20%; font-size: 17px" class="pt-20 text-gray-700 pb-20">
+    <div  class="lg:mx-24 mx-16 text-xl pt-20 text-gray-700 pb-20">
 
         <div class="z-0">
             <p>
@@ -764,11 +762,7 @@
                     Другие <br/>
                     услуги
                 </h1>
-                <div class="flex text-center absolute item-center justify-center z-0">
-                    <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">
-                        8
-                    </p>
-                </div>
+
             </div>
 
 
