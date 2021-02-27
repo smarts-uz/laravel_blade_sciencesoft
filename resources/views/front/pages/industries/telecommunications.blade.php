@@ -6,9 +6,19 @@
 
 @section('main')
 
-    <h1>
-        Telecommunications
-    </h1>
+     <div class="mx-6 md:mx-16 lg:mx-24">
+         <h1 class="uppercase font-bold mt-10 text-2xl md:text-3xl">
+               {{ _trans('Custom Telecom Software Development') }}
+         </h1>
+         <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
+         <div>
+             <img src="https://www.scnsoft.com/cover-pictures/telecommunications.svg" alt="">
+         </div>
+         <p class="text-xl lg:text-2xl text-justify mt-6">
+            {{ _trans('For more than 13 years, our custom telecom solutions have been powering global leaders in telecommunications, such as') }}
+            <b>  {{ _trans('T-Mobile') }}</b> and <b> {{ _trans('Orange') }}</b>,{{ _trans('Orange') }}, as well as aspiring startups like   <b>{{ _trans('Viber') }}</b>
+               {{ _trans(' (grew to over 750 mln users).') }}
+         </p>
 
          <h1 class="uppercase font-bold mt-10 text-2xl md:text-3xl">
             {{ _trans('OPERATIONS SUPPORT SYSTEMS (OSS)') }}
