@@ -26,7 +26,7 @@
         }
 
     </style>
-    <title>Sciensoft Development Company</title>
+    <title>TeamPro</title>
 
 
     @yield('css')

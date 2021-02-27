@@ -9,11 +9,122 @@
 
     <div class=" flex flex-col lg:flex-row my-5 pb-12">
         <div class="w-full lg:w-3/12  lg:flex flex-col mr-2">
-            <div class="text-gray-600 w-full cursor-pointer hover:text-blue-600 mb-4">
-                <p class="border-b-2 py-1 uppercase font-bold border-gray-500 hover:border-blue-600">
-                    {{ _trans('Careers') }}</p>
-            </div>
-            <ul class="flex flex-col">
+
+        <div class="">
+
+
+
+
+
+        <ul class="flex flex-col">
+
+
+
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
+    <div 
+        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+        <div class="flex flex-row ">
+            <a href="#">{{ _trans('Software Development') }}</a>
+        </div>
+        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down" @click="open = true"></i></p>
+
+    </div>
+    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"  @click.away="open = false" class="flex-col ">
+    
+
+    <ul class="text-gray-500">
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Full-Stack Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Middle/Senior C++ Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('.NET WPF Sen‎ior Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('JavaScript Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Senior Java Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Senior Python Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Middle/Senior iOS Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Big Data Engineer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Middle Front-end (React, Redux) Developer') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Senior Python Developer') }}</a></li>
+     
+    </ul>
+
+
+    </div>
+</li>
+
+
+<li class="flex flex-col p-2 py-4 text-gray-500 hover:bg-indigo-100 bg-gray-100" ><a class="hover:text-blue-500" href="#">
+{{_trans('Testing')}}
+</a></li>
+
+
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
+    <div
+        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+        <div class="flex flex-row ">
+            <a href="#">{{ _trans('Software Development') }}</a>
+        </div>
+        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down"  @click="open = true"></i></p>
+
+    </div>
+    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"  @click.away="open = false" class="flex-col ">
+    
+
+    <ul class="text-gray-500">
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('DevOps S') }}</a></li>
+    </ul>
+
+
+    </div>
+</li>
+
+
+
+<li class="flex flex-col p-2 py-4 text-gray-500 text-lg hover:bg-indigo-100 bg-gray-100" ><a class="hover:text-blue-500" href="#">
+{{_trans('Business Analysis')}}
+</a></li>
+
+
+<li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
+    <div
+        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+        <div class="flex flex-row ">
+            <a href="#">{{ _trans('Marketing and Sales') }}</a>
+        </div>
+        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down"  @click="open = true"></i></p>
+
+    </div>
+    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"  @click.away="open = false" class="flex-col ">
+    
+
+    <ul class="text-gray-500">
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Copywriter') }}</a></li>
+        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500"><a href="#">{{ _trans('Copywriter Team Lead') }}</a></li>
+    </ul>
+
+
+    </div>
+</li>
+
+
+
+
+</ul>
+
+
+
+
+
+
+
+
+
+        
+        
+        </div>
+
+
+
+           
+            <ul class="flex flex-col mt-8">
                 <li class="flex flex-row items-start p-3 bg-blue-800 text-white outline-none border-none">
                     <i class="fas fa-users mt-1"></i>
                     <p class="uppercase ml-3 font-bold">{{ _trans('Hr department contact') }}</p>
@@ -311,7 +422,9 @@
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Role:') }}</h1>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            We are looking for a Middle/Senior Python developer to help our company deliver value to our customers just in time and with excellent code quality. We offer you to participate in great, challenging and interesting projects.
+                                {{ _trans('We are looking for a Middle/Senior Python developer to help our company
+                                 deliver value to our customers just in time and with excellent code quality.
+                                 We offer you to participate in great, challenging and interesting projects.') }}
                             </p>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Responsibilities:') }}</h1>
                             <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
@@ -428,31 +541,32 @@
                         </div>
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            TeamPRO, 700-employee IT company, is looking for Copywriting Team Lead who will manage a team of 8-10 copywriters.
+                            {{ _trans('TeamPRO, 700-employee IT company, is looking for Copywriting Team Lead who will manage a team of 8-10 copywriters.') }}
                             </p>
                             <h1 class="text-3xl mb-4 text-gray-700 font-bold">{{ _trans('Ideal candidate') }}</h1>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Copywriting team lead') }}</h1>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            If you lead a small team of 2-4 copywriters, this position will be a next level for you.
+                                {{ _trans('If you lead a small team of 2-4 copywriters, this position will be a next level for you.') }} 
                             </p>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('Content manager, chief editor') }}</h1>
-                            <p class="text-gray-600 my-3 lg:text-xl">
-                            If you have experience of managing internal or external copywriters, the position may let you develop further to a full-time manager.
+                            <p class="text-gray-600 my-3 lg:text-xl"> 
+                                {{ _trans('If you have experience of managing internal or external copywriters, the position may let you develop further to a full-time manager.') }}
                             </p>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            Management experience of at least 2 years is a must.
+                            {{ _trans('Management experience of at least 2 years is a must.') }}
                             </p>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            Those with experience in IT will have certain advantage, however we consider candidates from other industries and provide in-house training on IT.
+                                {{ _trans('Those with experience in IT will have certain advantage, however we consider candidates from other industries and provide in-house training on IT.') }}
                             </p>
 
-                           <p class="my-3">
-                           <a href="#" class="text-blue-600 lg:text-xl hover:text-black">Learn more</a></p>
-
+                        <p class="my-3">
+                           <a href="#" class="text-blue-600 lg:text-xl hover:text-black">{{ _trans('Learn more ') }}</a>
+                        </p>
                            <p> <a  href="#" class="bg-blue-800 lg:text-xl text-white font-bold hover:bg-yellow-500 transition delay-75 px-4 py-1">
                                     <i class="fas fa-check mr-3"></i>
-                                    {{ _trans('APPLY FOR THIS POSITION') }}</a></p>
-
+                                    {{ _trans('APPLY FOR THIS POSITION') }}
+                                </a>
+                            </p>
                         </div>
                     </li>
                     <hr>
@@ -474,7 +588,9 @@
                         <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Candidate:') }}</h1>
                             <p class="text-gray-600 my-3 lg:text-xl">
-                            We are looking for a Middle/Senior Python developer to help our company deliver value to our customers just in time and with excellent code quality. We offer you to participate in great, challenging and interesting projects.
+                                {{ _trans('We are looking for a Middle/Senior Python developer to help our company
+                                deliver value to our customers just in time and with excellent code quality. 
+                               We offer you to participate in great, challenging and interesting projects.') }}
                             </p>
                             <h1 class="text-xl text-gray-700 font-bold">{{ _trans('The Candidate:') }}</h1>
                             <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
@@ -523,7 +639,6 @@
                 <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-2xl md:text-3xl mt-6 mb-3">
                     {{ _trans('ICT Department') }}</h1>
                 <ul class="flex flex-col">
-
                     <li x-data="{ open: false }" class="flex flex-col mb-3 my-1">
                         <div @click="open = true"
                             class="flex justify-between items-center text-gray-500 text-xl cursor-pointer hover:text-blue-500">
