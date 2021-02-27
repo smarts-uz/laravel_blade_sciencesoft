@@ -295,7 +295,7 @@
            calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
         </div>
         <div class='w-1/3 m-0 flex justify-center items-center'>
-          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
+          <a href="http://teamprodev.com/getBlade/contact_us" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
            Feasibility analysis")  }}</a>
         </div>
       </div>
@@ -537,7 +537,7 @@
           calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
         </div>
         <div class='w-1/3 m-0 flex justify-center items-center'>
-          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
+          <a href="http://teamprodev.com/getBlade/contact_us" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
           Feasibility analysis")  }}</a>
         </div>
       </div>

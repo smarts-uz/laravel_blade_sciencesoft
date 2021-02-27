@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
                 consultation") }}</a>
             </div>
@@ -226,7 +226,7 @@
                 </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Get my data
                 analytics ROI") }}</a>
             </div>
@@ -460,7 +460,7 @@
                 </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Get my data
                 analytics ROI") }}</a>
             </div>

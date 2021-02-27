@@ -63,7 +63,7 @@
                 outsourcing services are a cost-effective way of increasing business performance.")  }} </p>
             </div>
             <div class='w-1/5 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("DISCUSS MY
                      OUTSOURCING OPTIONS")  }}</a>
             </div>
@@ -195,7 +195,7 @@
                 calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
             </div>
             <div class='w-1/3 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
                     Feasibility analysis")  }}</a>
             </div>
@@ -498,7 +498,7 @@
                 calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
             </div>
             <div class='w-1/3 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
                     Feasibility analysis")  }}</a>
             </div>

@@ -34,7 +34,7 @@
                  outsourcing services are a cost-effective way of increasing business performance.")  }} </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>
-                <a href="#"
+                <a href="http://teamprodev.com/getBlade/contact_us"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("DISCUSS MY
                     OUTSOURCING OPTIONS")  }}</a>
             </div>
@@ -504,7 +504,7 @@
                 infrastructure or its components and set up efficient IT support workflows.")  }} </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>
-                <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("launch
+                <a href="http://teamprodev.com/getBlade/contact_us" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("launch
                 result-oriented it support!")  }}</a>
             </div>
         </div>
