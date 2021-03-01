@@ -21,6 +21,7 @@ function changeAtiveTab(event, tabID) {
       document.getElementById(tabID).classList.remove("hidden");
       document.getElementById(tabID).classList.add("block");
 }
+
 const search = document.getElementById('searchbar');
 const exit = document.getElementById('exitbar');
 
@@ -49,7 +50,7 @@ const darkBody = document.querySelector('.dark');
 function openSidebarMenu() {
   sidebarMenu.style.display = "flex";
   document.body.classList.add('dark')
- 
+
 }
 function closeSidebarMenu() {
   sidebarMenu.style.display = "none";
