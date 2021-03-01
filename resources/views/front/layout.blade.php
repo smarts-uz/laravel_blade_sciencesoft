@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
-=======
-<!DOCTYPE html >
-<html lang="{{ app()->getLocale() }}">
->>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
 
 <head>
     <meta charset="UTF-8">
@@ -27,11 +22,7 @@
     <div class="wrapper">
 
         @include('front.Components.categories', $categories)
-<<<<<<< HEAD
         <div class="mt-24 px-6 md:px-16">
-=======
-        <div class="md:mt-24 mt-14 px-6 md:px-16">
->>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
             @yield('main')
         </div>
         @include('front.Components.footer')

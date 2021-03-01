@@ -529,11 +529,7 @@
         </h1>
         <p class="text-xs lg:text-xl my-4 lg:my-8">
             {{ _trans('We IT-enable all kinds of B2B, B2C interactions and internal operations.') }}</p>
-<<<<<<< HEAD
         <ul class="text-black flex flex-wrap flex-row">
-=======
-        <ul class="text-black flex flex-wrap md:justify-start justify-center flex-row">
->>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5 h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
@@ -667,15 +663,9 @@
             </div>
             <div class="flex flex-wrap justify-center">
                 @foreach ($blogs->splice(0, 3) as $blog)
-<<<<<<< HEAD
                     <div class="w-96 p-4 mx-8">
                         <a href="{{ route('SingleBlog', [$blog->id]) }}"
                             class="no-underline text-gray-200 block w-96 duration-300 shadow-lg hover:shadow-2xl relative">
-=======
-                    <div class="p-4 md:mx-8 mx-0">
-                        <a href="{{ route('SingleBlog', [$blog->id]) }}"
-                            class="no-underline text-gray-200 block md:w-96 w-72 duration-300 shadow-lg hover:shadow-2xl relative">
->>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
                             <div>
                                 <img class="w-full h-auto" src="/uploads/blogs/{{ $blog->image }}" alt="CardImg">
                             </div>

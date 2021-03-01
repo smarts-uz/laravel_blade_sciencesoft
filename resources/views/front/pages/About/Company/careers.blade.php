@@ -8,120 +8,111 @@
 
 
     <div class="flex flex-col lg:flex-row my-5 pb-12">
-        <div class="w-1/4 lg:w-3/12  lg:flex flex-col mr-2">
-            <ul class="flex flex-col">
-                @foreach ($categories as $category)
-                    @if ($category->active)
-                        @if (empty($category->path_blade))
+        <div class="w-full lg:w-3/12  lg:flex flex-col mr-2">
+            <div class="">
+                <ul class="flex flex-col">
+
+                    @foreach ($categories as $category)
+                        @if ($category->active)
                             <li x-data="{ open: false }" class="flex flex-col bg-gray-100 border border-white ">
-                                <div class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
-                                    <div class="flex flex-row ">
-                                        <a href="#">{{ $category->name }}</a>
+                                @if (empty($category->path_blade))
+                                    <div
+                                        class="flex justify-between p-2 py-4 hover:bg-indigo-100 items-center text-gray-500 text-lg   hover:text-blue-500">
+                                        <div class="flex flex-row ">
+                                            <a href="#">{{ $category->name }}</a>
+                                        </div>
+                                        <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down"
+                                                                    @click="open = true"></i></p>
+
                                     </div>
-                                    <p class="text-blue-500"><i class="fas cursor-pointer fa-angle-down"   @click="open = true"></i></p>
-                                </div>
-                                <div x-show.transition.in.duration.1000ms.out.duration.500ms="open" @click.away="open = false" class="flex-col ">
-                                    <div class="list-none">
-                                        @foreach ($category->subCategories as $subCategory)
-                                            @if($subCategory->name)
-                                                <h1 class="mb-2 font-bold text-black uppercase">
-                                                    {{ $subCategory->name }}</h1>
-                                                <hr class="border-b w-12 border-yellow-500">
-                                                <ul class="text-gray-500">
-                                                    @if ($subCategory->active && count($subCategory->subCategories))
-                                                        @foreach ($subCategory->subCategories as $subSubCategory)
-                                                            <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500">
-                                                                <a href="{{ route('getBlade', ['page' => $subSubCategory->path_blade ? $subSubCategory->path_blade :'404']) }}">{{ $subSubCategory->name }}</a>
-                                                            </li>
-                                                        @endforeach
-                                                    @endif
-                                                </ul>
-                                            @endif
-                                        @endforeach
+                                    <div x-show.transition.in.duration.1000ms.out.duration.500ms="open"
+                                         @click.away="open = false"
+                                         class="flex-col ">
+
+
+                                        <div class="list-none">
+                                            @foreach ($category->subCategories as $subCategory)
+                                                @if($subCategory->name)
+                                                    <h1 class="mb-2 font-bold text-black uppercase">
+                                                        {{ $subCategory->name }}</h1>
+                                                    <hr class="border-b w-12 border-yellow-500">
+                                                    <ul class="text-gray-500">
+                                                        @if ($subCategory->active && count($subCategory->subCategories))
+                                                            @foreach ($subCategory->subCategories as $subSubCategory)
+                                                                <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500">
+                                                                    <a
+                                                                        href="{{ route('getBlade', ['page' => $subSubCategory->path_blade ? $subSubCategory->path_blade :'404']) }}">{{ $subSubCategory->name }}</a>
+                                                                </li>
+                                                            @endforeach
+                                                        @endif
+                                                    </ul>
+                                                        @else
+                                                            @if ($subCategory->active && count($subCategory->subCategories))
+                                                                @foreach ($subCategory->subCategories as $subSubCategory)
+                                                                    <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500">
+                                                                        <a
+                                                                            href="{{ route('getBlade', ['page' => $subSubCategory->path_blade ? $subSubCategory->path_blade :'404']) }}">{{ $subSubCategory->name }}</a>
+                                                                    </li>
+                                                @endforeach
+                                                @endif
+                                                @endif
+                                                @endforeach
+                                        </div>
                                     </div>
+                                    @endif
+                                    </li>
+                                    @endif
+                                    @endforeach
+                                    </ul>
                                 </div>
 
-                            </li>
-                        @else
-                        @foreach ($category->subCategories as $subCategory)
-                        @if($subCategory->name)
-                            <h1 class="mb-2 font-bold text-black uppercase">
-                                {{ $subCategory->name }}</h1>
-                            <hr class="border-b w-12 border-yellow-500">
-                            <ul class="text-gray-500">
-                                @if ($subCategory->active && count($subCategory->subCategories))
-                                    @foreach ($subCategory->subCategories as $subSubCategory)
-                                        <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500">
-                                            <a
-                                                href="{{ route('getBlade', ['page' => $subSubCategory->path_blade ? $subSubCategory->path_blade :'404']) }}">{{ $subSubCategory->name }}</a>
-                                        </li>
-                                    @endforeach
-                                @endif
-                            </ul>
-                        @else
-                                    {{-- @if ($subCategory->active && count($subCategory->subCategories))
-                                        <ul class="text-gray-500">
-                                            @foreach ($subCategory->subCategories as $subSubCategory)
-                                                <li class="hover:bg-indigo-100 p-2 border border-white hover:text-blue-500">
-                                                    <a href="{{ route('getBlade', ['page' => $subSubCategory->path_blade ? $subSubCategory->path_blade :'404']) }}">{{ $subSubCategory->name }}</a>
-                                                </li>
-                                            @endforeach
-                                        </ul>
-                                    @endif --}}
-                                @endif
-                            @endforeach
-                        @endif
-                    @endif
-                @endforeach
-            </ul>
-        </div>
-        <div class="w-3/4 lg:w-9/12  lg:flex flex-col mr-2">
-            <ul class="flex flex-col mt-8">
-                <li class="flex flex-row items-start p-3 bg-blue-800 text-white outline-none border-none">
-                    <i class="fas fa-users mt-1"></i>
-                    <p class="uppercase ml-3 font-bold">{{ _trans('Hr department contact') }}</p>
-                </li>
-                <li class="flex flex-row items-start p-3 bg-gray-100 text-gray-500 outline-none border-none my-1">
-                    <i class="fa fa-envelope mt-1.5 mr-2"></i>
-                    <p class="flex flex-col">
-                        <span class="mb-1">{{ _trans('Send us your resume') }}</span>
-                        <a href="mailto:job@scnsoft.com" class="text-blue-700 hover:underline">job@scnsoft.com</a>
-                    </p>
-                </li>
-                <li class="flex flex-row items-start p-3 bg-gray-100 text-gray-500 outline-none border-none">
-                    <i class="fa fa-phone mt-2 mr-2"></i>
-                    <p class="flex flex-col">
-                        <span class="mb-1">{{ _trans('Contact us by phone') }}</span>
-                        <a href="tel:+998-99-873-48-36" class="text-blue-700 font-semibold hover:underline">(+998) 99
-                            873-48-36</a>
-                    </p>
-                </li>
-                <li class="flex flex-row items-start p-3 bg-gray-100 text-gray-500 outline-none border-none my-1 pb-12">
-                    <i class="fa fa-comment mt-1.5 mr-2"></i>
-                    <div class="flex flex-col">
-                        <span class="mb-1">{{ _trans('Get in via Skype') }}</span>
-                        <span class="text-gray-900 text-xs">
-                                    <p class="text-base mt-2">{{ _trans('Vladimir Stepuro') }}</p>
-                                    <a href="" class="flex flex-row items-center text-blue-700 mt-1">
-                                        <i class="fab fa-skype fa-2x"></i>
-                                        <p class="ml-2 text-base hover:underline">{{ _trans('vladimirst2') }}</p>
-                                    </a>
-                                </span>
-                        <span class="text-gray-900 text-xs">
-                                    <p class="text-base mt-2">{{ _trans('Andrei Bodylovsky') }}</p>
-                                    <a href="" class="flex flex-row items-center text-blue-700 mt-1">
-                                        <i class="fab fa-skype fa-2x"></i>
-                                        <p class="ml-2 text-base hover:underline">{{ _trans(' badzilouski.andrei') }}</p>
-                                    </a>
-                                </span>
-                    </div>
-                </li>
-            </ul>
-            <a href="#"   class="w-full uppercase bg-yellow-500 text-white text-xl flex flex-row items-center p-3 hover:bg-yellow-300">
-                <i class="fas fa-upload fa-1x mr-4"></i>
-                <p>{{ _trans('Upload your cv') }}</p>
-            </a>
-        </div>
+
+    <ul class="flex flex-col mt-8">
+        <li class="flex flex-row items-start p-3 bg-blue-800 text-white outline-none border-none">
+            <i class="fas fa-users mt-1"></i>
+            <p class="uppercase ml-3 font-bold">{{ _trans('Hr department contact') }}</p>
+        </li>
+        <li class="flex flex-row items-start p-3 bg-gray-100 text-gray-500 outline-none border-none my-1">
+            <i class="fa fa-envelope mt-1.5 mr-2"></i>
+            <p class="flex flex-col">
+                <span class="mb-1">{{ _trans('Send us your resume') }}</span>
+                <a href="mailto:job@scnsoft.com" class="text-blue-700 hover:underline">job@scnsoft.com</a>
+            </p>
+        </li>
+        <li class="flex flex-row items-start p-3 bg-gray-100 text-gray-500 outline-none border-none">
+            <i class="fa fa-phone mt-2 mr-2"></i>
+            <p class="flex flex-col">
+                <span class="mb-1">{{ _trans('Contact us by phone') }}</span>
+                <a href="tel:+998-99-873-48-36" class="text-blue-700 font-semibold hover:underline">(+998) 99
+                    873-48-36</a>
+            </p>
+        </li>
+        <li class="flex flex-row items-start p-3 bg-gray-100 text-gray-500 outline-none border-none my-1 pb-12">
+            <i class="fa fa-comment mt-1.5 mr-2"></i>
+            <div class="flex flex-col">
+                <span class="mb-1">{{ _trans('Get in via Skype') }}</span>
+                <span class="text-gray-900 text-xs">
+                            <p class="text-base mt-2">{{ _trans('Vladimir Stepuro') }}</p>
+                            <a href="" class="flex flex-row items-center text-blue-700 mt-1">
+                                <i class="fab fa-skype fa-2x"></i>
+                                <p class="ml-2 text-base hover:underline">{{ _trans('vladimirst2') }}</p>
+                            </a>
+                        </span>
+                <span class="text-gray-900 text-xs">
+                            <p class="text-base mt-2">{{ _trans('Andrei Bodylovsky') }}</p>
+                            <a href="" class="flex flex-row items-center text-blue-700 mt-1">
+                                <i class="fab fa-skype fa-2x"></i>
+                                <p class="ml-2 text-base hover:underline">{{ _trans(' badzilouski.andrei') }}</p>
+                            </a>
+                        </span>
+            </div>
+        </li>
+    </ul>
+    <a href="../contact-us.html"
+       class="w-full uppercase bg-yellow-500 text-white text-xl flex flex-row items-center p-3 hover:bg-yellow-300">
+        <i class="fas fa-upload fa-1x mr-4"></i>
+        <p>{{ _trans('Upload your cv') }}</p>
+    </a>
     </div>
 
 
@@ -835,7 +826,7 @@
 
         </div>
     </div>
-
+    </div>
 
     <!-- Scrolling Back -->
 
