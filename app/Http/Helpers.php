@@ -2,8 +2,8 @@
 
 use App\Translation;
 
-if (! function_exists('translate_lang')) {
-    function translate_lang($key, $lang = null){
+if (! function_exists('_trans')) {
+    function _trans($key, $lang = null){
         // if($lang == null){
         //     $lang = App::getLocale();
         // }
@@ -20,13 +20,13 @@ if (! function_exists('translate_lang')) {
         //Check for session lang
         $translation_locale = Translation::where('lang_key', $key)->where('lang', $lang)->first();
         if($translation_locale != null && $translation_locale->lang_value != null){
-            return $translation_locale->lang_value;
+            return  ($translation_locale->lang_value);
         }
         elseif($translation_def->lang_value != null){
-            return $translation_def->lang_value;
+            return ($translation_def->lang_value);
         }
         else{
-            return $key;
+            return ($key);
         }
     }
 }

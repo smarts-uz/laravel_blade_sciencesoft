@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\DataTables\PortfolioDataTable;
 use App\Http\Requests;
+use App\Models\Category;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
 use App\Http\Requests\CreatePortfolioRequest;
@@ -46,7 +47,10 @@ class PortfolioController extends AppBaseController
      */
     public function create()
     {
-        return view('portfolios.create');
+        $technologies = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+        $industries = Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
+
+        return view('portfolios.create', ['technologies'=>$technologies , 'industries'=>$industries]);
     }
 
     /**
@@ -62,7 +66,9 @@ class PortfolioController extends AppBaseController
         $portfolio->name=$request->name;
         $portfolio->title=$request->title;
         $portfolio->sub_title=$request->sub_title;
-        $portfolio->blade_link=$request->blade_link;
+        $portfolio->blade_link=$request->description_text;
+        $portfolio['technology'] = json_encode($request['technology']);
+        $portfolio['industry'] = json_encode($request['industry']);
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();
@@ -107,6 +113,10 @@ class PortfolioController extends AppBaseController
     public function edit($id)
     {
         $portfolio = $this->portfolioRepository->find($id);
+        $technologies = Category::where('category_id', '=', 47)->whereNull('deleted_at')->get();
+        $industries = Category::where('category_id', '=', 55)->whereNull('deleted_at')->get();
+
+
 
         if (empty($portfolio)) {
             Flash::error('Portfolio not found');
@@ -114,7 +124,7 @@ class PortfolioController extends AppBaseController
             return redirect(route('portfolios.index'));
         }
 
-        return view('portfolios.edit')->with('portfolio', $portfolio);
+        return view('portfolios.edit', ['technologies'=>$technologies , 'industries'=>$industries])->with('portfolio', $portfolio);
     }
 
     /**
@@ -131,7 +141,9 @@ class PortfolioController extends AppBaseController
         $portfolio->name=$request->name;
         $portfolio->title=$request->title;
         $portfolio->sub_title=$request->sub_title;
-        $portfolio->blade_link=$request->blade_link;
+        $portfolio->blade_link=$request->description_text;
+        $portfolio['technology'] = json_encode($request['technology']);
+        $portfolio['industry'] = json_encode($request['industry']);
         if($request->file('image')!=null){
             $file = $request->file('image');
             $extension = $file->getClientOriginalExtension();

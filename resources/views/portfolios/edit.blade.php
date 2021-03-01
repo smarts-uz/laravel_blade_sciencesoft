@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('title')
-    Edit Portfolio
+    {{ _trans("Edit Portfolio")  }}
 @endsection
 @section('content')
     <section class="section">
             <div class="section-header">
-                <h3 class="page__heading m-0">Edit Portfolio</h3>
+                <h3 class="page__heading m-0">{{ _trans("Edit Portfolio")  }}</h3>
                 <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                    <a href="{{ route('portfolios.index') }}"  class="btn btn-primary">Back</a>
+                    <a href="{{ route('portfolios.index') }}"  class="btn btn-primary">{{ _trans("Back")  }}</a>
                 </div>
             </div>
   <div class="content">
@@ -22,49 +22,50 @@
                                      @method('PUT')
                                      <div class="row">
                                          <div class="form-group col-sm-3">
-                                             <label for="technology">Technology</label>
-                                             <select class="form-control" id="technology">
-                                                 <option>1</option>
-                                                 <option>2</option>
-                                                 <option>3</option>
-                                                 <option>4</option>
-                                                 <option>5</option>
+                                             <label for="tag">{{ _trans("Technology")  }}</label>
+                                             <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="technology[]">
+                                                 <option value="all">All</option>
+                                                 @foreach($technologies as $technology)
+                                                     <option value="{{ $technology->name }}">{{ $technology->name }}</option>
+                                                 @endforeach
                                              </select>
+
                                          </div>
+
                                          <div class="form-group col-sm-3">
-                                             <label for="industry">Industry</label>
-                                             <select class="form-control" id="industry">
-                                                 <option>1</option>
-                                                 <option>2</option>
-                                                 <option>3</option>
-                                                 <option>4</option>
-                                                 <option>5</option>
-                                             </select>
+                                             <label for="industry">{{ _trans("Industry")  }}</label>
+                                             <select class="custom-select selectpicker" id="basic" multiple="multiple"  multiple data-live-search="true" name="industry[]">
+                                                 <option value="all">All</option>
+                                                 @foreach($industries as $industry)
+                                                     <option value="{{ $industry->name }}">{{ $industry->name }}</option>
+                                                 @endforeach
+                                            </select>
                                          </div>
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="name">Name</label>
+                                             <label for="name">{{ _trans("Name")  }}</label>
                                              <input type="text" class="form-control" id="name" name="name" value="{{ $portfolio->name }}">
                                          </div>
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="title">Title</label>
+                                             <label for="title">{{ _trans("Title")  }}</label>
                                              <input type="text" class="form-control" id="title" name="title" value="{{ $portfolio->title }}">
                                          </div>
                                          <!-- Name Lang Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="sub_title">Sub Title</label>
+                                             <label for="sub_title">{{ _trans("Sub Title")  }}</label>
                                              <input type="text" class="form-control" id="sub_title" name="sub_title" value="{{ $portfolio->sub_title }}">
                                          </div>
-                                         <!-- Name Lang Field -->
-                                         <div class="form-group col-sm-6">
-                                             <label for="blade_link">Blade Link</label>
-                                             <input type="text" class="form-control" id="blade_link" name="blade_link" value="{{ $portfolio->blade_link }}">
+
+                                         <!-- Description Text Field -->
+                                         <div class="form-group col-sm-6 col-lg-12">
+                                             <label for="description_text">{{ _trans("Blade Link") }}</label>
+                                             <textarea class="form-control" id="description_text" name="description_text">{{ old('blade_link', $portfolio->blade_link) }}</textarea>
                                          </div>
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <label for="Image">Image</label><br>
+                                                 <label for="Image">{{ _trans("Image") }}</label><br>
                                                  <input type="file" id="images" name="image" value="{{ $portfolio->image??asset('images/default-image.png') }}">
                                                  <td><img src="/uploads/portfolios/{{ $portfolio->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
@@ -74,7 +75,7 @@
                                      <!-- Submit Field -->
                                      <div class="form-group col-sm-12">
                                          {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                         <a href="{{ route('portfolios.index') }}" class="btn btn-light">Cancel</a>
+                                         <a href="{{ route('portfolios.index') }}" class="btn btn-light">{{ _trans("Cancel")  }}</a>
                                      </div>
                                  </form>
                             </div>

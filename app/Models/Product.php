@@ -67,7 +67,7 @@ class Product extends Model
         'name' => 'nullable|string|max:255',
         'title' => 'nullable|string|max:255',
         'sub_title' => 'nullable',
-        'read_more_link' => 'nullable|string|max:255',
+        'read_more_link' => 'nullable',
         'view_website_link' => 'nullable|string|max:255',
         'image' => 'nullable',
         'deleted_at' => 'nullable',

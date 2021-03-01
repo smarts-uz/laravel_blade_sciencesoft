@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    Categories 
+    {{ _trans("Categories")  }}
 @endsection
 @section('css')
     <link href="{{ asset('assets/css/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>Categories</h1>
+            <h1>{{ _trans("Categories")  }}</h1>
             <div class="section-header-breadcrumb">
-                <a href="{{ route('categories.create')}}" class="btn btn-primary form-btn">Category <i class="fas fa-plus"></i></a>
+                <a href="{{ route('categories.create')}}" class="btn btn-primary form-btn">{{ _trans("Category")  }} <i class="fas fa-plus"></i></a>
             </div>
         </div>
         <div class="section-body">
