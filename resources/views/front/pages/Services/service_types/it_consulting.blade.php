@@ -32,7 +32,7 @@
         <img width="120" height="108"
              src="https://www.scnsoft.com/it-consulting/it-consulting-upd/business-digitalization-consulting.svg"
              class="m-auto my-4" alt="">
-        <h1 class="text-xl lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Business digitalization consulting (for CEO)</h1>
+        <h1 class="text-lg lg:text-2xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">Business digitalization consulting (for CEO)</h1>
 
         <div class="px-4 text-md lg:text-xl text-gray-600">
             <p class="mb-4">We assist in turning IT into a major contributor to a business performance increase with:</p>
@@ -196,8 +196,8 @@
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
-      <div class="flex flex-row">
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/3 h-auto mr-10">
+      <div class="lg:flex lg:flex-row">
+        <div class="rounded-sm my-3 border-2 transition-shadow  hover:shadow-lg lg:w-1/3 w-full h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Doing IT right")  }}</p>
@@ -207,7 +207,7 @@
             </P>
           </div>
         </div>
-        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/3 h-auto mr-10">
+        <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg lg:w-1/3 w-full h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
             <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Doing the right IT")  }}
@@ -285,27 +285,25 @@
 
 
 
-      <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
-        <div class='w-2/3'>
-          <h1 class='text-gray-900 mt-6'>
-            <p class='text-2xl font-bold'>{{ _trans("Measure IT Outsourcing Value for Your Business") }} </p>
-            <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-          </h1>
-          <p class='text-gray-600 text-xl'>{{ _trans("Our team can conduct an IT outsourcing feasibility analysis to
-           calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
-        </div>
-        <div class='w-1/3 m-0 flex justify-center items-center'>
-          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
-           Feasibility analysis")  }}</a>
-        </div>
-      </div>
+<div class='lg:flex block justify-between items-center lg:p-10 p-6 shadow-lg mt-3'>
+  <div class='lg:w-2/3 w-full	 '>
+    <h1 class='text-gray-900 lg:mt-6'>
+      <p class='lg:text-2xl text-md font-bold'>{{ _trans("Lack Python Competencies or Resources?")  }}</p>
+      <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+    </h1>
+    <p class='text-gray-600 lg:text-xl text-md'>{{ _trans("We offer pre-vetted Python developers and dedicated Python teams with experience across multiple domains to help increase your development output.")  }}</p>
+  </div>
+  <div class='mt-6 lg:w-1/3 w-full  m-0 flex justify-center items-center'>
+    <a href="#" class='px-8 py-3 text-sm bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Check Cvs of our devs")  }}</a>
+  </div>
+</div>
 
 
 
 
       <div class="swiper-container big-slide">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide px-16 pb-4">
+                        <div class="swiper-slide  pb-4">
                             <div class="p-6 border md:flex hover:shadow-lg my-6">
                                 <div class="md:w-6/12 mr-3">
                                     <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
@@ -329,7 +327,7 @@
                             </div>
                         </div>
 
-                        <div class="swiper-slide px-16 pb-4">
+                        <div class="swiper-slide pb-4">
                             <div class="p-6 border md:flex hover:shadow-lg my-6">
                                 <div class="md:w-6/12 mr-3">
                                     <img class="m-auto"
@@ -358,8 +356,8 @@
 
 
                     </div>
-                    <div class="swiper-button-next text-gray-400"></div>
-                    <div class="swiper-button-prev text-gray-400"></div>
+                    {{-- <div class="swiper-button-next hidden md:block text-gray-400"></div>
+                    <div class="swiper-button-prev hidden md:block text-gray-400"></div> --}}
                 </div>
 
 
@@ -456,8 +454,8 @@
         </div>
       </div>
 
-      <div class="my-20  mx-auto w-full">
-        <p class="font-medium text-4xl mx-auto">{{ _trans("Business-level gains:")  }}</p><br>
+      {{-- <div class="my-20  mx-auto w-full">
+        <p class="font-medium text-2xl mx-auto">{{ _trans("Business-level gains:")  }}</p><br>
         <div class="w-full  sm:flex sm:flex-row justify-center flex flex-col ">
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
@@ -526,9 +524,114 @@
           </div>
 
         </div>
-      </div>
-      <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
-        <div class='w-2/3'>
+      </div> --}}
+      <div class="my-8 md:block hidden">
+        <div class="grid mt-6 grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-20-50%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('time to market for new products')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('sales due to marketing and sales automation')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-30%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('revenue due to new digital sales channels')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('employee productivity')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+5-10%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('business productivity')}}
+                </p>
+            </div>
+            <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-5-35%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('IT operating costs')}}
+                </p>
+            </div>
+        
+           
+        </div>
+    </div>
+
+
+
+
+<div class="swiper-container big-slide md:hidden">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide text-center  pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+20-40%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('time to market for new products')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('sales due to marketing and sales automation')}}
+                </p>
+            </div>
+        </div>
+        
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-30%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('revenue due to new digital sales channels')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('employee productivity')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+5-10%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('business productivity')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide tetx-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-5-35%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{_trans('IT operating costs')}}
+                </p>
+            </div>
+        </div>
+
+    </div>
+    
+</div>
+      <div class='lg:flex block justify-between items-center p-10 shadow-2xl my-16'>
+        <div class='lg:w-2/3 w-full'>
           <h1 class='text-gray-900 mt-6'>
             <p class='text-2xl font-bold'>{{ _trans("Measure IT Outsourcing Value for Your Business")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
@@ -536,7 +639,7 @@
           <p class='text-gray-600 text-xl'>{{ _trans("Our team can conduct an IT outsourcing feasibility analysis to
           calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
         </div>
-        <div class='w-1/3 m-0 flex justify-center items-center'>
+        <div class='lg:w-1/3 w-full m-0 flex  justify-center items-center'>
           <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
           Feasibility analysis")  }}</a>
         </div>
