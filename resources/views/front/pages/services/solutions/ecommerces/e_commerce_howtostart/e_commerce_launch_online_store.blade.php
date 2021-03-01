@@ -33,7 +33,7 @@
             <h1 class="font-bold text-3xl">BUILD AN ONLINE STORE STEP BY STEP</h1>
             <div class="w-11 bg-yellow-500 h-0.5 mt-3"></div>
             <div class="w-full h-full mt-9 text-lg text-gray-600 flex flex-wrap">
-                <div class="w-2/4">
+                <div class="lg:w-2/4 w-full">
                     <div class="flex">
                         <p class="font-bold text-2xl text-indigo-600">1.</p>
                         <p class="ml-2 mt-0.5 text-xl text-gray-600">Research the competition.</p>
@@ -61,7 +61,7 @@
                             go live.</p>
                     </div>
                 </div>
-                <div class="w-2/4">
+                
                     <div class="flex mt-6">
                         <p class="font-bold text-2xl text-indigo-600">7.</p>
                         <p class="ml-2 mt-0.5 text-xl text-gray-600">Set a delivery area and organize a cost-effective
@@ -71,7 +71,7 @@
                         <p class="font-bold text-2xl text-indigo-600">8.</p>
                         <p class="ml-2 mt-0.5 text-xl text-gray-600">Focus on several marketing channels.</p>
                     </div>
-                </div>
+                
             </div>
         </div>
         <div class="w-4/5 mx-auto mt-20 mb-12">
@@ -596,7 +596,7 @@
             <div class="w-11 bg-yellow-500 h-0.5 mt-3"></div>
             <div>
                 <img src="img/functionality.svg" alt="" class="w-full mt-6">
-                <div class="flex w-full lg:mx-0 lg:flex-row flex-col flex-wrap">
+                <div class="flex flex-wrap w-full lg:mx-0 lg:flex-row flex-col flex-wrap">
                     <div class="shadow-xl border-t-8 border-indigo-300 mt-6 lg:w-96 w-full h-96">
                         <div class="mt-5">
                             <p class="text-xl text-bold text-indigo-700 text-center">Convenient search and an informed

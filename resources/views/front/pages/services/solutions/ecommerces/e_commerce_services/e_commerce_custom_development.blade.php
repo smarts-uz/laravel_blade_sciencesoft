@@ -142,7 +142,7 @@
 
     <div class="container  mt-16 hover:shadow-xl border border-black-600 mx-auto">
         <div class="p-14 flex flex-wrap">
-            <div class="w-8/12">
+            <div class="lg:w-8/12 w-full">
                 <div>
                     <strong class="text-3xl">
                         Do You Need Custom-Built Improvements to Your Website?
@@ -157,7 +157,7 @@
             </div>
 
 
-            <div class="ml-24 ">
+            <div class="lg:ml-24 ml-0 ">
                 <button class="bg-blue-900 text-xl hover:bg-blue-700 rounded w-48 mt-10 h-12 text-white">
                     Contact the team
                 </button>
@@ -187,14 +187,14 @@
 
         <div class="hover:shadow-xl mt-14 p-4 mt-6 border border-black-600 mb-28">
             <div class="flex flex-wrap">
-                <div class="w-44 mt-5    ml-5 h-44">
+                <div class="w-44 mt-5 ml-5 h-44">
                     <img src="images/voice-recognition-01.svg" alt="">
 
                 </div>
 
-                <div class="w-8/12">
-                    <div class="ml-20 mb-6 mt-6">
-                        <strong class="text-2xl w-">
+                <div class="lg:w-8/12 w-full">
+                    <div class="lg:ml-20 ml-0 mb-6 mt-6">
+                        <strong class="text-2xl">
                             Voice-Assisted Shopping
                         </strong>
                         <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
@@ -257,14 +257,14 @@
         </div>
         <div class="hover:shadow-xl mt-14 p-4 mt-6 border border-black-600 mb-28">
             <div class="flex flex-wrap">
-                <div class="w-44 mt-5    ml-5 h-44">
+                <div class="w-44 mt-5 ml-5 h-44">
                     <img src="images/augmented-reality-01.svg" alt="">
 
                 </div>
 
-                <div class="w-8/12">
-                    <div class="ml-20 mb-6 mt-6">
-                        <strong class="text-2xl w-">
+                <div class="lg:w-8/12 w-full">
+                    <div class="lg:ml-20 ml-0 mb-6 mt-6">
+                        <strong class="text-2xl">
                             Voice-Assisted Shopping
                         </strong>
                         <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
@@ -327,14 +327,14 @@
         </div>
         <div class="hover:shadow-xl mt-14 p-4 mt-6 border border-black-600 mb-28">
             <div class="flex flex-wrap">
-                <div class="w-44 mt-5    ml-5 h-44">
+                <div class="w-44 mt-5 ml-5 h-44">
                     <img src="images/headless-ecommerce-approach-01.svg" alt="">
 
                 </div>
 
-                <div class="w-8/12">
-                    <div class="ml-20 mb-6 mt-6">
-                        <strong class="text-2xl w-">
+                <div class="lg:w-8/12 w-full">
+                    <div class="lg:ml-20 ml-0 mb-6 mt-6">
+                        <strong class="text-2xl ">
                             Voice-Assisted Shopping
                         </strong>
                         <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
@@ -402,9 +402,9 @@
 
                 </div>
 
-                <div class="w-8/12">
-                    <div class="ml-20 mb-6 mt-6">
-                        <strong class="text-2xl w-">
+                <div class="lg:w-8/12 w-full">
+                    <div class="lg:ml-20 ml-0 mb-6 mt-6">
+                        <strong class="text-2xl ">
                             Voice-Assisted Shopping
                         </strong>
                         <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
@@ -472,9 +472,9 @@
 
                 </div>
 
-                <div class="w-8/12">
-                    <div class="ml-20 mb-6 mt-6">
-                        <strong class="text-2xl w-">
+                <div class="lg:w-8/12 w-full">
+                    <div class="lg:ml-20 ml-0 mb-6 mt-6">
+                        <strong class="text-2xl ">
                             Voice-Assisted Shopping
                         </strong>
                         <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
@@ -541,7 +541,7 @@
 
     <div class="container  mt-16 hover:shadow-xl border border-black-600 mx-auto">
         <div class="p-14 flex flex-wrap">
-            <div class="w-8/12">
+            <div class="lg:w-8/12 w-full">
                 <div>
                     <strong class="text-3xl">
                         Opportunities Are Here. Grab Them!
@@ -557,7 +557,7 @@
             </div>
 
 
-            <div class="ml-24 ">
+            <div class="lg:ml-24 ml-0 ">
                 <button class="bg-blue-900 text-xl hover:bg-blue-700 rounded w-52 mt-10 h-12 text-white">
                     Start our conversation
                 </button>
@@ -627,8 +627,8 @@
 
             </div>
 
-            <div class="w-4/5">
-                <div class="ml-20 mb-6 mt-6">
+            <div class="lg:w-4/5 w-full">
+                <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
                         Magento Migration and Development for a Seller of Printed and E-Books
                     </strong>
@@ -649,8 +649,8 @@
 
             </div>
 
-            <div class="w-4/5">
-                <div class="ml-20 mb-6 mt-6">
+            <div class="lg:w-4/5 w-full">
+                <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
                         Magento Migration and Development for a Seller of Printed and E-Books
                     </strong>
@@ -671,8 +671,8 @@
 
             </div>
 
-            <div class="w-4/5">
-                <div class="ml-20 mb-6 mt-6">
+            <div class="lg:w-4/5 w-full">
+                <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
                         Magento Migration and Development for a Seller of Printed and E-Books
                     </strong>
@@ -693,8 +693,8 @@
 
             </div>
 
-            <div class="w-4/5">
-                <div class="ml-20 mb-6 mt-6">
+            <div class="lg:w-4/5 w-full">
+                <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
                         Magento Migration and Development for a Seller of Printed and E-Books
                     </strong>
@@ -715,8 +715,8 @@
 
             </div>
 
-            <div class="w-4/5">
-                <div class="ml-20 mb-6 mt-6">
+            <div class="lg:w-4/5 w-full">
+                <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
                         Magento Migration and Development for a Seller of Printed and E-Books
                     </strong>
@@ -734,7 +734,7 @@
 
     <div class="container  mt-16 hover:shadow-xl border border-black-600 mx-auto">
         <div class="p-14 flex flex-wrap">
-            <div class="w-8/12">
+            <div class="lg:w-8/12 w-full">
                 <div>
                     <strong class="text-3xl">
                         Opportunities Are Here. Grab Them!
@@ -750,7 +750,7 @@
             </div>
 
 
-            <div class="ml-24 ">
+            <div class="lg:ml-24 ml-0">
                 <button class="bg-blue-900 text-xl hover:bg-blue-700 rounded w-52 mt-10 h-12 text-white">
                     Start our conversation
                 </button>

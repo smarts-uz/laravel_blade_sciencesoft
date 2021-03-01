@@ -183,7 +183,7 @@
 
     <div class="container mt-16 shadow-xl border border-black-600 mx-auto">
         <div class="p-10 flex flex-wrap">
-            <div class="w-8/12">
+            <div class="lg:w-8/12 w-full">
                 <div>
                     <strong class="text-3xl">
                         Plan to Become an Online Retailer?
@@ -195,7 +195,7 @@
                     throughout the cooperation.
                 </p>
             </div>
-            <div class="ml-24">
+            <div class="lg:ml-24 ml-0">
                 <button class="bg-blue-900 text-xl hover:bg-blue-700 rounded w-64 mt-5 h-16 text-white">
                     Request ecommerce services
                 </button>
@@ -293,15 +293,14 @@
         </p>
     </div>
 
-    <div class="hover:shadow-xl mt-14 mx-16 mt-6 border border-black-600 mb-16">
+    <div class="hover:shadow-xl mt-14 lg:mx-16 mx-0 mt-6 border border-black-600 mb-16">
         <div class="flex flex-wrap">
-            <div class="w-72 mt-5 mb-5 ml-5 h-44">
+            <div class="lg:w-72 w-full mt-5 mb-5 ml-5 h-44">
                 <img src="images/ecommerce_development_services.png" alt="">
-
             </div>
 
-            <div class="w-6/12">
-                <div class="ml-20 mb-6 mt-6">
+            <div class="lg:w-8/12 w-full">
+                <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
                         Ecommerce Development Services by TeamPRO
                     </strong>
@@ -316,21 +315,21 @@
     </div>
 
     <div class="flex justify-center lg:mx-0 lg:flex-row flex-col flex-wrap mb-10">
-        <div class="w-3/12 mr-10 hover:shadow-xl border-b-4 hover:border-blue-600 transition delay-150">
+        <div class="lg:w-3/12 mr-10 hover:shadow-xl border-b-4 hover:border-blue-600 transition delay-150">
             <img src="images/guide-to-fashion-ecommerce_-_1439w.png" alt="">
             <p class="text-xl mt-3.5 p-4 ">
                 <b>
                     Integrate Ecommerce and POS Systems to Manage Two Sales Channels as One
                 </b></p>
         </div>
-        <div class="w-3/12 mr-10 hover:shadow-xl border-b-4 hover:border-blue-600 transition delay-150">
+        <div class="lg:w-3/12 mr-10 hover:shadow-xl border-b-4 hover:border-blue-600 transition delay-150">
             <img src="images/starting-an-online-retail-business.png" alt="">
             <p class="text-xl mt-3.5 p-4 ">
                 <b>
                     How to Make Ecommerce Solution Implementation a Success
                 </b></p>
         </div>
-        <div class="w-3/12 mr-10 hover:shadow-xl border-b-4 hover:border-blue-600 transition delay-150">
+        <div class="lg:w-3/12 mr-10 hover:shadow-xl border-b-4 hover:border-blue-600 transition delay-150">
             <img src="images/furniture-ecommerce_-_1439w.png"
                  alt="">
             <p class="text-xl mt-3.5 p-4 ">

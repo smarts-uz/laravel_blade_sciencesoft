@@ -14,7 +14,7 @@
 
           <div data-aos="fade-right" class="flex justify-center items-center leading-loose">
               <div>
-                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 leading-8 ">
+                <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 leading-12 ">
                     {{_trans(' Development')}}
                     <br>  {{_trans('of an
                     online')}} <br> {{_trans(' store')}}
@@ -856,19 +856,17 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Система управления сайтом 1C Bitrix</li>
-              <li>Лицензия бизнес редакция&nbsp;</li>
-              <li>Готовое решение с маркетплейс</li>
-              <li>Мобильное приложение IOS, Android</li>
-              <li>
-                Система оплаты Click,Payme, Visa, Mastercard, Paypal&nbsp;
-              </li>
-              <li>Домен в ПОДАРОК</li>
-              <li>Телеграм бот в ПОДАРОК</li>
-              <li>Система лояльности в ПОДАРОК</li>
-              <li>Гарантийная поддержка в течение года</li>
-              <li>Обучение – 12 часов</li>
-              <li>Срок&nbsp;от 60 дней</li>
+                <li>Content management system 1C Bitrix</li>
+                <li>Business edition license </li>
+                <li>Ready-made solution with a marketplace</li>
+                <li>IOS, Android mobile application</li>
+                <li>Click, Payme, Visa, Mastercard, Paypal payment system </li>
+                <li>Domain </li>
+                <li>Telegram bot </li>
+                <li>Loyalty system </li>
+                <li>One year warranty support</li>
+                <li>Training - 12 hours</li>
+                <li>Term from 60 days</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -876,7 +874,7 @@
 
                 class="bg-blue-700 rounded-full mb-14 text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
-                Заказать
+                Order
               </a>
             </div>
           </div>
@@ -895,28 +893,25 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Система управления сайтом 1C Bitrix</li>
-              <li>Лицензия бизнес редакция&nbsp;</li>
-              <li>Готовое решение с маркетплейс</li>
-              <li>Интеграция и внедрение складского учёта (Мой Склад)</li>
-              <li>Мобильное приложение IOS, Android</li>
-              <li>Сео оптимизация сайта&nbsp;</li>
-              <li>
-                Система оплаты Click,Payme, Visa, Mastercard, Paypal&nbsp;
-              </li>
-              <li>Домен в ПОДАРОК</li>
-              <li>Телеграм бот в ПОДАРОК</li>
-              <li>Система лояльности в ПОДАРОК</li>
-              <li>Гарантийная поддержка в течение года</li>
-              <li>Обучение – 12 часов</li>
-              <li>Срок&nbsp;от 90 дней</li>
+               <li> Content management system 1C Bitrix</li>
+               <li> Business edition license </li>
+               <li> Ready-made solution with a marketplace</li>
+               <li> Integration and implementation of warehouse accounting (My Warehouse)</li>
+               <li> IOS, Android mobile application</li>
+               <li> Click, Payme, Visa, Mastercard, Paypal payment system </li>
+               <li> Domain </li>
+               <li> Telegram bot </li>
+               <li> Loyalty system </li>
+               <li> One year warranty support</li>
+               <li> Training - 12 hours</li>
+               <li> Term from 90 days</li>
             </ul>
             <div class="justify-center flex">
               <a
                 href=""
                 class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
-                Заказать
+                Order
               </a>
             </div>
           </div>
@@ -932,7 +927,7 @@
             <p
               class="text-2xl sm:text-4xl font-bold text-white z-10 p-5 leading-10"  data-aos="fade-down"
             >
-              Разработка интернет магазина
+            Development of an online store
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -953,19 +948,7 @@
           <div class="flex justify-center">
             <div class="z-0 text-gray-600 text-lg max-w-3xl">
               <p>
-                Нужны сайты на заказ или хотите купить сайт в Ташкенте? У нас
-                работают опытные разработчики сайтов и программисты в
-                Узбекистане, которые выполняют свою работу на все 100%. Мы
-                предлагаем не только разработку веб сайта, но и обеспечиваем
-                техническую поддержку сайтов в Узбекистане. Также мы занимаемся
-                разработкой веб приложений в Ташкенте для вашего бизнеса.
-                Заказать Online store под ключ. Веб сайт, заказать сайт,
-                лучшие программисты, лучшая веб студия, сайт визитка в ташкенте,
-                разработка веб приложений ташкент, сайты на заказ, разработка
-                интернет магазина ташкент, как создать Online store
-                узбекистан, разработка веб-сайта, битрикс партнер узбекистан,
-                сайт на 1C Bitrix, продающий сайт, промо сайт, заказать лендинг
-                пейдж в ташкенте,
+               Do you need custom-made websites or want to buy a website in Tashkent?We have experienced website developers and programmers in Uzbekistan who do their job 100%.>We offer not only website development, but also provide technical support for websites in Uzbekistan. We are also engaged in the development of web applications in Tashkent for your business.Order a turnkey online store.Website, order a website, the best programmers, the best web studio, business card website in tashkent, development of web applications tashkent, custom-made websites, development of an online store in tashkent, how to create an online store in uzbekistan, website development, bitrix partner uzbekistan, site on 1c bitrix selling website, promo website, order a landing page in tashkent.
               </p>
             </div>
           </div>
@@ -974,8 +957,7 @@
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                        Другие <br/>
-                        услуги
+                        other <br> services
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
                         <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">
@@ -992,74 +974,72 @@
 
 
 
-
                         <div class="swiper-container">
-                            <div class="swiper-wrapper">
+                            <div class="swiper-wrapper table w-full">
 
-                                <div class="swiper-slide table">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
                                         <p class="text-center">
-                                            Разработка интернет-
-                                            магазина
+                                           {{_trans('Online store development')}}
 
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Seo продвижение
+                                            {{_trans('Seo promotion')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Контекстная реклама
+                                            {{_trans('Context advertisement')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
                                              alt=""/>
                                         <p class="text-center pb-6">
-                                            СММ продвижения
+                                            {{_trans('Smm promotion')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Разработка брендбуков
+                                            {{_trans('Brandbook development')}}
                                         </p>
                                     </div>
                                 </div>
 
 
-                                <div class="swiper-slide ">
+                                <div class="swiper-slide table-cell">
                                     <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
                                         <img class="mx-auto p-3"
                                              src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
                                         <p class="text-center pb-6">
-                                            Автоматизация бизнеса
+                                            {{_trans('Business automation')}}
                                         </p>
                                     </div>
                                 </div>

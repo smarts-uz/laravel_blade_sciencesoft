@@ -17,14 +17,14 @@
               <div>
                 <div
                 class="text-white text-4xl lg:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
-                Seo <br> продвижение <br> сайта в <br>  Ташкенте
+                Seo website <br> promotion in <br> Tashkent
               </div>
               <div class="lg:px-20">
                 <a
                   href="#"
                   class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                 >
-                  Получить консультацию
+                 To get the consultation
                 </a>
               </div>
               </div>
@@ -43,19 +43,19 @@
     <div class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16">
         <div  class="pt-8 text-center" data-aos="fade-left">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/1.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Оптимизация</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">Optimization</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-left">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/2.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Аудит и Аналитика</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">Audit and Analytics</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-up">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/3.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Трафик</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">Traffic</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-right">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/4.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Стратегия</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">Strategy</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-right">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/5.svg')}}" alt="" class="m-auto">
@@ -69,14 +69,14 @@
            <div class=" m-4 text-center">
                 <a href=""
                    class="max-w-xs block py-4 bg-blue-700 rounded-full text-white px-4 py-1 transition duration-300 ease-in-out hover:bg-blue-900 shadow-lg">
-                    SEO продвижение
+                    SEO promotion
                 </a>
            </div>
             <div class="m-4  text-center">
 
                 <a href=""
                    class="text-center max-w-xs block py-4 bg-blue-700 rounded-full text-white px-4 transition duration-300 ease-in-out hover:bg-blue-900">
-                    Контекстная реклама
+                    Context advertisement
                 </a>
             </div>
         </div>
@@ -84,7 +84,7 @@
 
 
     <div class="flex justify-center text-center items-center my-20 relative">
-        <h1 data-aos="fade-right" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Услуги по сео продвижению</h1>
+        <h1 data-aos="fade-right" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">SEO promotion services</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -99,38 +99,38 @@
 
 
         <div class="container mx-auto flex flex-col">
-            <div class="grid grid-cols-1 md:grid-cols-3 justify-center gap-3">
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+            <div class="grid grid-cols-1 lg:grid-cols-4 justify-center gap-10 ">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Аудит сайта</h1>
+                        <h1 class="text-gray-700 font-bold text-base">Site audit</h1>
                     </div>
                 </div>
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Маркетинговый <br> анализ</h1>
+                        <h1 class="text-gray-700 font-bold text-base">Marketing <br> analysis</h1>
                     </div>
                 </div>
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Стратегия <br> продвижения</h1>
+                        <h1 class="text-gray-700 font-bold text-base">Promotion <br> strategy</h1>
                     </div>
                 </div>
 
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
+                        <h1 class="text-gray-700 font-bold text-base">We develop <br> semantics</h1>
                     </div>
                 </div>
 
@@ -138,53 +138,46 @@
 
 
 
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/5.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Внутренняя SEO <br> оптимизация</h1>
+                        <h1 class="text-gray-700 font-bold text-base">Internal SEO <br> optimization</h1>
                     </div>
                 </div>
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/6.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Оптимизация контента сайта</h1>
+                        <h1 class="text-gray-700 font-bold text-base">Website content optimization</h1>
                     </div>
                 </div>
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/7.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Ежемесячный анализ</h1>
+                        <h1 class="text-gray-700 font-bold text-base">Monthly analysis</h1>
                     </div>
                 </div>
 
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
+                <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
+                    <div class="py-5 px-4  grid justify-end lg:justify-center">
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/8.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Внешняя оптимизация</h1>
+                        <h1 class="text-gray-700 font-bold text-base">External optimization</h1>
                     </div>
                 </div>
-                <div class="py-4 grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
-                    <div class="px-4  grid justify-end lg:justify-center">
-                        <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="">
-                    </div>
-                    <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Разрабатываем <br> семантику</h1>
-                    </div>
-                </div>
+
              </div>
         </div>
 
 
         <div class="flex justify-center items-center mb-20 my-20 relative text-center">
-            <h1 data-aos="fade-down" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Этапы продвижения сайта</h1>
+            <h1 data-aos="fade-down" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Stages of website promotion</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -204,11 +197,11 @@
                          class="flex border-blue-700 border-l-8 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class="   justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Аудит сайта</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Site audit</h1>
                             <ul class="list-disc text-gray-600 text-sm pb-10">
-                                <li>Проверяем <br> работоспособность</li>
-                                <li>Проверяем конверсию</li>
-                                <li>Исправляем ошибки</li>
+                                <li>We check  <br> the performance</li>
+                                <li>Checking the conversion </li>
+                                <li>Correcting errors</li>
                             </ul>
                         </div>
                     </div>
@@ -216,10 +209,10 @@
                          class="flex border-blue-700 p-3 bg-white border-l-8 rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Семантика</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Semantics</h1>
                             <ul class="list-disc text-gray-600 text-sm pb-10">
-                                <li>Создаём базу запросов с <br> максимально конверсией</li>
-                                <li>Создаём костяк для <br> раскрутки сайта</li>
+                                <li>We create a database of requests <br> with the maximum conversion</li>
+                                <li>We create a backbone for  <br> website promotion</li>
                             </ul>
                         </div>
                     </div>
@@ -227,11 +220,11 @@
                          class="flex border-blue-700 p-3 bg-white border-l-8 rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Внутренняя</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Internal</h1>
                             <ul class="list-disc text-gray-600 text-sm pb-10">
-                                <li>Улучшаем скорость загрузки</li>
-                                <li>Оптимизируем контент <br> сайта</li>
-                                <li>Оптимизируем код сайта</li>
+                                <li>Improving download speed</li>
+                                <li>We optimize the site <br> content</li>
+                                <li>Optimizing the site code</li>
                             </ul>
                         </div>
                     </div>
@@ -247,11 +240,11 @@
                          class="md:max-w-xs flex border-blue-700 border-l-8 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class="   justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Внешняя</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">External</h1>
                             <ul class="list-disc text-gray-600 text-sm">
-                                <li>Наращиваем ссылочную <br> массу на сайт</li>
-                                <li>Проверяем и оставляем <br> только полезные ссылки</li>
-                                <li>Увеличиваем рейтинг ТИЦ <br> и PR в поисковиках</li>
+                                <li>We increase the link <br> mass to the site</li>
+                                <li>We check and leave <br> only useful links</li>
+                                <li>We increase the rating of <br> TIC and PR in search engines</li>
                             </ul>
                         </div>
                     </div>
@@ -259,11 +252,11 @@
                          class="md:max-w-xs flex rounded-l-lg border-l-8 border-blue-700 bg-white  rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Продвижение</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Promotion</h1>
                             <ul class="list-disc text-gray-600 text-sm">
-                                <li>Ежемесячный контроль <br> рейтинга сайта</li>
-                                <li>Проверка позиций</li>
-                                <li>Доработка сайта для <br> лучшего продвижения</li>
+                                <li>Monthly site rating <br> control</li>
+                                <li>Checking positions</li>
+                                <li>Website improvement for <br> better promotion</li>
                             </ul>
                         </div>
                     </div>
@@ -285,10 +278,9 @@
           <h1
             class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700"
           >
-            Заполните форму прямо сейчас и получите квалифицированную бесплатную
-            консультацию.
+          Fill out the form right now and get a qualified free consultation.
           </h1>
-          <h2 class="text-lg p-6 pl-13">Название организации</h2>
+          <h2 class="text-lg p-6 pl-13">Name of the organization</h2>
           <form>
             <label>
               <input
@@ -307,14 +299,14 @@
                 href=""
                 class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
               >
-                Назад
+               Back to
               </a>
 
               <a
                 href=""
                 class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
               >
-                Далее
+               Next
               </a>
             </div>
           </div>
@@ -322,7 +314,7 @@
       </div>
 
         <div class="flex justify-center items-center my-20 relative ">
-            <h1 data-aos="fade-up text-center" class="sm:text-4xl text-3xl font-bold text-blue-700 z-10">Кейсы</h1>
+            <h1 data-aos="fade-up text-center" class="sm:text-4xl text-3xl font-bold text-blue-700 z-10">Cases</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -343,23 +335,23 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/13.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Клиент:</b></p>
+                            <p class="text-blue-700"><b>Client:</b></p>
                             <p class="text-gray-500"> Кенг Макон фабрика мебели</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Рынок:</b></p>
-                            <p class="text-gray-500">Узбекистан</p>
+                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
+                            <p class="text-gray-500">Uzbekistan</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                            <p class="text-gray-500">Производство мебели</p>
+                            <p class="text-blue-700 mt-3.5"><b>Direction:</b></p>
+                            <p class="text-gray-500">Furniture production</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Результат работы:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Result of work:</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 4900</b> <br> Посещаемость <br> в месяц</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 4900</b> <br> Attendance <br> per month</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>220</b> <br> Ключевых <br> слов в топе</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>220</b> <br> Keywords in <br> the top</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
                                     <p class="text-2xl text-gray-500 text-center"><b>+ 631%</b> <br> ROI</p>
@@ -367,7 +359,7 @@
                             </div>
 
                             <a href="" class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                заказать
+                                Order
                             </a>
                         </div>
                     </div>
@@ -379,23 +371,23 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/14.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Клиент:</b></p>
+                            <p class="text-blue-700"><b>Client:</b></p>
                             <p class="text-gray-500"> Otdelka Trade</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Рынок:</b></p>
-                            <p class="text-gray-500">Москва</p>
+                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
+                            <p class="text-gray-500">Moscow</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                            <p class="text-gray-500">Продажа напольных покрытии</p>
+                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
+                            <p class="text-gray-500">Sale of floor covering</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Результат работы:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 24 500</b> <br> Посещаемость <br> в месяц</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 24 500</b> <br> Attendance <br> per month</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>840</b> <br> Ключевых <br> слов в топе</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>840</b> <br> Keywords in <br> the top</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
                                     <p class="text-2xl text-gray-500 text-center"><b>+ 8600</b> <br> Заявок и <br> звонков</p>
@@ -403,7 +395,7 @@
                             </div>
 
                             <a href="" class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                заказать
+                                Order
                             </a>
                         </div>
                     </div>
@@ -415,32 +407,32 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/15.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Клиент:</b></p>
+                            <p class="text-blue-700"><b>Client:</b></p>
                             <p class="text-gray-500"> 2ftg.uz</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Рынок:</b></p>
-                            <p class="text-gray-500">Узбекистан</p>
+                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
+                            <p class="text-gray-500">Uzbekistan</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                            <p class="text-gray-500">Производство резин</p>
+                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
+                            <p class="text-gray-500"></p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Результат работы:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 16 500</b> <br> Посещаемость <br> в год</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 16 500</b> <br> Attendance <br> в год</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>70</b> <br> Ключевых <br> слов в топе</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>70</b> <br> Keywords in <br> the top</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 112</b> <br> Лидов в месяц</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 112</b> <br> Leads per month</p>
                                 </div>
                             </div>
 
                             <a href=""
                                class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                заказать
+                                Order
                             </a>
                         </div>
                     </div>
@@ -452,32 +444,32 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/16.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Клиент:</b></p>
+                            <p class="text-blue-700"><b>Client:</b></p>
                             <p class="text-gray-500"> ChuzTrade</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Рынок:</b></p>
-                            <p class="text-gray-500">Узбекистан</p>
+                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
+                            <p class="text-gray-500">Uzbekistan</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
-                            <p class="text-gray-500">Доставка из Китая</p>
+                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
+                            <p class="text-gray-500">Delivery from China</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Результат работы:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 32 500</b> <br> Посещаемость <br> в год</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 32 500</b> <br> Attendance <br> в год</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>140</b> <br> Ключевых <br> слов в топе</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>140</b> <br> Keywords in <br> the top</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 180</b> <br> Лидов в месяц</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 180</b> <br> Leads per month</p>
                                 </div>
                             </div>
 
                             <a href=""
                                class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                заказать
+                                Order
                             </a>
                         </div>
                     </div>
@@ -489,23 +481,23 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/17.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Клиент:</b></p>
+                            <p class="text-blue-700"><b>Client:</b></p>
                             <p class="text-gray-500"> Alibazar</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Рынок:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
                             <p class="text-gray-500">Узбекистан</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Направление:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
                             <p class="text-gray-500">Строительные материалы</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Результат работы:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 2 100</b> <br> Посещаемость <br> в месяц</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 2 100</b> <br> Attendance <br> per month</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>830</b> <br> Ключевых <br> слов в топе</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>830</b> <br> Keywords in <br> the top</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
                                     <p class="text-2xl text-gray-500 text-center"><b>+ 1090%</b> <br> ROI</p>
@@ -514,7 +506,7 @@
 
                             <a href=""
                                class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                заказать
+                                Order
                             </a>
                         </div>
                     </div>
@@ -524,7 +516,7 @@
         </div>
 
         <div class="flex justify-center items-center my-20 relative text-center">
-            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Используем в работе</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">We use in work</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -570,7 +562,7 @@
 
 
         <div class="flex justify-center items-center my-20 relative ">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Результат</h1>
+            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Result</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -589,34 +581,37 @@
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/1.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Улучшится видимость сайта<br> в поисковой выдаче
+                        <p class="text-lg text-center text-gray-600">Website visibility in search <br> results will improve
                         </p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/2.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Сайт выйдет в топ поиска<br> "Яндекса" и Google</p>
+                        <p class="text-lg text-center text-gray-600">The site will be in the top search engine<br> "Yandex" and Google</p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/3.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Увеличится количество<br>посетителей сайта</p>
+                        <p class="text-lg text-center text-gray-600">The number of site visitors <br> will increase</p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/4.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Увеличится количество<br>заявок и звонков</p>
+                        <p class="text-lg text-center text-gray-600">The number of applications and <br> calls will increase</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-2">
-                    <div class=" p-5">
-                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/5.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Увеличатся продажи <br> с сайта</p>
-                    </div>
+
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/6.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Снизятся расходы на <br> рекламные кампании</p>
+                        <p class="text-lg text-center text-gray-600">Sales
+                            from the <br> site will increase</p>
+                    </div>
+
+                    <div class=" p-5">
+                        <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/5.svg')}}" alt="">
+                        <p class="text-lg text-center text-gray-600">Costs for advertising campaigns<br> will decrease </p>
                     </div>
                 </div>
             </div>
@@ -627,7 +622,7 @@
 
         <div class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative h-56">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
-                <h1 class="text-4xl font-bold text-white z-10">Почему мы?</h1>
+                <h1 class="text-4xl font-bold text-white z-10">Why choose us?</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -646,7 +641,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class=" py-1 text-center">
-                    <h1 class="text-gray-700 text-md">Нет ни одного проваленного <br> проекта</h1>
+                    <h1 class="text-gray-700 text-md">There is not a single  <br> failed project</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -654,7 +649,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Колосальный <br> опыт в<br> продвижении</h1>
+                    <h1 class="text-gray-700 text-md">Colossal  <br> experience <br> in promotion</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -662,16 +657,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Экспертное <br>понимание <br> алгоритмов</h1>
-                </div>
-            </div>
-
-            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                <div>
-                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
-                </div>
-                <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Выводим сайты <br> из-под <br> фильтров</h1>
+                    <h1 class="text-gray-700 text-md">Expert  <br>understanding  <br> of algorithms</h1>
                 </div>
             </div>
 
@@ -680,7 +666,16 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Сотни <br> довольных <br> клиентов</h1>
+                    <h1 class="text-gray-700 text-md">Removing sites <br>  from  <br> filters</h1>
+                </div>
+            </div>
+
+            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
+                <div>
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
+                </div>
+                <div class="py-1  text-center">
+                    <h1 class="text-gray-700 text-md">Hundreds   <br> of satisfied <br> customers</h1>
                 </div>
             </div>
 
@@ -689,7 +684,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Команда <br> опытных <br> специалистов</h1>
+                    <h1 class="text-gray-700 text-md">A team   <br> of experienced <br> professionals</h1>
                 </div>
             </div>
 
@@ -697,7 +692,7 @@
 
 
         <div class="flex justify-center items-center my-20 relative mb-20">
-            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Prices and rates</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -720,20 +715,20 @@
                     <div class="text-center">
                         <div class="text-center">
                             <h1 class="border-b border-gray-400 py-5 text-gray-600">
-                                от <span class=" text-gray-700"> <b>9 900 000</b></span> uzs <br>в <b>год</b></h1></div>
+                                from <span class=" text-gray-700"> <b>9 900 000</b></span> uzs <br>per <b>year</b></h1></div>
                     </div>
                     <ul class="list-disc text-gray-700 text-lg mt-3 pb-20">
-                        <li><b>10 Ключевых слов</b></li>
-                        <li>Аудит сайта</li>
-                        <li>Внутренняя оптимизация</li>
-                        <li>Внешняя оптимизация</li>
-                        <li>Написание уникальных текстов</li>
-                        <li>от 3 до 6 месяцев</li>
+                        <li><b>10 Keywords</b></li>
+                        <li>Site audit</li>
+                        <li>Internal optimization</li>
+                        <li>External optimization</li>
+                        <li>Writing unique texts</li>
+                        <li>from 3 to 6 months</li>
                     </ul>
                     <div class=" justify-center flex border-t border-gray-400">
                         <a href=""
                            class=" bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
-                            Заказать
+                            Order
                         </a>
                     </div>
                 </div>
@@ -751,17 +746,17 @@
                             от <span class=" text-gray-700"> <b>18 900 000</b></span> uzs <br>в <b>год</b></h1>
                     </div>
                     <ul class="list-disc text-gray-700 text-lg mt-3 pb-20">
-                        <li><b>40 Ключевых слов</b></li>
-                        <li>Аудит сайта</li>
-                        <li>Внутренняя оптимизация</li>
-                        <li>Внешняя оптимизация</li>
-                        <li>Написание уникальных текстов</li>
-                        <li>от 3 до 6 месяцев</li>
+                        <li><b>40 Keywords</b></li>
+                         <li>Site audit</li>
+                         <li>Internal optimization</li>
+                         <li>External optimization</li>
+                         <li>Writing unique texts</li>
+                         <li>from 4 to 6 months</li>
                     </ul>
                     <div class=" justify-center flex border-t border-gray-400">
                         <a href=""
                            class="bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
-                            Заказать
+                            Order
                         </a>
                     </div>
                 </div>
@@ -779,7 +774,7 @@
                             от <span class=" text-gray-700"> <b>5 000 000</b></span> uzs <br>в <b>месяц</b></h1>
                     </div>
                     <ul class="list-disc text-gray-700 text-lg mt-3 pb-20">
-                        <li><b>от 10 Ключевых слов</b></li>
+                        <li><b>от 10 Keywords in слов</b></li>
                         <li>Аудит сайта</li>
                         <li>Внутренняя оптимизация</li>
                         <li>Внешняя оптимизация</li>
@@ -789,7 +784,7 @@
                     <div class=" justify-center flex border-t border-gray-400">
                         <a href=""
                            class="bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
-                            Заказать
+                            Order
                         </a>
                     </div>
                 </div>
@@ -872,7 +867,7 @@
                         Работа <b>SEO агенства</b> заключается в том, чтобы клиенты нашли ваш сайт и совершили на нем целевое
                         действие: звонок, заявку или покупку. Мы не только работаем над <b>SEO оптимизацией</b> , мы
                         настраиваем аналитику, пишем контент и внедряем доработки, также продвигаем сайты в ТОП-10.
-                        Заказать SEO продв</b> своего сайта можете прямо здесь. Мы позвоним и проконсультируем вас.
+                        Order SEO продв</b> своего сайта можете прямо здесь. Мы позвоним и проконсультируем вас.
                         <br>
                         <br>
                         Рекламное агентство «Open Engine» предлагает SEO продвижение и SEO оптимизацию в Узбекистане.

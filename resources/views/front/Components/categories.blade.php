@@ -98,5 +98,36 @@
                 </div>
             </div>
         </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <!-- Right Side Of Navbar -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Authentication Links -->
+                @php $locale = session()->get('locale'); @endphp
+                <li class="nav-item dropdown">
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        {{-- @switch($locale)
+                            @case('en')
+                            English
+                            @break
+                            @case('ru')
+                            Russian
+                            @break
+                            @case('uz')
+                            Uzbek
+                            @break
+                            @default
+                            English
+                        @endswitch --}}
+                        <span class="caret"></span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="lang/en"><img src="">English</a>
+                        <a class="dropdown-item" href="lang/ru"><img src="">Russian</a>
+                        <a class="dropdown-item" href="lang/uz"><img src="">Uzbek</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
 </div>
