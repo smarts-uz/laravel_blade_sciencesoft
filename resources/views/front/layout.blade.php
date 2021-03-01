@@ -9,7 +9,6 @@
         crossorigin="anonymous" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="{{ asset('custom_css/swiper.css') }}">
     <title>{{ _trans('TeamPro') }}</title>
 
 
@@ -38,7 +37,6 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('js/swiper.js') }}"></script>
     <script src="{{ asset('js/tab.js') }}"></script>
-    <script src="{{ asset('js/navbar.js') }}"></script>
     <script src="{{ asset('index.js') }}"></script>
     <script>
         $(document).ready(function() {
@@ -66,12 +64,20 @@
 
     </script>
 
- <script>
-window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
-(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
-var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
-})('https://widget.replain.cc/dist/client.js');
-</script>
+    <script>
+        window.replainSettings = {
+            id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea'
+        };
+        (function(u) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = u;
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })('https://widget.replain.cc/dist/client.js');
+
+    </script>
 
 
 </body>
