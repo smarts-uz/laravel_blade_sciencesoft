@@ -51,7 +51,14 @@ new Swiper('.about-slide', {
   new Swiper('.big-slide', {
     slidesPerView: 1,
     spaceBetween: 30,
+<<<<<<< HEAD
     loop: true,
+=======
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

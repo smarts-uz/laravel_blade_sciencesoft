@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="en">
+=======
+<html lang="{{ app()->getLocale() }}">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
 
 <head>
     <meta charset="UTF-8">

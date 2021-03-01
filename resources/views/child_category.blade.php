@@ -4,7 +4,7 @@
         {{ $child_category->path_blade }}
     @endif
 </li>
-
+{{-- My code added --}}
 {{-- @if ($child_category->categories)
     <ul>
         @foreach ($child_category->categories as $childCategory)

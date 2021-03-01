@@ -10,7 +10,11 @@
       <!-- Custom Enterprise -->
       <div>
 
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
         <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
+=======
+        <h1 class="uppercase font-bold mt-10 text-3xl">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
           {{ _trans("Custom Enterprise and SaaS Java Application Development")  }}
         </h1>
         <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
@@ -35,13 +39,18 @@
 
       <!-- WHAT WE BUILD IN JAVA -->
       <div>
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
         <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
+=======
+        <h1 class="uppercase font-bold mt-10 text-3xl">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
           {{ _trans("What we build in java")  }}
         </h1>
         <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
         <img class="mt-5"
           src="https://www.scnsoft.com/software-development-services/java-development-outsourcing/we-build-1.svg"
         />
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
         <div class='lg:flex block justify-between items-center lg:p-10 p-6 shadow-lg mt-3'>
           <div class='lg:w-2/3 w-full	 '>
             <h1 class='text-gray-900 lg:mt-6'>
@@ -58,6 +67,33 @@
 
         <div>
           <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
+=======
+        <div class="rounded-sm border-2 mt-10 transition-shadow p-2 md:p-8">
+          <div class="flex flex-col md:flex-row items-center">
+            <div class="flex flex-col w-3/4">
+              <h1 class="text-xl md:text-2xl font-bold">
+                {{ _trans("Benefit from a Streamlined Delivery of Stable Java Software")  }}
+              </h1>
+              <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
+              <p class="text-gray-600 text-lg md:text-xl leading-4">
+                {{ _trans("TeamPRO offers timely development of Java applications
+                with a sustainable architecture, clean code and a high
+                coverage with unit tests.")  }}
+              </p>
+            </div>
+            <div class="mr-0 md:mr-8 mb-8 md:mb-0 sm:mt-3">
+              <button class="uppercase bg-blue-700 text-base text-white">
+                {{ _trans("Request Java Development")  }}
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- WHY CHOOSE TEAMPRO AS YOUR JAVA DEVELOPMENT PARTNER? -->
+
+        <div>
+          <h1 class="uppercase font-bold mt-10 text-3xl">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
             {{ _trans("Why choose teampro as your java development partner?")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
@@ -125,7 +161,11 @@
 
         <!-- WHAT MAKES TEAMPRO’S JAVA DEVELOPERS STAND OUT -->
         <div>
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
           <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
+=======
+          <h1 class="uppercase font-bold mt-10 text-3xl">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
             {{ _trans("What makes teampro's java developers stand out")  }}
           </h1>
           <hr class="w-12  mt-5 border-b-2 border-yellow-400" />
@@ -188,7 +228,11 @@
 
         <!--SAMPLE ARCHITECTURE OF THE JAVA SOLUTIONS WE DELIVER -->
         <div>
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
           <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
+=======
+          <h1 class="uppercase font-bold mt-10 text-3xl">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
             {{ _trans("Sample Architecture of the java solutions we deliver")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
@@ -238,7 +282,11 @@
 
         <!-- SELECTED PROJECTS -->
         <div>
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
           <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
+=======
+          <h1 class="uppercase font-bold mt-10 text-3xl">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
             {{ _trans("Selected Projects")  }}
           </h1>
           <hr class="w-12  mt-5 border-b-2 border-yellow-400" />
@@ -247,7 +295,11 @@
               <div class="flex lg:w-2/5 w-full  text-xl mr-0 md:mr-8 mb-8 md:mb-0">
                 <img class="w-64" src="https://www.scnsoft.com/boss/images/948b4f5b-9046-4f88-a8a1-ea5f1095f6cfinvention_machine_with_semantic_search_small.jpg" alt="">
               </div>
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
               <div class=" flex flex-col lg:w-4/5 w-full mb-10">
+=======
+              <div class=" flex flex-col w-4/5 mb-10">
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
                 <h1 class="text-xl md:text-2xl font-bold">{{ _trans("Development of Invention Machine Software with Semantic Search")  }}</h1>
                 <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                 <p class=" text-gray-500 text-lg md:text-xl">
@@ -256,7 +308,11 @@
 
               </div>
             </div>
+<<<<<<< HEAD:resources/views/front/pages/Services/Technologies/java.blade.php
             <a class="uppercase lg:absolute right-10 text-blue-700 bottom-6" href="#">{{ _trans("Learn More")  }}<i class="fas fa-arrow-right ml-4"></i></a>
+=======
+            <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">{{ _trans("Learn More")  }}<i class="fas fa-arrow-right ml-4"></i></a>
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd:resources/views/front/pages/services/technologies/java.blade.php
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 
 // Route::get('/', function () {
 //     return view('front.pages.index');
@@ -60,6 +61,8 @@ Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->n
 // Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
 // Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
 // industry pages end
+=======
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
 Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCategoryByName')->name('getCategoryByName');
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
@@ -91,14 +94,18 @@ Route::group(['middleware'=>'auth'], function() {
 
 
 
+<<<<<<< HEAD
 Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
 // Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('language.update');
 // Route::delete('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
 // Route::resource('languages', 'App\Http\Controllers\LanguageController');
+=======
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
 // Route::post('/env_key_update', 'BusinessSettingsController@env_key_update')->name('env_key_update.update');
 // lang
+<<<<<<< HEAD
 Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class, 'index']);
 
 
@@ -111,6 +118,16 @@ Route::post('/language', 'App\Http\Controllers\LanguageController@changeLanguage
 Route::get('/languages', 'App\Http\Controllers\LanguageController@index')->name('languages.index');
 // Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('languages.update');
 // Route::get('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
+=======
+Route::post('/consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
+Route::post('', 'App\Http\Controllers\HomePageController@postFile')->name('postFile');
+Route::get('lang/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
+Route::get('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
+Route::get('/languages', 'App\Http\Controllers\LanguageController@index')->name('languages.index');
+>>>>>>> 272238988989ebd1b8b3156cf4fbc5d9d44f1afd
 Route::get('/languages/create', 'App\Http\Controllers\LanguageController@create')->name('languages.create');
 Route::post('/languages/store', 'App\Http\Controllers\LanguageController@store')->name('languages.store');
 Route::get('/languages/show/{id}', 'App\Http\Controllers\LanguageController@show')->name('languages.show');
