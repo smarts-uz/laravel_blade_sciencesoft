@@ -712,7 +712,7 @@
         <div class="mx-12">
             <button
                 class="p-4 w-full mt-6  mb-12  uppercase font-bold text-white text-center bg-blue-700 hover:bg-blue-900">
-                go for upgrade
+                {{(_trans('go for upgrade')}}
             </button>
         </div>
     </div>
