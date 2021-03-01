@@ -22,7 +22,7 @@
     <div class="wrapper">
 
         @include('front.Components.categories', $categories)
-        <div class="mt-24 px-6 md:px-16">
+        <div class="md:mt-24 mt-14 px-6 md:px-16">
             @yield('main')
         </div>
         @include('front.Components.footer')
