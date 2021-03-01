@@ -42,26 +42,6 @@
         <img class="mt-5"
           src="https://www.scnsoft.com/software-development-services/java-development-outsourcing/we-build-1.svg"
         />
-        {{-- <div class="rounded-sm border-2 mt-10 transition-shadow p-2 md:p-8">
-          <div class="flex flex-col md:flex-row items-center">
-            <div class="flex flex-col w-3/4">
-              <h1 class="text-xl lg:text-2xl font-bold">
-                {{ _trans("Benefit from a Streamlined Delivery of Stable Java Software")  }}
-              </h1>
-              <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
-              <p class="text-gray-600 text-lg md:text-xl leading-4">
-                {{ _trans("TeamPRO offers timely development of Java applications
-                with a sustainable architecture, clean code and a high
-                coverage with unit tests.")  }}
-              </p>
-            </div>
-            <div class="mr-0 md:mr-8 mb-8 md:mb-0 sm:mt-3">
-              <button class="uppercase bg-blue-700 text-base text-white">
-                {{ _trans("Request Java Development")  }}
-              </button>
-            </div>
-          </div>
-        </div> --}}
         <div class='lg:flex block justify-between items-center lg:p-10 p-6 shadow-lg mt-3'>
           <div class='lg:w-2/3 w-full	 '>
             <h1 class='text-gray-900 lg:mt-6'>
@@ -82,7 +62,7 @@
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <div class="lg:flex lg:flex-row block mt-5">
-            <div >
+            <div >se
               <div class="flex flex-row mb-2">
                 <span class="text-blue-600 mr-4">&#9632;</span>
                 <p class="text-lg">{{ _trans("Over 20 years in Java development.")  }}</p>
