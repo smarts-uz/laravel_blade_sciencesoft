@@ -4,9 +4,9 @@ use App\Translation;
 
 if (! function_exists('_trans')) {
     function _trans($key, $lang = null){
-        // if($lang == null){
-        //     $lang = App::getLocale();
-        // }
+        if($lang == null){
+            $lang = 'en';
+        }
 
         $translation_def = Translation::where('lang', env('DEFAULT_LANGUAGE', 'en'))->where('lang_key', $key)->first();
         if($translation_def == null){
