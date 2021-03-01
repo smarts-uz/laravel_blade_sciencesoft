@@ -83,51 +83,16 @@
                 <i class="fas fa-bars"></i>
             </div>
         </div>
-        <div id="exitbar" x-data="{search: true}"
-            class="w-full py-0 lg:py-2 duration-300 justify-between ml-4 items-center hidden bg-white">
-            <input type="text" onclick="search = true"
+        <div id="exitbar" class="w-full py-0 lg:py-2 duration-300 justify-between ml-4 items-center hidden bg-white">
+            <input type="text" placeholder="Search..." id="searchInput"
                 class="border focus:border-blue-500 duration-300 border-gray-300 rounded focus:outline-none w-full z-50 mr-1 py-0 lg:py-2 lg:px-3 px-3">
             <div class="flex w-10 h-10 justify-center items-center z-50 rounded-full">
                 <i onclick="exitClick()" class="fa fa-times text-gray-800 text-2xl z-50"></i>
             </div>
 
-            <div x-show="search" class="duration-500 bg-red-500 w-full absolute left-0 z-40 top-16 py-5 px-10">
-                <div class="flex">
-                    <i class="fas fa-search"></i>
-                    <h1>Ogabeksdsdfsdfsdfsdffsdf</h1>
-                </div>
-            </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <!-- Right Side Of Navbar -->
-            <ul class="navbar-nav ml-auto">
-                <!-- Authentication Links -->
-                @php $locale = session()->get('locale'); @endphp
-                <li class="nav-item dropdown">
-                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{-- @switch($locale)
-                            @case('en')
-                            English
-                            @break
-                            @case('ru')
-                            Russian
-                            @break
-                            @case('uz')
-                            Uzbek
-                            @break
-                            @default
-                            English
-                        @endswitch --}}
-                        <span class="caret"></span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="lang/en"><img src="">English</a>
-                        <a class="dropdown-item" href="lang/ru"><img src="">Russian</a>
-                        <a class="dropdown-item" href="lang/uz"><img src="">Uzbek</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
+
+
+        @include('front.Components.resources_views_components_language_selection')
     </div>
 </div>
