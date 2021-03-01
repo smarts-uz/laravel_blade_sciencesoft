@@ -8,7 +8,7 @@
 
 
     <div class="flex flex-col lg:flex-row my-5 pb-12">
-        <div class="w-full lg:w-3/12  lg:flex flex-col mr-2">
+        <div class="w-1/4 lg:w-3/12  lg:flex flex-col mr-2">
             <div class="">
                 <ul class="flex flex-col">
 
@@ -67,7 +67,9 @@
                                 </div>
 
 
-    <ul class="flex flex-col mt-8">
+
+    <div class="w-3/4 lg:w-9/12  lg:flex flex-col mr-2">
+       <ul class="flex flex-col mt-8">
         <li class="flex flex-row items-start p-3 bg-blue-800 text-white outline-none border-none">
             <i class="fas fa-users mt-1"></i>
             <p class="uppercase ml-3 font-bold">{{ _trans('Hr department contact') }}</p>
@@ -108,11 +110,13 @@
             </div>
         </li>
     </ul>
+
     <a href="../contact-us.html"
        class="w-full uppercase bg-yellow-500 text-white text-xl flex flex-row items-center p-3 hover:bg-yellow-300">
         <i class="fas fa-upload fa-1x mr-4"></i>
         <p>{{ _trans('Upload your cv') }}</p>
     </a>
+    </div>
     </div>
 
 
