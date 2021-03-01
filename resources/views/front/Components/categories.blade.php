@@ -38,9 +38,7 @@
 <div class="md:px-16 lg:px-16 px-6 w-full top-0 left-0 fixed bg-white shadow z-50">
     <div class="flex justify-between items-center">
         <a href="/">
-            <img class="w-32"
-                src="{{ asset('assets/images/logo2.png') }}"
-                alt="logo">
+            <img class="w-32" src="{{ asset('assets/images/logo2.png') }}" alt="logo">
         </a>
         <div id="searchbar" class="flex justify-end items-center w-4/5">
             <ul class="w-11/12 hidden lg:flex justify-end items-center list-none">
@@ -109,7 +107,8 @@
                 @endforeach
                 <li
                     class="flex justify-center rounded items-center bg-blue-700 text-white px-4 py-2 mr-6 hover:bg-blue-900">
-                    <a class="text-sm font-bold" href="{{ route('getBlade', ['page' => 'contact_us']) }}">Let's talk</a>
+                    <a class="text-sm font-bold" href="{{ route('getBlade', ['page' => 'contact_us']) }}">Let's
+                        talk</a>
                 </li>
             </ul>
             <!-- Search Bar -->
@@ -122,11 +121,12 @@
             </div>
         </div>
         <div id="exitbar" class="w-full py-0 lg:py-2 duration-300 justify-between ml-4 items-center hidden bg-white">
-            <input type="text" name=""
+            <input type="text" placeholder="Search..." id="searchInput"
                 class="border focus:border-blue-500 duration-300 border-gray-300 rounded focus:outline-none w-full z-50 mr-1 py-0 lg:py-2 lg:px-3 px-3">
             <div class="flex w-10 h-10 justify-center items-center z-50 rounded-full">
                 <i onclick="exitClick()" class="fa fa-times text-gray-800 text-2xl z-50"></i>
             </div>
+
         </div>
         {{-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <!-- Right Side Of Navbar -->
@@ -159,5 +159,8 @@
                 </li>
             </ul>
         </div> --}}
+
+
+        @include('front.Components.resources_views_components_language_selection')
     </div>
 </div>
