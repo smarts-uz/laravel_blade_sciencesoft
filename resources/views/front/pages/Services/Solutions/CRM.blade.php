@@ -5,87 +5,18 @@
 @endsection
 
 @section('main')
-
-<!-- <div class="mx-6 md:mx-16 lg:mx-24 my-10">
-            <h1 class="font-bold mt-10 text-4xl">CRM Services to Maximize Customer Relationship Management Output</h1>
-            <hr class="w-12 border-b-2 border-yellow-600  my-4"/>    
-            <img src="https://www.scnsoft.com/crm/crm-services/cover-pic-crm-services-3.svg" alt="">
-            <p class="pt-5">
-              CRM services are aimed to automate marketing, sales and customer 
-              service, and range from CRM consulting and implementation to testing and
-               support of a CRM solution.
-            </p>
-            <p class="pt-4">
-              Having 12 years of experience in CRM services, ScienceSoft helps
-               businesses reduce their marketing, sales and customer service costs with all-round CRM 
-              implementation and regain lost business opportunities through evolution of the existing CRM.
-            </p>
-        <div class="rounded-sm border-2 border-white shadow-2xl  transition-shadow  mr-20 p-6">
-          <div class="flex flex-col">
-            <h1 class="text-xl font-bold">CRM Efforts Don’t Pay Off Enough?</h1>
-            <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-          <div class="flex flex-wrap">
-            <p class="text-gray-400 text-md w-full lg:w-4/5">
-              Decrease the costs and improve the output of customer acquisition and retention with ScienceSoft’s CRM services.
-            </p>
-            <button class="text-white bg-blue-700  uppercase mt-8 lg:w-2/1 p-2 block ml-auto mt-4">Request CRM Services</button>
-          </div>
-          </div>
-        </div>
-          <h1 class="font-bold mt-10 text-2xl">WHY TURN TO SCIENCESOFT</h1>
-          <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-          <ul class="list-disc">
-            <li class="mt-2">31 years in IT.</li>
-            <li class="mt-2">12 years in <a href="">CRM consulting</a> and implementation</li>
-            <li class="mt-2">700 professionals on board</li>
-            <li class="mt-2">Partnerships with leading CRM providers: <a href="#">Microsoft</a> and <a href="#">Salesforce.</a></li>
-            <li class="mt-2">Industry expertise in retail and wholesale, professional services, manufacturing, healthcare, banking, telecoms, etc.</li>
-          </ul>
-  
-  
-          
-          <div class="">
-            <div class="flex flex-wrap justify-between">
-              <li class="border-l border-r list-none p-4 lg:w-1/5 md:w-1/2 w-full">
-                <div>
-                  <span class="text-left text-4xl font-semibold	 text-blue-700">-70%</span>
-                </div>
-                <div class="leading-4  text-gray-700 leading-6">manual effort across sales, marketing, and customer service</div>
-              </li>
-              <li class="border-l  border-r list-none p-4 lg:w-1/5 md:w-1/2 w-full">
-                <div>
-                  <span class="text-left text-4xl font-semibold	 text-blue-700">-70%</span>
-                </div>
-                <div class="leading-4  text-gray-700 leading-6">manual effort across sales, marketing, and customer service</div>
-              </li>
-              <li class="border-l border-r list-none p-4 lg:w-1/5 md:w-1/2 w-full">
-                <div>
-                  <span class="text-left text-4xl font-semibold	 text-blue-700">-70%</span>
-                </div>
-                <div class="leading-4  text-gray-700 leading-6">manual effort across sales, marketing, and customer service</div>
-              </li>
-              <li class="border-l  border-r list-none p-4 lg:w-1/5 md:w-1/2 w-full">
-                <div>
-                  <span class="text-left text-4xl font-semibold	 text-blue-700">-70%</span>
-                </div>
-                <div class="leading-4  text-gray-700 leading-6">manual effort across sales, marketing, and customer service</div>
-              </li>
-            </div>
-          </div>
-          
-</div> -->
-<div class="block mx-6 md:mx-16 lg:mx-24">
+<div class="block p-4 lg:px-20">
             <div class="w-full mb-6">
                <h1 class="text-xl md:text-2xl mb-4 font-bold text-gray-800">
-                        CRM Services to Maximize Customer Relationship Management Output
+                    CRM Services to Maximize Customer Relationship Management Output
                </h1>
                <hr class="w-12 mb-6 border-b-2 border-yellow-300">
                <img src="https://www.scnsoft.com/crm/crm-services/cover-pic-crm-services-3.svg" alt="" class="w-full mb-6">
                <p class="text-md md:text-lg text-gray-600 mb-4">
-                CRM services are aimed to <strong>automate marketing, sales and customer service</strong>, 
+                CRM services are aimed to <strong>automate marketing, sales and customer service</strong>,
                 and range from CRM consulting and implementation to testing and support of a CRM solution.<br><br>
-                Having <strong>12 years of experience in CRM services</strong>, ScienceSoft helps businesses reduce their 
-                marketing, sales and customer service costs with all-round CRM implementation and regain lost 
+                Having <strong>12 years of experience in CRM services</strong>, TeamPRO helps businesses reduce their
+                marketing, sales and customer service costs with all-round CRM implementation and regain lost
                 business opportunities through evolution of the existing CRM.
                </p>
             </div>
@@ -96,7 +27,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        Decrease the costs and improve the output of customer acquisition and retention with ScienceSoft’s CRM services.
+                        Decrease the costs and improve the output of customer acquisition and retention with TeamPRO’s CRM services.
                     </p>
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">
@@ -105,7 +36,7 @@
             </div>
             <div class="w-full mb-6 mt-6">
                 <h1 class="text-xl md:text-2xl mb-4 font-bold text-gray-800">
-                    WHY TURN TO SCIENCESOFT
+                    WHY TURN TO TEAMPRO
                 </h1>
                 <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                 <ul style="list-style: square;" class="text-blue-700 m-6">
@@ -117,7 +48,7 @@
                 </ul>
             </div>
             <h1 class="text-3xl text-gray-600 font-bold text-center mb-6">Corusel</h1>
-            <div class=" slide w-full mb-9">
+            <div class="slide w-full mb-9">
                 <h1 class="text-xl md:text-2xl mb-4 font-bold text-gray-800">
                     WHAT CRM ALIGNED WITH YOUR BUSINESS BRINGS
                 </h1>
@@ -174,8 +105,8 @@
                     </h1>
                     <hr class="w-12 mb-6 border-b-2 border-yellow-300">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        According to <a href="#" class="text-blue-700 underline">Forrester</a>, you may get the full payback 
-                        of your customer relationship management solution in 10 
+                        According to <a href="#" class="text-blue-700 underline">Forrester</a>, you may get the full payback
+                        of your customer relationship management solution in 10
                         months after it goes live. Such impressive results are achieved through:
                     </p>
                     <div class="w-full mb-6 flex flex-wrap" style="justify-content: space-between; align-items: center;">
@@ -212,7 +143,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        ScienceSoft can assess the feasibility of different 
+                        TeamPRO can assess the feasibility of different
                         CRM options or CRM evolution investments and calculate your potential ROI.</p>
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">
@@ -231,18 +162,66 @@
                     FEATURED CRM SUCCESS STORIES
                 </h1>
                 <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
-                <div class="container -mt-36">
-            <section class="customer-logos slider ">
-                <div class="slide"><img src="images/adidas.png" alt="logo"></div>
-                <div class="slide"><img src="images/facebook.png" alt="logo"></div>
-                <div class="slide"><img src="images/google.png" alt="logo"></div>
-                <div class="slide"><img src="images/instagram.png" alt="logo"></div>
-                <div class="slide"><img src="images/nike.png" alt="logo"></div>
-                <div class="slide"><img src="images/twitter.png" alt="logo"></div>
-                <div class="slide"><img src="images/uber.png" alt="logo"></div>
-                <div class="slide"><img src="images/youtube.png" alt="logo"></div>
-            </section>
-        </div>
+
+                <div class="swiper-container big-slide">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2C ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2C ecommerce portals, customers value personalized and frictionless experience
+                                        across
+                                        the digital channels.
+                                    </p>
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide px-16 pb-4">
+                            <div class="p-6 border md:flex hover:shadow-lg my-6">
+                                <div class="md:w-6/12 mr-3">
+                                    <img class="m-auto"
+                                        src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png" alt="">
+                                </div>
+                                <div class="mt-6 md:w-6/12 ml-3">
+                                    <h1 class="text-xl font-bold">
+                                        A B2B ecommerce portal demo
+                                    </h1>
+                                    <p class="text-lg text-gray-600 mt-6 md:text-xl">
+                                        In B2B ecommerce portals, buyers value convenient self-service tools to place and
+                                        manage
+                                        their bulk orders.
+                                    </p>
+
+                                    <p class="text-center mt-4 md:text-right lg:pt-16">
+                                        <a href="#" class="text-blue-700 font-semibold items-end">
+                                            WATCH THE DEMO <i class="fas fa-arrow-right ml-2"></i>
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="swiper-button-next text-gray-400"></div>
+                    <div class="swiper-button-prev text-gray-400"></div>
+                </div>
+
             </div>
             <div class="w-full mb-9">
                 <h1 class="text-2xl md:text-2xl mb-4 font-bold text-gray-800 uppercase">
@@ -289,8 +268,8 @@
                                     CRM Implementation
                                 </h3>
                                 <p class="text-md md:text-lg text-gray-600 mb-4">
-                                    End-to-end CRM implementation, leveraging the capabilities of market-leading 
-                                    CRM – Microsoft Dynamics 365 and Salesforce. We cover the entire project scope, 
+                                    End-to-end CRM implementation, leveraging the capabilities of market-leading
+                                    CRM – Microsoft Dynamics 365 and Salesforce. We cover the entire project scope,
                                     including consulting, configuration, customization, migration and integration.
                                 </p>
                                 <div class="mt-5" style="display: flex; justify-content: flex-end;">
@@ -315,8 +294,8 @@
                                 </h3>
                                 <ul style="list-style: square;" class="text-blue-700 m-6">
                                     <li class="mb-4 text-md md:text-lg text-gray-600"><strong class="text-base">CRM development from scratch. </strong>from the design of marketing, sales and
-                                        Business analysis, end-to-end evolutionary development of CRM software, 
-                                        testing and quality assurance, risk and change management, data migration 
+                                        Business analysis, end-to-end evolutionary development of CRM software,
+                                        testing and quality assurance, risk and change management, data migration
                                         from legacy CRM or spreadsheets, user training.
                                     </li>
                                     <li class="mb-4 text-md md:text-lg text-gray-600">Development of <strong class="text-base">custom apps and add-ons</strong> for platform-based CRM.
@@ -341,9 +320,9 @@
                                     CRM Testing
                                 </h3>
                                 <p class="text-md md:text-lg text-gray-600 mb-4">
-                                    Functionality, integrations, performance, usability, and 
-                                    security testing. Our testing services are aimed at providing 
-                                    you with insights on your CRM functioning and identifying the 
+                                    Functionality, integrations, performance, usability, and
+                                    security testing. Our testing services are aimed at providing
+                                    you with insights on your CRM functioning and identifying the
                                     ways to better your existing solution.
                                 </p>
                                 <div class="mt-5" style="display: flex; justify-content: flex-end;">
@@ -368,10 +347,10 @@
                                 </h3>
                                 <ul style="list-style: square;" class="text-blue-700 m-6">
                                     <li class="mb-4 text-md md:text-lg text-gray-600"><strong class="text-base">Administration support,</strong>from the design of marketing, sales and
-                                        including daily administration, data administration, 24/7 CRM 
+                                        including daily administration, data administration, 24/7 CRM
                                         system monitoring, monthly system health checks and user help desk.
                                     </li>
-                                    <li class="mb-4 text-md md:text-lg text-gray-600"><strong class="text-base">Development support</strong> 
+                                    <li class="mb-4 text-md md:text-lg text-gray-600"><strong class="text-base">Development support</strong>
                                         including troubleshooting and CRM system evolution.
                                     </li>
                                 </ul>
@@ -394,9 +373,9 @@
                 </h1>
                 <hr class="w-12 mb-9 border-b-2 border-yellow-300">
                 <p class="text-md md:text-lg text-gray-600 mb-4">
-                    The competition on the market never ends, and those who armed and 
-                    ready are to be the winners. With the help of CRM-based sales, marketing 
-                    and customer service automation, you may lead this competition confidently, 
+                    The competition on the market never ends, and those who armed and
+                    ready are to be the winners. With the help of CRM-based sales, marketing
+                    and customer service automation, you may lead this competition confidently,
                     achieving the following results:
                 </p>
                 <div class="slide w-full md:flex md:flex-wrap">
@@ -435,24 +414,24 @@
                 </div>
             </div>
             <div class="card w-full mb-9 p-4 shadow-lg md:flex" style="align-items: center; justify-content: space-between;">
-            <div class="text">
-                <h1 class="text-2xl md:text-2xl mb-4 font-bold text-gray-800">
-                    Go for CRM-based Automation Now!
-                </h1>
-                <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
-                <p class="text-md md:text-lg text-gray-600 mb-4">
-                    Gain considerable revenue increase with CRM-enhanced sales, marketing and customer service.
-                </p>
-            </div>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">
-                INCREASE MY REVENUE
-            </button>
+                <div class="text">
+                    <h1 class="text-2xl md:text-2xl mb-4 font-bold text-gray-800">
+                        Go for CRM-based Automation Now!
+                    </h1>
+                    <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
+                    <p class="text-md md:text-lg text-gray-600 mb-4">
+                        Gain considerable revenue increase with CRM-enhanced sales, marketing and customer service.
+                    </p>
+                </div>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">
+                    INCREASE MY REVENUE
+                </button>
             </div>
         </div>
 
 @endsection
 
-
 @section('js')
+
 
 @endsection

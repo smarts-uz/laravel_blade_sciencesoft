@@ -13,7 +13,7 @@
 <!-- Image Field -->
 <div class="form-group">
     {!! Form::label('image', 'Image:') !!}
-    <p>{{ $companyTeam->image }}</p>
+    <p>{{ $companyTeam??asset('images/default-image.png') }}</p>
 </div>
 
 <!-- Description Field -->
@@ -21,4 +21,3 @@
     {!! Form::label('description', 'Description:') !!}
     <p>{{ $companyTeam->description }}</p>
 </div>
-

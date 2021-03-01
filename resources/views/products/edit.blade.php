@@ -5,9 +5,9 @@
 @section('content')
     <section class="section">
             <div class="section-header">
-                <h3 class="page__heading m-0">Edit Product</h3>
+                <h3 class="page__heading m-0">{{ _trans("Edit Product")  }}</h3>
                 <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                    <a href="{{ route('products.index') }}"  class="btn btn-primary">Back</a>
+                    <a href="{{ route('products.index') }}"  class="btn btn-primary">{{ _trans("Back")  }}</a>
                 </div>
             </div>
   <div class="content">
@@ -23,44 +23,44 @@
                                      <div class="row">
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="name">Name</label>
+                                             <label for="name">{{ _trans("Name")  }}</label>
                                              <input type="text" class="form-control" id="name" name="name" value="{{ $product->name }}">
                                          </div>
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="title">Title</label>
+                                             <label for="title">{{ _trans("Title")  }}</label>
                                              <input type="text" class="form-control" id="title" name="title" value="{{ $product->title }}">
                                          </div>
                                          <!-- Name Lang Field -->
-                                         <div class="form-group col-sm-6">
-                                             <label for="sub_title">Sub Title</label>
+                                         <div class="form-group col-sm-12">
+                                             <label for="sub_title">{{ _trans("Sub Title")  }}</label>
                                              <input type="text" class="form-control" id="sub_title" name="sub_title" value="{{ $product->sub_title }}">
                                          </div>
                                          <!-- Name Lang Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="read_more_link">Read More Link</label>
-                                             <input type="text" class="form-control" id="read_more_link" name="read_more_link" value="{{ $product->read_more_link }}">
-                                         </div>
-                                         <!-- Name Lang Field -->
-                                         <div class="form-group col-sm-6">
-                                             <label for="view_website_link">View Website Link</label>
+                                             <label for="view_website_link">{{ _trans("View Website Link")  }}</label>
                                              <input type="text" class="form-control" id="view_website_link" name="view_website_link" value="{{ $product->view_website_link }}">
                                          </div>
-
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <label for="Image">Image</label><br>
-                                                 <input type="file" id="images" name="image" value="{{ $product->image }}">
-                                                 <td><img src="/uploads/products/{{ $product->image }}" style="width: 200px; height: 200px;"></td>
+                                                 <label for="Image">{{ _trans("Image") }}</label><br>
+                                                 <input type="file" id="images" name="image" value="{{ $product->image??asset('images/default-image.png') }}">
+                                                 <td><img src="/uploads/products/{{ $product->image??asset('images/default-image.png') }}" style="width: 200px; height: 200px;"></td>
 
                                              </div>
                                          </div>
+                                         <!-- Description Text Field -->
+                                         <div class="form-group col-sm-6 col-lg-12">
+                                             <label for="description_text">{{ _trans("Read More Link") }}</label>
+                                             <textarea class="form-control" id="description_text" name="description_text">{{ old('read_more_link', $product->read_more_link) }}</textarea>
+                                         </div>
+
                                      </div>
                                      <!-- Submit Field -->
                                      <div class="form-group col-sm-12">
                                          {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                         <a href="{{ route('products.index') }}" class="btn btn-light">Cancel</a>
+                                         <a href="{{ route('products.index') }}" class="btn btn-light">{{ _trans("Cancel")  }}</a>
                                      </div>
                                  </form>
                             </div>
