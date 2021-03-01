@@ -1,3 +1,40 @@
+<div class="bg-white hidden overflow-y-auto  sidebar-menu h-screen w-64 fixed right-0 top-0 z-10 flex flex-col justify-between items-center">
+    <div class="relative">
+      <i onclick="closeSidebarMenu()" class="fa cursor-pointer fa-times text-black right-0 text-3xl z-50 absolute top-2 "></i>
+      @foreach ($categories as $category)
+      @if ($category->active)
+      <ul class="flex-col w-56">
+        <div class="flex items-center justify-between mt-14 cursor-pointer">
+        <a href="{{ route('getBlade', ['page' => $category->path_blade ?? '404']) }}"><li>{{ $category->name }}</li></a>
+        @if (empty($category->path_blade))
+        <i id="{{ $category->name }}" onclick="dropdownBtn{{ $category->name }}()" class="fas fa-chevron-down arrowDown{{ $category->name }}"></i>
+        <span onclick="closedropdown{{ $category->name }}()" class="hidden arrowUp{{ $category->name }}">
+        <i class="fas fa-chevron-up"></i>
+        </span>
+        </div>
+        <ul class="dropdown-container-{{ $category->name }} hidden flex-col mt-6 ml-4">
+          <h1 class="mb-2 mt-2 font-extrabold">{{ $category->name }}</h1>
+          <hr class="border-b-2 w-12 border-yellow-500">
+          @foreach ($category->subCategories as $subCategory)
+          @if ($subCategory->active && count($subCategory->subCategories))
+          @foreach ($subCategory->subCategories as $subSubCategory)
+          <a href="{{ route('getBlade', ['page' => $subSubCategory->path_blade ?? '404']) }}"><li class="mt-4">{{ $subSubCategory->name }}</li></a>
+          @endforeach
+          @endif
+          @endforeach
+        </ul>
+         @endif
+        </ul>
+        @endif
+        @endforeach
+        <a href="{{ route('getBlade', ['page' => 'contact_us']) }}"><button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ _trans("Let's Talk")  }}</button></a>
+    </div>
+    <div class="mb-8">
+      <p>{{ _trans("Can't find what you need?")  }}</p>
+      <button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ _trans("Ask Us")  }}</button>
+    </div>
+  </div>
+
 <div class="md:px-16 lg:px-16 px-6 w-full top-0 left-0 fixed bg-white shadow z-50">
     <div class="flex justify-between items-center">
         <a href="/">
@@ -91,7 +128,7 @@
                 <i onclick="exitClick()" class="fa fa-times text-gray-800 text-2xl z-50"></i>
             </div>
         </div>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        {{-- <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <!-- Right Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
                 <!-- Authentication Links -->
@@ -99,7 +136,7 @@
                 <li class="nav-item dropdown">
                     <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                        {{-- @switch($locale)
+                        @switch($locale)
                             @case('en')
                             English
                             @break
@@ -111,16 +148,16 @@
                             @break
                             @default
                             English
-                        @endswitch --}}
+                        @endswitch
                         <span class="caret"></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="lang/en"><img src="">English</a>
-                        <a class="dropdown-item" href="lang/ru"><img src="">Russian</a>
-                        <a class="dropdown-item" href="lang/uz"><img src="">Uzbek</a>
+                        <a class="dropdown-item" href="lang"><img src="">English</a>
+                        <a class="dropdown-item" href="lang"><img src="">Russian</a>
+                        <a class="dropdown-item" href="lang"><img src="">Uzbek</a>
                     </div>
                 </li>
             </ul>
-        </div>
+        </div> --}}
     </div>
 </div>
