@@ -13,53 +13,6 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-// Route::get('/', function () {
-//     return view('front.pages.index');
-// });
-// Route::get('/', 'App\Http\Controllers\Front\softController@index')->name('index');
-
-
-Route::get('/contact-us','App\Http\Controllers\Front\softController@contact')->name('contact');
-
-// Route::get('/services/software-development','App\Http\Controllers\Front\softController@softwaredevelopment')->name('softwaredevelopment');
-
-// // about-company pages start
-// Route::get('/about/about-company', 'App\Http\Controllers\Front\softController@aboutCompany')->name('aboutCompany');
-// Route::get('/management-Team', 'App\Http\Controllers\Front\softController@managementTeam')->name('managementTeam');
-// Route::get('/about/careers', 'App\Http\Controllers\Front\softController@careers')->name('careers');
-// Route::get('/partnerships', 'App\Http\Controllers\Front\softController@partnerships')->name('partnerships');
-// Route::get('/Sciencesoft-Referral-Program', 'App\Http\Controllers\Front\softController@ScienceSoftReferralProgram')->name('ScienceSoftReferralProgram');
-// Route::get('/our-locations', 'App\Http\Controllers\Front\softController@ourLocations')->name('ourLocations');
-// // about-company pages end
-
-
-
-
-// // services-technologies pages start
-// Route::get('/services/java', 'App\Http\Controllers\Front\softController@java')->name('java');
-// Route::get('/services/NET', 'App\Http\Controllers\Front\softController@NET')->name('NET');
-// Route::get('/services/PHP', 'App\Http\Controllers\Front\softController@PHP')->name('PHP');
-// Route::get('/services/python', 'App\Http\Controllers\Front\softController@python')->name('python');
-// Route::get('/services/golang', 'App\Http\Controllers\Front\softController@golang')->name('golang');
-// Route::get('/services/c++', 'App\Http\Controllers\Front\softController@cPlus')->name('cPlus');
-// Route::get('/services/configureYourTeam', 'App\Http\Controllers\Front\softController@configureYourTeam')->name('configureYourTeam');
-// // services-technologies pages end
-
-// // Industries pages start
-// Route::get('/industries/healthcare', 'App\Http\Controllers\Front\softController@healthcare')->name('healthcare');
-// Route::get('/industries/banking_financial_services', 'App\Http\Controllers\Front\softController@banking_financial_services')->name('banking_financial_services');
-// Route::get('/industries/retail', 'App\Http\Controllers\Front\softController@retail')->name('retail');
-// Route::get('/industries/ecommerce', 'App\Http\Controllers\Front\softController@ecommerce')->name('ecommerce');
-// Route::get('/industries/manufacturing', 'App\Http\Controllers\Front\softController@manufacturing')->name('manufacturing');
-// Route::get('/industries/market-Advertising', 'App\Http\Controllers\Front\softController@marketAdvertising')->name('marketAdvertising');
-// Route::get('/industries/telecommunications', 'App\Http\Controllers\Front\softController@telecommunications')->name('telecommunications');
-// Route::get('/industries/elearning', 'App\Http\Controllers\Front\softController@elearning')->name('elearning');
-// Route::get('/industries/transportation-Logistics', 'App\Http\Controllers\Front\softController@transportationLogistics')->name('transportationLogistics');
-// Route::get('/industries/oil-Gas', 'App\Http\Controllers\Front\softController@oilGas')->name('oilGas');
-// Route::get('/industries/professional-Services', 'App\Http\Controllers\Front\softController@professionalServices')->name('professionalServices');
-// Route::get('/industries/insurance', 'App\Http\Controllers\Front\softController@insurance')->name('insurance');
-// industry pages end
 Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCategoryByName')->name('getCategoryByName');
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
@@ -91,26 +44,18 @@ Route::group(['middleware'=>'auth'], function() {
 
 
 
-Route::post('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
-// Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('language.update');
-// Route::delete('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
-// Route::resource('languages', 'App\Http\Controllers\LanguageController');
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
 Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageController@key_value_store')->name('languages.key_value_store');
 // Route::post('/env_key_update', 'BusinessSettingsController@env_key_update')->name('env_key_update.update');
 // lang
-Route::get('lang/{locale}', [App\Http\Controllers\LocalizationController::class, 'index']);
-
-
 Route::post('/consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
 Route::post('', 'App\Http\Controllers\HomePageController@postFile')->name('postFile');
-
-
-Route::post('/language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
-
+Route::get('lang/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
+Route::get('language', 'App\Http\Controllers\LanguageController@changeLanguage')->name('language.change');
 Route::get('/languages', 'App\Http\Controllers\LanguageController@index')->name('languages.index');
-// Route::post('/languages/{id}/update', 'App\Http\Controllers\LanguageController@update')->name('languages.update');
-// Route::get('/languages/destroy/{id}', 'App\Http\Controllers\LanguageController@destroy')->name('languages.destroy');
 Route::get('/languages/create', 'App\Http\Controllers\LanguageController@create')->name('languages.create');
 Route::post('/languages/store', 'App\Http\Controllers\LanguageController@store')->name('languages.store');
 Route::get('/languages/show/{id}', 'App\Http\Controllers\LanguageController@show')->name('languages.show');

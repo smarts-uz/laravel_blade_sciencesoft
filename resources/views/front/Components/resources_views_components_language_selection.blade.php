@@ -6,8 +6,8 @@
         <img class="h-4 w-4 rounded-full mr-2" src="{{ asset('images/flags/' . $locale . '.png') }}" />
         <div>
             @if ($locale == 'en'){{ _trans('English') }}
-            @elseif($locale=='ru')){{ _trans('Russian') }}
-            @elseif($locale=='uz')){{ _trans('Uzbek') }}
+            @elseif($locale=='ru'){{ _trans('Russian') }}
+            @elseif($locale=='uz'){{ _trans('Uzbek') }}
             @else {{ _trans('English') }} @endif
         </div>
         <div class="ml-1">
