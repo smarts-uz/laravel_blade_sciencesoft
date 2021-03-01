@@ -8,10 +8,10 @@
 
     <div>
 
-        <div class="text-2xl md:text-4xl font-bold">
+        <div class="text-xl md:text-3xl font-bold">
             {{ _trans('Managed IT Services for Stable and Reliably Evolving IT Environment') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-teampro.svg">
+            <img src="https://www.scnsoft.com/managed-it-services/managed-new/cover-pic-managed-it-services-2.svg">
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
                     {{ _trans("Managed IT services are aimed at handing over your IT operations to a third-party IT services provider,
@@ -31,26 +31,26 @@
             </div>
         </div>
 
-        <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
-            <div class='w-2/3'>
+        <div class='flex justify-between md:flex-row flex-col items-center md:p-10 p-3 shadow-2xl my-8'>
+            <div class='md:w-2/3 w-full'>
                 <h1 class='text-gray-900 mt-6'>
-                    <p class='text-2xl font-bold'>{{ _trans('Do IT Operations Drain Your Resources?') }} </p>
+                    <p class='md:text-xl text-lg font-bold'>{{ _trans('Do IT Operations Drain Your Resources?') }} </p>
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
-                <p class='text-gray-600 text-xl'>
+                <p class='text-gray-600 md:text-xl text-lg'>
                     {{ _trans("Let us reverse the situation! From the support of daily operations
         to the assistance in digital transformation and implementation of novel technology, our IT
         outsourcing services are a cost-effective way of increasing business performance.") }}
                 </p>
             </div>
-            <div class='w-2/5 m-0 flex justify-center items-center'>
+            <div class='md:w-2/5 w-full md:mt-0 mt-2 flex justify-center items-center'>
                 <a href="#"
                     class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("DISCUSS MY
         OUTSOURCING OPTIONS") }}</a>
             </div>
         </div>
 
-        <div class="text-2xl md:text-4xl font-bold my-6">
+        <div class="text-xl md:text-3xl font-bold my-6">
             {{ _trans('IT Infrastructure Components Our Managed IT Services Tackle') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
@@ -89,17 +89,17 @@
         </div>
         <div class="w-full flex items-center justify-center">
             <img
-                src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-support/it-infrastructure-components-teampro.svg">
+                src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-support/it-infrastructure-components-sciencesoft.svg">
 
         </div>
 
-        <div class="text-2xl md:text-3xl font-bold mt-5">
+        <div class="text-xl md:text-3xl font-bold mt-5">
             {{ _trans('Deliverables of TeamPRO’s Managed IT Services') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
         <div class="flex flex-row flex-wrap">
-            <div class="rounded-sm border-2 transition-shadow hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow hover:shadow-lg w-72 h-auto m-2">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
@@ -125,7 +125,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-72 h-auto m-2">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans('Transparent service:') }}
@@ -150,7 +150,7 @@
                 </div>
             </div>
 
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-72 h-auto m-2">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
@@ -166,10 +166,7 @@
                 </div>
             </div>
 
-        </div>
-
-        <div class="flex flex-row m-8">
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-72 h-auto m-2">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
@@ -182,7 +179,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-72 h-auto m-2">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
@@ -201,13 +199,15 @@
                 </div>
             </div>
         </div>
+
+
         <div class='w-full m-0 flex justify-center items-center'>
             <a href="#"
                 class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("REQUEST MANAGED IT
     SERVICES") }}</a>
         </div>
 
-        <div class="text-2xl md:text-4xl font-bold my-10">
+        <div class="text-xl md:text-3xl font-bold my-10">
             {{ _trans('Why Choose TeamPRO') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             <ul class="font-normal list-outside list-disc bg-rose-200 text-lg leading-relaxed m-4">
@@ -243,13 +243,13 @@
                         @else{{ 'asset(images/default-image.png)' }} @endif "></div>
                 @endforeach
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next text-gray-400"></div>
+            <div class="swiper-button-prev text-gray-400"></div>
         </div>
 
 
 
-        {{-- <div class="text-2xl md:text-3xl font-bold mt-20">
+        {{-- <div class="text-xl md:text-3xl font-bold mt-20">
             {{ _trans('Technologies We Work with') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
@@ -271,7 +271,7 @@
             </ul>
             <div class="bg-gray-50 w-4/5 p-5">
                 <div id="Platforms" style="display: block;" class="content hidden">
-                    <h1 class="text-2xl font-bold">Programming</h1>
+                    <h1 class="text-xl font-bold">Programming</h1>
                     <hr class="w-14 h-0.5 border-none my-3 bg-yellow-400" />
                     <p>Click on the platform to learn about our capabilities in it.</p>
                     <div class="flex flex-wrap">
@@ -302,7 +302,7 @@
                     </div>
                 </div>
                 <div id="Monitoring-tools" class="content hidden">
-                    <h1 class="text-2xl font-bold">Monitoring tools</h1>
+                    <h1 class="text-xl font-bold">Monitoring tools</h1>
                     <hr class="w-14 h-0.5 border-none my-3 bg-yellow-400" />
                     <div class="flex flex-wrap">
                         <div
@@ -332,7 +332,7 @@
                     </div>
                 </div>
                 <div id="DevOps" class="content hidden">
-                    <h1 class="text-2xl font-bold">DevOps</h1>
+                    <h1 class="text-xl font-bold">DevOps</h1>
                     <hr class="w-14 h-0.5 border-none my-3 bg-yellow-400" />
                     <div class="flex flex-wrap">
                         <div
@@ -365,7 +365,7 @@
         </div> --}}
 
 
-        <div class="text-2xl md:text-3xl font-bold mt-20">
+        <div class="text-xl md:text-3xl font-bold mt-20">
             {{ _trans('Your Questions about Managed Services Answered') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
@@ -376,7 +376,7 @@
                     <img class="w-14" src="https://www.scnsoft.com/managed-it-services/managed-new/question.svg" alt="">
                 </div>
                 <div class=" flex flex-col w-5/6 ">
-                    <h1 class="text-xl md:text-2xl font-bold">
+                    <h1 class="text-xl md:text-xl font-bold">
                         {{ _trans('How do I know if my IT infrastructure costs may be reduced?') }}
                     </h1>
                     <p class=" text-lg md:text-xl ">
@@ -394,7 +394,7 @@
                     <img class="w-14" src="https://www.scnsoft.com/managed-it-services/managed-new/question.svg" alt="">
                 </div>
                 <div class=" flex flex-col w-5/6">
-                    <h1 class="text-xl md:text-2xl font-bold">
+                    <h1 class="text-xl md:text-xl font-bold">
                         {{ _trans("How can a managed service provider guarantee against premature
             service termination?") }}
                     </h1>
@@ -413,7 +413,7 @@
                     <img class="w-14" src="https://www.scnsoft.com/managed-it-services/managed-new/question.svg" alt="">
                 </div>
                 <div class=" flex flex-col w-5/6">
-                    <h1 class="text-xl md:text-2xl font-bold">
+                    <h1 class="text-xl md:text-xl font-bold">
                         {{ _trans('How do I know if my IT infrastructure costs may be reduced?') }}
                     </h1>
                     <p class=" text-lg md:text-xl ">
@@ -426,13 +426,13 @@
 
         </div>
 
-        <div class="text-2xl md:text-3xl font-bold mt-20">
+        <div class="text-xl md:text-3xl font-bold mt-20">
             {{ _trans('See Our Managed Services Delivered!') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
         <div class="swiper-container big-slide">
             <div class="swiper-wrapper">
-                <div class="swiper-slide px-16 pb-4">
+                <div class="swiper-slide md:px-16 px-4 pb-4">
                     <div class="p-6 border md:flex hover:shadow-lg my-6">
                         <div class="md:w-6/12 mr-3">
                             <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2c-demo.png" alt="">
@@ -455,7 +455,7 @@
                     </div>
                 </div>
 
-                <div class="swiper-slide px-16 pb-4">
+                <div class="swiper-slide md:px-16 px-4 pb-4">
                     <div class="p-6 border md:flex hover:shadow-lg my-6">
                         <div class="md:w-6/12 mr-3">
                             <img class="m-auto" src="https://www.scnsoft.com/blog-pictures/ecommerce/b2b-ecommerce-demo.png"
@@ -484,78 +484,81 @@
 
 
             </div>
-            <div class="swiper-button-next text-gray-400"></div>
-            <div class="swiper-button-prev text-gray-400"></div>
         </div>
 
-        <div class="text-2xl md:text-3xl font-bold mt-20">
+        <div class="text-xl md:text-3xl font-bold mt-20">
             {{ _trans('Our Service Packages') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
-        <div class="flex flex-row flex-wrap justify-between m-8">
-            <div class="rounded-sm border-2 transition-shadow hover:shadow-lg w-1/4 h-auto mr-10">
+        <div class="flex flex-row flex-wrap justify-between md:m-8 m-0">
+            <div class="rounded-sm border-2 transition-shadow hover:shadow-lg md:w-1/4 w-full md:mr-10 mr-0 my-2">
                 <hr class="w-full border-t-4 border-blue-800" />
-                <div class="p-4">
-                    <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans('Basic') }}</p>
-                    <p>
-                        {{ _trans('Get your infrastructure continuously supported and optimized:') }}
-                    </p>
-                    <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
-                        <li class="my-2">
-                            <a class="underline text-black hover:text-blue-500"
-                                href="#">{{ _trans("Proactive infrastructure
+                <div class="p-4 flex flex-col justify-between h-full">
+                    <div>
+                        <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans('Basic') }}</p>
+                        <p>
+                            {{ _trans('Get your infrastructure continuously supported and optimized:') }}
+                        </p>
+                        <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
+                            <li class="my-2">
+                                <a class="underline text-black hover:text-blue-500"
+                                    href="#">{{ _trans("Proactive infrastructure
                     monitoring") }}</a>
-                        </li>
-                        <li class="my-2">
-                            <a class="underline text-black" href="#">{{ _trans('IT infrastructure administration:') }}
-                            </a>
-                        </li>
-                        <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-2">
-                            <li>
-                                {{ _trans('User administration') }}
                             </li>
-                            <li>
-                                {{ _trans('Regular software configuration and updates') }}
+                            <li class="my-2">
+                                <a class="underline text-black"
+                                    href="#">{{ _trans('IT infrastructure administration:') }}
+                                </a>
                             </li>
-                            <li>
-                                {{ _trans('Network, data center, cloud service management') }}
+                            <ul class=" list-outside list-disc bg-rose-200 text-base leading-relaxed m-2">
+                                <li>
+                                    {{ _trans('User administration') }}
+                                </li>
+                                <li>
+                                    {{ _trans('Regular software configuration and updates') }}
+                                </li>
+                                <li>
+                                    {{ _trans('Network, data center, cloud service management') }}
+                                </li>
+                            </ul>
+                            <li class="my-2">
+                                <a class="underline text-black hover:text-blue-500"
+                                    href="#">{{ _trans('L1, L2, L3 support') }}</a>
+                            </li>
+                            <li class="my-2">
+                                {{ _trans('Cloud usage optimization') }}
                             </li>
                         </ul>
-                        <li class="my-2">
-                            <a class="underline text-black hover:text-blue-500"
-                                href="#">{{ _trans('L1, L2, L3 support') }}</a>
-                        </li>
-                        <li class="my-2">
-                            {{ _trans('Cloud usage optimization') }}
-                        </li>
-                    </ul>
+                    </div>
                     <button
                         class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans('Outsource 100% of it') }}</button>
 
                 </div>
             </div>
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg md:w-1/4 w-full md:mr-10 mr-0 my-2">
                 <hr class="w-full border-t-4 border-blue-800" />
-                <div class="p-4">
-                    <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans('Extended') }}</p>
-                    <p>{{ _trans('Includes the Basic package and assistance with new infrastructure initiatives:') }}
-                    </p>
-                    <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
-                        <li>
-                            {{ _trans('Analyzing problems in IT infrastructure and providing recommendations') }}
-                        </li>
-                        <li>
-                            {{ _trans('Designing a new IT infrastructure or its components') }}
-                        </li>
-                        <li>
-                            <a class="underline text-black hover:text-blue-500"
-                                href="#">{{ _trans('Designing CI/CD pipelines') }}</a>
-                        </li>
-                        <li>
-                            {{ _trans('Advising on security improvement using the SecOps approach') }}
-                        </li>
-                    </ul>
+                <div class="p-4 flex flex-col justify-between h-full">
+                    <div>
+                        <p class="text-lg text-blue-700 mb-3 text-center font-semibold">{{ _trans('Extended') }}</p>
+                        <p>{{ _trans('Includes the Basic package and assistance with new infrastructure initiatives:') }}
+                        </p>
+                        <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
+                            <li>
+                                {{ _trans('Analyzing problems in IT infrastructure and providing recommendations') }}
+                            </li>
+                            <li>
+                                {{ _trans('Designing a new IT infrastructure or its components') }}
+                            </li>
+                            <li>
+                                <a class="underline text-black hover:text-blue-500"
+                                    href="#">{{ _trans('Designing CI/CD pipelines') }}</a>
+                            </li>
+                            <li>
+                                {{ _trans('Advising on security improvement using the SecOps approach') }}
+                            </li>
+                        </ul>
+                    </div>
 
                     <button
                         class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans('Outsource 100% of it') }}</button>
@@ -563,39 +566,41 @@
 
             </div>
 
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg md:w-1/4 w-full md:mr-10 mr-0 my-2">
                 <hr class="w-full border-t-4 border-blue-800" />
-                <div class="p-4">
-                    <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
-                        {{ _trans('Extended Plus') }}
-                    </p>
-                    <p>
-                        {{ _trans('Includes the Extended package and modernization of your IT infrastructure:') }}
-                    </p>
-                    <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
+                <div class="p-4 flex flex-col justify-between h-full">
+                    <div>
+                        <p class="text-lg text-blue-700 mb-3 text-center font-semibold">
+                            {{ _trans('Extended Plus') }}
+                        </p>
+                        <p>
+                            {{ _trans('Includes the Extended package and modernization of your IT infrastructure:') }}
+                        </p>
+                        <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed m-4">
 
-                        <li>
-                            {{ _trans('Application and data warehouse migration to cloud') }}
-                        </li>
-                        <li>
-                            {{ _trans('Integration of cloud and on-premises apps') }}
-                        </li>
-                        <li>
-                            {{ _trans('Infrastructure and app evolution:') }}
-                        </li>
-                        <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed mx-2 ">
                             <li>
-                                {{ _trans('Introduction of minor fixes and major updates') }}
+                                {{ _trans('Application and data warehouse migration to cloud') }}
                             </li>
                             <li>
-                                {{ _trans('Customizations and integrations with SaaS products') }}
+                                {{ _trans('Integration of cloud and on-premises apps') }}
                             </li>
                             <li>
-                                {{ _trans('App delivery automaion') }}
+                                {{ _trans('Infrastructure and app evolution:') }}
                             </li>
+                            <ul class="list-outside list-disc bg-rose-200 text-base leading-relaxed mx-2 ">
+                                <li>
+                                    {{ _trans('Introduction of minor fixes and major updates') }}
+                                </li>
+                                <li>
+                                    {{ _trans('Customizations and integrations with SaaS products') }}
+                                </li>
+                                <li>
+                                    {{ _trans('App delivery automaion') }}
+                                </li>
+                            </ul>
+
                         </ul>
-
-                    </ul>
+                    </div>
                     <button
                         class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ _trans('Outsource 100% of it') }}</button>
 
@@ -604,7 +609,7 @@
 
         </div>
 
-        <div class="text-2xl md:text-3xl font-bold mt-20 mx-8">
+        <div class="text-xl md:text-3xl font-bold mt-20">
             {{ _trans('How much will it cost?') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             <p class="text-xl font-normal">
@@ -633,13 +638,13 @@
                 {{ _trans('We will be pleased to provide an estimate for you.') }}
             </p>
         </div>
-        <div class='w-2/5 m-4 flex justify-start items-center'>
+        <div class='md:w-2/5 w-full m-4 flex justify-start items-center'>
             <a href="#"
-                class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans('get a quote') }}</a>
+                class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans('get a quote') }}</a>
         </div>
 
         <div class=" mx-auto w-full">
-            <div class="text-2xl md:text-3xl font-bold mt-20 mx-10">
+            <div class="text-xl md:text-3xl font-bold mt-20">
                 {{ _trans('What Managed IT Services Bring to Our Customers') }}
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 <p class="font-normal text-xl">
@@ -653,31 +658,35 @@
                     <p class="text-4xl text-blue-600  pl-2 mx-auto">
                         -50%
                     </p><br>
-                    <p class="pl-2 mx-auto font-normal">{{ _trans('infrastructure support costs') }}</p>
+                    <p class="pl-2 mx-auto md:text-start text-center font-normal">
+                        {{ _trans('infrastructure support costs') }}</p>
                 </div>
                 <div
                     class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
                     <p class="text-4xl text-blue-600  pl-2 mx-auto">
                         x1.5-3
                     </p><br>
-                    <p class="pl-2 mx-auto font-normal">{{ _trans('increase in software development speed') }}</p>
+                    <p class="pl-2 mx-auto md:text-start text-center font-normal">
+                        {{ _trans('increase in software development speed') }}</p>
                 </div>
                 <div
                     class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex justify-center flex-col hover:border-b hover:border-gray-300">
                     <p class="text-4xl text-blue-600  pl-2 mx-auto">
                         100%
                     </p><br>
-                    <p class="pl-2 mx-auto font-normal">{{ _trans('regulatory compliance of the IT infrastructure') }}
+                    <p class="pl-2 mx-auto md:text-start text-center font-normal">
+                        {{ _trans('regulatory compliance of the IT infrastructure') }}
                     </p>
                 </div>
 
             </div>
         </div>
 
-        <div class='flex justify-between border border-gray-200 items-center p-10 shadow-2xl my-16'>
-            <div class='w-2/3'>
+        <div
+            class='flex justify-between border flex-col md:flex-row rounded border-gray-200 items-center p-10 shadow-2xl my-16'>
+            <div class='md:w-2/3 w-full'>
                 <h1 class='text-gray-900 mt-6'>
-                    <p class='text-2xl font-bold'>{{ _trans('Start Improving Your IT Infrastructure NOW!') }} </p>
+                    <p class='text-xl font-bold'>{{ _trans('Start Improving Your IT Infrastructure NOW!') }} </p>
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
                 <p class='text-gray-600 text-xl'>
@@ -685,9 +694,9 @@
         highly efficient 24/7 to let you focus on the strategic decisions only.") }}
                 </p>
             </div>
-            <div class='w-2/5 m-0 flex justify-center items-center'>
+            <div class='md:w-2/5 w-full md:mt-0 mt-2 flex justify-center items-center'>
                 <a href="#"
-                    class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans('MAKE IT INFRASTRUCTURE EFFICIENT') }}</a>
+                    class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans('MAKE IT INFRASTRUCTURE EFFICIENT') }}</a>
             </div>
         </div>
     </div>
