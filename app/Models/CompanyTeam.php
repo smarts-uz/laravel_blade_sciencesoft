@@ -60,7 +60,7 @@ class CompanyTeam extends Model
     public static $rules = [
         'name' => 'required|string|max:255',
         'job' => 'required|string|max:255',
-        'image' => 'required',
+        //'image' => 'required',
         'description' => 'required',
         'deleted_at' => 'nullable',
         'created_at' => 'nullable',
