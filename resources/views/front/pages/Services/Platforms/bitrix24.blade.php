@@ -6,29 +6,29 @@
 
 @section('main')
 
-
-
 <main class="overflow-hidden">
-
 
 <div class="bg-black h-auto px-4 pt-32">
         <div
           class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
-          <div data-aos="fade-right">
-            <div
-              class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
-            >
-             Официальный <br> партнер <br> Битрикс24 в Узбекистане
-            </div>
-            <div class="lg:px-20">
-              <a
-                href="#"
-                class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+          <div data-aos="fade-right" class="flex justify-center items-center">
+              <div>
+                <div
+                class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
               >
-                Получить консультацию
-              </a>
-            </div>
+               Официальный <br> партнер <br> Битрикс24 в Узбекистане
+              </div>
+              <div class="lg:px-20">
+                <a
+                  href="#"
+                  class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
+                >
+                  Получить консультацию
+                </a>
+              </div>
+              </div>
+
           </div>
 
           <div data-aos="fade-left" class="my-8 flex justify-center">
@@ -36,7 +36,6 @@
           </div>
         </div>
       </div>
-
 
  <div
           class="grid sm:grid-cols-5 grid-cols-2  m-auto justify-between pt-16 max-w-7xl"
@@ -73,16 +72,13 @@
           </div>
         </div>
 
-
-
-
     <div class="grid grid-cols-1 lg:grid-cols-2 sm:m-20 my-40">
         <div>
             <div class="flex justify-center mx-6 mt-10">
                 <div class="text-5xl  leading-10 ">
                     <div>
                         <div class="flex">
-                            <p  class="text-9xl font-bold text-gray-500 mt-10" data-aos="fade-up">1</p>
+                            <p class="text-9xl font-bold text-gray-300 -mt-4" data-aos="fade-up">1</p>
                             <h1 class=" font-bold text-blue-600" data-aos="fade-right">Bitrix24 - это...
                             </h1>
                         </div>
@@ -142,8 +138,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-
-                class="text-9xl  font-bold  text-gray-300 "
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-300 "
               >
                 2
               </p>
@@ -156,6 +152,35 @@
             <p class="text-gray-700 text-xl">Самые распространенные проблемы компаний <br> у которых нет CRM</p>
         </div>
 
+    </div>
+
+    <div class="container grid lg:grid-cols-1 my-0 gap-1/2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-1 2xl:grid-cols-1 grid-cols-1">
+        <div class="w-11/12 lg:h-40 mx-auto flex flex-wrap">
+            <div class="box mt-0 lg:w-3/12 w-full">
+                <div class="chart mx-auto relative lg:w-40 xl:w-5/12 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700" data-percent="70"
+                     data-scale-color="#ffb400">
+                    <p class="top-12 mx-auto w-full absolute">70%</p>
+                </div>
+            </div>
+            <div class="box lg:mt-0 mt-10 lg:w-3/12 w-full">
+                <div class="chart mx-auto relative lg:w-40 xl:w-5/12 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700" data-percent="40"
+                     data-scale-color="#ffb400">
+                    <p class="top-12 mx-auto w-full absolute">40%</p>
+                </div>
+            </div>
+            <div class="box lg:mt-0 mt-10 lg:w-3/12 w-full">
+                <div class="chart mx-auto relative lg:w-40 xl:w-5/12 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700" data-percent="35"
+                     data-scale-color="#ffb400">
+                    <p class="top-12 mx-auto w-full absolute">35%</p>
+                </div>
+            </div>
+            <div class="box lg:mt-0 mt-10 lg:mb-0 mb-10 lg:w-3/12 w-full">
+                <div class="chart mx-auto relative lg:w-40 xl:w-5/12 w-5/12 md:w-8/12 text-center text-4xl leading-10 text-blue-700" data-percent="100"
+                     data-scale-color="#ffb400">
+                    <p class="top-12 mx-auto w-full absolute">100%</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-4 text-center container mx-auto">
@@ -182,8 +207,8 @@
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
-
-                class="text-9xl  font-bold  text-gray-300 "
+                style="font-size: 8rem"
+                class="  font-bold  text-gray-300 "
               >
                 3
               </p>
@@ -846,5 +871,10 @@
 
 
 @section('js')
-
+ <script>
+window.replainSettings = { id: '4bd73f5f-79dd-4aee-b496-a833dfe09fea' };
+(function(u){var s=document.createElement('script');s.type='text/javascript';s.async=true;s.src=u;
+var x=document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);
+})('https://widget.replain.cc/dist/client.js');
+</script>
 @endsection
