@@ -52,7 +52,8 @@ class HomePageController extends Controller
             return $this->getDynamicPage($page, ['blogs' => $blogs]);
         }else if(str_contains($page, 'management_team')){
             $teams = CompanyTeam::all();
-            return $this->getDynamicPage($page, ['teams' => $teams]);
+            $selection=  CompanyTeam::select('job')->distinct()->get();
+            return $this->getDynamicPage($page, ['teams' => $teams, 'department'=>$selection]);
         }else if(str_contains($page, 'news')){
             $news = News::all();
             return $this->getDynamicPage($page, ['news' => $news]);
@@ -110,11 +111,12 @@ class HomePageController extends Controller
     public function getTeamByJob(Request $request)
     {
         $teams = CompanyTeam::latest();
+        $selection=  CompanyTeam::select('job')->distinct()->get();
         if($request->team_job){
             $teams = $teams->where('job', 'like', "%" . $request->team_job . "%");
         }
         $teams=$teams->get();
-        return $this->getDynamicPage('about.company.management_team', ['teams'=>$teams]);
+        return $this->getDynamicPage('about.company.management_team', ['teams'=>$teams, 'department'=> $selection]);
     }
 
     public function getCategoryById($id)

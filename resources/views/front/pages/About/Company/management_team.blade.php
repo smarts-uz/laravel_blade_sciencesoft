@@ -13,8 +13,8 @@
                 <div x-data="{open:false}"  class="p-2 border-none relative outline-none bg-transparent text-blue-500 text-xl font-bold" name="technology" id="technology">
                     <div class="text-blue-400 w-60 cursor-pointer flex justify-between items-center" @click="open = true">All <i class="fas fa-chevron-down"></i></div>
                         <ul x-show="open" @click.away="open = false" class="absolute border border-gray-200 bg-white z-30">
-                                @foreach ($teams as $team)
-                                <a href="{{route('getTeamByJob', ['team_job' => $team])}}">
+                                @foreach ($department as $team)
+                                <a href="{{route('getTeamByJob', ['team_job' => $team->job])}}">
                                 <li class="text-black hover:bg-blue-400 hover:text-white duration-100 px-5 py-1" value="{{ $team->job }}">{{ $team->job }}</li>
                                 </a>
                                 @endforeach
