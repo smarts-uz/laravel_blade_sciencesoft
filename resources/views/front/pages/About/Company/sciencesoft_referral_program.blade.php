@@ -57,144 +57,25 @@
                 {{ _trans('Please feel free to send your questions to us and set up a free consultation with our representative.') }}
             </p>
         </ul>
-        <div class="relative my-32 mx-10">
+        {{-- <div class="relative my-32 mx-10">
             <button
                 class="w-48 h-12 bg-blue-800 hover:bg-blue-900 font-medium absolute mt-10 mx-3 right-0 bottom-16 text-white text-lg uppercase">
                 {{ _trans('Contact US') }}
             </button>
-        </div>
+        </div> --}}
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans('COOPERATION PROCEDURE') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
 
         <!-- Cards -->
-        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-full h-full md:w-32 md:h-32"
-                        src="https://www.scnsoft.com/blue-icons-on-grey-background/big_data.svg" alt="">
-                </div>
-                <div class="flex flex-col w-3/5">
-                    <h1 class="text-3xl md:text-3xl font-bold">
-                        {{ _trans('Data analytics including big data analytics') }}</h1>
-                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ _trans('Cleansing and integrating data, providing analysis and visualization to get valuable business insights.') }}
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-full h-full md:w-40 md:h-40"
-                        src="https://www.scnsoft.com/blue-icons-on-grey-background/crm.svg" alt="">
-                </div>
-                <div class=" flex flex-col w-3/5">
-                    <h1 class="text-2xl md:text-4xl font-bold">{{ _trans('CRM') }}</h1>
-                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ _trans('Helping companies enhance customer management, win new clients and improve productivity.') }}
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-full h-full md:w-40 md:h-40"
-                        src="https://www.scnsoft.com/blue-icons-on-grey-background/ecommerce.svg" alt="">
-                </div>
-
-                <div class=" flex flex-col w-3/5">
-                    <h1 class="text-3xl md:text-4xl font-bold">{{ _trans('Ecommerce') }}</h1>
-                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ _trans('Seizing the potential of Magento to ensure efficient inventory management, analytics and reporting, cross-business order management, account, purchase and payment history review and more.') }}
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-full h-full md:w-40 md:h-40"
-                        src="https://www.scnsoft.com/blue-icons-on-grey-background/enterprise_portals.svg" alt="">
-                </div>
-                <div class=" flex flex-col w-3/5">
-                    <h1 class="text-3xl md:text-4xl font-bold">{{ _trans('Portals') }}</h1>
-                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ _trans('Helping companies build efficient e-cooperation with their customers and partners.') }}
-                    </p>
-                </div>
-            </div>
-        </div>
-
-        <div class="mt-2 md:mt-10 rounded-sm border-2 transition-shadow hover:shadow-xl p-2 md:p-8">
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="flex justify-center items-center w-2/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-full h-full md:w-40 md:h-40"
-                        src="https://www.scnsoft.com/blue-icons-on-grey-background/mobile.svg" alt="">
-                </div>
-                <div class=" flex flex-col w-3/5">
-                    <h1 class="text-3xl md:text-4xl font-bold">{{ _trans('Mobile apps') }}</h1>
-                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ _trans('Developing native and cross-platform apps for customers and employees in healthcare, banking, retail,
-                    manufacturing and professional services and more at employee, department and company level.') }}
-                    </p>
-                </div>
-            </div>
-        </div>
+        <x-procedure/>
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans('HOW WE WORK') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
         <div class="grid lg:grid-cols-3 grid-cols-1 gap ">
-            <div class="border-2 border-gray-300 p-2 w-11/12">
-                <h1 class="mb-8 text-2xl pl-4 pt-4 font-bold">{{ _trans('Healthcare') }}</h1>
-                <ul class="list-disc font-normal ml-7">
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
-                        {{ _trans('15 years in healthcare IT consulting and software development.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('Our customers are') }}
-                        <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong>
-                        {{ _trans('and other healthcare service providers.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
-                        {{ _trans('We offer mobile applications for doctors and patients, healthcare CRM, medical portals, healthcare data analytics and more.') }}
-                    </li>
-                </ul>
-            </div>
-            <div class="border-2 border-gray-300 p-2 w-11/12">
-                <h1 class="mb-8 text-2xl pl-4 pt-4 font-bold">{{ _trans('Banking') }}</h1>
-                <ul class="list-disc font-normal ml-7">
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
-                        {{ _trans('15 years in mobile banking and intranets, document and knowledge management, banking data analytics, customer portals, loyalty program management and more.') }}
-                    </li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">{{ _trans('Our customers are') }}
-                        <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong>
-                        {{ _trans('and other healthcare service providers.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
-                        {{ _trans('We offer mobile applications for doctors and patients, healthcare CRM, medical portals, healthcare data analytics and more.') }}
-                    </li>
-                </ul>
-            </div>
-            <div class="border-2 border-gray-300 p-2 w-11/12">
-                <h1 class="mb-8 text-2xl pl-4 pt-4 font-bold">{{ _trans('Retail and consumer goods') }}</h1>
-                <ul class="list-disc font-normal ml-7">
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
-                        {{ _trans('15 years in healthcare IT consulting and software development.') }}</li>
-                    <li class="mt-4 text-gray-700 text-lg loading-8 mr-12">
-                        {{ _trans('We offer ecommerce, loyalty solutions, customer data analytics, retail business intelligence, in-store automation.') }}
-                        <strong>{{ _trans('Baxter, MSxHealth, Chiron Health, Saratoga Bridges') }}</strong>
-                        {{ _trans('We’ve been delivering IT Retail services since 2003 and created IT solutions for such corporations as Walmart, Nestle, Heinz and more.') }}
-                    </li>
-                </ul>
-            </div>
+            <x-wework/>
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">
             {{ _trans('HOW WE WORK') }}

@@ -305,38 +305,7 @@
 
     <div class="bg-gray-200 h-12"></div>
 
-    <div class="px-8">
-        <div
-                data-aos="zoom-in"
-                class="max-w-3xl mx-auto bg-white shadow-2xl rounded-3xl p-10 sm:p-20 -mt-56">
-            <h1
-                    class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700">
-                {{_trans('Fill out the form right now and get a qualified free consultation.')}}
-            </h1>
-            <h2 class="text-lg p-6 pl-13">{{_trans('Name of the organization')}}</h2>
-            <form>
-                <label>
-                    <input type="text" placeholder="Example: Open Engine"
-                           class="h-12 w-full border-b border-blue-700 outline-none"/>
-                </label>
-            </form>
-
-
-            <div class="flex justify-center">
-                <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
-                    <a href=""
-                       class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        {{_trans('Back to')}}
-                    </a>
-
-                    <a href=""
-                       class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                       {{_trans('Next')}}
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('front.Components.platformForm')
 
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
@@ -1334,88 +1303,7 @@
                 </div>
 
 
-                <div  class="bg-blue-700 max-w-5xl h-44 rounded-l-2xl pt-5 z-20 mt-32"
-                     data-aos="fade-up-left">
-                    <div class="flex justify-center items-center pl-20 pt-5">
-
-
-                        <div class="swiper-container">
-                            <div class="swiper-wrapper table w-full">
-
-                                <div class="swiper-slide table-cell">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                        <p class="text-center">
-                                           {{_trans('Online store development')}}
-
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide table-cell">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            {{_trans('Seo promotion')}}
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide table-cell">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            {{_trans('Context advertisement')}}
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide table-cell">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
-                                             alt=""/>
-                                        <p class="text-center pb-6">
-                                            {{_trans('Smm promotion')}}
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide table-cell">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            {{_trans('Brandbook development')}}
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                                <div class="swiper-slide table-cell">
-                                    <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                        <img class="mx-auto p-3"
-                                             src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
-                                        <p class="text-center pb-6">
-                                            {{_trans('Business automation')}}
-                                        </p>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
+                @include('front.Components.platformFooter')
             </div>
             <div></div>
         </div>

@@ -318,49 +318,7 @@
         <div class="bg-gray-400 h-12 mt-56">
 
         </div>
-                <div class="px-8">
-        <div
-          data-aos="zoom-in"
-          class="max-w-3xl mx-auto bg-white shadow-2xl rounded-3xl p-10 sm:p-20 -mt-56"
-        >
-          <h1
-            class="text-center text-xl sm:text-3xl font-semibold leading-tight text-blue-700"
-          >
-            Заполните форму прямо сейчас и получите квалифицированную бесплатную
-            консультацию.
-          </h1>
-          <h2 class="text-lg p-6 pl-13">Название организации</h2>
-          <form>
-            <label>
-              <input
-                type="text"
-                placeholder="Пример: Open Engine"
-                class="h-12 w-full border-b border-blue-700 outline-none"
-              />
-            </label>
-          </form>
-
-
-
-          <div class="flex justify-center">
-            <div class="grid grid-cols-1 sm:grid-cols-2 mt-10">
-              <a
-                href=""
-                class="bg-blue-700 rounded-full text-white px-12 my-2 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
-              >
-                Назад
-              </a>
-
-              <a
-                href=""
-                class="bg-blue-700 rounded-full text-white my-2 px-12 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
-              >
-                Далее
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+        @include('front.Components.platformForm')
 
         <div class="flex justify-center items-center my-20 relative ">
             <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Этапы работы</h1>
@@ -805,7 +763,7 @@
 
 
             </div>
-          
+
                     </div>
 
                     <div class="flex justify-end pb-20">
@@ -823,89 +781,7 @@
                             </div>
 
 
-                            <div class="bg-blue-700 h-44 max-w-5xl rounded-l-2xl pt-5 z-20 mt-32"
-                                 data-aos="fade-up-left">
-                                <div class="flex justify-center items-center pl-20 pt-5">
-
-
-                                    <div class="swiper-container">
-                                        <div class="swiper-wrapper">
-
-                                            <div class="swiper-slide table">
-                                                <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                                    <img class="mx-auto p-3"
-                                                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
-                                                    <p class="text-center">
-                                                        Разработка интернет-
-                                                        магазина
-
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="swiper-slide ">
-                                                <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                                    <img class="mx-auto p-3"
-                                                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                                    <p class="text-center pb-6">
-                                                        Seo продвижение
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="swiper-slide ">
-                                                <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                                    <img class="mx-auto p-3"
-                                                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
-                                                    <p class="text-center pb-6">
-                                                        Контекстная реклама
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="swiper-slide ">
-                                                <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                                    <img class="mx-auto p-3"
-                                                         src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
-                                                         alt=""/>
-                                                    <p class="text-center pb-6">
-                                                        СММ продвижения
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="swiper-slide ">
-                                                <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                                    <img class="mx-auto p-3"
-                                                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
-                                                    <p class="text-center pb-6">
-                                                        Разработка брендбуков
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                            <div class="swiper-slide ">
-                                                <div class="bg-white mx-3 px-10 shadow-xl py-4 rounded-lg">
-                                                    <img class="mx-auto p-3"
-                                                         src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
-                                                    <p class="text-center pb-6">
-                                                        Автоматизация бизнеса
-                                                    </p>
-                                                </div>
-                                            </div>
-
-
-                                        </div>
-
-                                    </div>
-
-                                </div>
-                            </div>
+                            @include('front.Components.platformFooter')
                         </div>
                         <div></div>
                     </div>

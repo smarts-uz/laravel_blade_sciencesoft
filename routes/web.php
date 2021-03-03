@@ -17,6 +17,7 @@ Route::get('/getCategoryByName', 'App\Http\Controllers\HomePageController@getCat
 Route::get('/getCategoryById', 'App\Http\Controllers\HomePageController@getCategoryById')->name('getCategoryById');
 Route::get('/getBlogByTag', 'App\Http\Controllers\HomePageController@getBlogByTag')->name('getBlogByTag');
 Route::get('/getPortfolioByTechnology', 'App\Http\Controllers\HomePageController@getPortfolioByTechnology')->name('getPortfolioByTechnology');
+Route::get('getTeamByJob', 'App\Http\Controllers\HomePageController@getTeamByJob')->name('getTeamByJob');
 Route::get('/SingleBlog/{id}', 'App\Http\Controllers\HomePageController@SingleBlog')->name('SingleBlog');
 Route::get('/SingleProduct/{id}', 'App\Http\Controllers\HomePageController@SingleProduct')->name('SingleProduct');
 
