@@ -7,30 +7,30 @@
 @section('main')
 <div class="my-10">
     <div class="text-2xl md:text-4xl font-bold mt-6">
-        {{ _trans('Fleet Management Software Development ') }}
+        {{ t('Fleet Management Software Development ') }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         <img src="https://www.scnsoft.com/fleet-management/cover-pic-fleet-management-development-2.svg">
         <div>
             <p class="font-normal text-lg leading-loose mt-10">
-                {{ _trans('Fleet management software provides visibility into vehicles’ locations and
+                {{ t('Fleet management software provides visibility into vehicles’ locations and
                     various operational parameters, including vehicles’ conditions and fuel consumption patterns,
                     and allows gaining insight into drivers’ behavior. This data lays the groundwork for optimizing vehicle
                     maintenance and operating costs and improving driver safety.') }}
             </p>
             <p class="font-normal text-lg leading-loose mt-10">
-                {{ _trans('ScienceSoft delivers fleet management applications, helping fleet owners') }}
-                <span class="text-gray-800 font-bold">{{ _trans('reduce operational costs') }}</span>
-                {{ _trans('and') }}
-                <span class="text-gray-800 font-bold">{{ _trans('improve the quality of transportation services') }}</span>
-                {{ _trans(', assisting fleet management services providers to ') }}
-                <span class="text-gray-800 font-bold">{{ _trans('win and retain customers') }}</span>
-                {{ _trans(' with tailored functionality,and allowing hardware manufacturers ') }}
-                <span class="text-gray-800 font-bold">{{ _trans('gain competitive edge ') }}</span>
-                {{ _trans(' by extending their offer to accompanying software.') }}
+                {{ t('ScienceSoft delivers fleet management applications, helping fleet owners') }}
+                <span class="text-gray-800 font-bold">{{ t('reduce operational costs') }}</span>
+                {{ t('and') }}
+                <span class="text-gray-800 font-bold">{{ t('improve the quality of transportation services') }}</span>
+                {{ t(', assisting fleet management services providers to ') }}
+                <span class="text-gray-800 font-bold">{{ t('win and retain customers') }}</span>
+                {{ t(' with tailored functionality,and allowing hardware manufacturers ') }}
+                <span class="text-gray-800 font-bold">{{ t('gain competitive edge ') }}</span>
+                {{ t(' by extending their offer to accompanying software.') }}
             </p>
 
             <p class="font-normal text-lg leading-loose mt-10">
-                {{ _trans('Before you go further, do a quick check and see whether fleet management software can be of help to you.') }}
+                {{ t('Before you go further, do a quick check and see whether fleet management software can be of help to you.') }}
             </p>
         </div>
     </div>
@@ -38,66 +38,66 @@
 
  <div class="border pb-6 hover:shadow-md w-96 rounded">
  <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 ml-4 lg:text-3xl">
-            {{ _trans('Fleet owners') }}
+            {{ t('Fleet owners') }}
             </h1>
             <hr class="w-12 ml-4 bg-yellow-500 h-1 mb-6"/>
     <div class="px-4">
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p> {{ _trans('Troubled compliance of fleet operations with federal and industry-specific fleet management regulations.') }}</p>
+                <p> {{ t('Troubled compliance of fleet operations with federal and industry-specific fleet management regulations.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('Need for higher operational efficiency due to fluctuating fuel prices and low margin.') }}</p>
+                <p>{{ t('Need for higher operational efficiency due to fluctuating fuel prices and low margin.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('Difficulty in planning vehicle purchasing and low visibility over fleet operations and maintenance expenses.') }}</p>
+                <p>{{ t('Difficulty in planning vehicle purchasing and low visibility over fleet operations and maintenance expenses.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('Financial losses due to frequent accidents and inability to gurantee driver safety.') }}</p>
+                <p>{{ t('Financial losses due to frequent accidents and inability to gurantee driver safety.') }}</p>
             </div>
         </div>
         <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-xl">
-            {{ _trans('Check what you get with a custom fleet management solution') }}
+            {{ t('Check what you get with a custom fleet management solution') }}
         </h3>
     </div>
  </div>
 
  <div class="border pb-6 hover:shadow-md w-96 rounded">
  <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 ml-4 lg:text-3xl">
-            {{ _trans('Fleet management service providers') }}
+            {{ t('Fleet management service providers') }}
             </h1>
             <hr class="w-12 ml-4 bg-yellow-500 h-1 mb-6"/>
     <div class="px-4">
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('Expenses on your ready-made product grow together with your customer base.') }}</p>
+                <p>{{ t('Expenses on your ready-made product grow together with your customer base.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('Unmet customer needs due to a problematic implementation of custom functionality in a ready-made product.') }}</p>
+                <p>{{ t('Unmet customer needs due to a problematic implementation of custom functionality in a ready-made product.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('Low user satisfaction due to a complex interface and issues at the code level.') }}</p>
+                <p>{{ t('Low user satisfaction due to a complex interface and issues at the code level.') }}</p>
             </div>
         </div>
         <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-20 lg:text-xl">
-            {{ _trans('Check what you can get with your own fleet management product') }}
+            {{ t('Check what you can get with your own fleet management product') }}
         </h3>
     </div>
 
@@ -105,21 +105,21 @@
 
 </div>
 <div class="text-2xl md:text-4xl font-bold mt-6">
-    {{ _trans('WHAT YOU GET WITH DEDICATED FLEET MANAGEMENT SOFTWARE') }}
+    {{ t('WHAT YOU GET WITH DEDICATED FLEET MANAGEMENT SOFTWARE') }}
 </div>
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     <p class="font-normal text-lg leading-loose mt-10">
-            {{ _trans('We pack your fleet management application with a range of functional blocks
+            {{ t('We pack your fleet management application with a range of functional blocks
             combined according to your needs. The functionality we implement includes, but is not limited to:') }}
     </p>
     <img src="https://www.scnsoft.com/fleet-management/features.svg">
     <p class="font-normal text-lg leading-loose mt-10">
-            {{ _trans('We pack your fleet management application with a range of functional blocks
+            {{ t('We pack your fleet management application with a range of functional blocks
             combined according to your needs. The functionality we implement includes, but is not limited to:') }}
     </p>
     <img src="https://www.scnsoft.com/fleet-management/vehicles.svg" alt="">
     <div class="text-2xl md:text-4xl font-bold mt-6">
-    {{ _trans('WHY TEAMPRO?') }}
+    {{ t('WHY TEAMPRO?') }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
     <div style="margin: 0 4rem" class="swiper-container main-slide swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
@@ -156,26 +156,26 @@
     <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('13 years in IT.') }}</p>
+                <p>{{ t('13 years in IT.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('15 years in fleet management development.') }}</p>
+                <p>{{ t('15 years in fleet management development.') }}</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('8 Microsoft Gold competencies, including
+                <p>{{ t('8 Microsoft Gold competencies, including
                 Application Development, Application Integration, Data Analytics, Data Platform, and Cloud Platform') }}.</p>
             </div>
         </div>
         <div class="flex mb-2">
             <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
             <div class="w-11/12">
-                <p>{{ _trans('AWS Select Consulting Partner, Oracle Partner Network member.') }}</p>
+                <p>{{ t('AWS Select Consulting Partner, Oracle Partner Network member.') }}</p>
             </div>
         </div>
         <div class="rounded-sm bg-gray-50 relative mt-10 mb-10 transition-shadow p-2 md:p-8">
@@ -185,30 +185,30 @@
               </div>
               <div class=" flex flex-col w-4/5 mb-10">
               <div x-data="{ open: false }">
-                <h1 class="text-xl md:text-2xl font-bold">{{ _trans("FAQ on Fleet Management Software")  }}</h1>
+                <h1 class="text-xl md:text-2xl font-bold">{{ t("FAQ on Fleet Management Software")  }}</h1>
                 <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                 <p class=" text-gray-500 text-lg md:text-xl italic">
-                  {{ _trans("Answered by Serge Pukhaev, Head of Fleet Management Practice at ScienceSoft")  }}
+                  {{ t("Answered by Serge Pukhaev, Head of Fleet Management Practice at ScienceSoft")  }}
                 </p>
-                <h1 class="text-xl md:text-2xl font-bold mt-5">{{ _trans("When can I get a complete fleet management application?")  }}</h1>
+                <h1 class="text-xl md:text-2xl font-bold mt-5">{{ t("When can I get a complete fleet management application?")  }}</h1>
                 <p class=" text-gray-500 text-lg md:text-xl mt-5">
-                  {{ _trans("We rely on Agile in our fleet management software development projects and deliver a minimum viable product (MVP) or a first application version in 2 to 3 months...")  }}
+                  {{ t("We rely on Agile in our fleet management software development projects and deliver a minimum viable product (MVP) or a first application version in 2 to 3 months...")  }}
                 </p>
-                <p class="text-blue-500 cursor-pointer hover:underline mt-3 text-xs" @click="open = true">{{ _trans('CHECK OUT THE WHOLE ANSWER') }}</p>
+                <p class="text-blue-500 cursor-pointer hover:underline mt-3 text-xs" @click="open = true">{{ t('CHECK OUT THE WHOLE ANSWER') }}</p>
                 <div x-show="open" @click.away="open = false">
                 <p class=" text-gray-500 text-lg md:text-xl mt-12">
-                  {{ _trans("You may start getting ROI with the MVP while we continue to evolve software by adding new functionality to meet your arising needs so that you get a complete fleet management application within 6 to 8 months.")  }}
+                  {{ t("You may start getting ROI with the MVP while we continue to evolve software by adding new functionality to meet your arising needs so that you get a complete fleet management application within 6 to 8 months.")  }}
                 </p>
-                <h1 class="text-xl md:text-2xl font-bold mt-5">{{ _trans("Developing a fleet management application is an investment-rich initiative. Will our investments pay off?")  }}</h1>
+                <h1 class="text-xl md:text-2xl font-bold mt-5">{{ t("Developing a fleet management application is an investment-rich initiative. Will our investments pay off?")  }}</h1>
 
                 <p class=" text-gray-500 text-lg md:text-xl mt-5">
-                  {{ _trans("With a custom fleet management application, fleet management service providers increase
+                  {{ t("With a custom fleet management application, fleet management service providers increase
                   revenue and get quick ROI due to wider opportunities for tailoring the functionality they offer to the
                   needs of varied customer segments with easier and cheaper customizations. And fleet owners ensure the pay-off
                   of their investments due to optimized operating
                   costs, lower fuel spending, and acquiring more loyal customers due to a higher quality of transportation services.")  }}
                 </p>
-                <p class="text-blue-500 cursor-pointer hover:underline  mt-3 text-xs" @click="open = false">{{ _trans('HIDE') }}</p>
+                <p class="text-blue-500 cursor-pointer hover:underline  mt-3 text-xs" @click="open = false">{{ t('HIDE') }}</p>
                 </div>
               </div>
               </div>
@@ -217,12 +217,12 @@
           <div class="p-6 shadow-xl lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-            {{ _trans('Doubt Development Will Pay Off?') }}
+            {{ t('Doubt Development Will Pay Off?') }}
             </h1>
             <hr class="w-12 bg-yellow-500 h-1 mb-6"/>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-            {{ _trans(' ScienceSoft is ready to calculate ROI for each functional module of the application you want
+            {{ t(' ScienceSoft is ready to calculate ROI for each functional module of the application you want
             to develop and, if relevant, compare its TCO with the TCO of your current solution.') }}
             </p>
         </div>
@@ -230,14 +230,14 @@
         <div class="lg:w-2/6 m-auto">
             <a href="#">
                 <div class="bg-blue-700 text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                {{ _trans('REQUEST A CALCULATION') }}
+                {{ t('REQUEST A CALCULATION') }}
                 </div>
             </a>
 
         </div>
     </div>
     <div class="text-2xl md:text-4xl font-bold mt-6">
-    {{ _trans('OUR HALLMARK PROJECTS') }}
+    {{ t('OUR HALLMARK PROJECTS') }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
     <div class="splide">
@@ -256,11 +256,11 @@
               </div>
               <div class=" pr-2 pl-2 md:pr-16" >
                 <p class="text-xl font-bold">
-                {{ _trans('Development of a Car Electronics Management Application') }}
+                {{ t('Development of a Car Electronics Management Application') }}
                 </p>
                 <div>
                   <p class=" font-normal leading-7 mb-16 text-lg">
-                  {{ _trans('We empowered the Customer with a client-server solution
+                  {{ t('We empowered the Customer with a client-server solution
                   with an interactive web interface and feature-rich mobile
                   applications for iOS and Android, which enable user-to-vehicle
                   communication and allow vehicle owners to track a vehicle’s location,
@@ -270,7 +270,7 @@
                 </div>
                 <div class="text-center ml-32">
                   <a class="text-green-700  font-bold" href="#"
-                    > {{ _trans('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
+                    > {{ t('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
                   ></a>
                 </div>
               </div>
@@ -290,11 +290,11 @@
               </div>
               <div  class="pr-2 pl-2 md:pr-16">
                 <p class="text-xl font-bold">
-                {{ _trans('Development of Fleet Maintenance Software for a Provider of IT Solutions for the Mining Industry') }}
+                {{ t('Development of Fleet Maintenance Software for a Provider of IT Solutions for the Mining Industry') }}
                 </p>
                 <div>
                   <p class=" font-normal leading-7 mb-16 text-lg">
-                  {{ _trans('ScienceSoft delivered a web and a mobile application that
+                  {{ t('ScienceSoft delivered a web and a mobile application that
                    simplifies the process of filling out equipment inspection
                    checklists, allows for monitoring equipment availability via
                    an intuitive dashboard, and automatically generates maintenance
@@ -303,7 +303,7 @@
                 </div>
                 <div class="text-center ml-32">
                   <a class="text-green-700  font-bold" href="#"
-                    >{{ _trans('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
+                    >{{ t('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
                   ></a>
                 </div>
               </div>
@@ -322,11 +322,11 @@
               </div>
               <div  class="pr-2 pl-2 md:pr-16">
                 <p class="text-xl font-bold">
-                {{ _trans('Mobile Fleet Management Product Development') }}
+                {{ t('Mobile Fleet Management Product Development') }}
                 </p>
                 <div>
                   <p class=" font-normal leading-7 mb-16 text-lg">
-                  {{ _trans('We empowered a leading provider of fleet management
+                  {{ t('We empowered a leading provider of fleet management
                   solutions with a product geared towards logistics companies.
                   The software product comprises vehicle tracking, order delivery
                   monitoring, and invoicing functionality and provides for reliable
@@ -335,7 +335,7 @@
                 </div>
                 <div class="text-center ml-32">
                   <a class="text-green-700  font-bold" href="#"
-                    >{{ _trans('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
+                    >{{ t('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
                   ></a>
                 </div>
               </div>
@@ -353,17 +353,17 @@
               </div>
               <div  class="pr-2 pl-2 md:pr-16">
                 <p class="text-xl font-bold">
-                {{ _trans('Developing of a Cargo Condition Monitoring Application') }}
+                {{ t('Developing of a Cargo Condition Monitoring Application') }}
                 </p>
                 <div>
                   <p class=" font-normal leading-7 mb-16 text-lg">
-                  {{ _trans('We provided a logistics company with an application that allows monitoring the temperature and humidity of cargo in real time,
+                  {{ t('We provided a logistics company with an application that allows monitoring the temperature and humidity of cargo in real time,
                   generating delivery condition violation alerts, and has advanced reporting capabilities.') }}
                   </p>
                 </div>
                 <div class="text-center ml-32">
                   <a class="text-green-700  font-bold" href="#"
-                    >{{ _trans('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
+                    >{{ t('PROJECT DETAILS') }}<i class=" fas fa-arrow-right"></i
                   ></a>
                 </div>
               </div>
@@ -382,7 +382,7 @@
 
 
     <div class="text-2xl md:text-4xl font-bold mt-6">
-    {{ _trans('CHOOSE YOUR SERVICE OPTION') }}
+    {{ t('CHOOSE YOUR SERVICE OPTION') }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
 
@@ -390,29 +390,29 @@
 
         <div class="border relative pb-28 hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
-            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('Fleet management application consulting') }} </h1>
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ t('Fleet management application consulting') }} </h1>
 
             <div class="px-4">
-                <p class="mb-4 text-lg text-gray-600">{{ _trans('For you to build a robust and scalable fleet management application, we:') }}</p>
+                <p class="mb-4 text-lg text-gray-600">{{ t('For you to build a robust and scalable fleet management application, we:') }}</p>
 
                 <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Analyze your needs or elaborate on your idea.') }}</span>
+                        <span class="text-gray-600">{{ t('Analyze your needs or elaborate on your idea.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Review application architecture or design one from scratch.') }}</span>
+                        <span class="text-gray-600">{{ t('Review application architecture or design one from scratch.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Advise on an optimal tech stack.') }}</span>
+                        <span class="text-gray-600">{{ t('Advise on an optimal tech stack.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Audit or design a thought-out user experience.') }}</span>
+                        <span class="text-gray-600">{{ t('Audit or design a thought-out user experience.') }}</span>
                     </li>
                 </ul>
 
                 <a href="#"
                    class="bg-blue-700 md:absolute bottom-6 right-5 left-5 hover:bg-blue-800 mt-4 text-white block text-center p-4">
-                    {{ _trans('REQUEST CONSULTING') }}
+                    {{ t('REQUEST CONSULTING') }}
                 </a>
 
             </div>
@@ -421,35 +421,35 @@
         </div>
         <div class="border relative pb-28 hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
-            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('End-to-end fleet management application development') }} </h1>
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ t('End-to-end fleet management application development') }} </h1>
 
             <div class="px-4">
-                <p class="mb-4 text-lg text-gray-600">{{ _trans('For you to get an application ready to bring ROI right away, we unfold the development process:') }}</p>
+                <p class="mb-4 text-lg text-gray-600">{{ t('For you to get an application ready to bring ROI right away, we unfold the development process:') }}</p>
 
                 <ul style="list-style: square;" class="flex flex-col mt-4 ml-6 text-lg">
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Business analysis.') }}</span>
+                        <span class="text-gray-600">{{ t('Business analysis.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('User experience design.') }}</span>
+                        <span class="text-gray-600">{{ t('User experience design.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Architecture and tracking algorithms design.') }}</span>
+                        <span class="text-gray-600">{{ t('Architecture and tracking algorithms design.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Application development.') }}</span>
+                        <span class="text-gray-600">{{ t('Application development.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Testing and QA.') }}</span>
+                        <span class="text-gray-600">{{ t('Testing and QA.') }}</span>
                     </li>
                     <li class="text-blue-800 mt-2">
-                        <span class="text-gray-600">{{ _trans('Support and evolution.') }}</span>
+                        <span class="text-gray-600">{{ t('Support and evolution.') }}</span>
                     </li>
                 </ul>
 
                 <a href="#"
                    class="bg-blue-700 md:absolute bottom-6 right-5 left-5 hover:bg-blue-800 mt-4 text-white block text-center p-4">
-                    {{ _trans('REQUEST CONSULTING') }}
+                    {{ t('REQUEST CONSULTING') }}
                 </a>
 
             </div>
@@ -458,13 +458,13 @@
         </div>
         <div class="border relative pb-6 hover:shadow-md">
             <div class="h-3 w-full bg-blue-500"></div>
-            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ _trans('Fleet management application consulting') }} </h1>
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10"> {{ t('Fleet management application consulting') }} </h1>
 
             <div class="px-4">
-                <p class="mb-4 text-lg text-gray-600">{{ _trans('We audit the application you currently use, design and implement new functional modules so that you get an opportunity to generate new value with legacy software.') }}</p>
+                <p class="mb-4 text-lg text-gray-600">{{ t('We audit the application you currently use, design and implement new functional modules so that you get an opportunity to generate new value with legacy software.') }}</p>
                 <a href="#"
                    class="bg-blue-700 md:absolute bottom-6 right-5 left-5 hover:bg-blue-800 mt-4 text-white block text-center p-4">
-                    {{ _trans('REQUEST CONSULTING') }}
+                    {{ t('REQUEST CONSULTING') }}
                 </a>
 
             </div>
@@ -473,40 +473,40 @@
         </div>
     </div>
     <div class="text-2xl md:text-4xl font-bold mt-6">
-    {{ _trans('WHY YOU SHOULDN’T POSTPONE DEVELOPING YOUR FLEET MANAGEMENT SYSTEM') }}
+    {{ t('WHY YOU SHOULDN’T POSTPONE DEVELOPING YOUR FLEET MANAGEMENT SYSTEM') }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
-    <p class="mb-4 text-lg text-gray-600">{{ _trans('Deciding to hold off the development of your fleet management application, you miss the benefits promised by custom fleet management software, namely:') }}</p>
+    <p class="mb-4 text-lg text-gray-600">{{ t('Deciding to hold off the development of your fleet management application, you miss the benefits promised by custom fleet management software, namely:') }}</p>
     <div class="my-8 md:block hidden">
         <div class="grid mt-6 grid-cols-1 md:grid-cols-3 gap-4">
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('15%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('15%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('reduction in fuel expenses and operational costs')}}
+                    {{t('reduction in fuel expenses and operational costs')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('30%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('30%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('lower risk of accidents')}}
+                    {{t('lower risk of accidents')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('25%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('25%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('higher driver retention rate')}}
+                    {{t('higher driver retention rate')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('50%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('50%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('higher customer satisfaction rate')}}
+                    {{t('higher customer satisfaction rate')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('25%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('25%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('increase in revenue')}}
+                    {{t('increase in revenue')}}
                 </p>
             </div>
         </div>
@@ -519,66 +519,66 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide text-center  pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('15%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('15%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('reduction in fuel expenses and operational costs')}}
+                    {{t('reduction in fuel expenses and operational costs')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('30%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('30%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('lower risk of accidents')}}
+                    {{t('lower risk of accidents')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('25%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('25%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('higher driver retention rate')}}
+                    {{t('higher driver retention rate')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('50%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('50%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('higher customer satisfaction rate')}}
+                    {{t('higher customer satisfaction rate')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('25%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('25%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('increase in revenue')}}
+                    {{t('increase in revenue')}}
                 </p>
             </div>
         </div>
 
     </div>
     </div>
-    <p class="mb-4 text-lg text-gray-600">{{ _trans('Sources: Verizon, 2020 Fleet Tracking Trends Report.') }}</p>
+    <p class="mb-4 text-lg text-gray-600">{{ t('Sources: Verizon, 2020 Fleet Tracking Trends Report.') }}</p>
     <!-- CODES GOES HERE -->
     <div class="p-4 my-16 shadow-xl border rounded lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-4 lg:text-3xl">
-                {{ _trans('Start Working on Your Application Now!') }}
+                {{ t('Start Working on Your Application Now!') }}
             </h1>
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ _trans('Turn to ScienceSoft’s fleet management team now, and start enjoying the operational and business benefits promised by custom fleet management software!') }}
+                {{ t('Turn to ScienceSoft’s fleet management team now, and start enjoying the operational and business benefits promised by custom fleet management software!') }}
             </p>
             <a href="#">
                 <div class="bg-blue-700 rounded text-white text-center lg:w-4/12 px-2 py-4  hover:bg-blue-800">
-                    {{ _trans('GET MY APPLICATION') }}
+                    {{ t('GET MY APPLICATION') }}
                 </div>
             </a>
         </div>

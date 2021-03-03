@@ -33,7 +33,7 @@
                             alt="CardImg">
                     </div>
                     <div class="px-4">
-                        <span class="text-yellow-400 text-xs font-bold">{{ _trans('CRM') }}</span>
+                        <span class="text-yellow-400 text-xs font-bold">{{ t('CRM') }}</span>
                         <h1 class="text-lg text-black font-bold py-2">
                             {{ $blog->title }}
                         </h1>
@@ -41,7 +41,7 @@
                             {{ $blog->description }}
                         </p>
                         <div class="flex justify-between items-center text-blue-500 py-2 text-xs">
-                            <p>{{ _trans('By TeamPro') }}</p>
+                            <p>{{ t('By TeamPro') }}</p>
                             <p>{{ $blog->created_at->format('d-m-Y') }}</p>
                         </div>
                         <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">

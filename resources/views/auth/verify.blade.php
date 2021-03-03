@@ -5,17 +5,17 @@
         <div class="row justify-content-center">
             <div class="col-md-7" style="margin-top: 2%">
                 <div class="box">
-                    <h3 class="box-title" style="padding: 2%">{{ _trans("Verify Your Email Address") }}</h3>
+                    <h3 class="box-title" style="padding: 2%">{{ t("Verify Your Email Address") }}</h3>
 
                     <div class="box-body">
                         @if (session('resent'))
-                            <div class="alert alert-success" role="alert">{{ _trans("A fresh verification link has been sent to
+                            <div class="alert alert-success" role="alert">{{ t("A fresh verification link has been sent to
                             your email address") }}
                             </div>
                         @endif
-                        <p>{{ _trans("Before proceeding, please check your email for a verification link.If you did not receive
+                        <p>{{ t("Before proceeding, please check your email for a verification link.If you did not receive
                         the email,") }}</p>
-                        <a href="{{ route('verification.resend') }}">{{ _trans("click here to request another'") }}</a>.
+                        <a href="{{ route('verification.resend') }}">{{ t("click here to request another'") }}</a>.
                     </div>
                 </div>
             </div>

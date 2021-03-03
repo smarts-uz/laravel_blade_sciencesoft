@@ -5,10 +5,10 @@
         class="p-3 bg-white flex items-center rounded-xl text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
         <img class="h-4 w-4 rounded-full mr-2" src="{{ asset('images/flags/' . $locale . '.png') }}" />
         <div>
-            @if ($locale == 'en'){{ _trans('English') }}
-            @elseif($locale=='ru')){{ _trans('Russian') }}
-            @elseif($locale=='uz')){{ _trans('Uzbek') }}
-            @else {{ _trans('English') }} @endif
+            @if ($locale == 'en'){{ t('English') }}
+            @elseif($locale=='ru')){{ t('Russian') }}
+            @elseif($locale=='uz')){{ t('Uzbek') }}
+            @else {{ t('English') }} @endif
         </div>
         <div class="ml-1">
             <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -30,16 +30,16 @@
             @if ($locale != 'ru')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
                     href="{{ url('lang/ru') }}"><img class="h-3 w-3 rounded-md mr-2"
-                        src="{{ asset('images/flags/ru.png') }}" alt="" /> {{ _trans('Russian') }}</a>@endif
+                        src="{{ asset('images/flags/ru.png') }}" alt="" /> {{ t('Russian') }}</a>@endif
 
             @if ($locale != 'uz')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
                     href="{{ url('lang/uz') }}"><img class="h-3 w-3 rounded-md mr-2"
-                        src="{{ asset('images/flags/uz.png') }}" alt="" /> {{ _trans('Uzbek') }}</a>@endif
+                        src="{{ asset('images/flags/uz.png') }}" alt="" /> {{ t('Uzbek') }}</a>@endif
             @if ($locale != 'en')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
                     href="{{ url('lang/en') }}"><img class="h-3 w-3 rounded-md mr-2"
-                        src="{{ asset('images/flags/en.png') }}" alt="" /> {{ _trans('English') }}</a>
+                        src="{{ asset('images/flags/en.png') }}" alt="" /> {{ t('English') }}</a>
             @endif
         </div>
     </div>

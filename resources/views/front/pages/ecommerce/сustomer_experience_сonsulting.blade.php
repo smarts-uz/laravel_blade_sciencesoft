@@ -7,16 +7,16 @@
 @section('main')
 <div class="mx-6 md:mx-16 lg:mx-24 my-10">
   <h1 class="uppercase font-bold mt-10 text-2xl">
-      {{ _trans("Customer Experience Consulting")  }}
+      {{ t("Customer Experience Consulting")  }}
   </h1>
   <hr class="w-12 mt-5 text-yellow-400 h-4" />
   <img src="https://www.scnsoft.com/ecommerce/cx/cover-pic-cx-05.svg" alt="">
   <p class="my-5 text-lg">
-      {{ _trans("Professional customer experience consulting services from TeamPRO
+      {{ t("Professional customer experience consulting services from TeamPRO
        encompass fostering customer-first attitude, as well as designing and implementing
        a CX transformation strategy within your business.")  }}
   </p>
-  <strong>{{ _trans("The investment now
+  <strong>{{ t("The investment now
     may pay off soon enough along with tangible revenue growth:")}}</strong>
   <div>
       <div  class="flex flex-wrap justify-between">
@@ -24,19 +24,19 @@
           <div>
             <span class="text-left text-4xl font-semibold	 text-blue-700">1.5x</span>
           </div>
-          <div class="leading-4  text-gray-700 leading-6">{{ _trans("year-over-year revenue growth")  }}</div>
+          <div class="leading-4  text-gray-700 leading-6">{{ t("year-over-year revenue growth")  }}</div>
         </li>
         <li class="border-l   list-none p-4 lg:w-1/5 md:w-1/2 w-full">
           <div>
             <span class="text-left text-4xl font-semibold	 text-blue-700">1.9x</span>
           </div>
-          <div class="leading-4  text-gray-700 leading-6">{{ _trans("higher average order value")  }}</div>
+          <div class="leading-4  text-gray-700 leading-6">{{ t("higher average order value")  }}</div>
         </li>
         <li class="border-l list-none p-4 lg:w-1/5 md:w-1/2 w-full">
           <div>
             <span class="text-left text-4xl font-semibold	 text-blue-700">1.8x</span>
           </div>
-          <div class="leading-4  text-gray-700 leading-6">{{ _trans("increased repeat purchase rate")  }}</div>
+          <div class="leading-4  text-gray-700 leading-6">{{ t("increased repeat purchase rate")  }}</div>
         </li>
       </div>
       <div class="flex flex-wrap justify-between lg:mt-12">
@@ -44,19 +44,19 @@
           <div>
             <span class="text-left text-4xl font-semibold	 text-blue-700">1.6x</span>
           </div>
-          <div class="leading-4  text-gray-700 leading-6">{{ _trans("higher brand awareness")  }}</div>
+          <div class="leading-4  text-gray-700 leading-6">{{ t("higher brand awareness")  }}</div>
         </li>
         <li class="border-l   list-none p-4 lg:w-1/5 md:w-1/2 w-full">
           <div>
             <span class="text-left text-4xl font-semibold	 text-blue-700">1.4x</span>
           </div>
-          <div class="leading-4  text-gray-700 leading-6">{{ _trans("higher customer retention")  }}</div>
+          <div class="leading-4  text-gray-700 leading-6">{{ t("higher customer retention")  }}</div>
         </li>
         <li class="border-l  list-none p-4 lg:w-1/5 md:w-1/2 w-full">
           <div>
             <span class="text-left text-4xl font-semibold	 text-blue-700">1.6x</span>
           </div>
-          <div class="leading-4  text-gray-700 leading-6">{{ _trans("higher customer advocacy")  }}</div>
+          <div class="leading-4  text-gray-700 leading-6">{{ t("higher customer advocacy")  }}</div>
         </li>
       </div>
       </div>
@@ -72,11 +72,11 @@
     </button>
  </div>
     <h1 class="uppercase font-bold mt-10 text-2xl">
-        {{ _trans("IS THERE A REASON WHY YOU SHY AWAY FROM CX OPTIMIZATION?")  }}
+        {{ t("IS THERE A REASON WHY YOU SHY AWAY FROM CX OPTIMIZATION?")  }}
     </h1>
     <hr class="w-12 mt-5 text-yellow-400 h-4" />
     <p class="my-5 text-lg">
-        {{ _trans("Most challenges of customer experience management are concealed
+        {{ t("Most challenges of customer experience management are concealed
          in thought-patterns and business processes conserved within a company,
           rather than in the low awareness of customer experience best practices.
         We have summarized our action plan to address your most frequent concerns.")  }}

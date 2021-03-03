@@ -8,7 +8,7 @@
     <div>
 
         <h1 class="uppercase font-bold mt-10 text-2xl">
-            {{ _trans('Strategic Partnerships') }}
+            {{ t('Strategic Partnerships') }}
         </h1>
         <hr class="w-12 mt-5 bg-yellow-500 h-1" />
         @foreach ($partnerships as $partner)

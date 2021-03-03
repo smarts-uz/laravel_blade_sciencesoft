@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    {{ _trans("Card Lists")  }}
+    {{ t("Card Lists")  }}
 @endsection
 @section('css')
     <link href="{{ asset('assets/css/jquery.dataTables.min.css') }}" rel="stylesheet" type="text/css"/>
@@ -8,9 +8,9 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>{{ _trans("Card Lists")  }}</h1>
+            <h1>{{ t("Card Lists")  }}</h1>
             <div class="section-header-breadcrumb">
-                <a href="{{ route('cardLists.create')}}" class="btn btn-primary form-btn">{{ _trans("Card Lists")  }} <i class="fas fa-plus"></i></a>
+                <a href="{{ route('cardLists.create')}}" class="btn btn-primary form-btn">{{ t("Card Lists")  }} <i class="fas fa-plus"></i></a>
             </div>
         </div>
         <div class="section-body">

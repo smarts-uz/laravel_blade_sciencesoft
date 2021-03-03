@@ -27,11 +27,11 @@
         </ul>
         @endif
         @endforeach
-        <a href="{{ route('getBlade', ['page' => 'contact_us']) }}"><button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ _trans("Let's Talk")  }}</button></a>
+        <a href="{{ route('getBlade', ['page' => 'contact_us']) }}"><button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ t("Let's Talk")  }}</button></a>
     </div>
     <div class="mb-8">
-      <p>{{ _trans("Can't find what you need?")  }}</p>
-      <button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ _trans("Ask Us")  }}</button>
+      <p>{{ t("Can't find what you need?")  }}</p>
+      <button class="bg-blue-700 py-1 px-8 text-white mt-2 cursor-pointer">{{ t("Ask Us")  }}</button>
     </div>
   </div>
 

@@ -6,7 +6,7 @@
 
 @section('main')
     <div class="py-20 text-center  -mb-24 pb-24 overflow-hidden">
-        <h1 class="text-blue-700 text-2xl md:text-4xl py-8  font-extrabold">{{ _trans('Our Team') }}</h1>
+        <h1 class="text-blue-700 text-2xl md:text-4xl py-8  font-extrabold">{{ t('Our Team') }}</h1>
         <div class="flex flex-wrap py-5  lg:mx-20 mx-5">
             @foreach ($department as $team)
                 <a href="{{ route('getTeamByJob', ['team_job' => $team->job]) }}"

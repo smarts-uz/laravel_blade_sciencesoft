@@ -8,10 +8,10 @@
 
     <div class="mb-10 flex flex-col justify-center items-center text-center mt-20">
         <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-900 font-semibold">
-            {{ _trans('SOFTWARE CONSULTING AND DEVELOPMENT FOR YOUR DIGITAL SUCCESS') }}</h1>
+            {{ t('SOFTWARE CONSULTING AND DEVELOPMENT FOR YOUR DIGITAL SUCCESS') }}</h1>
         <hr class="w-20 h-0.5 border-none bg-yellow-600 my-10 ">
         <p class="text-center text-base sm:text-lg md:text-xl lg:text-2xl leading-10 text-gray-700 ">
-            {{ _trans("For over 31 years.
+            {{ t("For over 31 years.
    For millions of users. We transform businesses with powerful and adaptable digital solutions that satisfy the needs of
     today and unlock the opportunities of tomorrow.") }}
         </p>
@@ -32,34 +32,34 @@
     @include('front.Components.services')
     <div>
         <h1 class="text-center text-gray-500 mt-10 mb-20 text-xl">
-            {{ _trans("Haven't found a suitable service? Type your need below!") }}</h1>
+            {{ t("Haven't found a suitable service? Type your need below!") }}</h1>
         <!-- Forms -->
         <form class="border-2 border-gray-500 flex flex-row rounded-full p-4 mb-20">
             <div class="flex justify-center items-center">
                 <i class="fa fa-search text-gray-500 mr-4"></i>
             </div>
             <input type="search" name="Search" class="w-full border-none outline-none"
-                placeholder="{{ _trans('E.g., VR development or help desk services') }}" />
+                placeholder="{{ t('E.g., VR development or help desk services') }}" />
         </form>
 
         <!-- EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF. -->
         <div class="flex flex-col-reverse lg:flex-row justify-between items-center px-5 py-12 bg-gray-100">
             <div class="w-full lg:w-3/5 mt-10 lg:mt-0">
-                <h1 class="text-3xl font-semibold">{{ _trans('EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF.') }}
+                <h1 class="text-3xl font-semibold">{{ t('EVERY ASPECT OF YOUR IT ECOSYSTEM. TAKEN CARE OF.') }}
                 </h1>
                 <p class="text-xl text-gray-700 my-6">
-                    {{ _trans('Comprehensive care of your cloud or on-premises infrastructure and applications with:') }}
+                    {{ t('Comprehensive care of your cloud or on-premises infrastructure and applications with:') }}
                 </p>
                 <ul style="list-style: square;" class="flex flex-row flex-wrap px-5 mb-5">
-                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ _trans('Consulting') }}</li>
-                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ _trans('Security') }}</li>
-                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ _trans('Implementation') }}</li>
-                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ _trans('Help desk services') }}</li>
-                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ _trans('Management and support') }}</li>
-                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ _trans('Migration') }}</li>
+                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ t('Consulting') }}</li>
+                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ t('Security') }}</li>
+                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ t('Implementation') }}</li>
+                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ t('Help desk services') }}</li>
+                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ t('Management and support') }}</li>
+                    <li class="text-xl text-gray-700 mr-10 mb-6 w-48">{{ t('Migration') }}</li>
                 </ul>
                 <a href="#" class="flex flex-row items-center text-blue-700">
-                    <p class="uppercase mr-3 font-semibold">{{ _trans('Learn More') }}</p>
+                    <p class="uppercase mr-3 font-semibold">{{ t('Learn More') }}</p>
                     <i class="fa fa-long-arrow-right"></i>
                 </a>
             </div>
@@ -93,16 +93,16 @@
 
     <div class="bg-blue-900 py-10 px-5 text-white">
         <h1 class="text-2xl lg:text-3xl font-semibold">
-            <p class="mb-4">{{ _trans('Solutions we deliver') }}</p>
+            <p class="mb-4">{{ t('Solutions we deliver') }}</p>
             <hr class="w-10 h-0.5 border-none bg-yellow-500">
         </h1>
         <p class="text-xs lg:text-xl my-4 lg:my-8">
-            {{ _trans('We IT-enable all kinds of B2B, B2C interactions and internal operations.') }}</p>
+            {{ t('We IT-enable all kinds of B2B, B2C interactions and internal operations.') }}</p>
         <ul class="text-black flex flex-wrap md:justify-start justify-center flex-row">
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5 h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('Enterprise application') }}
+                    {{ t('Enterprise application') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -111,7 +111,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('CRM') }}
+                    {{ t('CRM') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -120,7 +120,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('eCommerce') }}
+                    {{ t('eCommerce') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -129,7 +129,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('Mobile Apps') }}
+                    {{ t('Mobile Apps') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -138,7 +138,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('Collaboration and productivity solutions') }}
+                    {{ t('Collaboration and productivity solutions') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -147,7 +147,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('Data Analytics') }}
+                    {{ t('Data Analytics') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -156,7 +156,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('Web Portals') }}
+                    {{ t('Web Portals') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -165,7 +165,7 @@
             <li
                 class="bg-white rounded xl:w-72 lg:w-60 md:w-48 w-2/5  h-24 flex justify-center items-center text-center text-sm xl:text-xl m-1 relative hover:bg-blue-700 hover:text-white">
                 <a href="#">
-                    {{ _trans('ITSM') }}
+                    {{ t('ITSM') }}
                 </a>
                 <div class="absolute bottom-3 right-3">
                     <i class="fa fa-arrow-right fa-rotate-45"></i>
@@ -175,7 +175,7 @@
     </div>
 
     <div>
-        <h1 class="uppercase font-bold text-2xl">{{ _trans('TECHNOLOGIES WE USE') }}</h1>
+        <h1 class="uppercase font-bold text-2xl">{{ t('TECHNOLOGIES WE USE') }}</h1>
         <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
         <div class="swiper-container main-slide">
             <div class="swiper-wrapper flex items-center">
@@ -194,7 +194,7 @@
     </div>
 
     <div>
-        <h1 class="uppercase font-bold text-2xl">{{ _trans('PLATFORMS WE WORK WITH') }}</h1>
+        <h1 class="uppercase font-bold text-2xl">{{ t('PLATFORMS WE WORK WITH') }}</h1>
         <hr class="w-10 h-0.5 border-none my-2 bg-yellow-500">
         <p class='text-lg text-gray-800'>Distilling deep tech experience, our experts can help you with platform-specific
             consulting, solution design and
@@ -227,7 +227,7 @@
     @isset($blogs)
         <div>
             <div class="my-4 lg:mt-12 mt-3">
-                <h1 class="uppercase font-bold text-2xl pb-4">{{ _trans('Featured Insights') }}</h1>
+                <h1 class="uppercase font-bold text-2xl pb-4">{{ t('Featured Insights') }}</h1>
                 <hr class="w-10 h-0.5 border-none bg-yellow-500">
             </div>
             <div class="flex flex-wrap justify-center">
@@ -264,7 +264,7 @@
     </div>
 
     <h1 class="px-16 text-3xl py-5">
-        <p class="mb-4">{{ _trans('NEED A CONSULTATION?') }}</p>
+        <p class="mb-4">{{ t('NEED A CONSULTATION?') }}</p>
         <hr class="w-10 h-0.5 border-none bg-yellow-500">
     </h1>
 

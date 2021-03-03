@@ -9,7 +9,7 @@
         crossorigin="anonymous" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <title>{{ _trans('TeamPro') }}</title>
+    <title>{{ t('TeamPro') }}</title>
 
 
 
