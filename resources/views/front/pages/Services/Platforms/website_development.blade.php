@@ -329,16 +329,16 @@
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
                         <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
-                        <p class="text-gray-500">{{t('Мебельная фабрика Keng Makon')}}</p>
+                        <p class="text-gray-500">{{t('Keng Makon Furniture factory')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Year of creation:')}}</b></p>
                         <p class="text-gray-500">2020</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Разработка интернет-магазина.')}}</p>
+                        <p class="text-gray-500">{{t('Online store development')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Мебель')}}</p>
+                        <p class="text-gray-500">{{t('Furniture')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">1C </p>
@@ -368,7 +368,7 @@
                         <p class="text-gray-500">{{t('')}}Услуги</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Корпоративный сайт')}}</p>
+                        <p class="text-gray-500">{{t('Corporate website')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">{{t('Wordpress')}}</p>
@@ -395,13 +395,11 @@
                         <p class="text-gray-500">2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Каталог')}}</p>
+                        <p class="text-gray-500">{{t('Catalog')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Авто')}}</p>
-
-                        <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Битрикс')}}</p>
+                        <p class="text-gray-500">{{t('Auto rims and tires                     <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Bitrix')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -425,13 +423,13 @@
                         <p class="text-gray-500">{{t('')}}2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Интернет-магазин')}}</p>
+                        <p class="text-gray-500">{{t('Online store')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Стройматериали')}}</p>
+                        <p class="text-gray-500">{{t('Building materials')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500"> {{t('1С Битрикс')}} </p>
+                        <p class="border-b pb-5 mb-10 text-gray-500"> {{t('1С Bitrix')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -455,10 +453,10 @@
                         <p class="text-gray-500">2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Каталог')}}</p>
+                        <p class="text-gray-500">{{t('Catalog')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Новостройка')}}</p>
+                        <p class="text-gray-500">{{t('New building')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">{{t('Wordpress')}}</p>
@@ -485,10 +483,10 @@
                         <p class="text-gray-500">2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Доставка лекарств')}}</p>
+                        <p class="text-gray-500">{{t('Drug delivery')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Интернет-магазин')}}</p>
+                        <p class="text-gray-500">{{t('Online store')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">Php</p>
@@ -515,13 +513,13 @@
                         <p class="text-gray-500">{{t('')}}2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Каталог')}} </p>
+                        <p class="text-gray-500">{{t('Catalog')}} </p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500"> {{t('Учеба ')}}</p>
+                        <p class="text-gray-500"> {{t('Study')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С Битрикс ')}}</p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С Bitrix ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -545,13 +543,13 @@
                         <p class="text-gray-500">{{t('')}}2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>Т{{t('ип сайта:')}}</b></p>
-                        <p class="text-gray-500">{{t(' Новостной')}}</p>
+                        <p class="text-gray-500">{{t(' News')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Новости')}}</p>
+                        <p class="text-gray-500">{{t('News')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Битрикс ')}}</p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Bitrix ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -575,13 +573,13 @@
                         <p class="text-gray-500">2019</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Корпоративний')}}</p>
+                        <p class="text-gray-500">{{t('Corporative')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
                         <p class="text-gray-500">{{t('Работа')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Битрикс ')}}</p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Bitrix ')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -605,7 +603,7 @@
                         <p class="text-gray-500"> 2016</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t(' Сайт каталог')}} </p>
+                        <p class="text-gray-500">{{t(' Site Catalog')}} </p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
                         <p class="text-gray-500">{{t('Производство окон')}}</p>
@@ -635,13 +633,13 @@
                         <p class="text-gray-500">2018</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500"> {{t('Корпоративный')}}</p>
+                        <p class="text-gray-500"> {{t('Corporate')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
                         <p class="text-gray-500">{{t('Новостройки')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t(' 1С-Битрикс')}} </p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t(' 1С-Bitrix')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -665,10 +663,10 @@
                         <p class="text-gray-500">2017</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t(' Сайт услуга')}}</p>
+                        <p class="text-gray-500">{{t(' Site service')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Служба доставки')}}</p>
+                        <p class="text-gray-500">{{t('Delivery service')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">{{t('WordPress ')}}</p>
@@ -695,13 +693,13 @@
                         <p class="text-gray-500">2018</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Интернет-магазин')}}</p>
+                        <p class="text-gray-500">{{t('Online store')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Авто диски и шины')}}</p>
+                        <p class="text-gray-500">{{t('Auto rims and tires')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С-Битрикс')}} </p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С-Bitrix')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -725,13 +723,13 @@
                         <p class="text-gray-500"> 2017</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Интернет-магазин')}}</p>
+                        <p class="text-gray-500">{{t('Online store')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Одежды ')}}</p>
+                        <p class="text-gray-500">{{t('Apparel ')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С-Битрикс')}} </p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С-Bitrix')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -758,10 +756,10 @@
                         <p class="text-gray-500">{{t('Landing Page')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Строительство')}}</p>
+                        <p class="text-gray-500">{{t('Building')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('')}}WordPress </p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('WordPress')}} </p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -785,10 +783,10 @@
                         <p class="text-gray-500">2016</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Сайт услуга')}}</p>
+                        <p class="text-gray-500">{{t('Site service')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500"> {{t('Архитектура и дизайн')}}</p>
+                        <p class="text-gray-500"> {{t('Architecture and design')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">{{t('Wordpress ')}}</p>
@@ -815,10 +813,10 @@
                         <p class="text-gray-500">2017</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500"> {{t('Сайт каталог')}}</p>
+                        <p class="text-gray-500"> {{t('Site Catalog')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500"> {{t('Производство')}}</p>
+                        <p class="text-gray-500"> {{t('Manufactoring')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500"> {{t('Wordpress')}}</p>
@@ -845,10 +843,10 @@
                         <p class="text-gray-500">2014</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Новостной портал')}} </p>
+                        <p class="text-gray-500">{{t('News portal')}} </p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Новости Узбекистана и Мира')}} </p>
+                        <p class="text-gray-500">{{t('News of Uzbekistan and the World')}} </p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">Php YII2</p>
@@ -875,10 +873,10 @@
                         <p class="text-gray-500">2017</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Сайт каталог')}}</p>
+                        <p class="text-gray-500">{{t('Site Catalog')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500"> {{t('Сухофрукты')}}</p>
+                        <p class="text-gray-500"> {{t('Dried fruits')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">{{t('Wordpress ')}}</p>
@@ -905,13 +903,13 @@
                         <p class="text-gray-500">2018</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Site type:')}}</b></p>
-                        <p class="text-gray-500">{{t('Сайт каталог')}}</p>
+                        <p class="text-gray-500">{{t('Site Catalog')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Мебель')}}</p>
+                        <p class="text-gray-500">{{t('Furniture')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С Битрикс')}}</p>
+                        <p class="border-b pb-5 mb-10 text-gray-500">{{t('1С Bitrix')}}</p>
 
                         <a href=""
                            class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -1188,7 +1186,7 @@
                 <div class="text-center">
                     <h1
                         class="font-bold text-gray-700 mb-1 mt-5 text-xl">
-                        {{t('Интернет-магазин')}}
+                        {{t('Online store')}}
                     </h1>
                     <h1  class="border-b pb-5 text-gray-600 text-xl">
                         {{t('from ')}} <span class="font-bold text-gray-700">35 000 000</span> uzs

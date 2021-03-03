@@ -8,8 +8,7 @@ data-aos="fade-up-left">
                    <img class="mx-auto p-3"
                         src="{{asset('images/open_engine/images/4/web-site_dark.svg')}}" alt=""/>
                    <p class="text-center">
-                       Разработка интернет-
-                       магазина
+                      Online store development
                    </p>
                </div>
            </div>
@@ -18,7 +17,7 @@ data-aos="fade-up-left">
                    <img class="mx-auto p-3"
                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
                    <p class="text-center pb-6">
-                       Seo продвижение
+                       Seo promotion
                    </p>
                </div>
            </div>
@@ -27,7 +26,7 @@ data-aos="fade-up-left">
                    <img class="mx-auto p-3"
                         src="{{asset('images/open_engine/images/4/loupe_dark.svg')}}" alt=""/>
                    <p class="text-center pb-6">
-                       Контекстная реклама
+                      contextual advertisement
                    </p>
                </div>
            </div>
@@ -37,7 +36,7 @@ data-aos="fade-up-left">
                         src="{{asset('images/open_engine/images/4/digital-marketing_dark.svg')}}"
                         alt=""/>
                    <p class="text-center pb-6">
-                       СММ продвижения
+                      SMM promotion
                    </p>
                </div>
            </div>
@@ -46,7 +45,7 @@ data-aos="fade-up-left">
                    <img class="mx-auto p-3"
                         src="{{asset('images/open_engine/images/4/creative_dark.svg')}}" alt=""/>
                    <p class="text-center pb-6">
-                       Разработка брендбуков
+                      Brand book development
                    </p>
                </div>
            </div>
@@ -55,7 +54,7 @@ data-aos="fade-up-left">
                    <img class="mx-auto p-3"
                         src="{{asset('images/open_engine/images/4/target_dark.svg')}}" alt=""/>
                    <p class="text-center pb-6">
-                       Автоматизация бизнеса
+                       Business automation
                    </p>
                </div>
            </div>
