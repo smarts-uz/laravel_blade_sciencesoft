@@ -5,11 +5,11 @@
     </h1>
     <div class="flex flex-wrap" id="tabs-id">
         <div class="flex md:flex-col lg:flex-row shadow-xl bg-white rounded">
-            <ul class="flex list-none flex-wrap -mt-10 flex-col bg-blue-900 lg:w-2/5 md:w-full shadow-2xl py-10">
+            <ul id="active" class="flex list-none flex-wrap -mt-10 flex-col bg-blue-900 lg:w-2/5 md:w-full shadow-2xl py-10">
                 @foreach ($services as $service)
                 <li class=" -mr-6 last:mr-0 flex-auto pl-10 cursor-pointer hover:underline z-10">
-                    <a class="text-xl font-bold px-5 py-3 block leading-normal cursor-pointer text-white bg-blue-600"
-                        onclick="changeAtiveTab(event,'{{ $service->name }}')">
+                    <a class="text-xl font-bold px-5 py-3 block leading-normal cursor-pointer text-white"
+                        onclick="changeAtiveTab(event, '{{ $service->name }}')">
                         {{ $service->name }}
                     </a>
                 </li>
@@ -19,7 +19,7 @@
                 <div class="p-4 flex-auto lg:h-h-auto">
                     <div class="tab-content tab-space p-8">
                         @foreach ($services as $service)
-                        <div class="block text-xl pb-10" id="{{ $service->name }}">
+                        <div class="hidden text-xl pb-10" id="{{ $service->name }}">
                             <h1 class="text-3xl font-semibold">
                                 <p class="mb-2">{{ $service->name }}</p>
                                 <hr class="w-10 h-0.5 border-none bg-yellow-500">
@@ -57,3 +57,9 @@
         </div>
     </div>
 </div>
+@section('js')
+<script>
+    document.getElementById("Testing and QA").className = "block"
+    document.getElementById("active").children[0].firstChild.nextSibling.className = "text-xl font-bold px-5 py-3 block leading-normal cursor-pointer text-white bg-blue-600"
+</script>
+@endsection

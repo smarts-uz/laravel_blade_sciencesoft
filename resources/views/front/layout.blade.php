@@ -11,8 +11,6 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <title>{{ _trans('TeamPro') }}</title>
 
-
-
     @yield('css')
 
 </head>
