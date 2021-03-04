@@ -2,7 +2,7 @@
 {{--<div class="form-group col-sm-6">--}}
 {{--    {!! Form::label('user_id', 'User Id:') !!}--}}
 {{--    {!! Form::text('user_id', null, ['class' => 'form-control','maxlength' => 255,'maxlength' => 255]) !!}--}}
-{{--    <label for="user_id">{{ _trans("User Id")  }}</label>--}}
+{{--    <label for="user_id">{{ t("User Id")  }}</label>--}}
 {{--    <input type="text" class="user_id">--}}
 {{--</div>--}}
 
@@ -37,5 +37,5 @@
 {{--<!-- Submit Field -->--}}
 {{--<div class="form-group col-sm-12">--}}
 {{--    {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}--}}
-{{--    <a href="{{ route('blogs.index') }}" class="btn btn-light">{{ _trans("Cancel")  }}</a>--}}
+{{--    <a href="{{ route('blogs.index') }}" class="btn btn-light">{{ t("Cancel")  }}</a>--}}
 {{--</div>--}}

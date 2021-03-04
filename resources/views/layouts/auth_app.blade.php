@@ -29,7 +29,7 @@
                     </div>
                     @yield('content')
                     <div class="simple-footer">
-{{--                        {{ _trans("Copyright")  }} & {{ _trans("copy")  }}; {{ getSettingValue('application_name') }}  {{ date('Y') }}--}}
+{{--                        {{ t("Copyright")  }} & {{ t("copy")  }}; {{ getSettingValue('application_name') }}  {{ date('Y') }}--}}
                     </div>
                 </div>
             </div>

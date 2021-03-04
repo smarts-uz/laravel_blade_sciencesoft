@@ -15,16 +15,16 @@
           <div data-aos="fade-right" class="flex justify-center items-center leading-loose">
               <div>
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 leading-12 ">
-                    {{_trans(' Development')}}
-                    <br>  {{_trans('of an
-                    online')}} <br> {{_trans(' store')}}
+                    {{t(' Development')}}
+                    <br>  {{t('of an
+                    online')}} <br> {{t(' store')}}
                   </div>
                   <div class="lg:px-20">
                     <a
                       href="#"
                       class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                     >
-                       {{_trans('Get the consultation')}}
+                       {{t('Get the consultation')}}
                     </a>
                   </div>
               </div>
@@ -42,8 +42,8 @@
           data-aos="fade-down"
           class="text-2xl md:text-4xl font-bold text-blue-700 z-10 text-center leading-10"
         >
-         {{_trans('We develop online stores')}}  <br />
-        {{_trans(' that sell')}}
+         {{t('We develop online stores')}}  <br />
+        {{t(' that sell')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -65,10 +65,10 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon1.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">{{_trans(' GOLDEN PARTNER')}}</h1>
+              <h1 class="pl-10 text-gray-600">{{t(' GOLDEN PARTNER')}}</h1>
 
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>{{_trans('Certified partner')}} <br>  {{_trans('1C-Bitrix')}}</b>
+                <b>{{t('Certified partner')}} <br>  {{t('1C-Bitrix')}}</b>
               </h1>
             </div>
           </div>
@@ -78,10 +78,10 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon2.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">{{_trans('FROM IDEA TO SALES')}}</h1>
+              <h1 class="pl-10 text-gray-600">{{t('FROM IDEA TO SALES')}}</h1>
 
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>{{_trans(' We carry out turnkey work')}}</b>
+                <b>{{t(' We carry out turnkey work')}}</b>
               </h1>
             </div>
           </div>
@@ -91,9 +91,9 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/1/module1_icon3.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">{{_trans('GREAT EXPERIENCE')}}</h1>
+              <h1 class="pl-10 text-gray-600">{{t('GREAT EXPERIENCE')}}</h1>
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>{{_trans('More than 50 stores launched')}}</b>
+                <b>{{t('More than 50 stores launched')}}</b>
               </h1>
             </div>
           </div>
@@ -103,10 +103,10 @@
           >
             <img src="{{asset('images/open_engine/e-commerce _development/images/2/module1_icon4.svg')}}" alt="" />
             <div>
-              <h1 class="pl-10 text-gray-600">{{_trans('WE GUARANTEE THE RESULT')}}</h1>
+              <h1 class="pl-10 text-gray-600">{{t('WE GUARANTEE THE RESULT')}}</h1>
 
               <h1 class="pl-10 text-xl text-gray-700">
-                <b>{{_trans('We fix the cost and terms of work')}} <br>{{_trans(' of work')}}</b>
+                <b>{{t('We fix the cost and terms of work')}} <br>{{t(' of work')}}</b>
               </h1>
             </div>
           </div>
@@ -121,7 +121,7 @@
           data-aos="fade-down"
           class="text-4xl font-bold text-blue-700 z-10 text-center"
         >
-        {{_trans(' Why choose us?')}}
+        {{t(' Why choose us?')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -145,8 +145,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">01</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('AFFORDABLE STORE PRICE')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('from')}} 18 000 000 uzs</b></h1>
+            <h1 class="text-gray-600">{{t('AFFORDABLE STORE PRICE')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('from')}} 18 000 000 uzs</b></h1>
           </div>
         </div>
         <div
@@ -158,8 +158,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">02</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('OPENS IN 1.5 SECONDS')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('Works fast')}}</b></h1>
+            <h1 class="text-gray-600">{{t('OPENS IN 1.5 SECONDS')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('Works fast')}}</b></h1>
           </div>
         </div>
         <div
@@ -171,8 +171,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">03</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('STORE AVAILABLE 24/7')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('High reliability')}}</b></h1>
+            <h1 class="text-gray-600">{{t('STORE AVAILABLE 24/7')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('High reliability')}}</b></h1>
           </div>
         </div>
 
@@ -185,8 +185,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">04</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('USER-FRIENDLY')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('High conversion')}}</b></h1>
+            <h1 class="text-gray-600">{{t('USER-FRIENDLY')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('High conversion')}}</b></h1>
           </div>
         </div>
         <div
@@ -198,8 +198,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">05</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('WORKS ON ALL DEVICES')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('100% responsive')}}</b></h1>
+            <h1 class="text-gray-600">{{t('WORKS ON ALL DEVICES')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('100% responsive')}}</b></h1>
           </div>
         </div>
         <div
@@ -212,8 +212,8 @@
           </div>
 
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('WEBSITE IS ADAPTED FOR SEO')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('Easy to promote')}}</b></h1>
+            <h1 class="text-gray-600">{{t('WEBSITE IS ADAPTED FOR SEO')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('Easy to promote')}}</b></h1>
           </div>
         </div>
 
@@ -226,8 +226,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">07</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('WE AUTOMATE THE WORK OF THE STORE')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('Full customization')}}</b></h1>
+            <h1 class="text-gray-600">{{t('WE AUTOMATE THE WORK OF THE STORE')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('Full customization')}}</b></h1>
           </div>
         </div>
         <div
@@ -239,8 +239,8 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">08</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('WE CONNECT THE STORE WITH 1C')}}</h1>
-            <h1 class="text-gray-700 text-xl"><b>{{_trans('Convenient to operate')}}</b></h1>
+            <h1 class="text-gray-600">{{t('WE CONNECT THE STORE WITH 1C')}}</h1>
+            <h1 class="text-gray-700 text-xl"><b>{{t('Convenient to operate')}}</b></h1>
           </div>
         </div>
         <div
@@ -252,9 +252,9 @@
             <p class="bg-blue-600 px-10 py-9 font-bold text-2xl rounded-bl-full rounded-tr-md text-white absolute -top-0 -right-0 ">09</p>
           </div>
           <div class="p-5 bg-white">
-            <h1 class="text-gray-600">{{_trans('THE STORE SELLS ON THE Y. MARKET')}}</h1>
+            <h1 class="text-gray-600">{{t('THE STORE SELLS ON THE Y. MARKET')}}</h1>
             <h1 class="text-gray-700 text-xl">
-              <b>{{_trans('We increase sales')}}</b>
+              <b>{{t('We increase sales')}}</b>
             </h1>
           </div>
         </div>
@@ -265,7 +265,7 @@
           data-aos="fade-down"
           class="text-4xl font-bold text-blue-700 z-10 text-center"
         >
-        {{_trans('Our guarantees
+        {{t('Our guarantees
         ')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
@@ -290,8 +290,8 @@
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
 
-{{_trans('We conclude a')}} <br />
-{{_trans('contract for the development of an ')}} <br />{{_trans('online store')}}
+{{t('We conclude a')}} <br />
+{{t('contract for the development of an ')}} <br />{{t('online store')}}
               </p>
             </div>
           </div>
@@ -306,7 +306,7 @@
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
 
-               {{_trans(' We prescribe')}} <br> {{_trans('the development time and')}} <br> {{_trans('penalties for missed deadlines')}}
+               {{t(' We prescribe')}} <br> {{t('the development time and')}} <br> {{t('penalties for missed deadlines')}}
               </p>
             </div>
           </div>
@@ -321,8 +321,8 @@
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
 
-{{_trans('We fix the')}} <br />
-{{_trans('development cost')}}
+{{t('We fix the')}} <br />
+{{t('development cost')}}
               </p>
             </div>
           </div>
@@ -337,7 +337,7 @@
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
 
-               {{_trans(' We give a 1 year guarantee for the work performed')}}
+               {{t(' We give a 1 year guarantee for the work performed')}}
               </p>
             </div>
           </div>
@@ -352,7 +352,7 @@
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
 
-                {{_trans('We hand over a ready-made store and teach work')}}
+                {{t('We hand over a ready-made store and teach work')}}
               </p>
             </div>
           </div>
@@ -367,7 +367,7 @@
               <!--                    <p>01</p>-->
               <p class="text-gray-600 text-lg pt-5">
 
-                {{_trans('We provide the first sales of the store')}}
+                {{t('We provide the first sales of the store')}}
               </p>
             </div>
           </div>
@@ -387,8 +387,8 @@
             <h1
               class="text-2xl sm:text-4xl font-bold text-white z-10 p-5 leading-10"
             >
-           {{_trans(' Why are we developing online')}} <br>
-             {{_trans('stores based on 1C-Bitrix?')}}
+           {{t(' Why are we developing online')}} <br>
+             {{t('stores based on 1C-Bitrix?')}}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -404,47 +404,47 @@
 
         <div class="container mx-auto">
             <p class="text-5xl text-blue-500 font-semibold py-10">
-               {{_trans(' Bitrix is ​​the most popular CMS for e-commerce!')}}
+               {{t(' Bitrix is ​​the most popular CMS for e-commerce!')}}
             </p>
 
             <p class="text-gray-600 font-bold text-3xl pt-5">
-               {{_trans(' Maximum functionality for online trading')}}
+               {{t(' Maximum functionality for online trading')}}
             </p>
 
                <p class="text-gray-500 text-2xl py-5">
-               {{_trans(' The store on 1C-Bitrix has a complete set of solutions for selling goods online. Quick order, geo-identification, various currencies, discounts, bonus systems, automated delivery, online payment and checkout. The store of ready-made solutions has more than 10,000 ready-made modules. You will not overpay for development.')}}
+               {{t(' The store on 1C-Bitrix has a complete set of solutions for selling goods online. Quick order, geo-identification, various currencies, discounts, bonus systems, automated delivery, online payment and checkout. The store of ready-made solutions has more than 10,000 ready-made modules. You will not overpay for development.')}}
                </p>
 
                 <p class="text-gray-600 font-bold text-3xl pt-5">
-                  {{_trans('  Convenient management')}}
+                  {{t('  Convenient management')}}
                 </p>
 
                 <p class="text-gray-500 text-2xl py-5">
-                   {{_trans('   A person who is not familiar with programming can manage an online store. The interface is user-friendly and has a clear logical structure. ')}}
+                   {{t('   A person who is not familiar with programming can manage an online store. The interface is user-friendly and has a clear logical structure. ')}}
               </p>
 
                <p class="text-gray-600 font-bold text-3xl pt-5">
-                 {{_trans(' Native integration with 1C')}}
+                 {{t(' Native integration with 1C')}}
                </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                 {{_trans(' Fast and convenient filling is extremely important for an online store. 1C-Bitrix implements an exchange mechanism that is suitable for all major editions of 1C.')}}
+                 {{t(' Fast and convenient filling is extremely important for an online store. 1C-Bitrix implements an exchange mechanism that is suitable for all major editions of 1C.')}}
                </p>
 
                <p class="text-gray-600 font-bold text-3xl pt-5">
-                  {{_trans('Reliability and safety')}}
+                  {{t('Reliability and safety')}}
                </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                  {{_trans('The utmost attention is paid to the security of the system. Bitrix is ​​the only content management system certified by the FSTEC RF.')}}
+                  {{t('The utmost attention is paid to the security of the system. Bitrix is ​​the only content management system certified by the FSTEC RF.')}}
                </p>
 
                <p  class="text-gray-600 font-bold text-3xl pt-5">
-                  {{_trans('High-quality technical support')}}
+                  {{t('High-quality technical support')}}
                </p>
 
                <p class="text-gray-500 text-2xl py-5">
-                 {{_trans(' You will always find a qualified developer to support and develop your online store. More than 10,000 teams throughout Russia are at your service. When creating a store on Bitrix, you are not tied to one developer.')}}
+                 {{t(' You will always find a qualified developer to support and develop your online store. More than 10,000 teams throughout Russia are at your service. When creating a store on Bitrix, you are not tied to one developer.')}}
                </p>
 
         </div>
@@ -452,7 +452,7 @@
 
       <div class="flex justify-center items-center m-20 relative">
         <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-           {{_trans(' Cases')}}
+           {{t(' Cases')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -478,21 +478,21 @@
 
                    </b></p>
 
-                  <p class="p-1 text-2xl"><b>   {{_trans(' Site type:')}} </b></p>
-                  <p class="p-1 text-2xl">  {{_trans(' Online store')}} </p>
+                  <p class="p-1 text-2xl"><b>   {{t(' Site type:')}} </b></p>
+                  <p class="p-1 text-2xl">  {{t(' Online store')}} </p>
 
-                  <p class="p-1 text-2xl"><b>   {{_trans('Directions:')}} </b></p>
-                  <p class="p-1 text-2xl">  {{_trans('Online pharmacy')}} </p>
+                  <p class="p-1 text-2xl"><b>   {{t('Directions:')}} </b></p>
+                  <p class="p-1 text-2xl">  {{t('Online pharmacy')}} </p>
 
-                  <p class="p-1 text-2xl"><b>    {{_trans('Technology:')}} </b></p>
-                  <p class="p-1 text-2xl">  {{_trans(' 1C Bitrix')}} </p>
+                  <p class="p-1 text-2xl"><b>    {{t('Technology:')}} </b></p>
+                  <p class="p-1 text-2xl">  {{t(' 1C Bitrix')}} </p>
                 </div>
                 <div class="">
                   <a
                     href=""
                     class="text-lg bg-white rounded-full text-green-500 px-8 py-3 transition duration-300 ease-in-out mr-6"
                   >
-                    {{_trans(' Watch the case')}}
+                    {{t(' Watch the case')}}
                   </a>
                 </div>
               </div>
@@ -508,20 +508,20 @@
             <div class="text-2xl mb-8" data-aos="fade-up">
               <p class="p-2 text-2xl"><b>Chinbozor ©</b></p>
 
-              <p class="p-1 text-2xl"><b>{{_trans('Site type:')}}</b></p>
-              <p class="p-1 text-2xl">{{_trans('Online store')}}</p>
+              <p class="p-1 text-2xl"><b>{{t('Site type:')}}</b></p>
+              <p class="p-1 text-2xl">{{t('Online store')}}</p>
 
-              <p class="p-1 text-2xl"><b>{{_trans('Directions:')}}</b></p>
+              <p class="p-1 text-2xl"><b>{{t('Directions:')}}</b></p>
               <p class="p-1 text-2xl">Housing</p>
 
-              <p class="p-1 text-2xl"><b>{{_trans('Technology')}}:</b></p>
-              <p class="p-1 text-2xl">{{_trans('1С Bitrix')}}</p>
+              <p class="p-1 text-2xl"><b>{{t('Technology')}}:</b></p>
+              <p class="p-1 text-2xl">{{t('1С Bitrix')}}</p>
             </div>
             <a
               href=""
               class="text-lg bg-white rounded-full text-red-500 px-8 py-3 transition duration-300 ease-in-out"
             >
-             {{_trans('Watch the case')}}
+             {{t('Watch the case')}}
             </a>
           </div>
             </div>
@@ -547,21 +547,21 @@
             <div class="text-2xl mb-8" data-aos="fade-up">
               <p class="p-2 text-3xl"><b>Modo ©</b></p>
 
-              <p class="p-1 text-2xl"><b>{{_trans('Site type:')}}</b></p>
-              <p class="p-1 text-2xl">{{_trans('Online store')}}</p>
+              <p class="p-1 text-2xl"><b>{{t('Site type:')}}</b></p>
+              <p class="p-1 text-2xl">{{t('Online store')}}</p>
 
-              <p class="p-1 text-2xl"><b>{{_trans('Directions:')}}</b></p>
-              <p class="p-1 text-2xl">{{_trans(' Clothes and footwear
+              <p class="p-1 text-2xl"><b>{{t('Directions:')}}</b></p>
+              <p class="p-1 text-2xl">{{t(' Clothes and footwear
                 ')}}</p>
 
-              <p class="p-1 text-2xl"><b>{{_trans('Technology:')}}</b></p>
+              <p class="p-1 text-2xl"><b>{{t('Technology:')}}</b></p>
               <p class="p-1 text-2xl">1C Bitrix</p>
             </div>
             <a
               href=""
               class="text-lg bg-white rounded-full text-red-300 px-8 py-3 transition duration-300 ease-in-out"
             >
-             {{_trans('Watch the case')}}
+             {{t('Watch the case')}}
             </a>
           </div>
           </div>
@@ -572,7 +572,7 @@
         class="flex justify-center text-center items-center mt-40 mb-20 relative"
       >
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-            {{_trans(' We dont abandon our customers
+            {{t(' We dont abandon our customers
             ')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
@@ -587,7 +587,7 @@
 
       <div>
         <p class="text-center p-10 text-gray-700 text-2xl" data-aos="fade-down">
-             {{_trans('After development, we help to develop the project. Therefore, you can always count on:')}}
+             {{t('After development, we help to develop the project. Therefore, you can always count on:')}}
         </p>
         <div class="flex justify-center">
           <div
@@ -599,7 +599,7 @@
                 alt=""
                 class="mx-auto"
               />
-              <p class="text-base"> {{_trans('Online store support')}}</p>
+              <p class="text-base"> {{t('Online store support')}}</p>
             </div>
 
             <div class="mx-20" data-aos="fade-up">
@@ -608,7 +608,7 @@
                 alt=""
                 class="mx-auto"
               />
-              <p class="text-base"> {{_trans('Product advertising')}}</p>
+              <p class="text-base"> {{t('Product advertising')}}</p>
             </div>
 
             <div class="mx-20" data-aos="fade-up">
@@ -617,7 +617,7 @@
                 alt=""
                 class="mx-auto"
               />
-              <p class="text-base"> {{_trans('Website promotion')}}</p>
+              <p class="text-base"> {{t('Website promotion')}}</p>
             </div>
           </div>
         </div>
@@ -630,16 +630,16 @@
         >
           <div class="lg:col-span-2">
             <p class="text-blue-700 text-xl">
-              <b> {{_trans('THE FUTURE OF ECOMMERCE HAS ALREADY HAPPENED!')}}</b>
+              <b> {{t('THE FUTURE OF ECOMMERCE HAS ALREADY HAPPENED!')}}</b>
             </p>
             <p
 
               class="text-blue-700 leading-8 text-3xl md:text-5xl py-10"
             >
-              <b> {{_trans('Online store + CRM on ')}} <br /> {{_trans('1C-Bitrix24')}}</b>
+              <b> {{t('Online store + CRM on ')}} <br /> {{t('1C-Bitrix24')}}</b>
             </p>
             <p class="text-gray-700 text-xl py-5 pb-10">
-                 {{_trans('Experience a unique trading platform that connects')}} <br>  {{_trans('all sales channels')}}
+                 {{t('Experience a unique trading platform that connects')}} <br>  {{t('all sales channels')}}
 
             </p>
 
@@ -647,7 +647,7 @@
               href=""
               class="text-lg bg-blue-700 rounded-full text-white px-8 py-3 transition duration-300 ease-in-out"
             >
-            {{_trans('  Order a consultation')}}
+            {{t('  Order a consultation')}}
             </a>
           </div>
           <div
@@ -673,7 +673,7 @@
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
-                <h1 class="text-3xl font-bold text-blue-500 z-10">{{_trans('Who we are')}}</h1>
+                <h1 class="text-3xl font-bold text-blue-500 z-10">{{t('Who we are')}}</h1>
                 <p
                   class="item-center text-9xl font-bold absolute left-48 text-blue-500 z-0"
                 >
@@ -681,7 +681,7 @@
                 </p>
               </div>
               <p class="text-blue-500 text-md p-10 pt-10 text-center">
-               {{_trans(' Our specialization is the creation and support of online stores and high-tech Internet projects on 1C-Bitrix.')}}
+               {{t(' Our specialization is the creation and support of online stores and high-tech Internet projects on 1C-Bitrix.')}}
               </p>
             </div>
             <div
@@ -691,7 +691,7 @@
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="lg:text-3xl font-bold text-white z-10">
-                   {{_trans(' Who we are')}}
+                   {{t(' Who we are')}}
                 </h1>
                 <p
                   class="item-center text-9xl font-bold absolute left-48 text-gray-300 z-0 opacity-50"
@@ -700,7 +700,7 @@
                 </p>
               </div>
               <p class="text-white text-base text-md p-5 pt-10 text-center">
-               {{_trans(' Our specialization is the creation and support of online stores and high-tech Internet projects on 1C-Bitrix.')}}
+               {{t(' Our specialization is the creation and support of online stores and high-tech Internet projects on 1C-Bitrix.')}}
               </p>
             </div>
           </div>
@@ -746,7 +746,7 @@
 
       <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-            {{_trans('Prices and rates')}}
+            {{t('Prices and rates')}}
         </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -769,7 +769,7 @@
           <div
             class="shadow-2xl rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0"
           >
-            <p class="text-3xl text-white text-center"><b> {{_trans('Start')}}</b></p>
+            <p class="text-3xl text-white text-center"><b> {{t('Start')}}</b></p>
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">

@@ -1,14 +1,14 @@
 @extends('layouts.app')
 @section('title')
-    {{ _trans("News Details")  }}
+    {{ t("News Details")  }}
 @endsection
 @section('content')
     <section class="section">
         <div class="section-header">
-        <h1>{{ _trans("News Details")  }}</h1>
+        <h1>{{ t("News Details")  }}</h1>
         <div class="section-header-breadcrumb">
             <a href="{{ route('news.index') }}"
-                 class="btn btn-primary form-btn float-right">{{ _trans("Back")  }}</a>
+                 class="btn btn-primary form-btn float-right">{{ t("Back")  }}</a>
         </div>
       </div>
    @include('stisla-templates::common.errors')

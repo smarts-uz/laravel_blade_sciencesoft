@@ -11,7 +11,7 @@
 
 
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
-        {{ _trans('IT Solutions for Professional Services: Transform Service Delivery and Automate Operations') }}
+        {{ t('IT Solutions for Professional Services: Transform Service Delivery and Automate Operations') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
@@ -21,35 +21,35 @@
 
 
          <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-    {{ _trans('IT solutions for professional services allow businesses to digitalize service delivery and automate internal operations for increased productivity and a more competitive advantage in their industry') }}
+    {{ t('IT solutions for professional services allow businesses to digitalize service delivery and automate internal operations for increased productivity and a more competitive advantage in their industry') }}
     </p>
 
-    <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">{{_trans('Providing IT solutions for professional services') }}<span
-            class="text-gray-800 font-bold">{{ _trans(' since 2012,') }}</span>
-        {{ _trans(' enables professional services companies to acquire new customers with') }}<span
-            class="text-gray-800 font-bold">{{ _trans('digital service delivery channels') }}</span>
-            {{_trans('and')}}
+    <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">{{t('Providing IT solutions for professional services') }}<span
+            class="text-gray-800 font-bold">{{ t(' since 2012,') }}</span>
+        {{ t(' enables professional services companies to acquire new customers with') }}<span
+            class="text-gray-800 font-bold">{{ t('digital service delivery channels') }}</span>
+            {{t('and')}}
             <span
-            class="text-gray-800 font-bold">{{ _trans('optimize internal business processes,') }}</span>
+            class="text-gray-800 font-bold">{{ t('optimize internal business processes,') }}</span>
             {{('like project management, employee collaboration, and more.')}}
     </p>
 
     <div class="p-4 my-16 shadow-xl border rounded lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-6 lg:text-3xl">
-                {{ _trans('Open Up New Service Delivery Opportunities and Automate Operations!') }}
+                {{ t('Open Up New Service Delivery Opportunities and Automate Operations!') }}
             </h1>
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ _trans(' Team will analyze your current business operations, recommend and implement tailored IT solutions that will help you raise your business productivity and contribute to its further growth.') }}
+                {{ t(' Team will analyze your current business operations, recommend and implement tailored IT solutions that will help you raise your business productivity and contribute to its further growth.') }}
             </p>
         </div>
 
         <div class="lg:w-2/6 m-auto">
             <a href="#">
                 <div class="bg-blue-700 rounded text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                    {{ _trans('GET A CONSULTATION') }}
+                    {{ t('GET A CONSULTATION') }}
                 </div>
             </a>
 
@@ -58,7 +58,7 @@
 
 
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
-        {{ _trans('WHAT MAKES SCIENCESOFT A RELIABLE PARTNER') }}
+        {{ t('WHAT MAKES SCIENCESOFT A RELIABLE PARTNER') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
@@ -67,16 +67,16 @@
 
         <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
                 <li class="text-blue-800 mt-2">
-                <span class="text-blue-700 font-bold">{{ _trans('12 years ') }}</span>
-                    <span class="text-gray-600">{{ _trans(' in IT for professional services.') }}</span>
+                <span class="text-blue-700 font-bold">{{ t('12 years ') }}</span>
+                    <span class="text-gray-600">{{ t(' in IT for professional services.') }}</span>
                 </li>
                 <li class="text-blue-800 mt-2">
-                <span class="text-blue-700 font-bold">{{ _trans('8') }}</span>
-                    <span class="text-gray-600">{{ _trans('Microsoft Gold Competencies.') }}</span>
+                <span class="text-blue-700 font-bold">{{ t('8') }}</span>
+                    <span class="text-gray-600">{{ t('Microsoft Gold Competencies.') }}</span>
                 </li>
                 <li class="text-blue-800 mt-2">
-                <span class="text-blue-700 font-bold">{{ _trans('AWS Select Tier ') }}</span>
-                    <span class="text-gray-600">{{ _trans('partnership.') }}</span>
+                <span class="text-blue-700 font-bold">{{ t('AWS Select Tier ') }}</span>
+                    <span class="text-gray-600">{{ t('partnership.') }}</span>
                 </li>
         </ul>
 
@@ -91,34 +91,34 @@
     </div>
 
     <h1 class="text-xl sm:text-2xl font-bold text-gray-800 mb-4 md:text-3xl mt-6">
-        {{ _trans('Ample experience in delivering various IT solutions:') }}
+        {{ t('Ample experience in delivering various IT solutions:') }}
     </h1>
 
     <div class="grid gap-4 md:grid-cols-2">
 
     <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
                 <li class="text-blue-800 mt-2">
-                <span class="text-gray-800 font-bold">{{ _trans('31') }}</span>
-                    <span class="text-gray-600">{{ _trans(' years in data analytics.') }}</span>
+                <span class="text-gray-800 font-bold">{{ t('31') }}</span>
+                    <span class="text-gray-600">{{ t(' years in data analytics.') }}</span>
                 </li>
                 <li class="text-blue-800 mt-2">
-                <span class="text-gray-800 font-bold">{{ _trans('15') }}</span>
-                    <span class="text-gray-600">{{ _trans(' years in web portals.') }}</span>
+                <span class="text-gray-800 font-bold">{{ t('15') }}</span>
+                    <span class="text-gray-600">{{ t(' years in web portals.') }}</span>
                 </li>
                 <li class="text-blue-800 mt-2">
-                <span class="text-gray-800 font-bold">{{ _trans(' 15') }}</span>
-                    <span class="text-gray-600">{{ _trans('years in business intelligence.') }}</span>
+                <span class="text-gray-800 font-bold">{{ t(' 15') }}</span>
+                    <span class="text-gray-600">{{ t('years in business intelligence.') }}</span>
                 </li>
         </ul>
 
         <ul style="list-style: square;" class="flex flex-col ml-6 lg:text-xl">
                 <li class="text-blue-800 mt-2">
-                <span class="text-gray-800 font-bold">{{ _trans('12 ') }}</span>
-                    <span class="text-gray-600">{{ _trans(' years in CRM.') }}</span>
+                <span class="text-gray-800 font-bold">{{ t('12 ') }}</span>
+                    <span class="text-gray-600">{{ t(' years in CRM.') }}</span>
                 </li>
                 <li class="text-blue-800 mt-2">
-                <span class="text-gray-800 font-bold">{{ _trans('8') }}</span>
-                    <span class="text-gray-600">{{ _trans(' years in HR.') }}</span>
+                <span class="text-gray-800 font-bold">{{ t('8') }}</span>
+                    <span class="text-gray-600">{{ t(' years in HR.') }}</span>
                 </li>
 
         </ul>
@@ -129,7 +129,7 @@
 
 
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
-        {{ _trans('IT SOLUTIONS TO STREAMLINE OPERATIONS OF YOUR PROFESSIONAL SERVICES COMPANY') }}
+        {{ t('IT SOLUTIONS TO STREAMLINE OPERATIONS OF YOUR PROFESSIONAL SERVICES COMPANY') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
@@ -142,38 +142,38 @@
                  src="https://www.scnsoft.com/professional-services/crm.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('CRM') }}
+            {{ t('CRM') }}
             </h1>
 
            <div class="px-4 text-lg">
-           <p class="text-gray-600">{{_trans('B2B marketing:')}}</p>
+           <p class="text-gray-600">{{t('B2B marketing:')}}</p>
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Building brand awareness') }}</span>
+                <span class="text-gray-600">{{ t('Building brand awareness') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Content marketing.') }}</span>
+                <span class="text-gray-600">{{ t('Content marketing.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Omnichannel lead generation.') }}</span>
+                <span class="text-gray-600">{{ t('Omnichannel lead generation.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Customer journey management.') }}</span>
+                <span class="text-gray-600">{{ t('Customer journey management.') }}</span>
             </li>
         </ul>
-        <p class="text-gray-600 mt-4">{{_trans('Sales: ')}}</p>
+        <p class="text-gray-600 mt-4">{{t('Sales: ')}}</p>
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Long-cycle sales.') }}</span>
+                <span class="text-gray-600">{{ t('Long-cycle sales.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Consulting sales.') }}</span>
+                <span class="text-gray-600">{{ t('Consulting sales.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Account development.') }}</span>
+                <span class="text-gray-600">{{ t('Account development.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Customer journey management.') }}</span>
+                <span class="text-gray-600">{{ t('Customer journey management.') }}</span>
             </li>
         </ul>
 
@@ -189,29 +189,29 @@
                  src="https://www.scnsoft.com/professional-services/customer-portal.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('Customer portal') }}
+            {{ t('Customer portal') }}
             </h1>
 
            <div class="px-4 text-lg">
 
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('360-degree customer view.') }}</span>
+                <span class="text-gray-600">{{ t('360-degree customer view.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Digital service delivery.') }}</span>
+                <span class="text-gray-600">{{ t('Digital service delivery.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Customer self-service.') }}</span>
+                <span class="text-gray-600">{{ t('Customer self-service.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('AI assistant.') }}</span>
+                <span class="text-gray-600">{{ t('AI assistant.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Data access and self-service analytics.') }}</span>
+                <span class="text-gray-600">{{ t('Data access and self-service analytics.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('eLearning.') }}</span>
+                <span class="text-gray-600">{{ t('eLearning.') }}</span>
             </li>
         </ul>
 
@@ -228,26 +228,26 @@
                  src="https://www.scnsoft.com/professional-services/data-analytics-1.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('Data analytics portal for customers') }}
+            {{ t('Data analytics portal for customers') }}
             </h1>
 
            <div class="px-4 text-lg">
 
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Data upload (one-time and continuous).') }}</span>
+                <span class="text-gray-600">{{ t('Data upload (one-time and continuous).') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Secure storage.') }}</span>
+                <span class="text-gray-600">{{ t('Secure storage.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Data augmentation and enrichment.') }}</span>
+                <span class="text-gray-600">{{ t('Data augmentation and enrichment.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Machine learning and NLP.') }}</span>
+                <span class="text-gray-600">{{ t('Machine learning and NLP.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Data and insight visualization.') }}</span>
+                <span class="text-gray-600">{{ t('Data and insight visualization.') }}</span>
             </li>
 
         </ul>
@@ -265,26 +265,26 @@
                  src="https://www.scnsoft.com/professional-services/project-management.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('Project and human resource management') }}
+            {{ t('Project and human resource management') }}
             </h1>
 
            <div class="px-4 text-lg">
 
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Project planning.') }}</span>
+                <span class="text-gray-600">{{ t('Project planning.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Task management and scheduling.') }}</span>
+                <span class="text-gray-600">{{ t('Task management and scheduling.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Resource allocation.') }}</span>
+                <span class="text-gray-600">{{ t('Resource allocation.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Progress monitoring.') }}</span>
+                <span class="text-gray-600">{{ t('Progress monitoring.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Workforce utilization management.') }}</span>
+                <span class="text-gray-600">{{ t('Workforce utilization management.') }}</span>
             </li>
 
         </ul>
@@ -302,26 +302,26 @@
                  src="https://www.scnsoft.com/sharepoint/sharepoint-consulting/services/dms-02.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('Document management') }}
+            {{ t('Document management') }}
             </h1>
 
            <div class="px-4 text-lg">
 
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Templates.') }}</span>
+                <span class="text-gray-600">{{ t('Templates.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Intelligent search.') }}</span>
+                <span class="text-gray-600">{{ t('Intelligent search.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Co-editing with a customer.') }}</span>
+                <span class="text-gray-600">{{ t('Co-editing with a customer.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Approval workflows.') }}</span>
+                <span class="text-gray-600">{{ t('Approval workflows.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Document retention policies.') }}</span>
+                <span class="text-gray-600">{{ t('Document retention policies.') }}</span>
             </li>
 
         </ul>
@@ -339,26 +339,26 @@
                  src="https://www.scnsoft.com/professional-services/employee-db.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('Employee database and portal') }}
+            {{ t('Employee database and portal') }}
             </h1>
 
            <div class="px-4 text-lg">
 
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Organizational chart.') }}</span>
+                <span class="text-gray-600">{{ t('Organizational chart.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Open positions.') }}</span>
+                <span class="text-gray-600">{{ t('Open positions.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Employee self-service.') }}</span>
+                <span class="text-gray-600">{{ t('Employee self-service.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Scheduling.') }}</span>
+                <span class="text-gray-600">{{ t('Scheduling.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('External workforce management.') }}</span>
+                <span class="text-gray-600">{{ t('External workforce management.') }}</span>
             </li>
 
         </ul>
@@ -377,29 +377,29 @@
                  src="https://www.scnsoft.com/professional-services/bi.svg"
                  class="m-auto my-4" alt="">
             <h1 class="text-xl mb-4 text-gray-800 font-bold mt-4 text-center px-4 lg:px-10">
-            {{ _trans('Business intelligence') }}
+            {{ t('Business intelligence') }}
             </h1>
 
            <div class="px-4 text-lg">
 
            <ul style="list-style: square;" class="flex flex-col mt-4 ml-6">
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Finance analytics.') }}</span>
+                <span class="text-gray-600">{{ t('Finance analytics.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Customer analytics.')}}</span>
+                <span class="text-gray-600">{{ t('Customer analytics.')}}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Performance analytics.') }}</span>
+                <span class="text-gray-600">{{ t('Performance analytics.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Workforce analytics.') }}</span>
+                <span class="text-gray-600">{{ t('Workforce analytics.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Operational analytics.') }}</span>
+                <span class="text-gray-600">{{ t('Operational analytics.') }}</span>
             </li>
             <li class="text-blue-800 mt-2">
-                <span class="text-gray-600">{{ _trans('Planning and forecasting.') }}</span>
+                <span class="text-gray-600">{{ t('Planning and forecasting.') }}</span>
             </li>
 
         </ul>
@@ -416,19 +416,19 @@
     <div class="p-4 my-16 shadow-xl border rounded lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-4 lg:text-3xl">
-                {{ _trans('Found What You’ve Been Looking For?') }}
+                {{ t('Found What You’ve Been Looking For?') }}
             </h1>
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ _trans('Team will help you implement a tailored solution that will meet your company’s business needs.') }}
+                {{ t('Team will help you implement a tailored solution that will meet your company’s business needs.') }}
             </p>
         </div>
 
         <div class="lg:w-2/6 m-auto">
             <a href="#">
                 <div class="bg-blue-700 rounded text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                    {{ _trans('GET THE CHOSEN SOLUTION') }}
+                    {{ t('GET THE CHOSEN SOLUTION') }}
                 </div>
             </a>
 
@@ -436,7 +436,7 @@
     </div>
 
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
-        {{ _trans('OUR HALLMARK PROJECTS FOR PROFESSIONAL SERVICES') }}
+        {{ t('OUR HALLMARK PROJECTS FOR PROFESSIONAL SERVICES') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
@@ -500,7 +500,7 @@
                 </div>
 
                 <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
-        {{ _trans('CHOOSE YOUR IT SERVICES') }}
+        {{ t('CHOOSE YOUR IT SERVICES') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
@@ -512,46 +512,46 @@
             <img width="120" height="108"
                  src="https://www.scnsoft.com/crm/crm-consulting/crm_dedicated_services_crm_implementation_consulting.svg"
                  class="m-auto my-4" alt="">
-            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">{{_trans('Solution consulting, implementation and support for professional services')}}</h1>
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">{{t('Solution consulting, implementation and support for professional services')}}</h1>
 
             <div class="px-4">
-                <p class="mb-4 text-gray-800 font-semibold">{{_trans('We consult on:')}}</p>
+                <p class="mb-4 text-gray-800 font-semibold">{{t('We consult on:')}}</p>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Choosing suitable solutions and their optimal functionality to meet your business needs.')}}</p>
+                        <p>{{t('Choosing suitable solutions and their optimal functionality to meet your business needs.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Reducing implementation costs.')}}</p>
+                        <p>{{t('Reducing implementation costs.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Ensuring user adoption.')}}</p>
+                        <p>{{t('Ensuring user adoption.')}}</p>
                     </div>
                 </div>
 
-                <p class="mb-4 text-gray-800 font-semibold">{{_trans('We offer:')}}</p>
+                <p class="mb-4 text-gray-800 font-semibold">{{t('We offer:')}}</p>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('End-to-end solution implementation.')}}</p>
+                        <p>{{t('End-to-end solution implementation.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('After-launch support.')}}</p>
+                        <p>{{t('After-launch support.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Continuous solution maintenance and evolution.')}}</p>
+                        <p>{{t('Continuous solution maintenance and evolution.')}}</p>
                     </div>
                 </div>
 
@@ -570,32 +570,32 @@
             <img width="120" height="108"
                  src="https://www.scnsoft.com/professional-services/it-outsourcicg.svg"
                  class="m-auto my-4" alt="">
-            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">{{_trans('IT outsourcing for professional services')}}</h1>
+            <h1 class="text-xl mb-4 text-blue-700 font-semibold mt-4 text-center px-4 lg:px-10">{{t('IT outsourcing for professional services')}}</h1>
 
             <div class="px-4">
 
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Business analysis')}}</p>
+                        <p>{{t('Business analysis')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Software development.')}}</p>
+                        <p>{{t('Software development.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('QA.')}}</p>
+                        <p>{{t('QA.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Data analytics.')}}</p>
+                        <p>{{t('Data analytics.')}}</p>
                     </div>
                 </div>
 
@@ -603,19 +603,19 @@
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('IT support.')}}</p>
+                        <p>{{t('IT support.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Managed infrastructure services.')}}</p>
+                        <p>{{t('Managed infrastructure services.')}}</p>
                     </div>
                 </div>
                 <div class="flex mb-2">
                     <div class="w-2 h-2 mt-2 bg-blue-500 mr-3"></div>
                     <div class="w-11/12">
-                        <p>{{_trans('Help desk..')}}</p>
+                        <p>{{t('Help desk..')}}</p>
                     </div>
                 </div>
 
@@ -634,7 +634,7 @@
     </div>
 
     <h1 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 md:text-4xl mt-6">
-        {{ _trans('EQUIP YOUR PROFESSIONAL SERVICES BUSINESS WITH IT SOLUTIONS RIGHT NOW') }}
+        {{ t('EQUIP YOUR PROFESSIONAL SERVICES BUSINESS WITH IT SOLUTIONS RIGHT NOW') }}
     </h1>
     <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
@@ -643,39 +643,39 @@
     <div class="my-8 md:block hidden">
         <div class="grid mt-6 grid-cols-1 md:grid-cols-3 gap-4">
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+15-50%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+15-50%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('employee productivity increase via convenient tools and improved collaboration')}}
+                    {{t('employee productivity increase via convenient tools and improved collaboration')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+5-15%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+5-15%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('revenue per employee via increased company productivity due to customer self-service')}}
+                    {{t('revenue per employee via increased company productivity due to customer self-service')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+20-100%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+20-100%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('revenue due to new digital channels')}}
+                    {{t('revenue due to new digital channels')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+15-30%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+15-30%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('sales due to marketing and sales automation')}}
+                    {{t('sales due to marketing and sales automation')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('99.99%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('99.99%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('IT service availability')}}
+                    {{t('IT service availability')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-5-35%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('-5-35%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('IT operating costs')}}
+                    {{t('IT operating costs')}}
                 </p>
             </div>
 
@@ -690,54 +690,54 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide text-center  pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+15-50%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+15-50%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('employee productivity increase via convenient tools and improved collaboration')}}
+                    {{t('employee productivity increase via convenient tools and improved collaboration')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+5-15%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+5-15%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('revenue per employee via increased company productivity due to customer self-service')}}
+                    {{t('revenue per employee via increased company productivity due to customer self-service')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+20-100%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+20-100%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('revenue due to new digital channels')}}
+                    {{t('revenue due to new digital channels')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+15-30%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+15-30%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('sales due to marketing and sales automation')}}
+                    {{t('sales due to marketing and sales automation')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('99.99%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('99.99%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('IT service availability')}}
+                    {{t('IT service availability')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide tetx-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-5-35%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('-5-35%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('IT operating costs')}}
+                    {{t('IT operating costs')}}
                 </p>
             </div>
         </div>
@@ -749,19 +749,19 @@
 <div class="p-4 my-16 shadow-xl border rounded lg:flex">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-4 lg:text-3xl">
-                {{ _trans('Profit by IT Solutions for Professional Services!') }}
+                {{ t('Profit by IT Solutions for Professional Services!') }}
             </h1>
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ _trans('Reach out to ScienceSoft’s team right NOW to learn how to streamline service delivery and raise the productivity of your business with IT.') }}
+                {{ t('Reach out to ScienceSoft’s team right NOW to learn how to streamline service delivery and raise the productivity of your business with IT.') }}
             </p>
         </div>
 
         <div class="lg:w-2/6 m-auto">
             <a href="#">
                 <div class="bg-blue-700 rounded text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                    {{ _trans('GET A CONSULTATION') }}
+                    {{ t('GET A CONSULTATION') }}
                 </div>
             </a>
 

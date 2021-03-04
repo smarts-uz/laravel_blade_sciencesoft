@@ -8,9 +8,9 @@
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h1>{{ _trans("Products")  }}</h1>
+            <h1>{{ t("Products")  }}</h1>
             <div class="section-header-breadcrumb">
-                <a href="{{ route('products.create')}}" class="btn btn-primary form-btn">{{ _trans("Product")  }} <i class="fas fa-plus"></i></a>
+                <a href="{{ route('products.create')}}" class="btn btn-primary form-btn">{{ t("Product")  }} <i class="fas fa-plus"></i></a>
             </div>
         </div>
         <div class="section-body">
