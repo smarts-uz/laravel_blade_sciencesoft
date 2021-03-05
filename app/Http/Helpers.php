@@ -1,14 +1,15 @@
 <?php
 
 use App\Translation;
-
+use Illuminate\Support\Facades\App;
 if (! function_exists('t')) {
     function t($key, $lang = null){
         if($lang == null){
-            $lang = 'en';
+            $lang = App::getLocale()??'en';
+            //$lang = 'ru';
         }
 
-        $translation_def = Translation::where('lang', env('DEFAULT_LANGUAGE', 'en'))->where('lang_key', $key)->first();
+        $translation_def = Translation::where('lang', $lang??env('DEFAULT_LANGUAGE', 'en'))->where('lang_key', $key)->first();
         if($translation_def == null){
             $translation_def = new Translation;
             $translation_def->lang = env('DEFAULT_LANGUAGE', 'en');

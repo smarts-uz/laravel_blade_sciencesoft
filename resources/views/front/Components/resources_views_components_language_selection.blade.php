@@ -6,8 +6,8 @@
         <img class="h-4 w-4 rounded-full mr-2" src="{{ asset('images/flags/' . $locale . '.png') }}" />
         <div>
             @if ($locale == 'en'){{ t('English') }}
-            @elseif($locale=='ru')){{ t('Russian') }}
-            @elseif($locale=='uz')){{ t('Uzbek') }}
+            @elseif($locale=='ru'){{ t('Russian') }}
+            @elseif($locale=='uz'){{ t('Uzbek') }}
             @else {{ t('English') }} @endif
         </div>
         <div class="ml-1">
@@ -24,9 +24,9 @@
         x-transition:leave-end="transform opacity-0 scale-95"
         class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg">
         <div class="px-2 py-2 bg-white rounded-md shadow dark-mode:bg-gray-800">
-            <div class="block px-4 py-2 text-xs text-gray-400">
+            {{-- <div class="block px-4 py-2 text-xs text-gray-400">
                 {{ __('Select Language') }}
-            </div>
+            </div> --}}
             @if ($locale != 'ru')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
                     href="{{ url('lang/ru') }}"><img class="h-3 w-3 rounded-md mr-2"
