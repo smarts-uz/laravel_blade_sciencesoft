@@ -3,7 +3,7 @@
 <div @click.away="open = false" class="relative" x-data="{ open: false }">
     <button @click="open = !open"
         class="p-3 bg-white flex items-center rounded-xl text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300 focus:outline-none focus:text-gray-700 focus:border-gray-300 transition duration-150 ease-in-out">
-        <img class="h-4 w-4 rounded-full mr-2" src="{{ asset('images/flags/' . $locale . '.png') }}" />
+        {{-- <img class="h-4 w-4 rounded-full mr-2" src="{{ asset('images/flags/' . $locale . '.png') }}" /> --}}
         <div>
             @if ($locale == 'en'){{ t('English') }}
             @elseif($locale=='ru'){{ t('Russian') }}
@@ -29,17 +29,16 @@
             </div> --}}
             @if ($locale != 'ru')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
-                    href="{{ url('lang/ru') }}"><img class="h-3 w-3 rounded-md mr-2"
-                        src="{{ asset('images/flags/ru.png') }}" alt="" /> {{ t('Russian') }}</a>@endif
+                    href="{{ url('lang/ru') }}"> {{ t('Russian') }}</a>@endif
 
             @if ($locale != 'uz')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
-                    href="{{ url('lang/uz') }}"><img class="h-3 w-3 rounded-md mr-2"
-                        src="{{ asset('images/flags/uz.png') }}" alt="" /> {{ t('Uzbek') }}</a>@endif
+                    href="{{ url('lang/uz') }}"> {{ t('Uzbek') }}</a>@endif
             @if ($locale != 'en')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
-                    href="{{ url('lang/en') }}"><img class="h-3 w-3 rounded-md mr-2"
-                        src="{{ asset('images/flags/en.png') }}" alt="" /> {{ t('English') }}</a>
+                    href="{{ url('lang/en') }}">
+                    {{-- <img class="h-3 w-3 rounded-md mr-2" src="{{ asset('images/flags/en.png') }}" alt="" /> --}}
+                    {{ t('English') }}</a>
             @endif
         </div>
     </div>
