@@ -1,5 +1,5 @@
 <div class="md:px-16 px-6 w-full">
-    <p class="py-5">{{ t('Drop us') }}</p>
+    <p class="py-5">{{ t("Drop us") }}</p>
     <div class="flex">
         <form method="POST" class="w-full" action="{{ route('consultation') }}">
             @csrf
@@ -34,16 +34,16 @@
                 </a>
             </div>
             <div>
-                <h1 class="font-bold text-xl pb-2 mt-4">{{ t('Press inquires') }}</h1>
+                <h1 class="font-bold text-xl pb-2 mt-4">{{ t("Press inquires") }}</h1>
                 <a class="text-blue-400 flex items-center text-xs" href="#">
                     <p class="uppercase">{{ t('Get in touch') }}</p>
                     <i class="fas fa-arrow-right pl-3"></i>
                 </a>
             </div>
             <div>
-                <h1 class="font-bold text-xl pb-2 mt-4">{{ t('Join our team') }}</h1>
+                <h1 class="font-bold text-xl pb-2 mt-4">{{ t("Join our team") }}</h1>
                 <a class="text-blue-400 flex items-center text-xs" href="#">
-                    <p class="uppercase">{{ t('Check our open vacancies') }}</p>
+                    <p class="uppercase">{{ t("Check our open vacancies") }}</p>
                     <i class="fas fa-arrow-right pl-3"></i>
                 </a>
             </div>
