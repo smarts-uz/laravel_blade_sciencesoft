@@ -29,18 +29,18 @@
             </div> --}}
             @if ($locale != 'ru')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
-                    href="{{ url('lang/ru') }}">
+                    href="{{ route('lang', ['locale'=>'ru']) }}">
                     {{-- <img class="h-3 w-3 rounded-md mr-2" src="{{ asset('images/flags/ru.png') }}" alt="" /> --}}
                     {{ t('Russian') }}</a>@endif
 
             @if ($locale != 'uz')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
-                    href="{{ url('lang/uz') }}">
+                    href="{{ route('lang', ['locale'=>'uz']) }}">
                     {{-- <img class="h-3 w-3 rounded-md mr-2" src="{{ asset('images/flags/uz.png') }}" alt="" /> --}}
                          {{ t('Uzbek') }}</a>@endif
             @if ($locale != 'en')<a
                     class="flex items-center px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-200 focus:outline-none focus:bg-gray-100 transition duration-150 ease-in-out focus:shadow-outline"
-                    href="{{ url('lang/en') }}">
+                    href="{{ route('lang', ['locale'=>'en']) }}">
                     {{-- <img class="h-3 w-3 rounded-md mr-2" src="{{ asset('images/flags/en.png') }}" alt="" /> --}}
                         {{ t('English') }}</a>
             @endif
