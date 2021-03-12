@@ -1,0 +1,519 @@
+*   [33mede8a44[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m[32m\[m  
+[31m|[m * [33m871d610[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m BookApp
+[31m|[m * [33m485c947[m kaptivali iw
+[31m|[m * [33m9422eda[m translation fixed
+[31m|[m *   [33m7aabd25[m Merge pull request #75 from teamprodev/Jahongir
+[31m|[m [33m|[m[34m\[m  
+[31m|[m [33m|[m * [33mee83d3d[m admin contact datatable
+[31m|[m [33m|[m[33m/[m  
+[31m|[m *   [33m04f8b84[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Jahongir
+[31m|[m [35m|[m[36m\[m  
+[31m|[m [35m|[m * [33mc472b16[m translate bugs fixed
+[31m|[m [35m|[m * [33md39be72[m translation regex fixed
+[31m|[m [35m|[m * [33m66b5544[m translation changed from _trans() to t()
+[31m|[m * [36m|[m [33m3af433c[m service tab bug fixed
+[31m|[m [36m|[m[36m/[m  
+[31m|[m * [33m80004be[m referral page components
+[31m|[m * [33mcf01d45[m managent team tag add
+[31m|[m * [33mba0f4d4[m changed form components
+[31m|[m * [33m4ee2e2a[m footer done with component
+[31m|[m * [33maa59501[m change
+[31m|[m *   [33mcd92637[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [1;31m|[m[1;32m\[m  
+[31m|[m [1;31m|[m *   [33m4abc32a[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[31m|[m [1;31m|[m [1;33m|[m[1;34m\[m  
+[31m|[m [1;31m|[m * [1;34m|[m [33m0d879a7[m change
+[31m|[m * [1;34m|[m [1;34m|[m [33m839747d[m managent team select
+[31m|[m [1;34m|[m [1;34m|[m[1;34m/[m  
+[31m|[m [1;34m|[m[1;34m/[m[1;34m|[m   
+[31m|[m * [1;34m|[m [33m5b42145[m appservice
+[31m|[m [1;34m|[m[1;34m/[m  
+[31m|[m * [33m20d257f[m[33m ([m[1;31morigin/Azimjon[m[33m)[m fleet management
+[31m|[m * [33m0911b72[m services component
+[31m|[m *   [33m81b10d5[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [1;35m|[m[1;36m\[m  
+[31m|[m [1;35m|[m *   [33md9e1d2c[m Merge pull request #74 from teamprodev/Jahongir
+[31m|[m [1;35m|[m [31m|[m[32m\[m  
+[31m|[m [1;35m|[m [31m|[m *   [33me136af0[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Jahongir
+[31m|[m [1;35m|[m [31m|[m [33m|[m[34m\[m  
+[31m|[m [1;35m|[m [31m|[m * [34m|[m [33md0679ea[m navbar responsive dynamic
+[31m|[m * [31m|[m [34m|[m [34m|[m [33m9395cdd[m fixed
+[31m|[m [31m|[m[31m/[m [34m/[m [34m/[m  
+[31m|[m * [34m|[m [34m/[m [33ma641566[m[33m ([m[1;31morigin/Ogabek[m[33m)[m fixed
+[31m|[m [34m|[m [34m|[m[34m/[m  
+[31m|[m [34m|[m[34m/[m[34m|[m   
+[31m|[m * [34m|[m [33mcd66646[m[33m ([m[1;31morigin/shohrux[m[33m)[m Revert "Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into shohrux"
+[31m|[m * [34m|[m [33m76c50bc[m helper merged
+[31m|[m * [34m|[m   [33m327d8c7[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into shohrux
+[31m|[m [35m|[m[36m\[m [34m\[m  
+[31m|[m [35m|[m * [34m|[m [33m2722389[m image analysis
+[31m|[m [35m|[m * [34m|[m   [33m62ad747[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Ogabek
+[31m|[m [35m|[m [1;31m|[m[1;32m\[m [34m\[m  
+[31m|[m [35m|[m [1;31m|[m * [34m\[m   [33mcd1c0cf[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Ogabek
+[31m|[m [35m|[m [1;31m|[m [1;33m|[m[1;34m\[m [34m\[m  
+[31m|[m [35m|[m [1;31m|[m [1;33m|[m * [34m|[m [33maf20904[m careers navbar
+[31m|[m [35m|[m [1;31m|[m [1;33m|[m * [34m|[m [33m346cdd5[m language changed
+[31m|[m [35m|[m [1;31m|[m [1;33m|[m * [34m|[m   [33m2b36f3e[m[33m ([m[1;31morigin/Abdulvahhob[m[33m)[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [35m|[m [1;31m|[m [1;33m|[m [1;35m|[m[1;36m\[m [34m\[m  
+[31m|[m [35m|[m [1;31m|[m [1;33m|[m * [1;36m|[m [34m|[m [33m2601e28[m paython bugs
+[31m|[m [35m|[m [1;31m|[m * [1;36m|[m [1;36m|[m [34m|[m [33mc7b8d00[m test commit
+[31m|[m [35m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [34m|[m [33ma22fc33[m responsive managed it
+[31m|[m [35m|[m [1;36m|[m[1;36m/[m [1;36m/[m [1;36m/[m [34m/[m  
+[31m|[m [35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33m31c84fc[m awards responsive
+[31m|[m [35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33mdfb5525[m responsive testing qa
+[31m|[m [35m|[m * [1;36m|[m [1;36m|[m [34m|[m [33me43e300[m responsive .net index
+[31m|[m [35m|[m [1;36m|[m [1;36m|[m[1;36m/[m [34m/[m  
+[31m|[m [35m|[m [1;36m|[m[1;36m/[m[1;36m|[m [34m|[m   
+[31m|[m [35m|[m * [1;36m|[m [34m|[m [33mffa28aa[m deleted
+[31m|[m [35m|[m * [1;36m|[m [34m|[m   [33m71e2cad[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhammadjon
+[31m|[m [35m|[m [31m|[m[32m\[m [1;36m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m * [1;36m\[m [34m\[m   [33m2e11b56[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[31m|[m [35m|[m [31m|[m [33m|[m[34m\[m [1;36m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [33m|[m * [1;36m|[m [34m|[m [33m030ae49[m Language
+[31m|[m [35m|[m [31m|[m [33m|[m * [1;36m|[m [34m|[m [33mce52933[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [35m|[m [31m|[m [33m|[m [35m|[m[1;36m\[m[1;36m|[m [34m|[m 
+[31m|[m [35m|[m [31m|[m [33m|[m * [1;36m|[m [34m|[m   [33m680518b[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [35m|[m [31m|[m [33m|[m [1;31m|[m[1;32m\[m [1;36m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [33m|[m * [1;32m|[m [1;36m|[m [34m|[m [33m5732e07[m sdf
+[31m|[m [35m|[m [31m|[m * [1;32m|[m [1;32m|[m [1;36m|[m [34m|[m [33ma4bc9a0[m done imagine analyisis
+[31m|[m [35m|[m [31m|[m [1;36m|[m [1;32m|[m[1;36m_[m[1;32m|[m[1;36m/[m [34m/[m  
+[31m|[m [35m|[m [31m|[m [1;36m|[m[1;36m/[m[1;32m|[m [1;32m|[m [34m|[m   
+[31m|[m [35m|[m [31m|[m * [1;32m|[m [1;32m|[m [34m|[m [33m2587836[m debuging lounch ecommerc
+[31m|[m [35m|[m [31m|[m * [1;32m|[m [1;32m|[m [34m|[m   [33m43a3827[m[33m ([m[1;31morigin/Muhriddin[m[33m)[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[31m|[m [35m|[m [31m|[m [1;33m|[m[1;34m\[m [1;32m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m * [1;32m|[m [1;32m|[m [34m|[m [33m763f445[m debuging
+[31m|[m [35m|[m [31m|[m [1;33m|[m * [1;32m|[m [1;32m|[m [34m|[m   [33m766d56a[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m[1;36m\[m [1;32m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m * [1;32m\[m [1;32m\[m [34m\[m   [33ma269ca0[m Merge pull request #73 from teamprodev/Muhriddin
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [31m|[m[32m\[m [1;32m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [31m|[m * [1;32m\[m [1;32m\[m [34m\[m   [33me1db13a[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [31m|[m [33m|[m[31m\[m [1;32m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [31m|[m [33m|[m[31m/[m [1;32m/[m [1;32m/[m [34m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [31m|[m[31m/[m[33m|[m [1;32m|[m [1;32m|[m [34m|[m   
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m * [33m|[m [1;32m|[m [1;32m|[m [34m|[m   [33maeae25d[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [35m|[m[36m\[m [33m\[m [1;32m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m * [36m|[m [33m|[m [1;32m|[m [1;32m|[m [34m|[m [33md9eddca[m adding side categories to carrer.blade.php
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [36m|[m[1;32m_[m[33m|[m[1;32m_[m[1;32m|[m[1;32m/[m [34m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m[1;32m/[m[36m|[m [33m|[m [1;32m|[m [34m|[m   
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [36m|[m * [1;32m|[m [34m|[m   [33m6719b7f[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [36m|[m [1;31m|[m[36m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [36m|[m [1;31m|[m[36m/[m [1;32m/[m [34m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [36m|[m[36m/[m[1;31m|[m [1;32m|[m [34m|[m   
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m * [1;31m|[m [1;32m|[m [34m|[m   [33md4fe67d[m Merge remote-tracking branch 'origin/Jahongir' into main
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [1;33m|[m[34m\[m [1;31m\[m [1;32m\[m [34m\[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [1;33m|[m [34m|[m [1;31m|[m[34m_[m[1;32m|[m[34m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [1;33m|[m [34m|[m[34m/[m[1;31m|[m [1;32m|[m   
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [1;33m|[m * [1;31m|[m [1;32m|[m [33me33600c[m lang
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m [1;33m|[m[1;32m/[m [1;31m/[m [1;32m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m[1;32m/[m[1;33m|[m [1;31m|[m [1;32m|[m   
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m * [1;31m|[m [1;32m|[m [33mc369e22[m icons added
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m[1;32m/[m [1;31m/[m [1;32m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m * [1;32m/[m [33m463020f[m our team
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;35m|[m [1;32m|[m[1;32m/[m [1;32m/[m  
+[31m|[m [35m|[m [31m|[m [1;33m|[m * [1;32m/[m [1;32m/[m [33m42699ed[m responsive debugging
+[31m|[m [35m|[m [31m|[m [1;33m|[m [1;32m|[m[1;32m/[m [1;32m/[m  
+[31m|[m [35m|[m [31m|[m * [1;32m/[m [1;32m/[m [33m7c5a922[m change
+[31m|[m [35m|[m [31m|[m [1;32m|[m[1;32m/[m [1;32m/[m  
+[31m|[m [35m|[m [31m|[m * [1;32m|[m   [33mfffc6bc[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[31m|[m [35m|[m [31m|[m [1;35m|[m[1;36m\[m [1;32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m * [1;32m\[m   [33m6d9726a[m Merge remote-tracking branch 'origin/Jahongir' into main
+[31m|[m [35m|[m [31m|[m [1;35m|[m [31m|[m[32m\[m [1;32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [31m|[m * [1;32m|[m [33m5288f5a[m file
+[31m|[m [35m|[m [31m|[m [1;35m|[m * [32m|[m [1;32m|[m   [33m88d21b2[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m[1;32m\[m [32m\[m [1;32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;32m|[m [32m|[m[1;32m/[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;32m|[m[1;32m/[m[32m|[m   
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m * [32m|[m   [33m7f5d8e4[m Merge pull request #72 from teamprodev/Muhriddin
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [35m|[m[36m\[m [32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [35m|[m * [32m\[m   [33m8bb449f[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [35m|[m [1;31m|[m[35m\[m [32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [35m|[m [1;31m|[m[35m/[m [32m/[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [35m|[m[35m/[m[1;31m|[m [32m|[m   
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m * [1;31m|[m [32m|[m   [33me947f19[m Merge pull request #71 from teamprodev/Muhriddin
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m[1;34m\[m [1;31m\[m [32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m [1;34m|[m * [32m|[m [33m32ab065[m teaaam
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m [1;34m|[m[1;34m/[m [32m/[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m * [32m|[m   [33m171507d[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m [1;35m|[m[1;33m\[m [32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m [1;35m|[m[1;33m/[m [32m/[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m[1;33m/[m[1;35m|[m [32m|[m   
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m * [32m|[m [33m5ede8ae[m teammmm
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m * [32m|[m [33mfbbdd4e[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m [31m|[m[32m\[m[32m|[m 
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m * [32m|[m   [33me4fb5c0[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m [33m|[m[34m\[m [32m\[m  
+[31m|[m [35m|[m [31m|[m [1;35m|[m [33m|[m [1;33m|[m * [34m|[m [32m|[m [33mf083f13[m mmmm
+[31m|[m [35m|[m [31m|[m [1;35m|[m * [1;33m|[m [34m|[m [34m|[m [32m|[m [33m4547d15[m change
+[31m|[m [35m|[m [31m|[m [1;35m|[m [1;33m|[m[1;33m/[m [34m/[m [34m/[m [32m/[m  
+[31m|[m [35m|[m [31m|[m * [1;33m/[m [34m/[m [34m/[m [32m/[m [33m34fda2d[m env changed to local
+[31m|[m [35m|[m [31m|[m [1;33m|[m[1;33m/[m [34m/[m [34m/[m [32m/[m  
+[31m|[m [35m|[m * [1;33m|[m [34m|[m [34m|[m [32m|[m   [33mfe0ed0f[m last change
+[31m|[m [35m|[m [35m|[m[36m\[m [1;33m\[m [34m\[m [34m\[m [32m\[m  
+[31m|[m [35m|[m * [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33mbdd5717[m new chnage
+[31m|[m [35m|[m * [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33ma99808f[m FULL page only carousel
+[31m|[m [35m|[m * [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33m99d3d52[m full page
+[31m|[m [35m|[m * [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33m27eb8d2[m web portal was created
+[31m|[m [35m|[m * [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33mbc9e621[m my files
+[31m|[m * [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33mb87bfec[m bug fixing
+[31m|[m * [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33m7831b6f[m bug fixing
+[31m|[m * [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33m91ad718[m responsive bugs fixed
+[31m|[m * [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33me5e71ab[m bug fixed
+[31m|[m * [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33m92b359e[m Merge branch 'main' of
+[31m|[m * [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33mcee83a3[m e-learnig
+* [36m|[m [36m|[m [36m|[m [1;33m|[m [34m|[m [34m|[m [32m|[m [33m84a7cc5[m server changes
+[1;33m|[m [36m|[m[1;33m_[m[36m|[m[1;33m_[m[36m|[m[1;33m/[m [34m/[m [34m/[m [32m/[m  
+[1;33m|[m[1;33m/[m[36m|[m [36m|[m [36m|[m [34m|[m [34m|[m [32m|[m   
+* [36m|[m [36m|[m [36m|[m [34m|[m [34m|[m [32m|[m   [33m7dbf3ea[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[1;31m|[m[1;32m\[m [36m\[m [36m\[m [36m\[m [34m\[m [34m\[m [32m\[m  
+[1;31m|[m * [36m\[m [36m\[m [36m\[m [34m\[m [34m\[m [32m\[m   [33m08c2a48[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;31m|[m [1;33m|[m[32m\[m [36m\[m [36m\[m [36m\[m [34m\[m [34m\[m [32m\[m  
+[1;31m|[m [1;33m|[m [32m|[m [36m|[m[32m_[m[36m|[m[32m_[m[36m|[m[32m_[m[34m|[m[32m_[m[34m|[m[32m/[m  
+[1;31m|[m [1;33m|[m [32m|[m[32m/[m[36m|[m [36m|[m [36m|[m [34m|[m [34m|[m   
+[1;31m|[m [1;33m|[m * [36m|[m [36m|[m [36m|[m [34m|[m [34m|[m   [33mfa20562[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[1;31m|[m [1;33m|[m [1;35m|[m[34m\[m [36m\[m [36m\[m [36m\[m [34m\[m [34m\[m  
+[1;31m|[m [1;33m|[m [1;35m|[m [34m|[m [36m|[m[34m_[m[36m|[m[34m_[m[36m|[m[34m_[m[34m|[m[34m/[m  
+[1;31m|[m [1;33m|[m [1;35m|[m [34m|[m[34m/[m[36m|[m [36m|[m [36m|[m [34m|[m   
+[1;31m|[m [1;33m|[m [1;35m|[m * [36m|[m [36m|[m [36m|[m [34m|[m   [33m9204ca7[m Merge pull request #70 from teamprodev/MMuhammadali
+[1;31m|[m [1;33m|[m [1;35m|[m [31m|[m[32m\[m [36m\[m [36m\[m [36m\[m [34m\[m  
+[1;31m|[m [1;33m|[m [1;35m|[m [31m|[m * [36m|[m [36m|[m [36m|[m [34m|[m [33m4278c4c[m tab-content
+[1;31m|[m [1;33m|[m * [31m|[m [32m|[m [36m|[m [36m|[m [36m|[m [34m|[m [33mee79dfe[m env changed
+[1;31m|[m [1;33m|[m [34m|[m [31m|[m[34m_[m[32m|[m[34m_[m[36m|[m[34m_[m[36m|[m[34m_[m[36m|[m[34m/[m  
+[1;31m|[m [1;33m|[m [34m|[m[34m/[m[31m|[m [32m|[m [36m|[m [36m|[m [36m|[m   
+[1;31m|[m * [34m|[m [31m|[m [32m|[m [36m|[m [36m|[m [36m|[m [33m5aca451[m translate
+[1;31m|[m * [34m|[m [31m|[m [32m|[m [36m|[m [36m|[m [36m|[m   [33maf4af30[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;31m|[m [33m|[m[31m\[m [34m\[m [31m\[m [32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [31m|[m [34m|[m[31m/[m [32m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m [33m|[m [31m|[m[31m/[m[34m|[m [32m|[m [36m|[m [36m|[m [36m|[m   
+[1;31m|[m [33m|[m * [34m|[m [32m|[m [36m|[m [36m|[m [36m|[m   [33m47a35be[m Merge pull request #69 from teamprodev/Laylo
+[1;31m|[m [33m|[m [35m|[m[36m\[m [34m\[m [32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [35m|[m * [34m|[m [32m|[m [36m|[m [36m|[m [36m|[m [33m9da971e[m Content Changed
+[1;31m|[m [33m|[m [35m|[m * [34m|[m [32m|[m [36m|[m [36m|[m [36m|[m   [33m1e8ed94[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Laylo
+[1;31m|[m [33m|[m [35m|[m [1;31m|[m[1;32m\[m [34m\[m [32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [35m|[m * [1;32m|[m [34m|[m [32m|[m [36m|[m [36m|[m [36m|[m [33m85ab1a5[m footer
+[1;31m|[m [33m|[m * [1;32m|[m [1;32m|[m [34m|[m [32m|[m [36m|[m [36m|[m [36m|[m   [33m2c6ce57[m Merge pull request #68 from teamprodev/MMuhammadali
+[1;31m|[m [33m|[m [1;32m|[m[32m\[m [1;32m\[m [1;32m\[m [34m\[m [32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [1;32m|[m [32m|[m[1;32m_[m[1;32m|[m[1;32m/[m [34m/[m [32m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m [33m|[m [1;32m|[m[1;32m/[m[32m|[m [1;32m|[m [34m|[m [32m/[m [36m/[m [36m/[m [36m/[m   
+[1;31m|[m [33m|[m [1;32m|[m [32m|[m [1;32m|[m[32m_[m[34m|[m[32m/[m [36m/[m [36m/[m [36m/[m    
+[1;31m|[m [33m|[m [1;32m|[m [32m|[m[32m/[m[1;32m|[m [34m|[m [36m|[m [36m|[m [36m|[m     
+[1;31m|[m [33m|[m [1;32m|[m * [1;32m|[m [34m|[m [36m|[m [36m|[m [36m|[m   [33mb7f3fcd[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[1;31m|[m [33m|[m [1;32m|[m [1;35m|[m[1;32m\[m [1;32m\[m [34m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [1;32m|[m [1;35m|[m[1;32m/[m [1;32m/[m [34m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m [33m|[m [1;32m|[m[1;32m/[m[1;35m|[m [1;32m|[m [34m|[m [36m|[m [36m|[m [36m|[m   
+[1;31m|[m [33m|[m * [1;35m|[m [1;32m|[m [34m|[m [36m|[m [36m|[m [36m|[m   [33m6f914ad[m Merge remote-tracking branch 'origin/Jahongir' into main
+[1;31m|[m [33m|[m [34m|[m[32m\[m [1;35m\[m [1;32m\[m [34m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [34m|[m [32m|[m[34m_[m[1;35m|[m[34m_[m[1;32m|[m[34m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m [33m|[m [34m|[m[34m/[m[32m|[m [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;31m|[m [33m|[m [34m|[m * [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m9896720[m controller coding senior
+[1;31m|[m [33m|[m * [32m|[m [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m3fa9603[m env changed
+[1;31m|[m [33m|[m [32m|[m[32m/[m [1;35m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m [33m1cae41c[m mmmmm
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m2662305[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[1;31m|[m [33m|[m [32m|[m [33m|[m[32m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [32m|[m [33m|[m[32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m [33m|[m [32m|[m[32m/[m[33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m [33md0854a2[m add page B2C
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m   [33ma462620[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[1;31m|[m [33m|[m [32m|[m [35m|[m[36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [32m|[m * [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33mafd2ae6[m unknown
+[1;31m|[m [33m|[m [32m|[m [1;31m|[m[1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m4c481bb[m add page customer experience
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mc3af125[m add page elearing
+[1;31m|[m [33m|[m [32m|[m * [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m2e58bdb[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[1;31m|[m [33m|[m [32m|[m [1;33m|[m[1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [32m|[m * [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m2d117ee[m changing
+[1;31m|[m [33m|[m [32m|[m * [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mb10e028[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[1;31m|[m [33m|[m [32m|[m [1;35m|[m[1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [33m|[m [32m|[m * [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mea5b0dc[m changes
+[1;31m|[m [33m|[m [32m|[m * [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m71fe3c8[m add page market_advertising
+[1;31m|[m [33m|[m [32m|[m * [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m5b24556[m add page manufacturing
+[1;31m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m199857d[m debuging img
+* [1;36m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mdbe5984[m translate
+[32m|[m [1;36m|[m[32m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m[32m/[m[1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33md86ed59[m Merge remote-tracking branch 'origin/Jahongir' into main
+[31m|[m[32m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[31m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m6684149[m bug consultation
+* [32m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m415bf6a[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[33m|[m[32m\[m[32m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m 
+[33m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mf92a4f5[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[33m|[m [35m|[m[36m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [35m|[m * [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33mb516f94[m Merge pull request #67 from teamprodev/Muhriddin
+[33m|[m [35m|[m [1;31m|[m[1;32m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [35m|[m [1;31m|[m * [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m946a94c[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[33m|[m [35m|[m [1;31m|[m [1;33m|[m[1;31m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [35m|[m [1;31m|[m [1;33m|[m[1;31m/[m [1;36m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [35m|[m [1;31m|[m[1;31m/[m[1;33m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[33m|[m [35m|[m * [1;33m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33me8d3edf[m contact us
+[33m|[m [35m|[m [1;36m|[m [1;33m|[m[1;36m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [35m|[m [1;36m|[m[1;36m/[m[1;33m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[33m|[m [35m|[m * [1;33m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m02c4b83[m Merge pull request #66 from teamprodev/Muhriddin
+[33m|[m [35m|[m [1;35m|[m[1;36m\[m [1;33m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [35m|[m [1;35m|[m [1;36m|[m * [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m3172033[m teamPro
+[33m|[m [35m|[m [1;35m|[m [1;36m|[m[1;36m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [35m|[m [1;35m|[m * [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m81bcfae[m teammm
+[33m|[m * [1;35m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m711ac81[m fied
+[33m|[m [1;35m|[m[1;35m/[m [1;36m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mcb8830a[m post
+[33m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m759c918[m Merge remote-tracking branch 'origin/Jahongir' into main
+[33m|[m [31m|[m[32m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [31m|[m * [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m6dc499c[m consultation include all pages
+[33m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33md6d630f[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[33m|[m [33m|[m[36m\[m [32m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [33m|[m [36m|[m [32m|[m[36m_[m[1;36m|[m[36m_[m[1;36m|[m[36m_[m[1;36m|[m[36m_[m[1;34m|[m[36m_[m[1;32m|[m[36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [33m|[m [36m|[m[36m/[m[32m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[33m|[m [33m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m2559229[m Merge pull request #65 from teamprodev/Muhriddin
+[33m|[m [33m|[m [35m|[m[1;36m\[m [32m\[m [1;36m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [33m|[m [35m|[m [1;36m|[m [32m|[m[1;36m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [33m|[m [35m|[m [1;36m|[m[1;36m/[m[32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[33m|[m [33m|[m [35m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mf2348a2[m industries
+[33m|[m [33m|[m [35m|[m[35m/[m [32m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [33m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33ma3f707b[m Merge pull request #64 from teamprodev/Muhriddin
+[33m|[m [33m|[m [1;32m|[m[1;32m\[m [32m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [33m|[m [1;32m|[m [1;32m|[m[1;32m_[m[32m|[m[1;32m_[m[1;36m|[m[1;32m_[m[1;36m|[m[1;32m_[m[1;34m|[m[1;32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [33m|[m [1;32m|[m[1;32m/[m[1;32m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[33m|[m [33m|[m [1;32m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m5f851db[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[33m|[m [33m|[m [1;32m|[m [1;33m|[m[1;32m\[m [32m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[33m|[m [33m|[m [1;32m|[m [1;33m|[m[1;32m/[m [32m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [33m|[m [1;32m|[m[1;32m/[m[1;33m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[33m|[m [33m|[m [1;32m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m75ca05f[m team
+[33m|[m * [1;32m|[m [1;34m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m80a9b7b[m how to start buisness
+[33m|[m [1;34m|[m [1;32m|[m[1;34m/[m [32m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[33m|[m [1;34m|[m[1;34m/[m[1;32m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;34m|[m [1;32m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m0b7a790[m asliddin
+[1;32m|[m [1;34m|[m[1;32m/[m [32m/[m [1;36m/[m [1;36m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;32m|[m[1;32m/[m[1;34m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;34m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m001ee83[m change
+* [1;34m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mb6aca35[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[1;35m|[m[1;34m\[m[1;34m|[m [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m 
+[1;35m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33maeecd52[m Merge pull request #63 from teamprodev/Muhriddin
+[1;35m|[m [1;34m|[m[32m\[m [32m\[m [1;36m\[m [1;36m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;35m|[m [1;34m|[m [32m|[m[1;34m_[m[32m|[m[1;34m_[m[1;36m|[m[1;34m_[m[1;36m|[m[1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;35m|[m [1;34m|[m[1;34m/[m[32m|[m [32m|[m [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;35m|[m [1;34m|[m * [32m|[m [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m7e2550c[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;35m|[m [1;34m|[m [33m|[m[1;34m\[m [32m\[m [1;36m\[m [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;35m|[m [1;34m|[m [33m|[m[1;34m/[m [32m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;35m|[m [1;34m|[m[1;34m/[m[33m|[m [32m|[m [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;35m|[m * [33m|[m [32m|[m [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mdcf8f9a[m Merge pull request #62 from teamprodev/Muhriddin
+[1;35m|[m [32m|[m[36m\[m [33m\[m [32m\[m [1;36m\[m [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;35m|[m [32m|[m [36m|[m[32m_[m[33m|[m[32m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;35m|[m [32m|[m[32m/[m[36m|[m [33m|[m [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;35m|[m [32m|[m [36m|[m * [1;36m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m4e5eb0e[m chat bot
+[1;35m|[m [32m|[m [36m|[m[36m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;35m|[m [32m|[m * [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m [33m98404a2[m team page
+[1;35m|[m [32m|[m[32m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+* [32m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m [33m6318059[m fixed frontend
+[32m|[m[32m/[m [1;36m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+* [1;36m|[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m [33m3971e0e[m managent team
+[1;36m|[m [1;36m|[m[1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m[1;36m/[m[1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m592dc17[m Merge pull request #61 from teamprodev/Muhriddin
+[1;31m|[m[1;32m\[m [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m * [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m79db297[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;31m|[m [1;33m|[m[1;31m\[m [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m [1;33m|[m[1;31m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;31m|[m[1;31m/[m[1;33m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;33m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m309526a[m change
+[1;34m|[m * [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m9c90972[m team
+[1;34m|[m * [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mbfc5df9[m morning change
+[1;34m|[m [1;35m|[m[1;34m\[m [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;34m|[m [1;35m|[m[1;34m/[m [1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;34m|[m[1;34m/[m[1;35m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;35m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m24be84e[m change
+* [1;35m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m89e4fd4[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[31m|[m[32m\[m [1;35m\[m [1;36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[31m|[m * [1;35m|[m [1;36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m9e421a7[m add full page
+[31m|[m [1;36m|[m [1;35m|[m[1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[31m|[m [1;36m|[m[1;36m/[m[1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[31m|[m * [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33md7e4379[m 'img'
+[31m|[m * [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m3fc1e12[m team
+[31m|[m * [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m34dcf3e[m changes
+* [32m|[m [1;35m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m97a4f42[m index
+[32m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m [33m27c75ca[m chanege
+[32m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mc9724d1[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[32m|[m [32m|[m [33m|[m[32m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [32m|[m [33m|[m[32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [32m|[m[32m/[m[33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m * [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m249b0d2[m Merge pull request #59 from teamprodev/MMuhammadali
+[32m|[m [35m|[m[36m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m * [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m3537f5f[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[32m|[m [35m|[m [1;31m|[m[35m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m [1;31m|[m[35m/[m [33m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [35m|[m[35m/[m[1;31m|[m [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [35m|[m * [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33me6092ca[m mmmmm
+[32m|[m [35m|[m [1;33m|[m[1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m * [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33mf8efdfa[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[32m|[m [35m|[m [1;35m|[m[1;36m\[m [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m * [1;36m\[m [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m47ca319[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[32m|[m [35m|[m [31m|[m[32m\[m [1;36m\[m [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m * [32m\[m [1;36m\[m [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m739ed80[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[32m|[m [35m|[m [33m|[m[34m\[m [32m\[m [1;36m\[m [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mdb79693[m add page insurance
+[32m|[m [35m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m793051a[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into MMuhammadali
+[32m|[m [35m|[m [35m|[m[32m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [33m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m[32m_[m[35m|[m[32m/[m [34m/[m [32m/[m [1;36m/[m [1;34m/[m [33m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m[32m/[m[35m|[m [35m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [35m|[m * [34m|[m [32m|[m [1;36m|[m [1;34m|[m [33m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m7341f0e[m fix
+[32m|[m [35m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mc10a82a[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[32m|[m [35m|[m [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;31m|[m[35m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [35m|[m [36m|[m[35m_[m[34m|[m[35m_[m[32m|[m[35m_[m[1;36m|[m[35m_[m[1;34m|[m[35m_[m[1;31m|[m[35m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [35m|[m[35m/[m[36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m * [36m|[m [34m|[m [32m|[m [1;36m|[m [1;34m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m651ca97[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[32m|[m [1;33m|[m[1;34m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;34m\[m [1;31m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [1;33m|[m [1;34m|[m [36m|[m[1;34m_[m[34m|[m[1;34m_[m[32m|[m[1;34m_[m[1;36m|[m[1;34m/[m [1;31m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [1;33m|[m [1;34m|[m[1;34m/[m[36m|[m [34m|[m [32m|[m [1;36m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [1;33m|[m * [36m|[m [34m|[m [32m|[m [1;36m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m1b9a16b[m Merge pull request #58 from teamprodev/Muhriddin
+[32m|[m [1;33m|[m [1;36m|[m[1;36m\[m [36m\[m [34m\[m [32m\[m [1;36m\[m [1;31m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [1;33m|[m [1;36m|[m [1;36m|[m[1;36m_[m[36m|[m[1;36m_[m[34m|[m[1;36m_[m[32m|[m[1;36m/[m [1;31m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [1;33m|[m [1;36m|[m[1;36m/[m[1;36m|[m [36m|[m [34m|[m [32m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m * [1;36m|[m [1;36m|[m [36m|[m [34m|[m [32m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m8ce14b5[m change
+[32m|[m [34m|[m [1;36m|[m[34m_[m[1;36m|[m[34m_[m[36m|[m[34m/[m [32m/[m [1;31m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [34m|[m[34m/[m[1;36m|[m [1;36m|[m [36m|[m [32m|[m [1;31m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [34m|[m [1;36m|[m [1;36m|[m [36m|[m [32m|[m * [1;32m|[m [36m|[m [36m|[m [36m|[m [33mbdc0538[m page
+[32m|[m [34m|[m [1;36m|[m [1;36m|[m [36m|[m[1;36m_[m[32m|[m[1;36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [34m|[m [1;36m|[m [1;36m|[m[1;36m/[m[36m|[m [32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [34m|[m [1;36m|[m * [36m|[m [32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33md70d601[m chat bot
+[32m|[m [34m|[m [1;36m|[m [31m|[m[1;36m\[m [36m\[m [32m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [34m|[m [1;36m|[m [31m|[m[1;36m/[m [36m/[m [32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [34m|[m [1;36m|[m[1;36m/[m[31m|[m [36m|[m [32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [34m|[m * [31m|[m [36m|[m [32m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m4557079[m debuggin page
+[32m|[m [34m|[m [32m|[m [31m|[m[32m_[m[36m|[m[32m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [34m|[m [32m|[m[32m/[m[31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [34m|[m * [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33me5f1c4d[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[32m|[m [34m|[m [33m|[m[34m\[m [31m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [34m|[m [33m|[m * [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m37a5e8b[m carsel bug
+[32m|[m [34m|[m [33m|[m[34m/[m [31m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [34m|[m[34m/[m[33m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m [34m|[m * [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33meab02f9[m my changes
+[32m|[m [34m|[m [35m|[m[34m\[m [31m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[32m|[m [34m|[m [35m|[m[34m/[m [31m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[32m|[m [34m|[m[34m/[m[35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[32m|[m * [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mac05235[m bug fixing
+[32m|[m * [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m4236ed5[m changed email
+[32m|[m[32m/[m [35m/[m [31m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+* [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m136e16f[m transport
+* [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mb60490b[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;31m|[m[1;32m\[m [35m\[m [31m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m * [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mdc478c1[m fix
+[1;31m|[m * [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m8ff6b25[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[1;31m|[m [1;33m|[m[1;34m\[m [35m\[m [31m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;31m|[m * [1;34m|[m [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m3db031b[m fix widths
+* [1;34m|[m [1;34m|[m [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m031cce3[m h
+[1;34m|[m [1;34m|[m[1;34m/[m [35m/[m [31m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;34m|[m[1;34m/[m[1;34m|[m [35m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;34m|[m [1;34m|[m * [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m09ef2f4[m add page
+[1;34m|[m [1;34m|[m[1;34m/[m [31m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;34m|[m[1;34m/[m[1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+* [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m4c1c6e3[m first page done
+* [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m4a62bc4[m Asliddin
+* [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mf664060[m change
+* [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m2f914b9[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[1;35m|[m[1;36m\[m [1;34m\[m [31m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;35m|[m * [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mcbe7b98[m debugin img
+[1;35m|[m * [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m37d0857[m bug fixed
+* [1;36m|[m [1;34m|[m [31m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mbb0d8cc[m Asliddin Abdullayev
+[1;36m|[m [1;36m|[m [1;34m|[m * [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mefb8c5e[m chat bot script
+[1;36m|[m [1;36m|[m [1;34m|[m[1;36m/[m [36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;36m|[m[1;36m/[m[1;34m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m * [1;34m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33me5c2129[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;36m|[m [31m|[m[32m\[m [1;34m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [31m|[m * [1;34m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m059fc48[m adding components
+[1;36m|[m [31m|[m * [1;34m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33md57c5fd[m changed by Abduvokhid
+[1;36m|[m [31m|[m [33m|[m[34m\[m [1;34m\[m [36m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [31m|[m [33m|[m * [1;34m|[m [36m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33ma9de1a0[m front
+[1;36m|[m [31m|[m [33m|[m [36m|[m [1;34m|[m[36m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [31m|[m [33m|[m [36m|[m[36m/[m[1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [31m|[m * [36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m69df2d9[m responsive in Akbarov90
+[1;36m|[m [31m|[m [35m|[m[36m\[m[36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m 
+[1;36m|[m [31m|[m * [36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mbceed55[m changed Akbarovich_90
+[1;36m|[m [31m|[m * [36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mb9384ac[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;36m|[m [31m|[m [1;31m|[m[1;32m\[m [36m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [31m|[m * [1;32m\[m [36m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m32d9e93[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;36m|[m [31m|[m [1;33m|[m[1;34m\[m [1;32m\[m [36m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [31m|[m * [1;34m|[m [1;32m|[m [36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m6711fcf[m changed by Akbarov90
+[1;36m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m9c1b237[m manufacturing
+[1;36m|[m [36m|[m [1;34m|[m[36m_[m[1;34m|[m[36m_[m[1;32m|[m[36m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [36m|[m[36m/[m[1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m7197d81[m caruser fix
+[1;36m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m1727622[m fix
+[1;36m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m7c225d1[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;36m|[m [1;35m|[m[1;36m\[m [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;35m|[m * [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33m147c7f3[m Merge pull request #56 from teamprodev/Muhriddin
+[1;36m|[m [1;35m|[m [31m|[m[32m\[m [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;35m|[m [31m|[m * [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m   [33mf9f17ca[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;36m|[m [1;35m|[m [31m|[m [33m|[m[31m\[m [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;35m|[m [31m|[m [33m|[m[31m/[m [1;34m/[m [1;34m/[m [1;32m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;35m|[m [31m|[m[31m/[m[33m|[m [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;35m|[m * [33m|[m [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33m40cf176[m Merge remote-tracking branch 'origin/Laylo'
+[1;36m|[m [1;35m|[m [35m|[m[1;32m\[m [33m\[m [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;35m|[m [35m|[m [1;32m|[m [33m|[m[1;32m_[m[1;34m|[m[1;32m_[m[1;34m|[m[1;32m_[m[1;32m|[m[1;32m_[m[1;34m|[m[1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;35m|[m [35m|[m [1;32m|[m[1;32m/[m[33m|[m [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;35m|[m [35m|[m * [33m|[m [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33mbf05df0[m logo changed
+[1;36m|[m [1;35m|[m [35m|[m [36m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33m130a12a[m page new
+[1;36m|[m [1;35m|[m [35m|[m [36m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33med3e777[m retail
+[1;36m|[m [1;35m|[m [35m|[m [36m|[m[35m/[m [1;34m/[m [1;34m/[m [1;32m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;35m|[m [35m|[m[35m/[m[36m|[m [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;35m|[m * [36m|[m [1;34m|[m [1;34m|[m [1;32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33mebd4c55[m Merge pull request #55 from teamprodev/Muhriddin
+[1;36m|[m [1;35m|[m [1;34m|[m[1;32m\[m [36m\[m [1;34m\[m [1;34m\[m [1;32m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;35m|[m [1;34m|[m [1;32m|[m[1;34m_[m[36m|[m[1;34m_[m[1;34m|[m[1;34m_[m[1;34m|[m[1;34m_[m[1;32m|[m[1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;35m|[m [1;34m|[m[1;34m/[m[1;32m|[m [36m|[m [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;35m|[m [1;34m|[m * [36m|[m [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m914c3b0[m new ecom
+[1;36m|[m [1;35m|[m [1;34m|[m[1;34m/[m [36m/[m [1;34m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m * [1;34m/[m [36m/[m [1;34m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m [33m6f11858[m fixed
+[1;36m|[m [1;34m|[m[1;34m/[m [36m/[m [1;34m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m * [36m|[m [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33mf211753[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;36m|[m [1;33m|[m[36m\[m[36m|[m [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m 
+[1;36m|[m [1;33m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m   [33mf35489c[m Merge pull request #54 from teamprodev/Laylo
+[1;36m|[m [1;33m|[m [1;35m|[m[1;36m\[m [1;34m\[m [1;34m\[m [1;32m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [1;35m|[m * [1;34m|[m [1;34m|[m [1;32m|[m [36m|[m [36m|[m [36m|[m [33m46979e9[m Laylo
+[1;36m|[m [1;33m|[m [1;35m|[m[1;35m/[m [1;34m/[m [1;34m/[m [1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m * [1;34m|[m [1;34m|[m [1;32m/[m [36m/[m [36m/[m [36m/[m [33m500f443[m bug fixed
+[1;36m|[m [1;33m|[m [1;32m|[m [1;34m|[m[1;32m_[m[1;34m|[m[1;32m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [1;32m|[m[1;32m/[m[1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m * [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33m4b6c95d[m db changed
+[1;36m|[m [1;33m|[m * [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33m5b201fa[m Merge remote-tracking branch 'origin/Laylo'
+[1;36m|[m [1;33m|[m [31m|[m[32m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [31m|[m * [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33mdcce73f[m Laylo bug fixing
+[1;36m|[m [1;33m|[m * [32m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33me3c5014[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into main
+[1;36m|[m [1;33m|[m [33m|[m[1;34m\[m [32m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;34m|[m [32m|[m[1;34m_[m[1;34m|[m[1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;34m|[m[1;34m/[m[32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m [33m|[m * [32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33m9e1881c[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft
+[1;36m|[m [1;33m|[m [33m|[m [35m|[m[36m\[m [32m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [35m|[m * [32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33m5357004[m news blog bug
+[1;36m|[m [1;33m|[m [33m|[m [35m|[m [32m|[m[32m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m * [32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33m9ed94e2[m change by Muhammadali
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m[32m\[m[32m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m 
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m * [1;34m|[m [36m|[m [36m|[m [36m|[m   [33m4d661ca[m Merge remote-tracking branch 'origin/Jahongir' into main
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;33m|[m[1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;33m|[m * [1;34m|[m [36m|[m [36m|[m [36m|[m [33m5f03d0c[m contact_us blade add
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m * [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33m636b971[m Merge pull request #52 from teamprodev/Muhriddin
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;35m|[m[1;36m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;35m|[m * [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m   [33m6f728df[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;35m|[m [31m|[m[1;35m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;35m|[m [31m|[m[1;35m/[m [1;34m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;35m|[m[1;35m/[m[31m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m * [31m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33md5dc380[m Merge pull request #51 from teamprodev/Muhriddin
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m[34m\[m [31m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m [34m|[m * [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33mb8b11bf[m new front
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m [34m|[m[34m/[m [1;34m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m * [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33m11521e4[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m [35m|[m[33m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m [35m|[m[33m/[m [1;34m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [33m|[m[33m/[m[35m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m * [35m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   [33md263e91[m Merge pull request #50 from teamprodev/Muhriddin
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m[1;32m\[m [35m\[m [1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m [1;32m|[m[1;34m_[m[35m|[m[1;34m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m[1;34m/[m[1;32m|[m [35m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m [1;32m|[m * [1;34m|[m [36m|[m [36m|[m [36m|[m [33m7033745[m front
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m [1;32m|[m[1;32m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m * [1;34m|[m [36m|[m [36m|[m [36m|[m   [33mb183ea8[m Merge branch 'main' of https://github.com/teamprodev/laravel_blade_sciencesoft into Muhriddin
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m [1;33m|[m[1;34m\[m [1;34m\[m [36m\[m [36m\[m [36m\[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m [1;33m|[m[1;34m/[m [1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m[1;34m/[m[1;33m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m [33m|[m [1;31m|[m [1;34m|[m * [1;34m|[m [36m|[m [36m|[m [36m|[m [33mc870868[m all pages checking
+[1;36m|[m [1;33m|[m [33m|[m * [1;34m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33mb5a1311[m carusellar qoshdm
+[1;36m|[m [1;33m|[m [33m|[m [1;34m|[m [1;34m|[m[1;34m_[m[1;34m|[m[1;34m/[m [36m/[m [36m/[m [36m/[m  
+[1;36m|[m [1;33m|[m [33m|[m [1;34m|[m[1;34m/[m[1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m   
+[1;36m|[m [1;33m|[m * [1;34m|[m [1;34m|[m [1;34m|[m [36m|[m [36m|[m [36m|[m [33mfd9635d[m debuging
