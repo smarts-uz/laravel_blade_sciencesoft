@@ -30,7 +30,7 @@
           <a href="/about/careers"><li class="mt-4">{{ t("Careers") }}</li></a>
           <a href="/partnerships"><li class="mt-4">{{ t("Partnerships") }}</li></a>
           <a href="/TeamPRO-Referral-Program"><li class="mt-4">{{ t("TeamPRO Referral Program") }}</li></a>
-          <a href="/our-locations"><li class="mt-4">{{ t("Our Locations")</li></a>
+          <a href="/our-locations"><li class="mt-4">{{ t("Our Locations") }}</li></a>
           <h1 class="mb-2 mt-2 font-extrabold">{{ t("Approach") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
           <a href="#"><li class="mt-4">{{ t("Development Process") }}</li></a>
