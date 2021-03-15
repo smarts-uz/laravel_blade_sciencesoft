@@ -8,23 +8,23 @@
 
     <div>
         <h1 class="uppercase font-bold mt-10 text-xl md:text-3xl">
-            {{ _trans('Software Testing and QA Services') }}
+            {{ t('Software Testing and QA Services') }}
         </h1>
         <hr class="w-12 my-2 bg-yellow-500 h-0.5">
         <img src="https://www.scnsoft.com/cover-pictures/software-testing-and-qa-services-new.svg">
         <p class="my-10 text-lg">
-            {{ _trans("Software testing services help companies to ensure that their software is fully functional,
+            {{ t("Software testing services help companies to ensure that their software is fully functional,
                 reliable,
                 secure, and user-friendly.") }}
-            <strong>{{ _trans("A software testing company with 31 years of
+            <strong>{{ t("A software testing company with 31 years of
                 experience") }}</strong>,
-            {{ _trans("TeamPRO is ready
+            {{ t("TeamPRO is ready
                 to take up a testing project of any scale and complexity, introduce an efficient quality
                 assurance
                 process, and enhance your software quality management strategy.") }}
         </p>
         <div class="text-xl md:text-3xl font-bold">
-            {{ _trans('CHOOSE YOUR SERVICE OPTION') }}
+            {{ t('CHOOSE YOUR SERVICE OPTION') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
         <div class="flex flex-wrap my-4">
@@ -114,7 +114,7 @@
         </div>
 
 
-        <h1 class="font-bold text-xl md:text-3xl">{{ _trans('OUR COMPETENCIES AND ACHIEVEMENTS') }}</h1>
+        <h1 class="font-bold text-xl md:text-3xl">{{ t('OUR COMPETENCIES AND ACHIEVEMENTS') }}</h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
 
         <div class="swiper-container about-slide h-40">
@@ -129,37 +129,37 @@
         </div>
 
         <ul class="list-disc text-base md:text-xl px-5">
-            <li><strong>31 {{ _trans('years') }}</strong>
-                {{ _trans('of experience in providing software testing services.') }}
+            <li><strong>31 {{ t('years') }}</strong>
+                {{ t('of experience in providing software testing services.') }}
             </li>
-            <li><strong>18 {{ _trans('years') }}</strong>
-                {{ _trans('of experience in QA consulting and outsourcing.') }}
+            <li><strong>18 {{ t('years') }}</strong>
+                {{ t('of experience in QA consulting and outsourcing.') }}
             </li>
-            <li><strong>730+ {{ _trans('completed software testing projects') }}</strong>
-                {{ _trans('since') }}
+            <li><strong>730+ {{ t('completed software testing projects') }}</strong>
+                {{ t('since') }}
                 2010.
             </li>
-            <li><strong>75+ {{ _trans('full-time QA professionals') }}</strong>
-                {{ _trans("experienced in complex projects (over 80K
+            <li><strong>75+ {{ t('full-time QA professionals') }}</strong>
+                {{ t("experienced in complex projects (over 80K
                 person-hours).") }}
             </li>
-            <li><strong>{{ _trans('ISO 13485 certified') }}</strong> {{ _trans('software testing company.') }}
+            <li><strong>{{ t('ISO 13485 certified') }}</strong> {{ t('software testing company.') }}
             </li>
-            <li>{{ _trans('Software testing processes in') }} <strong>{{ _trans('compliance with ISO') }}
+            <li>{{ t('Software testing processes in') }} <strong>{{ t('compliance with ISO') }}
                     9001:2015</strong>.
             </li>
-            <li>{{ _trans('Respect to test artefacts required by') }} <strong>ISO/IEC/IEEE 29119-3:2013</strong>.
+            <li>{{ t('Respect to test artefacts required by') }} <strong>ISO/IEC/IEEE 29119-3:2013</strong>.
             </li>
-            <li><strong>{{ _trans('ISTQB-certified') }}</strong>,
-                {{ _trans('domain-trained test engineers.') }}
+            <li><strong>{{ t('ISTQB-certified') }}</strong>,
+                {{ t('domain-trained test engineers.') }}
             </li>
-            <li>{{ _trans('In-house') }} <strong>{{ _trans('center of excellence') }}</strong>
-                {{ _trans('for software testing services.') }}
+            <li>{{ t('In-house') }} <strong>{{ t('center of excellence') }}</strong>
+                {{ t('for software testing services.') }}
             </li>
         </ul>
 
         <div class="mt-10">
-            <h1 class="text-xl md:text-3xl font-bold">{{ _trans('EVERY ASPECT OF YOUR SOFTWARE, VALIDATED') }}
+            <h1 class="text-xl md:text-3xl font-bold">{{ t('EVERY ASPECT OF YOUR SOFTWARE, VALIDATED') }}
             </h1>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
@@ -219,7 +219,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold mt-10">
-            {{ _trans('TESTING SERVICES FOR DIFFERENT APPLICATION TYPES') }}
+            {{ t('TESTING SERVICES FOR DIFFERENT APPLICATION TYPES') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -244,7 +244,7 @@
         <div
             class="w-full flex items-center md:flex-row flex-col justify-between px-10 py-5 my-5 border border-gray-200 hover:shadow-lg duration-300">
             <div class=" my-5">
-                <h1 class="text-xl font-bold">{{ _trans('Take the First Step to Test Process Improvement') }}
+                <h1 class="text-xl font-bold">{{ t('Take the First Step to Test Process Improvement') }}
                 </h1>
                 <hr class="border-t-2 w-12 border-yellow-600 my-2">
                 <p>TeamPRO’s QA team will help you stay ahead of the competition with quality software released on
@@ -254,7 +254,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold mt-10">
-            {{ _trans('Our Customers Say') }}
+            {{ t('Our Customers Say') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -262,13 +262,13 @@
 
             <p>
 
-                {{ _trans("We started working with TeamPRO in early 2011 testing our core application called
+                {{ t("We started working with TeamPRO in early 2011 testing our core application called
                     Careware.
                     The application is quite complex and has many ERP and mobile elements in it.") }}
             </p>
 
             <p>
-                {{ _trans("We have worked with the team in very close cooperation ever since and value professional as
+                {{ t("We have worked with the team in very close cooperation ever since and value professional as
                     well
                     as flexible attitude towards testing. Since starting our cooperation the test team has
                     changed
@@ -279,7 +279,7 @@
             <div class="flex justify-end">
                 <em>
                     <strong>
-                        {{ _trans('Roderick Schipper, CTO and Henriette Trampedach, Test Manager, helpLine') }}
+                        {{ t('Roderick Schipper, CTO and Henriette Trampedach, Test Manager, helpLine') }}
                         B.V.
                     </strong>
                 </em>
@@ -292,7 +292,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold mt-10">
-            {{ _trans('Why testing with TeamPRO is a success') }}
+            {{ t('Why testing with TeamPRO is a success') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -301,33 +301,33 @@
             <div class="border-2 my-2 p-3 mx-2">
                 <img class="w-14 my-8"
                     src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="">
-                <p><strong class="text-xl">{{ _trans('Mature project management') }}</strong></p>
-                <p class="mt-8">{{ _trans('We have a structured test process compliant with') }} ISO 13485
-                    {{ _trans('and') }} ISO
+                <p><strong class="text-xl">{{ t('Mature project management') }}</strong></p>
+                <p class="mt-8">{{ t('We have a structured test process compliant with') }} ISO 13485
+                    {{ t('and') }} ISO
                     9001:2015
-                    {{ _trans("and
+                    {{ t("and
                         establish result-oriented collaboration with the project team and third-party vendors.") }}
                 </p>
             </div>
             <div class="border-2 my-2 p-3 mx-2">
                 <img class="w-14 my-8"
                     src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="">
-                <p><strong class="text-xl">{{ _trans('Mature project management') }}</strong></p>
-                <p class="mt-8">{{ _trans('We have a structured test process compliant with') }} ISO 13485 and
+                <p><strong class="text-xl">{{ t('Mature project management') }}</strong></p>
+                <p class="mt-8">{{ t('We have a structured test process compliant with') }} ISO 13485 and
                     ISO
                     9001:2015
-                    {{ _trans("and
+                    {{ t("and
                         establish result-oriented collaboration with the project team and third-party vendors.") }}
                 </p>
             </div>
             <div class="border-2 my-2 p-3 mx-2">
                 <img class="w-14 my-8"
                     src="https://www.scnsoft.com/software-development-services/software-consulting/star.svg" alt="">
-                <p><strong class="text-xl">{{ _trans('Mature project management') }}</strong></p>
-                <p class="mt-8">{{ _trans('We have a structured test process compliant with') }} ISO 13485 and
+                <p><strong class="text-xl">{{ t('Mature project management') }}</strong></p>
+                <p class="mt-8">{{ t('We have a structured test process compliant with') }} ISO 13485 and
                     ISO
                     9001:2015
-                    {{ _trans("and
+                    {{ t("and
                         establish result-oriented collaboration with the project team and third-party vendors.") }}
                 </p>
             </div>
@@ -335,7 +335,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold mt-10">
-            {{ _trans('More success stories') }}
+            {{ t('More success stories') }}
             <hr class="h-0.5 w-12 bg-yellow-600 mt-4 mb-4">
         </div>
 
@@ -343,7 +343,7 @@
             class="w-full flex md:flex-row flex-col items-center justify-between px-10 py-5 my-5 border border-gray-200 hover:shadow-lg duration-300">
             <div class=" my-5">
                 <h1 class="text-xl font-bold">
-                    {{ _trans('Enjoy Quality at Speed While We Handle Software Testing') }}</h1>
+                    {{ t('Enjoy Quality at Speed While We Handle Software Testing') }}</h1>
                 <hr class="border-t-2 w-12 border-yellow-600 my-2">
                 <p>TeamPRO’s QA team will help you jump-start your releases and minimize the number of defects in
                     production.</p>

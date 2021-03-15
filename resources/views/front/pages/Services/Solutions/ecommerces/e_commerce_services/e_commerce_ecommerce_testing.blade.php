@@ -8,34 +8,34 @@
 @section('main')
 
 <div class="">
-    <h1 class="uppercase font-bold mt-10 text-3xl">{{ _trans('Ecommerce Testing Services') }}</h1>
+    <h1 class="uppercase font-bold mt-10 text-3xl">{{ t('Ecommerce Testing Services') }}</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
     <div>
         <img src="https://www.scnsoft.com/ecommerce/ecommerce-testing.svg" alt="">
     </div>
     <p class="text-xl lg:text-2xl text-justify mt-4">
-    {{ _trans('Even when browsing through your ecommerce website, your potential customers can be click away
+    {{ t('Even when browsing through your ecommerce website, your potential customers can be click away
     from going to your competitors. An unreliable ecommerce solution when your target audience faces bugs, security and
     functionality breaches, website unavailability will
     certainly reduce your sales level. Moreover, it’s a serious threat to your reputation.') }}
     </p>
     <p class="text-xl lg:text-2xl text-justify mt-4">
-    {{ _trans('Spending money on ecommerce solutions, you need to be sure that they work for the benefit of your business.') }}
+    {{ t('Spending money on ecommerce solutions, you need to be sure that they work for the benefit of your business.') }}
     </p>
     <p class="text-xl lg:text-2xl text-justify mt-4 ">
-        {{ _trans('ScienceSoft is ready to test your ecommerce solution and thus help you
+        {{ t('ScienceSoft is ready to test your ecommerce solution and thus help you
         establish smooth online sales to win and retain customer attention.') }}
     </p>
     <button type="button"
             class="focus:outline-none bg-blue-700 text-white w-full uppercase mt-4 py-3 md:w-72 md:block ml-auto md:mt-6">
-       {{ _trans('REQUEST ECOMMERCE TESTING') }}
+       {{ t('REQUEST ECOMMERCE TESTING') }}
     </button>
 
-    <h1 class="uppercase font-bold mt-10 text-3xl mt-8"> {{ _trans('WHAT WE TEST') }}</h1>
+    <h1 class="uppercase font-bold mt-10 text-3xl mt-8"> {{ t('WHAT WE TEST') }}</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
     <p class="text-xl lg:text-2xl text-justify mt-4 ">
-    {{ _trans('We test multiple aspects of your ecommerce solution to make sure that it is well-performing from the inside
+    {{ t('We test multiple aspects of your ecommerce solution to make sure that it is well-performing from the inside
      and attractive from the outside,
      which will help to keep your customers engaged and enjoying their shopping experience.') }}
     </p>
@@ -50,11 +50,11 @@
             </div>
             <div class="w-10/12">
             <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-            {{ _trans('Web and mobile front end of an ecommerce solution') }}
+            {{ t('Web and mobile front end of an ecommerce solution') }}
             </h1>
             <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
             <p class="text-xl lg:text-2xl text-justify mt-4 ">
-             {{ _trans('We simulate customer journeys and evaluate user
+             {{ t('We simulate customer journeys and evaluate user
              experience that an ecommerce solution can provide. We check whether graphical user
              interface (GUI) elements (icons, widgets, etc.) are displayed properly, goods are sorted and displayed
              correctly and with right descriptions, customers are redirected to the right pages, and so on.
@@ -72,11 +72,11 @@
             </div>
            <div class="lg:w-10/12">
             <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-               {{ _trans('Usability on all types of devices') }}
+               {{ t('Usability on all types of devices') }}
             </h1>
             <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
             <p class="text-xl lg:text-2xl text-justify mt-4 ">
-             {{ _trans('We study whether your ecommerce solution offers the best
+             {{ t('We study whether your ecommerce solution offers the best
              possible user experience with the variety of devices your customers may use (smartphones,
              tablets, computers) in the variety of environments.
                         ') }}
@@ -93,10 +93,10 @@
                     </div>
                    <div class="lg:w-10/12">
                     <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-                        {{ _trans('Functionality of an ecommerce solution') }}
+                        {{ t('Functionality of an ecommerce solution') }}
                     </h1>
                     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-                    <p class="text-xl lg:text-2xl text-justify mt-4 ">  {{ _trans('We test such aspects
+                    <p class="text-xl lg:text-2xl text-justify mt-4 ">  {{ t('We test such aspects
                     as shopping cart functionality (adding items to the cart and removing them, applying discount codes
                     and so on), order processing and tracking, payment processing and more.
                                                                                    ') }} </p>
@@ -112,13 +112,13 @@
                                     </div>
                                    <div class="lg:w-10/12">
                                         <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-                                       {{ _trans('Ecommerce analytics') }}
+                                       {{ t('Ecommerce analytics') }}
 
                                   </h1>
 
                                     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
                                         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-                                         {{ _trans('We test whether your databases and
+                                         {{ t('We test whether your databases and
                                          data warehouses are prepared to receive and store huge
                                          flows of data generated by your customers. We also check whether the
                                          data analytics components of your ecommerce solution are tuned to generate
@@ -144,15 +144,15 @@
                            </div>
 <div class="lg:w-10/12">
                            <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-                               {{ _trans('Ecommerce website performance') }}
+                               {{ t('Ecommerce website performance') }}
 
                          </h1>
                            <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
                            <p class="text-xl lg:text-2xl text-justify mt-4 ">
-                             {{ _trans('We test whether your ecommerce website
+                             {{ t('We test whether your ecommerce website
                              stands high loads, has no performance issues when goods’ prices and
-                             descriptions are updated, and so on. We can also provide quick') }} <a href="#" class="underline hover:text-blue-700"> {{ _trans( 'performance
-                              testing of your solution') }}</a>  {{ _trans('before sales, e.g., the Black Friday sale.') }}
+                             descriptions are updated, and so on. We can also provide quick') }} <a href="#" class="underline hover:text-blue-700"> {{ t( 'performance
+                              testing of your solution') }}</a>  {{ t('before sales, e.g., the Black Friday sale.') }}
 
 
 
@@ -176,11 +176,11 @@
                          </div>
                          <div class="lg:w-10/12">
                          <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-                         {{ _trans('Integration of an ecommerce solution with other company systems') }}
+                         {{ t('Integration of an ecommerce solution with other company systems') }}
                          </h1>
                          <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
                          <p class="text-xl lg:text-2xl text-justify mt-4 ">
-                          {{ _trans('We test how your ecommerce
+                          {{ t('We test how your ecommerce
                            solution is connected to other systems responsible for
                            multiple sales-related operations (payment gateways, PIM, CRM, delivery
                            management system) and check whether the data is transferred without delays to and from your ecommerce solution.
@@ -203,12 +203,12 @@
                                             </div>
                                            <div class="lg:w-10/12">
                                             <h1 class="uppercase font-bold mt-10 text-xl mt-8">
-                                            {{ _trans('Ecommerce security') }}
+                                            {{ t('Ecommerce security') }}
 
                                            </h1>
                                             <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
                                             <p class="text-xl lg:text-2xl text-justify mt-4 ">
-                                             {{ _trans('We identify and assess
+                                             {{ t('We identify and assess
                                               security vulnerabilities in your solution,
                                               conduct penetration testing to imitate a real attack
                                               and offer recommendations for reducing security risks.
@@ -228,7 +228,7 @@
 
 
 
-<h1 class="uppercase font-bold mt-10 text-3xl mt-8"> {{ _trans('HOW WE CAN COOPERATE') }}</h1>
+<h1 class="uppercase font-bold mt-10 text-3xl mt-8"> {{ t('HOW WE CAN COOPERATE') }}</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
 <div class="lg:grid grid-cols-3 gap-8">
@@ -238,9 +238,9 @@
                  width="200"
                  height="200">
         </div>
-        <h4 class="text-2xl font-bold mt-6"> {{ _trans('Independent testing during implementation') }}</h4>
+        <h4 class="text-2xl font-bold mt-6"> {{ t('Independent testing during implementation') }}</h4>
         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-        {{ _trans('Before the launch of an ecommerce website or a
+        {{ t('Before the launch of an ecommerce website or a
         customer application you’ve developed, we ensure that all the components of
          your solution (search functionality engines, billing systems, databases and so on) are
          integrated and perform their functions well, comply with the security standards regulations and
@@ -256,9 +256,9 @@
             <img src="https://www.scnsoft.com/ecommerce/acceptance-testing.svg" alt="" width="200"
                  height="200">
         </div>
-        <h4 class="text-2xl font-bold mt-6">{{ _trans('Acceptance testing') }}</h4>
+        <h4 class="text-2xl font-bold mt-6">{{ t('Acceptance testing') }}</h4>
         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-        {{ _trans('We impartially test your
+        {{ t('We impartially test your
         ecommerce solution from the end user perspective
         and check its compliance with your business requirements and security standards.
 
@@ -271,9 +271,9 @@
             <img src="https://www.scnsoft.com/ecommerce/managed-testing-services_2.svg" alt="" width="200"
                  height="200">
         </div>
-        <h4 class="text-2xl font-bold mt-6">{{ _trans('Managed testing services') }}</h4>
+        <h4 class="text-2xl font-bold mt-6">{{ t('Managed testing services') }}</h4>
         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-            {{ _trans('We provide ecommerce testing at each stage of developing
+            {{ t('We provide ecommerce testing at each stage of developing
             an ecommerce solution: from testing project requirements to upgrade and
             migration testing. Also, when a solution is implemented, we are ready to
             regularly assess whether business processes continue to work as intended.
@@ -285,7 +285,7 @@
 
 
  <h1 class="uppercase font-bold mt-10 text-3xl">
- {{ _trans('HOW WE TEST YOUR ECOMMERCE SOLUTION') }}
+ {{ t('HOW WE TEST YOUR ECOMMERCE SOLUTION') }}
  </h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
@@ -296,9 +296,9 @@
             1
         </div>
         <div class="lg:mx-6 ">
-            <h1 class="font-bold text-xl">{{ _trans('Analyzing your ecommerce project’s requirements') }}</h1>
+            <h1 class="font-bold text-xl">{{ t('Analyzing your ecommerce project’s requirements') }}</h1>
             <p class="text-xl">
-            {{ _trans('We study project requirements and help you improve them, if needed (e.g., they may be incomplete).') }}
+            {{ t('We study project requirements and help you improve them, if needed (e.g., they may be incomplete).') }}
             </p>
         </div>
     </div>
@@ -309,9 +309,9 @@
             2
         </div>
         <div class="lg:mx-6 ">
-            <h1 class="font-bold text-xl"> {{ _trans('Test planning and design') }}</h1>
+            <h1 class="font-bold text-xl"> {{ t('Test planning and design') }}</h1>
             <p class="text-xl">
-                {{ _trans('We prepare
+                {{ t('We prepare
                 a detailed testing plan considering your
                 ideas and expectations. We make test cases covering every aspect of your ecommerce solution.
 
@@ -324,9 +324,9 @@
             3
         </div>
         <div class="lg:mx-6 ">
-            <h1 class="font-bold text-xl">{{ _trans('Test implementation') }}</h1>
+            <h1 class="font-bold text-xl">{{ t('Test implementation') }}</h1>
             <p class="text-xl">
-            {{ _trans('We test your ecommerce solution and
+            {{ t('We test your ecommerce solution and
             identify defects and possible areas of improvement.
 
 ') }}
@@ -338,9 +338,9 @@
             4
         </div>
         <div class="lg:mx-6 ">
-            <h1 class="font-bold text-xl">{{ _trans('Analyzing testing results') }}</h1>
+            <h1 class="font-bold text-xl">{{ t('Analyzing testing results') }}</h1>
             <p class="text-xl">
-                {{ _trans('We provide you with the
+                {{ t('We provide you with the
                 test summary report describing the identified bugs and analyzing
                 their nature. Also, we give you the overall feedback on the quality of your ecommerce solution.
 
@@ -351,7 +351,7 @@
 </div>
 
 
-<h1 class="uppercase font-bold mt-10 text-3xl">{{ _trans('CHALLENGES WE SOLVE') }}</h1>
+<h1 class="uppercase font-bold mt-10 text-3xl">{{ t('CHALLENGES WE SOLVE') }}</h1>
     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
 
 <div class="lg:grid grid-cols-3 gap-8">
@@ -361,9 +361,9 @@
                  width="200"
                  height="200">
         </div>
-        <h4 class="text-2xl font-bold mt-6">{{ _trans('Testing a standalone ecommerce solution doesn’t guarantee its success') }}</h4>
+        <h4 class="text-2xl font-bold mt-6">{{ t('Testing a standalone ecommerce solution doesn’t guarantee its success') }}</h4>
         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-        {{ _trans('It’s critical to test an ecommerce
+        {{ t('It’s critical to test an ecommerce
          solution together with a number of external systems it’s
          connected to (such as payment gateways, PIM, CRM and delivery management
          system). We develop a testing strategy based on the understanding of your solution’s
@@ -381,9 +381,9 @@
             <img src="https://www.scnsoft.com/ecommerce/subjective-ux.svg" alt="" width="200"
                  height="200">
         </div>
-        <h4 class="text-2xl font-bold mt-6">{{ _trans('UX, which is essential for an ecommerce solution success, is subjective') }}</h4>
+        <h4 class="text-2xl font-bold mt-6">{{ t('UX, which is essential for an ecommerce solution success, is subjective') }}</h4>
         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-        {{ _trans('Although it’s hardly possible to tailor an
+        {{ t('Although it’s hardly possible to tailor an
         ecommerce solution to every user’s taste, we gather statistics and
         conduct analytics, set up user interviews and surveys, compare your solution against
          recognized heuristics to minimize subjectivity in testing ecommerce UX.
@@ -397,9 +397,9 @@
             <img src="https://www.scnsoft.com/ecommerce/high-personalization.svg" alt="" width="200"
                  height="200">
         </div>
-        <h4 class="text-2xl font-bold mt-6">{{ _trans('Due to a high personalization level, different customers have different page views') }}</h4>
+        <h4 class="text-2xl font-bold mt-6">{{ t('Due to a high personalization level, different customers have different page views') }}</h4>
         <p class="text-xl lg:text-2xl text-justify mt-4 ">
-        {{ _trans('To address this challenge, we offer testing your
+        {{ t('To address this challenge, we offer testing your
         solution with and without personalization. To test personalization,
          we create a purchase history, a site view history, a Google search
           history and other aspects depending on the working principles of your personalization engine.
@@ -413,12 +413,12 @@
  <div class="p-6 shadow-2xl lg:flex mt-9 mb-10">
         <div class="lg:w-4/6">
             <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-               {{ _trans('Looking For a Testing Vendor Who Understands Ecommerce Deeply?') }}
+               {{ t('Looking For a Testing Vendor Who Understands Ecommerce Deeply?') }}
             </h1>
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                 {{ _trans('Talk to our specialists with long-term
+                 {{ t('Talk to our specialists with long-term
                  experience in identifying and eliminating the obstacles to easy and safe online shopping.
 ') }}
             </p>
@@ -427,7 +427,7 @@
         <div class="lg:w-2/6 m-auto">
             <a href="#">
                 <div class="bg-blue-700 text-white text-center lg:mx-16 px-2 py-4  hover:bg-blue-800">
-                   {{ _trans('REQUEST TESTING SERVICES') }}
+                   {{ t('REQUEST TESTING SERVICES') }}
                 </div>
             </a>
 

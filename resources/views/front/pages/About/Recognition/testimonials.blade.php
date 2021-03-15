@@ -8,13 +8,13 @@
 
     <div class="block">
         <div class="card w-full my-4">
-            <h1 class="text-3xl text-gray-800 font-bold">{{ _trans('Testimonials') }}</h1>
+            <h1 class="text-3xl text-gray-800 font-bold">{{ t('Testimonials') }}</h1>
             <hr class="border-t-2 w-12 border-yellow-600 my-1" />
             <p class="text-gray-600 text-md leading-7 md:leading-8 lg:leading-9 md:text-lg lg:text-xl">
-                {{ _trans('We collaborate with companies from') }} <strong>37 {{ _trans('countries') }}</strong>
-                {{ _trans('and') }} <strong>23 {{ _trans('industries') }}</strong>.
-                {{ _trans('Our project portfolio includes') }} <strong>2,695 {{ _trans('success stories') }}</strong>,
-                {{ _trans("including projects
+                {{ t('We collaborate with companies from') }} <strong>37 {{ t('countries') }}</strong>
+                {{ t('and') }} <strong>23 {{ t('industries') }}</strong>.
+                {{ t('Our project portfolio includes') }} <strong>2,695 {{ t('success stories') }}</strong>,
+                {{ t("including projects
                     for Walmart, eBay, NASA JPL, PerkinElmer, Baxter, IBM, Leo Burnett. We
                     asked our customers what are their impressions on cooperation with TeamPRO –
                     have a look at their answers in the testimonials below.") }}
@@ -28,17 +28,17 @@
             </div>
             <div class="lg:flex-row lg:w-1/2">
                 <h1 class="text-2xl lg:3xl text-gray-800 font-bold">
-                    {{ _trans('Leo Burnett Worldwide: What Is Working with TeamPRO Like') }}</h1>
+                    {{ t('Leo Burnett Worldwide: What Is Working with TeamPRO Like') }}</h1>
                 <hr class="border-t-2 w-12 border-yellow-600 my-1" />
                 <p class="text-gray-600 text-md md:text-lg lg:text-xlleading-7 md:leading-8 lg:leading-9">
-                    {{ _trans("For 4 years, TeamPRO have been an outsourcing partner of a global advertising agency
+                    {{ t("For 4 years, TeamPRO have been an outsourcing partner of a global advertising agency
                     Leo Burnett Worldwide. Sam Gooby, Head of Platform Production at Leo Burnett, shares his
                     first-hand experience on collaboration with our IT experts.") }}
                 </p>
             </div>
         </div>
         <p class="text-gray-600 text-md md:text-lg lg:text-xl leading-7 md:leading-8 lg:leading-9">
-            {{ _trans("For your convenience, we divided the testimonials by
+            {{ t("For your convenience, we divided the testimonials by
                 industry, service and technology so you can easily find
                 the ones that are relevant to your case.") }}
         </p>
@@ -51,11 +51,11 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("Chiron Health’s core business is providing caregivers with a web-based
+                            {{ t("Chiron Health’s core business is providing caregivers with a web-based
                                 telemedicine platform which allows them to connect with patients for routine
                                 follow-ups and similar use cases. We engaged TeamPRO to build an Android
                                 app that complements our web-based platform for our patients.") }}
-                            <br>{{ _trans("TeamPRO developers proved themselves to be Android experts.
+                            <br>{{ t("TeamPRO developers proved themselves to be Android experts.
                                 They advised and successfully lead the way from end to end through the technical
                                 challenges and considerations with development of the Android app. TeamPRO
                                 team was in daily contact with our developers and our method of communication was
@@ -68,16 +68,16 @@
                     </p>
                 </div>
                 <div class="w-ful flex-column md:pl-14 my-6">
-                    <h1 class="text-lg font-bold text-gray-800">{{ _trans('Justin Turner') }}</h1>
-                    <p class="text-lg text-gray-700">{{ _trans('CTO, Chiron Health') }}</p>
+                    <h1 class="text-lg font-bold text-gray-800">{{ t('Justin Turner') }}</h1>
+                    <p class="text-lg text-gray-700">{{ t('CTO, Chiron Health') }}</p>
                 </div>
                 <div class="flex flex-wrap items-center md:pl-14">
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Health Care') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Health Care') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Software Development') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Software Development') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600">{{ _trans('Mobile') }}</p>
+                    <p class="text-gray-600">{{ t('Mobile') }}</p>
                 </div>
             </div>
         </div>
@@ -89,35 +89,35 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("We have been cooperating with TeamPRO for 5 years. TeamPRO's
+                            {{ t("We have been cooperating with TeamPRO for 5 years. TeamPRO's
                                 team of five Java developers and one Test Engineer have been working hard
                                 to ensure our product - Enonic XP - exceeds our customer's expectations.
                                 The team has become an integrated part of Enonic, and we appreciate their
                                 efforts and passion for the product.") }}<br>
-                            {{ _trans("TeamPRO's experience in agile development ensured smooth project
+                            {{ t("TeamPRO's experience in agile development ensured smooth project
                                 implementation and iterative development of Enonic XP. This enabled us to adjust
                                 to the changing market requirements and incorporate features that made us stand out
                                 from competition. As a result, Enonic XP has evolved into an easy-to-use and scalable
                                 platform, which is crucial for our success") }}.<br>
-                            {{ _trans('Thanks for a great job so far!') }}
+                            {{ t('Thanks for a great job so far!') }}
                         </em>
                     </p>
                 </div>
                 <div class="w-ful flex-column md:pl-14 my-6">
-                    <h1 class="text-lg font-bold text-gray-800">{{ _trans('Morten Øien Eriksen') }}</h1>
-                    <p class="text-lg text-gray-700">{{ _trans('CEO, Enonic') }}</p>
+                    <h1 class="text-lg font-bold text-gray-800">{{ t('Morten Øien Eriksen') }}</h1>
+                    <p class="text-lg text-gray-700">{{ t('CEO, Enonic') }}</p>
                 </div>
                 <div class="flex flex-wrap items-center md:pl-14">
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Information Technologies') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Information Technologies') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Software Development') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Software Development') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Testing & QA') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Testing & QA') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Team augmentation') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Team augmentation') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600">{{ _trans('Java') }}</p>
+                    <p class="text-gray-600">{{ t('Java') }}</p>
                 </div>
             </div>
         </div>
@@ -130,25 +130,25 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("We worked with TeamPRO in developing our SharePoint Intranet.
+                            {{ t("We worked with TeamPRO in developing our SharePoint Intranet.
                                 The development and implementation process was very smooth and delivered
                                 the exact results we were expecting. We will surely work with them in the
                                 future.") }}
                         </em>
-                        <a href="#" class="text-blue-500">{{ _trans('Read original') }}</a>
+                        <a href="#" class="text-blue-500">{{ t('Read original') }}</a>
                     </p>
                 </div>
                 <div class="w-ful flex-column md:pl-14 my-6">
-                    <h1 class="text-lg font-bold text-gray-800">{{ _trans('Morten Øien Eriksen') }}</h1>
-                    <p class="text-lg text-gray-700">{{ _trans('CEO, Enonic') }}</p>
+                    <h1 class="text-lg font-bold text-gray-800">{{ t('Morten Øien Eriksen') }}</h1>
+                    <p class="text-lg text-gray-700">{{ t('CEO, Enonic') }}</p>
                 </div>
                 <div class="flex flex-wrap items-center md:pl-14">
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Manufactering') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Manufactering') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Software Development') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Software Development') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Share point') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Share point') }}</p>
                 </div>
             </div>
         </div>
@@ -160,32 +160,32 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("We partnered with TeamPRO to carry out penetration testing of our Simpli5®
+                            {{ t("We partnered with TeamPRO to carry out penetration testing of our Simpli5®
                                 web-based application.") }}
-                            <br>{{ _trans("We were under some time pressure to get penetration testing performed as quickly
+                            <br>{{ t("We were under some time pressure to get penetration testing performed as quickly
                                 as possible. When I reached out TeamPRO, they were immediately responsive to my
                                 inquiry, they provided a very competitive quote quickly, and they were able to schedule
                                 the testing shortly after our acceptance of the quote.") }}
-                            <br>{{ _trans("TeamPRO’s security testing team performed exceptionally well and gave us
+                            <br>{{ t("TeamPRO’s security testing team performed exceptionally well and gave us
                                 confidence that our application posed no serious vulnerabilities. The collaboration
                                 was smooth and easy, and we were very pleased with selecting TeamPRO as our vendor.") }}
-                            <br>{{ _trans("Cooperating with TeamPRO was a terrific experience, and we will definitely
+                            <br>{{ t("Cooperating with TeamPRO was a terrific experience, and we will definitely
                                 consider them for our future security testing needs.") }}
                         </em>
-                        <a href="#" class="text-blue-500">{{ _trans('Read original') }}</a>
+                        <a href="#" class="text-blue-500">{{ t('Read original') }}</a>
                     </p>
                 </div>
                 <div class="w-ful flex-column md:pl-14 my-6">
-                    <h1 class="text-lg font-bold text-gray-800">{{ _trans('Ed Gordon') }}</h1>
-                    <p class="text-lg text-gray-700">{{ _trans('VP Products, 5 Dynamics (Simpli5)') }}</p>
+                    <h1 class="text-lg font-bold text-gray-800">{{ t('Ed Gordon') }}</h1>
+                    <p class="text-lg text-gray-700">{{ t('VP Products, 5 Dynamics (Simpli5)') }}</p>
                 </div>
                 <div class="flex flex-wrap items-center md:pl-14">
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Information Technologies') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Information Technologies') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Cybersecurity services') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Cybersecurity services') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Security testing') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Security testing') }}</p>
                 </div>
             </div>
         </div>
@@ -197,7 +197,7 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ _trans("TeamPRO offers a high caliber of resources skilled in Microsoft
+                            {{ t("TeamPRO offers a high caliber of resources skilled in Microsoft
                                 Azure .NET, mobile and Quality Assurance. Over the past three years,
                                 Lixar was very pleased with the service provided by TeamPRO development
                                 teams and executive management. For accelerated project timelines which
@@ -206,20 +206,20 @@
                     </p>
                 </div>
                 <div class="w-ful flex-column md:pl-14 my-6">
-                    <h1 class="text-lg font-bold text-gray-800">{{ _trans('Jan Banda') }}</h1>
-                    <p class="text-lg text-gray-700">{{ _trans('Director, Lixar') }}</p>
+                    <h1 class="text-lg font-bold text-gray-800">{{ t('Jan Banda') }}</h1>
+                    <p class="text-lg text-gray-700">{{ t('Director, Lixar') }}</p>
                 </div>
                 <div class="flex flex-wrap items-center md:pl-14">
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Information Technologies') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Information Technologies') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Software Development') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Software Development') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('Testing & QA') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('Testing & QA') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600 mr-4">{{ _trans('.NET') }}</p>
+                    <p class="text-gray-600 mr-4">{{ t('.NET') }}</p>
                     <i class="fas fa-bookmark mr-2 text-gray-400"></i>
-                    <p class="text-gray-600">{{ _trans('Mobile') }}</p>
+                    <p class="text-gray-600">{{ t('Mobile') }}</p>
                 </div>
             </div>
         </div>

@@ -30,18 +30,18 @@
         class='flex justify-between border flex-col md:flex-row rounded border-gray-200 items-center p-10 shadow-2xl my-16'>
         <div class='md:w-2/3 w-full'>
             <h1 class='text-gray-900 mt-6'>
-                <p class='text-xl font-bold'>{{ _trans('Hand Your Image Analysis Project to Experts') }} </p>
+                <p class='text-xl font-bold'>{{ t('Hand Your Image Analysis Project to Experts') }} </p>
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
             <p class='text-gray-600 text-xl'>
-                {{ _trans(" ScienceSoft is ready to set your image analysis project in motion
+                {{ t(" ScienceSoft is ready to set your image analysis project in motion
                 by providing the IA solution design, IA project estimation and
                 roadmapping, software architecture planning, and more.") }}
             </p>
         </div>
         <div class='md:w-2/5 w-full md:mt-0 mt-2 flex justify-center items-center'>
             <a href="#"
-                class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans('Request IA consultation') }}</a>
+                class='px-4 py-3 rounded text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ t('Request IA consultation') }}</a>
         </div>
     </div>
     <h1 class="md:text-3xl text-xl font-bold p-4">Image Analysis Core Tasks</h1>
@@ -708,7 +708,7 @@
             <div class="mx-12">
                 <button
                     class="p-4 w-full mt-6  mb-12  uppercase font-bold text-white text-center bg-blue-700 hover:bg-blue-900">
-                    {{ _trans('go for upgrade') }}
+                    {{ t('go for upgrade') }}
                 </button>
             </div>
         </div>

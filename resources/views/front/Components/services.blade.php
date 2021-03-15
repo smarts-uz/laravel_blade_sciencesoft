@@ -1,6 +1,6 @@
 <div class="py-8 hidden lg:block">
     <h1 class="text-3xl font-semibold mb-20 pt-10">
-        <p class="mb-4">{{ _trans('EXPLORE OUR OFFERING') }}</p>
+        <p class="mb-4">{{ t('EXPLORE OUR OFFERING') }}</p>
         <hr class="w-10 h-0.5 border-none bg-yellow-500">
     </h1>
     <div class="flex flex-wrap" id="tabs-id">
@@ -30,23 +30,23 @@
                             <ul class="flex flex-row flex-wrap ml-6 text-blue-800 underline">
                                 <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
                                     <a href="#"
-                                        class="text-black hover:text-blue-500">{{ _trans('Software consulting') }}</a>
+                                        class="text-black hover:text-blue-500">{{ t('Software consulting') }}</a>
                                 </li>
                                 <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
                                     <a href="#"
-                                        class="text-black  hover:text-blue-500">{{ _trans('Custom software development') }}</a>
+                                        class="text-black  hover:text-blue-500">{{ t('Custom software development') }}</a>
                                 </li>
                                 <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
                                     <a href="#"
-                                        class="text-black  hover:text-blue-500">{{ _trans('Software product development') }}</a>
+                                        class="text-black  hover:text-blue-500">{{ t('Software product development') }}</a>
                                 </li>
                                 <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
                                     <a href="#"
-                                        class="text-black hover:text-blue-500">{{ _trans('Team augmentation') }}</a>
+                                        class="text-black hover:text-blue-500">{{ t('Team augmentation') }}</a>
                                 </li>
                                 <li style="list-style: square; margin-right: 10px; margin-bottom: 20px; width: 350px;">
                                     <a href="#"
-                                        class="text-black hover:text-blue-500">{{ _trans('Software development outsourcing') }}</a>
+                                        class="text-black hover:text-blue-500">{{ t('Software development outsourcing') }}</a>
                                 </li>
                             </ul>
                         </div>

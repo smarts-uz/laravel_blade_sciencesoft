@@ -1,5 +1,5 @@
 <div class="md:px-16 px-6 w-full">
-    <p class="py-5">{{ _trans('Drop us a line! We are here to answer your questions 24/7.') }}</p>
+    <p class="py-5">{{ t('Drop us a line! We are here to answer your questions 24/7.') }}</p>
     <div class="flex">
         <form method="POST" class="w-full" action="{{ route('consultation') }}">
             @csrf
@@ -23,27 +23,27 @@
           </form>
         <div class="px-5 md:block hidden">
             <div>
-                <h1 class="font-bold text-xl pb-2">{{ _trans('Our contact details') }}</h1>
+                <h1 class="font-bold text-xl pb-2">{{ t('Our contact details') }}</h1>
                 <a class="text-blue-400 flex items-center" href="#">
                     <i class="fas fa-phone-alt pr-3"></i>
-                    <p>{{ _trans('+998 94 123 45 67') }}</p>
+                    <p>{{ t('+998 94 123 45 67') }}</p>
                 </a>
                 <a class="text-blue-400 flex items-center" href="#">
                     <i class="fas fa-envelope pr-3"></i>
-                    <p>{{ _trans('teamprodev@gmail.com') }}</p>
+                    <p>{{ t('teamprodev@gmail.com') }}</p>
                 </a>
             </div>
             <div>
-                <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Press inquires') }}</h1>
+                <h1 class="font-bold text-xl pb-2 mt-4">{{ t('Press inquires') }}</h1>
                 <a class="text-blue-400 flex items-center text-xs" href="#">
-                    <p class="uppercase">{{ _trans('Get in touch with us') }}</p>
+                    <p class="uppercase">{{ t('Get in touch with us') }}</p>
                     <i class="fas fa-arrow-right pl-3"></i>
                 </a>
             </div>
             <div>
-                <h1 class="font-bold text-xl pb-2 mt-4">{{ _trans('Join our team') }}</h1>
+                <h1 class="font-bold text-xl pb-2 mt-4">{{ t('Join our team') }}</h1>
                 <a class="text-blue-400 flex items-center text-xs" href="#">
-                    <p class="uppercase">{{ _trans('Check our open vacancies') }}</p>
+                    <p class="uppercase">{{ t('Check our open vacancies') }}</p>
                     <i class="fas fa-arrow-right pl-3"></i>
                 </a>
 

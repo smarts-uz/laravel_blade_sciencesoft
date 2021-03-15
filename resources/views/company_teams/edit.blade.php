@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('title')
-    {{ _trans("Edit Company Team")  }}
+    {{ t("Edit Company Team")  }}
 @endsection
 @section('content')
     <section class="section">
             <div class="section-header">
-                <h3 class="page__heading m-0">{{ _trans("Edit Team")  }}</h3>
+                <h3 class="page__heading m-0">{{ t("Edit Team")  }}</h3>
                 <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                    <a href="{{ route('companyTeams.index') }}"  class="btn btn-primary">{{ _trans("Back")  }}</a>
+                    <a href="{{ route('companyTeams.index') }}"  class="btn btn-primary">{{ t("Back")  }}</a>
                 </div>
             </div>
   <div class="content">
@@ -23,26 +23,26 @@
                                      <div class="row">
                                          <!-- Name Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="name">{{ _trans("Name")  }}</label>
+                                             <label for="name">{{ t("Name")  }}</label>
                                              <input type="text" class="form-control" id="name" name="name" value="{{ $companyTeam->name }}">
                                          </div>
 
                                          <!-- Name Lang Field -->
                                          <div class="form-group col-sm-6">
-                                             <label for="job">{{ _trans("Job")  }}</label>
+                                             <label for="job">{{ t("Job")  }}</label>
                                              <input type="text" class="form-control" id="job" name="job" value="{{ $companyTeam->job }}">
                                          </div>
 
                                          <!-- Description Field -->
                                          <div class="form-group col-sm-6 col-lg-12">
-                                             <label for="description">{{ _trans("Description")  }}</label>
+                                             <label for="description">{{ t("Description")  }}</label>
                                              <textarea class="form-control" id="description" name="description">{{ old('description', $companyTeam->description) }}</textarea>
                                          </div>
 
                                          <!-- Image Field -->
                                          <div class="form-group col-sm-6">
                                              <div class="form-group">
-                                                 <label for="Image">{{ _trans("Image") }}</label><br>
+                                                 <label for="Image">{{ t("Image") }}</label><br>
                                                  <input type="file"  id="images" name="image" value="{{ $companyTeam->image??asset('images/default-image.png') }}">
                                              </div>
                                          </div>
@@ -56,7 +56,7 @@
                                      <!-- Submit Field -->
                                      <div class="form-group col-sm-12">
                                          {!! Form::submit('Save', ['class' => 'btn btn-primary']) !!}
-                                         <a href="{{ route('companyTeams.index') }}" class="btn btn-light">{{ _trans("Cancel")  }}</a>
+                                         <a href="{{ route('companyTeams.index') }}" class="btn btn-light">{{ t("Cancel")  }}</a>
                                      </div>
                                  </form>
                             </div>

@@ -8,18 +8,18 @@
 
 <div class="my-10">
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("Information Technology Consulting")  }}
+        {{ t("Information Technology Consulting")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
       <p class="text-2xl">
-        {{ _trans("With IT consulting services, you revamp your IT environment to make it go in hand with your business needs.
+        {{ t("With IT consulting services, you revamp your IT environment to make it go in hand with your business needs.
          Leveraging 31-year experience in IT, TeamPRO offers consultancy on holistic, fast, and cost-effective
          optimization of IT systems and processes to ensure tangible business outcomes.")  }}
       </p>
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("CHOOSE YOUR OPTION")  }}
+        {{ t("CHOOSE YOUR OPTION")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -134,7 +134,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("Dedicated consulting services")  }}
+        {{ t("Dedicated consulting services")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -192,7 +192,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("TEAMPRO’S APPROACH TO IT CONSULTING")  }}
+        {{ t("TEAMPRO’S APPROACH TO IT CONSULTING")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -200,9 +200,9 @@
         <div class="rounded-sm my-3 border-2 transition-shadow  hover:shadow-lg lg:w-1/3 w-full h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Doing IT right")  }}</p>
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ t("Doing IT right")  }}</p>
             <P>
-              {{ _trans("We optimize IT services to make them more reliable and cost-effective and help introduce new IT services
+              {{ t("We optimize IT services to make them more reliable and cost-effective and help introduce new IT services
                fast.")  }}
             </P>
           </div>
@@ -210,9 +210,9 @@
         <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg lg:w-1/3 w-full h-auto mr-10">
           <hr class="w-full border-t-4 border-blue-800" />
           <div class="p-4">
-            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ _trans("Doing the right IT")  }}
+            <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ t("Doing the right IT")  }}
             </p>
-            <p class="mb-3">{{ _trans("Outsource your entire IT landscape, including IT service planning and
+            <p class="mb-3">{{ t("Outsource your entire IT landscape, including IT service planning and
              management, to achieve greater business performance with IT ROI boosted by 50-300%.")  }}</p>
           </div>
         </div>
@@ -226,16 +226,16 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
           </div>
           <div class=" flex flex-col w-3/5">
-            <h1 class="text-2xl md:text-3xl font-bold">{{ _trans("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
+            <h1 class="text-2xl md:text-3xl font-bold">{{ t("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
             <hr class="w-12 border-yellow-600 text-gray-800 my-4">
             <div class="text-xl">
               <p class="my-10">
-                {{ _trans("When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
+                {{ t("When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
                 their budget but constantly underperforms. And they do not see business growth possible
                 without profound IT changes that they simply cannot accomplish internally.")  }}
               </p>
               <p>
-                {{ _trans("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
+                {{ t("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                 applying deep tech expertise with the focus on cost-effectiveness and unlocking new
                 revenue streams. And this is exactly what TeamPRO does. By doing the right IT and
                 doing IT right, TeamPRO helps companies make their IT a business growth enabler.")  }}
@@ -246,11 +246,11 @@
       </div>
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("INDUSTRIES WE SERVE")  }}
+        {{ t("INDUSTRIES WE SERVE")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
       <p class="text-xl">
-        {{ _trans("We have expertise in 23 domains, including experience in information technology consulting for:")  }}
+        {{ t("We have expertise in 23 domains, including experience in information technology consulting for:")  }}
       </p>
 
 
@@ -288,13 +288,13 @@
 <div class='lg:flex block justify-between items-center lg:p-10 p-6 shadow-lg mt-3'>
   <div class='lg:w-2/3 w-full	 '>
     <h1 class='text-gray-900 lg:mt-6'>
-      <p class='lg:text-2xl text-md font-bold'>{{ _trans("Lack Python Competencies or Resources?")  }}</p>
+      <p class='lg:text-2xl text-md font-bold'>{{ t("Lack Python Competencies or Resources?")  }}</p>
       <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </h1>
-    <p class='text-gray-600 lg:text-xl text-md'>{{ _trans("We offer pre-vetted Python developers and dedicated Python teams with experience across multiple domains to help increase your development output.")  }}</p>
+    <p class='text-gray-600 lg:text-xl text-md'>{{ t("We offer pre-vetted Python developers and dedicated Python teams with experience across multiple domains to help increase your development output.")  }}</p>
   </div>
   <div class='mt-6 lg:w-1/3 w-full  m-0 flex justify-center items-center'>
-    <a href="#" class='px-8 py-3 text-sm bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Check Cvs of our devs")  }}</a>
+    <a href="#" class='px-8 py-3 text-sm bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ t("Check Cvs of our devs")  }}</a>
   </div>
 </div>
 
@@ -365,7 +365,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ _trans("BENEFITS OF IT CONSULTING WITH TEAMPRO")  }}
+        {{ t("BENEFITS OF IT CONSULTING WITH TEAMPRO")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -376,10 +376,10 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/end-to-end-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
                end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -393,10 +393,10 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/speed-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -410,10 +410,10 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/cost-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -427,10 +427,10 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/kpi-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -444,10 +444,10 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/balance-01.svg" alt="">
           </div>
           <div class=" flex flex-col w-3/3">
-            <h1 class="text-3xl md:text-2xl font-bold">{{ _trans("More than just consultants")  }}</h1>
+            <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ _trans("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -455,28 +455,28 @@
       </div>
 
       {{-- <div class="my-20  mx-auto w-full">
-        <p class="font-medium text-2xl mx-auto">{{ _trans("Business-level gains:")  }}</p><br>
+        <p class="font-medium text-2xl mx-auto">{{ t("Business-level gains:")  }}</p><br>
         <div class="w-full  sm:flex sm:flex-row justify-center flex flex-col ">
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-2.5
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("IT cost reduction")  }}</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("IT cost reduction")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-3
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("increase in software development speed")  }}</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("increase in software development speed")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex justify-center flex-col hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               100%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("regulatory compliance of the IT infrastructure")  }}
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("regulatory compliance of the IT infrastructure")  }}
             </p>
           </div>
           <div
@@ -484,35 +484,35 @@
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               ~99.99%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("applications availability")  }}</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("applications availability")  }}</p>
           </div>
 
         </div>
       </div>
 
       <div class=" mx-auto w-full">
-        <p class="font-medium text-4xl mx-auto">{{ _trans("IT-level gains:")  }}</p><br>
+        <p class="font-medium text-4xl mx-auto">{{ t("IT-level gains:")  }}</p><br>
         <div class="w-full  sm:flex sm:flex-row justify-center flex flex-col ">
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-2.5
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("IT cost reduction")  }}</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("IT cost reduction")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex flex-col justify-center hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               x1.5-3
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("increase in software development speed")  }}</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("increase in software development speed")  }}</p>
           </div>
           <div
             class="sm:w-1/4 sm:border-l sm:border-gray-300 w-full flex justify-center flex-col hover:border-b hover:border-gray-300">
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               100%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("regulatory compliance of the IT infrastructure")  }}
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("regulatory compliance of the IT infrastructure")  }}
             </p>
           </div>
           <div
@@ -520,7 +520,7 @@
             <p class="text-4xl text-blue-600  pl-2 mx-auto">
               ~99.99%
             </p><br>
-            <p class="font-light text-gray-400 pl-2 mx-auto">{{ _trans("applications availability")  }}</p>
+            <p class="font-light text-gray-400 pl-2 mx-auto">{{ t("applications availability")  }}</p>
           </div>
 
         </div>
@@ -528,43 +528,43 @@
       <div class="my-8 md:block hidden">
         <div class="grid mt-6 grid-cols-1 md:grid-cols-3 gap-4">
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-20-50%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('-20-50%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('time to market for new products')}}
+                    {{t('time to market for new products')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+10-20%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('sales due to marketing and sales automation')}}
+                    {{t('sales due to marketing and sales automation')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-30%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+10-30%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('revenue due to new digital sales channels')}}
+                    {{t('revenue due to new digital sales channels')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+10-20%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('employee productivity')}}
+                    {{t('employee productivity')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+5-10%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+5-10%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('business productivity')}}
+                    {{t('business productivity')}}
                 </p>
             </div>
             <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-5-35%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('-5-35%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('IT operating costs')}}
+                    {{t('IT operating costs')}}
                 </p>
             </div>
-        
-           
+
+
         </div>
     </div>
 
@@ -575,72 +575,72 @@
     <div class="swiper-wrapper">
         <div class="swiper-slide text-center  pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+20-40%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+20-40%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('time to market for new products')}}
+                    {{t('time to market for new products')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+10-20%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('sales due to marketing and sales automation')}}
-                </p>
-            </div>
-        </div>
-        
-        <div class="swiper-slide text-center pb-4">
-        <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-30%')}}</h1>
-                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('revenue due to new digital sales channels')}}
+                    {{t('sales due to marketing and sales automation')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+10-20%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+10-30%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('employee productivity')}}
+                    {{t('revenue due to new digital sales channels')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide text-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('+5-10%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+10-20%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('business productivity')}}
+                    {{t('employee productivity')}}
+                </p>
+            </div>
+        </div>
+
+        <div class="swiper-slide text-center pb-4">
+        <div class="border-l px-4 border-gray-400">
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('+5-10%')}}</h1>
+                <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
+                    {{t('business productivity')}}
                 </p>
             </div>
         </div>
 
         <div class="swiper-slide tetx-center pb-4">
         <div class="border-l px-4 border-gray-400">
-                <h1 class="text-5xl text-blue-700 font-semibold">{{_trans('-5-35%')}}</h1>
+                <h1 class="text-5xl text-blue-700 font-semibold">{{t('-5-35%')}}</h1>
                 <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-                    {{_trans('IT operating costs')}}
+                    {{t('IT operating costs')}}
                 </p>
             </div>
         </div>
 
     </div>
-    
+
 </div>
       <div class='lg:flex block justify-between items-center p-10 shadow-2xl my-16'>
         <div class='lg:w-2/3 w-full'>
           <h1 class='text-gray-900 mt-6'>
-            <p class='text-2xl font-bold'>{{ _trans("Measure IT Outsourcing Value for Your Business")  }} </p>
+            <p class='text-2xl font-bold'>{{ t("Measure IT Outsourcing Value for Your Business")  }} </p>
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
           </h1>
-          <p class='text-gray-600 text-xl'>{{ _trans("Our team can conduct an IT outsourcing feasibility analysis to
+          <p class='text-gray-600 text-xl'>{{ t("Our team can conduct an IT outsourcing feasibility analysis to
           calculate the financial benefits of an outsourcing engagement for your particular case.")  }} </p>
         </div>
         <div class='lg:w-1/3 w-full m-0 flex  justify-center items-center'>
-          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ _trans("Request a
+          <a href="#" class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ t("Request a
           Feasibility analysis")  }}</a>
         </div>
       </div>

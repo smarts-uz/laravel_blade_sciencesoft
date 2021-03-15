@@ -12,19 +12,19 @@
                 <img alt="image" src="{{ asset('img/logo.png') }}"
                      class="rounded-circle mr-1 thumbnail-rounded user-thumbnail ">
                 <div class="d-sm-none d-lg-inline-block">
-                    {{ _trans("Hi")  }}, {{\Illuminate\Support\Facades\Auth::user()->first_name}}</div>
+                    {{ t("Hi")  }}, {{\Illuminate\Support\Facades\Auth::user()->first_name}}</div>
             </a>
 
             <div class="dropdown-menu dropdown-menu-right">
                 <div class="dropdown-title">
-                    {{ _trans("Welcome")  }}, {{\Illuminate\Support\Facades\Auth::user()->name}}</div>
+                    {{ t("Welcome")  }}, {{\Illuminate\Support\Facades\Auth::user()->name}}</div>
                 <a class="dropdown-item has-icon edit-profile" href="#" data-id="{{ \Auth::id() }}">
-                    <i class="fa fa-user"></i>{{ _trans("Edit Profile")  }}</a>
+                    <i class="fa fa-user"></i>{{ t("Edit Profile")  }}</a>
                 <a class="dropdown-item has-icon" data-toggle="modal" data-target="#changePasswordModal" href="#" data-id="{{ \Auth::id() }}"><i
-                            class="fa fa-lock"> </i>{{ _trans("Change Password")  }}</a>
+                            class="fa fa-lock"> </i>{{ t("Change Password")  }}</a>
                 <a href="{{ url('logout') }}" class="dropdown-item has-icon text-danger"
                    onclick="event.preventDefault(); localStorage.clear();  document.getElementById('logout-form').submit();">
-                    <i class="fas fa-sign-out-alt"></i> {{ _trans("Logout")  }}
+                    <i class="fas fa-sign-out-alt"></i> {{ t("Logout")  }}
                 </a>
                 <form id="logout-form" action="{{ url('/logout') }}" method="POST" class="d-none">
                     {{ csrf_field() }}

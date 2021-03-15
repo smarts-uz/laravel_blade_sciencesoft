@@ -1,13 +1,13 @@
 @extends('layouts.app')
 @section('title')
-    {{ _trans("Create Consultation")  }}
+    {{ t("Create Consultation")  }}
 @endsection
 @section('content')
     <section class="section">
         <div class="section-header">
-            <h3 class="page__heading m-0">{{ _trans("New Consultation")  }}</h3>
+            <h3 class="page__heading m-0">{{ t("New Consultation")  }}</h3>
             <div class="filter-container section-header-breadcrumb row justify-content-md-end">
-                <a href="{{ route('consultations.index') }}" class="btn btn-primary">{{ _trans("Back")  }}</a>
+                <a href="{{ route('consultations.index') }}" class="btn btn-primary">{{ t("Back")  }}</a>
             </div>
         </div>
         <div class="content">

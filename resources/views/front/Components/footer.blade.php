@@ -18,9 +18,9 @@
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base mt-4">
                 <i class="fas fa-map-marker-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ _trans("100027, No. 2, Bog 'str., ")  }}
-                  {{ _trans("Shayxontohur district, ")  }}<br/>
-                  {{ _trans("Tashkent, Uzbekistan")  }}</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ t("100027, No. 2, Bog 'str., ")  }}
+                  {{ t("Shayxontohur district, ")  }}<br/>
+                  {{ t("Tashkent, Uzbekistan")  }}</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-phone-alt"></i>
@@ -41,25 +41,25 @@
           <hr class="mt-5 border-t-2 border-gray-100 flex flex-wrap items-center">
           <div class="flex justify-between flex-wrap w-full mt-5">
             <div class="flex flex-row flex-wrap ">
-              <span class="text-base hover:underline w-full md:w-48 text-white text-opacity-70 mr-5 hover:text-white">{{_trans("About
+              <span class="text-base hover:underline w-full md:w-48 text-white text-opacity-70 mr-5 hover:text-white">{{t("About
                 TeamPRO")}}</span>
               <span class="w-full md:w-48"><a href="#"
-                  class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{_trans("Join Us as an
+                  class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{t("Join Us as an
                   agent")}}</a></span>
               <span class="w-full md:w-48"><a href="#"
-                  class="text-base  text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{_trans("Privacy Policy")}}</a></span>
+                  class="text-base  text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{t("Privacy Policy")}}</a></span>
               <span class="w-full md:w-48"><a href="#"
-                  class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{_trans("Terms of Use")}}</a></span>
+                  class="text-base text-white  hover:underline mr-5 text-opacity-70 text-md hover:text-white">{{t("Terms of Use")}}</a></span>
             </div>
             <div>
-              <span class="my-2 text-base text-white text-opacity-70 text-md ">{{_trans("For press inquries:")}}<a
+              <span class="my-2 text-base text-white text-opacity-70 text-md ">{{t("For press inquries:")}}<a
                   href="mailto: contact@teampro.com" class="text-white px-2 hover:underline text-opacity-70 text-md hover:text-white">
-                  {{_trans("contact@teampro.com")}}</a></span>
+                  {{t("contact@teampro.com")}}</a></span>
             </div>
           </div>
           <div class="flex mt-5">
-            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ _trans("2021 TeamPRO USA Corporation.")  }}
-              {{ _trans("All rights reserved.")  }}</span>
+            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ t("2021 TeamPRO USA Corporation.")  }}
+              {{ t("All rights reserved.")  }}</span>
           </div>
         </div>
       </div>

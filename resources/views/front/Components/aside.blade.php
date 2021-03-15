@@ -1,210 +1,210 @@
 <div class="flex flex-col">
-    <p class="underline text-gray-800 uppercase text-sm font-bold mb-10">{{ _trans("SOFTWARE DEVELOPMENT")  }}</p>
+    <p class="underline text-gray-800 uppercase text-sm font-bold mb-10">{{ t("SOFTWARE DEVELOPMENT")  }}</p>
     <ul class="flex flex-col text-sm">
       <li class="w-full mb-1 cursor-pointer text-gray-800 font-semibold">
         <span class='flex justify-between items-center bg-gray-100 p-2'>
-          <a href="#" class='hover:text-blue-500'>{{ _trans("Software Consulting")  }}</a>
+          <a href="#" class='hover:text-blue-500'>{{ t("Software Consulting")  }}</a>
             <svg onclick="activeTabsAside('software-consulting')"s class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
             </svg>
         </span>
         <ul class="hidden flex-col w-full font-normal" id="software-consulting">
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Agile Consulting")  }}</a>
+            <a href="#">{{ t("Agile Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("CRM Consulting")  }}</a>
+            <a href="#">{{ t("CRM Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Ecommerce Consulting")  }}</a>
+            <a href="#">{{ t("Ecommerce Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Data Analytics Consulting")  }}</a>
+            <a href="#">{{ t("Data Analytics Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("IoT Consulting")  }}</a>
+            <a href="#">{{ t("IoT Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Computer Vision Consulting")  }}</a>
+            <a href="#">{{ t("Computer Vision Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("IT Services Management Consulting")  }}</a>
+            <a href="#">{{ t("IT Services Management Consulting")  }}</a>
           </li>
         </ul>
       </li>
       <li class="w-full mb-1 cursor-pointer text-gray-800 font-semibold">
         <span class='flex justify-between items-center bg-gray-100 p-2'>
-          <a href="#" class=' hover:text-blue-500'>{{ _trans("Custom Software Development")  }}</a>
+          <a href="#" class=' hover:text-blue-500'>{{ t("Custom Software Development")  }}</a>
           <svg onclick="activeTabsAside('custom-software-development')" class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
           </svg>
         </span>
         <ul class="hidden flex-col w-full font-normal" id="custom-software-development">
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Learning Management System")  }}</a>
+            <a href="#">{{ t("Learning Management System")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Content Management")  }}</a>
+            <a href="#">{{ t("Content Management")  }}</a>
           </li>
         </ul>
       </li>
       <li class="w-full mb-1 cursor-pointer text-gray-800 font-semibold">
         <span class='flex justify-between items-center bg-gray-100 p-2'>
-          <a href='#' class=" hover:text-blue-500">{{ _trans("Software Development Outsourcing")  }}</a>
+          <a href='#' class=" hover:text-blue-500">{{ t("Software Development Outsourcing")  }}</a>
           <svg onclick="activeTabsAside('software-development-outsourcing')" class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
           </svg>
         </span>
         <ul class="hidden flex-col w-full font-normal" id="software-development-outsourcing">
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Dedicated Development Team")  }}</a>
+            <a href="#">{{ t("Dedicated Development Team")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("IT Staff Augmentation")  }}</a>
+            <a href="#">{{ t("IT Staff Augmentation")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Team Configuration")  }}</a>
+            <a href="#">{{ t("Team Configuration")  }}</a>
           </li>
         </ul>
       </li>
       <li class="w-full mb-1 cursor-pointer text-gray-800 font-semibold">
         <span class='flex justify-between items-center bg-gray-100 p-2'>
-          <a href="#" class=" hover:text-blue-500">{{ _trans("Software Product Development")  }}</a>
+          <a href="#" class=" hover:text-blue-500">{{ t("Software Product Development")  }}</a>
           <svg onclick="activeTabsAside('software-product-development')" class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
           </svg>
         </span>
         <ul class="hidden flex-col w-full font-normal" id="software-product-development">
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("MVP Development")  }}</a>
+            <a href="#">{{ t("MVP Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Startup Consulting")  }}</a>
+            <a href="#">{{ t("Startup Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Software Development for Startups")  }}</a>
+            <a href="#">{{ t("Software Development for Startups")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("How to Build a Software Startup")  }}</a>
+            <a href="#">{{ t("How to Build a Software Startup")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1  hover:text-blue-500">
-            <a href="#">{{ _trans("Saas Consulting")  }}</a>
+            <a href="#">{{ t("Saas Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1">
             <span class="flex justify-between items-center pr-2">
-              <a href="#" class='hover:text-blue-500'>{{ _trans("Saas Development")  }}</a>
+              <a href="#" class='hover:text-blue-500'>{{ t("Saas Development")  }}</a>
               <svg
                onclick="activeTabsAside('sass-development')"
                class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </span>
-            <a href="#" class='hidden p-2 pl-4 hover:text-blue-500' id="sass-development">{{ _trans("SaaS HR Sytem")  }}</a>
+            <a href="#" class='hidden p-2 pl-4 hover:text-blue-500' id="sass-development">{{ t("SaaS HR Sytem")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("How to Build a Saas Startup")  }}</a>
+            <a href="#">{{ t("How to Build a Saas Startup")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Saas Enhancement")  }}</a>
+            <a href="#">{{ t("Saas Enhancement")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("ERP System Development")  }}</a>
+            <a href="#">{{ t("ERP System Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("HR System Development")  }}</a>
+            <a href="#">{{ t("HR System Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("VR Development")  }}</a>
+            <a href="#">{{ t("VR Development")  }}</a>
           </li>
         </ul>
       </li>
       <li class="w-full mb-1 cursor-pointer text-gray-800 font-semibold">
         <span class='flex justify-between items-center bg-gray-100 p-2'>
-          <a href="#" class=" hover:text-blue-500">{{ _trans("Technologies")  }}</a>
+          <a href="#" class=" hover:text-blue-500">{{ t("Technologies")  }}</a>
           <svg onclick="activeTabsAside('technologies')" class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
           </svg>
         </span>
         <ul class="hidden flex-col w-full font-normal" id="technologies">
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Java Development")  }}</a>
+            <a href="#">{{ t("Java Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans(".NET Development")  }}</a>
+            <a href="#">{{ t(".NET Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("PHP Development")  }}</a>
+            <a href="#">{{ t("PHP Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("C++ Development")  }}</a>
+            <a href="#">{{ t("C++ Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Qt Development")  }}</a>
+            <a href="#">{{ t("Qt Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Python Development")  }}</a>
+            <a href="#">{{ t("Python Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Golang Development")  }}</a>
+            <a href="#">{{ t("Golang Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Javascript Development")  }}</a>
+            <a href="#">{{ t("Javascript Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1 hover:text-blue-500">
-            <a href="#">{{ _trans("Angular Development")  }}</a>
+            <a href="#">{{ t("Angular Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1">
             <span class="flex justify-between items-center pr-2">
-              <a href="#" class='hover:text-blue-500'>{{ _trans("Node.js Development")  }}</a>
+              <a href="#" class='hover:text-blue-500'>{{ t("Node.js Development")  }}</a>
               <svg
                onclick="activeTabsAside('nodejs-development')"
                class="-mr-1 ml-2 h-5 w-5 text-blue-900" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </span>
-            <a href="#" class='hidden p-2 pl-4 hover:text-blue-500' id="nodejs-development">{{ _trans("Node.js Consulting")  }}</a>
+            <a href="#" class='hidden p-2 pl-4 hover:text-blue-500' id="nodejs-development">{{ t("Node.js Consulting")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1  hover:text-blue-500">
-            <a href="#">{{ _trans("MEAN Stack Development")  }}</a>
+            <a href="#">{{ t("MEAN Stack Development")  }}</a>
           </li>
           <li class="bg-gray-100 py-2 pl-4 mb-1  hover:text-blue-500">
-            <a href="#">{{ _trans("Configure Yout Team")  }}</a>
+            <a href="#">{{ t("Configure Yout Team")  }}</a>
           </li>
         </ul>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("Research and Development")  }}
+          {{ t("Research and Development")  }}
         </a>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("Feasibility Study")  }}
+          {{ t("Feasibility Study")  }}
         </a>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("Embedded Software Development")  }}
+          {{ t("Embedded Software Development")  }}
         </a>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("API Development")  }}
+          {{ t("API Development")  }}
         </a>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("Large-Scale Software Development")  }}
+          {{ t("Large-Scale Software Development")  }}
         </a>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("Blockchain  Software Development")  }}
+          {{ t("Blockchain  Software Development")  }}
         </a>
       </li>
       <li class="w-full mb-1 cursor-pointer bg-gray-100 p-2 text-gray-800 font-semibold hover:text-blue-500">
         <a href="#">
-          {{ _trans("Software Maintenance and Support")  }}
+          {{ t("Software Maintenance and Support")  }}
         </a>
       </li>
     </ul>

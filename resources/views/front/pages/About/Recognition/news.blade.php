@@ -7,7 +7,7 @@
 @section('main')
 
     <div class="box-border">
-        <h1 class="text-4xl font-semibold my-6">{{ _trans('Press Releases') }}</h1>
+        <h1 class="text-4xl font-semibold my-6">{{ t('Press Releases') }}</h1>
         <hr class="w-12	my-6 border border-solid border-yellow-400">
         <!-- <hr class="w-12 border-b-2 border-yellow-600 my-4 "> -->
         <div class="container 2xl (1536px) w-full m-auto">
@@ -20,7 +20,7 @@
                         <p>{{ $new->sub_title }}</p>
                         <div class="flex justify-between items-center text-blue-500 py-2 text-xs">
                             <p>{{ $new->created_at->format('d-m-Y') }}</p> <a href=""
-                                class="text-blue-700 hover:text-red-700">{{ _trans('Click here') }}</a>
+                                class="text-blue-700 hover:text-red-700">{{ t('Click here') }}</a>
                         </div>
                     </div>
                 @endforeach

@@ -2,8 +2,8 @@
 
 use App\Translation;
 
-if (! function_exists('_trans')) {
-    function _trans($key, $lang = null){
+if (! function_exists('t')) {
+    function t($key, $lang = null){
         if($lang == null){
             $lang = 'en';
         }
