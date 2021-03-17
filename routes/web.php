@@ -24,25 +24,22 @@ Route::get('/SingleProduct/{id}', 'App\Http\Controllers\HomePageController@Singl
 Route::get('getPage/{page}', 'App\Http\Controllers\HomePageController@getPage')->name('getPage');
 Route::get('getBlade/{page}', 'App\Http\Controllers\HomePageController@getBlade')->name('getBlade');
 Route::get('/', 'App\Http\Controllers\HomePageController@index')->name('index');
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', 'App\Http\Controllers\HomeController@index')->name('home');
 
 
 Auth::routes();
 // Admin CRUD
 Route::group(['middleware'=>'auth'], function() {
-    Route::resource('categories', App\Http\Controllers\CategoryController::class);
-    Route::resource('blogs', App\Http\Controllers\BlogController::class);
+    Route::resource('categories', 'App\Http\Controllers\CategoryController');
+    Route::resource('blogs', 'App\Http\Controllers\BlogController');
     Route::post('ckeditor/upload', 'App\Http\Controllers\CKEditorController@upload')->name('upload');
-    Route::resource('consultations', App\Http\Controllers\ConsultationController::class);
-    Route::resource('cardLists', App\Http\Controllers\CardListsController::class);
-    Route::resource('companyTeams', App\Http\Controllers\CompanyTeamController::class);
-    Route::resource('portfolios', App\Http\Controllers\PortfolioController::class);
-    Route::resource('products', App\Http\Controllers\ProductController::class);
-    Route::resource('news', App\Http\Controllers\NewsController::class);
+    Route::resource('consultations', 'App\Http\Controllers\ConsultationController');
+    Route::resource('cardLists', 'App\Http\Controllers\CardListsController');
+    Route::resource('companyTeams', 'App\Http\Controllers\CompanyTeamController');
+    Route::resource('portfolios', 'App\Http\Controllers\PortfolioController');
+    Route::resource('products', 'App\Http\Controllers\ProductController');
+    Route::resource('news', 'App\Http\Controllers\NewsController');
 });
-
-
-
 
 
 Route::post('/languages/update_rtl_status', 'App\Http\Controllers\LanguageController@update_rtl_status')->name('languages.update_rtl_status');
