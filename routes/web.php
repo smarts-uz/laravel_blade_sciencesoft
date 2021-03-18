@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\App;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -49,7 +48,7 @@ Route::post('/languages/key_value_store', 'App\Http\Controllers\LanguageControll
 Route::post('/consultation', 'App\Http\Controllers\HomePageController@postConsultation')->name('consultation');
 Route::post('', 'App\Http\Controllers\HomePageController@postFile')->name('postFile');
 Route::get('lang/{locale}', function ($locale){
-    App::setLocale($locale);
+    Illuminate\Support\Facades\App::setLocale($locale);
     session()->put('locale', $locale);
     return redirect()->back();
 });
