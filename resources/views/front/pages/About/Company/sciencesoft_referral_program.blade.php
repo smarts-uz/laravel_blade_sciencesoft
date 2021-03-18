@@ -74,7 +74,7 @@
             {{ t('HOW WE WORK') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4" />
-        <div class="grid lg:grid-cols-3 grid-cols-1 gap ">
+        <div class="grid lg:grid-cols-3 grid-cols-1 gap-5 ">
             <x-wework/>
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">
