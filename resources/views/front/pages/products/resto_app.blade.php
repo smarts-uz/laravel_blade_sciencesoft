@@ -7,46 +7,46 @@
 @section('main')
 <div class="block p-0">
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image1.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image1.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image2.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image2.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image3.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image3.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image4.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image4.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image5.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image5.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image6.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image6.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image7.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image7.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image8.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image8.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image9.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image9.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image10.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image10.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image11.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image11.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9">
-        <img src="{{asset('images/products/RestoOne/image12.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image12.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <h1 class="mb-4 uppercase font-bold text-2xl">{{ t('CONSIDERING PURCHASING OUR ITEM?') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <p class="text-lg mt-5 text-gray-800">{{ t('Please view our support section for important notes and questions. ')}}</p>
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image13.jfif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image13.jfif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <h1 class="mb-4 uppercase font-bold text-2xl">{{ t('Multi Restaurants Food Delivery App + Admin Panel') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
@@ -132,7 +132,7 @@
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Admin Panel') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image14.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image14.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <pre style="box-sizing: border-box; font: 400 16px/19px Monaco, &quot;Courier New&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, monospace; margin: 0px 0px 20px; color: rgb(51, 51, 51); white-space: pre-wrap; overflow-wrap: break-word; background-color: whitesmoke; background-image: linear-gradient(rgb(245, 245, 245) 50%, rgb(230, 230, 230) 50%); background-size: 38px 38px; border: 1px solid rgb(212, 212, 212); display: block; overflow: visible hidden; padding: 0px 0px 0px 4px; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
         Admin
@@ -150,7 +150,7 @@
         <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Customer Mobile App Demo') }}</h1>
         <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image15.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image15.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <pre style="box-sizing: border-box; font: 400 16px/19px Monaco, &quot;Courier New&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, monospace; margin: 0px 0px 20px; color: rgb(51, 51, 51); white-space: pre-wrap; overflow-wrap: break-word; background-color: whitesmoke; background-image: linear-gradient(rgb(245, 245, 245) 50%, rgb(230, 230, 230) 50%); background-size: 38px 38px; border: 1px solid rgb(212, 212, 212); display: block; overflow: visible hidden; padding: 0px 0px 0px 4px; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
         Customer 1
@@ -164,7 +164,7 @@
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Manager / Owner Mobile App (NOT INCLUDED IN THIS ITEM)') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image16.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image16.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <pre style="box-sizing: border-box; font: 400 16px/19px Monaco, &quot;Courier New&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, monospace; margin: 0px 0px 20px; color: rgb(51, 51, 51); white-space: pre-wrap; overflow-wrap: break-word; background-color: whitesmoke; background-image: linear-gradient(rgb(245, 245, 245) 50%, rgb(230, 230, 230) 50%); background-size: 38px 38px; border: 1px solid rgb(212, 212, 212); display: block; overflow: visible hidden; padding: 0px 0px 0px 4px; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
         Manager / Owner / Vendor account
@@ -174,7 +174,7 @@
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Delivery Boy Mobile App Demo (NOT INCLUDED IN THIS ITEM)') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image17.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image17.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <pre style="box-sizing: border-box; font: 400 16px/19px Monaco, &quot;Courier New&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Bitstream Vera Sans Mono&quot;, monospace; margin: 0px 0px 20px; color: rgb(51, 51, 51); white-space: pre-wrap; overflow-wrap: break-word; background-color: whitesmoke; background-image: linear-gradient(rgb(245, 245, 245) 50%, rgb(230, 230, 230) 50%); background-size: 38px 38px; border: 1px solid rgb(212, 212, 212); display: block; overflow: visible hidden; padding: 0px 0px 0px 4px; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">
         Driver / Delivery Boy
@@ -185,37 +185,37 @@
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <p class="text-lg mt-5 text-gray-800">{{ t('This is online documentation, this link can help you how to getting started with flutter and how to use Multi Restaurants App')}}</p>
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image18.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image18.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('What they say about our Apps ?') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image19.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image19.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Bright App Screenshots') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image20.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image20.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Dark App Screenshots') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image21.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image21.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
 
     <h1 class="mb-4 mt-4 uppercase font-bold text-2xl">{{ t('Cool Animations') }}</h1>
     <hr class="w-10 h-0.5 border-none bg-yellow-500">
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image25.gif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image25.gif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image22.gif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image22.gif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image23.gif')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image23.gif')}}" alt="" class="mx-auto w-9/12">
     </div>
     <div class="w-full mb-9 mt-4">
-        <img src="{{asset('images/products/RestoOne/image24.jpg')}}" alt="" class="mx-auto">
+        <img src="{{asset('images/products/RestoOne/image24.jpg')}}" alt="" class="mx-auto w-9/12">
     </div>
 </div>
 @endsection
