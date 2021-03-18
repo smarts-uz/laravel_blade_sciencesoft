@@ -230,7 +230,7 @@
                 <h1 class="uppercase font-bold text-2xl pb-4">{{ t('Featured Insights') }}</h1>
                 <hr class="w-10 h-0.5 border-none bg-yellow-500">
             </div>
-            <div class="flex flex-wrap justify-center">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-5 justify-center block">
                 @foreach ($blogs->splice(0, 3) as $blog)
                     <div class="p-4 mx-0">
                         <a href="{{ route('SingleBlog', [$blog->id]) }}"

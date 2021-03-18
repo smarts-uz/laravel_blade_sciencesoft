@@ -38,7 +38,7 @@
               <!-- -------------------------------------------- -->
 
 
-              <div class="owl-carousel owl-theme  w-20   flex items-center justify-center">
+              <div class="owl-carousel owl-theme lg:w-74 flex items-center justify-center">
                 <div class="item w-64 mx-auto my-auto flex items-center justufy-center">
                   <img class="my-auto" src="https://www.scnsoft.com/partners/sw-development/microsoft-gold-partner.svg"
                     alt="">
