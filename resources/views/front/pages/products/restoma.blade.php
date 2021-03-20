@@ -162,6 +162,23 @@
                     <img src="{{asset('images/products/RestoMa/full.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
                 </div>
             </div>
+            <div>
+                <h1 class="lg:text-3xl text-sm lg:py-5">
+                    <p class="mb-4">{{ t('Security Features') }}</p>
+                    <hr class="w-10 h-0.5 border-none bg-yellow-500">
+                </h1>
+                <ul class="ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
+                    <li class="leading-8 text-gray-800">
+                        {{ t('JWT Authentication') }}
+                    </li>
+                    <li class="leading-8 text-gray-800">
+                        {{ t('CSRF Protection') }}
+                    </li>
+                    <li class="leading-8 text-gray-800">
+                        {{ t('CSRF Protection') }}
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>
