@@ -17,14 +17,14 @@
                 <div
                 class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
               >
-                Система автоматизации отдела продаж
+                {{t('Sales department automation')}}  system
               </div>
               <div class="lg:px-20">
                 <a
                   href="#"
                   class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                 >
-                  Получить консультацию
+                 {{t('Get a consultation')}}
                 </a>
               </div>
               </div>
@@ -49,31 +49,31 @@
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/amo_crm/2.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              PR-article
+              {{t('PR-article')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/amo_crm/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Banner
+              {{t('Banner')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/amo_crm/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Traffic
+              {{t('Traffic')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
             <img src="{{asset('images/open_engine/amo_crm/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              News
+              {{t('News')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
             <img src="{{asset('images/open_engine/amo_crm/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Interview
+              {{t('Interview')}}
             </p>
           </div>
         </div>
@@ -88,17 +88,15 @@
                     <div>
                         <div class="flex">
                             <p class="text-9xl font-bold text-gray-300 mt-10" data-aos="fade-up">1</p>
-                            <h1 class=" font-bold text-blue-600" data-aos="fade-right">amoCRM - это...
+                            <h1 class=" font-bold text-blue-600" data-aos="fade-right">{{t('amoCRM - is...')}}
                             </h1>
                         </div>
 
                         <div>
                             <p class="text-gray-700 text-lg leading-6 mt-10 ml-24 ">
-                                Простая и понятная облачная система учета и систематизации потенциальных клиентов и
-                                сделок,
-                                ориентированная на малый и средний бизнес. <br> <br>
-                                AmoCRM помогает продавать больше <br> <br>
-                                Наши маркетинговая агенство поможет вам в разработке и внедрение СРМ систем в Ташкенте
+                                {{t('A simple and intuitive cloud-based system for accounting and systematization of potential customers and transactions, focused on small and medium-sized businesses.')}}  <br> <br>
+                                {{t('amoCRM helps you sell more ')}} <br> <br>
+                               {{t('Our marketing agency will help you in the development and implementation of CPM systems in Tashkent')}}
                             </p>
                         </div>
                     </div>
@@ -111,12 +109,12 @@
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
                         <img src="{{asset('images/open_engine/amo_crm/7.svg')}}" alt=""
                              class="mx-auto">
-                        <p class="text-center text-sm p-3 text-gray-600">Отдельная команда для каждого проекта</p>
+                        <p class="text-center text-sm p-3 text-gray-600">{{t('Separate team for each project')}} </p>
                     </div>
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
                         <img src="{{asset('images/open_engine/amo_crm/8.svg')}}" alt=""
                              class="mx-auto">
-                        <p class="text-center text-sm p-3 text-gray-600">Команда квалифицированных профессионалов</p>
+                        <p class="text-center text-sm p-3 text-gray-600">{{t('A team of qualified professionals')}} </p>
                     </div>
 
                 </div>
@@ -125,15 +123,13 @@
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
                         <img src="{{asset('images/open_engine/amo_crm/9.svg')}}" alt=""
                              class="mx-auto">
-                        <p class="text-center text-sm p-3 text-gray-600">Бесплатная консультация по любым вопросам
-                            связанных с вашим бизнесом</p>
+                        <p class="text-center text-sm p-3 text-gray-600">{{t('Free consultation on any questions related to your business')}} </p>
                     </div>
 
                     <div class="mb-10 border-1 bg-white rounded-lg shadow-lg mx-2 p-5 " data-aos="flip-left">
                         <img src="{{asset('images/open_engine/amo_crm/10.svg')}}" alt=""
                              class="mx-auto">
-                        <p class="text-center text-sm p-3 text-gray-600">Сертифицированные специалисты по amoCRM,
-                            Bitrix24, Moysklad</p>
+                        <p class="text-center text-sm p-3 text-gray-600">{{t('Certified amoCRM Specialists, Bitrix24, Moysklad')}} </p>
                     </div>
                 </div>
             </div>
@@ -141,7 +137,7 @@
     </div>
 
     <div class="flex justify-center items-center mt-20 mb-10 relative ">
-        <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-left">Бизнес без CRM</h1>
+        <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-left">{{t('Business without CRM')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
                 2
@@ -151,8 +147,8 @@
 
       <div class="flex justify-center text-center mb-10">
                 <div>
-                    <p class="text-2xl font-bold text-gray-700">Теряются заявки (лиды)</p>
-                    <p class="text-gray-700 text-xl">Самые распространенные проблемы компаний <br> у которых нет CRM</p>
+                    <p class="text-2xl font-bold text-gray-700">{{t('Lost applications (leads)')}} </p>
+                    <p class="text-gray-700 text-xl">{{t('The most common problems of companies')}} <br> {{t('that do not have CRM')}} </p>
                 </div>
 
             </div>
@@ -191,27 +187,27 @@
             </div>
   <div class="grid grid-cols-1 lg:grid-cols-4 text-center container mx-auto">
             <div class="p-10" data-aos="fade-up">
-                <p class="font-bold text-lg p-3 text-gray-700">Время отдела продаж уходит на рутину</p>
-                <p class="text-gray-600 px-5">Менеджеры теряют 35% заявок в ходе первичной обработки.</p>
+                <p class="font-bold text-lg p-3 text-gray-700">{{t('The time of the sales department is spent on routine')}} </p>
+                <p class="text-gray-600 px-5">{{t('Managers lose 35% of applications during the initial processing.')}} </p>
             </div>
             <div class="p-10" data-aos="fade-up">
-                <p class="font-bold text-lg p-3 text-gray-700">Забытые коммерческие предложения</p>
-                <p class="text-gray-600 px-5">Ручная обработка документов и контактов занимает 70% времени.</p>
+                <p class="font-bold text-lg p-3 text-gray-700">{{t('Forgotten commercial offers')}} </p>
+                <p class="text-gray-600 px-5">{{t('Manual processing of documents and contacts takes 70% of the time.')}} </p>
             </div>
             <div class="p-10" data-aos="fade-up">
-                <p class="font-bold text-lg p-3 text-gray-700">Забытые коммерческие предложения</p>
-                <p class="text-gray-600 px-5">Половина отправленных КП остаётся без внимания.</p>
+                <p class="font-bold text-lg p-3 text-gray-700">{{t('Forgotten commercial offers')}} </p>
+                <p class="text-gray-600 px-5">{{t('Half of the sent KP remains without attention.')}} </p>
             </div>
             <div class="p-10" data-aos="fade-up">
-                <p class="font-bold text-lg p-3 text-gray-700">Не распознаются провальные сделки</p>
-                <p class="text-gray-600 px-5">Менеджеры ориентируются на интуицию вместо измеримых признаков.</p>
+                <p class="font-bold text-lg p-3 text-gray-700">{{t('Failed trades are not recognized')}} </p>
+                <p class="text-gray-600 px-5">{{t('Managers focus on intuition instead of measurable signs.')}} </p>
             </div>
         </div>
 
 
 
     <div class="flex justify-center items-center mt-20 mb-10 relative ">
-        <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-right">Возможности СРМ системы</h1>
+        <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center" data-aos="fade-right">{{t('Features of the CPM system')}} </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -230,17 +226,17 @@
                     <img src="{{asset('images/open_engine/amo_crm/11.png')}}" alt="">
                 </div>
                 <div data-aos="fade-left" class="pt-8">
-                    <p class="text-blue-700 font-bold text-xl text-3xl">Ведение базы клиентов</p>
+                    <p class="text-blue-700 font-bold text-xl text-3xl">{{t('Maintaining a customer base')}} </p>
                     <ul class="list-disc text-blue-700 leading-9">
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Настраивайте воронку продаж самостоятельно под свои нужны.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Customize the sales funnel yourself to suit your needs.')}} </span>
                         </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Добавляйте, называйте, меняйте местами этапы своей воронки.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Add, name, and swap the stages of your funnel.')}} </span>
                         </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Настраивайте автоматический переход от этапа к этапу.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Configure the automatic transition from stage to stage.')}} </span>
                         </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Помечайте разными цветами каждый этап.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Mark each stage with different colors.')}} </span>
                         </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Добавляйте примечания в карточке клиента, любую информацию в качестве заметки.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Add notes in the customer card, any information as a note.')}} </span>
                         </li>
                     </ul>
                 </div>
@@ -248,13 +244,11 @@
 
             <div class="grid grid-cols-1 justify-center md:grid-cols-2 container mx-auto m-20 ">
                 <div data-aos="fade-right" class="pt-8">
-                    <p class="text-blue-700 font-bold text-xl text-3xl"> Задачи и напоминания</p>
+                    <p class="text-blue-700 font-bold text-xl text-3xl"> {{t('Tasks and reminders')}} </p>
                     <ul class="list-disc text-blue-700 leading-9">
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg"> AmoCRM помогает следить за тем, чтобы по каждой сделке было запланировано действие. Если задачи не
-                поставлены — система сигнализирует об этом.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg"> {{t('amoCRM helps you make sure that an action is scheduled for each transaction. If the tasks do not delivered — the system signals this.')}} </span>
                         </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Вы можете создавать задачи для напоминания менеджерам о необходимости совершения того или иного действия со
-                сделкой, компанией или контактом.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('You can create tasks to remind managers to perform certain actions with a transaction, company, or contact.')}} </span>
                         </li>
 
                     </ul>
@@ -269,14 +263,12 @@
                     <img src="{{asset('images/open_engine/amo_crm/13.png')}}" alt="">
                 </div>
                 <div data-aos="fade-left" class="pt-8">
-                    <p class="text-blue-700 font-bold text-xl text-3xl">Аналитика</p>
+                    <p class="text-blue-700 font-bold text-xl text-3xl">Analytics</p>
                     <ul class="list-disc text-blue-700 leading-9">
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg"> Аналитика по воронке позволит увидеть на каких этапах вы теряете клиентов и предоставит достаточное
-                    количество данных, чтобы принять верные управленческие решения.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Funnel analytics will allow you to see at what stages you are losing customers and provide sufficient information the amount of data to make the right management decisions.')}} </span>
                         </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg"> Аналитика по сотрудникам покажет успехи, проблемные зоны и загруженность по каждому сотруднику.</span>
-                        </li>
-                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">Аналитика по целям позволяет поставить KPI для сотрудников, отделов и компании в целом.</span>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t(' Employee analytics will show progress, problem areas, and workload for each employee.')}} </span></li>
+                        <li class="ml-6 text-3xl"><span class="text-gray-700  text-lg">{{t('Goal analytics allows you to set KPIs for employees, departments, and the company as a whole.')}} </span>
                         </li>
                     </ul>
                 </div>
@@ -288,13 +280,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-7xl">
             <div class="flex justify-center items-center pt-8" data-aos="fade-right">
                 <div>
-                    <p class="text-blue-700 font-bold text-2xl pb-5">Создадим уникальную CRM</p>
-                    <p class="text-gray-700 pr-5">amoCRM обладает уникальным и очень развитым интерфейсом разработчика,
-                        что
-                        позволяет не только настраивать
-                        ее под своим потребности, но и создавать всевозможные интеграции с другими системами. Сотни
-                        самых разных
-                        готовых расширений уже доступны для кастомизации CRM под Ваши нужды</p>
+                    <p class="text-blue-700 font-bold text-2xl pb-5">{{t('Creating a unique CRM')}} </p>
+                    <p class="text-gray-700 pr-5">{{t('amoCRM has a unique and highly developed developer interface, what allows you to not only configure it is tailored to your needs, but also to create all sorts of integrations with other systems. Hundreds the most diverse ready-made extensions are already available for customizing CRM for your needs')}} </p>
                 </div>
             </div>
             <div class="flex justify-center pt-8" data-aos="flip-left">
@@ -311,11 +298,9 @@
             </div>
             <div class="flex justify-center items-center pt-8" data-aos="fade-left">
                 <div>
-                    <p class="text-blue-700 font-bold text-2xl pb-5">Мобильное приложение</p>
+                    <p class="text-blue-700 font-bold text-2xl pb-5">{{t('Mobile App')}} </p>
                     <p class="text-gray-700 pr-5">
-                        С мобильными приложениями amoCRM, можно работать где и когда Вам удобно. Приложения работают
-                        онлайн и позволяют просматривать актуальные данные без задержек, но самое главное теперь все
-                        функции веб-версии доступны в Вашем телефоне</p>
+                       {{t('With amoCRM mobile apps, you can work wherever and whenever you want. The apps are working online and allow you to view up-to-date data without delay, but the most important thing is now everything The web version features are available in your phone')}} </p>
                 </div>
             </div>
         </div>
@@ -323,13 +308,11 @@
         <div class="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-7xl">
             <div class="flex justify-center items-center pt-8" data-aos="fade-right">
                 <div>
-                    <p class="text-blue-700 font-bold text-2xl pb-5"> Время подарков</p>
-                    <p class="text-gray-700 pr-5 mb-10"> Закажите amoCRM и мы подарим Вам сертификат на 500 000 сум.
-                        Сертификат
-                        можно использовать при заказе услуг нашей компании</p>
+                    <p class="text-blue-700 font-bold text-2xl pb-5">Gift time</p>
+                    <p class="text-gray-700 pr-5 mb-10"> {{t('Order amoCRM and we will give you a certificate for 500,000 soums. Certificate you can use it when ordering our companys services')}} </p>
                     <a href=""
                        class="bg-blue-700 rounded-full text-white px-3 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        Перейти в telegram <i class="fa fa-telegram" aria-hidden="true"></i>
+                        {{t('Go to telegram')}}  <i class="fa fa-telegram" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -340,7 +323,7 @@
     </div>
 
     <div class="flex justify-center items-center my-20 relative ">
-        <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center">Выгоды amoCRM</h1>
+        <h1 class="text-4xl font-bold text-white z-10 text-blue-600 text-center">{{t('Benefits of amoCRM')}} </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -359,7 +342,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/17.svg')}}" alt="">
                 </div>
                 <div class=" pl-5 pt-10">
-                    <h1 class="text-gray-700 font-bold text-lg">Аудит сайта</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Site Audit')}} </h1>
                 </div>
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
@@ -367,7 +350,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/18.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Автоматическая воронка</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Automatic funnel')}} </h1>
                 </div>
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
@@ -375,7 +358,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/19.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Фиксация заявок</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Fixing applications')}} </h1>
                 </div>
             </div>
 
@@ -384,7 +367,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/20.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Обучение не требуется</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('No training required')}} </h1>
                 </div>
             </div>
 
@@ -397,7 +380,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/21.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Общайся и обсуждай</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Communicate and discuss')}} </h1>
                 </div>
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
@@ -405,7 +388,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/22.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Мобильная AMO CRM</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Mobile AMO CRM')}} </h1>
                 </div>
             </div>
             <div class="flex p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5" data-aos="flip-left">
@@ -413,7 +396,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/23.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Звонок в один <br> клик</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Call in one <br> click')}} </h1>
                 </div>
             </div>
 
@@ -422,7 +405,7 @@
                     <img src="{{asset('images/open_engine/amo_crm/2.svg')}}" alt="">
                 </div>
                 <div class="py-5 pl-5">
-                    <h1 class="text-gray-700 font-bold text-lg">Периодические продажи</h1>
+                    <h1 class="text-gray-700 font-bold text-lg">{{t('Recurring sales')}} </h1>
                 </div>
             </div>
         </div>
@@ -436,8 +419,7 @@
 
 </div>
     <div class="flex justify-center items-center my-20 relative ">
-        <h1 class="text-4xl font-bold text-white z-10 text-blue-700 text-center leading-8">Этапы внедрения <br>
-            CRM системы</h1>
+        <h1 class="text-4xl font-bold text-white z-10 text-blue-700 text-center leading-8">{{t('Implementation stages<br> CRM systems')}} </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -454,24 +436,23 @@
         <div class="flex justify-center flex-col lg:flex-row">
             <div class="  bg-white rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">01</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">ДЕМОНСТРАЦИЯ ВОЗМОЖНОСТЕЙ AMOCRM</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('DEMONSTRATION OF AMOCRM FEATURES')}} </h1>
 
             </div>
             <div class="  p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">02</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">СБОР И ОПИСАНИЕ БИЗНЕС-ПРОЦЕССОВ</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('COLLECTING AND DESCRIBING BUSINESS PROCESSES')}} </h1>
 
             </div>
             <div class="  p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">03</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">БАЗОВОЕ ВНЕДРЕНИЕ AMOCRM</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('BASIC IMPLEMENTATION OF AMOCRM')}} </h1>
 
             </div>
 
             <div class=" p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">04</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">РЕАЛИЗАЦИЯ НЕОБХОДИМОГО
-                    ФУНКЦИОНАЛА</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('IMPLEMENTATION OF THE NECESSARY FUNCTIONALITY')}} </h1>
 
             </div>
 
@@ -482,23 +463,22 @@
             <div class="  p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-sm py-3 rounded-full">05</p>
 
-                <h1 class="text-gray-700 font-bold text-sm py-5 hover:text-white">ПЕРСОНАЛЬНАЯ АВТОМАТИЗАЦИЯ</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5 hover:text-white">{{t('PERSONAL AUTOMATION')}} </h1>
 
             </div>
             <div class="  p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">06</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">ОБУЧЕНИЕ РУКОВОДИТЕЛЯ И
-                    ПЕРСОНАЛА</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('TRAINING OF THE MANAGER AND PERSONNEL')}} </h1>
             </div>
             <div class="  p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">07</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">ВНЕДРЕНИЕ БИЗНЕС-АНАЛИТИКИ</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('IMPLEMENTING BUSINESS INTELLIGENCE')}} </h1>
 
             </div>
 
             <div class="  p-3 bg-white  rounded-lg shadow-lg m-5 lg:flex-1 p-5 hover:bg-blue-700" data-aos="flip-left">
                 <p class="text-2xl font-bold text-white bg-blue-700 inline px-4 py-3 rounded-full">08</p>
-                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА</h1>
+                <h1 class="text-gray-700 font-bold text-sm py-5  hover:text-white">{{t('TECHNICAL SUPPORT')}} </h1>
 
             </div>
         </div>
@@ -518,7 +498,7 @@
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
-                <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
+                <h1 class="text-3xl font-bold text-blue-500 z-10">{{t('Why us?')}} </h1>
                 <p
 
                   class="item-center text-9xl font-bold absolute left-48 text-blue-500 z-0"
@@ -527,8 +507,7 @@
                 </p>
               </div>
               <p class="text-blue-500 text-md p-10 pt-10 text-center">
-                Потому что у нас Вы можете создать по-настоящему классный сайт,
-                со всеми нужными Вам функциями
+             {{t('Because here you can create a really cool website, with all the features you need')}}
               </p>
             </div>
             <div
@@ -538,7 +517,7 @@
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="lg:text-3xl font-bold text-white z-10">
-                    Основные преимущества amoCRM
+                 {{t('The main advantages of amoCRM')}}
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -551,8 +530,7 @@
           </div>
               </div>
               <p class="text-white text-base text-md p-5 pt-10 text-center">
-                Потому что у нас Вы можете создать по-настоящему классный сайт,
-                со всеми нужными Вам функциями
+            {{t('Because here you can create a really cool website, with all the features you need')}}
               </p>
             </div>
           </div>
@@ -565,8 +543,8 @@
                 </div>
 
               <p class="text-base lg:text-xl text-gray-600">
-                Более 500 <br />
-                выполненых проектов
+               {{t('More than 500')}}  <br />
+               {{t('completed projects')}}
               </p>
               </div>
 
@@ -576,8 +554,8 @@
                 </div>
 
               <p class="text-base lg:text-xl text-gray-600">
-                Более 100 <br />
-                постоянных клиентов
+            {{t(' More than 100')}}  <br />
+             {{t('regular customers')}}
               </p>
               </div>
             </div>
@@ -589,9 +567,9 @@
             </div>
 
               <p class="text-base lg:text-xl text-gray-600">
-                Команда <br />
-                сертифицированных <br />
-                специалистов
+               {{t('The ')}} <br />{{t('command')}}
+               {{t('certified')}}  <br />
+               {{t('specialists')}}
               </p>
               </div>
 
@@ -601,9 +579,9 @@
                 </div>
 
               <p class="text-base lg:text-xl text-gray-600">
-                Индивидуальный <br />
-                подход к каждому <br />
-                клиенту
+          {{t('Individual')}}  <br />
+          {{t('approach to each')}}  <br />
+          {{t('to the client')}}
               </p>
               </div>
             </div>
@@ -618,15 +596,14 @@
         </div>
         <div class="pt-8">
             <div class="flex justify-center items-center my-10 pt-10 " data-aos="fade-left">
-                <h1 class="text-4xl font-bold text-blue-700 z-10">Сертификаты</h1>
+                <h1 class="text-4xl font-bold text-blue-700 z-10">{{t('Certificates')}} </h1>
                 <p   class="text-9xl item-center font-bold absolute left-48 text-gray-300 z-0 opacity-50">
                     7
                 </p>
             </div>
             <div>
-                <p class="text-center text-gray-600 text-2xl sm:px-20" data-aos="fade-up">Наша компания — официальный сертифицированный
-                    партнер
-                    <br> amoCRM</p>
+                <p class="text-center text-gray-600 text-2xl sm:px-20" data-aos="fade-up">{{t('Our company is an official certified partner')}}
+                                                                                          <br> {{t('amoCRM')}} </p>
             </div>
 
         </div>
@@ -636,7 +613,7 @@
 
 
     <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
-        <h1 class="text-4xl font-bold text-blue-700 z-10">Стоимость</h1>
+        <h1 class="text-4xl font-bold text-blue-700 z-10">{{t('Cost')}} </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -655,11 +632,11 @@
                 <img src="{{asset('images/open_engine/amo_crm/27.png')}}" alt="">
             </div>
             <div class="text-2xl text-gray-700 font-bold px-10 leading-8 mx-10">
-                <p>Разработать <br> индивидуальную <br> стратегию?</p>
+                <p>{{t('Develop an individual strategy ?')}} </p>
             </div>
             <a href=""
                class=" mx-10 bg-blue-700 rounded-full text-white px-10 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+               order
             </a>
         </div>
     </div>
@@ -669,7 +646,7 @@
     <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
          data-aos="fade-up-right">
         <div class="flex justify-center items-center my-20 pt-10">
-            <h1 class="text-4xl font-bold text-white z-10">Автоматизация бизнеса</h1>
+            <h1 class="text-4xl font-bold text-white z-10">{{t('Business automation')}} </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -691,22 +668,10 @@
 
             <div class="z-0">
                 <p>
-                    Желаете внедрить <b>CRM системы</b> и автоматизировать свой бизнес? Доверьте настройку CRM системы
-                    <b>партнерам amoCRM в Ташкенте,</b> агентству «Open Engine». Это поможет отправлять сообщения, письма и
-                    рекламу клиентам вашей компании. Также у вас появиться возможность отслеживания эффективности и
-                    <b>интегрировать IP телефонию, астерикс под ключ</b> . Мы поможем вам повысить повторные продажи.
-                    <br><br>
+                  {{t('Do you want to implement  CRM systems and automate your business? Trust the CRM system setup amoCRM partners in Tashkent,   Open Engine Agency. This will help you send messages, emails, and advertising to your companys customers. You will also be able to track performance and integrate IP telephony, Asterix turnkey. We will help you increase repeat sales.')}}
+                  <br><br>
 
-                    Мы автоматизируем ваш бизнес! Предоставляем программу по автоматизации торговли, магазина и
-                    документооборота. Работу выполняем оперативно, конфиденциально и по приемлемым ценам. Мы ознакомим
-                    вас с системой и научим работать с ним. Также обеспечим техническую поддержку. Автоматизации
-                    торговли, Автоматизация магазина в ташкенте, Автоматизация работы склада, Автоматизация складского
-                    учета, Складской учет, Управление торговлей, Учет материалов на складе, Программы для бизнеса,
-                    Программа складского учета, Программа для учета товара в магазине, Программа для учета продаж,
-                    Программа для печати этикеток, Программа для торговли, Программа для магазина, битрикс24, Битрикс24
-                    в ташкенте, Партнеры битрикс24 в ташкенте, Официальный партнер bitrix24 узбекистан, Внедрение
-                    Битрикс в Ташкенте
-
+                 {{t(' We automate your business! We provide a program for the automation of trade, store and document flow. We perform the work promptly, confidentially and at reasonable prices. We will introduce you to we will teach you how to work with the system. We will also provide technical support. Automation Systems')}}
                 </p>
             </div>
 
@@ -718,8 +683,8 @@
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                        Другие <br/>
-                        услуги
+                      {{t('Other')}} <br/>
+                     {{t(' services')}}
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
                         <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
