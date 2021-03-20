@@ -107,7 +107,61 @@
                 <p class="mb-4">{{ t('Introduction') }}</p>
                 <hr class="w-10 h-0.5 border-none bg-yellow-500">
             </h1>
-            
+            <ul class="mt-5 ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
+
+                <li class="leading-8 text-gray-800">
+                    {{ t('Foodomaa™ is built with a mobile-first approach keeping user experience, conversion optimization, and high performance intact. It is built with React which is adequately served by a Laravel API.') }}
+                </li>
+                <li class="leading-8 text-gray-800">
+                    {{ t("It is the first Store web application on CodeCanyon built with React and Redux.") }}
+                </li>
+                <li class="leading-8 text-gray-800">
+                    {{ t('The most amazing feature of Foodomaa™ is, it can be installed on any device running Android or iOs. It can also be installed on a Windows PC running Chrome.') }}
+                </li>
+                <li class="leading-8 text-gray-800">
+                    {{ t('Foodomaa™ includes high-end features like Lazy Loading, Progressive Image Loading, Content Placeholder Loading, Bulk CSV Upload, Advance Settings Management, Advance Coupon System.') }}
+                </li>
+                <li class="leading-8 text-gray-800">
+                    <a class="hover:text-blue-50"
+                        href="https://stackcanyon.com/docs/foodomaa">{{ t('Kindly have a look at our online documentation for more:') }}</a>
+                </li>
+            </ul>
+            <div class="grid lg:grid-cols-2 lg:gap-3 grid-cols-1 gap-5 mb-9 mt-4">
+                <div class="lg:flex block">
+                    <div clas="block">
+                        <h1 class="text-2xl">Delivery Location Section</h1>
+                        <ul class="mt-5 ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Autofill location with Google APIs Servet, C.') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Manual fill addresses (Buliding, Flat)') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Add tags for address (Work, Home)') }}
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="{{asset('images/products/RestoMa/full.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
+                </div>
+                <div class="lg:flex block">
+                    <div clas="block">
+                        <h1 class="text-2xl">Stores Listing</h1>
+                        <ul class="mt-5 ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Promotional Sliders') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Delivery and Self-Pickup') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Listing stores based on users area') }}
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="{{asset('images/products/RestoMa/full.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
+                </div>
+            </div>
         </div>
     </div>
 </div>
