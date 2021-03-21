@@ -308,7 +308,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 container mx-auto max-w-7xl">
             <div class="flex justify-center items-center pt-8" data-aos="fade-right">
                 <div>
-                    <p class="text-blue-700 font-bold text-2xl pb-5">Gift time</p>
+                    <p class="text-blue-700 font-bold text-2xl pb-5">{{t('Gift time')}}</p>
                     <p class="text-gray-700 pr-5 mb-10"> {{t('Order amoCRM and we will give you a certificate for 500,000 soums. Certificate you can use it when ordering our companys services')}} </p>
                     <a href=""
                        class="bg-blue-700 rounded-full text-white px-3 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -419,7 +419,7 @@
 
 </div>
     <div class="flex justify-center items-center my-20 relative ">
-        <h1 class="text-4xl font-bold text-white z-10 text-blue-700 text-center leading-8">{{t('Implementation stages<br> CRM systems')}} </h1>
+        <h1 class="text-4xl font-bold text-white z-10 text-blue-700 text-center leading-8">{{t('Implementation stages')}}<br> {{t('CRM systems')}} </h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"

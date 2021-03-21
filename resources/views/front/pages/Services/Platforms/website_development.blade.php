@@ -398,7 +398,7 @@
                         <p class="text-gray-500">{{t('Catalog')}}</p>
 
                         <p class="text-blue-700 mt-3.5"><b>{{t('Direction:')}}</b></p>
-                        <p class="text-gray-500">{{t('Auto rims and tires                     <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
+                        <p class="text-gray-500">{{t('Auto rims and tires          ')}}           <p class="text-blue-700 mt-3.5"><b>{{t('Technology:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500">{{t('1C Bitrix')}}</p>
 
                         <a href=""
@@ -1274,11 +1274,7 @@
                 class="pt-20 text-gray-700 pb-20 text-lg lg:mx-24 mx-16">
             <div class="z-0">
                 <p>
-                     {{t('Do you want to order a website or buy a website in Tashkent ? Call us! Our web studio applies its own approach to creating websites, developing online stores .
-    We employ experienced website developers and programmers in Uzbekistan . We devote enough time to each project and
-    do not work on a stream. We are always ready to offer original solutions for a whole range of services for website
-    development in Uzbekistan and website design. We do everything to make your site beautifully and efficiently fulfill
-    the companys tasks. We also provide technical support for sites in Uzbekistan.')}}
+                     {{t('Do you want to order a website or buy a website in Tashkent ? Call us! Our web studio applies its own approach to creating websites, developing online stores . We employ experienced website developers and programmers in Uzbekistan . We devote enough time to each project and    do not work on a stream. We are always ready to offer original solutions for a whole range of services for website    development in Uzbekistan and website design. We do everything to make your site beautifully and efficiently fulfill the companys tasks. We also provide technical support for sites in Uzbekistan.')}}
 
 
         </p>

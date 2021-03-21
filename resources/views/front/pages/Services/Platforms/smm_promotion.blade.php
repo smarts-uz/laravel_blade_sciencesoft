@@ -17,14 +17,14 @@
               <div>
                 <div
                 class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
-                SMM <br> продвижение в <br> Ташкенте
+                {{t('SMM')}} <br> {{t('promotion in')}} <br> {{t('Tashkent')}}
               </div>
               <div class="lg:px-20">
                 <a
                   href="#"
                   class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                 >
-                  Получить консультацию
+                 {{t('Get a consultation')}}
                 </a>
               </div>
               </div>
@@ -46,7 +46,7 @@
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/smm_promotion/images/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Креатив
+             Creative
 
 
             </p>
@@ -54,31 +54,31 @@
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/smm_promotion/images/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Дизайн
+             {{t('Design')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/smm_promotion/images/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Таргетинг
+             {{t('Targeting')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
             <img src="{{asset('images/open_engine/smm_promotion/images/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Маркетинг
+             {{t('Marketing')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
             <img src="{{asset('images/open_engine/smm_promotion/images/7.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-             Лидогенерация
+            {{t('Lead generation')}}
             </p>
           </div>
         </div>
 
 <div class="flex justify-center items-center my-20 relative">
-    <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center">Для чего Вам нужен SMM?</h1>
+    <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center">{{t('What do you need SMM for?')}}</h1>
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -91,9 +91,7 @@
 </div>
 
 <div>
-    <h1 class="justify-center flex text-3xl text-gray-600 leading-tight mb-10 text-center">С помощью смм продвижения
-        <br>
-        можно решить множество задач</h1>
+    <h1 class="justify-center flex text-3xl text-gray-600 leading-tight mb-10 text-center">{{t('Using SMM promotion <br> you can solve many problems')}}</h1>
 </div>
 
 <div class=" flex justify-center">
@@ -101,41 +99,41 @@
         <div class="mt-5">
             <img src="{{asset('images/open_engine/smm_promotion/39.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
-            <h1 class="text-gray-600 text-center"><b>Привлечение посетителей <br> на сайт компании</b></h1>
+            <h1 class="text-gray-600 text-center"><b>{{t('Attracting visitors <br> to the companys website')}}</b></h1>
         </div>
         <div class="mt-5">
             <img src="{{asset('images/open_engine/smm_promotion/40.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
-            <h1 class="text-gray-600 text-center"><b>Повышение узнаваемости <br> вашего брэнда</b></h1>
+            <h1 class="text-gray-600 text-center"><b>{{t('Increase your <br> brand awareness')}} </b></h1>
         </div>
         <div class="mt-5">
             <img src="{{asset('images/open_engine/smm_promotion/41.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
-            <h1 class="text-gray-600 text-center"><b>Поддержание <br>
-                репутации</b></h1>
+            <h1 class="text-gray-600 text-center"><b>{{t('Maintenance ')}}<br>
+                {{t('reputations')}}</b></h1>
         </div>
 
         <div>
             <img src="{{asset('images/open_engine/smm_promotion/42.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
-            <h1 class="text-gray-600 text-center"><b>Привлечение посетителей <br> на сайт компании</b></h1>
+            <h1 class="text-gray-600 text-center"><b>{{t('Attracting visitors')}} <br> {{t('to the companys website')}}</b></h1>
         </div>
         <div>
             <img src="{{asset('images/open_engine/smm_promotion/43.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
-            <h1 class="text-gray-600 text-center"><b>Повышение узнаваемости <br> вашего брэнда</b></h1>
+            <h1 class="text-gray-600 text-center"><b>{{t('Increase awareness')}} <br> {{t('your brand')}}</b></h1>
         </div>
         <div>
             <img src="{{asset('images/open_engine/smm_promotion/44.svg')}}" alt=""
                  class="pr-5 pt-5  -pl-5">
-            <h1 class="text-gray-600 text-center"><b>Поддержание <br>
-                репутации</b></h1>
+            <h1 class="text-gray-600 text-center"><b>{{t('Maintenance')}} <br>
+               {{t('reputations')}}</b></h1>
         </div>
     </div>
 </div>
 
 <div class="flex justify-center items-center my-20 relative">
-    <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center">Этап работы SMM продвижение</h1>
+    <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center">{{t('Stage of work SMM promotion')}}</h1>
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -159,12 +157,12 @@
               <h1
                 class="sm:text-3xl text-2xl font-bold text-gray-700 py-5 leading-none z-10"
               >
-Изучаем Ваш бизнес
+{{t('We study your business')}}
               </h1>
               <ul class="list-disc pl-5 text-gray-700 text-base">
-                <li>Изучаем Ваш бизнес</li>
-                <li>Анализируем рынок</li>
-                <li>Проводим анализ конкурентов</li>
+               <li>{{t('Learning Your Business')}}</li>
+               <li>{{t('Analyzing the market')}}</li>
+               <li>{{t('Conducting an analysis of competitors')}}</li>
               </ul>
             </div>
             <div class="m-auto pt-8">
@@ -185,12 +183,12 @@
               <h1
                 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
               >
-                Определяем цели смм продвижение
+                {{t('Defining targets SMM promotion')}}
               </h1>
               <ul class="pl-5 list-disc text-gray-700 text-base">
-                <li>Определяем цель рекламы</li>
-                <li>Определяемся со стилем дизайна публикаций</li>
-                <li>Определяем целевую аудиторию</li>
+               <li>{{t('Defining the purpose of the ad')}}</li>
+               <li>{{t('We decide on the design style of publications')}}</li>
+               <li>{{t('Defining the target audience')}}</li>
               </ul>
             </div>
           </div>
@@ -205,12 +203,12 @@
               <h1
                 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
               >
-                Создаем стратегию
+                {{t('Creating a strategy')}}
               </h1>
               <ul class="pl-5 list-disc text-gray-700 text-base">
-                <li>Продумываем поэтоамный план продвижений</li>
-                <li>Разделяем контент на продающие, вовлекающие и развлекающие тематики</li>
-                <li>Пишим цепляющий текст и создаём яркие картинки</li>
+                <li>{{t('Thinking through a step-by-step plan of promotions')}}</li>
+               <li>{{t('We divide the content into selling, engaging and entertaining topics')}}</li>
+                <li>{{t('We write catchy text and create bright pictures')}}</li>
               </ul>
             </div>
             <div class="m-auto pt-8">
@@ -231,13 +229,13 @@
               <h1
                 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
               >
-               Запускаем рекламную компанию
+               {{t('Launching an advertising campaign')}}
               </h1>
               <ul class="pl-5 list-disc text-gray-700 text-base">
-                <li>Запускаем рекламу в феусбуке и инстаграм</li>
-                <li>Публикуем контент</li>
-                <li>Настраиваем таргетинг</li>
-                <li>Следим за реакциями, отвечаем на комменты и обрабатываем негатив</li>
+                <li>{{t('Launching ads on Facebook and Instagram')}}</li>
+               <li>{{t('Publishing content')}}</li>
+               <li>{{t('Setting up targeting')}}</li>
+               <li>{{t('We monitor the reactions, respond to comments and process the negative')}}</li>
               </ul>
             </div>
           </div>
@@ -252,13 +250,13 @@
               <h1
                 class="text-2xl sm:text-3xl font-bold text-gray-700 py-5 leading-none"
               >
-Запускаем рекламную компанию
+{{t('Launching an advertising campaign')}}
               </h1>
               <ul class="pl-5 list-disc text-gray-700 text-base">
-                <li>Запускаем рекламу в феусбуке и инстаграм</li>
-                <li>Публикуем контент</li>
-                <li>Настраиваем таргетинг</li>
-                <li>Следим за реакциями, отвечаем на комменты и обрабатываем негатив</li>
+                <li>{{t('Launching ads on Facebook and Instagram')}}</li>
+                <li>{{t('Publishing content')}}</li>
+                <li>{{t('Setting up targeting')}}</li>
+                <li>{{t('We monitor the reactions, respond to comments and process the negative')}}</li>
               </ul>
             </div>
             <div class="m-auto pt-8">
@@ -276,26 +274,26 @@
               <h1
                 class=" text-3xl font-bold text-gray-700 py-5 leading-none -ml-5"
               >
-                Наполнение и запуск
+                {{t('Filling and launching')}}
               </h1>
               <ul class="list-disc text-gray-700 text-base">
-                <li>Наполняем контентом</li>
-                <li>Проводим конечную проверку</li>
-                <li>Запускаем сайт</li>
-                <li>Техническая поддержка сайта</li>
+                <li>{{t('Filling with content')}}</li>
+                <li>{{t('Performing the final check')}}</li>
+                <li>{{t('Launching the site')}}</li>
+                <li>{{t('Technical support of the site')}}</li>
               </ul>
             </div>
           </div>
         </div>
 
-<div class="bg-gray-400 h-12 ">
+<div class="bg-gray-300 h-12 ">
 
 </div>
 
 @include('front.Components.platformForm')
 
 <div class="flex justify-center items-center my-20 relative ">
-    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Кейсы</h1>
+    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Cases')}}</h1>
      <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -315,39 +313,39 @@
                         <img src="{{asset('images/open_engine/smm_promotion/30.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-blue-800"><b>{{t('Client:')}}</b></p>
                         <p class="text-gray-500 mt-1"> Formula plus</p>
 
-                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Page maintenance period from:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 05.01.2018-05.02.2019</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Subscribers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 6000</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Instagram Followers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 20 000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Monthly coverage :')}}</b></p>
                         <p class="text-gray-500 mt-1"> 800 000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in traffic:')}}</b></p>
                         <p class=" text-gray-500 mt-1"> 450%</p>
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение продаж:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in sales:')}}</b></p>
                         <p class=" text-gray-500 mt-1">300%</p>
 
-                        <p class="text-blue-800 mt-1"><b>Продано более:</b></p>
-                        <p class="border-b pb-5 mb-10 text-gray-500 mt-1">2500 комплектов</p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Sold more than:')}}</b></p>
+                        <p class="border-b pb-5 mb-10 text-gray-500 mt-1">2500 {{t('sets')}}</p>
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                          {{t(' order')}}
                         </a>
                     </div>
 
 
                 </div>
-            </div>
+           </div>
 
             <div class="swiper-slide">
                 <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
@@ -355,27 +353,27 @@
                         <img src="{{asset('images/open_engine/smm_promotion/31.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-blue-800"><b>{{t('Client:')}}</b></p>
                         <p class="text-gray-500 mt-1">Divan by Demir</p>
 
-                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Page maintenance period from:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 01.06.2019-30.09.2019</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Subscribers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 7000</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Instagram Followers:')}}</b></p>
                         <p class="text-gray-500 mt-1">13000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Monthly coverage:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 350 000 </p>
 
 
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in traffic:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 500%</p>
     <div class="  mb-10">
-       <p class="text-blue-800 mt-1 "><b>Подробно:</b></p>
+       <p class="text-blue-800 mt-1 "><b> {{t('In detail:')}}</b></p>
                         <p><a href="https://www.facebook.com/divan.by.demir/" class="text-blue-800 border-b pb-5 ">https://www.facebook.com/divan.by.demir/</a>
                         </p>
     </div>
@@ -383,7 +381,7 @@
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                           {{t(' order')}}
                         </a>
                     </div>
 
@@ -397,24 +395,24 @@
                         <img src="{{asset('images/open_engine/smm_promotion/32.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-800"><b>Клиент:</b></p>
-                        <p class="text-gray-500 mt-1"> Фабрика мебели Keng Makon </p>
+                        <p class="text-blue-800"><b>{{t('Client:')}}</b></p>
+                        <p class="text-gray-500 mt-1"> {{t('Furniture Factory')}} Keng Makon </p>
 
-                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
-                        <p class="text-gray-500 mt-1"> 2015 по настоящее время</p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Page maintenance period from:')}}</b></p>
+                        <p class="text-gray-500 mt-1"> 2015 Until now</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Subscribers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 21 100</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Instagram Followers:')}}</b></p>
                         <p class="text-gray-500 mt-1">5825 </p>
 
 
 
-                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Monthly coverage :')}}</b></p>
                         <p class="text-gray-500 mt-1">820 000 </p>
     <div class="  mb-10">
-       <p class="text-blue-800 mt-1 "><b>Подробно:</b></p>
+       <p class="text-blue-800 mt-1 "><b>{{t('In detail:')}}</b></p>
                         <p><a href="https://www.facebook.com/kengmakon.uz" class="text-blue-800 border-b pb-5 ">https://www.facebook.com/kengmakon.uz</a>
                         </p>
     </div>
@@ -422,7 +420,7 @@
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                           {{t(' order')}}
                         </a>
                     </div>
 
@@ -436,28 +434,28 @@
                         <img src="{{asset('images/open_engine/smm_promotion/33.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-blue-800"><b>{{t('Client:')}}</b></p>
                         <p class="text-gray-500 mt-1">Pinar</p>
 
-                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Page maintenance period from:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 10.02.2019-10.04.2019</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Subscribers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 1500</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Instagram Followers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 2000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Monthly coverage :')}}</b></p>
                         <p class="text-gray-500 mt-1">500 000</p>
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in traffic:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500 mt-1"> 420%</p>
 
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            {{t('order')}}
                         </a>
                     </div>
 
@@ -471,28 +469,28 @@
                         <img src="{{asset('images/open_engine/smm_promotion/34.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-blue-800"><b>{{t('Client:')}}</b></p>
                         <p class="text-gray-500 mt-1">Mashhura oquv markazi </p>
 
-                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Page maintenance period from:')}}</b></p>
                         <p class="text-gray-500 mt-1">01.06.2019-01.08.2019</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Subscribers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 3000</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Instagram Followers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 4000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Monthly coverage :')}}</b></p>
                         <p class="text-gray-500 mt-1"> 250 000</p>
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in traffic:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500 mt-1"> 170%</p>
 
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                           {{t(' order')}}
                         </a>
                     </div>
 
@@ -506,33 +504,33 @@
                         <img src="{{asset('images/open_engine/smm_promotion/35.png')}}" alt="">
                     </div>
                     <div class="text-2xl " data-aos="fade-up">
-                        <p class="text-blue-800"><b>Клиент:</b></p>
+                        <p class="text-blue-800"><b>{{t('Client:')}}</b></p>
                         <p class="text-gray-500 mt-1">Smile Design </p>
 
-                        <p class="text-blue-800 mt-1"><b>Период ведения страницы с:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Page maintenance period from:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 10.01.2019-05.08.2019</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Subscribers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 3000</p>
 
-                        <p class="text-blue-800 mt-1"><b>Подписчики в Instagram:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Instagram Followers:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 6000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Охват в месяц :</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Monthly coverage :')}}</b></p>
                         <p class="text-gray-500 mt-1">150 000 </p>
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение посещаемости:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in traffic:')}}</b></p>
                         <p class="text-gray-500 mt-1"> 250%</p>
 
-                        <p class="text-blue-800 mt-1"><b>Увеличение продаж:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Increase in sales:')}}</b></p>
                         <p class="text-gray-500 mt-1">200%</p>
 
-                        <p class="text-blue-800 mt-1"><b>Продано более:</b></p>
+                        <p class="text-blue-800 mt-1"><b>{{t('Sold more than:')}}</b></p>
                         <p class="border-b pb-5 mb-10 text-gray-500 mt-1">1500</p>
 
                         <a href=""
                            class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                            заказать
+                            order
                         </a>
                     </div>
 
@@ -546,7 +544,7 @@
 
 
 <div class="flex justify-center items-center my-20 relative ">
-    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Используем в работе</h1>
+    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('We use it in our work')}}</h1>
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -622,7 +620,7 @@
 
 
 <div class="flex justify-center items-center my-20 relative ">
-    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Почему мы?</h1>
+    <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Why us?')}}</h1>
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -642,12 +640,12 @@
             <div>
                 <div class="mb-20">
                     <img src="{{asset('images/open_engine/smm_promotion/images/27.svg')}}" alt="">
-                    <p class="text-gray-600 text-lg ml-10">Сертифицированные <br> специалисты</p>
+                    <p class="text-gray-600 text-lg ml-10">{{t('Certified <br> specialists')}}</p>
                 </div>
 
                 <div class="mt-20">
                     <img src="{{asset('images/open_engine/smm_promotion/images/28.svg')}}" alt="">
-                    <p class="text-gray-600 text-lg ml-10">Более 50-ти кейсов <br> в портфолио</p>
+                    <p class="text-gray-600 text-lg ml-10">{{t('More than 50 cases <br> in the portfolio')}}</p>
                 </div>
             </div>
         </div>
@@ -663,12 +661,12 @@
             <div>
                 <div class="mb-20">
                     <img src="{{asset('images/open_engine/smm_promotion/images/29.svg')}}" alt="">
-                    <p class="text-gray-600 text-lg ml-10">20 брендов сейчас <br> в работе</p>
+                    <p class="text-gray-600 text-lg ml-10">20 {{t('brands are now <br> in the works')}}</p>
                 </div>
 
                 <div class="mt-20">
                     <img src="{{asset('images/open_engine/smm_promotion/images/30.svg')}}" alt="">
-                    <p class="text-gray-600 text-lg ml-10">7 лет опыта <br> работы</p>
+                    <p class="text-gray-600 text-lg ml-10">7 {{t('years of work <br> experience')}} </p>
                 </div>
             </div>
 
@@ -679,7 +677,7 @@
 </div>
 
 <div class="flex justify-center items-center my-20 relative">
-    <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center">Цены и тарифы</h1>
+    <h1 data-aos="fade-right" class="text-4xl font-bold text-blue-700 z-10 text-center">{{t('Prices and tariffs')}}</h1>
     <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -705,17 +703,17 @@
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
               <h1 class="border-b py-5 text-2xl text-gray-600">
-                <span class=" text-gray-600"><b>850 USD</b></span> в месяц
+                <span class=" text-gray-600"><b>850 USD</b></span> {{t('per month')}}
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Публикация 8 постов</li>
-                <li> Разработка стратегии и контент-плана</li>
-                <li>Модерация комментариев, <br> сообщение</li>
-                <li> Видение страницы в одном языке</li>
-                <li>Оформление страниц</li>
-                <li>Настройка и ведение рекламы</li>
-                <li> Фотосессия</li>
+             </li>{{t('Publishing 8 posts')}}</li>
+             <li> {{t('Developing a strategy and content plan')}}</li>
+             <li>{{t('Moderation of comments, <br> message')}}</li>
+             <li>{{t(' Maintaining a page in a single language')}}</li>
+             <li>{{t('Page layout')}}</li>
+             <li>{{t('Setting up and maintaining advertising')}}</li>
+             </li>{{t(' Photo shoot')}}</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -723,7 +721,7 @@
 
                 class="mb-28 bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
-                Заказать
+               {{t(' order')}}
               </a>
             </div>
           </div>
@@ -733,24 +731,24 @@
           <div
             class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0"
           >
-            <p class="text-3xl text-white text-center"><b>Бизнес</b></p>
+            <p class="text-3xl text-white text-center"><b>{{t('Business')}}</b></p>
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
               <h1  class=" text-2xl border-b py-5 text-gray-600">
-                <span class=" text-gray-600"> <b>1100 USD</b></span> в месяц
+                <span class=" text-gray-600"> <b>1100 USD</b></span>{{t(' per month')}}
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Публикация 10 постов</li>
-                <li> Разработка стратегии и контент-плана</li>
-                <li>Модерация комментариев, сообщение</li>
-                <li>Видение страницы в двух языках</li>
-                <li>Оформление страниц</li>
-                <li> Настройка и ведение рекламы</li>
-                <li> Фото сессия + 360 °</li>
-                <li> Настройка лидогенерации</li>
-                <li>Подключение CRM систем</li>
+            </li>Publishing 10 posts</li>
+            <li> {{t('Developing a strategy and content plan')}}</li>
+            <li>{{t('Moderation of comments, post')}}</li>
+            <li>{{t('Maintaining a page in two languages')}}</li>
+            <li>{{t('Page layout')}}</li>
+            <li> {{t('Setting up and running ads')}}</li>
+            </li> {{t('Photo session')}} + 360 °</li>
+            <li> {{t('Setting up lead generation')}}</li>
+            <li>{{t('Connecting CRM systems')}}</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -758,7 +756,7 @@
 
                 class="bg-blue-700 rounded-full mb-20 text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
-                Заказать
+                {{t('order')}}
               </a>
             </div>
           </div>
@@ -773,28 +771,28 @@
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
               <h1 class="text-2xl border-b py-5 text-gray-600">
-                <span class=" text-gray-600"><b> 1500 USD</b></span> в месяц
+                <span class=" text-gray-600"><b> 1500 USD</b></span> {{t('per month')}}
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-              <li>Публикация 12 постов</li>
-                <li>Разработка стратегии и контент-плана</li>
-                <li>Модерация комментариев, сообщение</li>
-                <li>Видение страницы в трех языках</li>
-                <li>Оформление страниц</li>
-                <li>Настройка и ведение рекламы</li>
-                <li>Фото сессия + 360 °</li>
-                <li>Видео публикации
-                <li>Настройка лидогенерации</li>
-                <li>Подключение CRM систем</li>
-                <li>Настройка и ведение pixel facebook</li>
+              </li>{{t('Publishing 12 posts')}}</li>
+              <li>{{t('Development of a strategy and content plan')}}</li>
+              <li>{{t('Moderation of comments, post')}}</li>
+              <li>{{t('Maintaining a page in three languages')}}</li>
+              <li>{{t('Page layout')}}</li>
+              <li>{{t('Setting up and maintaining advertising')}}</li>
+              <li>{{t('Photo session')}} + 360 °</li>
+              <li>{{t('Video posts')}}
+              <li>{{t('Setting up Lead generation')}}</li>
+              <li>{{t('Connecting CRM systems')}}</li>
+              <li>{{t('Setting up and maintaining pixel facebook')}}</li>
             </ul>
             <div class="justify-center flex">
               <a
                 href=""
                 class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6"
               >
-                Заказать
+                {{t('order')}}
               </a>
             </div>
           </div>
@@ -814,7 +812,7 @@
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
-                <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
+                <h1 class="text-3xl font-bold text-blue-500 z-10">{{t('Why us?')}}</h1>
                 <p
 
                   class="item-center font-bold text-9xl absolute left-48 text-blue-500 z-0"
@@ -823,8 +821,8 @@
                 </p>
               </div>
               <p class="text-blue-500 text-md p-10 pt-10 text-center">
-                Потому что у нас Вы можете создать по-настоящему классный сайт,
-                со всеми нужными Вам функциями
+             {{t('Because here you can create a really cool website,')}}
+             {{t('with all the features you need')}}
               </p>
             </div>
             <div
@@ -834,7 +832,7 @@
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="lg:text-3xl font-bold text-white z-10">
-                  Почему мы?
+                 {{t('Why us?')}}
                 </h1>
                 <p
 
@@ -844,8 +842,8 @@
                 </p>
               </div>
               <p class="text-white text-base text-md p-5 pt-10 text-center">
-                Потому что у нас Вы можете создать по-настоящему классный сайт,
-                со всеми нужными Вам функциями
+              {{t('Because here you can create a really cool website,')}}
+              {{t('with all the features you need')}}
               </p>
             </div>
           </div>
@@ -899,7 +897,7 @@
 <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
      data-aos="fade-up-right">
     <div class="flex justify-center items-center my-20 pt-10">
-        <h1 class="text-4xl font-bold text-white z-10">СММ продвижение</h1>
+        <h1 class="text-4xl font-bold text-white z-10">{{t('SMM promotion')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -918,22 +916,22 @@
 
         <div style="margin-left: 20%; margin-right: 20%;" class="z-0 text-gray-600 text-lg">
             <p>
-                <b>Маркетинговое агентство в Ташкенте</b> «Open Engine» предлагает широкий спектр услуг по <b>продвижению бизнеса
-                в социальных сетях.</b> Мы имеем большой опыт в <b>SMM в Ташкенте, вырабатываем стратегию продвижения</b> и
-                анализируем аудиторию компании . Предлагаем следующие услуги: <b>реклама в Инстаграме , реклама в Фейсбуке,
-                Реклама в Тик Ток, Продвижение Tik Tok, таргетированная реклама, создание контент-плана, разработка
-                дизайна ваших страниц, адаптированного под каждую социальную сеть</b> . Обращайтесь в наше <b>SMM агентство в
-                Ташкенте</b> и получите самое эффективное <b>SMM продвижение</b> в социальных сетях.
+              <b>{{t('Marketing agency in Tashkent')}} </b> "Open Engine" {{t('offers a wide range of services for')}} <b>{{t('business promotion')}}
+              {{t('in social networks.')}}</b> {{t('We have extensive experience in')}} <b>{{t('SMM in Tashkent, develop a promotion strategy')}}</b> {{t('and')}}
+              {{t('analyze the companys audience . We offer the following services: <b>advertising on Instagram, advertising on Facebook,')}}
+              {{t('Tik Tok advertising, Tik Tok promotion, targeted advertising, content plan creation, development')}}
+              {{t('the design of your pages, adapted to each social network')}}</b> . {{t('Contact our')}} <b>{{t('SMM agency in')}}
+              {{t('Tashkent')}}</b> {{t('and get the most effective')}} <b>{{t('SMM promotion')}}</b> {{t('in social networks.')}}
                 <br>
                 <br>
-                Сделаем ваш бренд узнаваемым в социальных сетях! Продвижение в социальных сетях позволяет достичь Ваших
-                бизнес-целей, которые сложно решить с помощью стандартных рекламных кампаний. Правильное SMM-продвижение
-                (онлайн реклама, ведение страниц в Инстаграм и в Фейсбуке, таргетированная реклама ) позволяет выстроить
-                коммуникацию с пользователем, увеличить лояльность к бренду и открыть для своего бизнеса новый
-                эффективный канал для роста продаж. У нас работают лучшие SMM специалисты, которые знают толк в интернет
-                рекламе. Заказать SMM продвижение вы можете прямо на нашем сайте. Мы ответим на все интересующие Вас
-                вопросы. У нас самые приятные цены на SMM в Ташкенте. Рекламное агентство в Ташкенте. Онлайн реклама,
-                реклама интернете, заказать реклама онлайн.
+               {{t('Lets make your brand recognizable in social networks! Promotion in social networks allows you to achieve your goals')}}
+               {{t('business goals that are difficult to achieve with standard advertising campaigns. Proper SMM promotion')}}
+               {{t('(online advertising, maintaining pages in Instagram and Facebook, targeted advertising ) allows you to build')}}
+               {{t('communication with the user, increase brand loyalty and open a new business for your business')}}
+               {{t('an effective channel for sales growth. We employ the best SMM specialists who know a lot about the Internet')}}
+               {{t('advertising. you can order SMM promotion directly on our website. We will answer all your questions')}}
+               {{t('questions. We have the most pleasant prices for SMM in Tashkent. Advertising agency in Tashkent. Online advertising,')}}
+               {{t('online advertising, order online advertising.')}}
             </p>
         </div>
 
@@ -941,8 +939,8 @@
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                        Другие <br/>
-                        услуги
+                      {{t('Other')}} <br/>
+                      {{t('services')}}
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
                         <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">

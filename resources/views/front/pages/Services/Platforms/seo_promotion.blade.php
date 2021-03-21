@@ -9,7 +9,7 @@
 
 
 <main  class="overflow-hidden">
-    <div class="bg-black h-auto px-4 pt-32 pb-64">
+    <div class="bg-black h-auto px-4 pt-20 pb-12 ">
         <div
           class="py-8 grid grid-cols-1 lg:text-left text-center md:grid-cols-2 md:container m-auto ms:px-16 md:pt-20"
         >
@@ -17,14 +17,14 @@
               <div>
                 <div
                 class="text-white text-4xl lg:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide">
-                Seo website <br> promotion in <br> Tashkent
+                {{t('Seo website')}} <br> {{t('promotion in')}} <br> {{t('Tashkent')}}
               </div>
               <div class="lg:px-20">
                 <a
                   href="#"
                   class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                 >
-                 To get the consultation
+                 {{t('To get the consultation')}}
                 </a>
               </div>
               </div>
@@ -43,19 +43,19 @@
     <div class="grid sm:grid-cols-5 grid-cols-2 container m-auto justify-between pt-16">
         <div  class="pt-8 text-center" data-aos="fade-left">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/1.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Optimization</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">{{t('Optimization')}}</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-left">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/2.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Audit and Analytics</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">{{t('Audit and Analytics')}}</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-up">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/3.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Traffic</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">{{t('Traffic')}}</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-right">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/4.svg')}}" alt="" class="m-auto">
-            <p class="px-5 font-bold text-md mt-5 text-gray-700">Strategy</p>
+            <p class="px-5 font-bold text-md mt-5 text-gray-700">{{t('Strategy')}}</p>
         </div>
         <div  class="pt-8  text-center" data-aos="fade-right">
             <img src="{{asset('images/open_engine/seo_promotion/images/2/5.svg')}}" alt="" class="m-auto">
@@ -69,14 +69,14 @@
            <div class=" m-4 text-center">
                 <a href=""
                    class="max-w-xs block py-4 bg-blue-700 rounded-full text-white px-4 py-1 transition duration-300 ease-in-out hover:bg-blue-900 shadow-lg">
-                    SEO promotion
+                    {{t('SEO promotion')}}
                 </a>
            </div>
             <div class="m-4  text-center">
 
                 <a href=""
                    class="text-center max-w-xs block py-4 bg-blue-700 rounded-full text-white px-4 transition duration-300 ease-in-out hover:bg-blue-900">
-                    Context advertisement
+                    {{t('Context advertisement')}}
                 </a>
             </div>
         </div>
@@ -84,7 +84,7 @@
 
 
     <div class="flex justify-center text-center items-center my-20 relative">
-        <h1 data-aos="fade-right" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">SEO promotion services</h1>
+        <h1 data-aos="fade-right" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">{{t('SEO promotion services')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -105,7 +105,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Site audit</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('Site audit')}}</h1>
                     </div>
                 </div>
                 <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
@@ -113,7 +113,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Marketing <br> analysis</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('Marketing')}} <br>{{t(' analysis')}}</h1>
                     </div>
                 </div>
                 <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
@@ -121,7 +121,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Promotion <br> strategy</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('Promotion <br> strategy')}}</h1>
                     </div>
                 </div>
 
@@ -130,7 +130,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">We develop <br> semantics</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('We develop <br> semantics')}}</h1>
                     </div>
                 </div>
 
@@ -143,7 +143,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/5.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Internal SEO <br> optimization</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('Internal SEO <br> optimization')}}</h1>
                     </div>
                 </div>
                 <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
@@ -151,7 +151,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/6.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Website content optimization</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('Website content optimization')}}</h1>
                     </div>
                 </div>
                 <div class=" grid grid-cols-2 justify-center  bg-white rounded-lg shadow-lg lg:p-3 p-2 items-center" data-aos="flip-left">
@@ -159,7 +159,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/7.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">Monthly analysis</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('Monthly analysis')}}</h1>
                     </div>
                 </div>
 
@@ -168,7 +168,7 @@
                         <img src="{{asset('images/open_engine/seo_promotion/images/3/8.svg')}}" alt="">
                     </div>
                     <div class="">
-                        <h1 class="text-gray-700 font-bold text-base">External optimization</h1>
+                        <h1 class="text-gray-700 font-bold text-base">{{t('External optimization')}}</h1>
                     </div>
                 </div>
 
@@ -177,7 +177,7 @@
 
 
         <div class="flex justify-center items-center mb-20 my-20 relative text-center">
-            <h1 data-aos="fade-down" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Stages of website promotion</h1>
+            <h1 data-aos="fade-down" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">{{t('Stages of website promotion')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -197,11 +197,11 @@
                          class="flex border-blue-700 border-l-8 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class="   justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Site audit</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">{{t('Site audit')}}</h1>
                             <ul class="list-disc text-gray-600 text-sm pb-10">
-                                <li>We check  <br> the performance</li>
-                                <li>Checking the conversion </li>
-                                <li>Correcting errors</li>
+                                <li>{{t('We check  <br> the performance')}}</li>
+                                <li>{{t('Checking the conversion')}} </li>
+                                <li>{{t('Correcting errors')}}</li>
                             </ul>
                         </div>
                     </div>
@@ -209,10 +209,10 @@
                          class="flex border-blue-700 p-3 bg-white border-l-8 rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Semantics</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">{{t('Semantics')}}</h1>
                             <ul class="list-disc text-gray-600 text-sm pb-10">
-                                <li>We create a database of requests <br> with the maximum conversion</li>
-                                <li>We create a backbone for  <br> website promotion</li>
+                                <li>{{t('We create a database of requests')}} <br> {{t('with the maximum conversion')}}</li>
+                                <li>{{t('We create a backbone for ')}} <br>{{t(' website promotion')}}</li>
                             </ul>
                         </div>
                     </div>
@@ -220,11 +220,11 @@
                          class="flex border-blue-700 p-3 bg-white border-l-8 rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Internal</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">{{t('Internal')}}</h1>
                             <ul class="list-disc text-gray-600 text-sm pb-10">
-                                <li>Improving download speed</li>
-                                <li>We optimize the site <br> content</li>
-                                <li>Optimizing the site code</li>
+                                <li>{{t('Improving download speed')}}</li>
+                                <li>{{t('We optimize the site <br> content')}}</li>
+                                <li>{{t('Optimizing the site code')}}</li>
                             </ul>
                         </div>
                     </div>
@@ -240,11 +240,11 @@
                          class="md:max-w-xs flex border-blue-700 border-l-8 bg-white rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class="   justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">External</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">{{t('External')}}</h1>
                             <ul class="list-disc text-gray-600 text-sm">
-                                <li>We increase the link <br> mass to the site</li>
-                                <li>We check and leave <br> only useful links</li>
-                                <li>We increase the rating of <br> TIC and PR in search engines</li>
+                                <li>{{t('We increase the link <br> mass to the site')}}</li>
+                                <li>{{t('We check and leave <br> only useful links')}}</li>
+                                <li>{{t('We increase the rating of <br> TIC and PR in search engines')}}</li>
                             </ul>
                         </div>
                     </div>
@@ -252,11 +252,11 @@
                          class="md:max-w-xs flex rounded-l-lg border-l-8 border-blue-700 bg-white  rounded-md shadow-lg m-5 md:flex-1 p-5"
                          data-aos="flip-left">
                         <div class=" justify-center mx-auto ">
-                            <h1 class="text-gray-700 font-bold text-2xl pb-5">Promotion</h1>
+                            <h1 class="text-gray-700 font-bold text-2xl pb-5">{{t('Promotion')}}</h1>
                             <ul class="list-disc text-gray-600 text-sm">
-                                <li>Monthly site rating <br> control</li>
-                                <li>Checking positions</li>
-                                <li>Website improvement for <br> better promotion</li>
+                                <li>{{t('Monthly site rating')}} <br> {{t('control')}}</li>
+                                <li>{{t('Checking positions')}}</li>
+                                <li>{{t('Website improvement for ')}}<br>{{t(' better promotion')}}</li>
                             </ul>
                         </div>
                     </div>
@@ -265,7 +265,7 @@
         </div>
 
 
-        <div class="bg-gray-400 h-12 ">
+        <div class="bg-gray-300 h-12 ">
 
         </div>
 
@@ -273,7 +273,7 @@
         @include('front.Components.platformForm')
 
         <div class="flex justify-center items-center my-20 relative ">
-            <h1 data-aos="fade-up text-center" class="sm:text-4xl text-3xl font-bold text-blue-700 z-10">Cases</h1>
+            <h1 data-aos="fade-up text-center" class="sm:text-4xl text-3xl font-bold text-blue-700 z-10">{{t('Cases')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -294,23 +294,23 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/13.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Client:</b></p>
-                            <p class="text-gray-500"> Кенг Макон фабрика мебели</p>
+                            <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
+                            <p class="text-gray-500"> Кенг Макон{{t(' Furniture factory')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
-                            <p class="text-gray-500">Uzbekistan</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Market:')}}</b></p>
+                            <p class="text-gray-500">{{t('Uzbekistan')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Direction:</b></p>
-                            <p class="text-gray-500">Furniture production</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Direction')}}:</b></p>
+                            <p class="text-gray-500">{{t('Furniture production')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Result of work:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Result of work')}}:</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 4900</b> <br> Attendance <br> per month</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 4900</b> <br> {{t('Attendance')}} <br> {{t('per month')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>220</b> <br> Keywords in <br> the top</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>220</b> <br> {{t('Keywords in')}} <br> {{t('the top')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
                                     <p class="text-2xl text-gray-500 text-center"><b>+ 631%</b> <br> ROI</p>
@@ -318,7 +318,7 @@
                             </div>
 
                             <a href="" class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                Order
+                                {{t('Order')}}
                             </a>
                         </div>
                     </div>
@@ -330,31 +330,31 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/14.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Client:</b></p>
+                            <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                             <p class="text-gray-500"> Otdelka Trade</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
-                            <p class="text-gray-500">Moscow</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Market:')}}</b></p>
+                            <p class="text-gray-500">{{t('Moscow')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
-                            <p class="text-gray-500">Sale of floor covering</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Directions:')}}</b></p>
+                            <p class="text-gray-500">{{t('Sale of floor covering')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Result of works:')}}</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 24 500</b> <br> Attendance <br> per month</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 24 500</b> <br> {{t('Attendance')}} <br> {{t('per month')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>840</b> <br> Keywords in <br> the top</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>840</b> <br> {{t('Keywords in ')}}<br>{{t(' the top')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 8600</b> <br> Заявок и <br> звонков</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 8600</b> <br> {{t('Applications and')}} <br> {{t('calls')}}</p>
                                 </div>
                             </div>
 
                             <a href="" class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                Order
+                               {{t(' Order')}}
                             </a>
                         </div>
                     </div>
@@ -366,32 +366,32 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/15.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Client:</b></p>
+                            <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                             <p class="text-gray-500"> 2ftg.uz</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
-                            <p class="text-gray-500">Uzbekistan</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Market:')}}</b></p>
+                            <p class="text-gray-500">{{t('Uzbekistan')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Directions:')}}</b></p>
                             <p class="text-gray-500"></p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Result of works:')}}</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 16 500</b> <br> Attendance <br> в год</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 16 500</b> <br> {{t('Attendance')}} <br> {{t('per year')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>70</b> <br> Keywords in <br> the top</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>70</b> <br> {{t('Keywords in')}} <br> {{t('the top')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 112</b> <br> Leads per month</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 112</b> <br> {{t('Leads per month')}}</p>
                                 </div>
                             </div>
 
                             <a href=""
                                class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                Order
+                                {{t('Order')}}
                             </a>
                         </div>
                     </div>
@@ -403,32 +403,32 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/16.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Client:</b></p>
+                            <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                             <p class="text-gray-500"> ChuzTrade</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Market:')}}</b></p>
                             <p class="text-gray-500">Uzbekistan</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
-                            <p class="text-gray-500">Delivery from China</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Directions:')}}</b></p>
+                            <p class="text-gray-500">{{t('Delivery from China')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Result of works:')}}</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 32 500</b> <br> Attendance <br> в год</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 32 500</b> <br> {{t('Attendance')}} <br> {{t('per year')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>140</b> <br> Keywords in <br> the top</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>140</b> <br> {{t('Keywords in')}} <br> {{t('the top')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 180</b> <br> Leads per month</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 180</b> <br> {{t('Leads per month')}}</p>
                                 </div>
                             </div>
 
                             <a href=""
                                class=" text-lg bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                                Order
+                               {{t(' Order')}}
                             </a>
                         </div>
                     </div>
@@ -440,23 +440,23 @@
                             <img src="{{asset('images/open_engine/seo_promotion/images/2/17.png')}}" alt="">
                         </div>
                         <div class="text-2xl " data-aos="fade-up">
-                            <p class="text-blue-700"><b>Client:</b></p>
+                            <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                             <p class="text-gray-500"> Alibazar</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Market:</b></p>
-                            <p class="text-gray-500">Узбекистан</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Market:')}}</b></p>
+                            <p class="text-gray-500">{{t('Uzbekistan')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Directions:</b></p>
-                            <p class="text-gray-500">Строительные материалы</p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Directions:')}}</b></p>
+                            <p class="text-gray-500">{{t('Строительные материалы')}}</p>
 
-                            <p class="text-blue-700 mt-3.5"><b>Result of works:</b></p>
+                            <p class="text-blue-700 mt-3.5"><b>{{t('Result of works:')}}</b></p>
 
                             <div class="flex flex-wrap w-4/5 my-6 border-b border-gray-300 pb-3">
                                 <div class="lg:w-1/3 w-full">
-                                    <p class="text-2xl text-gray-500 text-center"><b>+ 2 100</b> <br> Attendance <br> per month</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>+ 2 100</b> <br> {{t('Attendance')}} <br> {{t('per month')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
-                                    <p class="text-2xl text-gray-500 text-center"><b>830</b> <br> Keywords in <br> the top</p>
+                                    <p class="text-2xl text-gray-500 text-center"><b>830</b> <br> {{t('Keywords in ')}}<br> {{t('the top')}}</p>
                                 </div>
                                 <div class="lg:w-1/3 w-full lg:mt-0 mt-6">
                                     <p class="text-2xl text-gray-500 text-center"><b>+ 1090%</b> <br> ROI</p>
@@ -475,7 +475,7 @@
         </div>
 
         <div class="flex justify-center items-center my-20 relative text-center">
-            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">We use in work</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">{{t('We use in work')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -521,7 +521,7 @@
 
 
         <div class="flex justify-center items-center my-20 relative ">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Result</h1>
+            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Result')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -540,37 +540,35 @@
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/1.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Website visibility in search <br> results will improve
+                        <p class="text-lg text-center text-gray-600">{{t('Website visibility in search')}} <br> {{t('results will improve')}}
                         </p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/2.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">The site will be in the top search engine<br> "Yandex" and Google</p>
+                        <p class="text-lg text-center text-gray-600">{{t('The site will be in the top search engine')}}<br> "Yandex" and Google</p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/3.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">The number of site visitors <br> will increase</p>
+                        <p class="text-lg text-center text-gray-600">{{t('The number of site visitors <br> will increase')}}</p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/4.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">The number of applications and <br> calls will increase</p>
+                        <p class="text-lg text-center text-gray-600">{{t('The number of applications and <br> calls will increase')}}</p>
                     </div>
                 </div>
                 <div class="grid grid-cols-2">
-
-
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/6.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Sales
-                            from the <br> site will increase</p>
+                        <p class="text-lg text-center text-gray-600">{{t('Sales')}}
+                            {{t('from the')}} <br> {{t('site will increase')}}</p>
                     </div>
 
                     <div class=" p-5">
                         <img class="mx-auto p-3" src="{{asset('images/open_engine/seo_promotion/images/4/5.svg')}}" alt="">
-                        <p class="text-lg text-center text-gray-600">Costs for advertising campaigns<br> will decrease </p>
+                        <p class="text-lg text-center text-gray-600">{{t('Costs for advertising campaigns<br> will decrease')}} </p>
                     </div>
                 </div>
             </div>
@@ -581,7 +579,7 @@
 
         <div class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative h-56">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
-                <h1 class="text-4xl font-bold text-white z-10">Why choose us?</h1>
+                <h1 class="text-4xl font-bold text-white z-10">{{t('Why choose us?')}}</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -600,7 +598,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class=" py-1 text-center">
-                    <h1 class="text-gray-700 text-md">There is not a single  <br> failed project</h1>
+                    <h1 class="text-gray-700 text-md">{{t('There is not a single')}}  <br> {{t('failed project')}}</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -608,7 +606,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Colossal  <br> experience <br> in promotion</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Colossal')}}  <br> {{t('experience')}} <br> {{t('in promotion')}}</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -616,16 +614,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Expert  <br>understanding  <br> of algorithms</h1>
-                </div>
-            </div>
-
-            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                <div>
-                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
-                </div>
-                <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Removing sites <br>  from  <br> filters</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Expert')}}  <br>{{t('understanding')}}  <br> {{t('of algorithms')}}</h1>
                 </div>
             </div>
 
@@ -634,7 +623,16 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Hundreds   <br> of satisfied <br> customers</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Removing sites')}} <br>  {{t('from')}}  <br> {{t('filters')}}</h1>
+                </div>
+            </div>
+
+            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
+                <div>
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
+                </div>
+                <div class="py-1  text-center">
+                    <h1 class="text-gray-700 text-md">{{t('Hundreds')}}   <br> {{t('of satisfied ')}}<br>{{t(' customers')}}</h1>
                 </div>
             </div>
 
@@ -643,7 +641,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">A team   <br> of experienced <br> professionals</h1>
+                    <h1 class="text-gray-700 text-md">{{t('A team')}}   <br> {{t('of experienced')}} <br> {{t('professionals')}}</h1>
                 </div>
             </div>
 
@@ -651,7 +649,7 @@
 
 
         <div class="flex justify-center items-center my-20 relative mb-20">
-            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Prices and rates</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">{{t('Prices and rates')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -674,20 +672,20 @@
                     <div class="text-center">
                         <div class="text-center">
                             <h1 class="border-b border-gray-400 py-5 text-gray-600">
-                                from <span class=" text-gray-700"> <b>9 900 000</b></span> uzs <br>per <b>year</b></h1></div>
+                                {{t('from')}} <span class=" text-gray-700"> <b>9 900 000</b></span> uzs <br>{{t('per')}} <b>{{t('year')}}</b></h1></div>
                     </div>
                     <ul class="list-disc text-gray-700 text-lg mt-3 pb-20">
-                        <li><b>10 Keywords</b></li>
-                        <li>Site audit</li>
-                        <li>Internal optimization</li>
-                        <li>External optimization</li>
-                        <li>Writing unique texts</li>
-                        <li>from 3 to 6 months</li>
+                        <li><b>10{{t(' Keywords')}}</b></li>
+                        <li>{{t('Site audit')}}</li>
+                        <li>{{t('Internal optimization')}}</li>
+                        <li>{{t('External optimization')}}</li>
+                        <li>{{t('Writing unique texts')}}</li>
+                        <li>{{t('from')}} 3 {{t('to')}} 6 {{t('months')}}</li>
                     </ul>
                     <div class=" justify-center flex border-t border-gray-400">
                         <a href=""
                            class=" bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
-                            Order
+                           {{t('Order')}}
                         </a>
                     </div>
                 </div>
@@ -702,15 +700,15 @@
                 <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
                     <div class="text-center">
                         <h1 class="border-b text-2xl border-gray-400 py-5 text-gray-600">
-                            от <span class=" text-gray-700"> <b>18 900 000</b></span> uzs <br>в <b>год</b></h1>
+                            {{t('from')}} <span class=" text-gray-700"> <b>18 900 000</b></span> {{t('uzs')}} <br>{{t('per')}} <b>{{t('year')}}</b></h1>
                     </div>
                     <ul class="list-disc text-gray-700 text-lg mt-3 pb-20">
-                        <li><b>40 Keywords</b></li>
-                         <li>Site audit</li>
-                         <li>Internal optimization</li>
-                         <li>External optimization</li>
-                         <li>Writing unique texts</li>
-                         <li>from 4 to 6 months</li>
+                        <li><b>40 {{t('Keywords')}}</b></li>
+                         <li>{{t('Site audit')}}</li>
+                         <li>{{t('Internal optimization')}}</li>
+                         <li>{{t('External optimization')}}</li>
+                         <li>{{t('Writing unique texts')}}</li>
+                         <li>{{t('from 4 to 6 months')}}</li>
                     </ul>
                     <div class=" justify-center flex border-t border-gray-400">
                         <a href=""
@@ -730,15 +728,15 @@
                 <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
                     <div class="text-center">
                         <h1 class="border-b text-2xl border-gray-400 py-5 text-gray-600">
-                            от <span class=" text-gray-700"> <b>5 000 000</b></span> uzs <br>в <b>месяц</b></h1>
+                            {{t('from')}} <span class=" text-gray-700"> <b>5 000 000</b></span> uzs <br>{{t('per')}} <b>{{t('month')}}</b></h1>
                     </div>
                     <ul class="list-disc text-gray-700 text-lg mt-3 pb-20">
-                        <li><b>от 10 Keywords in слов</b></li>
-                        <li>Аудит сайта</li>
-                        <li>Внутренняя оптимизация</li>
-                        <li>Внешняя оптимизация</li>
-                        <li>Написание уникальных текстов</li>
-                        <li>от 3 до 6 месяцев</li>
+                        <li><b>{{t('от')}} 10{{t(' Keywords in words')}}</b></li>
+                         <li>{{t('Site audit')}}</li>
+                                                <li>{{t('Internal optimization')}}</li>
+                                                <li>{{t('External optimization')}}</li>
+                                                <li>{{t('Writing unique texts')}}</li>
+                                                <li>{{t('from 4 to 6 months')}}</li>
                     </ul>
                     <div class=" justify-center flex border-t border-gray-400">
                         <a href=""
@@ -751,7 +749,7 @@
         </div>
 
         <div class="flex justify-center items-center my-20 relative mb-20">
-            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">Сертификаты</h1>
+            <h1 data-aos="fade-up" class="text-3xl sm:text-4xl font-bold text-blue-700 z-10">{{t('Certificates')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -767,7 +765,7 @@
 
         <div class="text-center pb-20">
             <div class="text-gray-600 mb-20 text-lg">
-                <h1>Сертифицированное агентство "Яндекса" и Google</h1>
+                <h1>{{t('Certified agency of Yandex and Google')}}</h1>
             </div>
             <div class="flex relative justify-center flex-col md:flex-row mx-20 ">
                 <div class=" shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -799,7 +797,7 @@
 
         <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative">
             <div class="flex justify-center items-center my-20 pt-10">
-                <h1 class="text-4xl font-bold text-white z-10">SEO Продвижение</h1>
+                <h1 class="text-4xl font-bold text-white z-10">{{t('SEO Promotion')}}</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -822,18 +820,18 @@
 
                 <div class="z-0">
                     <p>
-                        <b>SEO продвижение сайта</b> – это первый шаг на пути вашего бизнеса к получению продаж в интернете.
-                        Работа <b>SEO агенства</b> заключается в том, чтобы клиенты нашли ваш сайт и совершили на нем целевое
-                        действие: звонок, заявку или покупку. Мы не только работаем над <b>SEO оптимизацией</b> , мы
-                        настраиваем аналитику, пишем контент и внедряем доработки, также продвигаем сайты в ТОП-10.
-                        Order SEO продв</b> своего сайта можете прямо здесь. Мы позвоним и проконсультируем вас.
+                        <b>{{t('Website SEO Promotion')}}</b> {{t('is the first step on your business path to getting online sales.')}}
+                        {{t('The job of an <b>SEO agency')}}</b> {{t('is to ensure that customers find your site and make a targeted purchase on it.')}}
+                        {{t('action: call, request, or purchase. We not only work on')}} <b>{{t('SEO optimization')}}</b>,
+                        {{t('we set up analytics, write content and implement improvements, and promote sites in the TOP 10.')}}
+                        {{t('Order SEO prod')}}</b> {{t('your site can be right here. We will call you and advise you.')}}
                         <br>
                         <br>
-                        Рекламное агентство «Open Engine» предлагает SEO продвижение и SEO оптимизацию в Узбекистане.
-                        Перед тем как начать работу над проектом мы изучаем конкурентов клиента. Разрабатываем стратегию
-                        и определяем успешные кейсы. Ведем мониторинг ссылок и сайтов конкурентов и ищем точки роста.
-                        Все наши действия по раскрутке сайта направлены именно на тот результат, который Вы ждете!
-                        Маркетинговая агентство в Ташкенте, продвижение в яндекс, продвижение в Google.
+                        {{t('Open Engine Advertising Agency offers SEO Promotion and SEO optimization in Uzbekistan.')}}
+                        {{t('Before we start working on a project, we study the clients competitors. Developing a strategy')}}
+                        {{t('and we identify successful cases. We monitor the links and sites of competitors and look for growth points.')}}
+                        {{t('All our actions to promote the site are aimed at exactly the result that you are waiting for!')}}
+                        {{t('Marketing Agency in Tashkent, promotion services, promotion in Google.')}}
 
 
                     </p>
@@ -848,8 +846,8 @@
                             <div class="flex">
                                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                                        Другие <br/>
-                                        услуги
+                                        {{t('Other')}} <br/>
+                                        {{t('services')}}
                                     </h1>
                                     <div class="flex text-center absolute item-center justify-center z-0">
                                         <p data-aos="fade-up" class=" text-9xl font-bold  text-gray-300 ">

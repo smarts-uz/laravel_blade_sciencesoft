@@ -17,14 +17,14 @@
                 <div
                 class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
               >
-              Разработка приложений на андроид и ios
+             {{t('App development for android and iOS')}}
               </div>
               <div class="lg:px-20">
                 <a
                   href="#"
                   class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                 >
-                  Получить консультацию
+                  {{t('Get a consultation')}}
                 </a>
               </div>
 
@@ -57,7 +57,7 @@
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/mobil_razbotka/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Automatization
+              {{t('Automatization')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
@@ -77,8 +77,7 @@
 
 
     <div class="flex justify-center items-center my-20 relative ">
-        <h1 class="md:text-4xl text-3xl font-bold text-white z-10 text-blue-600 text-center">4 причины заказать разработку <br>
-            приложения в <span class="text-blue-300">Open Engine</span></h1>
+        <h1 class="md:text-4xl text-3xl font-bold text-white z-10 text-blue-600 text-center">4 {{t('reasons to order development ')}}<br> {{t('applications in ')}}<span class="text-blue-300">Open Engine</span></h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -103,9 +102,8 @@
                             <img class="" src="{{asset('images/open_engine/mobil_razbotka/7.svg')}}" alt="">
                         </div>
                         <div class="lg:self-end self-center lg:text-right text-center">
-                            <p class=" font-bold text-xl text-gray-700">МАКСИМУМ УСТРОЙСТВ</p>
-                            <p class="text-gray-500">Приложение будет одинаково и стабильно работать на различных
-                                устройствах</p>
+                            <p class=" font-bold text-xl text-gray-700">{{t('MAXIMUM OF DEVICES')}}</p>
+                            <p class="text-gray-500">{{t('The application will work equally and stably on different platforms and devices')}}</p>
                         </div>
                     </div>
                     <div class="flex flex-col justify-center lg:justify-end px-10 py-5 " data-aos="fade-right">
@@ -113,8 +111,8 @@
                             <img src="{{asset('images/open_engine/mobil_razbotka/8.svg')}}" alt="">
                         </div>
                         <div class="lg:self-end self-center lg:text-right text-center">
-                            <p class="font-bold text-xl text-gray-700">ОФОРМЛЕНИЕ ЗАКАЗА</p>
-                            <p class="text-gray-500">Мы максимально облегчаем этот процесс для пользователя</p>
+                            <p class="font-bold text-xl text-gray-700">{{t('MAKING AN ORDER')}}</p>
+                            <p class="text-gray-500">{{t('We make this process as easy as possible for the user')}}</p>
                         </div>
                     </div>
                 </div>
@@ -131,9 +129,8 @@
                             <img src="{{asset('images/open_engine/mobil_razbotka/9.svg')}}" alt="">
                         </div>
                         <div class="lg:self-start self-center lg:text-left text-center">
-                            <p class=" font-bold text-xl text-gray-700">МАКСИМАЛЬНОЕ УДОБСТВО</p>
-                            <p class="text-gray-500">Мы проектируем приложение с интуитивно понятным интерфейсом и
-                                навигацией для пользователей
+                            <p class=" font-bold text-xl text-gray-700">{{t('MAXIMUM CONVENIENCE')}}</p>
+                            <p class="text-gray-500">{{t('We design an application with an intuitive interface and navigation for users')}}
 
                             </p>
                         </div>
@@ -144,9 +141,8 @@
                             <img src="{{asset('images/open_engine/mobil_razbotka/10.svg')}}" alt="">
                         </div>
                        <div class="lg:self-start self-center lg:text-left text-center">
-                            <p class=" font-bold text-xl text-gray-700">БЫСТРОДЕЙСТВИЕ</p>
-                            <p class="text-gray-500">Загрузка приложений максимально ускорена за счет снижения веса картинок
-                                и скриптов</p>
+                            <p class=" font-bold text-xl text-gray-700">{{t('PERFORMANCE')}}</p>
+                            <p class="text-gray-500">App loading is accelerated as much as possible by reducing the weight of images and scripts</p>
                        </div>
                     </div>
                 </div>
@@ -158,7 +154,7 @@
 
 <div class="h-56 bg-blue-700 max-w-5xl rounded-r-2xl z-10 relative">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
-                <h1 class="text-4xl font-bold text-white z-10">Отрасли</h1>
+                <h1 class="text-4xl font-bold text-white z-10">Industries</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -178,7 +174,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class=" py-1 text-center">
-                    <h1 class="text-gray-700 text-md">Сложные проекты</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Complex projects')}}</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -186,7 +182,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Новости</h1>
+                    <h1 class="text-gray-700 text-md">{{t('News')}}</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -194,16 +190,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Интернет <br> магазин</h1>
-                </div>
-            </div>
-
-            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                <div>
-                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
-                </div>
-                <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Такси</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Online')}} <br> {{t('store')}}</h1>
                 </div>
             </div>
 
@@ -212,7 +199,16 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Доставка</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Taxi')}}</h1>
+                </div>
+            </div>
+
+            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
+                <div>
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
+                </div>
+                <div class="py-1  text-center">
+                    <h1 class="text-gray-700 text-md">{{t('Delivery')}}</h1>
                 </div>
             </div>
 
@@ -221,7 +217,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Кафе\Ресторан</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Cafe\Restaurant')}}</h1>
                 </div>
             </div>
 
@@ -246,51 +242,47 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-4 container mx-auto gap-20 my-20 max-w-7xl px-4">
         <div class="flex justify-center items-center relative ">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Этап работы</h1>
+            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Stage of work')}}</h1>
             <p data-aos="fade-down"
                class="item-center font-bold absolute text-9xl left-24 text-gray-300 z-0">
                 3</p>
         </div>
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">1</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Постановка задачи</p>
-            <p class="text-gray-600">Мы изучаем рынок и потенциальную целевую аудиторию, чтобы сделать проект
-                эффективным и особенным.</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Problem statement')}}</p>
+            <p class="text-gray-600">{{t('We study the market and potential target audience to make a project effective and special.')}}</p>
         </div>
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">2</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Прототипирование</p>
-            <p class="text-gray-600">Создаем архитектуру нашего проекта – разрабатываем модель навигации, экраны и
-                другие элементы.</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Prototyping')}}</p>
+            <p class="text-gray-600">{{t('We create the architecture of our project – we develop a navigation model, screens and other elements.')}}</p>
         </div>
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">3</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Дизайн и верстка</p>
-            <p class="text-gray-600">На основе прототипа наши дизайнеры создают конечный визуальный облик проекта.
-                Верстаем под нужные устройства.</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Design and layout')}}</p>
+            <p class="text-gray-600">{{t('Based on the prototype, our designers create the final visual appearance of the project. We make up for the necessary devices.Based on the prototype, our designers create the final visual appearance of the project.')}}
+               {{t('We make up for the necessary devices')}}.</p>
         </div>
 
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">4</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Завершение разработки</p>
-            <p class="text-gray-600">Допиливаем код приложения и подготавливаем его к дальнейшим этапам</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Completion of development')}}</p>
+            <p class="text-gray-600">{{t('We finish the application code and prepare it for further stages')}}</p>
         </div>
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">5</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Тестирование</p>
-            <p class="text-gray-600">Привлекаем потенциальных пользователей для приложения и проводим бета-тестирование
-                функционала проекта.</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Testing')}}</p>
+            <p class="text-gray-600">{{t('We attract potential users for the app and conduct beta testing project functionality.')}}</p>
         </div>
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">6</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Запуск</p>
-            <p class="text-gray-600">Публикуем готовое приложение. Оперативно собираем отзывы и выявляем малейшие
-                недочеты.</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Launch')}}</p>
+            <p class="text-gray-600">{{t('We publish the finished application. We quickly collect reviews and identify the smallest ones shortcomings.')}}</p>
         </div>
         <div>
             <p class="pl-3 pt-1 text-white font-bold text-2xl bg-blue-400 rounded-full w-10 h-10">7</p>
-            <p class="font-bold text-gray-700 text-2xl py-3">Техническое поддержка</p>
-            <p class="text-gray-600">Техническое поддержка</p>
+            <p class="font-bold text-gray-700 text-2xl py-3">{{t('Technical support')}}</p>
+            <p class="text-gray-600">{{t('Technical support')}}</p>
         </div>
 
 
@@ -298,7 +290,7 @@
 
 
     <div class="flex justify-center items-center relative ">
-        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Кейсы</h1>
+        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Cases')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -316,19 +308,19 @@
 <div class="swiper-slide">
     <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
         <div class="text-2xl " data-aos="fade-up">
-            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-blue-700"><b>{{t('Client')}}</b></p>
             <p class="text-gray-500"> iMan Capital </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
-            <p class="text-gray-500"> P2P платформа  </p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Direction')}}</b></p>
+            <p class="text-gray-500"> P2P {{t('Platform')}}  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Platform')}}:</b></p>
             <p class="text-gray-500">Android</p>
 
             <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
             <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+                {{t('order')}}
             </a>
         </div>
         <div>
@@ -340,19 +332,19 @@
 <div class="swiper-slide">
     <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
         <div class="text-2xl " data-aos="fade-up">
-            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-blue-700"><b>{{t('Client')}}</b></p>
             <p class="text-gray-500">  Kun.uz  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Direction')}}</b></p>
             <p class="text-gray-500">  Новости и СМИ.  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Platform')}}:</b></p>
             <p class="text-gray-500"> IOS, Android</p>
 
             <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
             <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+                {{t('order')}}
             </a>
         </div>
         <div>
@@ -364,19 +356,19 @@
 <div class="swiper-slide">
     <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
         <div class="text-2xl " data-aos="fade-up">
-            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-blue-700"><b>{{t('Client')}}</b></p>
             <p class="text-gray-500">  Orzon.uz  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
-            <p class="text-gray-500">  Интернет-магазин   </p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Direction')}}</b></p>
+            <p class="text-gray-500">  {{t('online store')}}   </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Platform')}}:</b></p>
             <p class="text-gray-500"> IOS-Android</p>
 
             <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
             <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+                {{t('order')}}
             </a>
         </div>
         <div>
@@ -388,19 +380,19 @@
 <div class="swiper-slide">
     <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
         <div class="text-2xl " data-aos="fade-up">
-            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-blue-700"><b>{{t('Client')}}</b></p>
             <p class="text-gray-500">  Xabardor  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
-            <p class="text-gray-500">  Новости  </p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Direction')}}</b></p>
+            <p class="text-gray-500">  {{t('News')}}  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Platform')}}:</b></p>
             <p class="text-gray-500"> IOS - Android</p>
 
             <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
             <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+                {{t('order')}}
             </a>
         </div>
         <div>
@@ -412,19 +404,19 @@
 <div class="swiper-slide">
     <div class="grid grid-cols-1 lg:grid-cols-2 container m-auto items-center p-10 pt-20">
         <div class="text-2xl " data-aos="fade-up">
-            <p class="text-blue-700"><b>Клиент:</b></p>
+            <p class="text-blue-700"><b>{{t('Client')}}</b></p>
             <p class="text-gray-500">  Human.uz  </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Направления:</b></p>
-            <p class="text-gray-500">  Новости и СМИ. </p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Direction')}}</b></p>
+            <p class="text-gray-500"> {{t('News and media.')}} </p>
 
-            <p class="text-blue-700 mt-3.5"><b>Платформа:</b></p>
+            <p class="text-blue-700 mt-3.5"><b>{{t('Platform')}}:</b></p>
             <p class="text-gray-500"> IOS, Android</p>
 
             <div class="w-3/4 h-px bg-gray-300 my-6"></div>
 
             <a href="" class=" text-xl bg-blue-700 rounded-full text-white px-14 pt-3 pb-4 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+                {{t('order')}}
             </a>
         </div>
         <div>
@@ -451,7 +443,7 @@
               data-aos="fade-right"
             >
               <div class="flex justify-center items-center my-10 relative">
-                <h1 class="text-3xl font-bold text-blue-500 z-10">Почему мы?</h1>
+                <h1 class="text-3xl font-bold text-blue-500 z-10">{{t('why us?')}}</h1>
                 <p
 
                   class=" text-9xl item-center font-bold absolute left-48 text-blue-500 z-0"
@@ -460,8 +452,8 @@
                 </p>
               </div>
               <p class="text-blue-500 text-md p-10 pt-10 text-center">
-                Потому что у нас Вы можете создать по-настоящему классный сайт,
-                со всеми нужными Вам функциями
+               {{t(' Because here you can create a really cool website,')}}
+                {{t('with all the features you need')}}
               </p>
             </div>
             <div
@@ -471,7 +463,7 @@
             >
               <div class="flex justify-center items-center my-10 relative">
                 <h1 class="lg:text-3xl font-bold text-white z-10">
-                  Почему мы?
+                  {{t('why us?')}}
                 </h1>
                 <p
 
@@ -481,8 +473,8 @@
                 </p>
               </div>
               <p class="text-white text-base text-md p-5 pt-10 text-center">
-                Потому что у нас Вы можете создать по-настоящему классный сайт,
-                со всеми нужными Вам функциями
+               {{t('Because here you can create a really cool website,')}}
+               {{t('with all the features you need')}}
               </p>
             </div>
           </div>
@@ -536,7 +528,7 @@
 
     <div class="flex justify-center items-center my-20 relative">
         <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">
-          Почему мы...
+          {{t('why us...')}}
         </h1>
 
         <div class="flex text-center absolute item-center justify-center z-0">
@@ -558,77 +550,67 @@
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/17.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Приложение <br>
-                полностью ваше</p>
-            <p class="text-gray-700">После окончания разработки <br> мы передаем все права на <br> приложение Вам.</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">{{t('Application <br> totally yours')}}</p>
+            <p class="text-gray-700">{{t('After the end of the development <br>, we transfer all rights to the <br> application to you.')}}</p>
         </div>
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/18.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Работа
-                по договору</p>
-            <p class="text-gray-700">Работаем по составленному <br> договору. Юридическое лицо <br> (ООО и ИП).</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">{{t('Work by agreement')}}</p>
+            <p class="text-gray-700">{{t('We work under the contract drawn up by <br>. Legal entity <br> (LLC and sole proprietor).')}}</p>
         </div>
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/19.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Прозрачный <br>
-                процесс</p>
-            <p class="text-gray-700">Даём Вам тестовый доступ к приложению на протяжении всей работы.</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">{{t('Transparent')}} <br> {{t('process')}}</p>
+            <p class="text-gray-700">{{t('We give you test access to the application throughout the work.')}}</p>
         </div>
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/20.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">Гарантия – 1 год</p>
-            <p class="text-gray-700">Бесплатно обеспечиваем работоспособность всех функций, указанных в Т.З.</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">{{t('Warranty – 1 year')}}</p>
+            <p class="text-gray-700">{{t('Free of charge, we provide the functionality of all the functions specified in the T. Z.')}}</p>
         </div>
 
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/21.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">100% выполнение и <br>
-                сдача проектов</p>
-            <p class="text-gray-700">Дорабатываем приложение до тех пор, пока оно не будет работать точно так, как
-                указано в Т.З.</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">100% {{t('execution and <br> delivery of projects')}}</p>
+            <p class="text-gray-700">{{t('We refine the application until it works exactly as it should specified in T. Z.')}}</p>
         </div>
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/22.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">От идеи до <br>
-                публикации</p>
-            <p class="text-gray-700">Выполняем полный цикл по созданию приложения. Публикуем в App Store и Google
-                Play.</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">From idea to <br> publications</p>
+            <p class="text-gray-700">We perform a full cycle of creating an application. We publish it in the App Store and Google Play.</p>
         </div>
 
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/23.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">От идеи до <br>
-                публикации</p>
-            <p class="text-gray-700">Тимлидер, разработчики iOS/Android, дизайнер, аналитик, тестировщик,
-                маркетолог.</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">{{t('From idea to ')}}<br> {{t('publication')}}</p>
+            <p class="text-gray-700">{{t('Tim Leader, iOS/Android developers, designer, analyst, tester, marketer.')}}</p>
         </div>
 
 
         <div class="text-center p-5">
             <img src="{{asset('images/open_engine/mobil_razbotka/24.png')}}" alt=""
                  class="mx-auto bg-blue-700 p-5 rounded-full">
-            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">От идеи до <br>
-                публикации</p>
-            <p class="text-gray-700">Оказываем техподдержку после завершения проекта: добавляем новые функции и
-                обновления</p>
+            <p class="text-gray-700 text-2xl font-bold leading-6 py-3">{{t('From idea to')}} <br>
+                {{t('publication')}}</p>
+            <p class="text-gray-700">{{t('We provide technical support after the project is completed: we add new features and updates')}}</p>
         </div>
     </div>
 
 
     <div class="flex justify-center items-center my-10 pt-10 " data-aos="fade-right">
-        <h1 class="text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
+        <h1 class="text-4xl font-bold text-blue-700 z-10">{{t('Prices and tariffs')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -645,20 +627,20 @@
 
         <div class="flex-1 transform hover:scale-110 duration-200">
             <div class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0">
-                <p class="text-3xl text-white text-center"><b>Разработка моб приложений</b></p>
+                <p class="text-3xl text-white text-center"><b>{{t('Mobile application development')}}</b></p>
             </div>
             <div class="shadow-2xl rounded-3xl px-10 py-10 m-5 ">
 
                 <ul class=" text-gray-700 text-lg py-5">
-                   <li class="text-center text-3xl">Цена:<b> 2 000 000 сум</b> </li>
+                   <li class="text-center text-3xl">{{t('Price:')}}<b> 2 000 000 {{t('sum')}}</b> </li>
                 </ul>
                   <ul class=" text-gray-700 py-6 border-t border-gray-400">
-                                   <li class="text-center text-xl">У нас нет стандартных тарифов для мобильного приложения</b> </li>
+                                   <li class="text-center text-xl">{{t('We dont have standard rates for the mobile app')}}</b> </li>
                                 </ul>
                 <div class=" justify-center flex">
                     <a href=""
                        class=" bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
-                        Заказать
+                        {{t('order')}}
                     </a>
                 </div>
             </div>
@@ -671,7 +653,7 @@
     <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
          data-aos="fade-up-right">
         <div class="flex justify-center items-center my-20 pt-10">
-            <h1 class="text-4xl font-bold text-white z-10">Мобильное приложение</h1>
+            <h1 class="text-4xl font-bold text-white z-10">{{t('Mobile App')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -694,12 +676,12 @@
 
             <div class="z-0">
                 <p>
-                   <b> Разработка мобильных приложений в Узбекистане</b> набирает обороты. Разрабатываем <b>мобильные приложения
-                    для бизнеса.</b> Изучаем Ваш бизнес и создаем техническое задание на основе потребностей бизнеса.
-                    Создаем привлекательный и понятный интерфейс, основываясь на ваш фирменный стиль. <b>Заказать
-                    приложение для IOS и Андроид</b> можете одним кликом на нашем сайте. У нас работают лучшие <b>IOS и Андроид
-                    разработчики в Ташкенте.</b> Доверьте <b>создание мобильного приложения в Ташкенте</b> нам и получите
-                    техническую поддержку приложения.
+                   <b> {{t('Mobile app development in Uzbekistan')}}</b> {{t('is gaining momentum. We develop')}} <b>{{t('mobile applications')}}
+                   {{t('for business.')}}</b> {{t('We study your business and create a technical task based on the needs of the business.')}}
+                   {{t('We create an attractive and intuitive interface based on your corporate identity.')}} <b>{{t('order the')}}
+                   {{t('app for')}} iOS {{t('and')}} Android</b> {{t('is available in one click on our website. We have the best')}} < b>iOS {{t('and')}} Android
+                   {{t('developers in Tashkent.')}}</b> {{t('Entrust')}} <b>{{t('the creation of a mobile application in Tashkent')}}</b> {{t('to us and get')}}
+                   {{t('technical support of the application.')}}
                 </p>
             </div>
 
@@ -709,8 +691,8 @@
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                        Другие <br/>
-                        услуги
+                       {{t('Other')}} <br/>
+                       {{t('services')}}
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
                         <p data-aos="fade-up"  class="text-9xl  font-bold  text-gray-300 ">
