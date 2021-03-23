@@ -17,9 +17,9 @@
                 </a>
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base mt-4">
-                <i class="fas fa-map-marker-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ t("100027, No. 2, Bog 'str., ")  }}
-                  {{ t("Shayxontohur district, ")  }}<br/>
+                <i class="mt-1 fas fa-map-marker-alt"></i>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ t("Akhmad Danish str., ")  }}
+                  {{ t("Yunusobod  district, ")  }}<br/>
                   {{ t("Tashkent, Uzbekistan")  }}</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">

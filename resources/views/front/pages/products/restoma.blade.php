@@ -122,7 +122,7 @@
                     {{ t('Foodomaa™ includes high-end features like Lazy Loading, Progressive Image Loading, Content Placeholder Loading, Bulk CSV Upload, Advance Settings Management, Advance Coupon System.') }}
                 </li>
                 <li class="leading-8 text-gray-800">
-                    <a class="hover:text-blue-50"
+                    <a class="hover:text-blue-500"
                         href="https://stackcanyon.com/docs/foodomaa">{{ t('Kindly have a look at our online documentation for more:') }}</a>
                 </li>
             </ul>
@@ -159,7 +159,7 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="{{asset('images/products/RestoMa/Screenshot_2.png')}}" alt="" class="mx-auto lg:w-1/3 w-3/4">
+                    <img src="{{asset('images/products/RestoMa/Screenshot_2.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
                 </div>
             </div>
             <div class="grid lg:grid-cols-2 lg:gap-3 grid-cols-1 gap-5 mb-9 mt-4">
@@ -195,7 +195,7 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="{{asset('images/products/RestoMa/Screenshot_1.png')}}" alt="" class="mx-auto lg:w-1/3 w-3/4">
+                    <img src="{{asset('images/products/RestoMa/Screenshot_1.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
                 </div>
             </div>
             <div>
