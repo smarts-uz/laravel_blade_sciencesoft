@@ -159,7 +159,43 @@
                             </li>
                         </ul>
                     </div>
-                    <img src="{{asset('images/products/RestoMa/full.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
+                    <img src="{{asset('images/products/RestoMa/Screenshot_2.png')}}" alt="" class="mx-auto lg:w-1/3 w-3/4">
+                </div>
+            </div>
+            <div class="grid lg:grid-cols-2 lg:gap-3 grid-cols-1 gap-5 mb-9 mt-4">
+                <div class="lg:flex block">
+                    <div clas="block">
+                        <h1 class="text-2xl">Delivery Location Section</h1>
+                        <ul class="mt-5 ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Autofill location with Google APIs Servet, C.') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Manual fill addresses (Buliding, Flat)') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Add tags for address (Work, Home)') }}
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="{{asset('images/products/RestoMa/Screenshot_2.png')}}" alt="" class="mx-auto lg:w-1/3 w-2/4">
+                </div>
+                <div class="lg:flex block">
+                    <div clas="block">
+                        <h1 class="text-2xl">Stores Listing</h1>
+                        <ul class="mt-5 ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Promotional Sliders') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Delivery and Self-Pickup') }}
+                            </li>
+                            <li class="leading-8 text-gray-800">
+                                {{ t('Listing stores based on users area') }}
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="{{asset('images/products/RestoMa/Screenshot_1.png')}}" alt="" class="mx-auto lg:w-1/3 w-3/4">
                 </div>
             </div>
             <div>
