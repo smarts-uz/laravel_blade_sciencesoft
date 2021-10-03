@@ -18,13 +18,13 @@
               </span>
               <span class="my-2 text-white flex flex-row items-start text-base mt-4">
                 <i class="fas fa-map-marker-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ t("100027, No. 2, Bog 'str., ")  }}
-                  {{ t("Shayxontohur district, ")  }}<br/>
-                  {{ t("Tashkent, Uzbekistan")  }}</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">{{ t("100058, No.28a, ")  }}
+                  {{ t("Yunusabad district-4 ")  }}<br/>
+                  {{ t("Tashkent city, Uzbekistan")  }}</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-phone-alt"></i>
-                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">+998 71 200-33-63</a>
+                <a href="#" class="text-white text-opacity-70 text-md hover:text-white ml-2">+998 97 403-72-43</a>
               </span>
               <span class="my-2 text-white text-base mr-5 mt-4">
                 <i class="fas fa-envelope"></i>
