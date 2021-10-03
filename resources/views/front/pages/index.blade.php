@@ -11,8 +11,7 @@
         {{ t('SOFTWARE CONSULTING AND DEVELOPMENT FOR YOUR DIGITAL SUCCESS') }}</h1>
     <hr class="w-20 h-0.5 border-none bg-yellow-600 my-10 ">
     <p class="text-center text-base sm:text-lg md:text-xl lg:text-2xl leading-10 text-gray-700 ">
-        {{ t("For over 31 years.
-   For millions of users. We transform businesses with powerful and adaptable digital solutions that satisfy the needs of
+        {{ t("We transform businesses in Uzbekistan with powerful and adaptable digital solutions that satisfy the needs of
     today and unlock the opportunities of tomorrow.") }}
     </p>
 </div>
