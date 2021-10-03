@@ -35,7 +35,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-2xl md:text-3xl font-bold">{{ t("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <div class="text-xl">
+                    <div class="lg:text-xl text-lg">
                         <p class="my-10">
                             {{ t("When I talk to CEO of mid-size companies, I often hear that IT takes a large share of
                             their budget but constantly underperforms. And they do not see business growth possible
@@ -52,7 +52,7 @@
             </div>
         </div>
 
-        <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
+        {{-- <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
             <div class='w-2/3'>
                 <h1 class='text-gray-900 mt-6'>
                     <p class='text-2xl font-bold'>{{ t("Do IT Operations Drain Your Resources?")  }} </p>
@@ -62,10 +62,22 @@
                 to the assistance in digital transformation and implementation of novel technology, our IT
                 outsourcing services are a cost-effective way of increasing business performance.")  }} </p>
             </div>
-            <div class='w-1/5 m-0 flex justify-center items-center'>
+            <div class='w-1/5 m-0 lg:flex block justify-center items-center'>
                 <a href="#"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ t("DISCUSS MY
                      OUTSOURCING OPTIONS")  }}</a>
+            </div>
+        </div> --}}
+        <div class='lg:flex block justify-between items-center lg:p-10 p-6 shadow-lg mt-3'>
+            <div class='lg:w-2/3 w-full	 '>
+              <h1 class='text-gray-900 lg:mt-6'>
+                <p class='lg:text-2xl text-md font-bold'>{{ _trans("Lack Python Competencies or Resources?")  }}</p>
+                <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+              </h1>
+              <p class='text-gray-600 lg:text-xl text-md'>{{ _trans("We offer pre-vetted Python developers and dedicated Python teams with experience across multiple domains to help increase your development output.")  }}</p>
+            </div>
+            <div class='mt-6 lg:w-1/3 w-full  m-0 flex justify-center items-center'>
+              <a href="#" class='px-8 py-3 text-sm bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Check Cvs of our devs")  }}</a>
             </div>
         </div>
 
@@ -185,7 +197,7 @@
             </div>
         </div>
 
-        <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
+        {{-- <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
             <div class='w-2/3'>
                 <h1 class='text-gray-900 mt-6'>
                     <p class='text-2xl font-bold'>{{ t("Measure IT Outsourcing Value for Your Business")  }} </p>
@@ -199,8 +211,8 @@
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ t("Request a
                     Feasibility analysis")  }}</a>
             </div>
-        </div>
-
+        </div> --}}
+        
         <div class="text-2xl md:text-3xl font-bold">
             {{ t("SELECTED IT OUTSOURCING PROJECTS")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
@@ -274,8 +286,8 @@
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
-        <div class="flex flex-row">
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+        <div class="lg:flex lg:flex-row block my-4">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg lg:w-1/4 w-full h-auto mr-10">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ t("Full-service IT outsourcing")  }}</p>
@@ -287,7 +299,7 @@
                     <button class="bg-blue-700 text-white w-full mt-3 uppercase p-2">{{ t("Outsource 100% of it")  }}</button>
                 </div>
             </div>
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg lg:w-1/4 w-full h-auto mr-10">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ t("Co-sourcing with an in-house IT team")  }}
@@ -304,7 +316,7 @@
                 </div>
             </div>
 
-            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg w-1/4 h-auto mr-10">
+            <div class="rounded-sm border-2 transition-shadow  hover:shadow-lg lg:w-1/4 w-full h-auto mr-10">
                 <hr class="w-full border-t-4 border-blue-800" />
                 <div class="p-4">
                     <p class="text-lg text-blue-700 mb-3 text-center font-bold">{{ t("Co-sourcing with other vendors")  }}</p>
@@ -488,7 +500,7 @@
 
             </div>
         </div>
-        <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
+        {{-- <div class='flex justify-between items-center p-10 shadow-2xl my-16'>
             <div class='w-2/3'>
                 <h1 class='text-gray-900 mt-6'>
                     <p class='text-2xl font-bold'>{{ t("Measure IT Outsourcing Value for Your Business")  }} </p>
@@ -501,6 +513,18 @@
                 <a href="#"
                     class='px-4 py-3  text-center bg-blue-800 text-white uppercase hover:bg-blue-900'>{{ t("Request a
                     Feasibility analysis")  }}</a>
+            </div>
+        </div> --}}
+        <div class='lg:flex block justify-between items-center lg:p-10 p-6 shadow-lg mt-3'>
+            <div class='lg:w-2/3 w-full	 '>
+              <h1 class='text-gray-900 lg:mt-6'>
+                <p class='lg:text-2xl text-md font-bold'>{{ _trans("Lack Python Competencies or Resources?")  }}</p>
+                <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
+              </h1>
+              <p class='text-gray-600 lg:text-xl text-md'>{{ _trans("We offer pre-vetted Python developers and dedicated Python teams with experience across multiple domains to help increase your development output.")  }}</p>
+            </div>
+            <div class='mt-6 lg:w-1/3 w-full  m-0 flex justify-center items-center'>
+              <a href="#" class='px-8 py-3 text-sm bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ _trans("Check Cvs of our devs")  }}</a>
             </div>
         </div>
     </div>

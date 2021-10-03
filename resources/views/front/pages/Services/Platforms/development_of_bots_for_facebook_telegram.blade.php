@@ -18,14 +18,14 @@
                 <div
                 class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 lg:leading-relaxed"
               >
-                Разработка ботов <br> для телеграма <br> в Ташкенте
+              {{t(' Development of bots <br> for telegram <br> in Tashkent')}}
               </div>
               <div class="lg:px-20">
                 <a
                   href="#"
                   class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
                 >
-                  Получить консультацию
+                 {{t(' Get a consultation')}}
                 </a>
               </div>
               </div>
@@ -46,31 +46,31 @@
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/facebook_telegram/2.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Креатив
+            {{t(' Creative')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/facebook_telegram/3.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Дизайн
+            {{t(' Design')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-left">
             <img src="{{asset('images/open_engine/facebook_telegram/4.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Таргетинг
+             {{t(' Targeting')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
             <img src="{{asset('images/open_engine/facebook_telegram/5.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-              Маркетинг
+             {{t('Marketing')}}
             </p>
           </div>
           <div class="pt-8" data-aos="fade-right">
             <img src="{{asset('images/open_engine/facebook_telegram/6.svg')}}" alt="" class="m-auto" />
             <p class="text-center font-bold text-md text-gray-700">
-             Лидогенерация
+          {{t(' Lead Generation')}}
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@
                             <img src="{{asset('images/open_engine/facebook_telegram/7.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
-                            <p class="text-center font-bold text-gray-600">Экономия времени и <br> финансов</p>
+                            <p class="text-center font-bold text-gray-600">{{t('Save time and')}} <br> {{t('finance')}}</p>
                        </div>
                     </div>
                     <div class="flex flex-col justify-center bg-white rounded-xl text-center border px-10 py-5 mt-10 shadow-xl">
@@ -95,7 +95,7 @@
                             <img src="{{asset('images/open_engine/facebook_telegram/8.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
-                            <p class="text-center font-bold text-gray-600">Увеличение аудитории  <br> мессенджеров</p>
+                            <p class="text-center font-bold text-gray-600">{{t('increasing the audience of')}} <br> {{t('messengers')}}</p>
                        </div>
                     </div>
                 </div>
@@ -104,8 +104,7 @@
             <div class="bg-blue-600 py-10 container rounded-lg p-4">
                 <div class="flex justify-center">
                     <div class="flex justify-center items-center my-5 relative pt-16">
-                        <h1 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white z-10 ">Что такое
-                            чат-бот?</h1>
+                        <h1 data-aos="fade-up" class="text-3xl md:text-4xl font-bold text-white z-10 ">{{t('What is a chatbot?')}}</h1>
                         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -118,8 +117,7 @@
                     </div>
                 </div>
                 <p class="p-10 text-white text-center">
-                    Телеграм-бот — виртуальный собеседник, который встраивается в мессенджеры и помогает бизнесу быть
-                    ближе к клиентам. Это автоматизированная интеллектуальная система общения с пользователями.
+                   {{t(' A Telegram bot is a virtual conversationalist that is embedded in messengers and helps businesses to be successful. Closer to the customers. This is an automated intelligent system for communicating with users.')}}
                 </p>
 
             </div>
@@ -131,7 +129,7 @@
                             <img src="{{asset('images/open_engine/facebook_telegram/9.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
-                            <p class="text-center font-bold text-gray-600">Простой <br> юзабилити</p>
+                            <p class="text-center font-bold text-gray-600">{{t('Simple <br> usability')}}</p>
                        </div>
                     </div>
 
@@ -140,7 +138,7 @@
                             <img src="{{asset('images/open_engine/facebook_telegram/10.svg')}}" alt="">
                         </div>
                        <div class="pt-4">
-                            <p class="text-center font-bold text-gray-600">Вы автоматически<br>впереди конкурентов</p>
+                            <p class="text-center font-bold text-gray-600">{{t('You are automatically <br>ahead of the competition')}}</p>
                        </div>
                     </div>
                 </div>
@@ -151,7 +149,7 @@
 
         <div class="bg-blue-700 max-w-5xl rounded-r-2xl z-20 relative h-56">
             <div class="flex justify-center items-center my-20 pt-10 " data-aos="fade-right">
-                <h1 class="text-4xl font-bold text-white z-10">Почему мы?</h1>
+                <h1 class="text-4xl font-bold text-white z-10">{{t('Why us?')}}</h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -170,7 +168,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/1.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class=" py-1 text-center">
-                    <h1 class="text-gray-700 text-md">Нет ни одного проваленного <br> проекта</h1>
+                    <h1 class="text-gray-700 text-md">{{t('There is not a single failed')}} <br>{{t(' project')}}</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -178,7 +176,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/2.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Колосальный <br> опыт в<br> продвижении</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Colossal')}} <br> {{t('experience in')}} <br>{{t(' promotion')}}</h1>
                 </div>
             </div>
             <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
@@ -186,16 +184,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Экспертное <br>понимание <br> алгоритмов</h1>
-                </div>
-            </div>
-
-            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
-                <div>
-                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
-                </div>
-                <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Выводим сайты <br> из-под <br> фильтров</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Expert')}} <br>{{t('understanding of')}} <br>{{t(' algorithms')}}</h1>
                 </div>
             </div>
 
@@ -204,7 +193,16 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Сотни <br> довольных <br> клиентов</h1>
+                    <h1 class="text-gray-700 text-md">{{t('Removing sites')}} <br> {{t('from')}} <br> {{t('filters')}}</h1>
+                </div>
+            </div>
+
+            <div class=" bg-white  rounded-lg shadow-lg m-5 md:flex-1 py-5" data-aos="flip-left">
+                <div>
+                    <img src="{{asset('images/open_engine/seo_promotion/images/3/3.svg')}}" alt="" class="mx-auto">
+                </div>
+                <div class="py-1  text-center">
+                    <h1 class="text-gray-700 text-md">{{t('Hundreds of')}} <br> {{t('satisfied')}} <br>{{t(' customers')}}</h1>
                 </div>
             </div>
 
@@ -213,7 +211,7 @@
                     <img src="{{asset('images/open_engine/seo_promotion/images/3/4.svg')}}" alt="" class="mx-auto">
                 </div>
                 <div class="py-1  text-center">
-                    <h1 class="text-gray-700 text-md">Команда <br> опытных <br> специалистов</h1>
+                    <h1 class="text-gray-700 text-md">{{t('A team of <br> experienced ')}}<br> {{t('specialists')}}</h1>
                 </div>
             </div>
 
@@ -225,7 +223,7 @@
             <div class="flex justify-center">
                 <div>
                     <div class="flex justify-center items-center my-10" data-aos="fade-right">
-                        <h1 class="text-4xl font-bold text-blue-700 z-10 text-center leading-8">Этап создание телеграм <br>бота</h1>
+                        <h1 class="text-4xl font-bold text-blue-700 z-10 text-center leading-8">{{t('Stage creating telegrams ')}}<br>{{t('bot')}}</h1>
                          <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -236,13 +234,13 @@
               </p>
           </div>
                     </div>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">1</span> Знакомство с бизнесом</p>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">2</span> Составление технического задания</p>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">3</span> Создание сценариев поведения</p>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">4</span> Подготовка платформы</p>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">5</span> Подключение мессенджеров</p>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">6</span> Тестирование</p>
-                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">7</span> Полная поддержка и аналитика</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">1</span> {{t('Introduction to the business')}}</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">2</span> {{t('Preparation of technical specifications')}}</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">3</span> {{t('Creating behavior scenarios')}}</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">4</span> {{t('Preparing the platform')}}</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">5</span>{{t('Connecting messengers')}}</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">6</span> {{t('Testing')}}</p>
+                    <p class="p-2 text-gray-700 font-bold text-xl"><span class="bg-blue-400 rounded-2xl  px-2 text-white">7</span> {{t('Full support and analytics')}}</p>
                 </div>
                 </div>
         </div>
@@ -257,7 +255,7 @@
     @include('front.Components.platformForm')
 
     <div class="flex justify-center items-center mt-40 relative ">
-        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Почему мы?</h1>
+        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Why us?')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -277,18 +275,18 @@
                 <div>
                     <div class="px-10 py-5">
                         <img src="{{asset('images/open_engine/facebook_telegram/18.svg')}}" alt="">
-                        <p class="text-2xl font-bold text-blue-700">Опыт</p>
-                        <p class=" text-gray-700">Получили бесценный опыт и доверие клиентов</p>
+                        <p class="text-2xl font-bold text-blue-700">{{t('Experience')}}</p>
+                        <p class=" text-gray-700">{{t('Gained invaluable experience and customer trust')}}</p>
                     </div>
                     <div class="px-10 py-5">
                         <img src="{{asset('images/open_engine/facebook_telegram/19.svg')}}" alt="">
-                        <p class="text-2xl font-bold text-blue-700">Скорость</p>
-                        <p class=" text-gray-700">Всегда выполняем всю работу вовремя</p>
+                        <p class="text-2xl font-bold text-blue-700">{{t('Speed')}}</p>
+                        <p class=" text-gray-700">{{t('We always do all the work on time')}}</p>
                     </div>
                     <div class="px-10 py-5">
                         <img src="{{asset('images/open_engine/facebook_telegram/20.svg')}}" alt="">
-                        <p class="text-2xl font-bold text-blue-700">  Кастомизация</p>
-                        <p class=" text-gray-700">Бота можно изменить и дорабоать в любое время</p>
+                        <p class="text-2xl font-bold text-blue-700">  {{t('Customization')}}</p>
+                        <p class=" text-gray-700">{{t('The bot can be changed and modified at any time')}}</p>
                     </div>
                 </div>
             </div>
@@ -303,25 +301,25 @@
                 <div>
                     <div class="px-10 py-5">
                         <img src="{{asset('images/open_engine/facebook_telegram/21.svg')}}" alt="">
-                        <p class="text-2xl font-bold text-blue-700">  Результат
+                        <p class="text-2xl font-bold text-blue-700"> {{t(' Result')}}
                             </p>
-                        <p class=" text-gray-700">Погружаемся в ваш бизнес и добиваемся максимального результата</p>
+                        <p class=" text-gray-700">{{t('We dive into your business and achieve maximum results')}}</p>
                     </div>
 
                     <div class="px-10 py-5">
                         <img src="{{asset('images/open_engine/facebook_telegram/22.svg')}}" alt="">
-                        <p class="text-2xl font-bold text-blue-700">  Поддержка
+                        <p class="text-2xl font-bold text-blue-700">  {{t('Support')}}
                             </p>
-                        <p class=" text-gray-700">Мы всегда поможем и проконсультируем клиента</p>
+                        <p class=" text-gray-700">{{t('We will always help and advise the client')}}</p>
                     </div>
 
 
 
                     <div class="px-10 py-5">
                         <img src="{{asset('images/open_engine/facebook_telegram/23.svg')}}" alt="">
-                        <p class="text-2xl font-bold text-blue-700">  100% профит
+                        <p class="text-2xl font-bold text-blue-700">  100% {{t('profit')}}
                             </p>
-                        <p class=" text-gray-700">Абсолютно все проекты были приняты заказчиками</p>
+                        <p class=" text-gray-700">{{t('Absolutely all projects were accepted by the customers')}}</p>
                     </div>
                 </div>
             </div>
@@ -332,7 +330,7 @@
 
     <div data-aos="zoom-in" class="max-w-6xl mx-auto bg-white shadow-lg rounded-3xl mt-20">
         <div class="flex justify-center items-center relative ">
-            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Кейсы</h1>
+            <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Cases</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -355,26 +353,26 @@
                   <img src="{{asset('images/open_engine/facebook_telegram/25.png')}}" alt="" />
                 </div>
                 <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
-                  <p><b>Клиент:</b></p>
-                  <p>Мебельная фабрика Keng Makon</p>
+                  <p><b>{{t('Client')}}:</b></p>
+                  <p>{{t('Furniture Factory ')}}Keng Makon</p>
 
-                  <p><b>Год создания:</b></p>
+                  <p><b>{{t('Year of creation')}}:</b></p>
                   <p>2020</p>
 
-                  <p><b>Тип сайта:</b></p>
-                  <p>Разработка интернет-магазина.</p>
+                  <p><b>{{t('Site Type')}}:</b></p>
+                  <p>{{t('Development of an online store')}}.</p>
 
-                  <p><b>Направление:</b></p>
-                  <p>Мебель</p>
+                  <p><b>{{t('Direction')}}:</b></p>
+                  <p>{{t('Furniture')}}</p>
 
-                  <p><b>Технология:</b></p>
+                  <p><b>{{t('Technology')}}:</b></p>
                   <p class="border-b pb-5 mb-10">1C</p>
 
                   <a
                     href=""
                     class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
                   >
-                    заказать
+                    {{t('order')}}
                   </a>
                 </div>
               </div>
@@ -387,26 +385,26 @@
                   <img src="{{asset('images/open_engine/facebook_telegram/26.png')}}" alt="" />
                 </div>
                 <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
-                  <p><b>Клиент:</b></p>
-                  <p>Мебельная фабрика Keng Makon</p>
+                  <p><b>{{t('Client')}}:</b></p>
+                  <p>{{t('Furniture Factory')}} Keng Makon</p>
 
-                  <p><b>Год создания:</b></p>
+                  <p><b>{{t('Year of creation')}}:</b></p>
                   <p>2020</p>
 
-                  <p><b>Тип сайта:</b></p>
-                  <p>Разработка интернет-магазина.</p>
+                  <p><b>{{t('Site Type')}}:</b></p>
+                  <p>{{t('Development of an online store')}}.</p>
 
-                  <p><b>Направление:</b></p>
-                  <p>Мебель</p>
+                  <p><b>{{t('Direction')}}:</b></p>
+                  <p>{{t('Furniture')}}</p>
 
-                  <p><b>Технология:</b></p>
+                  <p><b>{{t('Technology')}}:</b></p>
                   <p class="border-b pb-5 mb-10">1C</p>
 
                   <a
                     href=""
                     class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
                   >
-                    заказать
+                    {{t('order')}}
                   </a>
                 </div>
               </div>
@@ -419,26 +417,26 @@
                   <img src="{{asset('images/open_engine/facebook_telegram/27.png')}}" alt="" />
                 </div>
                 <div class="text-xl md:text-2xl p-5" data-aos="fade-up">
-                  <p><b>Клиент:</b></p>
-                  <p>Мебельная фабрика Keng Makon</p>
+                  <p><b>Client:</b></p>
+                  <p>{{t('Furniture Factory')}} Keng Makon</p>
 
-                  <p><b>Год создания:</b></p>
+                  <p><b>{{t('Year of creation')}}:</b></p>
                   <p>2020</p>
 
-                  <p><b>Тип сайта:</b></p>
-                  <p>Разработка интернет-магазина.</p>
+                  <p><b>{{t('Site Type')}}:</b></p>
+                  <p>Development of an online store.</p>
 
-                  <p><b>Направление:</b></p>
-                  <p>Мебель</p>
+                  <p><b>{{t('Direction')}}:</b></p>
+                  <p>Furniture</p>
 
-                  <p><b>Технология:</b></p>
+                  <p><b>{{t('Technology')}}:</b></p>
                   <p class="border-b pb-5 mb-10">1C</p>
 
                   <a
                     href=""
                     class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
                   >
-                    заказать
+                    {{t('order')}}
                   </a>
                 </div>
               </div>
@@ -451,7 +449,7 @@
 
 
     <div class="flex justify-center items-center relative py-20">
-        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Цены и тарифы</h1>
+        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Prices and tariffs')}}</h1>
         <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -469,11 +467,11 @@
                 <img src="{{asset('images/open_engine/facebook_telegram/28.png')}}" alt="">
             </div>
             <div class="lg:text-3xl sm:text-lg text-gray-700 font-bold px-10">
-                <p>от 3 000 000 UZS</p>
+                <p>{{t('from')}} 3 000 000 UZS</p>
             </div>
             <a href=""
                class=" bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                заказать
+                {{t('order')}}
             </a>
         </div>
 
@@ -484,7 +482,7 @@
  <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
          data-aos="fade-up-right">
         <div class="flex justify-center items-center my-20 pt-10">
-            <h1 class="text-4xl font-bold text-white z-10">Разработка телеграм ботов</h1>
+            <h1 class="text-4xl font-bold text-white z-10">{{t('Development of telegram bots')}}</h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
                 data-aos="fade-up"
@@ -507,13 +505,13 @@
 
         <div class="z-0">
             <p>
-                Хотите <b>заказать веб сайт</b> или <b>купить сайт в Ташкенте</b>? Звоните нам! Наша <b>веб студия</b>
-                применяет собственный подход к созданию сайтов, <b>разработке интернет магазинов</b>. У нас работают
-                опытные <b>разработчики сайтов и программисты в Узбекистане</b>. Мы уделяем достаточно времени каждому
-                проекту и&nbsp;не&nbsp;работаем на&nbsp;потоке. Всегда готовы предложить оригинальные решения по&nbsp;целому
-                комплексу услуг <b>разработки сайта в Узбекистане</b> и&nbsp;дизайна сайтов. Делаем всё,&nbsp;чтобы ваш
-                сайт красиво и&nbsp;эффективно выполнял задачи компании. Также обеспечиваем <b>техническую поддержку
-                сайтов в Узбекистане.</b>
+               {{t(' Want to')}} <b>{{t('order a website')}}</b> {{t('or')}} <b>{{t('buy a website in Tashkent')}}</b>? {{t('Call us! Our')}} < b>{{t('web studio')}} </b>
+                {{t('applies its own approach to creating websites,')}} < b>{{t('developing online stores')}}</b>. {{t('They work for us')}}
+                {{t('Experience ')}}<b>{{t('site developers and programmers in Uzbekistan')}}</b>. {{t('We devote enough time to everyone')}}
+               {{t(' We are not working on a project and are not working on a thread. We are always ready to offer original solutions for the whole')}}
+                {{t('complex of services <b>site development in Uzbekistan< / b> and & nbsp; site design. We do everything to ensure that your')}}
+                {{t('the site performed the companys tasks beautifully and efficiently. We also provide')}} < b>{{t('technical support')}}
+                {{t('sites in Uzbekistan.')}}</b>
             </p>
         </div>
 
@@ -523,8 +521,8 @@
         <div class="flex">
             <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                 <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                    Другие <br/>
-                    услуги
+                   Other <br/>
+                   services
                 </h1>
                 <div class="flex text-center absolute item-center justify-center z-0">
                     <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">

@@ -16,8 +16,7 @@
               <div>
                 <div class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 leading-12 ">
                     {{t(' Development')}}
-                    <br>  {{t('of an
-                    online')}} <br> {{t(' store')}}
+                    <br>  {{t('of an online')}} <br> {{t(' store')}}
                   </div>
                   <div class="lg:px-20">
                     <a
@@ -778,17 +777,17 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-                <li>Content management system 1C Bitrix</li>
-                 <li>Business edition license</li>
-                <li> Ready-made solution with a marketplace</li>
-                 <li>Personal Area</li>
-                 <li>Online chat</li>
-                <li> Payment system Click, Payme</li>
-                 <li>Domain</li>
-                 <li>Telegram bot</li>
-                 <li>One year warranty support</li>
-                 <li>Training - 3 hours</li>
-                 <li>Term from 20 days</li>
+                <li> {{t('Content management system 1C Bitrix')}}</li>
+                 <li>{{t('Business edition license')}}</li>
+                <li>  {{t('Ready-made solution with a marketplace')}}</li>
+                 <li>{{t('Personal Area')}}</li>
+                 <li> {{t('Online chat')}}</li>
+                <li> {{t('Payment system Click, Payme')}}</li>
+                 <li> {{t('Domain')}}</li>
+                 <li>{{t('Telegram bot')}}</li>
+                 <li> {{t('One year warranty support')}}</li>
+                 <li>{{t('Training - 3 hours')}}</li>
+                 <li> {{t('Term from 20 days')}}</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -806,7 +805,7 @@
           <div
             class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0"
           >
-            <p class="text-3xl text-white text-center"><b>Business</b></p>
+            <p class="text-3xl text-white text-center"><b> {{t('Business')}}</b></p>
           </div>
           <div class="shadow-2xl rounded-2xl px-10 py-10 m-5">
             <div class="text-center">
@@ -815,17 +814,17 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-                <li>Content management system 1C Bitrix</li>
-                <li>Business edition license </li>
-                <li>Ready-made solution with a marketplace</li>
-                <li>IOS, Android mobile application</li>
-                <li>Click, Payme, Visa, Mastercard, Paypal payment system </li>
-                <li>Domain </li>
-                <li>Telegram bot </li>
-                <li>Loyalty system </li>
-                <li>One year warranty support</li>
-                <li>Training - 12 hours</li>
-                <li>Term from 60 days</li>
+                <li> {{t('Content management system 1C Bitrix')}}</li>
+                <li>{{t('Business edition license')}} </li>
+                <li> {{t('Ready-made solution with a marketplace')}}</li>
+                <li>{{t('IOS, Android mobile application')}}</li>
+                <li>Click, Payme, Visa, Mastercard, Paypal  {{t('payment system')}} </li>
+                <li> {{t('Domain ')}}</li>
+                <li>{{t('Telegram bot ')}}</li>
+                <li> {{t('Loyalty system ')}}</li>
+                <li> {{t('One year warranty support')}}</li>
+                <li>{{t('Training - 12 hours')}}</li>
+                <li> {{t('Term from 60 days')}}</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -852,18 +851,18 @@
               </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3">
-               <li> Content management system 1C Bitrix</li>
-               <li> Business edition license </li>
-               <li> Ready-made solution with a marketplace</li>
-               <li> Integration and implementation of warehouse accounting (My Warehouse)</li>
-               <li> IOS, Android mobile application</li>
-               <li> Click, Payme, Visa, Mastercard, Paypal payment system </li>
-               <li> Domain </li>
-               <li> Telegram bot </li>
-               <li> Loyalty system </li>
-               <li> One year warranty support</li>
-               <li> Training - 12 hours</li>
-               <li> Term from 90 days</li>
+               <li>  {{t('Content management system 1C Bitrix')}}</li>
+               <li> {{t('Business edition license')}} </li>
+               <li> {{t('Ready-made solution with a marketplace')}}</li>
+               <li> {{t('Integration and implementation of warehouse accounting (My Warehouse)')}}</li>
+               <li> IOS, Android {{t('mobile application')}}</li>
+               <li> Click, Payme, Visa, Mastercard, Paypal {{t('payment system')}} </li>
+               <li> {{t('Domain')}} </li>
+               <li> {{t('Telegram bot')}} </li>
+               <li> {{t('Loyalty system')}} </li>
+               <li> {{t('One year warranty support')}}</li>
+               <li> {{t('Training - 12 hours')}}</li>
+               <li> {{t('Term from 90 days')}}</li>
             </ul>
             <div class="justify-center flex">
               <a
@@ -886,7 +885,7 @@
             <p
               class="text-2xl sm:text-4xl font-bold text-white z-10 p-5 leading-10"  data-aos="fade-down"
             >
-            Development of an online store
+            {{t('Development of an online store')}}
             </h1>
             <div class="flex text-center absolute item-center justify-center z-0">
               <p
@@ -907,7 +906,7 @@
           <div class="flex justify-center">
             <div class="z-0 text-gray-600 text-lg max-w-3xl">
               <p>
-               Do you need custom-made websites or want to buy a website in Tashkent?We have experienced website developers and programmers in Uzbekistan who do their job 100%.>We offer not only website development, but also provide technical support for websites in Uzbekistan. We are also engaged in the development of web applications in Tashkent for your business.Order a turnkey online store.Website, order a website, the best programmers, the best web studio, business card website in tashkent, development of web applications tashkent, custom-made websites, development of an online store in tashkent, how to create an online store in uzbekistan, website development, bitrix partner uzbekistan, site on 1c bitrix selling website, promo website, order a landing page in tashkent.
+               {{t('Do you need custom-made websites or want to buy a website in Tashkent?We have experienced website developers and programmers in Uzbekistan who do their job 100%.>We offer not only website development, but also provide technical support for websites in Uzbekistan. We are also engaged in the development of web applications in Tashkent for your business.Order a turnkey online store.Website, order a website, the best programmers, the best web studio, business card website in tashkent, development of web applications tashkent, custom-made websites, development of an online store in tashkent, how to create an online store in uzbekistan, website development, bitrix partner uzbekistan, site on 1c bitrix selling website, promo website, order a landing page in tashkent.')}}
               </p>
             </div>
           </div>
@@ -916,7 +915,7 @@
             <div class="flex">
                 <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                     <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                        other <br> services
+                        {{t('other')}} <br> {{t('services')}}
                     </h1>
                     <div class="flex text-center absolute item-center justify-center z-0">
                         <p data-aos="fade-up"  class=" text-9xl font-bold  text-gray-300 ">

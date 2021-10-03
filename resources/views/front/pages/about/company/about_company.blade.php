@@ -43,7 +43,7 @@
         </div>
         <div class="flex flex-row">
             <div class="w-2/3">
-                <img src="https://www.scnsoft.com/about/company-new/about-company-teampro" alt="">
+                <img src="https://www.scnsoft.com/about/company-new/illustrations-for-timeline_08-2020_1.svg" alt="">
             </div>
             <div>
                 <ul class="ml-10 list-outside list-disc bg-rose-200 text-lg leading-relaxed">

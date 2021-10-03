@@ -15,14 +15,14 @@
             <div
               class="text-white text-4xl md:text-6xl font-semibold m-auto md:px-10 mb-12 tracking-wide"
             >
-              Программа для  <br>  автоматизации <br> торговли в <br> Ташкенте
+              {{t('Program for')}} < br> {{t('automation of ')}}< br> {{t('trade in')}} < br> {{t('Tashkent')}}
             </div>
             <div class="lg:px-20">
               <a
                 href="#"
                 class="bg-blue-700 rounded-full text-white px-5 py-3 transition duration-300 ease-in-out hover:bg-blue-900 lg:mr-6"
               >
-                Получить консультацию
+                {{t('Get a consultation')}}
               </a>
             </div>
           </div>
@@ -41,12 +41,12 @@
 
 <div class="flex justify-center">
     <div class="grid">
-        <p class="text-gray-700 text-center text-blue-700 text-4xl font-bold my-10" data-aos="fade-right">Кому выгодно</p>
+        <p class="text-gray-700 text-center text-blue-700 text-4xl font-bold my-10" data-aos="fade-right">{{t('Who benefits?')}}</p>
         <div class="grid grid-cols-1 md:grid-cols-4 container mx-auto gap-5 text-lg" data-aos="fade-down">
-            <p class="text-blue-700 font-bold cursor-pointer">Для розничной торговли</p>
-            <p class="text-blue-700 font-bold cursor-pointer">Для оптовой торговли</p>
-            <p class="text-blue-700 font-bold cursor-pointer">Для интернет-магазина</p>
-            <p class="text-blue-700 font-bold cursor-pointer">Для производства</p>
+            <p class="text-blue-700 font-bold cursor-pointer">{{t('For retail use')}}</p>
+            <p class="text-blue-700 font-bold cursor-pointer">{{t('For wholesale trade')}}</p>
+            <p class="text-blue-700 font-bold cursor-pointer">{{t('For an online store')}}</p>
+            <p class="text-blue-700 font-bold cursor-pointer">{{t('For production')}}</p>
         </div>
     </div>
 </div>
@@ -61,12 +61,12 @@
                     <img src="{{asset('images/open_engine/my-hours/2.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
-                    <p class="pb-10 text-gray-600">Система<strong> автоматизации оптовой торговли</strong> контролирует расчеты между компанией,
-                        поставщиками и конечными покупателями. Фиксирует условия договора и их исполнение, остаток денег
-                        на счету. Оповещает, если есть неоплаченный счет.<br><br> Помогает корректировать взаиморасчеты
-                        и остатки на лицевом счете и кассовом аппарате. Следит за исполнение банковских и кассовых
-                        операций. А также <strong>программа для оптовой торговли </strong>отслеживать поступление полных
-                        или частичных оплат.</p>
+                    <p class="pb-10 text-gray-600">{{t('The system')}}<strong> {{t('automation of wholesale trade')}} < /strong> {{t('controls the calculations between the company,')}}
+                                                   {{t('suppliers and end customers. Records the terms of the contract and their execution, the balance of the money')}}
+                                                   {{t('on the account. Notifies if there is an unpaid invoice.')}}<br><br> {{t('Helps to adjust mutual settlements')}}
+                                                   {{t('and the balances on the personal account and the cash register. Monitors the execution of bank and cash payments')}}
+                                                   {{t('operations. And also')}} <strong>{{t('a program for wholesale trade')}} </strong>{{t('to track the receipt of full')}}
+                                                   {{t('or partial payments.')}}</p>
 
                     <a href=""
                        class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -83,12 +83,12 @@
                     <img src="{{asset('images/open_engine/my-hours/3.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
-                    <p class="pb-10 text-gray-600">Система<strong> автоматизации оптовой торговли</strong> контролирует расчеты между компанией,
-                        поставщиками и конечными покупателями. Фиксирует условия договора и их исполнение, остаток денег
-                        на счету. Оповещает, если есть неоплаченный счет.<br><br> Помогает корректировать взаиморасчеты
-                        и остатки на лицевом счете и кассовом аппарате. Следит за исполнение банковских и кассовых
-                        операций. А также <strong>программа для оптовой торговли </strong>отслеживать поступление полных
-                        или частичных оплат.</p>
+                    <p class="pb-10 text-gray-600">{{t('The system')}}<strong> {{t('automation of wholesale trade')}} < /strong> {{t('controls the calculations between the company,')}}
+                                                   {{t('suppliers and end customers. Records the terms of the contract and their execution, the balance of the money')}}
+                                                   {{t('on the account. Notifies if there is an unpaid invoice.')}}<br><br>{{t(' Helps to adjust mutual settlements')}}
+                                                   {{t('and the balances on the personal account and the cash register. Monitors the execution of bank and cash payments')}}
+                                                   {{t('operations. And also')}} <strong>{{t('a program for wholesale trade')}} < /strong>{{t('to track the receipt of full')}}
+                                                   {{t('or partial payments.')}}</p>
 
                     <a href=""
                        class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
@@ -105,19 +105,19 @@
                     <img src="{{asset('images/open_engine/my-hours/4.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
-                    <p class="pb-10 text-gray-600"><strong>Автоматизация производства </strong>или<strong> система для производства </strong>обеспечивает
-                        возможность списывать продукцию со склада, оприходовать полученные комплектующие и запчасти,
-                        автоматически рассчитывать себестоимость поступивших деталей и материалов. Кроме того, есть
-                        возможность планировать производственные операции, резервировать материалы или сырье, а также
-                        создавать технологические операции согласно заказам, поступившим в производственные цеха.</p>
+                    <p class="pb-10 text-gray-600"><strong>{{t('Production automation </strong>or < strong> production system')}} < / strong>{{t('provides')}}
+                                                           {{t('the ability to write off products from the warehouse, to enter the received components and spare parts,')}}
+                                                           {{t('automatically calculate the cost of received parts and materials. In addition, there are')}}
+                                                           {{t('the ability to plan production operations, reserve materials or raw materials, and')}}
+                                                           {{t('create technological operations according to the orders received in the production shops.')}}</p>
 
-                    <p class="pb-10"><strong>Программа для производства</strong> помогает своевременно пополнять запасы, уведомляет об
-                        их истощении и облегчает процесс планирования закупки по данным из статистики о продажах. В свою
-                        очередь это обеспечивает бесперебойную загрузку мощностей на производстве.</p>
+                    <p class="pb-10"><strong>{{t('The program for production</strong> helps to replenish stocks in a timely manner, notifies of')}}
+                                             {{t('their depletion and facilitates the process of planning purchases based on data from sales statistics. To your own')}}
+                                             {{t('all this ensures uninterrupted capacity utilization in production.')}}</p>
 
                     <a href=""
                        class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                        Попробовать
+                        To try
                     </a>
                 </div>
 
@@ -131,14 +131,14 @@
                     <img src="{{asset('images/open_engine/my-hours/5.svg')}}" alt="">
                 </div>
                 <div class="text-lg " data-aos="fade-up">
-                    <p class="pb-10 text-gray-600"><strong>Автоматизация производства </strong>или<strong> система для производства </strong>обеспечивает
-                        возможность списывать продукцию со склада, оприходовать полученные комплектующие и запчасти,
-                        автоматически рассчитывать себестоимость поступивших деталей и материалов. Кроме того, есть
-                        возможность планировать производственные операции, резервировать материалы или сырье, а также
-                        создавать технологические операции согласно заказам, поступившим в производственные цеха.</p>
+                    <p class="pb-10 text-gray-600"><strong>{{t('Production automation')}} </strong>{{t('or ')}}< strong> {{t('production system')}} < / strong>{{t('provides')}}
+                                                           {{t('the ability to write off products from the warehouse, to enter the received components and spare parts,')}}
+                                                           {{t('automatically calculate the cost of received parts and materials. In addition, there are')}}
+                                                           {{t('the ability to plan production operations, reserve materials or raw materials, and')}}
+                                                          {{t(' create technological operations according to the orders received in the production shops.')}}</p>
                     <a href=""
                        class=" text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6">
-                       Попробовать
+                      To try
                     </a>
                 </div>
 
@@ -150,26 +150,26 @@
 
 
 <div class="flex justify-center">
-    <p class="text-gray-700 text-center text-blue-700 text-4xl font-bold my-10 leading-10" data-aos="fade-left">Возможности <br>
-        МойСклад</p>
+    <p class="text-gray-700 text-center text-blue-700 text-4xl font-bold my-10 leading-10" data-aos="fade-left">{{t('Opportunities ')}}<br>
+        {{t('My warehouse')}}</p>
 </div>
 
 
 <div class="container mx-auto max-w-7xl px-4">
     <div class=" grid grid-cols-1 lg:grid-cols-2 my-40 justify-center ">
         <div data-aos="fade-right">
-            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">База клиентов</p>
-            <p class="text-gray-700 text-lg"><b>Автоматизация продаж</b> или <b>автоматизация магазина</b>
-                предусматривает ведение учета клиентов и
-                заключенных
-                договоров, постановку задач и напоминаний отделу продаж, получение оповещений об изменении статуса
-                задачи или появлении комментариев. Есть возможность соединения с amoCRM.
-                <br> <br>
-                <b>Система учёта продаж</b> хранит данные о контрагентах и их контактных лицах в удобном справочнике.
-                Вся
-                информация о клиенте располагается в одном окне. В базе фиксируется вся история работы с юр. лицом,
-                сведения о долге и сумме продаж, хранятся все архивные документы. <b>Автоматизация процесса</b> упрощает
-                ведение клиента или отдельного заказа через воронку продаж.</p>
+            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">{{t('Customer Base')}}</p>
+            <p class="text-gray-700 text-lg"><b>{{t('Sales automation')}}</b> {{t('or')}} < b>{{t('store automation')}} < / b>
+                                                {{t('provides for keeping records of customers and')}}
+                                                {{t('prisoners')}}
+                                               {{t(' contracts, setting tasks and reminders to the sales department, receiving notifications about status changes')}}
+                                                {{t('tasks or the appearance of comments. It is possible to connect to amoCRM.')}}
+                                                <br> <br>
+                                                < b>{{t('The sales accounting system')}} < / b> {{t('stores data about contractors and their contact persons in a convenient directory.')}}
+                                                {{t('Whole')}}
+                                                {{t('the information about the client is located in one window. The database records the entire history of working with a legal entity,')}}
+                                                {{t('information about the debt and the amount of sales, all archived documents are stored.')}} < b>{{t('Process automation')}} < / b> {{t('simplifies')}}
+                                                {{t('managing a customer or individual order through a sales funnel.')}}</p>
         </div>
         <div class="flex justify-center items-center" data-aos="zoom-in">
             <img src="{{asset('images/open_engine/my-hours/6.png')}}" alt="">
@@ -181,22 +181,18 @@
             <img src="{{asset('images/open_engine/my-hours/7.png')}}" alt="">
         </div>
         <div data-aos="fade-left">
-            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Закупки и складской учёт</p>
-            <p class="text-gray-700 text-lg"><b>Система автоматизации</b> помогает оценить фактическое количество
-                остатков и величину
-                зарезервированной
-                продукции. В реестре <b>системы автоматизации</b> хранится информация о параметрах продукта, его
-                действующем
-                штрих-коде и серийном номере. Сведения легко импортируются из Excel.
-                <br><br>
-                Хранится история всех операций по закупке. Возможна фильтрация по продукции или контрагенту. Можно
-                работать с комиссионным продуктом. Кроме того, размещать заявки контрагентам и поставщикам можно по
-                данным статистики проданных товаров или пополнению склада до минимального порогового значения. А при
-                прямых поставках закупки для контрагентов формируются из заявок потребителей.
-                <br><br>
-                <b>Автоматизация розничной торговли</b> позволит получать информацию о размещении новых заказов,
-                задержках в
-                оплате или отгрузке и других мерах в интернет-браузере, новостной ленте или мобильном приложении.
+            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">{{t('Procurement and warehouse accounting')}}</p>
+            <p class="text-gray-700 text-lg">{{t('The automation system')}} < / b> {{t('helps to estimate the actual quantity')}}
+                                             {{t('the remaining balance and the value of')}}
+                                             {{t('reserved')}}
+                                             {{t('products. The registry<b>of the automation system')}} < /b> {{t('stores information about the parameters of the product, its')}}
+                                             {{t('current')}}
+                                             {{t('the barcode and serial number. The information is easily imported from Excel.')}}
+                                             <br><br>
+                                             {{t('The history of all purchase operations is stored. Filtering by product or counterparty is possible. Can')}}
+                                             {{t('work with a commission product. In addition, you can place requests to contractors and suppliers at')}}
+                                            {{t(' according to the statistics of goods sold or replenishment of the warehouse to the minimum threshold value. And in the')}}
+                                             {{t('case of direct deliveries, purchases for counterparties are formed from consumer requests.')}}
             </p>
         </div>
 
@@ -204,17 +200,17 @@
 
     <div class="grid grid-cols-1 lg:grid-cols-2 my-40">
         <div data-aos="fade-right">
-            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Разграничения доступов, филиалы.</p>
-            <p class="text-gray-700 text-lg"><b>Программа автоматизации склада</b> позволяет объединить юр. лица,
-                филиалы, склады и офисы в единую
-                систему
-                без лишних затрат. В <b>программе для склада</b> предусмотрен контроль над правами пользователей, их
-                ролями и
-                возможностями. В <b>программе для магазина</b> есть возможность закрывать доступ к некоторым разделам,
-                запрещать вносить изменения в закрытом периоде и т.д.
-                <br><br>
-                <b>Программа для магазина</b> уникальна тем, что все действия персонала отражаются в общей ленте
-                событий.
+            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">{{t('Access restrictions, branches.')}}</p>
+            <p class="text-gray-700 text-lg"><b>{{t('The warehouse automation program < / b> allows you to combine legal entities,')}}
+                                             {{t('branches, warehouses and offices in a single system')}}
+                                            {{t(' the system')}}
+                                            {{t('at no extra cost. The < b>warehouse program < /b> provides control over the rights of users, their')}}
+                                            {{t(' roles, and')}}
+                                             {{t('opportunities. In the < b>program for the store')}}</b> {{t('it is possible to close access to some sections,')}}
+                                             {{t('prohibit making changes in the closed period, etc.')}}
+                                             <br><br>
+                                             <b>{{t('The program for the store')}}< / b> {{t('is unique in that all the actions of the staff are reflected in the general feed')}}
+                                             {{t('events.')}}
             </p>
         </div>
         <div class="flex justify-center items-center" data-aos="zoom-in">
@@ -227,30 +223,30 @@
             <img src="{{asset('images/open_engine/my-hours/9.png')}}" alt="">
         </div>
         <div data-aos="fade-left">
-            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Производственные операции</p>
-            <p class="text-gray-700 text-lg"><b>Программа для складского учета</b> высчитывает количество сырья,
-                материалов, комплектующих и готовую
-                продукцию на складах. <b>Программа для склада</b> автоматически списывает материалы и рассчитывает
-                базовую цену
-                товара.
-                <br><br>
-                <b>Программа для производства</b> предусматривает возможность планирования потребностей в материалах или
-                компонентах.
+            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">{{t('Production operations')}}</p>
+            <p class="text-gray-700 text-lg"><b>{{t('The program for warehouse accounting</b> calculates the amount of raw materials,')}}
+                                             {{t('materials, components and finished products')}}
+                                             {{t('products in warehouses.')}} < b>{{t('The program for the warehouse')}} < / b> {{t('automatically writes off the materials and calculates')}}
+                                             {{t('base price')}}
+                                             {{t('the product.')}}
+                                             <br><br>
+                                             <b>{{t('The program for production')}}</b> {{t('provides for the possibility of planning the needs for materials or')}}
+                                             {{t('components.')}}
             </p>
         </div>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 my-40">
         <div data-aos="fade-right">
-            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Аналитические отчеты</p>
+            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">{{t('Analytical reports')}}</p>
             <p class="text-gray-700 text-lg">
-                Программа <b>автоматизации магазина</b> фиксирует остаток товарных наименований на складе, отражает
-                статистику
-                продаж, процент прибыли по каждому товару и оборотные средства. На дэшборде <b>системы для торговли</b>
-                или
-                «Экране руководителя» отражаются данные по движению средств, задолженностям и взаиморасчетам.
-                <br><br>
-                <b>Автоматизация розничной торговли</b> предусматривает составление сводного отчета по торговым точкам и
-                автоматической рассылки их через электронную почту.
+               {{t('The program')}} < b>{{t('store automation')}} < /b> {{t('records the balance of product names in the warehouse, reflects')}}
+               {{t('statistics')}}
+               {{t('sales, the percentage of profit for each product and working capital. The dashboard <b>of the trading system')}}</b>
+               {{t('or the')}}
+               {{t('" Manager Screen " displays data on the movement of funds, debts and mutual settlements.')}}
+               <br><br>
+               < b>{{t('Retail automation')}} < / b> {{t('provides for the preparation of a summary report on retail outlets and')}}
+               {{t('automatically send them via email.')}}
             </p>
         </div>
 
@@ -265,19 +261,18 @@
         </div>
 
         <div data-aos="fade-left">
-            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">Мобильные приложения для iOS и Android</p>
+            <p class="text-gray-700 text-blue-700 text-3xl font-bold mb-10">{{t('Mobile apps for iOS and Android')}}</p>
             <p class="text-gray-700 text-lg">
-                <b>Программа для склада</b> МойСклад имеет мобильное приложение. В мобильном приложении хранятся
-                перечень
-                товаров, их фотографии и описание. Поиск простой и быстрый: по наименованию или артикулу.
-                <br><br>
-                <b>В приложении для продаж</b> можно компоновать заказы потребителей, выставлять счета и акты на
-                отгрузку,
-                отправлять на печать. Все уведомления приходят в приложение <b>программы для магазина и склада.</b>
-                <br><br>
-                Здесь же хранится вся статистика предприятия: количество остатков и резервов, число проданных позиций в
-                денежном и процентном эквиваленте, поступление и расходование средств, данные по каждой точке продаж и
-                кассе. Отчет формируется за выбранный период: день, неделю или месяц.
+               <b>{{t('The program for the warehouse')}} < / b> {{t('MoySklad has a mobile application. The mobile app stores the following data:')}}
+               {{t('list  products, their photos and descriptions. The search is simple and fast: by name or article.')}}
+               <br><br>
+               <b>{{t('In the sales app')}}< / b>, {{t('you can compose customer orders, issue invoices, and')}}
+               {{t('issue shipping certificates,')}}
+               {{t('send to print. All notifications come in the app < b>programs for the store and warehouse.')}}</b>
+               <br><br>
+               {{t('It also stores all the companys statistics: the number of balances and reserves, the number of positions sold in')}}
+               {{t('cash and percentage terms, the receipt and expenditure of funds, data for each point of sale and cash')}}
+               {{t('register. The report is generated for the selected period: day, week, or month.')}}
             </p>
         </div>
 
@@ -294,10 +289,10 @@
 <div class="max-w-5xl mx-auto bg-white shadow-lg rounded-3xl  -mt-56 bg-blue-700 ">
     <div class="grid grid-cols-1 md:grid-cols-3 relative">
         <div class="text-white z-10 col-span-2 md:p-10 pb-8 px-4" data-aos="fade-right">
-            <p class="text-center  font-bold text-4xl leading-10">Управляйте бизнесом там, <br> где удобно</p>
-            <p class="py-10 text-lg text-center">Попробуйте мобильное приложение МоегоСклада. Пополняйте каталог
-                товаров, просматривайте заказы и отчеты о
-                продажах, ставьте задачи сотрудникам — в любое время и в любом месте.
+            <p class="text-center  font-bold text-4xl leading-10">{{t('Manage your business wherever it is convenient')}}</p>
+            <p class="py-10 text-lg text-center">{{t('Try the My Warehouse mobile app. Fill up the catalog')}}
+                                                {{t(' products, view orders and reports on')}}
+                                                 {{t('in sales, assign tasks to employees-anytime, anywhere')}}.
             </p>
             <div class="flex justify-center">
                 <a href=""
@@ -320,18 +315,17 @@
 
 <div>
     <p class="text-gray-700 text-blue-700 text-5xl font-bold mb-10 flex justify-center mt-40 mb-10"
-       data-aos="fade-right">Как мы работаем</p>
+       data-aos="fade-right">{{t('How we work')}}</p>
 </div>
 
 
 <div class="grid grid-cols-1 sm:grid-cols-2  container mx-auto m-10" data-aos="fade-up">
     <div class="self-end">
-        <p class="mx-auto text-gray-700 text-md text-center text-lg">На основе нее подбираем <br> подходящие конкретно
-            вам <br> инструменты</p>
+        <p class="mx-auto text-gray-700 text-md text-center text-lg">{{t('On the basis of it, we select < br> suitable specifically you need')}} < br> {{t('tools')}}</p>
         <img src="{{asset('images/open_engine/my-hours/12.svg')}}" alt="" class="mx-auto">
     </div>
     <div class="self-end">
-        <p class="mx-auto text-gray-700 text-md text-center text-lg">Обучаем ваших <br> сотрудников и <br>руководителя
+        <p class="mx-auto text-gray-700 text-md text-center text-lg">{{t('We train your')}} < br> {{t('employees and')}} < br>{{t('manager')}}
         </p>
         <img src="{{asset('images/open_engine/my-hours/13.svg')}}" alt="" class="mx-auto">
     </div>
@@ -340,15 +334,15 @@
 <div class="grid grid-cols-1 sm:grid-cols-3 container mx-auto m-10" data-aos="fade-up">
     <div>
         <img src="{{asset('images/open_engine/my-hours/14.svg')}}" alt="" class="mx-auto">
-        <p class="mx-auto text-gray-700 text-md text-center text-lg">Составляем карту ваших <br> бизнес-процессов</p>
+        <p class="mx-auto text-gray-700 text-md text-center text-lg">{{t('Making a map of your')}} < br> {{t('business processes')}}</p>
     </div>
     <div>
         <img src="{{asset('images/open_engine/my-hours/15.svg')}}" alt="" class="mx-auto">
-        <p class="mx-auto text-gray-700 text-md text-center text-lg">Настраиваем выбранные <br> инструменты под вас</p>
+        <p class="mx-auto text-gray-700 text-md text-center text-lg">{{t('Customizing the selected ')}}< br> {{t('tools for you')}}</p>
     </div>
     <div>
         <img src="{{asset('images/open_engine/my-hours/16.svg')}}" alt="" class="mx-auto">
-        <p class="mx-auto text-gray-700 text-md text-center text-lg">Контролируем <br> правильность</p>
+        <p class="mx-auto text-gray-700 text-md text-center text-lg">{{t('We control')}} < br> {{t('correctness')}}</p>
     </div>
 </div>
 
@@ -362,60 +356,60 @@
 
 <div>
     <p class="text-gray-700 text-blue-700 text-5xl font-bold mb-10 flex justify-center mt-40 mb-10"
-       data-aos="fade-right">100% безопасность ваших данных</p>
+       data-aos="fade-right">100% {{t('security of your data')}}</p>
 </div>
 
 <div class="grid grid-cols-1 md:grid-cols-3 container mx-auto gap-10 max-w-7xl">
     <div data-aos="fade-right">
         <img src="{{asset('images/open_engine/my-hours/17.svg')}}" alt="" class="mx-auto">
-        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Хостинг</p>
-        <p class="text-center text-xl text-gray-700">Наши серверы расположены в надежных дата-центрах в Москве и
-            Санкт-Петербурге, которые имеют несколько
-            степеней защиты от чрезвычайных ситуаций.</p>
+        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">{{t('Hosting')}}</p>
+        <p class="text-center text-xl text-gray-700">{{t('Our servers are located in reliable data centers in Moscow and')}}
+                                                     {{t('St. Petersburg, which have several')}}
+                                                     {{t('degrees of protection against emergencies.')}}</p>
     </div>
 
     <div data-aos="fade-up">
         <img src="{{asset('images/open_engine/my-hours/18.svg')}}" alt="" class="mx-auto">
-        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Шифрование данных</p>
-        <p class="text-center text-xl text-gray-700">Вся информация, передаваемая сервисом МойСклад, зашифрована при
-            помощи 256-битного SSL-сертификата GeoTrust. Перехват данных невозможен.</p>
+        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">{{t('Data encryption')}}</p>
+        <p class="text-center text-xl text-gray-700">{{t('All information transmitted by the MoiSklad service is encrypted')}}
+                                                     {{t('using GeoTrust 256-bit SSL certificates. Data interception is not possible.')}}</p>
     </div>
 
     <div data-aos="fade-left">
         <img src="{{asset('images/open_engine/my-hours/19.svg')}}" alt="" class="mx-auto">
-        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Данные принадлежат вам</p>
-        <p class="text-center text-xl text-gray-700">Вы всегда можете перенести все свои данные из сервиса МойСклад в
-            Microsoft Excel, Access или любую другую базу данных.</p>
+        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">{{t('The data belongs to you')}}</p>
+        <p class="text-center text-xl text-gray-700">{{t('You can always transfer all your data from the MoySklad service to')}}
+                                                    {{t(' Microsoft Excel, Access, or any other database.')}}</p>
     </div>
 
     <div data-aos="fade-right" class="mt-20">
         <img src="{{asset('images/open_engine/my-hours/20.svg')}}" alt="" class="mx-auto">
-        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Резервное копирование</p>
-        <p class="text-center text-xl text-gray-700">Данные автоматически копируются между серверами в разных городах.
-            Репликация <br> происходит в режиме реального <br>времени.</p>
+        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">{{t('Backup data')}}</p>
+        <p class="text-center text-xl text-gray-700">{{t('The data is automatically copied between servers in different cities.')}}
+                                                     {{t('Replication')}} <br> {{t('occurs in real ')}}<br>{{t('time.')}}</p>
     </div>
 
     <div data-aos="fade-up" class="mt-20">
         <img src="{{asset('images/open_engine/my-hours/21.svg')}}" alt="" class="mx-auto">
-        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Качественное
-            администрирование</p>
-        <p class="text-center text-xl text-gray-700">Наши серверы ежедневно обслуживаются профессиональными системными
-            администраторами.</p>
+        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">{{t('High-quality')}}
+                                                                                        {{t('administration')}}</p>
+        <p class="text-center text-xl text-gray-700">{{t('Our servers are serviced daily by professional system engineers.')}}
+                                                     {{t('administrators.')}}</p>
     </div>
 
     <div data-aos="fade-left" class="mt-20">
         <img src="{{asset('images/open_engine/my-hours/22.svg')}}" alt="" class="mx-auto">
-        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">Система разграничения
-            доступа</p>
-        <p class="text-center text-xl text-gray-700">Ваши сотрудники будут работать только с той информацией и функциями
-            системы, доступ к которым вы им <br> откроете.</p>
+        <p class="text-blue-700 p-5 font-bold text-2xl flex justify-center text-center">{{t('Delineation system')}}
+                                                                                        {{t('access rights')}}</p>
+        <p class="text-center text-xl text-gray-700">{{t('Your employees will only work with that information and features')}}
+                                                     {{t('the systems that you will')}} <br> {{t('grant them access to.')}}</p>
     </div>
 </div>
 
 
 <div data-aos="zoom-in" class="container mx-auto bg-white shadow-lg rounded-3xl  p-20 mt-20 ">
     <div class="flex justify-center items-center relative ">
-        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">Кейсы</h1>
+        <h1 data-aos="fade-up" class="text-4xl font-bold text-blue-700 z-10">{{t('Cases')}}</h1>
 
 
  </div>
@@ -430,17 +424,18 @@
                   <img src="https://oe.uz/upload/iblock/c10/c10f9e891a4c77f990cd15917d03642c.png" alt="" />
                 </div>
                 <div class="text-lg md:text-xl p-5" data-aos="fade-up">
-                  <p class="text-blue-700"><b>Клиент:</b></p>
+                  <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                   <p class="text-gray-500">Profi Tools</p>
 
-                  <p class="text-blue-700"><b>Направление:</b></p>
-                  <p class="text-gray-500">Оптовая и розничная торговля</p>
+                  <p class="text-blue-700"><b>{{t('Direction:')}}</b></p>
+                  <p class="text-gray-500">{{t('Wholesale and retail trade')}}</p>
 
-                  <p class="text-blue-700"><b>Информация:</b></p>
-                  <p class="text-gray-500">Компания занимается продажей мелкой <br> строительной и промышленной техникой в оптом, и <br> в рознице. Имеет 5 филиалов по городу.</p>
+                  <p class="text-blue-700"><b>{{t('Information:')}}</b></p>
+                  <p class="text-gray-500">{{t('The company is engaged in the sale of small')}} < br> {{t('construction and industrial equipment in wholesale, and')}} < br> {{t('in retail. It has 5 branches in the city')}}.</p>
 
-                  <p class="text-blue-700"><b>Результат:</b></p>
-                  <p class="text-gray-500">Программа МойСклад была успешно реализована <br> во всех филиалов компании. Даже сотрудники в <br> возрасте свыше 50 лет, были полностью обучены <br> работе с системой на компьютере и на смартфоне. 							</p>
+                  <p class="text-blue-700"><b>{{t('Result:')}}</b></p>
+                  <p class="text-gray-500">{{t('The MoySklad program was successfully implemented in all branches of the company. Even the employees in the ')}}<br>
+                   {{t('at the age of over 50 years, they were fully trained to work with the system on a computer and on a smartphone.')}}							</p>
 
                   <p class="border-b pb-5 mb-10"></p>
 
@@ -448,7 +443,7 @@
                     href=""
                     class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
                   >
-                    заказать
+                    {{t('order')}}
                   </a>
                 </div>
               </div>
@@ -461,17 +456,17 @@
                   <img src="https://oe.uz/upload/iblock/c10/c10f9e891a4c77f990cd15917d03642c.png" alt="" />
                 </div>
                 <div class="text-lg md:text-xl p-5" data-aos="fade-up">
-                  <p class="text-blue-700"><b>Клиент:</b></p>
+                  <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                   <p class="text-gray-500">Formulamarket.uz</p>
 
-                  <p class="text-blue-700"><b>Направление:</b></p>
-                  <p class="text-gray-500">Интернет-магазин</p>
+                  <p class="text-blue-700"><b>{{t('Direction:')}}</b></p>
+                  <p class="text-gray-500">{{t('Online-store')}}</p>
 
-                  <p class="text-blue-700"><b>Информация:</b></p>
-                  <p class="text-gray-500">Компания занимается продажей шин и дисков для <br> машин через фирменные магазины, и через <br> интернет-магазин.</p>
+                  <p class="text-blue-700"><b>{{t('Information:')}}</b></p>
+                  <p class="text-gray-500">{{t('The company sells tires and wheels for')}} < br> {{t('cars through branded stores, and through')}} < br> {{t('Online-store.')}}</p>
 
-                  <p class="text-blue-700"><b>Результат:</b></p>
-                  <p class="text-gray-500">Система МойСклад была интегрирована с интернет-магазином, и весь процесс товарооборота был полностью автоматизирован.</p>
+                  <p class="text-blue-700"><b>{{t('Result:')}}</b></p>
+                  <p class="text-gray-500">{{t('The MoySklad system was integrated with the Online-store, and the entire turnover process was fully automated.')}}</p>
 
                   <p class="border-b pb-5 mb-10"></p>
 
@@ -479,7 +474,7 @@
                     href=""
                     class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
                   >
-                    заказать
+                   order
                   </a>
                 </div>
               </div>
@@ -491,17 +486,18 @@
                   <img src="https://oe.uz/upload/iblock/c10/c10f9e891a4c77f990cd15917d03642c.png" alt="" />
                 </div>
                 <div class="text-lg md:text-xl p-5" data-aos="fade-up">
-                  <p class="text-blue-700"><b>Клиент:</b></p>
+                  <p class="text-blue-700"><b>{{t('Client:')}}</b></p>
                   <p class="text-gray-500">Al-Pari</p>
 
-                  <p class="text-blue-700"><b>Направление:</b></p>
-                  <p class="text-gray-500">Производство</p>
+                  <p class="text-blue-700"><b>{{t('Direction:')}}</b></p>
+                  <p class="text-gray-500">{{t('Production')}}</p>
 
-                  <p class="text-blue-700"><b>Информация:</b></p>
-                  <p class="text-gray-500">Компания занимается производством кондитерских <br> изделий. Продажи осуществляются через <br> фирменные магазины.</p>
+                  <p class="text-blue-700"><b>{{t('Information:')}}</b></p>
+                  <p class="text-gray-500">{{t('The company is engaged in the production of confectionery products . Sales are made through')}} < br> {{t('branded stores.')}}</p>
 
-                  <p class="text-blue-700"><b>Результат:</b></p>
-                  <p class="text-gray-500">Не смотря на сложность процесса производство <br> кондитерских изделий, нам удалось <br> систематизировать все процессы от закупа и <br> калькуляции сырья, до учёта продаж сразу в <br> нескольких фирменных магазинах.</p>
+                  <p class="text-blue-700"><b>{{t('Result:')}}</b></p>
+                  <p class="text-gray-500">{{t('Despite the complexity of the production process of')}} <br> {{t('confectionery, we managed to ')}}<br>
+                  {{t('systematize all processes from the purchase and ')}}< br> {{t('calculation of raw materials, to accounting for sales at once in')}} <br> {{t('several branded stores.')}}</p>
 
                   <p class="border-b pb-5 mb-10"></p>
 
@@ -509,7 +505,7 @@
                     href=""
                     class="text-md bg-blue-700 rounded-full text-white px-8 py-2 transition duration-300 ease-in-out hover:bg-blue-600 mr-6"
                   >
-                    заказать
+                  order
                   </a>
                 </div>
               </div>
@@ -524,8 +520,8 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 sm:px-20 relative sm:my-20">
     <div style="border-radius: 0 0 200px 0" class="rounded-br-3xl bg-blue-700 py-20 m-10 px-20 " data-aos="fade-right">
         <div class="flex justify-center items-center my-20 relative ">
-            <h1 class="text-3xl md:text-5xl font-bold text-white z-10 text-whites ">Сертификат <br> официального
-                <br> партнера</h1>
+            <h1 class="text-3xl md:text-5xl font-bold text-white z-10 text-whites ">{{t('Certificate of')}} < br> {{t('official')}}
+                                                                                    < br> {{t('partner')}}</h1>
         </div>
     </div>
 
@@ -538,29 +534,29 @@
 
 <div>
     <p class="text-gray-700 text-blue-700 text-5xl font-bold mb-10 flex justify-center mt-40 mb-10"
-       data-aos="fade-right">Тарифы</p>
+       data-aos="fade-right">{{t('Pricing plans')}}</p>
 </div>
 
 <div class=" max-w-3xl flex sm:container m-auto justify-between  sm:p-20" data-aos="fade-right">
 
     <div class="flex-1 transform hover:scale-110 duration-200">
         <div class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0">
-            <p class="text-3xl text-white text-center"><b>Быстрый старт</b></p>
+            <p class="text-3xl text-white text-center"><b>{{t('Quick start')}}</b></p>
         </div>
         <div class="shadow-2xl rounded-3xl px-10 py-10 m-5 ">
 
             <ul class=" text-gray-700 text-lg py-10 border-b border-gray-400">
-                <li class="text-center text-3xl">Цена: <b>2 000 000 сум</b></li>
+                <li class="text-center text-3xl">{{t('Price:')}} <b>2 000 000 {{t('uzs')}}</b></li>
             </ul>
             <ul class="list-disc text-gray-700 text-lg p-5">
-                <li>Изучения процессов</li>
-                <li>Первичная настройка</li>
-                <li>Обучения - 2 часа</li>
+               <li>{{t('Process studies')}}</li>
+               <li>{{t('Initial Setup')}}</li>
+               <li>{{t('Training - 2 hours')}}</li>
             </ul>
             <div class=" justify-center flex ">
                 <a href=""
                    class=" bg-blue-700 rounded-full text-white px-16 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900">
-                    Заказать
+                    {{t('order')}}
                 </a>
             </div>
         </div>
@@ -572,26 +568,26 @@
 
     <div class="flex-1 transform hover:scale-110 duration-200">
         <div class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0">
-            <p class="text-2xl text-white text-center"><b>Розница</b></p>
+            <p class="text-2xl text-white text-center"><b>{{t('Retail')}}</b></p>
         </div>
         <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
             <div class="text-center">
                 <h1  class="text-xl border-b py-5 text-gray-600">
-                    от <b>10 000 000</b> uzs
+                    {{t('from')}} <b>10 000 000</b> uzs
                 </h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3 border-b pb-5">
-                <li>Изучения процессов</li>
-                <li>Работа в тестовом режиме</li>
-                <li>Внедрения системы</li>
-                <li>Обучения до 3х сотрудников</li>
-                <li class="mb-20">Срок от 5 дней</li>
+                <li>{{t('Process studies')}}</li>
+                <li>{{t('Working in test mode')}}</li>
+                <li>{{t('System Implementations')}}</li>
+                <li>{{t('Training of up to 3 employees')}}</li>
+                <li class="mb-20">{{t('Term from 5 days')}}</li>
 
             </ul>
             <div class=" justify-center flex">
                 <a href=""
                    class=" bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-                    Заказать
+                   To order
                 </a>
             </div>
         </div>
@@ -601,25 +597,24 @@
     <div class="flex-1 transform hover:scale-110 duration-200">
 
         <div class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0">
-            <p class="text-2xl text-white text-center"><b>Оптовая торговля</b></p>
+            <p class="text-2xl text-white text-center"><b>{{t('Wholesale')}}</b></p>
         </div>
         <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
             <div class="text-center">
                 <h1  class="text-xl border-b py-5 text-gray-600">
-                    от <b>15 000 000</b> uzs</h1>
+                    {{t('from')}} <b>15 000 000</b> uzs</h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3 border-b pb-5">
-                <li>Изучения процессов</li>
-                <li>Работа в тестовом режиме</li>
-                <li>Внедрения системы</li>
-                <li>Обучения до 6 сотрудников</li>
-                <li class="mb-20">Срок от 10 дней</li>
-
+                <li>{{t('Process studies')}}</li>
+                <li>{{t('Working in test mode')}}< / li>
+                <li>{{t('System Implementations')}}< / li>
+                <li>{{t('Training of up to 6 employees')}}< / li>
+                <li class="mb-20">{{t('Term from 10 days')}}< / li>
             </ul>
             <div class=" justify-center flex">
                 <a href=""
                    class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-                    Заказать
+                    {{t('To order')}}
                 </a>
             </div>
         </div>
@@ -629,24 +624,24 @@
     <div class="flex-1 transform hover:scale-110 duration-200 ">
 
         <div class="shadow-lg rounded-t-3xl px-10 py-3 mx-5 bg-blue-700 -mb-16 z-0 ">
-            <p class="text-2xl text-white text-center"><b>Производство</b></p>
+            <p class="text-2xl text-white text-center"><b>{{t('Production')}}</b></p>
         </div>
         <div class="shadow-2xl rounded-2xl px-10 py-10 m-5 ">
             <div class="text-center">
                 <h1  class="text-xl border-b py-5 text-gray-600">
-                    от <b>20 000 000</b> uzs</h1>
+                    {{t('from')}} <b>20 000 000</b> uzs</h1>
             </div>
             <ul class="list-disc text-gray-600 text-base mt-3 border-b pb-5">
-                <li>Изучения процессов</li>
-                <li>Работа в тестовом режиме</li>
-                <li>Внедрения системы</li>
-                <li>Обучения до 10 сотрудников</li>
-                <li class="mb-20">Срок от 15 дней</li>
+               <li>{{t('Process studies')}}</li>
+               <li>{{t('Working in test mode')}}< / li>
+               <li>{{t('System Implementations')}}< / li>
+               <li>{{t('Training of up to 10 employees')}}< / li>
+               <li class="mb-20">{{t('Term from 15 days')}}< / li>
             </ul>
             <div class=" justify-center flex">
                 <a href=""
                    class="bg-blue-700 rounded-full text-white px-12 mt-4 py-3 transition duration-300 ease-in-out hover:bg-blue-900 mr-6">
-                    Заказать
+                    {{t('order')}}
                 </a>
             </div>
         </div>
@@ -657,14 +652,14 @@
 <div class="max-w-5xl mx-auto bg-white shadow-lg rounded-3xl  bg-blue-700 ">
     <div class="grid grid-cols-1 sm:grid-cols-3 sm:p-10">
         <div class="text-white col-span-2 p-10" data-aos="fade-right">
-            <p class="font-bold text-4xl leading-10">Попробуйте МойСклад <br>
-                прямо сейчас!
+            <p class="font-bold text-4xl leading-10">{{t('Try MySklad')}} <br>
+                {{t('right now!')}}
             </p>
         </div>
         <div data-aos="fade-right" class=" flex items-center pb-4 pl-4">
             <a href=""
                class=" bg-white rounded-full text-blue-700 px-12  py-3 transition duration-300 ease-in-out mr-6">
-                Попробовать
+              To try
             </a>
         </div>
     </div>
@@ -676,7 +671,7 @@
 <div class="bg-blue-700 h-40 max-w-4xl rounded-r-2xl -mb-20 z-20 relative"
      data-aos="fade-up-right">
     <div class="flex justify-center items-center my-20 pt-10">
-        <h1 class="text-4xl font-bold text-white z-10">Автоматизация торговли</h1>
+        <h1 class="text-4xl font-bold text-white z-10">{{t('Trade automation')}}</h1>
     </div>
 </div>
 
@@ -690,22 +685,22 @@
 
         <div class="z-0">
             <p>
-                Не знаете <b>как автоматизировать магазин,</b> или <b>какую программу использовать для торговли?</b> Не
-                знаете <b>какую программу выбрать для автоматизации производства?</b> Программа Мойсклад входит в топ
-                програм
-                для автоматизации торговли, склада, и производства в Ташкенте и в СНГ.
-                <b> Наши решения:</b>
-            <li>Автоматизации торговли</li>
-            <li>Автоматизация магазина</li>
-            <li>Автоматизация работы склада</li>
-            <li>Автоматизация складского учета</li>
-            <li>Складской учет</li>
-            <li>Управление торговлей</li>
-            <li>Учет материалов на складе</li>
-            <li>Программа для производства</li>
+               {{t('Dont know')}} <b>{{t('how to automate the store,')}}</b> {{t('or')}} <b>{{t('what program to use for trading?')}}< / b> {{t('Dont')}}
+               {{t('do you know which program to choose for production automation?')}}< / b> {{t('The Moysklad program is included in the top')}}
+              {{t(' programs')}}
+               {{t('for automation of trade, warehouse, and production in Tashkent and in the CIS.')}}
+               <b> {{t('Our solutions')}}:</b>
+               <li>{{t('Trade Automation')}}< / li>
+               <li>{{t('Store Automation')}}< / li>
+               <li>{{t('Warehouse automation')}}< / li>
+               <li>{{t('Automation of warehouse accounting')}}< / li>
+               <li>{{t('Warehouse accounting')}}< / li>
+               <li>{{t('Trade Management')}}< / li>
+               <li>{{t('Inventory of materials in the warehouse')}}< / li>
+               <li>{{t('Production program')}}< / li>
 
-            Программа Мойсклад входит в топ программ для автоматизации торговли, склада, и производства в Ташкенте и
-            в СНГ.
+               {{t('The Moysklad program is one of the top programs for automation of trade, warehouse, and production in Tashkent and')}}
+               {{t('in the CIS.')}}
            </p>
         </div>
 
@@ -716,8 +711,8 @@
         <div class="flex">
             <div class="flex justify-center items-center my-20 relative px-20 pt-10 leading-10">
                 <h1 data-aos="fade-up" class="text-5xl font-bold text-blue-700 z-10">
-                    Другие <br/>
-                    услуги
+                 {{t('Other')}} <br/>
+                 {{t('services')}}
                 </h1>
 
             </div>
