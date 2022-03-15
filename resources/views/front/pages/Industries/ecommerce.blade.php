@@ -16,7 +16,7 @@
                 {{ t("At its core,
             digital commerce is selling and buying goods and services online. The market is highly competitive, and
             businesses need to strive for more and more excellence to stay resilient, even though consumer demand for
-            online shopping is remarkably strong now. TeamPRO brings in technology expertise and a problem-oriented
+            online shopping is remarkably strong now. Smart Softwarebrings in technology expertise and a problem-oriented
             approach to drive positive and tangible changes across your business resulting in cost savings and revenue
             growth") }}
             </p>

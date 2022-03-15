@@ -10,7 +10,7 @@
     <div class="my-10">
 
         <h1 class="uppercase font-bold mt-10 text-2xl">
-            {{ t('About TeamPRO – Global IT Company') }}
+            {{ t('About Smart Software– Global IT Company') }}
         </h1>
         <hr class="border-t-2 w-12 border-yellow-600 my-1" />
         <img src="{{ asset('assets/icon/data-analytics.svg')}}" />
@@ -51,17 +51,17 @@
                         2020
                     </p>
                     <li>
-                        {{ t('TeamPRO attained AWS Select Tier Consulting Partner status.') }}
+                        {{ t('Smart Softwareattained AWS Select Tier Consulting Partner status.') }}
                     </li>
                     <li>
-                        {{ t("TeamPRO featured on the Clutch lists of Top IT Services Firms, Top Cloud Consultants, and Top
+                        {{ t("Smart Softwarefeatured on the Clutch lists of Top IT Services Firms, Top Cloud Consultants, and Top
                         1000 B2B Providers Globally.") }}
                     </li>
                     <li>
-                        {{ t('TeamPRO featured in IAOP Global Outsourcing 100 Award Lists 2020.') }}
+                        {{ t('Smart Softwarefeatured in IAOP Global Outsourcing 100 Award Lists 2020.') }}
                     </li>
                     <li>
-                        {{ t('TeamPRO acquired Gold Microsoft Competency in Application Integration.') }}
+                        {{ t('Smart Softwareacquired Gold Microsoft Competency in Application Integration.') }}
                     </li>
                 </ul>
             </div>
@@ -298,7 +298,7 @@
 
 
     <div class="my-10 text-2xl md:text-3xl font-bold">
-        {{ t('WHAT OUR CUSTOMERS GET CHOOSING TEAMPRO AS A VENDOR') }}
+        {{ t('WHAT OUR CUSTOMERS GET CHOOSING Smart SoftwareAS A VENDOR') }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
 
@@ -373,7 +373,7 @@
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
             <p class='text-gray-600 text-xl'>
-                {{ t("TeamPRO will help you improve your business operations with an optimal
+                {{ t("Smart Softwarewill help you improve your business operations with an optimal
                  service or assist you in launching a product that would win customers fast.") }}
             </p>
         </div>

@@ -9,7 +9,7 @@
         crossorigin="anonymous" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <title>{{ t('TeamPro Development Uzbekistan | Asror A. Zakirov Team') }}</title>
+    <title>{{ t('Smart Software Uzbekistan | Asror A. Zakirov Team') }}</title>
 
     @yield('css')
 

@@ -20,7 +20,7 @@
     </p>
 
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-        {{ t('TeamPRO Professional customer experience consulting services from ScienceSoft encompass fostering customer-first attitude, as well as designing and implementing a CX transformation strategy within your business. ') }}
+        {{ t('Smart SoftwareProfessional customer experience consulting services from ScienceSoft encompass fostering customer-first attitude, as well as designing and implementing a CX transformation strategy within your business. ') }}
         <span class="text-gray-800 font-bold">{{ t('The investment now may pay off soon enough along with tangible revenue growth:') }}</span>
     </p>
 
@@ -144,7 +144,7 @@
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ t(' TeamPRO With customer experience management consultants, you grow your business revenue providing the experience your customers buy into.') }}
+                {{ t(' Smart SoftwareWith customer experience management consultants, you grow your business revenue providing the experience your customers buy into.') }}
             </p>
         </div>
 

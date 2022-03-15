@@ -58,7 +58,7 @@
             </div>
           </div>
           <div class="flex mt-5">
-            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ t("2021 TeamPRO USA Corporation.")  }}
+            <span class="text-white text-opacity-70  mt-4 mb-10 md:mt-0 mb-2">{{ t("2021 Smart SoftwareUSA Corporation.")  }}
               {{ t("All rights reserved.")  }}</span>
           </div>
         </div>

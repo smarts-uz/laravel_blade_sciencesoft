@@ -14,9 +14,9 @@
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
     <div class="text-xl font-normal leading-relaxed text-left">
-        {{ t("TeamPRO is headquartered in ")  }}<strong>{{ t("McKinney, Texas.")  }}</strong>{{ t(" Our current network includes offices and
+        {{ t("Smart Softwareis headquartered in ")  }}<strong>{{ t("McKinney, Texas.")  }}</strong>{{ t(" Our current network includes offices and
         delivery centers
-        across 3 continents. TeamPRO continuously expands its international presence to tap into local talents
+        across 3 continents. Smart Softwarecontinuously expands its international presence to tap into local talents
         and efficiently cooperate with local industry leaders and startups. In June 2020, we opened our first Middle
         East office in the UAE to offer IT services, IT solutions and IT consultancy to businesses and government
         organizations in the Gulf region.")  }}

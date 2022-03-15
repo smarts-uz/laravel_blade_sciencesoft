@@ -12,7 +12,7 @@
             <hr class="w-14 border-b-2 bg-yellow-400 my-4">
             <img src="https://www.scnsoft.com/about/press-room_.svg" alt="" class="w-11/12 m-auto my-6">
             <p class="text-md leading-normal md:text-xl text-gray-600 my-6">
-                {{ t("TeamPRO is 31 years in IT business. We systematically post articles on acute IT
+                {{ t("Smart Softwareis 31 years in IT business. We systematically post articles on acute IT
                     problems to share our experience and enlighten people on IT topics. We are eager to
                     expand our public relations and cooperate with reporters, bloggers, influences, speakers,
                     and everyone else interested in creating expert IT content.") }}
@@ -23,7 +23,7 @@
             </h1>
             <hr class="w-14 border-b-2 bg-yellow-400 my-4">
             <p class="text-md leading-normal md:text-xl text-gray-600 my-6">
-                {{ t("TeamPRO provides IT consulting and custom software development services for multiple
+                {{ t("Smart Softwareprovides IT consulting and custom software development services for multiple
                     industries, including healthcare, retail, manufacturing, banking, and telecoms. Key domains
                     of our expertise are IoT, big data, information security, mobile and web development,
                     collaboration & knowledge management, and more.") }}<br><br>

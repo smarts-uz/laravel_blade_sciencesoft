@@ -19,7 +19,7 @@
                     services.")  }}
                 </p>
                 <p class="text-lg font-normal py-6">
-                    {{ t("Having a 31-year background in IT, TeamPRO provides customizable IT outsourcing services to
+                    {{ t("Having a 31-year background in IT, Smart Softwareprovides customizable IT outsourcing services to
                     reinforce your business with cost-effective")  }} <strong>{{ t("IT operations and fast software
                     development.")  }}</strong>
                 </p>
@@ -44,8 +44,8 @@
                         <p>
                             {{ t("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                             applying deep tech expertise with the focus on cost-effectiveness and unlocking new
-                            revenue streams. And this is exactly what TeamPRO does. By doing the right IT and
-                            doing IT right, TeamPRO helps companies make their IT a business growth enabler.")  }}
+                            revenue streams. And this is exactly what Smart Softwaredoes. By doing the right IT and
+                            doing IT right, Smart Softwarehelps companies make their IT a business growth enabler.")  }}
                         </p>
                     </div>
                 </div>
@@ -139,11 +139,11 @@
         <div class="text-lg md:text-2xl leading-relaxed">
 
             <p>
-                {{ t("We have been working with TeamPRO for five years so far. The team successfully performed the
+                {{ t("We have been working with Smart Softwarefor five years so far. The team successfully performed the
                     migration project in order to improve our processes.")  }} <…> {{ t("We have experienced great cooperation from
                     management, quick understanding of requirements, deep technical skills from assigned resources,
                     and company’s commitment to time, price, and quality. We would be pleased to recommend
-                    TeamPRO to anyone looking for outsourcing or extension of their own team!")  }}
+                    Smart Softwareto anyone looking for outsourcing or extension of their own team!")  }}
             </p>
             <div class="flex justify-end">
                 <em>
@@ -425,7 +425,7 @@
         </p>
         <p class="text-xl">
             {{ t("With timely transformations, the same IT landscape can become a source of sustainable business growth –
-            and that’s what TeamPRO helps achieve within the IT outsourcing services. Here’re some results on
+            and that’s what Smart Softwarehelps achieve within the IT outsourcing services. Here’re some results on
             both business and IT levels that you can expect.")  }}
         </p>
 

@@ -35,7 +35,7 @@
             <p class="text-xl leading-normal mt-3.5">
                 With <strong>
                 31 years of experience in the IT industry,
-            </strong> TeamPRO offers digital consulting services to help you
+            </strong> Smart Softwareoffers digital consulting services to help you
                 find opportunities for improvements in your business processes, set the direction for targeted digital
                 initiatives and draw maximum business value from technology advancement.
             </p>
@@ -43,7 +43,7 @@
 
         <div class="mt-9 mb-9">
             <strong class="text-4xl">
-                TEAMPRO AS A DIGITAL CONSULTANCY
+                Smart SoftwareAS A DIGITAL CONSULTANCY
             </strong>
             <div class="w-14 h-0.5 bg-yellow-600 mt-3.5"></div>
 

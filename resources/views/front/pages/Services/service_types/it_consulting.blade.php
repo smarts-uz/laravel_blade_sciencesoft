@@ -13,7 +13,7 @@
       </div>
       <p class="text-2xl">
         {{ t("With IT consulting services, you revamp your IT environment to make it go in hand with your business needs.
-         Leveraging 31-year experience in IT, TeamPRO offers consultancy on holistic, fast, and cost-effective
+         Leveraging 31-year experience in IT, Smart Softwareoffers consultancy on holistic, fast, and cost-effective
          optimization of IT systems and processes to ensure tangible business outcomes.")  }}
       </p>
 
@@ -237,8 +237,8 @@
               <p>
                 {{ t("Indeed, it’s not easy to connect IT with the business, but it becomes possible by
                 applying deep tech expertise with the focus on cost-effectiveness and unlocking new
-                revenue streams. And this is exactly what TeamPRO does. By doing the right IT and
-                doing IT right, TeamPRO helps companies make their IT a business growth enabler.")  }}
+                revenue streams. And this is exactly what Smart Softwaredoes. By doing the right IT and
+                doing IT right, Smart Softwarehelps companies make their IT a business growth enabler.")  }}
               </p>
             </div>
           </div>
@@ -379,7 +379,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("Smart Softwareis a full-service IT company with 700+ employees on board. We can combine IT consulting with
                end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -396,7 +396,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("Smart Softwareis a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -413,7 +413,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("Smart Softwareis a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -430,7 +430,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("Smart Softwareis a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>
@@ -447,7 +447,7 @@
             <h1 class="text-3xl md:text-2xl font-bold">{{ t("More than just consultants")  }}</h1>
 
             <p class=" text-xl md:text-2xl mt-6">
-              {{ t("TeamPRO is a full-service IT company with 700+ employees on board. We can combine IT consulting with
+              {{ t("Smart Softwareis a full-service IT company with 700+ employees on board. We can combine IT consulting with
               end-to-end IT services: implementation, support, managed services.")  }}
             </p>
           </div>

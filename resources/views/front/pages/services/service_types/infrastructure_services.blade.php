@@ -66,7 +66,7 @@
         </ul>
 
         <div class="text-2xl md:text-3xl font-bold mt-10">
-            {{ t('IT Infrastructure Services TeamPRO Delivers') }}
+            {{ t('IT Infrastructure Services Smart SoftwareDelivers') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -100,7 +100,7 @@
                          efficiency.") }}
                     </p>
                     <p class=" text-xl md:text-2xl my-6">
-                        {{ t('TeamPRO offers the following services in terms of IT infrastructure consulting:') }}
+                        {{ t('Smart Softwareoffers the following services in terms of IT infrastructure consulting:') }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="mb-4">
@@ -139,7 +139,7 @@
                         {{ t('Our offering in terms of IT infrastructure management includes the following services:') }}
                     </p>
                     <p class=" text-xl md:text-2xl my-6">
-                        {{ t('TeamPRO offers the following services in terms of IT infrastructure consulting:') }}
+                        {{ t('Smart Softwareoffers the following services in terms of IT infrastructure consulting:') }}
                     </p>
                     <div class="ml-6">
                         <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -155,7 +155,7 @@
                             <p class="text-lg">
                                 {{ t("With the help of such tools as System Center Configuration Manager (for Windows
                                  servers) and Ansible (both for Windows and Linux) our team is well versed in,
-                                 TeamPRO can detect and mitigate performance or security issues before your
+                                 Smart Softwarecan detect and mitigate performance or security issues before your
                                  employees or external users find them. Thus, we’ll help you maintain a high level of
                                  user satisfaction") }}
                             </p>
@@ -275,7 +275,7 @@
                     <p class=" text-xl md:text-2xl mt-4">
                         {{ t("As a Gold Microsoft Business Partner equipped with the competencies in Cloud Platform, Data
                          Platform, Datacenter, and Messaging, and an IBM Business Partner in Security Operations &
-                         Response, TeamPRO is ready to ensure the security management and threat protection
+                         Response, Smart Softwareis ready to ensure the security management and threat protection
                          across your cloud infrastructure by:") }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -394,11 +394,11 @@
                     <h1 class="text-1xl md:text-2xl font-bold">{{ t('Data center monitoring') }}</h1>
                     <p class=" text-xl md:text-2xl mt-4">
                         {{ t("If you do not feel like outsourcing all the set of data center management activities,
-                         TeamPRO offers their data center monitoring services separately. Our team supervises the
+                         Smart Softwareoffers their data center monitoring services separately. Our team supervises the
                          entire data center infrastructure, be it on-premises, cloud-based or hybrid. To ensure
                          constant monitoring within your data center infrastructure and deliver you detailed insights
                          into your data center state, we use such automated monitoring tools as Zabbix and Nagios.
-                         TeamPRO provides:") }}
+                         Smart Softwareprovides:") }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="my-4">
@@ -564,7 +564,7 @@
                             </h1>
                             <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                             <p class=" text-gray-500 text-lg md:text-xl">
-                                {{ t("TeamPRO successfully introduced the DevOps approach and implemented CI/CD pipeline
+                                {{ t("Smart Softwaresuccessfully introduced the DevOps approach and implemented CI/CD pipeline
                              to manage the IT infrastructure of a US multi-industry enterprise with a core business
                              in retail.") }}
                             </p>

@@ -15,7 +15,7 @@
                <p class="text-md md:text-lg text-gray-600 mb-4">
                 CRM services are aimed to <strong>automate marketing, sales and customer service</strong>,
                 and range from CRM consulting and implementation to testing and support of a CRM solution.<br><br>
-                Having <strong>12 years of experience in CRM services</strong>, TeamPRO helps businesses reduce their
+                Having <strong>12 years of experience in CRM services</strong>, Smart Softwarehelps businesses reduce their
                 marketing, sales and customer service costs with all-round CRM implementation and regain lost
                 business opportunities through evolution of the existing CRM.
                </p>
@@ -143,7 +143,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        TeamPRO can assess the feasibility of different
+                        Smart Softwarecan assess the feasibility of different
                         CRM options or CRM evolution investments and calculate your potential ROI.</p>
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">

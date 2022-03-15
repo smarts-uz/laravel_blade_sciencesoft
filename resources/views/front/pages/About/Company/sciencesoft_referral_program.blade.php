@@ -24,7 +24,7 @@
             {{ t('you can help us hunt for new IT consulting and custom software development opportunities. All you need is to provide us with relevant leads, and we’ll reward your efforts according to our Referral Program.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">
-            {{ t('Join TeamPRO Referral Program for IT consulting and software development services and get rewarded for the leads you bring us. We are open to expanding our business network and obtaining new IT consulting and software development challenges.') }}
+            {{ t('Join Smart SoftwareReferral Program for IT consulting and software development services and get rewarded for the leads you bring us. We are open to expanding our business network and obtaining new IT consulting and software development challenges.') }}
         </p>
         <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ t('COOPERATION PROCEDURE') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 my-4">

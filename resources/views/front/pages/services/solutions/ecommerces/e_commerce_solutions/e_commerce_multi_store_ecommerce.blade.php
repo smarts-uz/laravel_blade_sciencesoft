@@ -17,7 +17,7 @@
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3 md:px-16 text-center">An <a href="#"
                                                              class="border-b border-indigo-900 hover:text-blue-600">
-        ecommerce consultancy</a> since 2003, TeamPRO drives digital commerce success of B2C and B2B retailers.
+        ecommerce consultancy</a> since 2003, Smart Softwaredrives digital commerce success of B2C and B2B retailers.
     </p>
     <div class="w-full bg-blue-400 h-0.5"></div>
 
@@ -1022,7 +1022,7 @@
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                Founded in 1989, TeamPRO is a reputed IT consultancy and software development company. Competent
+                Founded in 1989, Smart Softwareis a reputed IT consultancy and software development company. Competent
                 ecommerce service providers, we advise on the multistore setup if your business targets multiple
                 geographies or manages multiple brands.
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Engage our ecommerce team </a>

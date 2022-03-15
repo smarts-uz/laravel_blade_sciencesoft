@@ -16,7 +16,7 @@
             <img
                 src="{{ asset('images/industries/banking_financial_services/banking-software-it-services-for-banks.svg') }}">
             <p class="my-5 text-xl">
-                {{ t('For 14 years TeamPRO delivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation, integration, testing and deployment as well as ensures their solid support.') }}
+                {{ t('For 14 years Smart Softwaredelivers various banking software solutions (portals, intranets, mobile apps, CRM, etc.), manages their successful implementation, integration, testing and deployment as well as ensures their solid support.') }}
             </p>
             <p class="my-5 text-xl">
                 {{ t('We provide both platform-based and custom banking software that serves the needs of retail and corporate banking and improves the relationships between financial facilities and their customers, attracting and retaining the most profitable clientele.') }}

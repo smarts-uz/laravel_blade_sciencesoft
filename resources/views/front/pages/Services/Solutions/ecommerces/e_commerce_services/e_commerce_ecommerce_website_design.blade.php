@@ -30,7 +30,7 @@
         life.</strong> Along with proficiency in
         <br> design
         tools and frameworks, one needs the knowledge of customer psychology and aesthetic excellence to <br> create
-        inspiring designs. And we are proud to say that TeamPRO has it all to make a difference in ecommerce <br>
+        inspiring designs. And we are proud to say that Smart Softwarehas it all to make a difference in ecommerce <br>
         website
         design!
     </p>

@@ -18,7 +18,7 @@
           src="https://www.scnsoft.com/software-development-services/python-devs/hire-sciencesofts-python-devs.svg"
         />
         <p class="my-5 text-lg">
-        {{ t("Extend your in-house team with Python developers or hire a dedicated Python team from TeamPRO to achieve technological advantage and save development costs with first-time-right code, on-time delivery, and high development productivity.")  }}
+        {{ t("Extend your in-house team with Python developers or hire a dedicated Python team from Smart Softwareto achieve technological advantage and save development costs with first-time-right code, on-time delivery, and high development productivity.")  }}
         </p>
       </div>
 
@@ -157,7 +157,7 @@
 
         </div>
 
-        <!-- WHY CHOOSE TEAMPRO AS YOUR JAVA DEVELOPMENT PARTNER? -->
+        <!-- WHY CHOOSE Smart SoftwareAS YOUR JAVA DEVELOPMENT PARTNER? -->
 
         <!-- WHAT MAKES TEAMPRO’S JAVA DEVELOPERS STAND OUT -->
         <div>

@@ -13,7 +13,7 @@
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-5 text-lg text-gray-500">{{ t('Last updated: September 11, 2020') }}</p>
         <p class="py-5 text-lg text-gray-500">{{ t("Please read these Terms of Use ('Terms', 'Terms of Use')") }}
-            carefully before using the https://www.scnsoft.com/ (the "Site") }} operated by TeamPRO USA Corporation ("The
+            carefully before using the https://www.scnsoft.com/ (the "Site") }} operated by Smart SoftwareUSA Corporation ("The
             Company", "us", "we", or "our") }}.") }}</p>
         <p class="py-5 text-lg text-gray-500">
             {{ t('This Site provides online access to information about Company and our products, services and opportunities') }}
@@ -182,7 +182,7 @@
             {{ t('If you have any questions about these Terms, please contact us by email ') }}<a href="#"
                 class="underline">contact@scnsoft.com</a>{{ t('  or by phone ') }}+1 214 306 68 37.</p>
         <p class="py-5 text-lg text-gray-500">
-            {{ t('Copyright 2015-2020 TeamPRO USA Corporation. All rights reserved') }}</p>
+            {{ t('Copyright 2015-2020 Smart SoftwareUSA Corporation. All rights reserved') }}</p>
     </div>
 
 @endsection

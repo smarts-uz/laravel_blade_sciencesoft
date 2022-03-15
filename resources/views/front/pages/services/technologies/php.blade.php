@@ -21,7 +21,7 @@
         {{ t("PHP is an open-source programming language powering up 80% of the web. It is the language of the White House websites, Facebook, Slack, Wikipedia, Flickr, and the basis for the majority of present-day web services, B2C and B2B applications, content management systems, and ecommerce solutions.")  }}
         </p>
         <p class="my-5 text-lg">
-          {{ t("With more than 15 years in PHP development, TeamPRO provides qualified PHP developers to help you leverage major PHP-based software appeals:")  }}
+          {{ t("With more than 15 years in PHP development, Smart Softwareprovides qualified PHP developers to help you leverage major PHP-based software appeals:")  }}
         </p>
 
        <div class="flex flex-row">

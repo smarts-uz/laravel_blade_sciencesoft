@@ -208,7 +208,7 @@
             </div>
         </div>
 
-        <!-- STREAMLINE YOUR .NET DEVELOPMENT WITH TEAMPRO -->
+        <!-- STREAMLINE YOUR .NET DEVELOPMENT WITH Smart Software-->
         <div>
             <h1 class="uppercase font-bold mt-10 text-xl md:text-3xl">
                 {{ t('STREAMLINE YOUR .NET DEVELOPMENT WITH TEAMPRO') }}

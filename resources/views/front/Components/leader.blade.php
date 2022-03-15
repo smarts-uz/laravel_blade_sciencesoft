@@ -10,7 +10,7 @@
             <div class="text-xl">
                 <p class="md:my-10 my-0">
                     {{ t(" “It's hardly possible to reduce costs by means of low rates in modern, dynamic IT. Low rates
-                   tend to result in excessive hours spent. We, at TeamPRO don't practice reducing IT service
+                   tend to result in excessive hours spent. We, at Smart Softwaredon't practice reducing IT service
                    costs by hiring low-paid employees. Instead, we raise productivity, i.e., deliver more in less
                    time. It results in a lower cost of output (new application functionality, stable
                    infrastructure, user issues resolved).”") }}

@@ -54,11 +54,11 @@
             <a href="#" class='px-8 py-3 text-sm bg-blue-700 text-white uppercase hover:bg-blue-900'>{{ t("Check Cvs of our devs")  }}</a>
           </div>
         </div>
-        <!-- WHY CHOOSE TEAMPRO AS YOUR JAVA DEVELOPMENT PARTNER? -->
+        <!-- WHY CHOOSE Smart SoftwareAS YOUR JAVA DEVELOPMENT PARTNER? -->
 
         <div>
           <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
-            {{ t("Why choose teampro as your java development partner?")  }}
+            {{ t("Why choose Smart Softwareas your java development partner?")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <div class="lg:flex lg:flex-row block mt-5">

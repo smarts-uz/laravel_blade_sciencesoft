@@ -16,7 +16,7 @@
 
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3 md:px-16 text-center">
-        TeamPRO is a trusted consulting and implementation partner to businesses starting online sales. In <a
+        Smart Softwareis a trusted consulting and implementation partner to businesses starting online sales. In <a
             href="#" class="border-b border-indigo-900 hover:text-blue-600">
         portal development</a> we advocate savvy use of technologies to disrupt the way ecommerce business is done.
     </p>
@@ -1041,7 +1041,7 @@
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                TeamPRO is an IT consulting and software development company with a history dating back to 1989 and
+                Smart Softwareis an IT consulting and software development company with a history dating back to 1989 and
                 a global presence encompassing delivery centers in the US, UAE, and Europe.
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600">Web portal development </a>
                 is our strategic business direction, and we consistently grow our expertise and knowledge to bring true

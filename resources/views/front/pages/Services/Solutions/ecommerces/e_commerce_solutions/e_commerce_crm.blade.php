@@ -59,7 +59,7 @@
         goes deeper into personalized marketing and customer service to bolster the conversion rate of your customer
         journeys. Such personalization may include individual promotions, discounts, priority customer service, just to
         name a few examples. A good example of such personalization making an impact on your customer relationships can
-        be found in a project TeamPRO did for a
+        be found in a project Smart Softwaredid for a
         <a href="#" class="border-b border-indigo-900 hover:text-blue-700">group of companies engaged in fashion retail
             and hospitality </a>
         where we implemented Dynamics 365 Marketing to enable the customer to run personalized email campaigns and
@@ -82,7 +82,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                TeamPRO will help you choose the most feasible CRM option, design its implementation strategy, and
+                Smart Softwarewill help you choose the most feasible CRM option, design its implementation strategy, and
                 carry out the whole implementation process to help you create more sales opportunities.
             </p>
         </div>

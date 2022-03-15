@@ -19,7 +19,7 @@
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3">
         Within 17 years in <a href="#" class="border-b border-indigo-900">
-        ecommerce development,</a> TeamPRO provides consultancy on implementation of custom ecommerce
+        ecommerce development,</a> Smart Softwareprovides consultancy on implementation of custom ecommerce
         solutions.
     </p>
     <div class="w-full bg-blue-400 h-0.5"></div>
@@ -258,7 +258,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                Our team at TeamPRO will be happy to brainstorm a unique concept of your ecommerce presence and
+                Our team at Smart Softwarewill be happy to brainstorm a unique concept of your ecommerce presence and
                 custom-build a shopping cart solution.
             </p>
         </div>
@@ -516,7 +516,7 @@
         Building a custom ecommerce solution with microservices requires a meticulous business analysis stage and solid
         architectural experience at the development stage. With
         <span class="text-gray-800 font-semibold">17 years of expertise in ecommerce technologies,</span>
-        TeamPRO offers end-to-end services in custom shopping cart development.
+        Smart Softwareoffers end-to-end services in custom shopping cart development.
     </p>
 
     <div class="md:flex">
@@ -635,7 +635,7 @@
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                Founded in 1989, TeamPRO is a reputable IT provider with a worldwide presence and a vast service
+                Founded in 1989, Smart Softwareis a reputable IT provider with a worldwide presence and a vast service
                 offering. Having set <a href="#" class="border-b border-indigo-900 hover:text-blue-600"> ecommerce</a>
                 as one of the strategic business directions, our team keeps apace with technology advances in the domain
                 and meets diverse business needs of e-retailers with best-suited ecommerce solutions.

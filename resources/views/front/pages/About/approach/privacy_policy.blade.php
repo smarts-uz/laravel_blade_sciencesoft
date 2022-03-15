@@ -10,7 +10,7 @@
         <h1 class="text-5xl font-semibold pb-10 text-gray-800">{{ t('Privacy Policy') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-5 text-lg text-gray-500">
-            {{ t('This privacy statement explains what personal data TeamPRO collects from you and how we use that data.') }}
+            {{ t('This privacy statement explains what personal data Smart Softwarecollects from you and how we use that data.') }}
         </p>
         <p class="py-4 text-lg text-gray-500">{{ t('Last updated on 5/17/2018.') }}</p>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHO WE ARE') }}</h1>
@@ -21,7 +21,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHAT PERSONAL DATA WE COLLECT') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-5 text-lg text-gray-500">
-            {{ t('TeamPRO collects data to provide you with direct feedback in respect of our services. You provide some of this data directly, such as when you fill in the Contact us form, Contact form, Office 365 migration calculator, QLEAN download and Ask author forms to contact us for support or comment on our articles. We get some data using technologies like cookies, and receiving error reports or usage data from software running on your device.') }}
+            {{ t('Smart Softwarecollects data to provide you with direct feedback in respect of our services. You provide some of this data directly, such as when you fill in the Contact us form, Contact form, Office 365 migration calculator, QLEAN download and Ask author forms to contact us for support or comment on our articles. We get some data using technologies like cookies, and receiving error reports or usage data from software running on your device.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">
             {{ t('We also obtain data from third parties. We protect data obtained from third parties according to the practices described in this statement, plus any additional restrictions imposed by the source of the data. These third-party sources may vary over time, but currently include:') }}
@@ -56,7 +56,7 @@
             <strong>{{ t(' Demographic data.') }}</strong>{{ t(' We collect data about you such as your country and preferred language.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
-            <strong>{{ t(' Website data.') }}</strong>{{ t(' We collect data about how you interact within TeamPRO website. For example, we collect:') }}
+            <strong>{{ t(' Website data.') }}</strong>{{ t(' We collect data about how you interact within Smart Softwarewebsite. For example, we collect:') }}
         </p>
         <ul style="list-style:square" class="text-blue-700 pl-5">
             <li class="py-2 text-lg ">
@@ -76,7 +76,7 @@
             </li>
             <li class="py-2 text-lg ">
                 <p class="text-gray-500">
-                    {{ t('Troubleshooting and Help Data. In case TeamPRO is engaged in troubleshooting and help, we collect data about you and your hardware, software, and other details related to the incident. Such data includes the contact data, the content of your chats and other communications with TeamPRO, the data about the condition of the machine and the application when the fault occurred and during diagnostics, and the system and registry data about software installations and hardware configurations.') }}
+                    {{ t('Troubleshooting and Help Data. In case Smart Softwareis engaged in troubleshooting and help, we collect data about you and your hardware, software, and other details related to the incident. Such data includes the contact data, the content of your chats and other communications with TeamPRO, the data about the condition of the machine and the application when the fault occurred and during diagnostics, and the system and registry data about software installations and hardware configurations.') }}
                 </p>
             </li>
         </ul>
@@ -92,7 +92,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHY WE COLLECT PERSONAL DATA') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('TeamPRO collects the data for the following purposes: sending communications, including promotional communications; advertising; analyzing website visitor statistics; technical website troubleshooting; improving website user experience.') }}
+            {{ t('Smart Softwarecollects the data for the following purposes: sending communications, including promotional communications; advertising; analyzing website visitor statistics; technical website troubleshooting; improving website user experience.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ t("In carrying out these purposes, we intend to tell you about issues you’ve asked us to tell you about; to contact you if we need to obtain or provide additional information; to make sure our records are right and to check every now and then that you’re happy and satisfied. We don't rent or trade email lists with other organisations and businesses.") }}
@@ -101,12 +101,12 @@
             {{ t('However, to enhance privacy, we have built in technological and procedural safeguards designed to prevent data leaks. For example, we store data we collect from you indirectly or directly, such as your name, email address or phone number, company name, in a secure database.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('Additionally, you can sign up for email subscriptions and choose whether you wish to receive promotional communications from TeamPRO by email, SMS, physical mail, and telephone.') }}
+            {{ t('Additionally, you can sign up for email subscriptions and choose whether you wish to receive promotional communications from Smart Softwareby email, SMS, physical mail, and telephone.') }}
         </p>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHY WE SHARE PERSONAL DATA') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('We share personal data with our Development Center, a TeamPRO-controlled affiliate, located at 2 Biady str., Minsk, Belarus. Our Development Center must abide by our data privacy and security requirements and is not allowed to use personal data it receives from us for any purposes other than specified above. To ensure an adequate level of protection of personal data you share, all obligations of the Development Center are established in an agreement between TeamPRO and the Development Center.') }}
+            {{ t('We share personal data with our Development Center, a TeamPRO-controlled affiliate, located at 2 Biady str., Minsk, Belarus. Our Development Center must abide by our data privacy and security requirements and is not allowed to use personal data it receives from us for any purposes other than specified above. To ensure an adequate level of protection of personal data you share, all obligations of the Development Center are established in an agreement between Smart Softwareand the Development Center.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ t('We will access, transfer, disclose, and preserve personal data, when we have a good faith belief that doing so is necessary to:') }}
@@ -169,7 +169,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('COOKIES & SIMILAR TECHNOLOGIES') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('TeamPRO uses cookies (small text files placed on your device) and similar technologies to provide our online services and to help collect data. The text in a cookie often consists of a string of numbers and letters that uniquely identifies your computer, but it can contain other information as well.') }}
+            {{ t('Smart Softwareuses cookies (small text files placed on your device) and similar technologies to provide our online services and to help collect data. The text in a cookie often consists of a string of numbers and letters that uniquely identifies your computer, but it can contain other information as well.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ t('We use cookies and similar technologies for several purposes, including:') }}</p>
@@ -196,7 +196,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('NOTICE TO END USERS') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
-            {{ t("TeamPRO is intended to deliver its services  to organizations. Your use of ScienceSoft’s website may be subject to your organization's policies, if any. If your organization is administering your use of ScienceSoft’s website, please direct your privacy inquiries to your administrator. TeamPRO is not responsible for the privacy or security practices of our customers, which may differ from those set forth in this privacy statement.") }}
+            {{ t("Smart Softwareis intended to deliver its services  to organizations. Your use of ScienceSoft’s website may be subject to your organization's policies, if any. If your organization is administering your use of ScienceSoft’s website, please direct your privacy inquiries to your administrator. Smart Softwareis not responsible for the privacy or security practices of our customers, which may differ from those set forth in this privacy statement.") }}
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ t('If you use an email address provided by an organization you are affiliated with, such as an employer or school, the owner of the domain (e.g., your employer) associated with your email address may access and process your data, including the contents of your communications and files.') }}
@@ -209,7 +209,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('FOR HOW LONG THE DATA WILL BE STORED') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('TeamPRO retains personal data for as long as necessary to provide the services and the feedback you have requested, or for other essential purposes, such as complying with our legal obligations, enforcing our agreements. Because these needs can vary for different data types, actual retention periods may vary. The criteria used to determine the retention periods include:') }}
+            {{ t('Smart Softwareretains personal data for as long as necessary to provide the services and the feedback you have requested, or for other essential purposes, such as complying with our legal obligations, enforcing our agreements. Because these needs can vary for different data types, actual retention periods may vary. The criteria used to determine the retention periods include:') }}
         </p>
         <ul style="list-style:square" class=" pl-5 text-blue-700">
             <li class="py-2 text-lg ">
@@ -219,7 +219,7 @@
             </li>
             <li class="py-2 text-lg ">
                 <p class="text-gray-500">
-                    {{ t('Is TeamPRO subject to a legal, contractual, or similar obligation to retain the data? Examples can include mandatory data retention laws in the applicable jurisdiction, government orders to preserve data relevant to an investigation, or data that must be retained for the purposes of litigation.') }}
+                    {{ t('Is Smart Softwaresubject to a legal, contractual, or similar obligation to retain the data? Examples can include mandatory data retention laws in the applicable jurisdiction, government orders to preserve data relevant to an investigation, or data that must be retained for the purposes of litigation.') }}
                 </p>
             </li>
         </ul>

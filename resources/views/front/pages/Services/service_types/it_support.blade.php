@@ -500,7 +500,7 @@
                     <p class='text-2xl font-bold'>{{ t("Get Your Stable and Efficient IT with Least Effort!")  }} </p>
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
-                <p class='text-gray-600 text-xl'>{{ t("TeamPRO professionals will conduct close monitoring of your IT
+                <p class='text-gray-600 text-xl'>{{ t("Smart Softwareprofessionals will conduct close monitoring of your IT
                 infrastructure or its components and set up efficient IT support workflows.")  }} </p>
             </div>
             <div class='w-2/5 m-0 flex justify-center items-center'>

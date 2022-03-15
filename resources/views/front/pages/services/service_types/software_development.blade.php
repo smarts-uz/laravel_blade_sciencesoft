@@ -24,7 +24,7 @@
                 alt="">
             <p class='text-gray-700 text-xl mt-2'><strong>{{ t('Invent, build, integrate, scale') }}</strong>
                 {{ t('and') }} <strong>{{ t('upgrade') }}</strong>
-                {{ t('your applications with TeamPRO! For more than three decades, TeamPRO has been harnessing digital technologies for the benefit of Fortune 500 businesses, mid and large enterprises, and startups across the variety of industries. Fully in the art and science of software engineering and management, we help you to build high-quality software solutions and products as well as deliver a wide range of related professional services.') }}
+                {{ t('your applications with TeamPRO! For more than three decades, Smart Softwarehas been harnessing digital technologies for the benefit of Fortune 500 businesses, mid and large enterprises, and startups across the variety of industries. Fully in the art and science of software engineering and management, we help you to build high-quality software solutions and products as well as deliver a wide range of related professional services.') }}
             </p>
             <h1 class='text-gray-900 mt-6'>
                 <p class='text-3xl font-bold'>{{ t('WHAT SERVICE ARE YOU LOOKING FOR?') }}</p>
@@ -1329,7 +1329,7 @@
                         </h1>
                         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                         <p class=" text-gray-500 text-sm mb-6 md:text-xl">
-                            {{ t('Migration to a new analytical system that TeamPRO implemented helped one of the top market research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and Apache Spark frameworks. The new system was 100 times faster compared to the old one and could process 1,000 different data formats.') }}
+                            {{ t('Migration to a new analytical system that Smart Softwareimplemented helped one of the top market research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and Apache Spark frameworks. The new system was 100 times faster compared to the old one and could process 1,000 different data formats.') }}
                         </p>
                         <a href="#"
                             class='absolute bottom-3 right-2 text-xl text-blue-500 hover:text-blue-800'>{{ t('Learn More') }}

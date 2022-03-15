@@ -145,7 +145,7 @@
                 <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
                 <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                    Our team at TeamPRO is creative and skilled. With us, customer experience in your web store will
+                    Our team at Smart Softwareis creative and skilled. With us, customer experience in your web store will
                     be personalized just to the right extent.
                 </p>
             </div>

@@ -107,7 +107,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                Task TeamPRO to create seamless customer experience across sales channels and automate your business
+                Task Smart Softwareto create seamless customer experience across sales channels and automate your business
                 processes.
             </p>
         </div>
@@ -147,7 +147,7 @@
     <div class=" mt-8 text-xl lg:text-2xl">
         <p class="">Running several isolated systems, your retail business risks to suffer from tons of manual work and
             frequent data inconsistencies. You need an elaborate plan on how to map data flows and connect the systems
-            effectively. TeamPRO will be happy to bring our extensive integration expertise together and help
+            effectively. Smart Softwarewill be happy to bring our extensive integration expertise together and help
             transform your independent systems into a coherent whole. <a href="#" class="underline hover:text-blue-700">Contact
                 our team</a> for a targeted dialogue.
 

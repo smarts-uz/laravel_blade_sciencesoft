@@ -35,7 +35,7 @@
             <i>
                 <b> Editor’s note: </b>Without going into much detail, we put together the essential information on how
                 to start an online retail business in six steps. And if you are determined to profit from online sales,
-                our team at TeamPRO will be happy to provide further ecommerce consulting services.
+                our team at Smart Softwarewill be happy to provide further ecommerce consulting services.
             </i>
 
         </p>
@@ -191,7 +191,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3.5"></div>
                 </div>
                 <p class=" mt-4 text-xl">
-                    TeamPRO will help you set up an ecommerce website and provide strong business consulting support
+                    Smart Softwarewill help you set up an ecommerce website and provide strong business consulting support
                     throughout the cooperation.
                 </p>
             </div>
@@ -288,7 +288,7 @@
         <p class="text-xl mt-6">
             Ecommerce is definitely an industry worth investing in. And though I’ve only briefed you on the most
             important steps, you can conclude that it is not hard to get started therein, especially if you have expert
-            support. TeamPRO offers consulting and development services for entrepreneurs planning to benefit from
+            support. Smart Softwareoffers consulting and development services for entrepreneurs planning to benefit from
             an online business presence – contact our team for details and guidance.
         </p>
     </div>

@@ -19,7 +19,7 @@
     <div class="w-full bg-blue-400 h-0.5 mt-6"></div>
     <p class="text-gray-500 my-3 md:px-16 text-center">As an <a href="#"
                                                                 class="border-b border-indigo-900 hover:text-blue-600">
-        ecommerce consulting and development partner,</a> TeamPRO boasts 17 years of launching and scaling business
+        ecommerce consulting and development partner,</a> Smart Softwareboasts 17 years of launching and scaling business
         operations for e-retailers.
     </p>
     <div class="w-full bg-blue-400 h-0.5"></div>
@@ -691,7 +691,7 @@
             <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                TeamPRO is ready to be your consulting partner throughout a business launch and help you with a
+                Smart Softwareis ready to be your consulting partner throughout a business launch and help you with a
                 website implementation part.
             </p>
         </div>
@@ -938,7 +938,7 @@
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">
-                As digital presence becomes a must-have across business verticals, TeamPRO builds on 17 years of experience to deliver quality
+                As digital presence becomes a must-have across business verticals, Smart Softwarebuilds on 17 years of experience to deliver quality
                 <a href="#" class="border-b border-indigo-900 hover:text-blue-600"> ecommerce implementation services </a>
                 to our customers. We house consulting and development competencies to assume full ownership over ecommerce business launch.
             </p>

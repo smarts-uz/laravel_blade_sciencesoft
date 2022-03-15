@@ -205,7 +205,7 @@
 
                 <p class=" mt-4 text-xl">
 
-                    TeamPRO offers 17 years of ecommerce development and integration experience to automate and
+                    Smart Softwareoffers 17 years of ecommerce development and integration experience to automate and
                     synchronize your business flows and reduce related costs.
 
 
@@ -251,7 +251,7 @@
             Though ecommerce website integration offers multiple advantages, it calls for sufficient experience to
             execute it skillfully. One needs to review the systems intended for integration, investigate current
             business processes, and decide how to streamline them with automation in the best possible way. If you are
-            looking to integrate software components into a cohesive ecosystem, shortlist TeamPRO as a potential
+            looking to integrate software components into a cohesive ecosystem, shortlist Smart Softwareas a potential
             vendor. We have vast ecommerce integration expertise and huge enthusiasm to bring transformative changes to
             your business fast. Send us a request and get a response shortly!
         </p>

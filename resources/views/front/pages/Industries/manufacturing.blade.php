@@ -32,7 +32,7 @@
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ t(' TeamPro team will analyze your business operations and offer you robust IT solutions to
+                {{ t(' Smart Softwareteam will analyze your business operations and offer you robust IT solutions to
                 boost your manufacturing company’s productivity and optimize operational costs.') }}
             </p>
         </div>

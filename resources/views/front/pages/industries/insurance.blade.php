@@ -32,7 +32,7 @@
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ t(' TeamPro team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.') }}
+                {{ t(' Smart Softwareteam will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.') }}
             </p>
         </div>
 
@@ -396,7 +396,7 @@
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ t(' TeamPro  team will help you implement a tailored solution that will meet the business needs of your insurance company.') }}
+                {{ t(' Smart Software team will help you implement a tailored solution that will meet the business needs of your insurance company.') }}
             </p>
         </div>
 

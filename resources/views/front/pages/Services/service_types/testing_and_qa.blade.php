@@ -18,7 +18,7 @@
                 secure, and user-friendly.") }}
             <strong>{{ t("A software testing company with 31 years of
                 experience") }}</strong>,
-            {{ t("TeamPRO is ready
+            {{ t("Smart Softwareis ready
                 to take up a testing project of any scale and complexity, introduce an efficient quality
                 assurance
                 process, and enhance your software quality management strategy.") }}
@@ -262,7 +262,7 @@
 
             <p>
 
-                {{ t("We started working with TeamPRO in early 2011 testing our core application called
+                {{ t("We started working with Smart Softwarein early 2011 testing our core application called
                     Careware.
                     The application is quite complex and has many ERP and mobile elements in it.") }}
             </p>
@@ -292,7 +292,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold mt-10">
-            {{ t('Why testing with TeamPRO is a success') }}
+            {{ t('Why testing with Smart Softwareis a success') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 

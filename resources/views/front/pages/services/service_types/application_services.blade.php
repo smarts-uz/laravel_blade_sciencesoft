@@ -15,7 +15,7 @@
             <hr class="w-12 mt-5 border-yellow-400 h-4" />
             <img class="w-50%" src="https://www.scnsoft.com/application-development/application_services.svg" />
             <p class="my-5 text-lg">
-                {{ t("Founded in 1989, TeamPRO is a provider of IT consulting and software
+                {{ t("Founded in 1989, Smart Softwareis a provider of IT consulting and software
            development services. Having started as a small AI product company, we
            switched to IT services in 2002 and ever since we have helped non-IT
            organizations and software product companies improve business
@@ -65,7 +65,7 @@
         </h1>
         <hr class="w-12 mt-5 border-yellow-400 h-4" />
         <p class="font-sans ">
-            {{ t('TeamPRO offers the following set of application services for midsized and big enterprises:') }}
+            {{ t('Smart Softwareoffers the following set of application services for midsized and big enterprises:') }}
         </p>
         <p><img alt="" class="pt-4" src="https://www.scnsoft.com/application-development/application-services_6.svg"
                 style="height:158px; width:701px"></p>

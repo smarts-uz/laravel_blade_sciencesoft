@@ -20,7 +20,7 @@
                 </p>
 
                 <p class="text-lg font-normal py-6">
-                    <strong>{{ t("Managed IT services by TeamPRO backed with 12 years of experience in ITSM span the all-round
+                    <strong>{{ t("Managed IT services by Smart Softwarebacked with 12 years of experience in ITSM span the all-round
             support
             for cloud, on-premises and hybrid infrastructures") }}</strong>
                     {{ t("and include consulting and migration
@@ -380,7 +380,7 @@
                         {{ t('How do I know if my IT infrastructure costs may be reduced?') }}
                     </h1>
                     <p class=" text-lg md:text-xl ">
-                        {{ t("TeamPRO adheres to strict security policies and applies in-house security management systems
+                        {{ t("Smart Softwareadheres to strict security policies and applies in-house security management systems
                 ensuring 24/7 security monitoring to prevent unsolicited access and ransomware threats to sensitive
                 data.") }}
                     </p>

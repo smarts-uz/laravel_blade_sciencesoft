@@ -39,7 +39,7 @@
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ t('TeamPro healthcare IT consultants help choose and adopt fitting healthcare solutions and ensure your IT landscape works effectively to support clinical processes and drive new digital healthcare initiatives. ') }}
+                {{ t('Smart Softwarehealthcare IT consultants help choose and adopt fitting healthcare solutions and ensure your IT landscape works effectively to support clinical processes and drive new digital healthcare initiatives. ') }}
             </p>
         </div>
 
@@ -328,7 +328,7 @@
             <hr class="w-12 bg-yellow-500 h-0.5 mb-6">
 
             <p class="text-lg text-gray-600 my-6 md:text-xl lg:text-2xl">
-                {{ t('TeamPro  healthcare IT team will advise you on how to achieve your goals as fast as possible with healthcare software.') }}
+                {{ t('Smart Software healthcare IT team will advise you on how to achieve your goals as fast as possible with healthcare software.') }}
             </p>
         </div>
 

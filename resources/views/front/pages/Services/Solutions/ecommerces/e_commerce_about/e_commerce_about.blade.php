@@ -32,7 +32,7 @@
                 <div class="lg:ml-7 ml-2 lg:mr-12 mr-32 lg:w-4/5 w-full">
                     <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-16 w-full lg:mt-0 mt-2">
                         Back in 1989, a small team of IT enthusiasts launched a company focusing on the development of a
-                        software product powered by semantic search. In 2002, TeamPRO transformed into a
+                        software product powered by semantic search. In 2002, Smart Softwaretransformed into a
                         full-service IT
                         provider and moved to an outsourced service delivery model.
                     </p>
@@ -80,7 +80,7 @@
             <div class="flex flex-wrap lg:w-5/6">
                 <div class="lg:ml-7 ml-2 lg:mr-12 mr-28 lg:w-4/5 w-full">
                     <p class="lg:text-lg lg:text-left text-center lg:ml-0 ml-14 w-full lg:mt-0 mt-2">
-                        Now in 2020, TeamPRO is a large team of 700+ talents from a variety of IT domains with
+                        Now in 2020, Smart Softwareis a large team of 700+ talents from a variety of IT domains with
                         competencies in 23 industries, international presence and 2,695 projects completed.
                     </p>
                 </div>
@@ -175,7 +175,7 @@
         </div>
     </div>
     <div class="lg:mx-36 mx-2 lg:mt-3 mt-0 mb-5">
-        <h1 class="text-2xl lg:ml-16 ml-2 lg:mr-0 mr-2 lg:text-left text-center mt-20 mb-3">TeamPRO proved to be a
+        <h1 class="text-2xl lg:ml-16 ml-2 lg:mr-0 mr-2 lg:text-left text-center mt-20 mb-3">Smart Softwareproved to be a
             professional service provider from the outset. We appreciate their proactive
             approach and ability to suggest improvements to a prospective solution on both architectural and business
             levels.

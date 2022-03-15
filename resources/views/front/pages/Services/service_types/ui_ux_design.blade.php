@@ -14,7 +14,7 @@
         <hr class="w-12 mt-5 text-yellow-400 h-4" />
         <img src="https://www.scnsoft.com/application-development/web-design/cover-pic---web-design-(3).png" />
         <p class="my-5 text-lg">
-            {{ t("Founded in 1989, TeamPRO is a provider of IT consulting and
+            {{ t("Founded in 1989, Smart Softwareis a provider of IT consulting and
             software development services. Having started as a small AI product
             company, we switched to IT services in 2002 and ever since we have
             helped non-IT organizations and software product companies improve

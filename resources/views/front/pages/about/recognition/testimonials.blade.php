@@ -16,7 +16,7 @@
                 {{ t('Our project portfolio includes') }} <strong>2,695 {{ t('success stories') }}</strong>,
                 {{ t("including projects
                     for Walmart, eBay, NASA JPL, PerkinElmer, Baxter, IBM, Leo Burnett. We
-                    asked our customers what are their impressions on cooperation with TeamPRO –
+                    asked our customers what are their impressions on cooperation with Smart Software–
                     have a look at their answers in the testimonials below.") }}
             </p>
         </div>
@@ -28,10 +28,10 @@
             </div>
             <div class="lg:flex-row lg:w-1/2">
                 <h1 class="text-2xl lg:3xl text-gray-800 font-bold">
-                    {{ t('Leo Burnett Worldwide: What Is Working with TeamPRO Like') }}</h1>
+                    {{ t('Leo Burnett Worldwide: What Is Working with Smart SoftwareLike') }}</h1>
                 <hr class="border-t-2 w-12 border-yellow-600 my-1" />
                 <p class="text-gray-600 text-md md:text-lg lg:text-xlleading-7 md:leading-8 lg:leading-9">
-                    {{ t("For 4 years, TeamPRO have been an outsourcing partner of a global advertising agency
+                    {{ t("For 4 years, Smart Softwarehave been an outsourcing partner of a global advertising agency
                     Leo Burnett Worldwide. Sam Gooby, Head of Platform Production at Leo Burnett, shares his
                     first-hand experience on collaboration with our IT experts.") }}
                 </p>
@@ -53,9 +53,9 @@
                         <em>
                             {{ t("Chiron Health’s core business is providing caregivers with a web-based
                                 telemedicine platform which allows them to connect with patients for routine
-                                follow-ups and similar use cases. We engaged TeamPRO to build an Android
+                                follow-ups and similar use cases. We engaged Smart Softwareto build an Android
                                 app that complements our web-based platform for our patients.") }}
-                            <br>{{ t("TeamPRO developers proved themselves to be Android experts.
+                            <br>{{ t("Smart Softwaredevelopers proved themselves to be Android experts.
                                 They advised and successfully lead the way from end to end through the technical
                                 challenges and considerations with development of the Android app. TeamPRO
                                 team was in daily contact with our developers and our method of communication was
@@ -63,7 +63,7 @@
                                 TeamPRO’s solid approach to testing. The thorough testing they performed on our
                                 beta environment ensured that the app was launched without critical bugs. We have
                                 also engaged them to introduce a few enhancements to the app and would certainly
-                                consider TeamPRO as a technology partner in further software development initiatives.") }}
+                                consider Smart Softwareas a technology partner in further software development initiatives.") }}
                         </em>
                     </p>
                 </div>
@@ -89,7 +89,7 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ t("We have been cooperating with TeamPRO for 5 years. TeamPRO's
+                            {{ t("We have been cooperating with Smart Softwarefor 5 years. TeamPRO's
                                 team of five Java developers and one Test Engineer have been working hard
                                 to ensure our product - Enonic XP - exceeds our customer's expectations.
                                 The team has become an integrated part of Enonic, and we appreciate their
@@ -130,7 +130,7 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ t("We worked with TeamPRO in developing our SharePoint Intranet.
+                            {{ t("We worked with Smart Softwarein developing our SharePoint Intranet.
                                 The development and implementation process was very smooth and delivered
                                 the exact results we were expecting. We will surely work with them in the
                                 future.") }}
@@ -160,7 +160,7 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ t("We partnered with TeamPRO to carry out penetration testing of our Simpli5®
+                            {{ t("We partnered with Smart Softwareto carry out penetration testing of our Simpli5®
                                 web-based application.") }}
                             <br>{{ t("We were under some time pressure to get penetration testing performed as quickly
                                 as possible. When I reached out TeamPRO, they were immediately responsive to my
@@ -168,8 +168,8 @@
                                 the testing shortly after our acceptance of the quote.") }}
                             <br>{{ t("TeamPRO’s security testing team performed exceptionally well and gave us
                                 confidence that our application posed no serious vulnerabilities. The collaboration
-                                was smooth and easy, and we were very pleased with selecting TeamPRO as our vendor.") }}
-                            <br>{{ t("Cooperating with TeamPRO was a terrific experience, and we will definitely
+                                was smooth and easy, and we were very pleased with selecting Smart Softwareas our vendor.") }}
+                            <br>{{ t("Cooperating with Smart Softwarewas a terrific experience, and we will definitely
                                 consider them for our future security testing needs.") }}
                         </em>
                         <a href="#" class="text-blue-500">{{ t('Read original') }}</a>
@@ -197,11 +197,11 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ t("TeamPRO offers a high caliber of resources skilled in Microsoft
+                            {{ t("Smart Softwareoffers a high caliber of resources skilled in Microsoft
                                 Azure .NET, mobile and Quality Assurance. Over the past three years,
-                                Lixar was very pleased with the service provided by TeamPRO development
+                                Lixar was very pleased with the service provided by Smart Software
                                 teams and executive management. For accelerated project timelines which
-                                require skilled resources, TeamPRO is a company that your team should consider.") }}
+                                require skilled resources, Smart Softwareis a company that your team should consider.") }}
                         </em>
                     </p>
                 </div>

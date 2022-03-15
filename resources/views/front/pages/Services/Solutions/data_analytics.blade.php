@@ -14,7 +14,7 @@
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
                     {{ t("Data analytics helps businesses convert their raw business data into actionable insights. Since 1989,
-                    TeamPRO has been helping companies make quick and data-driven decisions in the ever-changing
+                    Smart Softwarehas been helping companies make quick and data-driven decisions in the ever-changing
                     environment by rendering a full set of data analytics services.") }}
                 </p>
             </div>
@@ -28,7 +28,7 @@
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
                 <p class='text-gray-600 text-xl'>
-                    {{ t("Within a reasonable time, TeamPRO will help you defeat fragmented and
+                    {{ t("Within a reasonable time, Smart Softwarewill help you defeat fragmented and
                 inaccurate analytics and reporting by implementing data analytics best practices for improved decision
                 quality and speed.") }}
                 </p>
@@ -51,14 +51,14 @@
                 <img src="https://www.scnsoft.com/data-analytics/business-areas-competence-teampro.svg" alt="">
             </div>
             <p class="my-8 text-xl font-normal">
-                {{ t('For you to ensure full-fledged data analytics, TeamPRO covers the following technical components:') }}
+                {{ t('For you to ensure full-fledged data analytics, Smart Softwarecovers the following technical components:') }}
             </p>
             <div class="w-4/5">
                 <img src="https://www.scnsoft.com/data-analytics/technical-components-teampro.svg" alt="">
             </div>
         </div>
         <div class="text-2xl md:text-4xl font-bold my-20">
-            {{ t('WHY CHOOSE TEAMPRO AS YOUR DATA ANALYTICS SERVICE PROVIDER') }}
+            {{ t('WHY CHOOSE Smart SoftwareAS YOUR DATA ANALYTICS SERVICE PROVIDER') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -221,7 +221,7 @@
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
                 <p class='text-gray-600 text-xl'>
-                    {{ t("TeamPRO is ready to calculate your ROI so that you eliminate the
+                    {{ t("Smart Softwareis ready to calculate your ROI so that you eliminate the
                 guesswork in figuring out the value of your data analytics project.") }}
                 </p>
             </div>
@@ -310,7 +310,7 @@
                     </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ t("Migration to a new analytical system that TeamPRO implemented helped one of the top market
+                        {{ t("Migration to a new analytical system that Smart Softwareimplemented helped one of the top market
                         research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and
                         Apache Spark frameworks. The new system was 100 times faster compared to the old one and could
                         process 1,000 different data formats.") }}
@@ -335,33 +335,7 @@
                     </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ t("Migration to a new analytical system that TeamPRO implemented helped one of the top market
-                        research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and
-                        Apache Spark frameworks. The new system was 100 times faster compared to the old one and could
-                        process 1,000 different data formats.") }}
-                    </p>
-
-                </div>
-            </div>
-            <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">{{ t('Learn More') }}<i
-                    class="fas fa-arrow-right ml-4"></i></a>
-        </div>
-
-        <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
-            <div class="flex flex-col md:flex-row items-start ">
-                <div class="flex justify-start  w-1/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
-                    <img class="w-58  top-0"
-                        src="https://www.scnsoft.com/boss/images/5dd8f2b4-46b5-47e2-9dd0-e709108e1d9dbig_data_analytics_for_media_consumption_patterns_small.jpg"
-                        alt="">
-                </div>
-                <div class=" flex flex-col w-4/5 mb-10">
-                    <h1 class="text-3xl md:text-4xl font-bold">
-                        {{ t("Big Data Implementation for Advertising Channel Analysis in
-                    10+ Countries") }}
-                    </h1>
-                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
-                    <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ t("Migration to a new analytical system that TeamPRO implemented helped one of the top market
+                        {{ t("Migration to a new analytical system that Smart Softwareimplemented helped one of the top market
                         research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and
                         Apache Spark frameworks. The new system was 100 times faster compared to the old one and could
                         process 1,000 different data formats.") }}
@@ -387,7 +361,7 @@
                     </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ t("Migration to a new analytical system that TeamPRO implemented helped one of the top market
+                        {{ t("Migration to a new analytical system that Smart Softwareimplemented helped one of the top market
                         research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and
                         Apache Spark frameworks. The new system was 100 times faster compared to the old one and could
                         process 1,000 different data formats.") }}
@@ -413,7 +387,33 @@
                     </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <p class=" text-gray-500 text-xl md:text-2xl">
-                        {{ t("Migration to a new analytical system that TeamPRO implemented helped one of the top market
+                        {{ t("Migration to a new analytical system that Smart Softwareimplemented helped one of the top market
+                        research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and
+                        Apache Spark frameworks. The new system was 100 times faster compared to the old one and could
+                        process 1,000 different data formats.") }}
+                    </p>
+
+                </div>
+            </div>
+            <a class="uppercase absolute right-10 text-blue-700 bottom-6" href="#">{{ t('Learn More') }}<i
+                    class="fas fa-arrow-right ml-4"></i></a>
+        </div>
+
+        <div class="rounded-sm bg-gray-50 relative transition-shadow p-2 md:p-8">
+            <div class="flex flex-col md:flex-row items-start ">
+                <div class="flex justify-start  w-1/5 text-xl mr-0 md:mr-8 mb-8 md:mb-0">
+                    <img class="w-58  top-0"
+                        src="https://www.scnsoft.com/boss/images/5dd8f2b4-46b5-47e2-9dd0-e709108e1d9dbig_data_analytics_for_media_consumption_patterns_small.jpg"
+                        alt="">
+                </div>
+                <div class=" flex flex-col w-4/5 mb-10">
+                    <h1 class="text-3xl md:text-4xl font-bold">
+                        {{ t("Big Data Implementation for Advertising Channel Analysis in
+                    10+ Countries") }}
+                    </h1>
+                    <hr class="w-12 border-yellow-600 text-gray-800 my-4">
+                    <p class=" text-gray-500 text-xl md:text-2xl">
+                        {{ t("Migration to a new analytical system that Smart Softwareimplemented helped one of the top market
                         research companies secure an innovative big data solution based on Apache Hadoop, Apache Hive and
                         Apache Spark frameworks. The new system was 100 times faster compared to the old one and could
                         process 1,000 different data formats.") }}
@@ -455,7 +455,7 @@
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
                 <p class='text-gray-600 text-xl'>
-                    {{ t("TeamPRO is ready to calculate your ROI so that you eliminate the
+                    {{ t("Smart Softwareis ready to calculate your ROI so that you eliminate the
                 guesswork in figuring out the value of your data analytics project.") }}
                 </p>
             </div>
