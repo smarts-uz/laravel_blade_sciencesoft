@@ -14,12 +14,12 @@
 
             <!-- Servise -- develompent -- SubTitle -->
             <p class="lg:text-5xl text-3xl  font-bold">
-                {{ t('Overview of Software Development Process at TeamPRO') }}
+                {{ t('Overview of Software Development Process at Smart Software') }}
             </p>
             <!-- Servise -- develompent -- SubTitles LINE -->
             <div class="h-0.5 w-10 mb-5 pl-4 mx-3 bg-yellow-500 my-3"></div>
             <p class="mb-5  text-xl text-gray-600 font-normal">
-                {{ t("At TeamPRO, we tailor the software development
+                {{ t("At Smart Software, we tailor the software development
     process to your specific business needs to deliver high-quality software on time and within budget.") }}
             </p>
 
@@ -78,7 +78,7 @@
                     <hr class="w-12 border-b-2 border-yellow-600 m-4" /><br>
                     <p class=" text-base sm:text-lg text-sm">{{ t('With an established') }} <a href="#"
                             class="underline hover:text-blue-800 ">{{ t('DevOps') }} </a>
-                        {{ t("culture at TeamPRO, we streamline
+                        {{ t("culture at Smart Software, we streamline
             software delivery and improve its quality with the following DevOps best practices:") }}
                     </p>
                     <br>
@@ -169,7 +169,7 @@
 
             <div class="mt-10">
                 <p class="lg:text-4xl text-3xl  font-bold">
-                    {{ t('HIGHLIGHTS OF SOFTWARE DEVELOPMENT WITH TEAMPRO') }}
+                    {{ t('HIGHLIGHTS OF SOFTWARE DEVELOPMENT WITH Smart Software') }}
                 </p>
                 <!-- Servise -- develompent -- SubTitles LINE -->
                 <div class="h-0.5 w-10 mb-5 pl-4 mx-3 bg-yellow-500 my-3"></div>

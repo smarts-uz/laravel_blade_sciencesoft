@@ -22,7 +22,7 @@
 
         <strong class="text-blue-900">Tanya Yablonskaya</strong>
         <p class="text-lg">
-            Ecommerce Industry Analyst, TeamPRO</p>
+            Ecommerce Industry Analyst, Smart Software</p>
 
         <hr class="mt-3.5">
 
@@ -302,7 +302,7 @@
             <div class="lg:w-8/12 w-full">
                 <div class="lg:ml-20 ml-0 mb-6 mt-6">
                     <strong class="text-2xl">
-                        Ecommerce Development Services by TeamPRO
+                        Ecommerce Development Services by Smart Software
                     </strong>
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 

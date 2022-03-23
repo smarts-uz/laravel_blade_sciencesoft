@@ -10,13 +10,13 @@
 <div class="container mx-auto w-full">
     <div class="lg:mx-36 mx-2">
         <div class="col-12">
-            <h1 class="font-bold lg:text-4xl text-2xl">TeamPRO: Ecommerce Agency for Your Digital Success</h1>
+            <h1 class="font-bold lg:text-4xl text-2xl">Smart Software: Ecommerce Agency for Your Digital Success</h1>
             <hr class="bg-yellow-500 w-12 mt-5" style="height: 3px">
             <div>
-                <img src="https://www.scnsoft.com/about/ecommerce-microsite/about-company-ecommerce-teampro-1.svg"
+                <img src="https://www.scnsoft.com/about/ecommerce-microsite/about-company-ecommerce-Smart Software-1.svg"
                      alt="about" class="mt-8">
             </div>
-            <h1 class="mt-16 lg:text-3xl text-2xl font-bold">THE STORY OF TEAMPRO</h1>
+            <h1 class="mt-16 lg:text-3xl text-2xl font-bold">THE STORY OF Smart Software</h1>
             <hr class="bg-yellow-500 w-12 mt-4" style="height: 3px;">
         </div>
         <div class="col-12 mt-10 group flex flex-wrap">
@@ -138,7 +138,7 @@
         <div class="flex mt-10 lg:mx-0 lg:flex-row flex-col flex-wrap">
             <div class="shadow-xl border-t-8 border-blue-900 p-10 mt-6 mx-7 lg:w-96">
                 <div class="text-center">
-                    <img src="https://www.scnsoft.com/software-development-services/software-product-development/teampro-guarantees_committed-teams.svg"
+                    <img src="https://www.scnsoft.com/software-development-services/software-product-development/Smart Software-guarantees_committed-teams.svg"
                          class="w-32 h-32 block w-full">
                     <p class="text-xl text-blue-700 mt-3 font-bold">
                         Our background in ecommerce is diverse

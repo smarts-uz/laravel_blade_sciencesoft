@@ -52,10 +52,10 @@
           </div>
       </div>
 
-      <!-- TEAMPRO’S EXPERIENCE -->
+      <!-- Smart Software’S EXPERIENCE -->
       <div>
         <h1 class="uppercase font-bold mt-10 text-3xl">
-        {{ t("TEAMPRO’S EXPERIENCE")  }}
+        {{ t("Smart Software’S EXPERIENCE")  }}
         </h1>
         <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
 

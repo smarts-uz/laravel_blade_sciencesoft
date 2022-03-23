@@ -48,13 +48,13 @@
                 decision-making in the following business areas:") }}
             </p>
             <div class="w-4/5">
-                <img src="https://www.scnsoft.com/data-analytics/business-areas-competence-teampro.svg" alt="">
+                <img src="https://www.scnsoft.com/data-analytics/business-areas-competence-Smart Software.svg" alt="">
             </div>
             <p class="my-8 text-xl font-normal">
                 {{ t('For you to ensure full-fledged data analytics, Smart Softwarecovers the following technical components:') }}
             </p>
             <div class="w-4/5">
-                <img src="https://www.scnsoft.com/data-analytics/technical-components-teampro.svg" alt="">
+                <img src="https://www.scnsoft.com/data-analytics/technical-components-Smart Software.svg" alt="">
             </div>
         </div>
         <div class="text-2xl md:text-4xl font-bold my-20">

@@ -20,11 +20,11 @@
                 <p class='text-5xl font-bold'>{{ t('Software Development Services') }}</p>
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
-            <img src="https://www.scnsoft.com/software-development-services/teampro-software-development-services.svg"
+            <img src="https://www.scnsoft.com/software-development-services/Smart Software-software-development-services.svg"
                 alt="">
             <p class='text-gray-700 text-xl mt-2'><strong>{{ t('Invent, build, integrate, scale') }}</strong>
                 {{ t('and') }} <strong>{{ t('upgrade') }}</strong>
-                {{ t('your applications with TeamPRO! For more than three decades, Smart Softwarehas been harnessing digital technologies for the benefit of Fortune 500 businesses, mid and large enterprises, and startups across the variety of industries. Fully in the art and science of software engineering and management, we help you to build high-quality software solutions and products as well as deliver a wide range of related professional services.') }}
+                {{ t('your applications with Smart Software! For more than three decades, Smart Softwarehas been harnessing digital technologies for the benefit of Fortune 500 businesses, mid and large enterprises, and startups across the variety of industries. Fully in the art and science of software engineering and management, we help you to build high-quality software solutions and products as well as deliver a wide range of related professional services.') }}
             </p>
             <h1 class='text-gray-900 mt-6'>
                 <p class='text-3xl font-bold'>{{ t('WHAT SERVICE ARE YOU LOOKING FOR?') }}</p>
@@ -159,7 +159,7 @@
                 </li>
             </ul>
             <h1 class='text-gray-900 mt-6'>
-                <p class='text-3xl font-bold'>{{ t('WHY TEAMPRO?') }}</p>
+                <p class='text-3xl font-bold'>{{ t('WHY Smart Software?') }}</p>
                 <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             </h1>
             <div class="container">

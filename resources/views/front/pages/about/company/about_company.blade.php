@@ -15,7 +15,7 @@
         <hr class="border-t-2 w-12 border-yellow-600 my-1" />
         <img src="{{ asset('assets/icon/data-analytics.svg')}}" />
         <p class="my-5 text-lg">
-            {{ t("Founded in 1989, TeamPROa provider of IT consulting and software
+            {{ t("Founded in 1989, Smart Softwarea provider of IT consulting and software
             development services. Having started as a small AI product company, we
             switched to IT services in 2002 and ever since we have helped non-IT
             organizations and software product companies improve business
@@ -38,7 +38,7 @@
 
     <div class="my-10">
         <div class="text-2xl md:text-3xl font-bold">
-            {{ t('TEAMPRO’S HIGHLIGHTS') }}
+            {{ t('Smart Software’S HIGHLIGHTS') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
         <div class="flex flex-row">

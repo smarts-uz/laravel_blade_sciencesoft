@@ -53,7 +53,7 @@
         <div class="w-full lg:px-4 lg:flex lg:flex-row lg:justify-around flex md:items-start justify-center flex-col">
             <div class="lg:w-full w-full mb-8">
                 <h1 class="uppercase lg:text-3xl font-bold mt-10 text-2xl">
-                    {{ t('WHY TEAMPRO') }}
+                    {{ t('WHY Smart Software') }}
                 </h1>
                 <hr class="w-12 border-b-2 border-yellow-600" />
                 <br />
@@ -152,7 +152,7 @@
             <div class="swiper-button-prev text-gray-400"></div>
         </div>
         <h1 class="uppercase font-bold mt-10 text-2xl">
-            {{ t('PERKS OF WEB DESIGN WITH TEAMPRO') }}
+            {{ t('PERKS OF WEB DESIGN WITH Smart Software') }}
         </h1>
         <div
             class="w-full hover:shadow-2xl lg:px-4 lg:flex lg:flex-row lg:justify-around flex md:items-start justify-center flex-col border-solid border-gray-200 border-2 my-7">
@@ -232,7 +232,7 @@
                 <hr class="w-12 border-b-2 border-yellow-600 m-4" />
                 <br />
                 <p class="px-4 text-base sm:text-lg text-sm">
-                    {{ t("TeamPRO’s web design services resulted in a 6x increase in
+                    {{ t("Smart Software’s web design services resulted in a 6x increase in
               conversions of a US telecom company’s website.") }}
                 </p>
             </div>

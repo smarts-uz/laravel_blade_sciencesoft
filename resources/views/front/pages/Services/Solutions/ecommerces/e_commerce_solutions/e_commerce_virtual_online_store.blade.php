@@ -20,7 +20,7 @@
 
         <strong class="text-blue-900">Tanya Yablonskaya</strong>
         <p class="text-lg">
-            Ecommerce Industry Analyst, TeamPRO</p>
+            Ecommerce Industry Analyst, Smart Software</p>
 
         <hr class="mt-3.5">
 
@@ -273,7 +273,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of
+                    <p class="text-xl mt-3.5">Smart Software’s team migrated two Magento 1 websites with about 90% of
                         custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>

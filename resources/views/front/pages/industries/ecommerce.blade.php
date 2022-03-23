@@ -237,7 +237,7 @@
                         alt="Sunset in the mountains">
                     <div class="px-6 py-4">
                         <p class="text-grey-darker text-base">
-                            {{ t('Functional portfolio of ecommerce platforms and top 10 shortlisted by TeamPRO.') }}
+                            {{ t('Functional portfolio of ecommerce platforms and top 10 shortlisted by Smart Software.') }}
                         </p>
                     </div>
                 </div>

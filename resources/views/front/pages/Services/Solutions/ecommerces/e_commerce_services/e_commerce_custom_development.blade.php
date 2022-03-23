@@ -175,7 +175,7 @@
 
         <div>
             <p class="text-xl leading-normal mt-3.5">
-                To reach your brave business goals, TeamPRO’s ecommerce team delivers custom ecommerce solutions
+                To reach your brave business goals, Smart Software’s ecommerce team delivers custom ecommerce solutions
                 powered
                 by <b>
                 voice recognition, augmented reality (AR), artificial intelligence (AI), Internet of Things (IoT) and a
@@ -635,7 +635,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code
+                    <p class="text-xl mt-3.5">Smart Software’s team migrated two Magento 1 websites with about 90% of custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>
             </div>
@@ -657,7 +657,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code
+                    <p class="text-xl mt-3.5">Smart Software’s team migrated two Magento 1 websites with about 90% of custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>
             </div>
@@ -679,7 +679,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code
+                    <p class="text-xl mt-3.5">Smart Software’s team migrated two Magento 1 websites with about 90% of custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>
             </div>
@@ -701,7 +701,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code
+                    <p class="text-xl mt-3.5">Smart Software’s team migrated two Magento 1 websites with about 90% of custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>
             </div>
@@ -723,7 +723,7 @@
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 
 
-                    <p class="text-xl mt-3.5">TeamPRO’s team migrated two Magento 1 websites with about 90% of custom code
+                    <p class="text-xl mt-3.5">Smart Software’s team migrated two Magento 1 websites with about 90% of custom code
                         to Magento 2 and merged them into a single multistore.</p>
                 </div>
             </div>

@@ -217,7 +217,7 @@
                 <hr class="w-12 h-0.5 bg-yellow-600 my-4" />
                 <div class=" flex flex-wrap">
                     <p class="text-gray-400 text-xl w-full lg:w-4/5">
-                        {{ t('TeamPRO’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.') }}
+                        {{ t('Smart Software’s team will analyze the business needs of your insurance company, suggest and implement robust solutions that will help you improve overall business productivity and enhance customer service.') }}
                     </p>
                 </div>
             </div>

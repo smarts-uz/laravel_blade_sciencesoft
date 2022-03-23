@@ -627,11 +627,11 @@
     <div class="md:flex md:w-11/12 mt-20 md:ml-auto shadow-2xl">
 
         <img width="100" height="100" class="lg:-ml-12 m-auto md:-ml-6"
-             src="https://www.scnsoft.com/teampro-logos/teampro-logo-short.svg" alt="">
+             src="https://www.scnsoft.com/Smart Software-logos/Smart Software-logo-short.svg" alt="">
 
         <div class="md:w-11/12 text-center md:text-left p-2">
             <h1 class="text-2xl  md:ml-6 font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-                ABOUT TEAMPRO
+                ABOUT Smart Software
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">

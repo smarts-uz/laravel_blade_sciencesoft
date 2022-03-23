@@ -17,7 +17,7 @@
           <a href="#"><li class="mt-4">{{ t("Management Team")  }}</li></a>
           <a href="/about/careers"><li class="mt-4">{{ t("Careers")  }}</li></a>
           <a href="/partnerships"><li class="mt-4">{{ t("Partnerships")  }}</li></a>
-          <a href="/TeamPRO-Referral-Program"><li class="mt-4">{{ t("Smart SoftwareReferral Program")  }}</li></a>
+          <a href="/Smart Software-Referral-Program"><li class="mt-4">{{ t("Smart SoftwareReferral Program")  }}</li></a>
           <a href="/our-locations"><li class="mt-4">{{ t("Our Locations")  }}</li></a>
           <h1 class="mb-2 mt-2 font-extrabold">{{ t("Approach")  }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
@@ -243,7 +243,7 @@
                 <h1 class="mb-2  font-extrabold">{{ t("Industries")  }}</h1>
                 <hr class="border-b-2 w-12 border-yellow-500">
                 <p class="mt-4 text-black font-normal">
-                  {{ t("To power businesses with a meaningful digital change, TeamPRO’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.")  }}</p>
+                  {{ t("To power businesses with a meaningful digital change, Smart Software’s team maintains a solid knowledge of trends, needs and challenges in more than 20 industries.")  }}</p>
                 <p class="font-extrabold mt-4 text-black">{{ t("Can't find what you need?")  }}</p>
                 <div class="bg-blue-700 px-6 py-2 text-white mt-4 w-36 text-center"><a  href="#">{{ t("ASK US")  }}</a></div>
               </div>

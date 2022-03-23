@@ -78,7 +78,7 @@
                     <h1 class="uppercase font-bold mt-10 text-2xl pt-4">Convey a Strong Brand Message to Your
                         Audience</h1>
                     <hr class="w-12 border-b-2 border-yellow-600  my-4"/>
-                    <p class="text-lg pb-3 xl:text-xl">With TeamPRO, you have your ecommerce website designed
+                    <p class="text-lg pb-3 xl:text-xl">With Smart Software, you have your ecommerce website designed
                         beautifully to:</p>
                     <ul style="list-style: square" class="text-blue-600 text-lg pl-6 xl:text-xl">
                         <li><a href="#" class="text-black leading-9">Inspire customer trust.</a></li>

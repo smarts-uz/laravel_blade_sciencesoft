@@ -27,7 +27,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        Decrease the costs and improve the output of customer acquisition and retention with TeamPRO’s CRM services.
+                        Decrease the costs and improve the output of customer acquisition and retention with Smart Software’s CRM services.
                     </p>
                 </div>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold md:ml-4 py-4 px-4 w-full md:w-72 md:text-sm uppercase">
@@ -36,7 +36,7 @@
             </div>
             <div class="w-full mb-6 mt-6">
                 <h1 class="text-xl md:text-2xl mb-4 font-bold text-gray-800">
-                    WHY TURN TO TEAMPRO
+                    WHY TURN TO Smart Software
                 </h1>
                 <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                 <ul style="list-style: square;" class="text-blue-700 m-6">

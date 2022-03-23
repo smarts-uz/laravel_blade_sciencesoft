@@ -22,7 +22,7 @@
     {{ t('Healthcare IT consulting services help healthcare organizations overcome limited or low-level healthcare IT expertise and support the effective implementation of digital healthcare initiatives.') }}
     </p>
 
-    <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl"><span class="text-gray-800 font-bold">{{ t('Teampro') }}</span>
+    <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl"><span class="text-gray-800 font-bold">{{ t('Smart Software') }}</span>
         {{ t(' provides hospitals, clinics, practices, assisted living facilities, labs, and other healthcare organizations with') }}<span
             class="text-gray-800 font-bold">{{ t(' healthcare IT consulting services ') }}</span>
             {{t('to help them')}}

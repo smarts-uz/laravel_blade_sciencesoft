@@ -26,7 +26,7 @@
         }
 
     </style>
-    <title>TeamPro</title>
+    <title>Smart Software</title>
 
 
     @yield('css')

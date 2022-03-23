@@ -119,7 +119,7 @@
     </p>
     <img src="https://www.scnsoft.com/fleet-management/vehicles.svg" alt="">
     <div class="text-2xl md:text-4xl font-bold mt-6">
-    {{ t('WHY TEAMPRO?') }}
+    {{ t('WHY Smart Software?') }}
     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
     </div>
     <div style="margin: 0 4rem" class="swiper-container main-slide swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">

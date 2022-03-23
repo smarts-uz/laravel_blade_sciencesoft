@@ -627,7 +627,7 @@
 
     <div class="mt-14">
         <strong class="text-3xl">
-            LAUNCH AN ONLINE MARKETPLACE WITH TEAMPRO
+            LAUNCH AN ONLINE MARKETPLACE WITH Smart Software
         </strong>
         <div class="w-14 h-0.5 bg-yellow-600 mt-3.5"></div>
         <p class="text-xl mt-3.5">
@@ -789,14 +789,14 @@
     <div class="hover:shadow-xl mt-24  mt-6 border border-black-600 mb-28">
         <div class="flex flex-wrap">
             <div class="w-32 -mt-10 ml-10 h-44">
-                <img src="Images/teampro-logo-short.svg" alt="">
+                <img src="Images/Smart Software-logo-short.svg" alt="">
 
             </div>
 
             <div class="w-9/12">
                 <div class=" mb-6 mt-6">
                     <strong class="text-2xl">
-                        ABOUT TEAMPRO
+                        ABOUT Smart Software
                     </strong>
                     <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
 

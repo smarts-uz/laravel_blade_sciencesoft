@@ -18,7 +18,7 @@
             {{ t('Our security experts develop a personal approach to each customer based on best practices and enriched with our own experience. We are ready to support our clients at all project stages.') }}
         <p>
         <h1 class="lg:text-4xl font-semibold mx-10 pb-10 text-gray-800 md:text-3xl sm:text-3xl">
-            {{ t('Why TeamPRO:') }}</h1>
+            {{ t('Why Smart Software:') }}</h1>
         <div class="lg:grid lg:grid-cols-2 lg:gap-2 md:flex md:flex-col">
             <img class="w-72 h-62 mx-5"
                 src="{{ asset('/images/services/service_types/cyber_security/ibm-silver-business-partner.svg') }}" alt="">
@@ -36,7 +36,7 @@
                 class="btn w-48 h-12 bg-blue-800 hover:bg-blue-900 font-medium absolute mt-10 mx-3 lg:right-0 lg:bottom-5 md:right-0 md:bottom-5 md:w:36 sm:right-28 sm:bottom-12 sm:w-96 text-white text-lg uppercase">{{ t('Get A Quote') }}</button>
         </div>
         <h1 class="text-4xl font-semibold pt-10 pb-5 text-gray-800">
-            {{ t('CYBERSECURITY SERVICES BY TEAMPRO') }}</h1>
+            {{ t('CYBERSECURITY SERVICES BY Smart Software') }}</h1>
         <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
         <p class="py-5 text-lg text-gray-500">
             {{ t('We offer our customers a variety of cybersecurity services to:') }}</p>
@@ -162,7 +162,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ t('Security testing of IT infrastructures and its components') }}</h1>
                 <p class="py-5 text-lg text-gray-500">
-                    {{ t('We uncover security loopholes in the components of our customers’ IT environments. TeamPRO’s security team carefully checks the protection level of your IT infrastructure and defines measures to reduce the number of security weaknesses inside your network and apps.') }}
+                    {{ t('We uncover security loopholes in the components of our customers’ IT environments. Smart Software’s security team carefully checks the protection level of your IT infrastructure and defines measures to reduce the number of security weaknesses inside your network and apps.') }}
                 </p>
                 <p class="py-5 text-lg text-gray-500">{{ t('The complex of security testing services includes:') }}
                 </p>
@@ -188,7 +188,7 @@
                 </p>
                 <h1 class="text-3xl font-bold pt-3 pb-10 text-gray-800">{{ t('Penetration testing') }}</h1>
                 <p class="py-5 text-lg text-gray-500">
-                    {{ t('TeamPRO’s security testing team pinpoints system vulnerabilities, validates existing security measures, and provides a detailed remediation roadmap. Equipped with the special tools and industry-specific test scenarios, the team performs penetration testing according to one of the three approaches:') }}
+                    {{ t('Smart Software’s security testing team pinpoints system vulnerabilities, validates existing security measures, and provides a detailed remediation roadmap. Equipped with the special tools and industry-specific test scenarios, the team performs penetration testing according to one of the three approaches:') }}
                 </p>
                 <ul class="list-disc pl-5">
                     <li class="text-gray-500 text-xl py-3"><strong>{{ t('Black box testing.') }}</strong>
@@ -210,7 +210,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ t('Stress testing: Emulation of DDoS / DoS attacks') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security testing team evaluates the stability of your infrastructure and its components by testing it beyond normal operational capacity with the use of special tools such as Siege and Apache JMeter. We apply our expertise to emulate denial of service (DoS) or distributed denial of service (DDoS) attacks against your network or applications to:') }}
+                            {{ t('Smart Software’s security testing team evaluates the stability of your infrastructure and its components by testing it beyond normal operational capacity with the use of special tools such as Siege and Apache JMeter. We apply our expertise to emulate denial of service (DoS) or distributed denial of service (DDoS) attacks against your network or applications to:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -234,7 +234,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ t('Security code review') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('Each programming language has its quirks that may cause security flaws during the development phase. TeamPRO’s security experts detect existing loopholes before your applications ‘go live.’') }}
+                            {{ t('Each programming language has its quirks that may cause security flaws during the development phase. Smart Software’s security experts detect existing loopholes before your applications ‘go live.’') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
                             {{ t('Our security engineers conduct automated and manual security code review and engage senior developers and architects (if needed) to help you to:') }}
@@ -285,7 +285,7 @@
                             {{ t('Smart Softwarehelps their customers to secure their cloud solutions. Being a Gold Microsoft Business Partner, we have the necessary experience to tune special security components, such as Azure Security Center, allowing security management and threat protection across cloud workloads.') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security engineers can apply appropriate cloud security measures and configure cloud protection solutions to ensure:') }}
+                            {{ t('Smart Software’s security engineers can apply appropriate cloud security measures and configure cloud protection solutions to ensure:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -310,7 +310,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ t('Web application security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security experts ensure proper protection of a website, a web app, or web services.') }}
+                            {{ t('Smart Software’s security experts ensure proper protection of a website, a web app, or web services.') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -332,7 +332,7 @@
             {{ t('By increasing corporate network security specifically, you may decrease the risk of becoming the victim of privacy spoofing, identity or company’s proprietary information theft, Man-in-the-Middle and DDoS attacks.') }}
         </p>
         <p class="py-5 text-lg text-gray-500">
-            {{ t('We apply multiple defense layers to protect your corporate network and the sensitive data stored within it. TeamPRO’s security engineers know various ways to keep your proprietary information safe and reduce the probability that you will have to experience successful attack attempts against your network.') }}
+            {{ t('We apply multiple defense layers to protect your corporate network and the sensitive data stored within it. Smart Software’s security engineers know various ways to keep your proprietary information safe and reduce the probability that you will have to experience successful attack attempts against your network.') }}
         </p>
 
         <div class="infos flex flex-row mt-5">
@@ -340,7 +340,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ t('Web application security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security experts ensure proper protection of a website, a web app, or web services.') }}
+                            {{ t('Smart Software’s security experts ensure proper protection of a website, a web app, or web services.') }}
                         </p>
                         <p class="py-5 text-lg text-gray-500">
                             {{ t('We deliver a full range of QRadar-related services.') }}</p>
@@ -414,7 +414,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ t('Email security') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('We can help our customers to keep their corporate information safe in email communication and secure from unauthorized access, loss, etc. TeamPRO’s security experts will protect your network from phishing, spamming, malware, and other attacks against email services. Having worked with the solutions offered by major vendors, such as FortiGate and Cisco, we’ve gained the required experience to:') }}
+                            {{ t('We can help our customers to keep their corporate information safe in email communication and secure from unauthorized access, loss, etc. Smart Software’s security experts will protect your network from phishing, spamming, malware, and other attacks against email services. Having worked with the solutions offered by major vendors, such as FortiGate and Cisco, we’ve gained the required experience to:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -437,7 +437,7 @@
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">
                     {{ t('Firewalls, IDS / IPS, DLP implementation and setting') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security team implements and sets the security rules of special solutions to control incoming network traffic, scan it to detect and block potential attacks. We offer you the following cybersecurity measures to apply:') }}
+                            {{ t('Smart Software’s security team implements and sets the security rules of special solutions to control incoming network traffic, scan it to detect and block potential attacks. We offer you the following cybersecurity measures to apply:') }}
                         </p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
@@ -459,7 +459,7 @@
             <div class="mx-16">
                 <h1 class="text-4xl font-semibold pb-10 text-gray-800">{{ t('Antivirus protection') }}<h1>
                         <p class="py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security engineers configure antivirus protection to:') }}</p>
+                            {{ t('Smart Software’s security engineers configure antivirus protection to:') }}</p>
                         <ul class="list-disc pl-5">
                             <li class="text-gray-500 text-xl py-3">
                                 {{ t('Improve the security of the network from viruses, spyware, and other types of malicious software coming from the internet or external drives.') }}
@@ -539,7 +539,7 @@
                     <hr class="w-12 border-yellow-600 text-gray-800 mt-2">
                     <div class="flex  flex-wrap ">
                         <p class=" w-8/12 py-5 text-lg text-gray-500">
-                            {{ t('TeamPRO’s security team is ready to help you to apply the most relevant defense measures for your IT environment. Don’t hesitate to get in touch with us for a free consultation on any security issue you have, and we’ll define and implement an optimal way to address it.') }}
+                            {{ t('Smart Software’s security team is ready to help you to apply the most relevant defense measures for your IT environment. Don’t hesitate to get in touch with us for a free consultation on any security issue you have, and we’ll define and implement an optimal way to address it.') }}
                         </p>
                         <div class="bottom-16 md:my-32">
                             <button

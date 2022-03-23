@@ -30,7 +30,7 @@
                 </a>
                 <a class="text-blue-400 flex items-center" href="#">
                     <i class="fas fa-envelope pr-3"></i>
-                    <p>{{ __('teamprodev@gmail.com') }}</p>
+                    <p>{{ __('Smart Softwaredev@gmail.com') }}</p>
                 </a>
             </div>
             <div>

@@ -12,7 +12,7 @@
   <hr class="w-12 mt-5 text-yellow-400 h-4" />
   <img src="https://www.scnsoft.com/ecommerce/cx/cover-pic-cx-05.svg" alt="">
   <p class="my-5 text-lg">
-      {{ t("Professional customer experience consulting services from TeamPRO
+      {{ t("Professional customer experience consulting services from Smart Software
        encompass fostering customer-first attitude, as well as designing and implementing
        a CX transformation strategy within your business.")  }}
   </p>
@@ -65,7 +65,7 @@
   <div class="mb-4 mt-8  p-4 border hover:shadow-2xl">
     <h1 class="  pt-3 font-bold text-2xl">Build a Web Portal that is Easy for Users and<br> Effective for Business</h1><br>
     <hr class="w-10 border-b-3 border-yellow-500  mb-10 ml-4"/>
-    <p class="leading-8 pl-6 text-2xl text-gray-600 pr-4 pb-8">TeamPRO’s team is ready to deliver the most challenging portal<br> projects to help your leverage streamlined, transparent and consistent<br> web communication with your clients, partners, employees, or<br> community.
+    <p class="leading-8 pl-6 text-2xl text-gray-600 pr-4 pb-8">Smart Software’s team is ready to deliver the most challenging portal<br> projects to help your leverage streamlined, transparent and consistent<br> web communication with your clients, partners, employees, or<br> community.
     </p>
     <button class="mt-4 ml-6 mb-24 bg-blue-700">
       <p class="p-3 text-lg text-white">DISCUSS MY WEB PORTAL</p>

@@ -14,7 +14,7 @@
             <img src="https://www.scnsoft.com/it-infrastructure/it-infrastructure-services_1.svg">
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
-                    {{ t("TeamPRO’s IT team delivers a full set of services to keep your IT infrastructure reliable
+                    {{ t("Smart Software’s IT team delivers a full set of services to keep your IT infrastructure reliable
                      with on-going infrastructure administration, continuous monitoring and prompt troubleshooting.
                      We are also ready to plan, implement and manage changes in your IT environment to support the
                      uninterrupted flow of your business operations.") }}
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="text-2xl md:text-3xl font-bold uppercase">
-            {{ t('Why Collaborate with TeamPRO') }}
+            {{ t('Why Collaborate with Smart Software') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -161,7 +161,7 @@
                             </p>
                             <li class="mb-4 text-2xl font-bold">{{ t('IT infrastructure troubleshooting') }} </li>
                             <p class="text-lg">
-                                {{ t("TeamPRO’s IT team offers you their 24/7 availability and readiness to mitigate
+                                {{ t("Smart Software’s IT team offers you their 24/7 availability and readiness to mitigate
                                  the issues related to your IT infrastructure scalability, its uptime, resource
                                  utilization, storage use, and many more") }}
                             </p>
@@ -185,7 +185,7 @@
         </h1>
         <p class="text-lg">
             {{ t("Taking into consideration your current business needs and requirements and applying the extensive
-             expertise in cloud computing platforms, i.e. AWS, Azure, Google Cloud (GCP), and more, TeamPRO’s IT
+             expertise in cloud computing platforms, i.e. AWS, Azure, Google Cloud (GCP), and more, Smart Software’s IT
              team is ready to provide you with a range of cloud-specific services.") }}
         </p>
         <div class="rounded-sm p-2 md:p-8">
@@ -198,7 +198,7 @@
                     <h1 class="text-3xl md:text-2xl font-bold">{{ t('Cloud infrastructure consulting') }}</h1>
 
                     <p class=" text-xl md:text-2xl mt-6">
-                        {{ t("TeamPRO’s team of certified cloud architects will help you to find a suitable approach
+                        {{ t("Smart Software’s team of certified cloud architects will help you to find a suitable approach
                           to integrate a cloud strategy into your general business strategy. We offer professional
                           consulting services on migrating your business to the cloud faultlessly and increasing the
                           number of cloud services used across your organization to accelerate your business
@@ -216,7 +216,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-1xl md:text-2xl font-bold">{{ t('Cloud infrastructure management') }}</h1>
                     <p class=" text-xl md:text-2xl mt-4">
-                        {{ t("TeamPRO’s cloud administrators can set up and maintain your cloud-based IT
+                        {{ t("Smart Software’s cloud administrators can set up and maintain your cloud-based IT
                          infrastructure. Our experts provide cloud management services focusing on:") }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
@@ -313,7 +313,7 @@
                     <h1 class="text-3xl md:text-2xl font-bold">{{ t('Cloud migration') }}</h1>
 
                     <p class=" text-xl md:text-2xl mt-6">
-                        {{ t("TeamPRO’s team can perform a full-scale migration of your on-premises IT infrastructure
+                        {{ t("Smart Software’s team can perform a full-scale migration of your on-premises IT infrastructure
                          to the cloud with the minimal downtime during the migration process. We can seamlessly put
                          your IT infrastructure in the virtual environment to increase its flexibility and
                          scalability with the reduced operational costs. Having the experience with a number of cloud
@@ -327,7 +327,7 @@
             {{ t('Data center services') }}
         </h1>
         <p class="text-lg">
-            {{ t("TeamPRO’s IT infrastructure team is experienced in a wide range of data center services – we cover
+            {{ t("Smart Software’s IT infrastructure team is experienced in a wide range of data center services – we cover
              management, maintenance, and monitoring of on-premises, cloud-based, and hybrid data centers.") }}
         </p>
 
@@ -346,7 +346,7 @@
                          scheduling and monitoring, application delivery.") }}
                     </p>
                     <p class="text-xl my-4">
-                        {{ t('TeamPRO’s data center management services include:') }}
+                        {{ t('Smart Software’s data center management services include:') }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="my-4">
@@ -421,7 +421,7 @@
         <p class="text-lg my-4">
             {{ t("By applying DevOps practices and techniques, such as continuous integration and continuous delivery
              (CI/CD), infrastructure as code (IaC), as well as unifying the efforts of your development and
-             operations teams, TeamPRO’s technical team experienced in ITSM and DevOps practices can accelerate
+             operations teams, Smart Software’s technical team experienced in ITSM and DevOps practices can accelerate
              your overall infrastructure management, modernization and maintenance.") }}
         </p>
 
@@ -434,7 +434,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-1xl md:text-2xl font-bold"><a href="#">{{ t('DevOps consulting') }}</a></h1>
                     <p class=" text-xl md:text-2xl mt-4">
-                        {{ t('TeamPRO’s team helps apply the DevOps approach to:') }}
+                        {{ t('Smart Software’s team helps apply the DevOps approach to:') }}
                     </p>
                     <ul class="list-outside list-disc bg-rose-200 text-lg leading-relaxed">
                         <li class="my-4">
@@ -463,7 +463,7 @@
                 <div class=" flex flex-col w-3/5">
                     <h1 class="text-1xl md:text-2xl font-bold">{{ t('DevOps implementation') }}</h1>
                     <p class=" text-xl md:text-2xl mt-4">
-                        {{ t("TeamPRO’s team provides you with the end-to-end service aimed at the faultless
+                        {{ t("Smart Software’s team provides you with the end-to-end service aimed at the faultless
                          implementation of the DevOps approach. Taking into account your business needs and
                          requirements, we:") }}
                     </p>
@@ -491,7 +491,7 @@
             {{ t('Virtual desktop infrastructure (VDI) services: consulting, implementation and support') }}
         </h1>
         <p class="text-lg my-4">
-            {{ t("TeamPRO’s experts are ready to offer you their experience in desktop virtualization consulting,
+            {{ t("Smart Software’s experts are ready to offer you their experience in desktop virtualization consulting,
              implementation and support to significantly increase your corporate data protection (since it’s stored
              in the data center, not on the endpoints your employees use) and your employees’ productivity (due to
              their ability to work remotely, comfortably and securely from any device). Our specialists can help you:") }}

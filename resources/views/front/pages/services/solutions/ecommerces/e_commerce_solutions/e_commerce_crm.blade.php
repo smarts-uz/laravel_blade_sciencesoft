@@ -20,7 +20,7 @@
     </div>
     <div class="text-center mb-6">
         <a href="#" class="text-lg text-blue-700 font-medium">Oleg Khmelkov</a>
-        <p class="text-gray-500">Head of Microsoft Dynamics 365 Department, TeamPRO</p>
+        <p class="text-gray-500">Head of Microsoft Dynamics 365 Department, Smart Software</p>
     </div>
     <hr>
 
@@ -39,7 +39,7 @@
         <span class="font-bold text-current">Editor’s note: </span>In the article, Oleg dives into what makes ecommerce
         CRM such a powerful solution for your business and shares things you need to consider before its implementation.
         And if you’re looking for the ways to win more customers, increase customer retention, and build brand loyalty,
-        consider TeamPRO’s <a href="#" class="border-b border-indigo-900 hover:text-blue-700">
+        consider Smart Software’s <a href="#" class="border-b border-indigo-900 hover:text-blue-700">
         CRM consulting service.</a>
     </p>
     <p class="text-lg text-gray-600 mt-6 md:text-xl">
@@ -54,7 +54,7 @@
         Ecommerce CRM basics and business benefits
     </h1>
     <p class="text-lg text-gray-600 mt-6 md:text-xl">
-        Many TeamPRO’s customers from the ecommerce industry perceive CRM as catering to the needs of salespeople,
+        Many Smart Software’s customers from the ecommerce industry perceive CRM as catering to the needs of salespeople,
         thus, not so effective in their domain. The truth is, at its core, ecommerce customer relationship management
         goes deeper into personalized marketing and customer service to bolster the conversion rate of your customer
         journeys. Such personalization may include individual promotions, discounts, priority customer service, just to
@@ -252,7 +252,7 @@
         </div>
         <div class="mt-6 md:w-6/12 ml-3">
             <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-2xl">
-                CRM Consulting by TeamPRO
+                CRM Consulting by Smart Software
             </a>
             <p class="text-lg text-gray-600 mt-6 md:text-xl">
                 Do you want to manage customer relationships more efficiently? Experienced consultants will help you

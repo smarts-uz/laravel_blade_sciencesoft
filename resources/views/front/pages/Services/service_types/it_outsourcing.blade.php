@@ -11,7 +11,7 @@
             {{ t("IT Infrastructure Services – Consulting, Implementation, Management – to Increase Your Business
             Sustainability")  }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
-            <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-teampro.svg">
+            <img src="https://www.scnsoft.com/it-outsourcing-services/it-outsourcing-services-Smart Software.svg">
             <div>
                 <p class="font-normal text-lg leading-loose mt-10">
                     {{ t("Within")  }} <strong>{{ t("IT outsourcing")  }}</strong>, {{ t("a vendor takes responsibility for 30-100% of your IT
@@ -33,7 +33,7 @@
                         src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
                 </div>
                 <div class=" flex flex-col w-3/5">
-                    <h1 class="text-2xl md:text-3xl font-bold">{{ t("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
+                    <h1 class="text-2xl md:text-3xl font-bold">{{ t("Nikolay Kurayev, CEO at Smart Software")  }} </h1>
                     <hr class="w-12 border-yellow-600 text-gray-800 my-4">
                     <div class="lg:text-xl text-lg">
                         <p class="my-10">

@@ -506,7 +506,7 @@
             {{ t('THRIVE WITH BANKING SOFTWARE') }}
         </h1>
         <hr class="w-12 border-b-2 border-yellow-600  my-4" />
-        <p class="my-4 text-xl">{{ t('At TeamPRO, we help our customers reap the following benefits:') }}</p>
+        <p class="my-4 text-xl">{{ t('At Smart Software, we help our customers reap the following benefits:') }}</p>
         <img src="{{ asset('images/industries/banking_financial_services/banking-software-benefits.svg') }}" alt="">
 
 

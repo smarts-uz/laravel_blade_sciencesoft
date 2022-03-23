@@ -19,7 +19,7 @@
                 <p class="text-gray-600 text-lg md:text-xl mb-6">
                     Ecommerce audit is your possibility to involve an independent party to assess
                     your ecommerce website and infrastructure, reveal flaws and unlock new opportunities
-                    to level up the customer experience you provide. At TeamPRO, we provide full
+                    to level up the customer experience you provide. At Smart Software, we provide full
                     website audit to ensure that reviewed technical aspects affect customer experience
                     and security as well as your performance along the way only in a positive way.
                 </p>

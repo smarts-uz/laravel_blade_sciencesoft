@@ -51,7 +51,7 @@
                     class="underline hover:text-blue-600" href="#">{{ t('retail') }}</a> ,<a
                     class="hover:text-blue-600 underline" href="#">{{ t('manufacturing') }}</a> , <a
                     class="underline hover:text-blue-600" href="">{{ t('telecom') }}</a>
-                {{ t('in the US and Europe, which resulted in new beneficial long-term business relationships for our partners and us. At TeamPRO, we believe that doing business with partners is an effective way to reach out to the customers, meet their expectations and win their trust.') }}
+                {{ t('in the US and Europe, which resulted in new beneficial long-term business relationships for our partners and us. At Smart Software, we believe that doing business with partners is an effective way to reach out to the customers, meet their expectations and win their trust.') }}
             </p>
             <p class="py-5 text-lg text-gray-500 mb-5">
                 {{ t('Please feel free to send your questions to us and set up a free consultation with our representative.') }}

@@ -94,7 +94,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold mt-5">
-            {{ t('Deliverables of TeamPRO’s Managed IT Services') }}
+            {{ t('Deliverables of Smart Software’s Managed IT Services') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
         </div>
 
@@ -208,7 +208,7 @@
         </div>
 
         <div class="text-xl md:text-3xl font-bold my-10">
-            {{ t('Why Choose TeamPRO') }}
+            {{ t('Why Choose Smart Software') }}
             <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
             <ul class="font-normal list-outside list-disc bg-rose-200 text-lg leading-relaxed m-4">
 
@@ -418,7 +418,7 @@
                     </h1>
                     <p class=" text-lg md:text-xl ">
                         {{ t("We analyze the current state of your IT infrastructure to see the potential for its improvement and
-                compare the TCO of your IT infrastructure managed in-house vs. by TeamPRO.") }}
+                compare the TCO of your IT infrastructure managed in-house vs. by Smart Software.") }}
                     </p>
 
                 </div>
@@ -690,7 +690,7 @@
                     <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
                 </h1>
                 <p class='text-gray-600 text-xl'>
-                    {{ t("TeamPRO’s professionals will keep your IT infrastructure reliable and
+                    {{ t("Smart Software’s professionals will keep your IT infrastructure reliable and
         highly efficient 24/7 to let you focus on the strategic decisions only.") }}
                 </p>
             </div>

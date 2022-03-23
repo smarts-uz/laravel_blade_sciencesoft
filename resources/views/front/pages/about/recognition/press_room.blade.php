@@ -8,7 +8,7 @@
 
     <div class="block">
         <div class="card w-full p-4">
-            <h1 class="text-2xl md:text-3xl font-bold text-gray-800">{{ t('TeamPRO’s press room') }}</h1>
+            <h1 class="text-2xl md:text-3xl font-bold text-gray-800">{{ t('Smart Software’s press room') }}</h1>
             <hr class="w-14 border-b-2 bg-yellow-400 my-4">
             <img src="https://www.scnsoft.com/about/press-room_.svg" alt="" class="w-11/12 m-auto my-6">
             <p class="text-md leading-normal md:text-xl text-gray-600 my-6">
@@ -51,7 +51,7 @@
                                 {{ t('Boris Shiklo:') }}</p>
                         </a>
                         <p class="my-4 text-md text-gray-600">
-                            {{ t('IT consulting and IoT expert, CTO at TeamPRO.') }}
+                            {{ t('IT consulting and IoT expert, CTO at Smart Software.') }}
                         </p>
                     </div>
                 </div>

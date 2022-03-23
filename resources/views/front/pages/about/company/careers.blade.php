@@ -120,7 +120,7 @@
         <div class="px-1 md:px-8 lg:px-12 flex flex-col">
 
             <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-3xl md:text-4xl my-3">
-                {{ t(eers at TeamPRO') }}</h1>
+                {{ t(eers at Smart Software') }}</h1>
             <h1 class="py-3 border-gray-300 border-b text-blue-900 font-bold text-2xl md:text-3xl mt-6 mb-3">
                 {{ t(tware Development Department') }}</h1>
             <ul class="flex flex-col">
@@ -493,7 +493,7 @@
                     </div>
                     <div x-show="open" @click.away="open = false" class="flex-col mt-2 ml-28">
                         <p class="text-gray-600 my-3 lg:text-xl">
-                            TeamPRO, 700-employee IT company, is looking for Copywriting Team Lead who will manage a
+                            Smart Software, 700-employee IT company, is looking for Copywriting Team Lead who will manage a
                             team of 8-10 copywriters.
                         </p>
                         <h1 class="text-3xl mb-4 text-gray-700 font-bold">{{ t(al candidate') }}</h1>

@@ -707,7 +707,7 @@
     </div>
 
     <h1 class="text-2xl font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-        WHY TRUST YOUR DIGITAL COMMERCE SUCCESS TO TEAMPRO?
+        WHY TRUST YOUR DIGITAL COMMERCE SUCCESS TO Smart Software?
     </h1>
     <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
@@ -821,12 +821,12 @@
     </div>
 
     <h1 class="text-2xl font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-        LAUNCH YOUR MARKETPLACE PROJECT WITH TEAMPRO
+        LAUNCH YOUR MARKETPLACE PROJECT WITH Smart Software
     </h1>
     <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 
     <p class="text-lg text-gray-600 mt-6 md:text-xl lg:text-2xl">
-        At TeamPRO, we offer 17 years of experience in ecommerce consulting and development to make your marketplace
+        At Smart Software, we offer 17 years of experience in ecommerce consulting and development to make your marketplace
         business a success.
     </p>
 
@@ -930,11 +930,11 @@
     <div class="md:flex md:w-11/12 mt-20 md:ml-auto shadow-2xl">
 
         <img width="100" height="100" class="lg:-ml-12 m-auto md:-ml-6"
-             src="https://www.scnsoft.com/teampro-logos/teampro-logo-short.svg" alt="">
+             src="https://www.scnsoft.com/Smart Software-logos/Smart Software-logo-short.svg" alt="">
 
         <div class="md:w-11/12 text-center md:text-left p-2">
             <h1 class="text-2xl  md:ml-6 font-bold text-gray-800 mb-4 md:text-3xl mt-8">
-                ABOUT TEAMPRO
+                ABOUT Smart Software
             </h1>
             <div class="w-12  md:ml-6 md:bg-yellow-500 h-1 md:mb-6"></div>
             <p class="text-lg text-gray-600 mt-6 md:text-xl md:ml-6 lg:text-2xl mb-6">

@@ -218,7 +218,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        With our vast ecommerce competencies at TeamPRO, we meet diverse needs
+                        With our vast ecommerce competencies at Smart Software, we meet diverse needs
                         of ecommerce businesses comprehensively.
                     </p>
                 </div>
@@ -324,7 +324,7 @@
                     </h1>
                     <hr class="w-12 mb-4 border-b-2 border-yellow-300 border">
                     <p class="text-md md:text-lg text-gray-600 mb-4">
-                        Turn to TeamPRO’s fleet management team now, and start enjoying the
+                        Turn to Smart Software’s fleet management team now, and start enjoying the
                         operational and business benefits promised by custom fleet management software!
                     </p>
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-4 w-full md:w-72 md:text-sm uppercase">

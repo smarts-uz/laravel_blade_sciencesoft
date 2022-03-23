@@ -21,7 +21,7 @@
              alt="">
     </div>
     <h5 class="text-center text-blue-600 text-xl font-bold">Tanya Yablonskaya</h5>
-    <p class="text-lg text-gray-800 mt-1 text-center">Ecommerce Industry Analyst, TeamPRO</p>
+    <p class="text-lg text-gray-800 mt-1 text-center">Ecommerce Industry Analyst, Smart Software</p>
     <hr class="mt-7">
     <div class="md:flex  justify-end ">
         <div>
@@ -57,7 +57,7 @@
     </div>
 
     <div class=" mt-8 text-xl lg:text-2xl">
-        <p class="">At TeamPRO, we have experience of integrating online and offline sales channels (check <a
+        <p class="">At Smart Software, we have experience of integrating online and offline sales channels (check <a
                 href="#" class="underline hover:text-blue-700">this
             project </a> as an example), so we see direct business benefits of integration. Surely, the initiative
             requires
@@ -163,7 +163,7 @@
         </div>
         <div class="mt-6 md:w-6/12 ml-3">
             <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-2xl ">
-                Ecommerce Development Services by TeamPRO
+                Ecommerce Development Services by Smart Software
             </a>
             <p class="text-lg text-gray-600 mt-6 md:text-xl">
                 Are you planning to expand your business online? We will translate your ideas into intelligent and

@@ -191,7 +191,7 @@
                 <div class="w-14 h-0.5 bg-yellow-600 mt-3"></div>
             </div>
 
-            <p class=" mt-4 text-xl">At TeamPRO, we elaborate on a digital strategy based on your goals and define
+            <p class=" mt-4 text-xl">At Smart Software, we elaborate on a digital strategy based on your goals and define
                 positive business changes we intend to achieve with it.
             </p>
         </div>

@@ -454,7 +454,7 @@
 
 
         <h1 class="text-2xl font-bold text-gray-800 mb-4 mt-12 lg:text-3xl">
-            TEAMPRO’S ECOMMERCE SOLUTIONS FROM A TO Z
+            Smart Software’S ECOMMERCE SOLUTIONS FROM A TO Z
         </h1>
         <div class="w-12 bg-yellow-500 h-1 mb-6"></div>
 

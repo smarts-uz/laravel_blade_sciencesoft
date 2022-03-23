@@ -25,7 +25,7 @@
              alt="">
     </div>
     <h5 class="text-center text-blue-600 text-xl font-bold">Tanya Yablonskaya</h5>
-    <p class="text-lg text-gray-800 mt-1 text-center">Ecommerce Industry Analyst, TeamPRO</p>
+    <p class="text-lg text-gray-800 mt-1 text-center">Ecommerce Industry Analyst, Smart Software</p>
     <hr class="mt-7">
     <div class="md:flex  justify-end ">
         <div>
@@ -186,7 +186,7 @@
         </div>
         <div class="mt-6 md:w-6/12 ml-3">
             <a href="#" class="border-b border-indigo-900 hover:text-blue-600 font-bold text-2xl ">
-                Ecommerce Consulting by TeamPRO
+                Ecommerce Consulting by Smart Software
             </a>
             <p class="text-lg text-gray-600 mt-6 md:text-xl">
                 Our consultants will help to shape an optimal ecommerce solution for your business.

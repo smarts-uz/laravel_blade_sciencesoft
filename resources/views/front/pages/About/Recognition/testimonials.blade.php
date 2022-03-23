@@ -57,10 +57,10 @@
                                 app that complements our web-based platform for our patients.") }}
                             <br>{{ t("Smart Softwaredevelopers proved themselves to be Android experts.
                                 They advised and successfully lead the way from end to end through the technical
-                                challenges and considerations with development of the Android app. TeamPRO
+                                challenges and considerations with development of the Android app. Smart Software
                                 team was in daily contact with our developers and our method of communication was
                                 a huge factor in how successful this engagement was. I would also like to point out
-                                TeamPRO’s solid approach to testing. The thorough testing they performed on our
+                                Smart Software’s solid approach to testing. The thorough testing they performed on our
                                 beta environment ensured that the app was launched without critical bugs. We have
                                 also engaged them to introduce a few enhancements to the app and would certainly
                                 consider Smart Softwareas a technology partner in further software development initiatives.") }}
@@ -89,12 +89,12 @@
                 <div class="md:flex">
                     <p class="text-gray-600 leading-7">
                         <em>
-                            {{ t("We have been cooperating with Smart Softwarefor 5 years. TeamPRO's
+                            {{ t("We have been cooperating with Smart Softwarefor 5 years. Smart Software's
                                 team of five Java developers and one Test Engineer have been working hard
                                 to ensure our product - Enonic XP - exceeds our customer's expectations.
                                 The team has become an integrated part of Enonic, and we appreciate their
                                 efforts and passion for the product.") }}<br>
-                            {{ t("TeamPRO's experience in agile development ensured smooth project
+                            {{ t("Smart Software's experience in agile development ensured smooth project
                                 implementation and iterative development of Enonic XP. This enabled us to adjust
                                 to the changing market requirements and incorporate features that made us stand out
                                 from competition. As a result, Enonic XP has evolved into an easy-to-use and scalable
@@ -163,10 +163,10 @@
                             {{ t("We partnered with Smart Softwareto carry out penetration testing of our Simpli5®
                                 web-based application.") }}
                             <br>{{ t("We were under some time pressure to get penetration testing performed as quickly
-                                as possible. When I reached out TeamPRO, they were immediately responsive to my
+                                as possible. When I reached out Smart Software, they were immediately responsive to my
                                 inquiry, they provided a very competitive quote quickly, and they were able to schedule
                                 the testing shortly after our acceptance of the quote.") }}
-                            <br>{{ t("TeamPRO’s security testing team performed exceptionally well and gave us
+                            <br>{{ t("Smart Software’s security testing team performed exceptionally well and gave us
                                 confidence that our application posed no serious vulnerabilities. The collaboration
                                 was smooth and easy, and we were very pleased with selecting Smart Softwareas our vendor.") }}
                             <br>{{ t("Cooperating with Smart Softwarewas a terrific experience, and we will definitely

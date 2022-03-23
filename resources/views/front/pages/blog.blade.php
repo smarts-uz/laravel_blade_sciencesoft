@@ -41,7 +41,7 @@
                             {{ $blog->description }}
                         </p>
                         <div class="flex justify-between items-center text-blue-500 py-2 text-xs">
-                            <p>{{ t('By TeamPro') }}</p>
+                            <p>{{ t('By Smart Software') }}</p>
                             <p>{{ $blog->created_at->format('d-m-Y') }}</p>
                         </div>
                         <div class="bg-none w-full py-2 flex justify-end text-blue-500 focus:outline-none">

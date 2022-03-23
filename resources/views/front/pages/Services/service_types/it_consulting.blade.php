@@ -192,7 +192,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ t("TEAMPRO’S APPROACH TO IT CONSULTING")  }}
+        {{ t("Smart Software’S APPROACH TO IT CONSULTING")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 
@@ -226,7 +226,7 @@
               src="https://www.scnsoft.com/it-consulting/it-consulting-upd/nikolay-kurayev.png" alt="">
           </div>
           <div class=" flex flex-col w-3/5">
-            <h1 class="text-2xl md:text-3xl font-bold">{{ t("Nikolay Kurayev, CEO at TeamPRO")  }} </h1>
+            <h1 class="text-2xl md:text-3xl font-bold">{{ t("Nikolay Kurayev, CEO at Smart Software")  }} </h1>
             <hr class="w-12 border-yellow-600 text-gray-800 my-4">
             <div class="text-xl">
               <p class="my-10">
@@ -365,7 +365,7 @@
 
 
       <div class="text-2xl md:text-3xl font-bold">
-        {{ t("BENEFITS OF IT CONSULTING WITH TEAMPRO")  }}
+        {{ t("BENEFITS OF IT CONSULTING WITH Smart Software")  }}
         <hr class="border-t-2 w-12 border-yellow-600 mt-4 mb-4">
       </div>
 

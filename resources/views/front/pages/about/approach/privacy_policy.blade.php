@@ -16,7 +16,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHO WE ARE') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-5 text-lg text-gray-500">
-            {{ t('We are TeamPRO, a US-headquartered provider of custom software development and IT consulting services with 550 IT professionals located internationally. As you read this document, you are currently visiting our website, which is a digital face of our company. We are strongly committed to deliver you great experience while you are surfing our website, to share the materials you might be interested in, to promptly clarify any questions that might pop up and to ensure uninterrupted functioning of the website so that you don’t feel annoyed. This won’t be possible without your kind assistance, which you render by sharing your personal data with us. At the same time, we understand that personal data is an extremely sensitive matter and we take your privacy very seriously. To avoid making you feel uneasy in this regard, we’ve developed this privacy policy, which dwells on every little detail that refers to our work with your personal data.') }}
+            {{ t('We are Smart Software, a US-headquartered provider of custom software development and IT consulting services with 550 IT professionals located internationally. As you read this document, you are currently visiting our website, which is a digital face of our company. We are strongly committed to deliver you great experience while you are surfing our website, to share the materials you might be interested in, to promptly clarify any questions that might pop up and to ensure uninterrupted functioning of the website so that you don’t feel annoyed. This won’t be possible without your kind assistance, which you render by sharing your personal data with us. At the same time, we understand that personal data is an extremely sensitive matter and we take your privacy very seriously. To avoid making you feel uneasy in this regard, we’ve developed this privacy policy, which dwells on every little detail that refers to our work with your personal data.') }}
         </p>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHAT PERSONAL DATA WE COLLECT') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
@@ -76,7 +76,7 @@
             </li>
             <li class="py-2 text-lg ">
                 <p class="text-gray-500">
-                    {{ t('Troubleshooting and Help Data. In case Smart Softwareis engaged in troubleshooting and help, we collect data about you and your hardware, software, and other details related to the incident. Such data includes the contact data, the content of your chats and other communications with TeamPRO, the data about the condition of the machine and the application when the fault occurred and during diagnostics, and the system and registry data about software installations and hardware configurations.') }}
+                    {{ t('Troubleshooting and Help Data. In case Smart Softwareis engaged in troubleshooting and help, we collect data about you and your hardware, software, and other details related to the incident. Such data includes the contact data, the content of your chats and other communications with Smart Software, the data about the condition of the machine and the application when the fault occurred and during diagnostics, and the system and registry data about software installations and hardware configurations.') }}
                 </p>
             </li>
         </ul>
@@ -106,7 +106,7 @@
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHY WE SHARE PERSONAL DATA') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('We share personal data with our Development Center, a TeamPRO-controlled affiliate, located at 2 Biady str., Minsk, Belarus. Our Development Center must abide by our data privacy and security requirements and is not allowed to use personal data it receives from us for any purposes other than specified above. To ensure an adequate level of protection of personal data you share, all obligations of the Development Center are established in an agreement between Smart Softwareand the Development Center.') }}
+            {{ t('We share personal data with our Development Center, a Smart Software-controlled affiliate, located at 2 Biady str., Minsk, Belarus. Our Development Center must abide by our data privacy and security requirements and is not allowed to use personal data it receives from us for any purposes other than specified above. To ensure an adequate level of protection of personal data you share, all obligations of the Development Center are established in an agreement between Smart Softwareand the Development Center.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
             {{ t('We will access, transfer, disclose, and preserve personal data, when we have a good faith belief that doing so is necessary to:') }}
@@ -124,7 +124,7 @@
             </li>
             <li class="py-2 text-lg ">
                 <p class="text-gray-500">
-                    {{ t('Protect the rights of TeamPRO, including enforcing the terms governing the use of the services.') }}
+                    {{ t('Protect the rights of Smart Software, including enforcing the terms governing the use of the services.') }}
                 </p>
             </li>
         </ul>
@@ -132,7 +132,7 @@
             {{ t('If third-party agents process personal data on our behalf in a manner inconsistent with the principles contained herein, we remain liable unless we prove we are not responsible for the event giving rise to the damage.') }}
         </p>
         <p class="py-3 text-lg text-gray-500">
-            {{ t('Please, note that some of our website pages include links to products of third parties whose privacy practices may differ from those of TeamPRO. If you provide personal data to any of those parties, your data is governed by their privacy statements.') }}
+            {{ t('Please, note that some of our website pages include links to products of third parties whose privacy practices may differ from those of Smart Software. If you provide personal data to any of those parties, your data is governed by their privacy statements.') }}
         </p>
         <h1 class="text-4xl font-medium pb-3 text-gray-800">{{ t('WHAT RIGHTS YOU HAVE') }}</h1>
         <div class="w-10 h-0.5 bg-yellow-600"></div>

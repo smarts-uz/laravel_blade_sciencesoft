@@ -29,7 +29,7 @@
           <a href="#"><li class="mt-4">{{ t("Management Team") }}</li></a>
           <a href="/about/careers"><li class="mt-4">{{ t("Careers") }}</li></a>
           <a href="/partnerships"><li class="mt-4">{{ t("Partnerships") }}</li></a>
-          <a href="/TeamPRO-Referral-Program"><li class="mt-4">{{ t("Smart SoftwareReferral Program") }}</li></a>
+          <a href="/Smart Software-Referral-Program"><li class="mt-4">{{ t("Smart SoftwareReferral Program") }}</li></a>
           <a href="/our-locations"><li class="mt-4">{{ t("Our Locations") }}</li></a>
           <h1 class="mb-2 mt-2 font-extrabold">{{ t("Approach") }}</h1>
           <hr class="border-b-2 w-12 border-yellow-500">
@@ -152,7 +152,7 @@
                 <a href="/management-Team"><li class="mt-4 text-black hover:text-blue-700">{{ t("Management Team") }}</li></a>
                 <a href="/about/careers"><li class="mt-4 text-black hover:text-blue-700">{{ t("Careers") }}</li></a>
                 <a href="/partnerships"><li class="mt-4 text-black hover:text-blue-700">{{ t("Partnerships") }}</li></a>
-                <a href="/TeamPRO-Referral-Program"><li class="mt-4 text-black hover:text-blue-700">{{ t("Smart SoftwareReferral Program") }}</li></a>
+                <a href="/Smart Software-Referral-Program"><li class="mt-4 text-black hover:text-blue-700">{{ t("Smart SoftwareReferral Program") }}</li></a>
                 <a href="/our-locations"><li class="mt-4 text-black hover:text-blue-700">{{ t("Our Locations") }}</li></a>
               </ul>
               </div>

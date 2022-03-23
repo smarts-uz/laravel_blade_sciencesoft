@@ -19,7 +19,7 @@
                 {{ t('is a programming language with powerful tools for web, mobile and desktop development. It is supported by the robust Microsoft ecosystem and allows building applications suitable for any device and platform.') }}
             </p>
             <p class="my-5 text-lg">
-                {{ t('Taking advantage of Microsoft technologies, TeamPRO’s developers deliver fast, scalable, and reliable .NET-based applications. Our team can supplement the developed solutions with trending cloud services, ensure engaging and highly interactive JavaScript SPA user experience and easy integration through an enterprise service bus.') }}
+                {{ t('Taking advantage of Microsoft technologies, Smart Software’s developers deliver fast, scalable, and reliable .NET-based applications. Our team can supplement the developed solutions with trending cloud services, ensure engaging and highly interactive JavaScript SPA user experience and easy integration through an enterprise service bus.') }}
             </p>
 
         </div>
@@ -211,7 +211,7 @@
         <!-- STREAMLINE YOUR .NET DEVELOPMENT WITH Smart Software-->
         <div>
             <h1 class="uppercase font-bold mt-10 text-xl md:text-3xl">
-                {{ t('STREAMLINE YOUR .NET DEVELOPMENT WITH TEAMPRO') }}
+                {{ t('STREAMLINE YOUR .NET DEVELOPMENT WITH Smart Software') }}
             </h1>
             <hr class="w-12 my-5 bg-yellow-400 h-0.5" />
             <h3 class="font-bold text-xl my-5">{{ t('We keep our code short and clean…') }}</h3>
@@ -259,7 +259,7 @@
                     <p class='text-2xl font-bold'>{{ t('Eager to Use .NET in Your Future Project?') }}</p>
                     <hr class="h-0.5 w-12 bg-yellow-600 mt-4 mb-4">
                 </h1>
-                <p class='text-gray-600 text-xl'>{{ t('Let’s see what TeamPRO’s team can do for you.') }}</p>
+                <p class='text-gray-600 text-xl'>{{ t('Let’s see what Smart Software’s team can do for you.') }}</p>
             </div>
             <div class='md:w-1/3 w-full m-0 flex justify-center mt-5 md:mt-0 items-center'>
                 <a href="#"

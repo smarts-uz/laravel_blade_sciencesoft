@@ -247,7 +247,7 @@
                 <h1 class="text-xl font-bold">{{ t('Take the First Step to Test Process Improvement') }}
                 </h1>
                 <hr class="border-t-2 w-12 border-yellow-600 my-2">
-                <p>TeamPRO’s QA team will help you stay ahead of the competition with quality software released on
+                <p>Smart Software’s QA team will help you stay ahead of the competition with quality software released on
                     time.</p>
             </div>
             <a class="px-10 py-3 bg-blue-500 text-white font-bold rounded" href="#">Start Testing Now</a>
@@ -345,7 +345,7 @@
                 <h1 class="text-xl font-bold">
                     {{ t('Enjoy Quality at Speed While We Handle Software Testing') }}</h1>
                 <hr class="border-t-2 w-12 border-yellow-600 my-2">
-                <p>TeamPRO’s QA team will help you jump-start your releases and minimize the number of defects in
+                <p>Smart Software’s QA team will help you jump-start your releases and minimize the number of defects in
                     production.</p>
             </div>
             <a class="px-10 py-3 bg-blue-500 text-white font-bold rounded" href="#">Start Testing</a>

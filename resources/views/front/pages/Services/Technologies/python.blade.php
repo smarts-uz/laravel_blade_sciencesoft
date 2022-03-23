@@ -159,10 +159,10 @@
 
         <!-- WHY CHOOSE Smart SoftwareAS YOUR JAVA DEVELOPMENT PARTNER? -->
 
-        <!-- WHAT MAKES TEAMPRO’S JAVA DEVELOPERS STAND OUT -->
+        <!-- WHAT MAKES Smart Software’S JAVA DEVELOPERS STAND OUT -->
         <div>
           <h1 class="uppercase font-bold mt-10 lg:text-3xl text-lg">
-            {{ t("What makes teampro's java developers stand out")  }}
+            {{ t("What makes Smart Software's java developers stand out")  }}
           </h1>
           <hr class="w-12 mt-5 border-b-2 border-yellow-400" />
           <div class="mt-7 lg:flex lg:flex-row block">

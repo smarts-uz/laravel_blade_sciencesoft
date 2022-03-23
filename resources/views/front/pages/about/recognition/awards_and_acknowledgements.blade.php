@@ -9,12 +9,12 @@
     <div>
         <div>
             <div class="my-4">
-                <h1 class="uppercase font-extrabold text-3xl pb-4">{{ t('TeamPRO’s Awards and Recognitions') }}
+                <h1 class="uppercase font-extrabold text-3xl pb-4">{{ t('Smart Software’s Awards and Recognitions') }}
                 </h1>
                 <hr class="w-10 h-1 bg-yellow-600">
             </div>
             <div>
-                <img src="https://www.scnsoft.com/about/awards-recognitions/awards-and-recognitions-teampro-01.svg" alt="">
+                <img src="https://www.scnsoft.com/about/awards-recognitions/awards-and-recognitions-Smart Software-01.svg" alt="">
             </div>
 
             <div class="text-lg my-10">
